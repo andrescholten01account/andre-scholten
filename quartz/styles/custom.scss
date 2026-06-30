@@ -1,3 +1,9 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+a {
+  background-color: transparent !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
