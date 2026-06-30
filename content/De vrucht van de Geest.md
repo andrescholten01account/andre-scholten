@@ -9,7 +9,7 @@ Ik denk dat dit de dingen zijn die je in je christelijke leven wilt. Dit is toch
 
 Het is een vrucht. Iets wat de Heilige Geest in je leven doet. Waarom heeft de ene christen hier dan meer van dan de ander? Komt het omdat de één dichter bij God leeft dan de ander? Of dat de één zich bewust bezig houdt met de vervulling van de Heilige Geest en de ander niet?
 
-Dit zijn van die dingen die ik op dit moment nog niet zo goed weet. Ik heb wel het idee dat, sinds ik mij meer bezig houdt met de vervulling van de Heilige Geest, ik meer vervuld ben van de Heilige Geest. Ik merk meer kracht in mijn leven. Ik ben minder vermoeid omdat ik het in eigen kracht probeer te doen. Maar dit is nog een uitzoeken van mijn kant. 
+Dit zijn van die dingen die ik op dit moment nog niet zo goed weet. Ik heb wel het idee dat, sinds ik mij meer bezig houdt met de vervulling van de Heilige Geest, ik meer vervuld ben van de Heilige Geest. Ik merk meer kracht in mijn leven. Ik ben minder vermoeid, omdat ik het minder in eigen kracht, en meer door de Geest probeer te doen. Maar ik vind dit allemaal nog lastig. Dit is nog een uitzoeken van mijn kant. 
 
 Het is nu nog een rommelig proces. Ik weet het gewoon niet. Ik weet (nog?) niet hoe het zit met de vervulling van de Heilige Geest. 
 
