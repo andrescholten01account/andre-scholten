@@ -1,3 +1,6 @@
+---
+title: Home
+---
 pinksterzegen.nl
 https://andrescholten01account.github.io/pinksterzegen/ ➔ tijdelijk
 
