@@ -2,8 +2,13 @@
 
 // put your custom CSS here!
 
-a {
+a:not(.page-title a) {
   background-color: transparent !important;
   text-decoration: underline !important;
   text-underline-offset: 3px;
+}
+
+.page-title a {
+  background-color: transparent !important;
+  text-decoration: none !important;
 }
