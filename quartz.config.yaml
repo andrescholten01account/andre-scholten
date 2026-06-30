@@ -178,7 +178,7 @@ plugins:
       position: left
       priority: 35
   - source: github:quartz-community/breadcrumbs
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5
