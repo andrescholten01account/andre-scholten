@@ -23,30 +23,3 @@ hr {
   width: 100%;
 }
 
-// Ondertitel: eerste alinea op de homepage
-body[data-slug="index"] .center article p:first-of-type {
-  font-style: italic;
-  font-size: 1.15em;
-  color: var(--secondary);
-  letter-spacing: 0.04em;
-  margin: 0.5rem 0 2rem;
-  text-align: center;
-}
-
-// Navigatiemenu: tweede alinea met links
-body[data-slug="index"] .center article p:nth-of-type(2) {
-  font-size: 0.85em;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  margin-bottom: 2.5rem;
-  text-align: center;
-
-  a {
-    text-decoration: none !important;
-    font-weight: 500;
-
-    &:hover {
-      text-decoration: underline !important;
-    }
-  }
-}

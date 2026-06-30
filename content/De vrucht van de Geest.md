@@ -1,9 +1,9 @@
 >De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
 >~ Galaten 5:22
 
-Dit is een hele belangrijke tekst als het gaat om de Heilige Geest. Als je gevuld bent met de Heilige Geest, dan zijn dit de dingen die je in je leven gaat zien. Is dit ook waar? Als je deze dingen *niet* ziet in je leven, dan ben je niet vervuld met de Heilige Geest? 
+Dit is een hele belangrijke tekst als het gaat om de Heilige Geest. Als je gevuld bent met de Heilige Geest, dan zijn dit de dingen die je in je leven gaat zien. Is het volgende ook waar? Als je deze dingen *niet* ziet in je leven, ben je dan niet vervuld met de Heilige Geest? 
 
-Misschien wel. 
+Misschien klopt het. 
 
 Ik denk dat dit de dingen zijn die je in je christelijke leven wilt. Dit is toch hoe je met andere mensen om wilt gaan? Dit hoort toch je houding tegenover God en andere mensen te zijn? 
 
