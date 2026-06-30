@@ -73,10 +73,18 @@ h1 {
   color: var(--gray);
 }
 
-// Mobiel: iets meer ruimte
+// Mobiel: meer ruimte en iets groter lettertype
 @media (max-width: 800px) {
   .page > #quartz-body {
-    padding: 0 1.4rem !important;
+    padding: 0 1.8rem !important;
+  }
+
+  body {
+    font-size: 1.08rem;
+  }
+
+  p, li {
+    line-height: 1.8rem;
   }
 }
 
