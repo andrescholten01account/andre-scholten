@@ -1,9 +1,6 @@
 ---
 title: Home
 ---
-pinksterzegen.nl
-https://andrescholten01account.github.io/pinksterzegen/ ➔ tijdelijk
-
 Jezus volgen in de kracht van de Geest 
 
 [[Blog]] | [[De Volle Pinksterzegen - boek|Boek]] | [[Bijbel]] | [[Bibliotheek]]
