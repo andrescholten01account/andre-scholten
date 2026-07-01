@@ -92,7 +92,7 @@ Dit:
 
 2 - Vertalen met Opus
 
-3 - Instructies zijn: 00-afspraken
+3 - Instructies zijn: [[00-afspraken]]
 
 %%
 
