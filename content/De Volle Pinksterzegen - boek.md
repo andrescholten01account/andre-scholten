@@ -1,7 +1,3 @@
-Vertaaltest: [[Test]]
-
----
-
 >Wie in Mij gelooft, zoals de Schrift zegt: Stromen van levend water zullen uit zijn binnenste vloeien.
 >~ Johannes 7:38 
 
@@ -81,4 +77,22 @@ XII. Hoe alles ervoor opgegeven moet worden
 ## XI. Hoe iedereen het kan vinden
 
 ## XII. Hoe alles ervoor opgegeven moet worden
+
+---
+
+Vertaaltest: [[Test]]
+
+---
+
+%%
+
+Dit: 
+
+1 - Met Sonnet de epub om laten zetten in tekst
+
+2 - Vertalen met Opus
+
+3 - Instructies zijn: 00-afspraken
+
+%%
 
