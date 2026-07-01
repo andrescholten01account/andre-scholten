@@ -15,7 +15,12 @@ Als christen wil ik Jezus trouw volgen. Ik heb ontdekt hoe onmogelijk dat is in 
 
 %%
 
+[[Blog]] | [[De Volle Pinksterzegen - boek|Boek]] | [[Bijbel]] 
+
 [[Bibliotheek]]
+
+[[Liefde en blijdschap, ondanks moeilijkheden]]
+02-07-2026
 
 %%
 
