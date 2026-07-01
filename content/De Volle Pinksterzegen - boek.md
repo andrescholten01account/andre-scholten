@@ -92,7 +92,17 @@ Dit:
 
 2 - Vertalen met Opus
 
-3 - Instructies zijn: [[00-afspraken]]
+3 - Instructies zijn: [[00-afspraken]] (laten s)
+
+Verschillende formats
+https://archive.org/details/fullblessingpent00murruoft/page/n9/mode/2up
+https://dn721903.ca.archive.org/0/items/fullblessingpent00murruoft/
+
+Audio
+https://librivox.org/the-full-blessing-of-pentecost-by-andrew-murray/
+https://archive.org/details/fullblessing_pentecost_1412_librivox
+
+
 
 %%
 

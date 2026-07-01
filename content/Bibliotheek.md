@@ -23,13 +23,3 @@ https://www.youtube.com/watch?v=dIjWUb-gqJc
 
 ---
 
-Full Blessing of Pentecost
-
-Verschillende formats
-https://archive.org/details/fullblessingpent00murruoft/page/n9/mode/2up
-https://dn721903.ca.archive.org/0/items/fullblessingpent00murruoft/
-
-Audio
-https://librivox.org/the-full-blessing-of-pentecost-by-andrew-murray/
-https://archive.org/details/fullblessing_pentecost_1412_librivox
-
