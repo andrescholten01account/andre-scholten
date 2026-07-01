@@ -21,3 +21,10 @@ https://www.youtube.com/watch?v=9dW9As_7pIQ
 Stop met wachten op herleving - begin er elke dag naar te leven 
 https://www.youtube.com/watch?v=dIjWUb-gqJc
 
+---
+
+Full Blessing of Pentecost
+
+Verschillende formats
+https://dn721903.ca.archive.org/0/items/fullblessingpent00murruoft/
+
