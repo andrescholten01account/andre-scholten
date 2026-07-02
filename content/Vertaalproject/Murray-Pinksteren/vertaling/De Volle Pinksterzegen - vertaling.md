@@ -1607,3 +1607,4 @@ Parallelvertaling van "The Full Blessing of Pentecost" (Andrew Murray, 1908). Ve
 ---
 
 **Vertaling compleet.** Inleiding + alle 12 hoofdstukken staan nu in dit bestand, volgens het paralleltabel-format uit [[00-afspraken]]. Klaar om na te kijken, te beginnen bij de Inleiding.
+
