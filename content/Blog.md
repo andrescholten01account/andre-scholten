@@ -1,3 +1,6 @@
+[[Liefde en blijdschap, ondanks moeilijkheden]]
+02-07-2026
+
 [[De vrucht van de Geest]]
 30-06-2026
 
