@@ -2,7 +2,7 @@
 
 // put your custom CSS here!
 
-a:not(.page-title a):not(.site-nav a) {
+a:not(.page-title a):not(.site-nav a):not(.site-subnav a) {
   background-color: transparent !important;
   text-decoration: underline !important;
   text-underline-offset: 3px;
@@ -77,10 +77,9 @@ h1 {
   font-size: 0.82em;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  border-top: 1px solid var(--lightgray);
   border-bottom: 1px solid var(--lightgray);
   padding: 1rem 0;
-  margin-top: -1rem;
+  margin-top: -2rem;
   margin-bottom: 2rem;
 }
 
