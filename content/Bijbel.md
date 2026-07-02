@@ -1,4 +1,14 @@
-Vrucht van de Geest: Gal. 5:22
+## Vrucht van de Geest
+
+De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
+~ Galaten 5:22 
+
+## Kracht van de Geest
+
+maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u zult Mijn getuigen zijn, zowel in Jeruzalem als in heel Judea en Samaria en tot aan het uiterste van de aarde.
+~ Handelingen 1:8 
+
+
 Blijdschap van de Geest
 Liefde van de Geest uitgestort in onze harten
 Hoe Heilige Geest ontvangen?
