@@ -2,7 +2,7 @@
 
 // put your custom CSS here!
 
-a:not(.page-title a):not(.site-nav a):not(.site-subnav a) {
+a:not(.page-title a):not(.site-nav a) {
   background-color: transparent !important;
   text-decoration: underline !important;
   text-underline-offset: 3px;
@@ -71,26 +71,6 @@ h1 {
 
 .nav-sep {
   color: var(--gray);
-}
-
-.site-subnav {
-  font-size: 0.82em;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  border-bottom: 1px solid var(--lightgray);
-  padding: 1rem 0;
-  margin-top: -2rem;
-  margin-bottom: 2rem;
-}
-
-.site-subnav a {
-  text-decoration: none !important;
-  font-weight: 500;
-  background: transparent !important;
-}
-
-.site-subnav a:hover {
-  text-decoration: underline !important;
 }
 
 // Mobiel: meer ruimte en iets groter lettertype
