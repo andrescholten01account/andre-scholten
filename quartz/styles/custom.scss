@@ -74,20 +74,24 @@ h1 {
 }
 
 .site-subnav {
-  font-size: 0.78em;
+  font-size: 0.82em;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  margin: 0.6rem 0 0;
+  border-top: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightgray);
+  padding: 1rem 0;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
 
-  a {
-    text-decoration: none !important;
-    font-weight: 500;
-    background: transparent !important;
-  }
+.site-subnav a {
+  text-decoration: none !important;
+  font-weight: 500;
+  background: transparent !important;
+}
 
-  a:hover {
-    text-decoration: underline !important;
-  }
+.site-subnav a:hover {
+  text-decoration: underline !important;
 }
 
 // Mobiel: meer ruimte en iets groter lettertype
