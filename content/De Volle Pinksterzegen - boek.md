@@ -100,5 +100,7 @@ Audio
 https://librivox.org/the-full-blessing-of-pentecost-by-andrew-murray/
 https://archive.org/details/fullblessing_pentecost_1412_librivox
 
+[[De Volle Pinksterzegen - vertaling]]
+
 %%
 
