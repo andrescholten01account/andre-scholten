@@ -4,5 +4,5 @@ Wat zegt God in Zijn Woord over bepaalde onderwerpen? [[De Bijbel op onderwerp]]
 
 ## StudieBijbel
 
-[[Bijbel met studiehulpen]]: Schrift met Schrift vergelijken. Raadpleeg de Treasury of Scripture Knowledge, Nave Topical Bible, Torrey Topical Textbook. 
+In deze [[StudieBijbel]] kun je Schrift met Schrift vergelijken. Raadpleeg de Treasury of Scripture Knowledge, Nave Topical Bible, Torrey Topical Textbook. 
 
