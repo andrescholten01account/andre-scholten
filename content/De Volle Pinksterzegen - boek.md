@@ -78,13 +78,9 @@ XII. Hoe alles ervoor opgegeven moet worden
 
 ## XII. Hoe alles ervoor opgegeven moet worden
 
----
-
-Vertaaltest: [[Test]]
-
----
-
 %%
+
+Er is een map aangemaakt dat Vertaalproject heet. Dit is gekoppeld aan Claude Code (persoonlijk)
 
 Dit: 
 
@@ -92,7 +88,9 @@ Dit:
 
 2 - Vertalen met Opus
 
-3 - Instructies zijn: [[00-afspraken]] (laten s)
+3 - Instructies zijn: [[00-afspraken]] (laten staan)
+
+4 - Vertaaltest: [[Test]]
 
 Verschillende formats
 https://archive.org/details/fullblessingpent00murruoft/page/n9/mode/2up
@@ -101,8 +99,6 @@ https://dn721903.ca.archive.org/0/items/fullblessingpent00murruoft/
 Audio
 https://librivox.org/the-full-blessing-of-pentecost-by-andrew-murray/
 https://archive.org/details/fullblessing_pentecost_1412_librivox
-
-
 
 %%
 
