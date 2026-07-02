@@ -14,6 +14,10 @@ maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u
 Want ik durf het niet aan iets te zeggen wat Christus niet door mij teweeggebracht heeft, om de heidenen tot gehoorzaamheid *te brengen*, in woord en daad, door *de* kracht van tekenen en wonderen *en* door de kracht van de Geest van God. Zo heb ik dan van Jeruzalem af en rondom, tot Illyricum toe, het Evangelie van Christus vervuld.
 ~ Romeinen 15:18-19 
 
+%%
+[Meer teksten over de kracht van de Geest](https://www.google.com/search?client=firefox-b-d&q=Bijbeltekst%3A+Jezus+kwam+in+kracht+terug+uit+de+woestijn&udm=50&aep=10&ntc=1&mstk=AUtExfDyr9hvOV_uU4P5dyH7QccqoH79uPn68X11q-Y3spCdh7j7cspudSHmMA4buTsOcOpwYfm4q9y40aoPqrOrf742biCRt3xYaTocBBBwUGgX4Zswd7NtEroIhDdD1jY7b5iCZdmebx0eC8vT7x-rOw0irXazFxPHMheGXGFfFaSjYe96zHbvf2OIRWqX8_i4zvPoKRQmolMcKaExGOTJLVrHamWJ-i4Lm4s-rPutiM7OnD73n4qET1-60w&aioh=3&csuir=1&mtid=d21Gap-2CZyD9u8P1-PhmAw)
+%%
+
 Blijdschap van de Geest
 Liefde van de Geest uitgestort in onze harten
 Hoe Heilige Geest ontvangen?
