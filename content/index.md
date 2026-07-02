@@ -18,6 +18,10 @@ Als christen wil ik Jezus trouw volgen. Ik heb ontdekt hoe onmogelijk dat is in 
 [[Start blog]] 
 29-06-2026
 
+## Snellink
+
+- [[Heilige Geest]]
+
 ---
 
 %%
