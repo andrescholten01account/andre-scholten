@@ -25,6 +25,9 @@ Dit bestand is het geheugen van het project. Plak het aan het begin van elke nie
 ## Stijlregels
 
 - Vloeiend, natuurlijk Nederlands. Vermijd de Engelse zinsbouw (lange bijzinnen vooraan) en plechtige constructies ("koester ik de hoop", "behoort toe te komen"). Kies gewone hoofdzinnen en nuchtere werkwoorden ("God wil dat" i.p.v. "het is de wil van God dat").
+- Herschik altijd zodat de hoofdgedachte vooropstaat; laat bijzinnen volgen, nooit voorafgaan (ook al doet het Engels dat wel). Splits samengestelde volzinnen desnoods met een gedachtestreepje of dubbele punt, zolang de zin-voor-zin nummering behouden blijft.
+- Actief en direct boven lijdend en omslachtig: "schreef ik" i.p.v. "werd ik ertoe gebracht te schrijven".
+- Duur aangeduid met "al" (Engels: "has/have been ... for"): Nederlandse tegenwoordige tijd ("viert al veertig jaar"), niet de voltooid tegenwoordige tijd.
 - Betekenisgetrouw, niet woord-voor-woord, maar ook niet vrij.
 - Alleen gewone koppeltekens (-), nooit lange streepjes.
 - Bijbelcitaten die Murray in de tekst aanhaalt: invoegen uit de HSV (herzienestatenvertaling.nl), niet het Engels letterlijk vertalen. Markeer waar dit speelt.
