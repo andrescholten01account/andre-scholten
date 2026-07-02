@@ -5,9 +5,14 @@ De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijk
 
 ## Kracht van de Geest
 
+En Jezus keerde door de kracht van de Geest terug naar Galilea, en het gerucht over Hem verspreidde zich door heel de omgeving.
+~ Lukas 4:14
+
 maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u zult Mijn getuigen zijn, zowel in Jeruzalem als in heel Judea en Samaria en tot aan het uiterste van de aarde.
 ~ Handelingen 1:8 
 
+Want ik durf het niet aan iets te zeggen wat Christus niet door mij teweeggebracht heeft, om de heidenen tot gehoorzaamheid *te brengen*, in woord en daad, door *de* kracht van tekenen en wonderen *en* door de kracht van de Geest van God. Zo heb ik dan van Jeruzalem af en rondom, tot Illyricum toe, het Evangelie van Christus vervuld.
+~ Romeinen 15:18-19 
 
 Blijdschap van de Geest
 Liefde van de Geest uitgestort in onze harten
