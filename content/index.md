@@ -5,7 +5,7 @@ Als christen wil ik Jezus trouw volgen. Ik heb ontdekt hoe onmogelijk dat is in 
 
 ## Blog
 
-[[Liefde en blijdschap, ondanks moeilijkheden]]
+[[Liefde en blijdschap. Ondanks moeilijkheden]]
 02-07-2026
 
 [[De vrucht van de Geest]]
@@ -22,7 +22,7 @@ Als christen wil ik Jezus trouw volgen. Ik heb ontdekt hoe onmogelijk dat is in 
 
 [[Bibliotheek]]
 
-[[111]]
+[[Je kinderen opvoeden. Wees daarom vervuld met de Geest]]
 
 %%
 

@@ -11,7 +11,9 @@ Hoe dan wel met onze kinderen omgaan? Van ze houden. Ze liefhebben. Goed voor ze
 
 We lezen verder: "maar voed hen op in de onderwijzing en de terechtwijzing van de Heere." Dus bepaalde slechte dingen moeten we niet doen. Maar wel goede dingen. Zoals dit. Ze onderwijzen over Jezus. Ze vertellen over Jezus. Ze vertellen hoe ze gered kunnen worden. Dat ze Gods geboden overtreden hebben en dat Jezus voor hun overtredingen aan het kruis gestorven is. Dat God zoveel van hen houdt dan Jezus voor hen aan het kruis gestorven is. Dat ze zich zullen bekeren omdat God dit wil. Dat Jezus terugkomt om te oordelen. Vertellen over een hemel en een hel. Over een nieuwe hemel en een nieuwe aarde, en een poel van vuur. 
 
-En als we ze terechtwijzen. Dat dit gebeurd op een manier zoals Jezus dit wil. Dus ja: wel terechtwijzen. En: op een manier zoals Jezus dit wil. 
+En als we ze terechtwijzen. Dat dit gebeurd op een manier zoals Jezus dit wil. Dus ja: wel terechtwijzen. En: op een manier zoals Jezus dit wil. Op een liefdevolle, en rechtvaardige manier. 
 
+En dan hierbij weer de vraag: hoe dan? Ik erken steeds vaker mijn onmacht hierin. Wat een zegen is het dat God hierin bij ons wil zijn. Dat God ons Zijn Heilige Geest heeft gestuurd om ons te helpen. God bewerkt het willen en het werken. 
 
+Waarom zoeken naar de vervulling van de Heilige Geest? Om Jezus te dienen. Om een goede vader voor onze kinderen te zijn. Om ze te onderwijzen over Jezus. Om zelf gevormd te worden, zodat ze in ons zien wie Jezus is. 
 
