@@ -73,6 +73,23 @@ h1 {
   color: var(--gray);
 }
 
+.site-subnav {
+  font-size: 0.78em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0.6rem 0 0;
+
+  a {
+    text-decoration: none !important;
+    font-weight: 500;
+    background: transparent !important;
+  }
+
+  a:hover {
+    text-decoration: underline !important;
+  }
+}
+
 // Mobiel: meer ruimte en iets groter lettertype
 @media (max-width: 800px) {
   .page > #quartz-body {
