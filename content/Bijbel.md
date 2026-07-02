@@ -1,6 +1,6 @@
-## De Bijbel over de Heilige Geest
+## De Bijbel op onderwerp
 
-[[Bijbelteksten over de Heilige Geest]], gesorteerd op onderwerp. Kijk wat God zelf zegt in Zijn Woord. 
+Wat zegt God in Zijn Woord over bepaalde onderwerpen? [[De Bijbel op onderwerp]] zet Bijbelteksten op een rij, zodat je zelf kunt ontdekken wat er in de Bijbel staat. 
 
 ## StudieBijbel
 
