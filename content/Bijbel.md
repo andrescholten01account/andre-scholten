@@ -1,59 +1,8 @@
-## Vrucht van de Geest
+## De Bijbel over de Heilige Geest
 
-De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
-~ Galaten 5:22 
+[[Bijbelteksten over de Heilige Geest]], gesorteerd op onderwerp. Kijk wat God zelf zegt in Zijn Woord. 
 
-## Kracht van de Geest
+## StudieBijbel
 
-En Jezus keerde door de kracht van de Geest terug naar Galilea, en het gerucht over Hem verspreidde zich door heel de omgeving.
-~ Lukas 4:14
-
-maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u zult Mijn getuigen zijn, zowel in Jeruzalem als in heel Judea en Samaria en tot aan het uiterste van de aarde.
-~ Handelingen 1:8 
-
-Want ik durf het niet aan iets te zeggen wat Christus niet door mij teweeggebracht heeft, om de heidenen tot gehoorzaamheid *te brengen*, in woord en daad, door *de* kracht van tekenen en wonderen *en* door de kracht van de Geest van God. Zo heb ik dan van Jeruzalem af en rondom, tot Illyricum toe, het Evangelie van Christus vervuld.
-~ Romeinen 15:18-19 
-
-%%
-[Meer teksten over de kracht van de Geest](https://www.google.com/search?client=firefox-b-d&q=Bijbeltekst%3A+Jezus+kwam+in+kracht+terug+uit+de+woestijn&udm=50&aep=10&ntc=1&mstk=AUtExfDyr9hvOV_uU4P5dyH7QccqoH79uPn68X11q-Y3spCdh7j7cspudSHmMA4buTsOcOpwYfm4q9y40aoPqrOrf742biCRt3xYaTocBBBwUGgX4Zswd7NtEroIhDdD1jY7b5iCZdmebx0eC8vT7x-rOw0irXazFxPHMheGXGFfFaSjYe96zHbvf2OIRWqX8_i4zvPoKRQmolMcKaExGOTJLVrHamWJ-i4Lm4s-rPutiM7OnD73n4qET1-60w&aioh=3&csuir=1&mtid=d21Gap-2CZyD9u8P1-PhmAw)
-%%
-
-Blijdschap van de Geest
-Liefde van de Geest uitgestort in onze harten
-Hoe Heilige Geest ontvangen?
-➔ Bidden (bid en u zult ontvangen)
-➔ Handoplegging
-➔ Zonder actie van mens (Heilige Geest valt op hen ➔ spreken in tongen)
-Bijbelteksten:
-➔ Vervuld met de Geest
-➔ Vervulling met de Geest
-➔ Vol van de Geest
-
-De Geest spreekt
-De Geest denkt 
-De Geest voelt (bedroeven)
-De Geest heeft een wil
-Schepper (psalmen?, Gen. 1:2)
-
-Heeft Jezus opgewekt uit de dood (Rom. 1)
-Doet opnieuw geboren worden
-Overtuigd van zonde
-Drijft profeten om te spreken
-Gaven van de Geest
-Geeft wijsheid (bij bouw tabernakel)
-geeft kracht (Hand. 1:8)
-Kun je doven 
-De Geest als duif
-Jezus doopt met de Geest
-Bijbelteksten dopen met de Geest / in de Geest
-Nodigt zondaars uit tot eeuwig leven (Openb. 22)
-Jezus in de kracht van de Geest (uit de woestijn)
-
-Sectie: Jezus en de Heilige Geest
-➔ 4 evangeliën
-
-De Heilige Geest in Handelingen
-
-Elke Bijbeltekst over de Heilige Geest
-➔ Per Bijbelboek
+[[Bijbel met studiehulpen]]: Schrift met Schrift vergelijken. Raadpleeg de Treasury of Scripture Knowledge, Nave Topical Bible, Torrey Topical Textbook. 
 
