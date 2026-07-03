@@ -1,6 +1,6 @@
-## BereaStudieBijbel
+## Bijbelvertaling
 
-In deze [[BereaStudieBijbel|StudieBijbel]] kun je Schrift met Schrift vergelijken. Raadpleeg de Treasury of Scripture Knowledge, Nave Topical Bible, en de Torrey Topical Textbook. 
+In deze StudieBijbel kun je Schrift met Schrift vergelijken. Raadpleeg de Treasury of Scripture Knowledge, Nave Topical Bible, en de Torrey Topical Textbook. 
 
 ## De Bijbel op onderwerp
 
@@ -9,4 +9,8 @@ In deze [[BereaStudieBijbel|StudieBijbel]] kun je Schrift met Schrift vergelijke
 ## Bijbeluitleg
 
 Een goede [[Bijbeluitleg]] gebeurt volgens bepaalde richtlijnen. Eén daarvan is dat de Bijbel zichzelf uitlegt. Dit wordt ook wel genoemd: Schrift met Schrift vergelijken. 
+
+## Bijbelvertaling
+
+Info over de BereaBijbel: [[Bijbelvertaling]]
 
