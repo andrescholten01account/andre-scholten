@@ -21,6 +21,8 @@ Als christen wil ik Jezus trouw volgen. Ik heb ontdekt hoe onmogelijk dat is in 
 ## Snellink
 
 - [[Heilige Geest]]
+- [[De Bijbel op onderwerp]]
+- [[Bijbeluitleg]]
 
 ---
 
