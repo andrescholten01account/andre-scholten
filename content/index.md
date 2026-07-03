@@ -2,7 +2,7 @@
 title: Home
 ---
 %% 
-[[Blog]] | [[De Volle Pinksterzegen - Andrew Murray|Boek]] | [[BereaStudieBijbel|Bijbel]] 
+[[Blog]] | [[De Volle Pinksterzegen - boek|Boek]] | [[BereaStudieBijbel|Bijbel]] 
 %%
 
 Als christen wil ik Jezus trouw volgen. Ik heb ontdekt hoe onmogelijk dat is in eigen kracht. God roept ons in Zijn Woord op om vervuld te worden met Zijn Heilige Geest. Op deze website wil ik onderzoeken wat dat inhoudt voor mijn dagelijkse wandel met God.
