@@ -1,6 +1,8 @@
 Twee jaar geleden legde God het op mijn hart om het boek De Volle Pinksterzegen van Andrew Murray te lezen. Op dit moment luister ik elke dag een hoofdstuk uit de boek. Ik word er enorm door gezegend. Het boek wil ik met je delen. 
 
-[[De Volle Pinksterzegen - vertaling]]
+- [[The Full Blessing of Pentecost]] ➔ Engelse vertaling
+- [[De Volle Pinksterzegen - vertaling]] ➔ Paralleleditie Engels en Nederlands hedendaags
+- Verschillende bestandsformaten: [1](https://archive.org/download/fullblessingpent00murruoft) en [2](https://dn721903.ca.archive.org/0/items/fullblessingpent00murruoft/) 
 
 
 
@@ -10,8 +12,6 @@ Twee jaar geleden legde God het op mijn hart om het boek De Volle Pinksterzegen 
 >~ Johannes 7:38 
 
 ![[Pasted image 20260629160409.png|300]]
-
-- [[The Full Blessing of Pentecost]]
 
 ➔ [[Aantekening 1]]
 
@@ -98,7 +98,6 @@ Dit:
 
 3 - Instructies zijn: [[00-afspraken]] (laten staan)
 
-4 - Vertaaltest: [[Test]]
 
 Verschillende formats
 https://archive.org/details/fullblessingpent00murruoft/page/n9/mode/2up
