@@ -1,3 +1,8 @@
+
+
+[[De Volle Pinksterzegen - vertaling]]
+
+
 >Wie in Mij gelooft, zoals de Schrift zegt: Stromen van levend water zullen uit zijn binnenste vloeien.
 >~ Johannes 7:38 
 
@@ -99,8 +104,6 @@ https://dn721903.ca.archive.org/0/items/fullblessingpent00murruoft/
 Audio
 https://librivox.org/the-full-blessing-of-pentecost-by-andrew-murray/
 https://archive.org/details/fullblessing_pentecost_1412_librivox
-
-[[De Volle Pinksterzegen - vertaling]]
 
 %%
 
