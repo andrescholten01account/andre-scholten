@@ -1,4 +1,10 @@
+Twee jaar geleden legde God het op mijn hart om het boek De Volle Pinksterzegen van Andrew Murray te lezen. Op dit moment luister ik elke dag een hoofdstuk uit de boek. Ik word er enorm door gezegend. Het boek wil ik met je delen. 
+
 [[De Volle Pinksterzegen - vertaling]]
+
+
+
+
 
 >Wie in Mij gelooft, zoals de Schrift zegt: Stromen van levend water zullen uit zijn binnenste vloeien.
 >~ Johannes 7:38 
