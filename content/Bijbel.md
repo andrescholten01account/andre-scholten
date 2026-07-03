@@ -1,4 +1,4 @@
-## StudieBijbel
+## BereaStudieBijbel
 
 In deze [[StudieBijbel]] kun je Schrift met Schrift vergelijken. Raadpleeg de Treasury of Scripture Knowledge, Nave Topical Bible, en de Torrey Topical Textbook. 
 
