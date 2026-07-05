@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exodus 11 — BereaStudieBijbel · De Volle Pinksterzegen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* huisstijl overgenomen van pinksterzegen.nl (Quartz) */
+    --light:#faf6ee; --lightgray:#e6dcc8; --gray:#c9b896; --darkgray:#4a3829; --dark:#3a2a1d;
+    --secondary:#8b5e34; --tertiary:#a87c4f; --highlight:#8b5e341f; --textHighlight:#f0dca888;
+    --bodyFont:"Lora", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --codeFont:"IBM Plex Mono", ui-monospace, monospace;
+    /* aliassen zodat de bestaande regels de nieuwe kleuren gebruiken */
+    --accent: var(--secondary); --accent-donker: var(--dark); --bg: var(--light);
+    --bg-soft: #f2ead8; --border: var(--lightgray); --tekst: var(--darkgray);
+  }
+  * { box-sizing: border-box; }
+  body { font-family: var(--bodyFont); background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  .site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; }
+  .page-title { font-size:1.75rem; font-family:var(--bodyFont); text-align:center; margin:0 0 .4rem; font-weight:400; }
+  .page-title a { color:var(--secondary); text-decoration:none; }
+  .page-title a:hover { text-decoration:underline; }
+  .site-subtitle { color:var(--secondary); letter-spacing:.04em; margin:0 0 1rem; font-size:1.05em; font-style:italic; }
+  .site-nav { letter-spacing:.18em; text-transform:uppercase; border-top:1px solid var(--lightgray); border-bottom:1px solid var(--lightgray); margin:.8rem 0 2rem; padding:1rem 0; font-size:.82em; text-align:center; }
+  .site-nav a { font-weight:500; color:var(--secondary); text-decoration:none; }
+  .site-nav a:hover { text-decoration:underline; }
+  .nav-sep { color:var(--gray); }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<div class="site-header">
+  <h2 class="page-title"><a href="/">De Volle Pinksterzegen</a></h2>
+  <p class="site-subtitle">Jezus volgen in de kracht van de Geest</p>
+  <nav class="site-nav"><a href="/blog">Blog</a><span class="nav-sep"> | </span><a href="/de-volle-pinksterzegen---boek">Boek</a><span class="nav-sep"> | </span><a href="/bereastudiebijbel/">Bijbel</a></nav>
+</div>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">Exodus</a> › hoofdstuk 11</div>
+<h2 class="hfd">Exodus 11</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "Exodus 11", "boek_naam": "Exodus", "hfd_nr": "11", "zelf_abbr": "Ex 11", "totaal": 40, "basis_url": "https://pinksterzegen.nl/bereastudiebijbel/exodus/11", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../10/", "label": "‹ Exodus 10"}, "volgende": {"href": "../12/", "label": "Exodus 12 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}, {"n": "11", "href": "../11/"}, {"n": "12", "href": "../12/"}, {"n": "13", "href": "../13/"}, {"n": "14", "href": "../14/"}, {"n": "15", "href": "../15/"}, {"n": "16", "href": "../16/"}, {"n": "17", "href": "../17/"}, {"n": "18", "href": "../18/"}, {"n": "19", "href": "../19/"}, {"n": "20", "href": "../20/"}, {"n": "21", "href": "../21/"}, {"n": "22", "href": "../22/"}, {"n": "23", "href": "../23/"}, {"n": "24", "href": "../24/"}, {"n": "25", "href": "../25/"}, {"n": "26", "href": "../26/"}, {"n": "27", "href": "../27/"}, {"n": "28", "href": "../28/"}, {"n": "29", "href": "../29/"}, {"n": "30", "href": "../30/"}, {"n": "31", "href": "../31/"}, {"n": "32", "href": "../32/"}, {"n": "33", "href": "../33/"}, {"n": "34", "href": "../34/"}, {"n": "35", "href": "../35/"}, {"n": "36", "href": "../36/"}, {"n": "37", "href": "../37/"}, {"n": "38", "href": "../38/"}, {"n": "39", "href": "../39/"}, {"n": "40", "href": "../40/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "(Want de HEERE had tegen Mozes gesproken: Ik zal nog één plaag over Farao en over Egypte brengen, daarna zal hij u van hier laten trekken; als hij *u* geheel zal laten trekken, dan zal hij u haastig van hier uitdrijven.", "2": "Spreek nu voor de oren van het volk, dat iedere man van zijn naaste, en iedere vrouw van haar naaste zilveren voorwerpen en gouden voorwerpen vraagt.", "3": "En de HEERE gaf het volk genade in de ogen van de Egyptenaren; ook was de man Mozes zeer groot in Egypteland voor de ogen van Farao's knechten, en voor de ogen van het volk.)", "4": "Verder zei Mozes: Zo heeft de HEERE gezegd: Omtrent middernacht zal Ik uitgaan door het midden van Egypte;", "5": "En alle eerstgeborenen in Egypteland zullen sterven, van Farao's eerstgeborene af, die op zijn troon zitten zou, tot de eerstgeborene van de dienstmaagd, die achter de molen is, en alle eerstgeborenen van het vee.", "6": "En er zal een groot geschrei zijn in het hele Egypteland, zoals er nooit geweest is, en zoals er niet meer zijn zal.", "7": "Maar bij alle kinderen van Israël zal geen hond zijn tong bewegen, van de mensen af tot de beesten toe; opdat u weet dat de HEERE tussen de Egyptenaren en tussen de Israëlieten een afzondering maakt.", "8": "Dan zullen al deze uw knechten naar mij afkomen, en zich voor mij neerbuigen, en zeggen: Trek uit, u en al het volk dat uw voetstappen volgt; en daarna zal ik uitgaan. En hij ging uit van Farao in grote hitte van de toorn.", "9": "De HEERE dan had tegen Mozes gesproken: Farao zal naar u niet horen, opdat Mijn wonderen in Egypteland vermenigvuldigd worden.", "10": "En Mozes en Aäron hebben al deze wonderen gedaan voor Farao's aangezicht; maar de HEERE verhardde Farao's hart, zodat hij de kinderen van Israël uit zijn land niet liet trekken."}, "SV": {"1": "(Want de HEERE had tot Mozes gesproken: Ik zal nog een plaag over Farao, en over Egypte brengen, daarna zal hij ulieden van hier laten trekken; als hij *u* geheellijk zal laten trekken, zo zal hij u haastelijk van hier uitdrijven.", "2": "Spreek nu voor de oren des volks, dat ieder man van zijn naaste, en iedere vrouw van haar naaste zilveren vaten en gouden vaten eise.", "3": "En de HEERE gaf het volk genade in de ogen der Egyptenaren; ook was de man Mozes zeer groot in Egypteland voor de ogen van Farao’s knechten, en voor de ogen des volks.)", "4": "Verder zeide Mozes: Zo heeft de HEERE gezegd: Omtrent middernacht zal Ik uitgaan door het midden van Egypte;", "5": "En alle eerstgeborenen in Egypteland zullen sterven, van Farao’s eerstgeborene af, die op zijn troon zitten zou, tot den eerstgeborene der dienstmaagd, die achter den molen is, en alle eerstgeborenen van het vee.", "6": "En er zal een groot geschrei zijn in het ganse Egypteland, desgelijke nooit geweest is, en desgelijke niet meer wezen zal.", "7": "Maar bij alle kinderen Israëls zal niet een hond zijn tong verroeren, van de mensen af tot de beesten toe; opdat gijlieden weet, dat de HEERE tussen de Egyptenaren en tussen de Israëlieten een afzondering maakt.", "8": "Dan zullen al deze uw knechten tot mij afkomen, en zich voor mij neigen, zeggende: Trek uit, gij en al het volk, dat uw voetstappen volgt; en daarna zal ik uitgaan. En hij ging uit van Farao in hitte des toorns.", "9": "De HEERE dan had tot Mozes gesproken: Farao zal naar ulieden niet horen, opdat Mijn wonderen in Egypteland vermenigvuldigd worden.", "10": "En Mozes en Aäron hebben al deze wonderen gedaan voor Farao’s aangezicht; doch de HEERE verhardde Farao’s hart, dat hij de kinderen Israëls uit zijn land niet trekken liet."}, "KJV": {"1": "And the LORD said unto Moses, Yet will I bring one plague *more* upon Pharaoh, and upon Egypt; afterwards he will let you go hence: when he shall let *you* go, he shall surely thrust you out hence altogether.", "2": "Speak now in the ears of the people, and let every man borrow of his neighbour, and every woman of her neighbour, jewels of silver, and jewels of gold.", "3": "And the LORD gave the people favour in the sight of the Egyptians. Moreover the man Moses *was* very great in the land of Egypt, in the sight of Pharaoh's servants, and in the sight of the people.", "4": "And Moses said, Thus saith the LORD, About midnight will I go out into the midst of Egypt:", "5": "And all the firstborn in the land of Egypt shall die, from the firstborn of Pharaoh that sitteth upon his throne, even unto the firstborn of the maidservant that *is* behind the mill; and all the firstborn of beasts.", "6": "And there shall be a great cry throughout all the land of Egypt, such as there was none like it, nor shall be like it any more.", "7": "But against any of the children of Israel shall not a dog move his tongue, against man or beast: that ye may know how that the LORD doth put a difference between the Egyptians and Israel.", "8": "And all these thy servants shall come down unto me, and bow down themselves unto me, saying, Get thee out, and all the people that follow thee: and after that I will go out. And he went out from Pharaoh in a great anger.", "9": "And the LORD said unto Moses, Pharaoh shall not hearken unto you; that my wonders may be multiplied in the land of Egypt.", "10": "And Moses and Aaron did all these wonders before Pharaoh: and the LORD hardened Pharaoh's heart, so that he would not let the children of Israel go out of his land."}}, "tsk": {"1": [{"kopje": "Ik zal", "refs": ["Ex 9:14", "Lev 26:21", "Deut 4:34", "1 Sam 6:4", "Job 10:17", "Openb 16:9"]}, {"kopje": "daarna", "refs": ["Ex 3:20", "Gen 15:14"]}, {"kopje": "uitdrijven", "refs": ["Ex 12:31-39"]}], "2": [{"kopje": "vraagt", "refs": ["Ex 3:22", "Ex 12:1", "Ex 12:2", "Ex 12:35", "Ex 12:36", "Gen 31:9", "Job 27:16", "Job 27:17", "Ps 24:1", "Ps 105:37", "Spr 13:22", "Hagg 2:9", "Matt 20:15"]}, {"kopje": "voorwerpen", "refs": ["Ex 32:2-4", "Ex 32:24", "Ex 35:22", "Ezech 16:10-13"]}], "3": [{"kopje": "de HEERE", "refs": ["Ex 3:21", "Ex 12:36", "Gen 39:21", "Ps 106:46"]}, {"kopje": "Mozes", "refs": ["Gen 12:2", "2 Sam 7:9", "Est 9:4", "Jes 60:14", "Hand 7:22", "Openb 3:9"]}], "4": [{"kopje": "Omtrent", "refs": ["Ex 12:12", "Ex 12:23", "Ex 12:29", "Job 34:20", "Amos 4:10", "Amos 5:17", "Matt 25:6"]}, {"kopje": "zal Ik uitgaan", "refs": ["2 Sam 5:24", "Ps 60:12", "Jes 42:13", "Micha 2:13"]}], "5": [{"kopje": "de eerstgeborene", "refs": ["Ex 4:23", "Ex 12:12", "Ex 12:29", "Ex 13:15", "Ps 78:51", "Ps 105:36", "Ps 135:8", "Ps 136:10", "Hebr 11:28"]}, {"kopje": "achter", "refs": ["Richt 16:21", "Jes 47:2", "Klaagl 5:13", "Matt 24:41"]}], "7": [{"kopje": "hond", "refs": ["Joz 10:21", "Job 5:16"]}, {"kopje": "een afzondering", "refs": ["Ex 7:22", "Ex 10:23", "Mal 3:18", "1 Kor 4:7"]}], "8": [{"kopje": "al", "refs": ["Ex 12:31-33", "Jes 49:23", "Jes 49:26", "Openb 3:9"]}, {"kopje": "uw voetstappen volgt", "refs": ["Richt 4:10", "Richt 8:5", "1 Kon 20:10", "2 Kon 3:9"]}, {"kopje": "grote hitte van de toorn", "refs": ["Num 12:3", "Deut 29:24", "Deut 32:24", "Ps 6:2", "Ezech 3:14", "Dan 3:19", "Mark 3:5"]}], "9": [{"kopje": "Farao", "refs": ["Ex 3:19", "Ex 7:4", "Ex 10:1", "Rom 9:16-18"]}, {"kopje": "wonderen", "refs": ["Ex 7:3"]}], "10": [{"kopje": "de HEERE", "refs": ["Ex 4:21", "Ex 7:13", "Ex 7:14", "Ex 10:20", "Ex 10:27", "Deut 2:30", "1 Sam 6:6", "Job 9:4", "Rom 2:4", "Rom 2:5", "Rom 9:22"]}]}, "onderwerpen": {"5": [{"onderwerp": "Molen", "sub": "Gebruikt in Egypte", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Molens", "sub": "Oudheid van", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Molens", "sub": "Dienstmaagden gewoonlijk gebruikt bij", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Matt 24:41", "alle": ["Matt 24:41"], "meer": 0}, {"onderwerp": "Troon", "sub": "Van Farao", "totaal": 2, "positie": 2, "vorige": "Gen 41:40", "volgende": null, "alle": ["Gen 41:40"], "meer": 0}], "1": [{"onderwerp": "Wonderen", "sub": "Bedoeling van de wonderen", "totaal": 196, "positie": 25, "vorige": "Ex 10:17", "volgende": "Ex 11:7", "alle": ["Ex 3:19", "Ex 3:20", "Ex 4:2", "Ex 4:3", "Ex 4:4", "Ex 4:5", "Ex 4:6", "Ex 4:7", "Ex 4:8", "Ex 4:9", "Ex 7:5", "Ex 7:17", "Ex 8:8", "Ex 8:9", "Ex 8:10", "Ex 8:22", "Ex 9:14", "Ex 9:15", "Ex 9:16", "Ex 9:29", "Ex 10:1", "Ex 10:2", "Ex 10:16", "Ex 10:17", "Ex 11:7", "Ex 11:8", "Ex 11:9", "Ex 12:29", "Ex 12:30", "Ex 12:31", "Ex 12:32", "Ex 12:33", "Ex 14:4", "Ex 14:18", "Ex 14:24", "Ex 14:25", "Ex 14:31", "Ex 16:4", "Ex 16:5", "Ex 16:6"], "meer": 155}], "7": [{"onderwerp": "Wonderen", "sub": "Bedoeling van de wonderen", "totaal": 196, "positie": 26, "vorige": "Ex 11:1", "volgende": "Ex 11:8", "alle": ["Ex 3:19", "Ex 3:20", "Ex 4:2", "Ex 4:3", "Ex 4:4", "Ex 4:5", "Ex 4:6", "Ex 4:7", "Ex 4:8", "Ex 4:9", "Ex 7:5", "Ex 7:17", "Ex 8:8", "Ex 8:9", "Ex 8:10", "Ex 8:22", "Ex 9:14", "Ex 9:15", "Ex 9:16", "Ex 9:29", "Ex 10:1", "Ex 10:2", "Ex 10:16", "Ex 10:17", "Ex 11:1", "Ex 11:8", "Ex 11:9", "Ex 12:29", "Ex 12:30", "Ex 12:31", "Ex 12:32", "Ex 12:33", "Ex 14:4", "Ex 14:18", "Ex 14:24", "Ex 14:25", "Ex 14:31", "Ex 16:4", "Ex 16:5", "Ex 16:6"], "meer": 155}], "8": [{"onderwerp": "Wonderen", "sub": "Bedoeling van de wonderen", "totaal": 196, "positie": 27, "vorige": "Ex 11:7", "volgende": "Ex 11:9", "alle": ["Ex 3:19", "Ex 3:20", "Ex 4:2", "Ex 4:3", "Ex 4:4", "Ex 4:5", "Ex 4:6", "Ex 4:7", "Ex 4:8", "Ex 4:9", "Ex 7:5", "Ex 7:17", "Ex 8:8", "Ex 8:9", "Ex 8:10", "Ex 8:22", "Ex 9:14", "Ex 9:15", "Ex 9:16", "Ex 9:29", "Ex 10:1", "Ex 10:2", "Ex 10:16", "Ex 10:17", "Ex 11:1", "Ex 11:7", "Ex 11:9", "Ex 12:29", "Ex 12:30", "Ex 12:31", "Ex 12:32", "Ex 12:33", "Ex 14:4", "Ex 14:18", "Ex 14:24", "Ex 14:25", "Ex 14:31", "Ex 16:4", "Ex 16:5", "Ex 16:6"], "meer": 155}, {"onderwerp": "Dienstknechten", "sub": "De onderdanen van een vorst of koning aldus genoemd", "totaal": 2, "positie": 2, "vorige": "Ex 9:20", "volgende": null, "alle": ["Ex 9:20"], "meer": 0}], "9": [{"onderwerp": "Wonderen", "sub": "Bedoeling van de wonderen", "totaal": 196, "positie": 28, "vorige": "Ex 11:8", "volgende": "Ex 12:29", "alle": ["Ex 3:19", "Ex 3:20", "Ex 4:2", "Ex 4:3", "Ex 4:4", "Ex 4:5", "Ex 4:6", "Ex 4:7", "Ex 4:8", "Ex 4:9", "Ex 7:5", "Ex 7:17", "Ex 8:8", "Ex 8:9", "Ex 8:10", "Ex 8:22", "Ex 9:14", "Ex 9:15", "Ex 9:16", "Ex 9:29", "Ex 10:1", "Ex 10:2", "Ex 10:16", "Ex 10:17", "Ex 11:1", "Ex 11:7", "Ex 11:8", "Ex 12:29", "Ex 12:30", "Ex 12:31", "Ex 12:32", "Ex 12:33", "Ex 14:4", "Ex 14:18", "Ex 14:24", "Ex 14:25", "Ex 14:31", "Ex 16:4", "Ex 16:5", "Ex 16:6"], "meer": 155}]}, "extern": {"Lev 26:21": "En als u tegen Mij in blijft ingaan, en Mij niet wilt horen, zal Ik over u, naar uw zonden, zevenvoudig slagen toedoen.", "Ex 3:22": "Maar elke vrouw zal van haar buurvrouw, en van de vrouw die in haar huis woont, zilveren voorwerpen eisen, en gouden voorwerpen, en kleren; die zult u op uw zonen en op uw dochters leggen, en u zult Egypte beroven.", "Matt 20:15": "Of mag ik met het mijne niet doen wat ik wil? Of is uw oog boos, omdat ik goed ben?", "Ex 14:18": "En de Egyptenaren zullen weten dat Ik de HEERE ben, wanneer Ik verheerlijkt zal worden aan Farao, aan zijn wagens en aan zijn ruiters.", "Rom 2:4": "Of veracht u de rijkdom van Zijn goedertierenheid, en verdraagzaamheid, en geduld, zonder te weten dat de goedertierenheid van God u tot bekering leidt?", "Ex 7:13": "Doch Farao's hart verstokte, zodat hij naar hen niet hoorde, zoals de HEERE gesproken had.", "Ps 78:51": "En Hij sloeg al het eerstgeborene in Egypte, het begin van de krachten in de tenten van Cham.", "Ex 12:2": "Deze maand zal voor u het begin van de maanden zijn; zij zal voor u de eerste van de maanden van het jaar zijn.", "Ex 12:36": "Daartoe had de HEERE het volk genade gegeven in de ogen van de Egyptenaren, zodat zij hun hun verzoek toestonden; en zij beroofden de Egyptenaren.", "Ex 3:21": "En Ik zal dit volk genade geven in de ogen van de Egyptenaren; en het zal gebeuren, wanneer u weggaat, dat u niet met lege handen weg zult gaan.", "Ps 105:36": "Hij versloeg ook alle eerstgeborenen in hun land, de eerstelingen van al hun krachten.", "Num 12:3": "Doch de man Mozes was zeer zachtmoedig, meer dan alle mensen die op de aardbodem waren.", "Klaagl 5:13": "Zij hebben de jongemannen weggenomen om te malen, en de jongens struikelden onder het hout.", "Ex 10:17": "En nu, vergeef mij toch mijn zonde alleen deze keer, en bid vurig tot de HEERE, uw God, dat Hij alleen deze dood van mij wegneemt.", "Ex 7:5": "Dan zullen de Egyptenaars weten dat Ik de HEERE ben, wanneer Ik Mijn hand over Egypte uitstrek, en de kinderen van Israël uit hun midden uitleid.", "Hand 7:22": "En Mozes werd onderwezen in alle wijsheid van de Egyptenaren; en hij was machtig in woorden en in werken.", "Ps 106:46": "Daarom gaf Hij hun barmhartigheid voor het aangezicht van allen die hen gevangen hadden.", "Ex 12:23": "Want de HEERE zal doorgaan, om de Egyptenaren te slaan; doch wanneer Hij het bloed zien zal aan de bovendorpel en aan de twee zijposten, zal de HEERE de deur voorbijgaan, en de verderver niet toelaten in uw huizen te komen om te slaan.", "Ex 10:27": "Doch de HEERE verhardde het hart van Farao; en hij wilde hen niet laten gaan.", "Ex 8:22": "En Ik zal op die dag het land Gosen, waarin Mijn volk woont, afzonderen, zodat daar geen vermenging van ongedierte is, opdat u weet dat Ik, de HEERE, in het midden van dit land ben.", "Ex 16:4": "Toen zei de HEERE tegen Mozes: Zie, Ik zal voor u brood uit de hemel laten regenen; en het volk zal uitgaan en verzamelen wat het op elke dag nodig heeft; opdat Ik het beproef, of het naar Mijn wet leeft of niet.", "Ps 24:1": "Een psalm van David. De aarde is van de HEERE, alsook haar volheid, de wereld, en zij die daarin wonen.", "Deut 32:24": "Uitgeteerd zullen zij zijn van honger, opgegeten door de karbonkel en bitter verderf; en Ik zal de tanden van de beesten onder hen sturen, met vurig venijn van slangen van het stof.", "Ex 4:4": "Toen zei de HEERE tegen Mozes: Strek uw hand uit, en grijp haar bij haar staart! Toen strekte hij zijn hand uit, en greep haar, en zij werd tot een staf in zijn hand.", "Ex 12:32": "Neemt ook met u uw schapen en uw runderen, zoals u gesproken hebt, en gaat heen, en zegent mij ook.", "Rom 9:22": "En wat nu, als God, terwijl Hij Zijn toorn wilde bewijzen en Zijn macht bekend wilde maken, met veel geduld de vaten van de toorn verdragen heeft, die klaargemaakt zijn tot verderf;", "Ex 14:25": "En Hij stootte de raderen van hun wagens weg, en deed ze zwaar voortgaan. Toen zeiden de Egyptenaren: Laten wij vluchten van voor Israël, want de HEERE strijdt voor hen tegen de Egyptenaren.", "Ex 9:29": "Toen zei Mozes tegen hem: Zodra ik de stad uitgegaan ben, zal ik mijn handen uitspreiden voor de HEERE; de donder zal ophouden, en de hagel zal niet meer zijn; zodat u weet dat de aarde van de HEERE is!", "2 Sam 7:9": "En Ik ben met u geweest, overal waar u gegaan bent, en heb al uw vijanden voor uw aangezicht uitgeroeid; en Ik heb u een grote naam gemaakt, als de naam van de groten die op de aarde zijn.", "Job 5:16": "Zo is er voor de arme verwachting; en de slechtheid stopt haar mond toe.", "Ex 4:2": "En de HEERE zei tegen hem: Wat is er in uw hand? En hij zei: Een staf.", "Ex 7:14": "Toen zei de HEERE tegen Mozes: Farao's hart is zwaar; hij weigert het volk te laten trekken.", "Ex 14:31": "Ook zag Israël de grote hand die de HEERE aan de Egyptenaren bewezen had; en het volk vreesde de HEERE, en geloofde in de HEERE, en in Mozes, Zijn dienaar.", "Ps 135:8": "Die de eerstgeborenen van Egypte sloeg, van de mens af tot het vee toe.", "Rom 2:5": "Maar naar uw hardheid en onbekeerlijk hart, verzamelt u voor uzelf toorn als een schat, voor de dag van de toorn en de openbaring van het rechtvaardig oordeel van God.", "Matt 25:6": "En te middernacht kwam er een geroep: Zie, de bruidegom komt, ga hem tegemoet!", "Ex 14:24": "En het gebeurde in dezelfde morgenwake, dat de HEERE, in de kolom van vuur en wolk, neerkeek op het leger van de Egyptenaren; en Hij bracht het leger van de Egyptenaren in verwarring.", "Ex 12:1": "De HEERE nu had tot Mozes en tot Aäron in Egypteland gesproken en gezegd:", "Spr 13:22": "De goede zal zijn kindskinderen doen erven; maar het vermogen van de zondaar is voor de rechtvaardige weggelegd.", "Ps 136:10": "Hem, Die de Egyptenaren geslagen heeft in hun eerstgeborenen; want Zijn goedertierenheid is voor eeuwig.", "Ex 8:9": "Doch Mozes zei tegen Farao: Heb de eer boven mij! Tegen wanneer zal ik voor u, en voor uw knechten, en voor uw volk, vurig bidden, om deze kikkers van u en van uw huizen te verdelgen, zodat zij alleen in de rivier overblijven?", "Gen 31:9": "Zo heeft God het vee van uw vader afgenomen, en aan mij gegeven.", "Ex 9:14": "Want ditmaal zal Ik al Mijn plagen in uw hart zenden, en over uw dienaren en over uw volk, zodat u weet dat er niemand is zoals Ik, op de hele aarde.", "Job 27:17": "Hij zal ze bereiden, maar de rechtvaardige zal ze aantrekken, en de onschuldige zal het zilver delen.", "Ps 6:2": "O HEERE, straf mij niet in Uw toorn, en tuchtig mij niet in Uw grimmigheid!", "Ex 10:1": "Daarna zei de HEERE tegen Mozes: Ga naar Farao; want Ik heb zijn hart verzwaard, ook het hart van zijn knechten, opdat Ik deze Mijn tekenen in hun midden zou stellen;", "2 Kon 3:9": "Zo trok de koning van Israël op, en de koning van Juda, en de koning van Edom; en toen zij zeven dagreizen omgetrokken waren, had het leger en het vee dat hen volgde, geen water.", "Ex 9:15": "Want nu heb Ik Mijn hand uitgestrekt, om u en uw volk met de pest te slaan, zodat u van de aarde verdelgd zou worden.", "Deut 29:24": "En alle volken zullen zeggen: Waarom heeft de HEERE dit land zo aangedaan? Wat betekent de gloed van deze grote toorn?", "Est 9:4": "Want Mordechai was groot in het huis van de koning, en zijn faam ging uit door alle landschappen; want die man, Mordechai, werd steeds groter.", "Hebr 11:28": "Door het geloof heeft hij het pascha gehouden, en de besprenging van het bloed, opdat de verderver van de eerstgeborenen hen niet zou raken.", "Job 9:4": "Hij is wijs van hart en sterk van kracht; wie heeft zich tegen Hem verhard en vrede gehad?", "Ex 3:19": "Toch weet Ik dat de koning van Egypte u niet zal laten gaan, ook niet door een sterke hand.", "Gen 41:40": "U zult over mijn huis zijn, en op uw bevel zal heel mijn volk de hand kussen; alleen door de troon zal ik groter zijn dan u.", "Ex 7:17": "Zo zegt de HEERE: Hieraan zult u weten dat Ik de HEERE ben; zie, ik zal met deze staf, die in mijn hand is, op het water slaan dat in deze rivier is, en het zal in bloed veranderd worden.", "Ex 8:8": "En Farao riep Mozes en Aäron, en zei: Bid vurig tot de HEERE, dat Hij de kikkers van mij en van mijn volk wegneemt; dan zal ik het volk laten trekken, opdat zij de HEERE offeren.", "Ex 4:5": "Opdat zij geloven, dat u verschenen is de HEERE, de God van hun vaderen, de God van Abraham, de God van Izak, en de God van Jakob.", "Richt 4:10": "Toen riep Barak Zebulon en Nafthali bijeen te Kedes, en hij trok op, te voet, met tienduizend man; ook trok Debora met hem op.", "Ex 16:6": "Toen zeiden Mozes en Aäron tegen alle Israëlieten: Vanavond zult u weten dat de HEERE u uit Egypte geleid heeft;", "Amos 5:17": "Ja, in alle wijngaarden zal rouwklacht zijn; want Ik zal door uw midden trekken, zegt de HEERE.", "Matt 24:41": "Er zullen twee vrouwen malen bij de molen: de één zal aangenomen worden, en de ander zal achtergelaten worden.", "Gen 15:14": "Maar Ik zal ook het volk rechten dat zij zullen dienen; en daarna zullen zij uittrekken met veel bezit.", "Ex 12:31": "Toen riep hij Mozes en Aäron in de nacht, en zei: Maakt u op, trekt uit het midden van mijn volk, u en de kinderen van Israël; en gaat heen, dient de HEERE, zoals u gesproken hebt.", "Dan 3:19": "Toen werd Nebukadnezar vervuld van woede, en de uitdrukking van zijn gezicht veranderde tegen Sadrach, Mesach en Abed-nego; hij antwoordde en zei, dat men de oven zeven keer heter moest maken dan men die gewoonlijk heet maakte.", "2 Sam 5:24": "En het zal gebeuren, als u het geluid van een gang hoort in de toppen van de moerbeibomen, dat u zich dan haast; want dan is de HEERE voor uw aangezicht uitgegaan, om het leger van de Filistijnen te verslaan.", "Joz 10:21": "Zo keerde al het volk terug tot Jozua in het leger, bij Makkeda, in vrede; niemand had zijn tong tegen de kinderen van Israël geroerd.", "Ex 10:2": "En opdat u voor de oren van uw kinderen en uw kleinkinderen kunt vertellen wat Ik in Egypte gedaan heb, en Mijn tekenen, die Ik onder hen gedaan heb; opdat u weet dat Ik de HEERE ben.", "Ex 9:20": "Wie onder de dienaren van Farao het woord van de HEERE vreesde, die liet zijn dienaren en zijn vee naar de huizen vluchten;", "Deut 4:34": "Of: of God ooit beproefd heeft te gaan om Zich een volk uit het midden van een ander volk aan te nemen, door beproevingen, door tekenen, en door wonderen, en door strijd, en door een sterke hand, en door een uitgestrekte arm, en met grote verschrikkingen; naar alles wat de HEERE, uw God, voor u in Egypte voor uw ogen gedaan heeft?", "Ex 12:12": "Want Ik zal in deze nacht door Egypteland gaan, en alle eerstgeborenen in Egypteland slaan, van de mensen af tot de dieren toe; en Ik zal gerichten oefenen aan al de goden van de Egyptenaren, Ik, de HEERE!", "Ex 4:6": "En de HEERE zei verder tegen hem: Steek nu uw hand in uw boezem. En hij stak zijn hand in zijn boezem; daarna trok hij ze eruit, en zie, zijn hand was melaats, wit als sneeuw.", "Gen 39:21": "Maar de HEERE was met Jozef, en bewees hem Zijn goedertierenheid; en gaf hem genade in de ogen van de leider van de gevangenis.", "Job 10:17": "U vernieuwt Uw getuigen tegenover mij, en vermenigvuldigt Uw toorn tegen mij; verwisselingen, ja, een leger, zijn tegen mij.", "Jes 42:13": "De HEERE zal uittrekken als een held; Hij zal de ijver opwekken als een krijgsman; Hij zal juichen, ja, Hij zal een groot geschreeuw maken; Hij zal Zijn vijanden overweldigen.", "Ex 7:3": "Doch Ik zal Farao's hart verharden; en Ik zal Mijn tekenen en Mijn wonderen in Egypteland vermenigvuldigen.", "Ex 14:4": "En Ik zal het hart van Farao verstokken, dat hij hen najaagt; en Ik zal aan Farao en aan zijn hele leger verheerlijkt worden, zodat de Egyptenaren zullen weten dat Ik de HEERE ben. En zij deden zo.", "Ex 10:23": "Zij zagen elkaar niet; er stond ook niemand op van zijn plaats, in drie dagen; maar bij alle kinderen van Israël was er licht in hun woningen.", "Hagg 2:9": "Mijn is het zilver, en Mijn is het goud, spreekt de HEERE van de heerscharen.", "Amos 4:10": "Ik heb de pest onder u gezonden, naar de wijze van Egypte; Ik heb uw jongemannen door het zwaard gedood, en uw paarden gevankelijk laten wegvoeren; en Ik heb de stank van uw legers zelfs in uw neus laten opgaan; toch hebt u zich niet bekeerd tot Mij, spreekt de HEERE.", "Jes 49:26": "En Ik zal uw verdrukkers spijzen met hun eigen vlees, en van hun eigen bloed zullen zij dronken worden, als van zoete wijn; en alle vlees zal gewaarworden, dat Ik, de HEERE, uw Heiland ben, en uw Verlosser, de Machtige van Jakob.", "Ex 12:35": "De kinderen van Israël nu hadden gedaan naar het woord van Mozes, en hadden van de Egyptenaren gevraagd zilveren voorwerpen, en gouden voorwerpen, en kleren.", "Richt 16:21": "Toen grepen de Filistijnen hem, en groeven zijn ogen uit; en zij voerden hem af naar Gaza, en bonden hem met twee koperen ketenen, en hij moest malen in de gevangenis.", "Ex 12:33": "En de Egyptenaren drongen sterk aan bij het volk, om ze snel uit het land te drijven; want zij zeiden: Wij zijn allen dood!", "Jes 60:14": "Ook zullen, zich buigend, tot u komen de kinderen van hen die u onderdrukt hebben, en allen die u gelasterd hebben zullen zich neerbuigen aan de zolen van uw voeten; en zij zullen u noemen: de stad van de HEERE, het Sion van de Heilige van Israël.", "Jes 47:2": "Neem de molen en maal meel; ontdek uw vlechten, ontbloot de enkels, ontdek de schenkels, ga door de rivieren.", "Mal 3:18": "Dan zult u opnieuw zien het onderscheid tussen de rechtvaardige en de goddeloze, tussen wie God dient, en wie Hem niet dient.", "Ex 4:23": "En Ik heb tegen u gezegd: Laat Mijn zoon gaan, opdat hij Mij dient! maar u hebt geweigerd hem te laten gaan; zie, Ik zal uw zoon, uw eerstgeborene, doden!", "Richt 8:5": "En hij zei tegen de mannen van Sukkoth: Geef toch enige broden aan het volk dat mij volgt, want zij zijn moe; en ik jaag Zebah en Tsalmuna, de koningen van de Midianieten, achterna.", "1 Sam 6:6": "Waarom toch zou u uw hart verharden, zoals de Egyptenaars en farao hun hart verhard hebben? Hebben zij niet, toen Hij wonderlijk met hen gehandeld had, hen laten trekken, zodat zij heengingen?", "Ex 12:30": "En Farao stond 's nachts op, hij en al zijn dienaren, en alle Egyptenaren; en er was een groot geschreeuw in Egypte; want er was geen huis waarin niet een dode was.", "Ex 4:21": "En de HEERE zei tegen Mozes: Terwijl u heentrekt, om terug te keren naar Egypte, zie erop toe, dat u al de wonderen doet voor Farao, die Ik in uw hand gesteld heb; doch Ik zal zijn hart verharden, zodat hij het volk niet zal laten gaan.", "Ex 16:5": "En het zal gebeuren op de zesde dag, dat zij klaarmaken wat zij ingebracht zullen hebben; dat zal dubbel zijn boven wat zij dagelijks verzamelen.", "Ex 10:16": "Toen haastte Farao zich om Mozes en Aäron te roepen, en zei: Ik heb gezondigd tegen de HEERE, uw God, en tegen u.", "Ex 3:20": "Want Ik zal Mijn hand uitstrekken, en Egypte slaan met al Mijn wonderen die Ik in het midden ervan doen zal; daarna zal hij u laten vertrekken.", "Micha 2:13": "De doorbreker zal voor hen uittrekken; zij zullen doorbreken en door de poort gaan, en daardoor naar buiten trekken; en hun koning zal voor hen uit heengaan, en de HEERE aan hun spits.", "Ex 7:22": "Doch de Egyptische tovenaars deden ook zo met hun bezweringen; zodat Farao's hart verstokte, en hij hoorde naar hen niet, zoals de HEERE gesproken had.", "Ezech 3:14": "Toen hief de Geest mij op, en nam mij weg, en ik ging heen, bitter bedroefd door de hitte van mijn geest; maar de hand van de HEERE was sterk op mij.", "Ex 7:4": "Farao nu zal naar u niet horen, en Ik zal Mijn hand aan Egypte leggen, en Mijn legers, Mijn volk, de kinderen van Israël, uit Egypteland voeren, door grote gerichten.", "Job 34:20": "In een ogenblik sterven zij; zelfs te middernacht wordt een volk geschud, dat het doorgaat; en de machtige wordt weggenomen zonder hand.", "Jes 49:23": "En koningen zullen uw voedsterheren zijn, hun vorstinnen uw zoogvrouwen; zij zullen zich voor u buigen met het aangezicht ter aarde, en zij zullen het stof van uw voeten likken; en u zult weten, dat Ik de HEERE ben, dat zij niet beschaamd zullen worden die Mij verwachten.", "Ex 32:24": "Toen zei ik tegen hen: Wie goud heeft, laat die het afrukken en aan mij geven; en ik wierp het in het vuur, en dit kalf is eruit gekomen.", "Ex 4:7": "En Hij zei: Steek uw hand opnieuw in uw boezem. En hij stak zijn hand opnieuw in zijn boezem; daarna trok hij ze uit zijn boezem, en zie, zij was weer als zijn andere vlees.", "Ex 4:9": "En het zal gebeuren, als zij ook deze twee tekenen niet geloven, en niet naar uw stem luisteren, dan neem van het water van de rivier, en giet het op het droge; dan zal het water, dat u uit de rivier neemt, tot bloed worden op het droge.", "1 Kor 4:7": "Want wie maakt onderscheid ten aanzien van u? En wat hebt u, dat u niet hebt ontvangen? En als u het ook ontvangen hebt, waarom roemt u, alsof u het niet ontvangen had?", "Ps 105:37": "En Hij voerde hen uit met zilver en goud; en onder hun stammen was niemand die struikelde.", "Ex 10:20": "Doch de HEERE verstokte het hart van Farao, zodat hij de kinderen van Israël niet liet gaan.", "Mark 3:5": "En nadat Hij hen met toorn had aangekeken, bedroefd over de verharding van hun hart, zei Hij tegen de man: Strek uw hand uit. En hij strekte hem uit; en zijn hand werd hersteld, gezond als de andere.", "Ex 9:16": "Maar juist daarom heb Ik u laten opstaan, opdat Ik Mijn kracht aan u zou tonen, en opdat men Mijn Naam vertelt op de hele aarde.", "Deut 2:30": "Maar Sihon, de koning van Hesbon, wilde ons daar niet doorheen laten trekken; want de HEERE, uw God, verhardde zijn geest en verstokte zijn hart, opdat Hij hem in uw hand zou geven, zoals het is op deze dag.", "Ex 4:3": "En Hij zei: Werp hem op de grond. En hij wierp hem op de grond! Toen werd hij tot een slang; en Mozes vluchtte voor haar.", "Ex 4:8": "En het zal gebeuren, als zij u niet geloven, en niet naar de stem van het eerste teken luisteren, dan zullen zij de stem van het laatste teken geloven.", "Openb 3:9": "Zie, Ik geef u er sommigen uit de synagoge van de satan, van hen die zeggen dat zij Joden zijn, en het niet zijn, maar liegen; zie, Ik zal maken dat zij zullen komen, en aanbidden voor uw voeten, en erkennen dat Ik u liefheb.", "1 Sam 6:4": "Toen zeiden zij: Welk schuldoffer is dat, dat wij Hem teruggeven zullen? En zij zeiden: Vijf gouden gezwellen en vijf gouden muizen, naar het aantal van de vorsten van de Filistijnen; want het is één en dezelfde plaag over u allen en over uw vorsten.", "Ex 8:10": "Hij dan zei: Tegen morgen. En hij zei: Het zij naar uw woord, opdat u weet dat er niemand is zoals de HEERE, onze God.", "Ex 12:29": "En het gebeurde te middernacht, dat de HEERE alle eerstgeborenen in Egypteland sloeg, van de eerstgeborene van Farao af, die op zijn troon zou zitten, tot de eerstgeborene van de gevangene, die in de gevangenis was, en alle eerstgeborenen van het vee.", "Openb 16:9": "En de mensen werden verhit met grote hitte, en lasterden de Naam van God, Die macht heeft over deze plagen; en zij bekeerden zich niet, om Hem eer te geven.", "Ex 35:22": "Zo kwamen dan de mannen met de vrouwen, allen die vrijwillig van hart waren; zij brachten haken, en oorsieraden, en ringen, en spangetjes, allerlei gouden voorwerpen; en ieder man die een gouden beweegoffer aan de HEERE offerde,", "1 Kon 20:10": "En Benhadad zond naar hem en zei: De goden doen mij zo, en doen zo daartoe, als het stof van Samaria genoeg zal zijn tot handvollen voor al het volk, dat mijn voetstappen volgt!", "Gen 12:2": "En Ik zal u tot een groot volk maken, en u zegenen, en uw naam groot maken; en wees een zegen!", "Job 27:16": "Zo hij zilver opgehoopt zal hebben als stof, en kleding bereid als leem;"}, "noten": {}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${md(D.vertalingen[vertaling][n] || '—')}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+function paneelInhoud(n, tab) {
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : 'vertalingen');
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  const tekst = popupTekst(ref);
+  if (!tekst) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${md(tekst)}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>
