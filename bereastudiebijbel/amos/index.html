@@ -1,16 +1,28 @@
 <!DOCTYPE html><html lang="nl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"><title>Amos — BereaStudieBijbel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 <style>
-:root { --accent:#8a6d3b; --accent-donker:#6b5429; --bg:#fdfcf9; --bg-soft:#f7f3ea; --border:#e3ddd0; --tekst:#2b2b2b; }
+:root {
+  --light:#faf6ee; --lightgray:#e6dcc8; --gray:#c9b896; --darkgray:#4a3829; --dark:#3a2a1d;
+  --secondary:#8b5e34; --tertiary:#a87c4f;
+  --bodyFont:"Lora", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --accent:var(--secondary); --accent-donker:var(--dark); --bg:var(--light);
+  --bg-soft:#f2ead8; --border:var(--lightgray); --tekst:var(--darkgray);
+}
 * { box-sizing:border-box; }
-body { font-family:Georgia,'Times New Roman',serif; background:var(--bg); color:var(--tekst); margin:0; line-height:1.7; }
+body { font-family:var(--bodyFont); background:var(--bg); color:var(--tekst); margin:0; line-height:1.7; }
 .omslag { max-width:900px; margin:0 auto; padding:1.2rem 1rem 4rem; }
-header.site { text-align:center; padding:1.2rem 0 .4rem; }
-header.site h1 { font-size:2rem; margin:0; color:var(--accent-donker); }
-header.site .motto { font-style:italic; color:#8b7355; margin:.2rem 0 1rem; }
-nav.hoofd { border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.55rem 0; font-family:sans-serif; font-size:.8rem; letter-spacing:.25em; text-transform:uppercase; text-align:center; }
-nav.hoofd a { color:var(--accent); text-decoration:none; margin:0 .8rem; }
-nav.hoofd a.actief { color:var(--accent-donker); font-weight:700; }
+.site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; }
+.page-title { font-size:1.75rem; font-family:var(--bodyFont); text-align:center; margin:0 0 .4rem; font-weight:400; }
+.page-title a { color:var(--secondary); text-decoration:none; }
+.page-title a:hover { text-decoration:underline; }
+.site-subtitle { color:var(--secondary); letter-spacing:.04em; margin:0 0 1rem; font-size:1.05em; font-style:italic; }
+.site-nav { letter-spacing:.18em; text-transform:uppercase; border-top:1px solid var(--lightgray); border-bottom:1px solid var(--lightgray); margin:.8rem 0 2rem; padding:1rem 0; font-size:.82em; text-align:center; }
+.site-nav a { font-weight:500; color:var(--secondary); text-decoration:none; }
+.site-nav a:hover { text-decoration:underline; }
+.nav-sep { color:var(--gray); }
 .kruimel { font-family:sans-serif; font-size:.78rem; color:#999; margin:1rem 0 .2rem; }
 .kruimel a { color:var(--accent); text-decoration:none; }
 h2.titel { text-align:center; font-size:1.7rem; margin:.6rem 0 .2rem; }
@@ -26,8 +38,9 @@ h2.titel { text-align:center; font-size:1.7rem; margin:.6rem 0 .2rem; }
 .hfdlink:hover { border-color:var(--accent); background:var(--accent); color:#fff; }
 footer.site { margin-top:2.5rem; border-top:1px solid var(--border); padding-top:1rem; text-align:center; font-family:sans-serif; font-size:.72rem; color:#999; line-height:1.7; }
 </style></head><body><div class="omslag">
-<header class="site"><h1>De Volle Pinksterzegen</h1><div class="motto">Jezus volgen in de kracht van de Geest</div></header>
-<nav class="hoofd"><a>Blog</a> | <a>Boek</a> | <a class="actief" href="../">Bijbel</a></nav>
+<div class="site-header"><h2 class="page-title"><a href="/">De Volle Pinksterzegen</a></h2>
+<p class="site-subtitle">Jezus volgen in de kracht van de Geest</p>
+<nav class="site-nav"><a href="/blog">Blog</a><span class="nav-sep"> | </span><a href="/de-volle-pinksterzegen---boek">Boek</a><span class="nav-sep"> | </span><a href="/bereastudiebijbel/">Bijbel</a></nav></div>
 <div class="kruimel"><a href="../">BereaStudieBijbel</a> › Amos</div><h2 class="titel">Amos</h2><div class="ondertitel">Kies een hoofdstuk</div><div class="hfdgrid"><a class="hfdlink" href="1/">1</a><a class="hfdlink" href="2/">2</a><a class="hfdlink" href="3/">3</a><a class="hfdlink" href="4/">4</a><a class="hfdlink" href="5/">5</a><a class="hfdlink" href="6/">6</a><a class="hfdlink" href="7/">7</a><a class="hfdlink" href="8/">8</a><a class="hfdlink" href="9/">9</a></div>
 <footer class="site">BereaBijbel — hertaling van de Statenvertaling (publiek domein) · concept/proefontwerp<br>
 Verwijzingen: Treasury of Scripture Knowledge · Onderwerpen: Nave's &amp; Torrey's (publiek domein)</footer>

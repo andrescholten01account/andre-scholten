@@ -1,5 +1,5 @@
->En vaders, wek geen toorn bij uw kinderen op, maar voed hen op in de onderwijzing en de terechtwijzing van de Heere.
->~ Efeze 6:4 
+>En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
+>~ [Efeze 6:4](https://pinksterzegen.nl/bereastudiebijbel/efeze/6#v4) 
 
 Ik ben vader. Ik wil mijn kinderen dus opvoeden zoals God dat wil. Maar hoe? In de Bijbel staan daar best wel wat dingen over geschreven. Vooral in Spreuken. De tekst in Efeze spreekt mij erg aan. Hij is kort, maar toch staat er zoveel in. 
 
