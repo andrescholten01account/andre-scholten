@@ -1,18 +1,20 @@
 ## Vrucht van de Geest
 
-De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
-~ Galaten 5:22 
-
+Maar de vrucht van de Geest is liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
+~ [Galaten 5:22](https://pinksterzegen.nl/bereastudiebijbel/galaten/5#v22) 
 ## Kracht van de Geest
 
-En Jezus keerde door de kracht van de Geest terug naar Galilea, en het gerucht over Hem verspreidde zich door heel de omgeving.
-~ Lukas 4:14
+En Jezus keerde terug, door de kracht van de Geest, naar Galilea; en het gerucht over Hem verspreidde zich door het hele omliggende land.
+~ [Lukas 4:14](https://pinksterzegen.nl/bereastudiebijbel/lukas/4#v14) 
 
-maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u zult Mijn getuigen zijn, zowel in Jeruzalem als in heel Judea en Samaria en tot aan het uiterste van de aarde.
-~ Handelingen 1:8 
+maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u zult Mijn getuigen zijn, zowel in Jeruzalem als in heel Judea en Samaria, en tot aan het uiterste van de aarde.
+~ [Handelingen 1:8](https://pinksterzegen.nl/bereastudiebijbel/handelingen/1#v8) 
 
-Want ik durf het niet aan iets te zeggen wat Christus niet door mij teweeggebracht heeft, om de heidenen tot gehoorzaamheid *te brengen*, in woord en daad, door *de* kracht van tekenen en wonderen *en* door de kracht van de Geest van God. Zo heb ik dan van Jeruzalem af en rondom, tot Illyricum toe, het Evangelie van Christus vervuld.
-~ Romeinen 15:18-19 
+Want ik zou niet durven iets zeggen dat Christus niet door mij gewerkt heeft, tot gehoorzaamheid van de heidenen, met woorden en werken;
+~ [Romeinen 15:18](https://pinksterzegen.nl/bereastudiebijbel/romeinen/15#v18) (Berea)
+
+door kracht van tekenen en wonderen, en door de kracht van de Geest van God, zodat ik, van Jeruzalem af en rondom, tot Illyricum toe, het Evangelie van Christus vervuld heb.
+~ [Romeinen 15:19](https://pinksterzegen.nl/bereastudiebijbel/romeinen/15#v19) (Berea)
 
 %%
 [Meer teksten over de kracht van de Geest](https://www.google.com/search?client=firefox-b-d&q=Bijbeltekst%3A+Jezus+kwam+in+kracht+terug+uit+de+woestijn&udm=50&aep=10&ntc=1&mstk=AUtExfDyr9hvOV_uU4P5dyH7QccqoH79uPn68X11q-Y3spCdh7j7cspudSHmMA4buTsOcOpwYfm4q9y40aoPqrOrf742biCRt3xYaTocBBBwUGgX4Zswd7NtEroIhDdD1jY7b5iCZdmebx0eC8vT7x-rOw0irXazFxPHMheGXGFfFaSjYe96zHbvf2OIRWqX8_i4zvPoKRQmolMcKaExGOTJLVrHamWJ-i4Lm4s-rPutiM7OnD73n4qET1-60w&aioh=3&csuir=1&mtid=d21Gap-2CZyD9u8P1-PhmAw)
