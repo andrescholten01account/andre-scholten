@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jozua 20 — BereaStudieBijbel · De Volle Pinksterzegen</title>
+<style>
+  :root { --accent: #8a6d3b; --accent-donker: #6b5429; --bg: #fdfcf9; --bg-soft: #f7f3ea; --border: #e3ddd0; --tekst: #2b2b2b; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  header.site { text-align: center; padding: 1.2rem 0 .4rem; }
+  header.site h1 { font-size: 2rem; margin: 0; color: var(--accent-donker); letter-spacing: .01em; }
+  header.site .motto { font-style: italic; color: #8b7355; margin: .2rem 0 1rem; }
+  nav.hoofd { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: .55rem 0; font-family: sans-serif; font-size: .8rem; letter-spacing: .25em; text-transform: uppercase; text-align:center; }
+  nav.hoofd a { color: var(--accent); text-decoration: none; margin: 0 .8rem; }
+  nav.hoofd a.actief { color: var(--accent-donker); font-weight: 700; }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<header class="site">
+  <h1>De Volle Pinksterzegen</h1>
+  <div class="motto">Jezus volgen in de kracht van de Geest</div>
+</header>
+<nav class="hoofd">
+  <a>Blog</a> | <a>Boek</a> | <a class="actief">Bijbel</a>
+</nav>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">Jozua</a> › hoofdstuk 20</div>
+<h2 class="hfd">Jozua 20</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "Jozua 20", "boek_naam": "Jozua", "hfd_nr": "20", "zelf_abbr": "Joz 20", "totaal": 24, "basis_url": "https://pinksterzegen.nl/bereastudiebijbel/jozua/20", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../19/", "label": "‹ Jozua 19"}, "volgende": {"href": "../21/", "label": "Jozua 21 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}, {"n": "11", "href": "../11/"}, {"n": "12", "href": "../12/"}, {"n": "13", "href": "../13/"}, {"n": "14", "href": "../14/"}, {"n": "15", "href": "../15/"}, {"n": "16", "href": "../16/"}, {"n": "17", "href": "../17/"}, {"n": "18", "href": "../18/"}, {"n": "19", "href": "../19/"}, {"n": "20", "href": "../20/"}, {"n": "21", "href": "../21/"}, {"n": "22", "href": "../22/"}, {"n": "23", "href": "../23/"}, {"n": "24", "href": "../24/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "Verder sprak de HEERE tot Jozua en zei:", "2": "Spreek tot de kinderen van Israël en zeg: Geef voor u de vrijsteden aan, waarvan Ik met u gesproken heb door de dienst van Mozes.", "3": "Zodat daarheen kan vluchten de doodslager, die iemand door een vergissing, niet met opzet, doodt; opdat zij u tot een toevlucht zijn voor de bloedwreker.", "4": "Als hij vlucht naar één van die steden, dan zal hij staan aan de deur van de stadspoort, en hij zal zijn woorden spreken voor de oren van de oudsten van die stad; dan zullen zij hem bij zich in de stad opnemen, en hem een plaats geven, zodat hij bij hen kan wonen.", "5": "En als de bloedwreker hem achtervolgt, dan zullen zij de doodslager niet aan hem uitleveren, omdat hij zijn naaste niet met opzet gedood heeft, en hem daarvoor niet gehaat heeft.", "6": "En hij zal in die stad wonen, totdat hij voor de vergadering heeft gestaan voor het gericht, totdat de hogepriester sterft die er in die dagen zal zijn; dan zal de doodslager terugkeren en komen naar zijn stad, en naar zijn huis, naar de stad waaruit hij gevlucht is.", "7": "Toen wijdden zij Kedes in Galilea, op het gebergte van Naftali, en Sichem op het gebergte van Efraïm, en Kirjath-arba, dat is Hebron, op het gebergte van Juda.", "8": "En aan de andere kant van de Jordaan, bij Jericho oostwaarts, gaven zij Bezer in de woestijn, in het platte land, uit de stam van Ruben; en Ramoth in Gilead, uit de stam van Gad; en Golan in Bazan, uit de stam van Manasse.", "9": "Dit nu zijn de steden, die bestemd waren voor alle kinderen van Israël, en voor de vreemdeling die te midden van hen woont, opdat daarheen kan vluchten ieder die iemand door een vergissing doodt; opdat hij niet sterft door de hand van de bloedwreker, totdat hij voor de vergadering heeft gestaan."}, "SV": {"1": "Verder sprak de HEERE tot Jozua, zeggende:", "2": "Spreek tot de kinderen Israëls, zeggende: Geeft voor ulieden de vrijsteden, waarvan Ik met ulieden gesproken heb door den dienst van Mozes.", "3": "Dat daarhenen vliede de doodslager, die een ziel door dwaling, niet met wetenschap, verslaat; opdat zij ulieden zijn tot een toevlucht voor den bloedwreker.", "4": "Als hij vlucht tot een van die steden, zo zal hij staan aan de deur der stadspoort, en hij zal zijn woorden spreken voor de oren van de oudsten derzelver stad; dan zullen zij hem tot zich in de stad nemen, en hem plaats geven, dat hij bij hen wone.", "5": "En als de bloedwreker hem najaagt, zo zullen zij den doodslager in zijn hand niet overgeven, dewijl hij zijn naaste niet met wetenschap verslagen heeft, en hem gisteren *en* eergisteren niet heeft gehaat.", "6": "En hij zal in dezelve stad wonen, totdat hij sta voor het aangezicht der vergadering voor het gericht, totdat de hogepriester sterve, die in die dagen zijn zal; dan zal de doodslager wederkeren, en komen tot zijn stad, en tot zijn huis, tot de stad, van waar hij gevloden is.", "7": "Toen heiligden zij Kedes in Galilea, op het gebergte van Nafthali, en Sichem op het gebergte van Efraïm, en Kirjath-arba, deze is Hebron, op het gebergte van Juda.", "8": "En aan gene zijde van de Jordaan, van Jericho oostwaarts, gaven zij Bezer in de woestijn, in het platte land, van den stam van Ruben; en Ramoth in Gilead, van den stam van Gad; en Golan in Bazan, van den stam van Manasse.", "9": "Dit nu zijn de steden, die bestemd waren voor al de kinderen Israëls, en voor den vreemdeling, die in het midden van henlieden verkeert, opdat derwaarts vluchte al wie een ziel slaat door dwaling; opdat hij niet sterve door de hand des bloedwrekers, totdat hij voor het aangezicht der vergadering gestaan zal hebben."}, "KJV": {"1": "The LORD also spake unto Joshua, saying,", "2": "Speak to the children of Israel, saying, Appoint out for you cities of refuge, whereof I spake unto you by the hand of Moses:", "3": "That the slayer that killeth *any* person unawares *and* unwittingly may flee thither: and they shall be your refuge from the avenger of blood.", "4": "And when he that doth flee unto one of those cities shall stand at the entering of the gate of the city, and shall declare his cause in the ears of the elders of that city, they shall take him into the city unto them, and give him a place, that he may dwell", "5": "And if the avenger of blood pursue after him, then they shall not deliver the slayer up into his hand; because he smote his neighbour unwittingly, and hated him not beforetime.", "6": "And he shall dwell in that city, until he stand before the congregation for judgment, *and* until the death of the high priest that shall be in those days: then shall the slayer return, and come unto his own city, and unto his own house, unto the city from whence he fled.", "7": "And they appointed Kedesh in Galilee in mount Naphtali, and Shechem in mount Ephraim, and Kirjatharba, which *is* Hebron, in the mountain of Judah.", "8": "And on the other side Jordan by Jericho eastward, they assigned Bezer in the wilderness upon the plain out of the tribe of Reuben, and Ramoth in Gilead out of the tribe of Gad, and Golan in Bashan out of the tribe of Manasseh.", "9": "These were the cities appointed for all the children of Israel, and for the stranger that sojourneth among them, that whosoever killeth *any* person at unawares might flee thither, and not die by the hand of the avenger of blood, until he stood before the congregation."}}, "tsk": {"1": [{"kopje": "sprak", "refs": ["Joz 5:14", "Joz 6:2", "Joz 7:10", "Joz 13:1-7"]}], "2": [{"kopje": "Geef", "refs": ["Ex 21:13", "Ex 21:14", "Num 35:6", "Num 35:11-14", "Deut 4:41-43", "Deut 19:2-13", "Rom 8:1", "Rom 8:33", "Rom 8:34", "Hebr 6:18", "Hebr 6:19"]}, {"kopje": "de vrijsteden", "refs": ["Num 35:15-24"]}], "4": [{"kopje": "aan de deur", "refs": ["Ruth 4:1", "Ruth 4:2", "Job 5:4", "Job 29:7", "Spr 31:23", "Jer 38:7"]}, {"kopje": "opnemen", "refs": ["Ps 26:9"]}, {"kopje": "dan zal hij staan", "refs": ["Hebr 6:18"]}], "6": [{"kopje": "totdat", "refs": ["Num 35:12", "Num 35:24", "Num 35:25", "Hebr 9:26"]}], "7": [{"kopje": "Kedes", "refs": ["Joz 21:32", "1 Kron 6:76"]}, {"kopje": "Sichem", "refs": ["Joz 21:21", "Gen 33:18", "Gen 33:19", "2 Kron 10:1"]}, {"kopje": "Kirjath-arba", "refs": ["Joz 14:15", "Joz 21:11", "Joz 21:13"]}, {"kopje": "gebergte", "refs": ["Luk 1:39"]}], "8": [{"kopje": "Bezer", "refs": ["Joz 21:36", "Deut 4:43", "1 Kron 6:78"]}, {"kopje": "Ramoth", "refs": ["Joz 21:38", "1 Kon 22:3", "1 Kon 22:4", "1 Kon 22:6", "1 Kron 6:80"]}, {"kopje": "Golan", "refs": ["Joz 21:27"]}], "9": [{"kopje": "de steden", "refs": ["Num 35:15"]}, {"kopje": "totdat hij heeft gestaan", "refs": ["Joz 20:4", "Joz 20:6"]}]}, "onderwerpen": {"9": [{"onderwerp": "Vreemdelingen", "sub": "Rechten van", "totaal": 4, "positie": 2, "vorige": "Num 35:15", "volgende": "Ezech 47:22", "alle": ["Num 35:15", "Ezech 47:22", "Ezech 47:23"], "meer": 0}, {"onderwerp": "Bloedwreker", "sub": "Schriftplaatsen aangaande", "totaal": 32, "positie": 32, "vorige": "Joz 20:8", "volgende": null, "alle": ["Gen 9:5", "Gen 9:6", "Num 35:19", "Num 35:20", "Num 35:21", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Num 35:29", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Deut 19:11", "Deut 19:12", "Deut 19:13", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:8"], "meer": 0}, {"onderwerp": "Doodslag", "sub": "Bij toeval", "totaal": 38, "positie": 38, "vorige": "Joz 20:8", "volgende": null, "alle": ["Ex 21:28", "Ex 21:29", "Ex 21:30", "Ex 21:31", "Ex 21:32", "Num 35:11", "Num 35:12", "Num 35:13", "Num 35:14", "Num 35:15", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Deut 4:41", "Deut 4:42", "Deut 4:43", "Deut 19:2", "Deut 19:3", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:8"], "meer": 0}], "1": [{"onderwerp": "Bloedwreker", "sub": "Schriftplaatsen aangaande", "totaal": 32, "positie": 24, "vorige": "Deut 19:13", "volgende": "Joz 20:2", "alle": ["Gen 9:5", "Gen 9:6", "Num 35:19", "Num 35:20", "Num 35:21", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Num 35:29", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Deut 19:11", "Deut 19:12", "Deut 19:13", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}, {"onderwerp": "Doodslag", "sub": "Bij toeval", "totaal": 38, "positie": 30, "vorige": "Deut 19:10", "volgende": "Joz 20:2", "alle": ["Ex 21:28", "Ex 21:29", "Ex 21:30", "Ex 21:31", "Ex 21:32", "Num 35:11", "Num 35:12", "Num 35:13", "Num 35:14", "Num 35:15", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Deut 4:41", "Deut 4:42", "Deut 4:43", "Deut 19:2", "Deut 19:3", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}], "2": [{"onderwerp": "Bloedwreker", "sub": "Schriftplaatsen aangaande", "totaal": 32, "positie": 25, "vorige": "Joz 20:1", "volgende": "Joz 20:3", "alle": ["Gen 9:5", "Gen 9:6", "Num 35:19", "Num 35:20", "Num 35:21", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Num 35:29", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Deut 19:11", "Deut 19:12", "Deut 19:13", "Joz 20:1", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}, {"onderwerp": "Doodslag", "sub": "Bij toeval", "totaal": 38, "positie": 31, "vorige": "Joz 20:1", "volgende": "Joz 20:3", "alle": ["Ex 21:28", "Ex 21:29", "Ex 21:30", "Ex 21:31", "Ex 21:32", "Num 35:11", "Num 35:12", "Num 35:13", "Num 35:14", "Num 35:15", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Deut 4:41", "Deut 4:42", "Deut 4:43", "Deut 19:2", "Deut 19:3", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Joz 20:1", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}], "3": [{"onderwerp": "Bloedwreker", "sub": "Schriftplaatsen aangaande", "totaal": 32, "positie": 26, "vorige": "Joz 20:2", "volgende": "Joz 20:4", "alle": ["Gen 9:5", "Gen 9:6", "Num 35:19", "Num 35:20", "Num 35:21", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Num 35:29", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Deut 19:11", "Deut 19:12", "Deut 19:13", "Joz 20:1", "Joz 20:2", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}, {"onderwerp": "Doodslag", "sub": "Bij toeval", "totaal": 38, "positie": 32, "vorige": "Joz 20:2", "volgende": "Joz 20:4", "alle": ["Ex 21:28", "Ex 21:29", "Ex 21:30", "Ex 21:31", "Ex 21:32", "Num 35:11", "Num 35:12", "Num 35:13", "Num 35:14", "Num 35:15", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Deut 4:41", "Deut 4:42", "Deut 4:43", "Deut 19:2", "Deut 19:3", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Joz 20:1", "Joz 20:2", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}], "4": [{"onderwerp": "Bloedwreker", "sub": "Schriftplaatsen aangaande", "totaal": 32, "positie": 27, "vorige": "Joz 20:3", "volgende": "Joz 20:5", "alle": ["Gen 9:5", "Gen 9:6", "Num 35:19", "Num 35:20", "Num 35:21", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Num 35:29", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Deut 19:11", "Deut 19:12", "Deut 19:13", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}, {"onderwerp": "Doodslag", "sub": "Bij toeval", "totaal": 38, "positie": 33, "vorige": "Joz 20:3", "volgende": "Joz 20:5", "alle": ["Ex 21:28", "Ex 21:29", "Ex 21:30", "Ex 21:31", "Ex 21:32", "Num 35:11", "Num 35:12", "Num 35:13", "Num 35:14", "Num 35:15", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Deut 4:41", "Deut 4:42", "Deut 4:43", "Deut 19:2", "Deut 19:3", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}], "5": [{"onderwerp": "Bloedwreker", "sub": "Schriftplaatsen aangaande", "totaal": 32, "positie": 28, "vorige": "Joz 20:4", "volgende": "Joz 20:6", "alle": ["Gen 9:5", "Gen 9:6", "Num 35:19", "Num 35:20", "Num 35:21", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Num 35:29", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Deut 19:11", "Deut 19:12", "Deut 19:13", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:6", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}, {"onderwerp": "Doodslag", "sub": "Bij toeval", "totaal": 38, "positie": 34, "vorige": "Joz 20:4", "volgende": "Joz 20:6", "alle": ["Ex 21:28", "Ex 21:29", "Ex 21:30", "Ex 21:31", "Ex 21:32", "Num 35:11", "Num 35:12", "Num 35:13", "Num 35:14", "Num 35:15", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Deut 4:41", "Deut 4:42", "Deut 4:43", "Deut 19:2", "Deut 19:3", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:6", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}], "6": [{"onderwerp": "Bloedwreker", "sub": "Schriftplaatsen aangaande", "totaal": 32, "positie": 29, "vorige": "Joz 20:5", "volgende": "Joz 20:7", "alle": ["Gen 9:5", "Gen 9:6", "Num 35:19", "Num 35:20", "Num 35:21", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Num 35:29", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Deut 19:11", "Deut 19:12", "Deut 19:13", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}, {"onderwerp": "Doodslag", "sub": "Bij toeval", "totaal": 38, "positie": 35, "vorige": "Joz 20:5", "volgende": "Joz 20:7", "alle": ["Ex 21:28", "Ex 21:29", "Ex 21:30", "Ex 21:31", "Ex 21:32", "Num 35:11", "Num 35:12", "Num 35:13", "Num 35:14", "Num 35:15", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Deut 4:41", "Deut 4:42", "Deut 4:43", "Deut 19:2", "Deut 19:3", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:7", "Joz 20:8", "Joz 20:9"], "meer": 0}], "7": [{"onderwerp": "Bloedwreker", "sub": "Schriftplaatsen aangaande", "totaal": 32, "positie": 30, "vorige": "Joz 20:6", "volgende": "Joz 20:8", "alle": ["Gen 9:5", "Gen 9:6", "Num 35:19", "Num 35:20", "Num 35:21", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Num 35:29", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Deut 19:11", "Deut 19:12", "Deut 19:13", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:8", "Joz 20:9"], "meer": 0}, {"onderwerp": "Doodslag", "sub": "Bij toeval", "totaal": 38, "positie": 36, "vorige": "Joz 20:6", "volgende": "Joz 20:8", "alle": ["Ex 21:28", "Ex 21:29", "Ex 21:30", "Ex 21:31", "Ex 21:32", "Num 35:11", "Num 35:12", "Num 35:13", "Num 35:14", "Num 35:15", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Deut 4:41", "Deut 4:42", "Deut 4:43", "Deut 19:2", "Deut 19:3", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:8", "Joz 20:9"], "meer": 0}], "8": [{"onderwerp": "Bloedwreker", "sub": "Schriftplaatsen aangaande", "totaal": 32, "positie": 31, "vorige": "Joz 20:7", "volgende": "Joz 20:9", "alle": ["Gen 9:5", "Gen 9:6", "Num 35:19", "Num 35:20", "Num 35:21", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Num 35:29", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Deut 19:11", "Deut 19:12", "Deut 19:13", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:9"], "meer": 0}, {"onderwerp": "Doodslag", "sub": "Bij toeval", "totaal": 38, "positie": 37, "vorige": "Joz 20:7", "volgende": "Joz 20:9", "alle": ["Ex 21:28", "Ex 21:29", "Ex 21:30", "Ex 21:31", "Ex 21:32", "Num 35:11", "Num 35:12", "Num 35:13", "Num 35:14", "Num 35:15", "Num 35:22", "Num 35:23", "Num 35:24", "Num 35:25", "Num 35:26", "Num 35:27", "Num 35:28", "Deut 4:41", "Deut 4:42", "Deut 4:43", "Deut 19:2", "Deut 19:3", "Deut 19:4", "Deut 19:5", "Deut 19:6", "Deut 19:7", "Deut 19:8", "Deut 19:9", "Deut 19:10", "Joz 20:1", "Joz 20:2", "Joz 20:3", "Joz 20:4", "Joz 20:5", "Joz 20:6", "Joz 20:7", "Joz 20:9"], "meer": 0}, {"onderwerp": "Ramoth-Gilead", "sub": "Een stad van Gad, en een vrijstad", "totaal": 3, "positie": 2, "vorige": "Deut 4:43", "volgende": "1 Kron 6:80", "alle": ["Deut 4:43", "1 Kron 6:80"], "meer": 0}]}, "extern": {"Deut 4:41": "Toen zonderde Mozes drie steden af, aan deze kant van de Jordaan, tegen de opgang van de zon;", "Num 35:29": "En deze dingen zullen voor u zijn tot een inzetting van recht, voor uw geslachten, in al uw woonplaatsen.", "Gen 33:19": "En hij kocht een stuk van het veld, waar hij zijn tent had opgezet, van de zonen van Hemor, de vader van Sichem, voor honderd stukken van het geld.", "Ps 26:9": "Raap mijn ziel niet weg met de zondaars, en mijn leven niet met de mannen van het bloed;", "Ezech 47:22": "Maar het zal gebeuren dat u het door loting zult laten toevallen als erfenis, voor u en voor de vreemdelingen die in uw midden wonen, die in uw midden kinderen zullen krijgen; en zij zullen voor u zijn als een geboren inwoner onder de kinderen van Israël; zij zullen met u in erfenis vallen, in het midden van de stammen van Israël.", "Joz 21:27": "En aan de kinderen van Gerson, van de families van de Levieten, van de andere halve stam van Manasse, de vrijstad voor de doodslager, Golan in Bazan, en haar voorsteden, en Beesthera en haar voorsteden: twee steden.", "Deut 19:6": "opdat de bloedwreker de doodslager niet najaagt, wanneer zijn hart verhit is, en hem achterhaalt, omdat de weg te ver zou zijn, en hem doodslaat; terwijl er toch geen doodvonnis over hem geveld kan worden, want hij haatte hem niet van eerder en daarvoor.", "Jer 38:7": "Toen Ebed-Melech, de Moorman, een van de kamerlingen die toen in het huis van de koning was, hoorde dat zij Jeremia in de kuil gedaan hadden (de koning zat toen in de poort van Benjamin);", "Deut 4:43": "Bezer in de woestijn, in het effen land, voor de Rubenieten; en Ramoth in Gilead, voor de Gadieten; en Golan in Bazan, voor de Manassieten.", "Num 35:20": "Als hij hem ook uit haat gestoten heeft, of met opzet iets naar hem gegooid heeft, zodat hij sterft;", "Luk 1:39": "En Maria stond in diezelfde dagen op en reisde met haast naar het gebergte, naar een stad van Juda;", "1 Kon 22:6": "Toen verzamelde de koning van Israël de profeten, ongeveer vierhonderd man, en hij zei tegen hen: Zal ik tegen Ramoth in Gilead ten strijde trekken, of zal ik het nalaten? En zij zeiden: Trek op, want de Heere zal ze in de hand van de koning geven.", "Deut 19:10": "opdat het bloed van de onschuldige niet vergoten wordt te midden van uw land, dat de HEERE, uw God, u als erfdeel geeft, en er geen bloedschuld op u zou zijn.", "Deut 19:11": "Maar wanneer er iemand zal zijn die zijn naaste haat, en hem een hinderlaag legt, en tegen hem opstaat, en hem doodslaat zodat hij sterft; en vlucht naar een van die steden;", "Num 35:14": "Drie van deze vrijsteden zult u geven aan deze kant van de Jordaan, en drie van deze steden zult u geven in het land Kanaän; vrijsteden zullen het zijn.", "Num 35:15": "Deze zes steden zullen voor de Israëlieten, en voor de vreemdeling, en de bijwoner in hun midden, tot een toevlucht zijn; opdat daarheen vlucht wie iemand bij ongeluk doodslaat.", "Deut 19:13": "Uw oog zal hem niet ontzien; maar u zult het bloed van de onschuldige uit Israël wegdoen, opdat het u goed gaat.", "Num 35:25": "En de vergadering zal de doodslager redden uit de hand van de bloedwreker, en de vergadering zal hem laten terugkeren naar zijn vrijstad, waarheen hij gevlucht was; en hij zal daarin blijven tot de dood van de hogepriester, die met de heilige olie gezalfd is.", "Ruth 4:1": "Boaz ging naar de poort en zette zich daar neer. En zie, de losser, van wie Boaz gesproken had, kwam voorbij. Toen zei hij: Kom eens hier, zet u hier neer, u daar! En hij kwam erbij en zette zich neer.", "Joz 21:21": "En zij gaven hun Sichem, een vrijstad voor de doodslager, en haar voorsteden, op het gebergte van Efraïm, en Gezer en haar voorsteden;", "Gen 9:6": "Wie het bloed van een mens vergiet, diens bloed zal door de mens vergoten worden; want God heeft de mens naar Zijn beeld gemaakt.", "1 Kron 6:76": "En van de stam van Nafthali: Kedes in Galilea, en haar voorsteden, en Hammon en haar voorsteden, en Kirjathaim en haar voorsteden.", "Joz 14:15": "De naam van Hebron was vroeger Kirjath-Arba; die Arba een groot man geweest is onder de Enakieten. En het land had rust van de oorlog.", "Num 35:23": "Of zonder hem te zien met enige steen, waardoor men zou kunnen sterven, en hij die op hem heeft laten vallen, zodat hij sterft, terwijl hij toch geen vijand van hem was, en ook geen kwaad zocht;", "Job 5:4": "Ver waren zijn zonen van heil; en zij werden verbrijzeld in de poort, en er was geen verlosser.", "Num 35:24": "Dan zal de vergadering rechtspreken tussen degene die sloeg en de bloedwreker, volgens deze regels.", "Joz 21:13": "Zo gaven zij aan de kinderen van de priester Aäron de vrijstad voor de doodslager, Hebron en haar voorsteden, en Libna en haar voorsteden;", "Deut 19:2": "dan zult u zich drie steden afzonderen, in het midden van uw land, dat de HEERE, uw God, u geven zal om dat erfelijk te bezitten.", "Num 35:6": "De steden nu, die u aan de Levieten zult geven, zullen zes vrijsteden zijn, die u aanwijzen zult, opdat de doodslager daarheen vlucht; en daarboven zult u hun tweeënveertig steden geven.", "1 Kon 22:4": "Daarna zei hij tegen Josafat: Zult u met mij optrekken naar de strijd bij Ramoth in Gilead? En Josafat zei tegen de koning van Israël: Ik zal zijn zoals u bent, mijn volk zoals uw volk, mijn paarden zoals uw paarden.", "Joz 5:14": "En Hij zei: Nee, maar Ik ben de Vorst van het leger van de HEERE: Ik ben nu gekomen! Toen viel Jozua op zijn aangezicht ter aarde en aanbad, en zei tegen Hem: Wat spreekt mijn Heere tegen Zijn knecht?", "Joz 21:32": "En van de stam van Nafthali, de vrijstad voor de doodslager, Kedes in Galilea, en haar voorsteden, en Hammoth-dor en haar voorsteden, en Karthan en haar voorsteden: drie steden.", "1 Kron 6:80": "En van de stam van Gad: Ramoth in Gilead, en haar voorsteden, en Mahanaim en haar voorsteden,", "Num 35:26": "Maar als de doodslager op enig moment gaat buiten de grens van zijn vrijstad, waarheen hij gevlucht was,", "Num 35:13": "En van deze steden die u geven zult, zullen zes vrijsteden voor u zijn.", "Num 35:11": "Dan zult u steden voor u aanwijzen, die u tot vrijsteden zullen zijn, opdat de doodslager daarheen vlucht, die iemand bij ongeluk doodgeslagen heeft.", "Joz 6:2": "Toen zei de HEERE tegen Jozua: Zie, Ik heb Jericho met haar koning en strijdbare helden in uw hand gegeven.", "Joz 21:11": "Zo gaven zij hun de stad van Arba, de vader van Anok (dat is Hebron), op het gebergte van Juda, en de voorsteden rondom haar.", "Rom 8:1": "Er is dan nu geen veroordeling voor hen die in Christus Jezus zijn, die niet naar het vlees wandelen, maar naar de Geest.", "Deut 19:4": "En dit is de zaak van de doodslager, die daarheen zal vluchten om in leven te blijven: wie zijn naaste zal hebben doodgeslagen door onwetendheid, terwijl hij hem toch van eerder en daarvoor niet haatte;", "Ruth 4:2": "En hij nam tien mannen van de oudsten van de stad en zei: Zet u hier neer; en zij zetten zich neer.", "Num 35:27": "En de bloedwreker hem vindt buiten de grens van zijn vrijstad; als de bloedwreker de doodslager dan doodt, zal het hem geen bloedschuld zijn.", "Deut 4:42": "Opdat daarheen kon vluchten de doodslager, die zijn naaste onopzettelijk doodslaat, die hij tot dan toe niet haatte; dat hij naar een van deze steden kon vluchten en in leven bleef;", "1 Kron 6:78": "En aan de overkant van de Jordaan tegenover Jericho, aan de oostkant van de Jordaan, van de stam van Ruben: Bezer in de woestijn, en haar voorsteden, en Jahza en haar voorsteden,", "Joz 7:10": "Toen zei de HEERE tegen Jozua: Sta op; waarom ligt u zo neer op uw gezicht?", "Num 35:21": "Of hem uit vijandschap met zijn hand geslagen heeft, zodat hij sterft; dan zal degene die sloeg zeker gedood worden, hij is een doodslager; de bloedwreker zal deze doodslager doden, wanneer hij hem ontmoet.", "Ezech 47:23": "Ook zal het gebeuren dat u, in de stam waarbij de vreemdeling woont, hem daar zijn erfenis zult geven, spreekt de Heere HEERE.", "2 Kron 10:1": "Rehabeam ging naar Sichem; want heel Israël was naar Sichem gekomen om hem koning te maken.", "Hebr 6:19": "welke hoop wij hebben als een anker van de ziel, dat zeker en vast is, en dat ingaat in het binnenste van het voorhangsel;", "Joz 21:36": "En van de stam van Ruben, Bezer en haar voorsteden, en Jahza en haar voorsteden;", "Gen 9:5": "En zeker, Ik zal uw bloed, het bloed van uw zielen, opeisen; van de hand van elk dier zal Ik het opeisen; ook van de hand van de mens, van de hand van ieders broeder zal Ik de ziel van de mens opeisen.", "Hebr 6:18": "opdat wij, door twee onveranderlijke dingen, waarin het onmogelijk is dat God liegt, een sterke troost zouden hebben, wij namelijk, die de toevlucht genomen hebben om de hoop die ons voorgesteld is vast te houden;", "Deut 19:7": "Daarom gebied ik u: u zult u drie steden afzonderen.", "Deut 19:12": "dan zullen de oudsten van zijn stad iemand sturen, en hem vandaar laten halen, en zij zullen hem overgeven in de hand van de bloedwreker, zodat hij sterft.", "Job 29:7": "Toen ik uitging naar de poort door de stad, toen ik mijn stoel op de straat liet klaarzetten.", "Rom 8:34": "Wie is het die veroordeelt? Christus is het Die gestorven is; ja, meer nog, Die ook opgewekt is, Die ook aan de rechterhand van God is, Die ook voor ons bidt.", "Hebr 9:26": "(anders had Hij dikwijls moeten lijden, vanaf de grondlegging van de wereld) maar nu is Hij eenmaal, bij de voleinding van de eeuwen, geopenbaard, om de zonde teniet te doen, door Zijn eigen offer.", "Spr 31:23": "Nun. Haar man is bekend in de poorten, als hij zit met de oudsten van het land.", "Rom 8:33": "Wie zal een beschuldiging inbrengen tegen de uitverkorenen van God? God is het Die rechtvaardigt.", "Deut 19:8": "En als de HEERE, uw God, uw gebied zal verruimen, zoals Hij uw vaderen gezworen heeft, en u al dat land geven zal dat Hij gesproken heeft aan uw vaderen te geven;", "Num 35:19": "De bloedwreker zal de doodslager doden; wanneer hij hem ontmoet, zal hij hem doden.", "Deut 19:3": "U zult u de weg gereedmaken, en het gebied van uw land, dat de HEERE, uw God, u zal doen erven, in drieën verdelen; dit nu zal zo zijn, opdat iedere doodslager daarheen kan vluchten.", "Joz 21:38": "Van de stam van Gad nu, de vrijstad voor de doodslager, Ramoth in Gilead, en haar voorsteden, en Mahanaim en haar voorsteden;", "Num 35:12": "En deze steden zullen u tot een toevlucht zijn voor de bloedwreker; opdat de doodslager niet sterft, totdat hij voor de vergadering voor het gericht heeft gestaan.", "1 Kon 22:3": "Toen zei de koning van Israël tegen zijn knechten: Weet u dat Ramoth in Gilead van ons is? En wij blijven stil, zonder het uit de hand van de koning van Syrië te nemen.", "Num 35:22": "Maar als hij hem onverwachts, zonder vijandschap, gestoten heeft, of zonder opzet enig voorwerp naar hem gegooid heeft;", "Deut 19:9": "(wanneer u dit hele gebod zult onderhouden om te doen wat ik u vandaag gebied, door de HEERE, uw God, lief te hebben en alle dagen in Zijn wegen te wandelen) dan zult u zich nog drie steden toevoegen bij deze drie;", "Gen 33:18": "En Jakob kwam veilig aan bij de stad Sichem, die in het land Kanaän ligt, toen hij vanuit Paddan-Aram kwam; en hij sloeg zijn tenten op tegenover de stad.", "Deut 19:5": "zoals wanneer iemand met zijn naaste het bos in zal zijn gegaan om hout te hakken, en zijn hand met de bijl wordt uitgehaald om hout af te hakken, en het ijzer schiet af van de steel en treft zijn naaste, zodat hij sterft; die zal naar een van deze steden vluchten en in leven blijven;", "Num 35:28": "Want hij had in zijn vrijstad moeten blijven tot de dood van de hogepriester; maar na de dood van de hogepriester zal de doodslager terugkeren naar het land van zijn bezitting."}, "noten": {}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${md(D.vertalingen[vertaling][n] || '—')}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+function paneelInhoud(n, tab) {
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : 'vertalingen');
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  const tekst = popupTekst(ref);
+  if (!tekst) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${md(tekst)}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>

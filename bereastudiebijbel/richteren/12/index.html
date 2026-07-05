@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Richteren 12 — BereaStudieBijbel · De Volle Pinksterzegen</title>
+<style>
+  :root { --accent: #8a6d3b; --accent-donker: #6b5429; --bg: #fdfcf9; --bg-soft: #f7f3ea; --border: #e3ddd0; --tekst: #2b2b2b; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  header.site { text-align: center; padding: 1.2rem 0 .4rem; }
+  header.site h1 { font-size: 2rem; margin: 0; color: var(--accent-donker); letter-spacing: .01em; }
+  header.site .motto { font-style: italic; color: #8b7355; margin: .2rem 0 1rem; }
+  nav.hoofd { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: .55rem 0; font-family: sans-serif; font-size: .8rem; letter-spacing: .25em; text-transform: uppercase; text-align:center; }
+  nav.hoofd a { color: var(--accent); text-decoration: none; margin: 0 .8rem; }
+  nav.hoofd a.actief { color: var(--accent-donker); font-weight: 700; }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<header class="site">
+  <h1>De Volle Pinksterzegen</h1>
+  <div class="motto">Jezus volgen in de kracht van de Geest</div>
+</header>
+<nav class="hoofd">
+  <a>Blog</a> | <a>Boek</a> | <a class="actief">Bijbel</a>
+</nav>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">Richteren</a> › hoofdstuk 12</div>
+<h2 class="hfd">Richteren 12</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "Richteren 12", "boek_naam": "Richteren", "hfd_nr": "12", "zelf_abbr": "Richt 12", "totaal": 21, "basis_url": "https://pinksterzegen.nl/bereastudiebijbel/richteren/12", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../11/", "label": "‹ Richteren 11"}, "volgende": {"href": "../13/", "label": "Richteren 13 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}, {"n": "11", "href": "../11/"}, {"n": "12", "href": "../12/"}, {"n": "13", "href": "../13/"}, {"n": "14", "href": "../14/"}, {"n": "15", "href": "../15/"}, {"n": "16", "href": "../16/"}, {"n": "17", "href": "../17/"}, {"n": "18", "href": "../18/"}, {"n": "19", "href": "../19/"}, {"n": "20", "href": "../20/"}, {"n": "21", "href": "../21/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "Toen werden de mannen van Efraïm bijeengeroepen, en zij trokken naar het noorden; en zij zeiden tegen Jeftha: Waarom bent u doorgetrokken om te strijden tegen de kinderen van Ammon, en hebt u ons niet geroepen om met u mee te gaan? Wij zullen uw huis boven u met vuur verbranden.", "2": "En Jeftha zei tegen hen: Ik en mijn volk waren in hevige strijd met de kinderen van Ammon; en ik heb u geroepen, maar u hebt mij niet uit hun hand verlost.", "3": "Toen ik nu zag dat u mij niet verloste, zette ik mijn leven op het spel en trok tegen de kinderen van Ammon, en de HEERE gaf hen in mijn hand; waarom bent u dan vandaag naar mij toegekomen om tegen mij te strijden?", "4": "En Jeftha verzamelde alle mannen van Gilead, en streed met Efraïm; en de mannen van Gilead versloegen Efraïm, want de Gileadieten zeiden: U bent vluchtelingen van Efraïm, [wonend] tussen Efraïm en tussen Manasse.", "5": "Want de Gileadieten namen de Efraïmieten de doorwaadbare plaatsen van de Jordaan af; en het gebeurde, toen de vluchtelingen van Efraïm zeiden: Laat mij oversteken, dat de mannen van Gilead tegen hem zeiden: Bent u een Efraïmiet? En wanneer hij zei: Nee;", "6": "dan zeiden zij tegen hem: Zeg dan Schibboleth; maar hij zei: Sibbolet, en kon het zo niet goed uitspreken; dan grepen zij hem en doodden hem bij de doorwaadbare plaatsen van de Jordaan, zodat er in die tijd van Efraïm tweeënveertigduizend vielen.", "7": "Jeftha nu richtte Israël zes jaren; en Jeftha, de Gileadiet, stierf, en werd begraven in de steden van Gilead.", "8": "En na hem richtte Ebzan uit Bethlehem Israël.", "9": "En hij had dertig zonen; en hij zond dertig dochters naar buiten, en bracht dertig dochters van buiten binnen voor zijn zonen; en hij richtte Israël zeven jaren.", "10": "Toen stierf Ebzan, en werd begraven te Bethlehem.", "11": "En na hem richtte Elon, de Zebuloniet, Israël, en hij richtte Israël tien jaren.", "12": "En Elon, de Zebuloniet, stierf, en werd begraven te Ajalon, in het land van Zebulon.", "13": "En na hem richtte Abdon, een zoon van Hillel, de Pirhathoniet, Israël.", "14": "En hij had veertig zonen, en dertig kleinzonen, die op zeventig ezelsveulens reden; en hij richtte Israël acht jaren.", "15": "Toen stierf Abdon, een zoon van Hillel, de Pirhathoniet; en hij werd begraven te Pirhathon, in het land van Efraïm, op de berg van de Amalekiet."}, "SV": {"1": "Toen werden de mannen van Efraïm bijeengeroepen, en trokken over naar het noorden; en zij zeiden tot Jeftha: Waarom zijt gij doorgetogen om te strijden tegen de kinderen Ammons, en hebt ons niet geroepen, om met u te gaan? wij zullen uw huis met u met vuur verbranden.", "2": "En Jeftha zeide tot hen: Ik en mijn volk waren zeer twistig met de kinderen Ammons; en ik heb ulieden geroepen, maar gij hebt mij uit hun hand niet verlost.", "3": "Als ik nu zag, dat gij niet verlostet, zo stelde ik mijn ziel in mijn hand, en toog door tot de kinderen Ammons, en de HEERE gaf hen in mijn hand; waarom zijt gij dan te dezen dage tot mij opgekomen, om tegen mij te strijden?", "4": "En Jeftha vergaderde alle mannen van Gilead, en streed met Efraïm; en de mannen van Gilead sloegen Efraïm, want de Gileadieten, zijnde tussen Efraïm *en* tussen Manasse, zeiden: Gijlieden zijt vluchtelingen van Efraïm.", "5": "want de Gileadieten namen den Efraïmieten de veren van de Jordaan af; en het geschiedde, als de vluchtelingen van Efraïm zeiden: Laat mij overgaan; zo zeiden de mannen van Gilead tot hem: Zijt gij een Efraïmiet? wanneer hij zeide: Neen;", "6": "Zo zeiden zij tot hem: Zeg nu Schibboleth; maar hij zeide: Sibbolet, en kon het alzo niet recht spreken; zo grepen zij hem, en versloegen hem aan de veren van de Jordaan, dat te dier tijd van Efraïm vielen twee en veertig duizend.", "7": "Jeftha nu richtte Israël zes jaren; en Jeftha, de Gileadiet, stierf, en werd begraven in de steden van Gilead.", "8": "En na hem richtte Israël Ebzan, van Bethlehem.", "9": "En hij had dertig zonen; en hij zond dertig dochteren naar buiten, en bracht dertig dochteren van buiten in voor zijn zonen; en hij richtte Israël zeven jaren.", "10": "Toen stierf Ebzan, en werd begraven te Bethlehem.", "11": "En na hem richtte Israël Elon, de Zebuloniet, en hij richtte Israël tien jaren.", "12": "En Elon, de Zebuloniet, stierf, en werd begraven te Ajalon, in het land van Zebulon.", "13": "En na hem richtte Israël Abdon, een zoon van Hillel, de Pirhathoniet.", "14": "En hij had veertig zonen, en dertig zoons zonen, rijdende op zeventig ezelveulens; en hij richtte Israël acht jaren.", "15": "Toen stierf Abdon, een zoon van Hillel, de Pirhathoniet; en hij werd begraven te Pirhathon, in het land van Efraïm, op den berg van den Amalekiet."}, "KJV": {"1": "And the men of Ephraim gathered themselves together, and went northward, and said unto Jephthah, Wherefore passedst thou over to fight against the children of Ammon, and didst not call us to go with thee? we will burn thine house upon thee with fire.", "2": "And Jephthah said unto them, I and my people were at great strife with the children of Ammon; and when I called you, ye delivered me not out of their hands.", "3": "And when I saw that ye delivered *me* not, I put my life in my hands, and passed over against the children of Ammon, and the LORD delivered them into my hand: wherefore then are ye come up unto me this day, to fight", "4": "Then Jephthah gathered together all the men of Gilead, and fought with Ephraim: and the men of Gilead smote Ephraim, because they said, Ye Gileadites *are* fugitives of Ephraim among the Ephraimites, *and* among the Manassites.", "5": "And the Gileadites took the passages of Jordan before the Ephraimites: and it was *so*, that when those Ephraimites which were escaped said, Let me go over; that the men of Gilead said unto him, *Art* thou an Ephraimite? If he said,", "6": "Then said they unto him, Say now Shibboleth: and he said Sibboleth: for he could not frame to pronounce *it* right. Then they took him, and slew him at the passages of Jordan: and there fell at that time of the Ephraimites forty and two thousand.", "7": "And Jephthah judged Israel six years. Then died Jephthah the Gileadite, and was buried in *one of* the cities of Gilead.", "8": "And after him Ibzan of Bethlehem judged Israel.", "9": "And he had thirty sons, and thirty daughters, *whom* he sent abroad, and took in thirty daughters from abroad for his sons. And he judged Israel seven years.", "10": "Then died Ibzan, and was buried at Bethlehem.", "11": "And after him Elon, a Zebulonite, judged Israel; and he judged Israel ten years.", "12": "And Elon the Zebulonite died, and was buried in Aijalon in the country of Zebulun.", "13": "And after him Abdon the son of Hillel, a Pirathonite, judged Israel.", "14": "And he had forty sons and thirty nephews, that rode on threescore and ten ass colts: and he judged Israel eight years.", "15": "And Abdon the son of Hillel the Pirathonite died, and was buried in Pirathon in the land of Ephraim, in the mount of the Amalekites."}}, "tsk": {"1": [{"kopje": "Waarom", "refs": ["Richt 8:1", "2 Sam 19:41-43", "Ps 109:4", "Pred 4:4", "Joh 10:32"]}, {"kopje": "zullen ... verbranden", "refs": ["Richt 14:15", "Richt 15:6", "Spr 27:3", "Spr 27:4", "Jak 3:16", "Jak 4:1", "Jak 4:2"]}], "2": [{"kopje": "Ik en mijn volk", "refs": ["Richt 11:12-33"]}], "3": [{"kopje": "zette", "refs": ["Richt 9:17", "1 Sam 19:5", "1 Sam 28:21", "Job 13:14", "Ps 119:109", "Rom 16:4", "Openb 12:11"]}, {"kopje": "waarom", "refs": ["Richt 11:27", "2 Kron 13:12"]}], "4": [{"kopje": "en de mannen", "refs": ["Richt 11:10", "Num 32:39", "Num 32:40", "Deut 3:12-17"]}, {"kopje": "vluchtelingen", "refs": ["1 Sam 25:10", "Neh 4:4", "Ps 78:9", "Spr 12:13", "Spr 15:1"]}], "6": [{"kopje": "Zeg dan", "refs": ["Matt 26:73", "Mark 14:70"]}, {"kopje": "Schibboleth", "refs": ["Ps 69:3", "Ps 69:16", "Jes 27:12", "Job 24:24", "Ex 6:5"]}, {"kopje": "vielen", "refs": ["Spr 17:14", "Spr 18:19", "Pred 10:12", "Matt 12:25", "Gal 5:15"]}, {"kopje": "tweeënveertigduizend", "refs": ["Num 26:37"]}], "8": [{"kopje": "Bethlehem", "refs": ["Gen 15:19", "1 Sam 16:1", "Micha 5:1", "Matt 2:1"]}], "12": [{"kopje": "Ajalon", "refs": ["Joz 19:42", "1 Kron 6:69", "1 Kron 8:13"]}], "14": [{"kopje": "reden", "refs": ["Richt 5:10", "Richt 10:4"]}], "15": [{"kopje": "Pirhathoniet", "refs": ["2 Sam 23:30"]}, {"kopje": "op de berg", "refs": ["Richt 3:13", "Richt 3:27", "Richt 5:14", "Gen 14:7", "Ex 17:8", "1 Sam 15:7"]}]}, "onderwerpen": {"13": [{"onderwerp": "Abdon", "sub": "1. Een richter van Israël, in de tijd der richteren", "totaal": 3, "positie": 1, "vorige": null, "volgende": "Richt 12:14", "alle": ["Richt 12:14", "Richt 12:15"], "meer": 0}, {"onderwerp": "Efraïm, stam van", "sub": "Abdon", "totaal": 3, "positie": 1, "vorige": null, "volgende": "Richt 12:14", "alle": ["Richt 12:14", "Richt 12:15"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Abdon", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Richt 12:14", "alle": ["Richt 12:14"], "meer": 0}, {"onderwerp": "Pirathon", "sub": "Mannen van", "totaal": 4, "positie": 1, "vorige": null, "volgende": "2 Sam 23:30", "alle": ["2 Sam 23:30", "1 Kron 11:31", "1 Kron 27:14"], "meer": 0}], "14": [{"onderwerp": "Abdon", "sub": "1. Een richter van Israël, in de tijd der richteren", "totaal": 3, "positie": 2, "vorige": "Richt 12:13", "volgende": "Richt 12:15", "alle": ["Richt 12:13", "Richt 12:15"], "meer": 0}, {"onderwerp": "Efraïm, stam van", "sub": "Abdon", "totaal": 3, "positie": 2, "vorige": "Richt 12:13", "volgende": "Richt 12:15", "alle": ["Richt 12:13", "Richt 12:15"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Abdon", "totaal": 2, "positie": 2, "vorige": "Richt 12:13", "volgende": null, "alle": ["Richt 12:13"], "meer": 0}], "15": [{"onderwerp": "Abdon", "sub": "1. Een richter van Israël, in de tijd der richteren", "totaal": 3, "positie": 3, "vorige": "Richt 12:14", "volgende": null, "alle": ["Richt 12:13", "Richt 12:14"], "meer": 0}, {"onderwerp": "De Amalekieten", "sub": "Deel van hun bezittingen door Efraïm genomen", "totaal": 2, "positie": 2, "vorige": "Richt 5:14", "volgende": null, "alle": ["Richt 5:14"], "meer": 0}, {"onderwerp": "Efraïm, stam van", "sub": "Abdon", "totaal": 3, "positie": 3, "vorige": "Richt 12:14", "volgende": null, "alle": ["Richt 12:13", "Richt 12:14"], "meer": 0}, {"onderwerp": "Bergen", "sub": "Amalek", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Pirathon", "sub": "Een plaats in het land van Efraïm", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "12": [{"onderwerp": "Ajalon", "sub": "2. Een stad van Zebulon", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Elon", "sub": "4. Een Hebreeuwse richter", "totaal": 2, "positie": 2, "vorige": "Richt 12:11", "volgende": null, "alle": ["Richt 12:11"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Elon", "totaal": 2, "positie": 2, "vorige": "Richt 12:11", "volgende": null, "alle": ["Richt 12:11"], "meer": 0}, {"onderwerp": "Zebulon, de stam van", "sub": "Leverde een richter aan Israël", "totaal": 2, "positie": 2, "vorige": "Richt 12:11", "volgende": null, "alle": ["Richt 12:11"], "meer": 0}], "1": [{"onderwerp": "Ammonieten", "sub": "Verslagen door de Israëlieten", "totaal": 43, "positie": 15, "vorige": "Richt 11:33", "volgende": "Richt 12:2", "alle": ["Richt 10:7", "Richt 10:8", "Richt 10:9", "Richt 10:10", "Richt 10:11", "Richt 10:12", "Richt 10:13", "Richt 10:14", "Richt 10:15", "Richt 10:16", "Richt 10:17", "Richt 10:18", "Richt 11:32", "Richt 11:33", "Richt 12:2", "Richt 12:3", "1 Sam 11:1", "1 Sam 11:2", "1 Sam 11:3", "1 Sam 11:4", "1 Sam 11:5", "1 Sam 11:6", "1 Sam 11:7", "1 Sam 11:8", "1 Sam 11:9", "1 Sam 11:10", "1 Sam 11:11", "1 Sam 11:12", "1 Sam 11:13", "1 Sam 11:14", "1 Sam 11:15", "2 Sam 12:26", "2 Sam 12:27", "2 Sam 12:28", "2 Sam 12:29", "2 Sam 12:30", "2 Sam 12:31", "1 Kron 20:1", "1 Kron 20:2", "1 Kron 20:3"], "meer": 2}, {"onderwerp": "Efraïm, stam van", "sub": "Twistten met Jefta omdat hij hun hulp tegen Ammon niet zocht", "totaal": 4, "positie": 1, "vorige": null, "volgende": "Richt 12:2", "alle": ["Richt 12:2", "Richt 12:3", "Richt 12:4"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Jefta", "totaal": 7, "positie": 1, "vorige": null, "volgende": "Richt 12:2", "alle": ["Richt 12:2", "Richt 12:3", "Richt 12:4", "Richt 12:5", "Richt 12:6", "Richt 12:7"], "meer": 0}], "2": [{"onderwerp": "Ammonieten", "sub": "Verslagen door de Israëlieten", "totaal": 43, "positie": 16, "vorige": "Richt 12:1", "volgende": "Richt 12:3", "alle": ["Richt 10:7", "Richt 10:8", "Richt 10:9", "Richt 10:10", "Richt 10:11", "Richt 10:12", "Richt 10:13", "Richt 10:14", "Richt 10:15", "Richt 10:16", "Richt 10:17", "Richt 10:18", "Richt 11:32", "Richt 11:33", "Richt 12:1", "Richt 12:3", "1 Sam 11:1", "1 Sam 11:2", "1 Sam 11:3", "1 Sam 11:4", "1 Sam 11:5", "1 Sam 11:6", "1 Sam 11:7", "1 Sam 11:8", "1 Sam 11:9", "1 Sam 11:10", "1 Sam 11:11", "1 Sam 11:12", "1 Sam 11:13", "1 Sam 11:14", "1 Sam 11:15", "2 Sam 12:26", "2 Sam 12:27", "2 Sam 12:28", "2 Sam 12:29", "2 Sam 12:30", "2 Sam 12:31", "1 Kron 20:1", "1 Kron 20:2", "1 Kron 20:3"], "meer": 2}, {"onderwerp": "Efraïm, stam van", "sub": "Twistten met Jefta omdat hij hun hulp tegen Ammon niet zocht", "totaal": 4, "positie": 2, "vorige": "Richt 12:1", "volgende": "Richt 12:3", "alle": ["Richt 12:1", "Richt 12:3", "Richt 12:4"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Jefta", "totaal": 7, "positie": 2, "vorige": "Richt 12:1", "volgende": "Richt 12:3", "alle": ["Richt 12:1", "Richt 12:3", "Richt 12:4", "Richt 12:5", "Richt 12:6", "Richt 12:7"], "meer": 0}], "3": [{"onderwerp": "Ammonieten", "sub": "Verslagen door de Israëlieten", "totaal": 43, "positie": 17, "vorige": "Richt 12:2", "volgende": "1 Sam 11:1", "alle": ["Richt 10:7", "Richt 10:8", "Richt 10:9", "Richt 10:10", "Richt 10:11", "Richt 10:12", "Richt 10:13", "Richt 10:14", "Richt 10:15", "Richt 10:16", "Richt 10:17", "Richt 10:18", "Richt 11:32", "Richt 11:33", "Richt 12:1", "Richt 12:2", "1 Sam 11:1", "1 Sam 11:2", "1 Sam 11:3", "1 Sam 11:4", "1 Sam 11:5", "1 Sam 11:6", "1 Sam 11:7", "1 Sam 11:8", "1 Sam 11:9", "1 Sam 11:10", "1 Sam 11:11", "1 Sam 11:12", "1 Sam 11:13", "1 Sam 11:14", "1 Sam 11:15", "2 Sam 12:26", "2 Sam 12:27", "2 Sam 12:28", "2 Sam 12:29", "2 Sam 12:30", "2 Sam 12:31", "1 Kron 20:1", "1 Kron 20:2", "1 Kron 20:3"], "meer": 2}, {"onderwerp": "Efraïm, stam van", "sub": "Twistten met Jefta omdat hij hun hulp tegen Ammon niet zocht", "totaal": 4, "positie": 3, "vorige": "Richt 12:2", "volgende": "Richt 12:4", "alle": ["Richt 12:1", "Richt 12:2", "Richt 12:4"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Jefta", "totaal": 7, "positie": 3, "vorige": "Richt 12:2", "volgende": "Richt 12:4", "alle": ["Richt 12:1", "Richt 12:2", "Richt 12:4", "Richt 12:5", "Richt 12:6", "Richt 12:7"], "meer": 0}], "11": [{"onderwerp": "Elon", "sub": "4. Een Hebreeuwse richter", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Richt 12:12", "alle": ["Richt 12:12"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Elon", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Richt 12:12", "alle": ["Richt 12:12"], "meer": 0}, {"onderwerp": "Zebulon, de stam van", "sub": "Leverde een richter aan Israël", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Richt 12:12", "alle": ["Richt 12:12"], "meer": 0}], "4": [{"onderwerp": "Efraïm, stam van", "sub": "Twistten met Jefta omdat hij hun hulp tegen Ammon niet zocht", "totaal": 4, "positie": 4, "vorige": "Richt 12:3", "volgende": null, "alle": ["Richt 12:1", "Richt 12:2", "Richt 12:3"], "meer": 0}, {"onderwerp": "Jordaan, de rivier", "sub": "Slachting der Efraïmieten", "totaal": 3, "positie": 1, "vorige": null, "volgende": "Richt 12:5", "alle": ["Richt 12:5", "Richt 12:6"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Jefta", "totaal": 7, "positie": 4, "vorige": "Richt 12:3", "volgende": "Richt 12:5", "alle": ["Richt 12:1", "Richt 12:2", "Richt 12:3", "Richt 12:5", "Richt 12:6", "Richt 12:7"], "meer": 0}], "8": [{"onderwerp": "Ebzan", "sub": "Een Bethlehemiet, en richter van Israël", "totaal": 3, "positie": 1, "vorige": null, "volgende": "Richt 12:9", "alle": ["Richt 12:9", "Richt 12:10"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Ebzan", "totaal": 3, "positie": 1, "vorige": null, "volgende": "Richt 12:9", "alle": ["Richt 12:9", "Richt 12:10"], "meer": 0}], "9": [{"onderwerp": "Ebzan", "sub": "Een Bethlehemiet, en richter van Israël", "totaal": 3, "positie": 2, "vorige": "Richt 12:8", "volgende": "Richt 12:10", "alle": ["Richt 12:8", "Richt 12:10"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Ebzan", "totaal": 3, "positie": 2, "vorige": "Richt 12:8", "volgende": "Richt 12:10", "alle": ["Richt 12:8", "Richt 12:10"], "meer": 0}], "10": [{"onderwerp": "Ebzan", "sub": "Een Bethlehemiet, en richter van Israël", "totaal": 3, "positie": 3, "vorige": "Richt 12:9", "volgende": null, "alle": ["Richt 12:8", "Richt 12:9"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Ebzan", "totaal": 3, "positie": 3, "vorige": "Richt 12:9", "volgende": null, "alle": ["Richt 12:8", "Richt 12:9"], "meer": 0}], "5": [{"onderwerp": "Jordaan, de rivier", "sub": "Slachting der Efraïmieten", "totaal": 3, "positie": 2, "vorige": "Richt 12:4", "volgende": "Richt 12:6", "alle": ["Richt 12:4", "Richt 12:6"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Jefta", "totaal": 7, "positie": 5, "vorige": "Richt 12:4", "volgende": "Richt 12:6", "alle": ["Richt 12:1", "Richt 12:2", "Richt 12:3", "Richt 12:4", "Richt 12:6", "Richt 12:7"], "meer": 0}], "6": [{"onderwerp": "Jordaan, de rivier", "sub": "Slachting der Efraïmieten", "totaal": 3, "positie": 3, "vorige": "Richt 12:5", "volgende": null, "alle": ["Richt 12:4", "Richt 12:5"], "meer": 0}, {"onderwerp": "Richteren van Israël", "sub": "Jefta", "totaal": 7, "positie": 6, "vorige": "Richt 12:5", "volgende": "Richt 12:7", "alle": ["Richt 12:1", "Richt 12:2", "Richt 12:3", "Richt 12:4", "Richt 12:5", "Richt 12:7"], "meer": 0}, {"onderwerp": "Schibboleth", "sub": "", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "7": [{"onderwerp": "Richteren van Israël", "sub": "Jefta", "totaal": 7, "positie": 7, "vorige": "Richt 12:6", "volgende": null, "alle": ["Richt 12:1", "Richt 12:2", "Richt 12:3", "Richt 12:4", "Richt 12:5", "Richt 12:6"], "meer": 0}]}, "extern": {"1 Kron 11:31": "Ithai, de zoon van Ribai, uit Gibea van de kinderen van Benjamin; Benaja, de Pirhathoniet;", "Micha 5:1": "En u, Bethlehem Efratha, bent u klein om te zijn onder de duizenden van Juda? Uit u zal Mij Iemand voortkomen, Die een Heerser zal zijn in Israël, en Wiens uitgangen zijn van oudsher, van de dagen van de eeuwigheid.", "Spr 27:4": "Grimmigheid en overloping van toorn is wreedheid; maar wie zal voor jaloezie standhouden?", "Richt 11:32": "Zo trok Jeftha door naar de kinderen van Ammon, om tegen hen te strijden; en de HEERE gaf hen in zijn hand.", "Richt 11:33": "En hij versloeg hen van Aroer af tot waar u komt bij Minnith, twintig steden, en tot aan Abel-Keramim, met een zeer grote slag. Zo werden de kinderen van Ammon onderworpen voor het aangezicht van de kinderen van Israël.", "Richt 10:12": "En de Sidoniërs, de Amalekieten en de Maonieten, die u onderdrukten toen u tot Mij riep, heb Ik u toen niet uit hun hand verlost?", "Spr 12:13": "In de overtreding van de lippen is de strik van de boze; maar de rechtvaardige zal uit de benauwdheid komen.", "Richt 11:27": "Ik heb ook niet tegen u gezondigd, maar u doet mij onrecht aan door tegen mij te strijden. De HEERE, Die Rechter is, oordele vandaag tussen de kinderen van Israël en de kinderen van Ammon!", "Gen 15:19": "De Kenieten, en de Kenizzieten, en de Kadmonieten,", "Joz 19:42": "En Saalabbin, en Ajalon, en Jithla,", "Gen 14:7": "Daarna keerden zij terug en kwamen bij En-mispat, dat is Kades, en versloegen heel het land van de Amalekieten, en ook de Amoriet, die te Hazezon-thamar woonde.", "2 Sam 12:29": "Toen verzamelde David al het volk, en trok naar Rabba; en hij streed tegen haar, en nam haar in.", "Neh 4:4": "Hoor, o onze God, dat wij erg veracht worden, en keer hun smaad terug op hun eigen hoofd, en geef hen over als buit in een land van gevangenschap.", "Jak 4:1": "Waar komen strijd en ruzies onder u vandaan? Komen ze niet hieruit voort, namelijk uit uw lusten, die in uw leden strijd voeren?", "Jak 4:2": "U begeert, en hebt niet; u benijdt en jaagt naar dingen, en kunt ze niet krijgen; u vecht en voert strijd, maar u hebt niet, omdat u niet bidt.", "Spr 18:19": "Een broeder is moeilijker te winnen dan een sterke stad; en geschillen zijn als de grendel van een paleis.", "1 Sam 11:14": "Verder zei Samuël tegen het volk: Komt, laten wij naar Gilgal gaan, en het koninkrijk daar vernieuwen.", "Job 24:24": "Zij zijn een korte tijd verheven, daarna is er niemand meer van hen; zij worden neergedrukt; net als alle anderen worden zij weggenomen; en net als de top van een aar worden zij afgesneden.", "1 Kron 8:13": "En Beria, en Sema; dezen waren hoofden van de vaderen van de inwoners van Ajalon; dezen hebben de inwoners van Gath verdreven.", "2 Sam 12:28": "Verzamel u nu het overige van het volk, en beleger de stad, en neem haar in; anders zou het, als ík de stad zou innemen, naar mijn naam genoemd worden.", "Jes 27:12": "En het zal op die dag gebeuren, dat de HEERE zal dorsen, van de stroom van de rivier af tot aan de rivier van Egypte; maar u zult opgeraapt worden, één voor één, o kinderen van Israël!", "2 Sam 12:27": "Toen zond Joab boden naar David, en zei: Ik heb gestreden tegen Rabba, en ik heb ook de waterstad ingenomen.", "Richt 10:14": "Ga heen, roep tot de goden die u hebt uitgekozen; laten die u verlossen in de tijd van uw benauwdheid.", "Num 26:37": "Dat zijn de geslachten der zonen van Efraïm, naar hun getelden: tweeëndertigduizend vijfhonderd. Dat zijn de zonen van Jozef, naar hun geslachten.", "1 Sam 11:1": "Toen trok Nahas, de Ammoniet, op en belegerde Jabes in Gilead. En alle mannen van Jabes zeiden tegen Nahas: Sluit een verbond met ons, en wij zullen u dienen.", "1 Kron 20:3": "Hij bracht ook al het volk dat daarin was naar buiten, en hij zaagde hen met de zaag, en met ijzeren dorswagens, en met bijlen; en zo deed David met al de steden van de kinderen Ammons. Toen keerde David met al het volk terug naar Jeruzalem.", "Richt 15:6": "Toen zeiden de Filistijnen: Wie heeft dit gedaan? En men zei: Simson, de schoonzoon van de Thimniet, omdat hij zijn vrouw heeft weggenomen, en haar aan zijn metgezel heeft gegeven. Toen kwamen de Filistijnen op, en verbrandden haar en haar vader met vuur.", "Richt 5:14": "Uit Efraïm was hun wortel tegen Amalek. Achter u was Benjamin onder uw volken. Uit Machir zijn de wetgevers afgetrokken, en uit Zebulon, die trekken door de staf van de schrijver.", "Richt 10:15": "Maar de Israëlieten zeiden tegen de HEERE: Wij hebben gezondigd; doe met ons naar alles wat goed is in Uw ogen; verlos ons toch alleen op deze dag!", "1 Sam 11:8": "En hij telde hen in Bezek; en van de kinderen van Israël waren er driehonderdduizend, en van de mannen van Juda dertigduizend.", "Matt 12:25": "Maar Jezus kende hun gedachten, en zei tegen hen: Elk koninkrijk dat tegen zichzelf verdeeld is, wordt verwoest; en elke stad of elk huis dat tegen zichzelf verdeeld is, zal niet standhouden.", "Ps 69:3": "Ik ben gezonken in grondeloze modder, waar men niet kan staan; ik ben gekomen in de diepten van de wateren, en de vloed overstroomt mij.", "Jak 3:16": "Want waar afgunst en eigenbelang is, daar is verwarring en allerlei kwade praktijk.", "Pred 10:12": "De woorden van de mond van een wijze zijn aangenaam; maar de lippen van een dwaas verslinden hemzelf.", "Matt 26:73": "En een weinig later kwamen zij die daar stonden bij Petrus en zeiden: Werkelijk, u bent ook één van hen, want ook uw spraak verraadt u.", "Matt 2:1": "Toen Jezus geboren was in Bethlehem, in Judea, in de dagen van koning Herodes, zie, kwamen er wijzen uit het Oosten in Jeruzalem aan.", "Richt 11:10": "En de oudsten van Gilead zeiden tegen Jeftha: De HEERE zij getuige tussen ons, als wij niet zo doen naar uw woord.", "Richt 10:17": "En de Ammonieten werden bijeengeroepen, en legerden zich in Gilead; daartegenover werden de Israëlieten verzameld, en legerden zich te Mizpa.", "Num 32:40": "Zo gaf Mozes Gilead aan Machir, de zoon van Manasse; en hij woonde daarin.", "2 Sam 12:30": "En hij nam de kroon van hun koning van zijn hoofd af, waarvan het gewicht een talent goud was, met edelstenen; en die werd op Davids hoofd gezet; ook bracht hij een zeer grote roof van de stad naar buiten.", "1 Sam 11:9": "Toen zeiden zij tegen de boden die gekomen waren: Zo zult u tegen de mannen van Jabes in Gilead zeggen: Morgen, als de zon heet is geworden, zal aan u verlossing gebeuren. Toen de boden kwamen en dit aan de mannen van Jabes verkondigden, werden zij blij.", "Ps 69:16": "Laat de watervloed mij niet overstromen, en laat de diepte mij niet verslinden; en laat de put zijn mond over mij niet toesluiten.", "Spr 17:14": "Het begin van het krakeel is als iemand die het water opening geeft; laat daarom de twist varen, voordat hij losbarst.", "Richt 10:4": "Hij had dertig zonen, die op dertig ezelsveulens reden, en zij hadden dertig steden, die tot op deze dag Havvoth-jair genoemd worden en die in het land Gilead liggen.", "1 Sam 11:6": "Toen kwam de Geest van God vaardig over Saul, toen hij deze woorden hoorde; en zijn toorn ontstak zeer.", "Job 13:14": "Waarom zou ik mijn vlees in mijn tanden nemen, en mijn ziel in mijn hand stellen?", "1 Sam 11:10": "En de mannen van Jabes zeiden: Morgen zullen wij naar u uitgaan, en u zult met ons doen naar alles wat goed is in uw ogen.", "Ex 6:5": "Daarom, zeg tegen de kinderen van Israël: Ik ben de HEERE! En Ik zal u uitleiden van onder de lasten van de Egyptenaren, en Ik zal u redden uit hun dienstbaarheid, en zal u verlossen door een uitgestrekte arm, en door grote gerichten;", "1 Kron 27:14": "De elfde, in de elfde maand, was Benaja, de Pirhathoniet, van de kinderen van Efraïm; in zijn verdeling waren er ook vierentwintigduizend.", "1 Sam 11:4": "Toen de boden in Gibea-Sauls kwamen, spraken zij deze woorden ten aanhoren van het volk. Toen verhief heel het volk zijn stem, en zij weenden.", "2 Kron 13:12": "Zie daarom, God is met ons aan het hoofd, en Zijn priesters met de trompetten van het geschal, om alarm tegen u te laten klinken; o kinderen van Israël, strijd niet tegen de HEERE, de God van uw vaderen, want u zult geen voorspoed hebben.", "Openb 12:11": "En zij hebben hem overwonnen door het bloed van het Lam, en door het woord van hun getuigenis, en zij hebben hun leven niet liefgehad tot de dood toe.", "Pred 4:4": "Verder zag ik al de moeite en alle bekwaamheid van het werk, dat het de mens jaloezie van zijn naaste aanbrengt. Dat is ook vluchtigheid en najagen van de wind.", "1 Sam 11:11": "Het gebeurde nu de volgende dag, dat Saul het volk in drie groepen indeelde, en zij kwamen midden in het leger, tijdens de morgenwake, en zij versloegen Ammon, totdat de dag heet werd; en het gebeurde dat de overgeblevenen zo verstrooid werden, dat er onder hen geen twee samen bleven.", "2 Sam 12:26": "Joab nu streed tegen Rabba van de kinderen van Ammon; en hij nam de koninklijke stad in.", "Richt 10:18": "Toen zei het volk, de leiders van Gilead, de een tegen de ander: Wie is de man die zal beginnen te strijden tegen de Ammonieten? Die zal een hoofd zijn over alle inwoners van Gilead.", "Richt 14:15": "Daarna gebeurde het op de zevende dag, dat zij tegen de vrouw van Simson zeiden: Overreed uw man, dat hij ons dat raadsel verklaart, opdat wij niet misschien u en het huis van uw vader met vuur verbranden. Hebt u ons genodigd om ons van ons bezit te beroven? Is het zo niet?", "1 Sam 11:15": "Toen ging heel het volk naar Gilgal, en Saul werd daar koning gemaakt voor het aangezicht van de HEERE te Gilgal; en zij offerden daar dankoffers voor het aangezicht van de HEERE; en Saul verheugde zich daar zeer, met alle mannen van Israël.", "Richt 10:7": "Toen ontstak de toorn van de HEERE tegen Israël; en Hij verkocht hen in de hand van de Filistijnen en in de hand van de Ammonieten.", "Ex 17:8": "Toen kwam Amalek en streed tegen Israël bij Rafidim.", "Richt 10:10": "Toen riepen de Israëlieten tot de HEERE en zeiden: Wij hebben tegen U gezondigd, omdat wij onze God hebben verlaten en de Baäls gediend hebben.", "1 Sam 11:13": "Maar Saul zei: Er zal op deze dag geen man gedood worden, want de HEERE heeft heden een verlossing in Israël bewerkt.", "Richt 10:8": "Die verdrukten en vertrapten de Israëlieten in datzelfde jaar; achttien jaar lang onderdrukten zij alle Israëlieten die aan de overkant van de Jordaan waren, in het land van de Amorieten, dat in Gilead ligt.", "1 Sam 15:7": "Toen sloeg Saul de Amalekieten van Havila af, tot daar waar u komt bij Sur, dat voor Egypte ligt.", "1 Sam 11:2": "Maar Nahas, de Ammoniet, zei tegen hen: Op deze voorwaarde zal ik een verbond met u sluiten, dat ik bij u allen het rechteroog uitsteek, en dat ik deze schande op heel Israël leg.", "Ps 109:4": "Voor mijn liefde staan zij mij tegen; maar ik was steeds in het gebed.", "1 Sam 11:5": "En zie, Saul kwam achter de runderen aan uit het veld, en Saul zei: Wat is er met het volk, dat zij wenen? Toen vertelden zij hem de woorden van de mannen van Jabes.", "Joh 10:32": "Jezus antwoordde hun: Ik heb u veel goede werken getoond van Mijn Vader; om welk van die werken stenigt u Mij?", "1 Kron 20:1": "Het gebeurde nu in de tijd dat het jaar weer omging, in de tijd dat de koningen ten strijde uittrokken, dat Joab het leger aanvoerde en het land van de kinderen Ammons verwoestte; en hij kwam en belegerde Rabba. Maar David bleef in Jeruzalem. En Joab sloeg Rabba en verwoestte het.", "1 Sam 25:10": "En Nabal antwoordde de knechten van David en zei: Wie is David, en wie is de zoon van Isaï? Er zijn tegenwoordig veel knechten die zich losscheuren, ieder van zijn heer.", "Ps 119:109": "Mijn ziel is voortdurend in mijn hand; nochtans vergeet ik Uw wet niet.", "2 Sam 23:30": "Benaja, de Pirhathoniet; Hiddai, van de beken van Gaäs;", "Num 32:39": "En de kinderen van Machir, de zoon van Manasse, gingen naar Gilead, en namen het in, en zij verdreven de Amorieten die daarin waren, uit hun bezit.", "Ps 78:9": "(De kinderen van Efraïm, gewapende boogschutters, keerden om ten dage van het strijd.)", "Richt 10:11": "Maar de HEERE zei tegen de Israëlieten: Heb Ik u niet verlost van de Egyptenaren, van de Amorieten, van de Ammonieten en van de Filistijnen?", "Spr 15:1": "Een zacht antwoord keert de grimmigheid af; maar een smartend woord doet de toorn oprijzen.", "Richt 10:9": "Daarbij trokken de Ammonieten de Jordaan over om te strijden, ook tegen Juda, tegen Benjamin en tegen het huis van Efraïm, zodat Israël erg in het nauw kwam.", "Mark 14:70": "Maar hij ontkende het weer. En kort daarna zeiden zij die daarbij stonden weer tegen Petrus: Werkelijk, u bent een van hen; want u bent ook een Galileeër, en uw spraak lijkt erop.", "Richt 3:13": "En hij verzamelde bij zich de kinderen van Ammon en de Amalekieten, en hij trok op en sloeg Israël, en zij namen de Palmstad in bezit.", "Richt 8:1": "Toen zeiden de mannen van Efraïm tegen hem: Wat is dit voor iets dat u ons hebt aangedaan, dat u ons niet riep toen u wegging om te strijden tegen de Midianieten? En zij verweten hem dat heftig.", "Rom 16:4": "die voor mijn leven hun hals gesteld hebben; hun dank ik niet alleen, maar ook alle Gemeenten van de heidenen.", "1 Sam 28:21": "De vrouw nu kwam bij Saul, en zag dat hij erg verbijsterd was; en zij zei tegen hem: Zie, uw dienstmaagd heeft naar uw stem geluisterd, en ik heb mijn leven in mijn hand gesteld, en ik heb uw woorden gehoord die u tegen mij gesproken hebt.", "1 Sam 16:1": "Toen zei de HEERE tegen Samuël: Hoe lang draagt u leed om Saul, die Ik toch verworpen heb, dat hij geen koning meer zal zijn over Israël? Vul uw hoorn met olie, en ga op weg; Ik zal u zenden naar Isaï, de Bethlehemiet; want Ik heb Mij een koning uitgekozen onder zijn zonen.", "1 Kron 6:69": "En Ajalon en haar voorsteden, en Gath-rimmon en haar voorsteden.", "Richt 5:10": "U, die op witte ezelinnen rijdt, u, die aan het gericht zit, en u, die over de weg wandelt, spreek erover!", "Gal 5:15": "Maar als u elkaar bijt en verslindt, kijk dan uit dat u niet door elkaar verteerd wordt.", "Richt 3:27": "En het gebeurde, toen hij aankwam, dat hij op de bazuin blies op het gebergte van Efraïm; en de kinderen van Israël trokken met hem af van het gebergte, en hij zelf ging voor hen uit.", "1 Kron 20:2": "En David nam de kroon van hun koning van zijn hoofd, en hij bevond dat die in gewicht een talent goud woog, en er zat edelgesteente aan; en die werd op Davids hoofd gezet, en hij bracht zeer veel van het roof uit de stad naar buiten.", "1 Sam 11:12": "Toen zei het volk tegen Samuël: Wie is hij die zei: Zou Saul over ons regeren? Geef hier die mannen, dan doden wij hen.", "Richt 10:13": "Toch hebt u Mij verlaten, en andere goden gediend; daarom zal Ik u niet meer verlossen.", "Richt 10:16": "En zij deden de vreemde goden uit hun midden weg, en dienden de HEERE. Toen werd Zijn ziel verdrietig over de ellende van Israël.", "1 Sam 11:3": "Toen zeiden de oudsten van Jabes tegen hem: Geef ons zeven dagen de tijd, zodat wij boden kunnen sturen naar alle grensgebieden van Israël; is er dan niemand die ons verlost, dan zullen wij naar u uitgaan.", "Richt 9:17": "(want mijn vader heeft voor u gestreden, en hij heeft zijn leven ver weggeworpen, en heeft u gered uit de hand van de Midianieten;", "Spr 27:3": "Een steen is zwaar, en het zand gewichtig; maar de toorn van de dwaas is zwaarder dan die beide.", "2 Sam 12:31": "Het volk dat daarin was, voerde hij naar buiten, en zette hen aan het werk met zagen, en met ijzeren dorswagens, en met ijzeren bijlen, en liet hen door de steenoven gaan; en zo deed hij met alle steden van de kinderen van Ammon. Daarna keerde David, met heel het volk, terug naar Jeruzalem.", "1 Sam 19:5": "Want hij heeft zijn leven gewaagd, en hij heeft de Filistijn geslagen, en de HEERE heeft een grote overwinning aan heel Israël gegeven; u hebt het gezien, en u bent verblijd geweest; waarom zou u dan tegen onschuldig bloed zondigen, David zonder reden doden?", "1 Sam 11:7": "En hij nam een paar runderen en hakte ze in stukken, en stuurde die door de hand van de boden naar alle grensgebieden van Israël, en zei: Wie niet zelf uittrekt achter Saul en achter Samuël aan, met zijn runderen zal hetzelfde gedaan worden. Toen viel de vreze van de HEERE op het volk, en zij gingen uit als één man."}, "noten": {}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${md(D.vertalingen[vertaling][n] || '—')}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+function paneelInhoud(n, tab) {
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : 'vertalingen');
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  const tekst = popupTekst(ref);
+  if (!tekst) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${md(tekst)}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>

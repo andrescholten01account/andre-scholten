@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1 Kronieken 26 — BereaStudieBijbel · De Volle Pinksterzegen</title>
+<style>
+  :root { --accent: #8a6d3b; --accent-donker: #6b5429; --bg: #fdfcf9; --bg-soft: #f7f3ea; --border: #e3ddd0; --tekst: #2b2b2b; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  header.site { text-align: center; padding: 1.2rem 0 .4rem; }
+  header.site h1 { font-size: 2rem; margin: 0; color: var(--accent-donker); letter-spacing: .01em; }
+  header.site .motto { font-style: italic; color: #8b7355; margin: .2rem 0 1rem; }
+  nav.hoofd { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: .55rem 0; font-family: sans-serif; font-size: .8rem; letter-spacing: .25em; text-transform: uppercase; text-align:center; }
+  nav.hoofd a { color: var(--accent); text-decoration: none; margin: 0 .8rem; }
+  nav.hoofd a.actief { color: var(--accent-donker); font-weight: 700; }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<header class="site">
+  <h1>De Volle Pinksterzegen</h1>
+  <div class="motto">Jezus volgen in de kracht van de Geest</div>
+</header>
+<nav class="hoofd">
+  <a>Blog</a> | <a>Boek</a> | <a class="actief">Bijbel</a>
+</nav>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">1 Kronieken</a> › hoofdstuk 26</div>
+<h2 class="hfd">1 Kronieken 26</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "1 Kronieken 26", "boek_naam": "1 Kronieken", "hfd_nr": "26", "zelf_abbr": "1 Kron 26", "totaal": 29, "basis_url": "https://pinksterzegen.nl/bereastudiebijbel/1-kronieken/26", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../25/", "label": "‹ 1 Kronieken 25"}, "volgende": {"href": "../27/", "label": "1 Kronieken 27 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}, {"n": "11", "href": "../11/"}, {"n": "12", "href": "../12/"}, {"n": "13", "href": "../13/"}, {"n": "14", "href": "../14/"}, {"n": "15", "href": "../15/"}, {"n": "16", "href": "../16/"}, {"n": "17", "href": "../17/"}, {"n": "18", "href": "../18/"}, {"n": "19", "href": "../19/"}, {"n": "20", "href": "../20/"}, {"n": "21", "href": "../21/"}, {"n": "22", "href": "../22/"}, {"n": "23", "href": "../23/"}, {"n": "24", "href": "../24/"}, {"n": "25", "href": "../25/"}, {"n": "26", "href": "../26/"}, {"n": "27", "href": "../27/"}, {"n": "28", "href": "../28/"}, {"n": "29", "href": "../29/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "Aangaande de verdelingen van de poortwachters: van de Korahieten was Meselemja, de zoon van Kore, van de kinderen van Asaf.", "2": "Meselemja nu had kinderen; Zecharja was de eerstgeborene, Jediaël de tweede, Zebadja de derde, Jathniël de vierde,", "3": "Elam de vijfde, Johanan de zesde, Eljehoenai de zevende.", "4": "Obed-Edom had ook kinderen: Semaja was de eerstgeborene, Jozabad de tweede, Joah de derde, en Sachar de vierde, en Nethaneel de vijfde,", "5": "Ammiël de zesde, Issaschar de zevende, Peullethai de achtste; want God had hem gezegend.", "6": "Ook werden zijn zoon Semaja kinderen geboren, die heersten over het huis van hun vader; want zij waren dappere helden.", "7": "De kinderen van Semaja waren Othni, en Refaël, en Obed, *en* Elzabad, zijn broers, dappere mannen; Elihu, en Semachja.", "8": "Deze allen waren uit de kinderen van Obed-Edom; zij, en hun kinderen, en hun broers, dappere mannen, krachtig genoeg voor de dienst; er waren er tweeënzestig van Obed-Edom.", "9": "Meselemja nu had kinderen en broers, dappere mannen, achttien.", "10": "En Hosa, uit de kinderen van Merari, had zonen; Simri was het hoofd; (hoewel hij niet de eerstgeborene was, stelde zijn vader hem toch tot hoofd aan);", "11": "Hilkia was de tweede, Tebalja de derde, Zecharja de vierde; al de kinderen en broers van Hosa waren dertien.", "12": "Uit dezen waren de verdelingen van de poortwachters onder de hoofden van de mannen, met wachtdiensten tegenover hun broers, om te dienen in het huis van de HEERE.", "13": "En zij wierpen het lot, zowel de kleinen als de groten, naar hun families,[1] voor elke poort.", "14": "Het lot nu voor het oosten viel op Salemja; maar voor zijn zoon Zecharja, die een verstandig raadsman was, wierp men het lot, en zijn lot kwam uit voor het noorden;", "15": "Obed-Edom voor het zuiden; en voor zijn kinderen het huis van de schatkamers.", "16": "Suppim en Hosa voor het westen, bij de poort Schallechet, bij de oplopende weg, wacht tegenover wacht.", "17": "Voor het oosten waren zes Levieten; voor het noorden per dag vier; voor het zuiden per dag vier; maar bij de schatkamers telkens twee.", "18": "Bij Parbar voor het westen waren er vier bij de hoge weg, twee bij Parbar.", "19": "Dit zijn de verdelingen van de poortwachters van de kinderen van de Korahieten, en van de kinderen van Merari.", "20": "Ook was, van de Levieten, Ahia over de schatten van het huis van God, en over de schatten van de geheiligde dingen.", "21": "Van de kinderen van Ladan, kinderen van de Gersoniet Ladan; van Ladan, de Gersoniet, waren hoofden van de families Jehiëli.", "22": "De kinderen van Jehiëli waren Zetham en Joël, zijn broer; *dezen* waren over de schatten van het huis van de HEERE.", "23": "Voor de Amramieten, van de Jizharieten, van de Hebronieten, van de Uzziëlieten,", "24": "En Sebuël, de zoon van Gersom, de zoon van Mozes, was leider over de schatten.", "25": "Maar zijn broers van Eliëzer waren *dezen*: Rehabja was zijn zoon, en Jesaja zijn zoon, en Joram zijn zoon, en Zichri zijn zoon, en Selomith zijn zoon.", "26": "Deze Selomith en zijn broers waren over al de schatten van de heilige dingen, die koning David geheiligd had, alsook de hoofden van de families, de leiders over duizenden en honderden, en de leiders van het leger;", "27": "Van de oorlogen en van de buit hadden zij het geheiligd, om het huis van de HEERE te onderhouden.", "28": "Ook alles wat Samuël, de ziener, geheiligd had, en Saul, de zoon van Kis, en Abner, de zoon van Ner, en Joab, de zoon van Zeruja; al wat *iemand* geheiligd had, was onder de hand van Selomith en zijn broers.", "29": "Van de Jizharieten waren Chenanja en zijn zonen belast met het buitenwerk in Israël, als opzichters en als rechters.", "30": "Van de Hebronieten was Hasabja, en zijn broers, dappere mannen, duizend zevenhonderd, over de ambten van Israël aan deze kant van de Jordaan naar het westen, over al het werk van de HEERE, en tot de dienst van de koning.", "31": "Van de Hebronieten was Jeria het hoofd, van de Hebronieten naar zijn geslachten onder de families; in het veertigste jaar van het koninkrijk van David zijn er gezocht en onder hen gevonden dappere helden in Jaëzer in Gilead.", "32": "En zijn broers waren dappere mannen, tweeduizend zevenhonderd hoofden van de families; en koning David stelde hen aan over de Rubenieten, en Gadieten, en de halve stam van de Manassieten, voor alle zaken van God en de zaken van de koning."}, "SV": {"1": "Aangaande de verdelingen der poortiers: van de Korahieten was Meselemja, de zoon van Kore, van de kinderen van Asaf.", "2": "Meselemja nu had kinderen; Zecharja was de eerstgeborene, Jediael de tweede, Zebadja de derde, Jathniel de vierde,", "3": "Elam de vijfde, Johanan de zesde, Eljeoenai de zevende.", "4": "Obed-edom had ook kinderen: Semaja was de eerstgeborene, Jozabad de tweede, Joah de derde, en Sachar de vierde, en Nethaneel de vijfde.", "5": "Ammiël de zesde, Issaschar de zevende, Peullethai de achtste; want God had hem gezegend.", "6": "Ook werden zijn zoon Semaja kinderen geboren, heersende over het huis huns vaders; want zij waren kloeke helden.", "7": "De kinderen van Semaja waren Othni, en Refael, en Obed, *en* Elzabad, zijn broeders, kloeke lieden; Elihu, en Semachja.", "8": "Deze allen waren uit de kinderen van Obed-edom; zij, en hun kinderen, en hun broeders, kloeke mannen in kracht tot den dienst; daar waren er twee en zestig van Obed-edom.", "9": "Meselemja nu had kinderen en broeders, kloeke lieden, achttien.", "10": "En Hosa, uit de kinderen van Merari, had zonen; Simri was het hoofd; ( alhoewel hij de eerstgeborene niet was, nochtans stelde hem zijn vader tot een hoofd).", "11": "Hilkia was de tweede, Tebalja de derde, Zecharja de vierde; al de kinderen en broederen van Hosa waren dertien.", "12": "Uit dezen waren de verdelingen der poortiers onder de hoofden der mannen, tot de wachten tegen hun broederen, om te dienen in het huis des HEEREN.", "13": "En zij wierpen de loten, zo de kleinen als de groten, naar hun vaderlijke huizen, tot elke poort.", "14": "Het lot nu tegen het oosten viel op Salemja; maar voor zijn zoon Zecharja, die een verstandig raadsman was, wierp men de loten, en zijn lot is uitgekomen tegen het noorden;", "15": "Obed-edom tegen het zuiden; en voor zijn kinderen het huis der schatkameren.", "16": "Suppim en Hosa tegen het westen, met de poort Schallechet, bij den opgaanden hogen weg, wacht tegenover wacht.", "17": "Tegen het oosten waren zes Levieten; tegen het noorden des daags vier; tegen het zuiden des daags vier; maar bij de schatkameren twee *en* twee.", "18": "Aan Parbar tegen het westen waren er vier bij den hogen weg, twee bij Parbar.", "19": "Dit zijn de verdelingen der poortiers van de kinderen der Korahieten, en der kinderen van Merari.", "20": "Ook was, van de Levieten, Ahia over de schatten van het huis Gods, en over de schatten der geheiligde dingen.", "21": "Van de kinderen van Ladan, kinderen van den Gersoniet Ladan; van Ladan, den Gersoniet, waren hoofden der vaderen Jehieli.", "22": "De kinderen van Jehieli waren Zetham en Joël, zijn broeder; *dezen* waren over de schatten van het huis des HEEREN.", "23": "Voor de Amramieten, van de Jizharieten, van de Hebronieten, van de Uzziëlieten,", "24": "En Sebuël, de zoon van Gersom, den zoon van Mozes, was overste over de schatten.", "25": "Maar zijn broeders van Eliëzer waren *dezen*: Rehabja was zijn zoon, en Jesaja zijn zoon, en Joram zijn zoon, en Zichri zijn zoon, en Selomith zijn zoon.", "26": "Deze Selomith en zijn broeders waren over al de schatten der heilige dingen, die de koning David geheiligd had, mitsgaders de hoofden der vaderen, de oversten over duizenden en honderden, en de oversten des heirs;", "27": "Van de krijgen en van den buit hadden zij het geheiligd, om het huis des HEEREN te onderhouden.", "28": "Ook alles, wat Samuël, de ziener, geheiligd had, en Saul, de zoon van Kis, en Abner, de zoon van Ner, en Joab, de zoon van Zeruja; al wat *iemand* geheiligd had, was onder de hand van Selomith en zijn broederen.", "29": "Van de Jizharieten waren Chenanja en zijn zonen tot het buitenwerk in Israël, tot ambtlieden en tot rechters.", "30": "Van de Hebronieten was Hasabja, en zijn broeders, kloeke mannen, duizend en zevenhonderd, over de ambten van Israël op deze zijde van de Jordaan tegen het westen, over al het werk des HEEREN, en tot den dienst des konings.", "31": "Van de Hebronieten was Jeria het hoofd, van de Hebronieten zijner geslachten onder de vaderen; in het veertigste jaar des koninkrijks van David zijn er gezocht en onder hen gevonden kloeke helden in Jaezer in Gilead.", "32": "En zijn broeders waren kloeke lieden, twee duizend en zevenhonderd hoofden der vaderen; en de koning David stelde hen over de Rubenieten, en Gadieten, en den halven stam der Manassieten, tot alle zaken Gods en de zaken des konings."}, "KJV": {"1": "Concerning the divisions of the porters: Of the Korhites was Meshelemiah the son of Kore, of the sons of Asaph.", "2": "And the sons of Meshelemiah were, Zechariah the firstborn, Jediael the second, Zebadiah the third, Jathniel the fourth,", "3": "Elam the fifth, Jehohanan the sixth, Elioenai the seventh.", "4": "Moreover the sons of Obededom were, Shemaiah the firstborn, Jehozabad the second, Joah the third, and Sacar the fourth, and Nethaneel the fifth,", "5": "Ammiel the sixth, Issachar the seventh, Peulthai the eighth: for God blessed him.", "6": "Also unto Shemaiah his son were sons born, that ruled throughout the house of their father: for they were mighty men of valour.", "7": "The sons of Shemaiah; Othni, and Rephael, and Obed, Elzabad, whose brethren were strong men, Elihu, and Semachiah.", "8": "All these of the sons of Obededom: they and their sons and their brethren, able men for strength for the service, were threescore and two of Obededom.", "9": "And Meshelemiah had sons and brethren, strong men, eighteen.", "10": "Also Hosah, of the children of Merari, had sons; Simri the chief, (for though he was not the firstborn, yet his father made him the chief;)", "11": "Hilkiah the second, Tebaliah the third, Zechariah the fourth: all the sons and brethren of Hosah were thirteen.", "12": "Among these were the divisions of the porters, even among the chief men, having wards one against another, to minister in the house of the LORD.", "13": "And they cast lots, as well the small as the great, according to the house of their fathers, for every gate.", "14": "And the lot eastward fell to Shelemiah. Then for Zechariah his son, a wise counsellor, they cast lots; and his lot came out northward.", "15": "To Obededom southward; and to his sons the house of Asuppim.", "16": "To Shuppim and Hosah the lot came forth westward, with the gate Shallecheth, by the causeway of the going up, ward against ward.", "17": "Eastward were six Levites, northward four a day, southward four a day, and toward Asuppim two and two.", "18": "At Parbar westward, four at the causeway, and two at Parbar.", "19": "These are the divisions of the porters among the sons of Kore, and among the sons of Merari.", "20": "And of the Levites, Ahijah was over the treasures of the house of God, and over the treasures of the dedicated things.", "21": "As concerning the sons of Laadan; the sons of the Gershonite Laadan, chief fathers, even of Laadan the Gershonite, were Jehieli.", "22": "The sons of Jehieli; Zetham, and Joel his brother, which were over the treasures of the house of the LORD.", "23": "Of the Amramites, and the Izharites, the Hebronites, and the Uzzielites:", "24": "And Shebuel the son of Gershom, the son of Moses, was ruler of the treasures.", "25": "And his brethren by Eliezer; Rehabiah his son, and Jeshaiah his son, and Joram his son, and Zichri his son, and Shelomith his son.", "26": "Which Shelomith and his brethren were over all the treasures of the dedicated things, which David the king, and the chief fathers, the captains over thousands and hundreds, and the captains of the host, had dedicated.", "27": "Out of the spoils won in battles did they dedicate to maintain the house of the LORD.", "28": "And all that Samuel the seer, and Saul the son of Kish, and Abner the son of Ner, and Joab the son of Zeruiah, had dedicated; and whosoever had dedicated any thing, it was under the hand of Shelomith, and of his brethren.", "29": "Of the Izharites, Chenaniah and his sons were for the outward business over Israel, for officers and judges.", "30": "And of the Hebronites, Hashabiah and his brethren, men of valour, a thousand and seven hundred, were officers among them of Israel on this side Jordan westward in all the business of the LORD, and in the service of the king.", "31": "Among the Hebronites was Jerijah the chief, even among the Hebronites, according to the generations of his fathers. In the fortieth year of the reign of David they were sought for, and there were found among them mighty men of valour at Jazer of Gilead.", "32": "And his brethren, men of valour, were two thousand and seven hundred chief fathers, whom king David made rulers over the Reubenites, the Gadites, and the half tribe of Manasseh, for every matter pertaining to God, and affairs of the king."}}, "tsk": {"1": [{"kopje": "verdelingen", "refs": ["1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 23:5"]}, {"kopje": "poortwachters", "refs": ["1 Kron 9:17-27", "1 Kron 15:18", "1 Kron 15:23", "1 Kron 15:24", "2 Kron 23:19"]}, {"kopje": "Korahieten", "refs": ["Num 26:9-11", "Ps 44:2", "Ps 49:2"]}, {"kopje": "Meselemja", "refs": ["1 Kron 26:14"]}, {"kopje": "Asaf", "refs": ["1 Kron 6:37", "1 Kron 9:19"]}], "4": [{"kopje": "Obed-Edom", "refs": ["1 Kron 15:18", "1 Kron 15:21", "1 Kron 15:24", "1 Kron 16:5", "1 Kron 16:38"]}], "5": [{"kopje": "hem", "refs": ["1 Kron 13:14", "Ps 128:1"]}], "6": [{"kopje": "dappere helden", "refs": ["1 Kron 26:8", "1 Kron 12:28", "Richt 6:12", "2 Sam 2:7", "2 Kron 26:17", "Neh 11:14", "1 Tim 6:12", "2 Tim 2:3"]}], "8": [{"kopje": "dappere mannen", "refs": ["Matt 25:15", "1 Kor 12:4-11", "2 Kor 3:6", "1 Petr 4:11"]}], "9": [{"kopje": "Meselemja", "refs": ["1 Kron 26:1", "1 Kron 26:14"]}], "10": [{"kopje": "Hosa", "refs": ["1 Kron 16:38"]}, {"kopje": "zijn vader", "refs": ["1 Kron 5:1", "1 Kron 5:2"]}], "12": [{"kopje": "wachtdiensten", "refs": ["1 Kron 25:8"]}], "13": [{"kopje": "zowel de kleinen als de groten", "refs": ["1 Kron 24:31", "1 Kron 25:8"]}], "14": [{"kopje": "Salemja", "refs": ["1 Kron 26:1"]}, {"kopje": "Zecharja", "refs": ["1 Kron 26:2"]}], "15": [{"kopje": "schatkamers", "refs": ["1 Kron 26:17", "2 Kron 25:24", "Neh 12:25", "Pred 12:11", "2 Kron 25:24"]}], "16": [{"kopje": "Hosa", "refs": ["1 Kron 26:10", "1 Kron 26:11"]}, {"kopje": "oplopende weg", "refs": ["1 Kon 10:5", "2 Kron 9:4"]}, {"kopje": "wacht tegenover wacht", "refs": ["1 Kron 26:12", "1 Kron 25:8", "Neh 12:24"]}], "17": [{"kopje": "Voor het oosten", "refs": ["1 Kron 9:24", "2 Kron 8:14"]}, {"kopje": "schatkamers", "refs": ["1 Kron 26:15"]}], "18": [{"kopje": "Parbar", "refs": ["1 Kron 26:18", "2 Kon 23:11", "2 Kon 23:11"]}], "19": [{"kopje": "Korahieten", "refs": ["Num 16:11"]}], "20": [{"kopje": "schatten", "refs": ["1 Kron 26:22", "1 Kron 9:26-30", "1 Kron 22:3", "1 Kron 22:4", "1 Kron 22:14-16", "1 Kron 28:12-19", "1 Kron 29:2-8", "1 Kon 14:26", "1 Kon 15:18", "Mal 3:10"]}, {"kopje": "geheiligde dingen", "refs": ["1 Kron 26:26-28", "1 Kron 18:11", "1 Kon 7:51", "2 Kron 31:11", "2 Kron 31:12"]}], "21": [{"kopje": "Ladan", "refs": ["1 Kron 6:17", "1 Kron 23:7"]}], "22": [{"kopje": "Jehieli", "refs": ["1 Kron 23:8", "1 Kron 29:8"]}, {"kopje": "over de schatten", "refs": ["1 Kron 26:20", "Neh 10:38"]}], "23": [{"kopje": "Amramieten", "refs": ["1 Kron 23:12", "Num 3:19", "Num 3:27"]}], "24": [{"kopje": "Sebuël", "refs": ["1 Kron 23:15", "1 Kron 23:16", "1 Kron 24:20"]}], "25": [{"kopje": "Eliëzer", "refs": ["1 Kron 23:15", "Ex 18:4"]}, {"kopje": "Rehabja", "refs": ["1 Kron 23:17"]}, {"kopje": "Selomith", "refs": ["1 Kron 23:18"]}], "26": [{"kopje": "over al de schatten", "refs": ["1 Kron 18:11", "1 Kron 22:14", "1 Kron 29:2-9", "Num 31:30-52"]}], "27": [{"kopje": "Van", "refs": ["Joz 6:19"]}, {"kopje": "te onderhouden", "refs": ["2 Kon 12:14", "Neh 10:32-34"]}], "28": [{"kopje": "Samuël", "refs": ["1 Sam 9:9"]}, {"kopje": "Abner", "refs": ["1 Sam 14:47-51", "1 Sam 17:55"]}, {"kopje": "Joab", "refs": ["2 Sam 10:9-14"]}], "29": [{"kopje": "Jizharieten", "refs": ["1 Kron 26:23", "1 Kron 23:12"]}, {"kopje": "buitenwerk", "refs": ["2 Kron 34:13", "Neh 11:16"]}, {"kopje": "rechters", "refs": ["1 Kron 23:4", "2 Kron 19:8-11"]}], "30": [{"kopje": "Hebronieten", "refs": ["1 Kron 23:12", "1 Kron 23:19"]}, {"kopje": "dappere mannen", "refs": ["1 Kron 26:6"]}], "31": [{"kopje": "Jeria", "refs": ["1 Kron 23:19"]}, {"kopje": "veertigste", "refs": ["1 Kron 29:27", "1 Kon 2:11"]}, {"kopje": "Jaëzer", "refs": ["Joz 21:39", "Jes 16:9"]}], "32": [{"kopje": "dappere mannen", "refs": ["1 Kron 26:6-9"]}, {"kopje": "hoofden van de families", "refs": ["1 Kron 15:12", "1 Kron 23:24", "1 Kron 24:31"]}, {"kopje": "Rubenieten", "refs": ["1 Kron 12:37"]}, {"kopje": "en de zaken", "refs": ["2 Kron 19:11"]}]}, "onderwerpen": {"27": [{"onderwerp": "Abner", "sub": "Wijdde krijgsbuit toe aan de tabernakel", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 26:28", "alle": ["1 Kron 26:28"], "meer": 0}, {"onderwerp": "Buit", "sub": "Toegewijd aan den HEERE", "totaal": 3, "positie": 2, "vorige": "1 Sam 15:15", "volgende": "2 Kron 15:11", "alle": ["1 Sam 15:15", "2 Kron 15:11"], "meer": 0}, {"onderwerp": "Schathuizen", "sub": "Priesters en Levieten belast met", "totaal": 12, "positie": 9, "vorige": "1 Kron 26:26", "volgende": "1 Kron 26:28", "alle": ["1 Kron 9:26", "1 Kron 26:20", "1 Kron 26:21", "1 Kron 26:22", "1 Kron 26:23", "1 Kron 26:24", "1 Kron 26:25", "1 Kron 26:26", "1 Kron 26:28", "Neh 12:44", "Neh 13:13"], "meer": 0}], "28": [{"onderwerp": "Abner", "sub": "Wijdde krijgsbuit toe aan de tabernakel", "totaal": 2, "positie": 2, "vorige": "1 Kron 26:27", "volgende": null, "alle": ["1 Kron 26:27"], "meer": 0}, {"onderwerp": "Samuël", "sub": "Regelt de dienst des tabernakels", "totaal": 3, "positie": 2, "vorige": "1 Kron 9:22", "volgende": "2 Kron 35:18", "alle": ["1 Kron 9:22", "2 Kron 35:18"], "meer": 0}, {"onderwerp": "Selómith", "sub": "5. Een nakomeling van Eliëzer", "totaal": 3, "positie": 3, "vorige": "1 Kron 26:26", "volgende": null, "alle": ["1 Kron 26:25", "1 Kron 26:26"], "meer": 0}, {"onderwerp": "Schathuizen", "sub": "Priesters en Levieten belast met", "totaal": 12, "positie": 10, "vorige": "1 Kron 26:27", "volgende": "Neh 12:44", "alle": ["1 Kron 9:26", "1 Kron 26:20", "1 Kron 26:21", "1 Kron 26:22", "1 Kron 26:23", "1 Kron 26:24", "1 Kron 26:25", "1 Kron 26:26", "1 Kron 26:27", "Neh 12:44", "Neh 13:13"], "meer": 0}], "20": [{"onderwerp": "Ahia", "sub": "5. Een Leviet die schatbewaarder was in de tabernakel", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Schathuizen", "sub": "Priesters en Levieten belast met", "totaal": 12, "positie": 2, "vorige": "1 Kron 9:26", "volgende": "1 Kron 26:21", "alle": ["1 Kron 9:26", "1 Kron 26:21", "1 Kron 26:22", "1 Kron 26:23", "1 Kron 26:24", "1 Kron 26:25", "1 Kron 26:26", "1 Kron 26:27", "1 Kron 26:28", "Neh 12:44", "Neh 13:13"], "meer": 0}, {"onderwerp": "Schathuizen", "sub": "Onder het toezicht van de Levieten", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "13": [{"onderwerp": "Poorten", "sub": "Ambt van, toegewezen door het lot", "totaal": 7, "positie": 1, "vorige": null, "volgende": "1 Kron 26:14", "alle": ["1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Hun posten werden door het lot bepaald", "totaal": 8, "positie": 2, "vorige": "1 Kron 24:31", "volgende": "1 Kron 26:14", "alle": ["1 Kron 24:31", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Zij dienden in vierentwintig beurten", "totaal": 7, "positie": 1, "vorige": null, "volgende": "1 Kron 26:14", "alle": ["1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}], "14": [{"onderwerp": "Poorten", "sub": "Ambt van, toegewezen door het lot", "totaal": 7, "positie": 2, "vorige": "1 Kron 26:13", "volgende": "1 Kron 26:15", "alle": ["1 Kron 26:13", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Hun posten werden door het lot bepaald", "totaal": 8, "positie": 3, "vorige": "1 Kron 26:13", "volgende": "1 Kron 26:15", "alle": ["1 Kron 24:31", "1 Kron 26:13", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Zij dienden in vierentwintig beurten", "totaal": 7, "positie": 2, "vorige": "1 Kron 26:13", "volgende": "1 Kron 26:15", "alle": ["1 Kron 26:13", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Selémja", "sub": "1. Een poortier van de tabernakel", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Zacharia", "sub": "2. Drie Levieten in de dagen van David", "totaal": 7, "positie": 7, "vorige": "1 Kron 26:2", "volgende": null, "alle": ["1 Kron 9:21", "1 Kron 15:18", "1 Kron 15:20", "1 Kron 15:24", "1 Kron 16:5", "1 Kron 26:2"], "meer": 0}], "15": [{"onderwerp": "Poorten", "sub": "Ambt van, toegewezen door het lot", "totaal": 7, "positie": 3, "vorige": "1 Kron 26:14", "volgende": "1 Kron 26:16", "alle": ["1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Hun posten werden door het lot bepaald", "totaal": 8, "positie": 4, "vorige": "1 Kron 26:14", "volgende": "1 Kron 26:16", "alle": ["1 Kron 24:31", "1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Zij dienden in vierentwintig beurten", "totaal": 7, "positie": 3, "vorige": "1 Kron 26:14", "volgende": "1 Kron 26:16", "alle": ["1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}], "16": [{"onderwerp": "Poorten", "sub": "Ambt van, toegewezen door het lot", "totaal": 7, "positie": 4, "vorige": "1 Kron 26:15", "volgende": "1 Kron 26:17", "alle": ["1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Hun posten werden door het lot bepaald", "totaal": 8, "positie": 5, "vorige": "1 Kron 26:15", "volgende": "1 Kron 26:17", "alle": ["1 Kron 24:31", "1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Zij dienden in vierentwintig beurten", "totaal": 7, "positie": 4, "vorige": "1 Kron 26:15", "volgende": "1 Kron 26:17", "alle": ["1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:17", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Sallecheth", "sub": "Een van de poorten van de tempel", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Suppim", "sub": "2. Een Leviet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "17": [{"onderwerp": "Poorten", "sub": "Ambt van, toegewezen door het lot", "totaal": 7, "positie": 5, "vorige": "1 Kron 26:16", "volgende": "1 Kron 26:18", "alle": ["1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Hun posten werden door het lot bepaald", "totaal": 8, "positie": 6, "vorige": "1 Kron 26:16", "volgende": "1 Kron 26:18", "alle": ["1 Kron 24:31", "1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Zij dienden in vierentwintig beurten", "totaal": 7, "positie": 5, "vorige": "1 Kron 26:16", "volgende": "1 Kron 26:18", "alle": ["1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:18", "1 Kron 26:19"], "meer": 0}], "18": [{"onderwerp": "Poorten", "sub": "Ambt van, toegewezen door het lot", "totaal": 7, "positie": 6, "vorige": "1 Kron 26:17", "volgende": "1 Kron 26:19", "alle": ["1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Hun posten werden door het lot bepaald", "totaal": 8, "positie": 7, "vorige": "1 Kron 26:17", "volgende": "1 Kron 26:19", "alle": ["1 Kron 24:31", "1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:19"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Zij dienden in vierentwintig beurten", "totaal": 7, "positie": 6, "vorige": "1 Kron 26:17", "volgende": "1 Kron 26:19", "alle": ["1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:19"], "meer": 0}], "19": [{"onderwerp": "Poorten", "sub": "Ambt van, toegewezen door het lot", "totaal": 7, "positie": 7, "vorige": "1 Kron 26:18", "volgende": null, "alle": ["1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Hun posten werden door het lot bepaald", "totaal": 8, "positie": 8, "vorige": "1 Kron 26:18", "volgende": null, "alle": ["1 Kron 24:31", "1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18"], "meer": 0}, {"onderwerp": "Poortwachters", "sub": "Zij dienden in vierentwintig beurten", "totaal": 7, "positie": 7, "vorige": "1 Kron 26:18", "volgende": null, "alle": ["1 Kron 26:13", "1 Kron 26:14", "1 Kron 26:15", "1 Kron 26:16", "1 Kron 26:17", "1 Kron 26:18"], "meer": 0}], "10": [{"onderwerp": "Hosa", "sub": "2. Een Leviet", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 26:11", "alle": ["1 Kron 26:11"], "meer": 0}, {"onderwerp": "Simri", "sub": "3. Een Merariet, ook Simri genoemd", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Simri", "sub": "Ook genaamd Simri, een Merariet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "11": [{"onderwerp": "Hosa", "sub": "2. Een Leviet", "totaal": 2, "positie": 2, "vorige": "1 Kron 26:10", "volgende": null, "alle": ["1 Kron 26:10"], "meer": 0}, {"onderwerp": "Tebalia", "sub": "Zoon van Hosa.", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Zacharia", "sub": "5. Een Merarietische poortwachter in de tempel", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "21": [{"onderwerp": "Jehiëli", "sub": "Zoon van Laëdan.", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 26:22", "alle": ["1 Kron 26:22"], "meer": 0}, {"onderwerp": "Schathuizen", "sub": "Priesters en Levieten belast met", "totaal": 12, "positie": 3, "vorige": "1 Kron 26:20", "volgende": "1 Kron 26:22", "alle": ["1 Kron 9:26", "1 Kron 26:20", "1 Kron 26:22", "1 Kron 26:23", "1 Kron 26:24", "1 Kron 26:25", "1 Kron 26:26", "1 Kron 26:27", "1 Kron 26:28", "Neh 12:44", "Neh 13:13"], "meer": 0}], "22": [{"onderwerp": "Jehiëli", "sub": "Zoon van Laëdan.", "totaal": 2, "positie": 2, "vorige": "1 Kron 26:21", "volgende": null, "alle": ["1 Kron 26:21"], "meer": 0}, {"onderwerp": "Schathuizen", "sub": "Priesters en Levieten belast met", "totaal": 12, "positie": 4, "vorige": "1 Kron 26:21", "volgende": "1 Kron 26:23", "alle": ["1 Kron 9:26", "1 Kron 26:20", "1 Kron 26:21", "1 Kron 26:23", "1 Kron 26:24", "1 Kron 26:25", "1 Kron 26:26", "1 Kron 26:27", "1 Kron 26:28", "Neh 12:44", "Neh 13:13"], "meer": 0}, {"onderwerp": "Zetham", "sub": "Een zoon van Laëdan", "totaal": 2, "positie": 2, "vorige": "1 Kron 23:8", "volgende": null, "alle": ["1 Kron 23:8"], "meer": 0}], "1": [{"onderwerp": "Meselemja", "sub": "Een poortwachter van de tempel.", "totaal": 4, "positie": 2, "vorige": "1 Kron 9:21", "volgende": "1 Kron 26:2", "alle": ["1 Kron 9:21", "1 Kron 26:2", "1 Kron 26:9"], "meer": 0}], "2": [{"onderwerp": "Meselemja", "sub": "Een poortwachter van de tempel.", "totaal": 4, "positie": 3, "vorige": "1 Kron 26:1", "volgende": "1 Kron 26:9", "alle": ["1 Kron 9:21", "1 Kron 26:1", "1 Kron 26:9"], "meer": 0}, {"onderwerp": "Zebadja", "sub": "3. Een Korachitische poortwachter in de tempel", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Zacharia", "sub": "2. Drie Levieten in de dagen van David", "totaal": 7, "positie": 6, "vorige": "1 Kron 16:5", "volgende": "1 Kron 26:14", "alle": ["1 Kron 9:21", "1 Kron 15:18", "1 Kron 15:20", "1 Kron 15:24", "1 Kron 16:5", "1 Kron 26:14"], "meer": 0}], "9": [{"onderwerp": "Meselemja", "sub": "Een poortwachter van de tempel.", "totaal": 4, "positie": 4, "vorige": "1 Kron 26:2", "volgende": null, "alle": ["1 Kron 9:21", "1 Kron 26:1", "1 Kron 26:2"], "meer": 0}], "4": [{"onderwerp": "Nethaneël", "sub": "4. Zoon van Obed-Edom, en poortwachter van de tempel", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Sachar", "sub": "2. Een Korachiet, zoon van Obed-Edom", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Semája", "sub": "9. Een poortier van de tempel ten tijde van David", "totaal": 3, "positie": 1, "vorige": null, "volgende": "1 Kron 26:6", "alle": ["1 Kron 26:6", "1 Kron 26:7"], "meer": 0}], "7": [{"onderwerp": "Obed", "sub": "4. Zoon van Semaja. Een poortwachter van de tempel", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Othni", "sub": "Zoon van Semaja", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Refaël", "sub": "Een poortwachter van de tempel in de tijd van David.", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Semachja", "sub": "Zoon van Semaja", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Semája", "sub": "9. Een poortier van de tempel ten tijde van David", "totaal": 3, "positie": 3, "vorige": "1 Kron 26:6", "volgende": null, "alle": ["1 Kron 26:4", "1 Kron 26:6"], "meer": 0}], "5": [{"onderwerp": "Peulthai", "sub": "Een poortwachter van de tabernakel.", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "25": [{"onderwerp": "Rehabja", "sub": "Zoon van Eliëzer.", "totaal": 3, "positie": 3, "vorige": "1 Kron 24:21", "volgende": null, "alle": ["1 Kron 23:17", "1 Kron 24:21"], "meer": 0}, {"onderwerp": "Selómith", "sub": "5. Een nakomeling van Eliëzer", "totaal": 3, "positie": 1, "vorige": null, "volgende": "1 Kron 26:26", "alle": ["1 Kron 26:26", "1 Kron 26:28"], "meer": 0}, {"onderwerp": "Schathuizen", "sub": "Priesters en Levieten belast met", "totaal": 12, "positie": 7, "vorige": "1 Kron 26:24", "volgende": "1 Kron 26:26", "alle": ["1 Kron 9:26", "1 Kron 26:20", "1 Kron 26:21", "1 Kron 26:22", "1 Kron 26:23", "1 Kron 26:24", "1 Kron 26:26", "1 Kron 26:27", "1 Kron 26:28", "Neh 12:44", "Neh 13:13"], "meer": 0}, {"onderwerp": "Zichri", "sub": "4. Twee oversten in de dagen van David", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 27:16", "alle": ["1 Kron 27:16"], "meer": 0}], "32": [{"onderwerp": "Ruben, de stam van", "sub": "Beambten over aangesteld door David", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 27:16", "alle": ["1 Kron 27:16"], "meer": 0}], "26": [{"onderwerp": "Selómith", "sub": "5. Een nakomeling van Eliëzer", "totaal": 3, "positie": 2, "vorige": "1 Kron 26:25", "volgende": "1 Kron 26:28", "alle": ["1 Kron 26:25", "1 Kron 26:28"], "meer": 0}, {"onderwerp": "Schathuizen", "sub": "Priesters en Levieten belast met", "totaal": 12, "positie": 8, "vorige": "1 Kron 26:25", "volgende": "1 Kron 26:27", "alle": ["1 Kron 9:26", "1 Kron 26:20", "1 Kron 26:21", "1 Kron 26:22", "1 Kron 26:23", "1 Kron 26:24", "1 Kron 26:25", "1 Kron 26:27", "1 Kron 26:28", "Neh 12:44", "Neh 13:13"], "meer": 0}], "6": [{"onderwerp": "Semája", "sub": "9. Een poortier van de tempel ten tijde van David", "totaal": 3, "positie": 2, "vorige": "1 Kron 26:4", "volgende": "1 Kron 26:7", "alle": ["1 Kron 26:4", "1 Kron 26:7"], "meer": 0}], "23": [{"onderwerp": "Schathuizen", "sub": "Priesters en Levieten belast met", "totaal": 12, "positie": 5, "vorige": "1 Kron 26:22", "volgende": "1 Kron 26:24", "alle": ["1 Kron 9:26", "1 Kron 26:20", "1 Kron 26:21", "1 Kron 26:22", "1 Kron 26:24", "1 Kron 26:25", "1 Kron 26:26", "1 Kron 26:27", "1 Kron 26:28", "Neh 12:44", "Neh 13:13"], "meer": 0}], "24": [{"onderwerp": "Schathuizen", "sub": "Priesters en Levieten belast met", "totaal": 12, "positie": 6, "vorige": "1 Kron 26:23", "volgende": "1 Kron 26:25", "alle": ["1 Kron 9:26", "1 Kron 26:20", "1 Kron 26:21", "1 Kron 26:22", "1 Kron 26:23", "1 Kron 26:25", "1 Kron 26:26", "1 Kron 26:27", "1 Kron 26:28", "Neh 12:44", "Neh 13:13"], "meer": 0}]}, "extern": {"1 Kron 9:19": "En Sallum, de zoon van Kore, de zoon van Ebjasaf, de zoon van Korah, en zijn broeders van het huis van zijn vader, de Korahieten, waren over het werk van de dienst, wachters van de dorpels van de tabernakel; zoals hun vaders in het leger van de HEERE geweest waren bewaarders van de ingang;", "1 Kron 5:2": "want Juda werd machtig onder zijn broeders, en hij die tot een voorganger was, kwam uit hem; maar het eerstgeboorterecht was van Jozef.)", "1 Kron 15:23": "En Berechja en Elkana waren poortwachters van de ark.", "1 Kron 9:26": "Want in dat ambt waren vier leidende poortwachters, die Levieten waren; en zij waren over de kamers en over de schatten van het huis van God.", "1 Kron 15:21": "En Mattithja, en Elifele, en Mikneja, en Obed-edom, en Jeiel, en Azazja, met harpen op de Scheminith, om de toon te versterken.", "1 Kron 23:8": "De kinderen van Ladan waren deze: Jehiel, het hoofd, en Zetham, en Joël; drie.", "1 Kron 25:8": "En zij wierpen de loten over de dienst, tegen elkaar, zowel de kleinen als de groten, de meester met de leerling.", "1 Kron 9:24": "Die poortwachters waren aan de vier windstreken, tegen het oosten, tegen het westen, tegen het noorden en tegen het zuiden.", "1 Kron 13:14": "Zo bleef de ark van God bij het huisgezin van Obed-edom, in zijn huis, drie maanden; en de HEERE zegende het huis van Obed-edom, en alles wat hij had.", "2 Sam 2:7": "En nu, laat uw handen sterk zijn, en wees dapper, omdat uw heer Saul gestorven is; en ook hebben die van het huis van Juda mij tot koning over zich gezalfd.", "1 Kon 14:26": "En hij nam de schatten van het huis van de HEERE, en de schatten van het huis van de koning weg, ja, hij nam alles weg; hij nam ook al de gouden schilden weg die Salomo gemaakt had.", "1 Kron 9:21": "Zacharja, de zoon van Meselemja, was poortwachter aan de deur van de tent van de samenkomst.", "2 Kon 12:14": "Maar zij gaven dat aan hen die het werk deden; en zij herstelden daarmee het huis van de HEERE.", "1 Kron 23:18": "Van de kinderen van Jizhar was Selomith het hoofd.", "1 Kron 24:31": "En zij wierpen ook loten, samen met hun broeders, de zonen van Aäron, voor het aangezicht van koning David, en Zadok, en Achimelech, en van de familiehoofden onder de priesters en onder de Levieten; het familiehoofd tegenover zijn jongste broer.", "Ps 128:1": "Een lied Hammaaloth. Gelukkig is ieder die de HEERE vreest, die in Zijn wegen wandelt.", "1 Kon 10:5": "en het voedsel van zijn tafel, en het zitten van zijn knechten, en het staan van zijn dienaren, en hun kleding, en zijn schenkers, en zijn opgang waarlangs hij naar boven ging in het huis van de HEERE, toen was er in haar geen geest meer.", "2 Kron 31:12": "Daarin brachten zij die heffing, en de tienden, en de geheiligde dingen, in trouw; en daarover was Chonanja, de Leviet, leider, en Simeï, zijn broer, de tweede.", "1 Kron 15:20": "En Zecharja, en Aziël, en Semiramoth, en Jehiel, en Unni, en Eliab, en Maaseja, en Benaja, met luiten op Alamoth.", "1 Kron 23:24": "Dit zijn de kinderen van Levi, naar het huis van hun vaderen, de hoofden van de vaderen, naar hun telling in het getal van de namen naar hun hoofden, die het werk deden van de dienst van het huis van de HEERE, van twintig jaar oud en daarboven.", "1 Kron 24:21": "Aangaande Rehabja: van de kinderen van Rehabja was Jissia het hoofd.", "1 Kron 15:18": "En met hen hun broeders van de tweede orde: Zecharja, Ben en Jaaziel, en Semiramoth, en Jehiel, en Unni, Eliab, en Benaja, en Maaseja, en Mattithja, en Elifele, en Mikneja, en Obed-edom, en Jeiel, de poortwachters.", "1 Sam 17:55": "Toen Saul David zag uitgaan, de Filistijn tegemoet, zei hij tegen Abner, de legeraanvoerder: Wiens zoon is deze jongeman, Abner? En Abner zei: Zo waarachtig als uw ziel leeft, o koning, ik weet het niet.", "Num 16:11": "Daarom, u en uw hele vergadering, u bent verzameld tegen de HEERE, want Aäron, wat is hij, dat u tegen hem morde?", "2 Kron 9:4": "En het voedsel van zijn tafel, en het zitten van zijn knechten, en het optreden van zijn dienaren, en hun kleding, en zijn schenkers, en hun kleding, en zijn opgang waarmee hij opging in het huis van de HEERE, toen was er geen geest meer in haar.", "1 Kron 29:27": "De dagen nu dat hij over Israël geregeerd heeft, zijn veertig jaar; in Hebron regeerde hij zeven jaar, en in Jeruzalem regeerde hij drieëndertig jaar.", "Neh 12:25": "Matthanja en Bakbukja, Obadja, Mesullam, Talmon en Akkub, waren poortwachters, die de wacht waarnamen bij de schatkamers van de poorten.", "Mal 3:10": "Breng al de tienden in het schathuis, opdat er voedsel is in Mijn huis; en beproef Mij nu daarin, zegt de HEERE van de heerscharen, of Ik u dan niet zal opendoen de vensters van de hemel, en u zegen zal uitgieten, zodat er geen schuren genoeg zullen zijn.", "1 Kron 23:4": "Uit dezen waren er vierentwintigduizend om het werk van het huis van de HEERE aan te sturen; en zesduizend opzichters en rechters;", "1 Kron 22:3": "En David bereidde ijzer in overvloed, voor de nagelen aan de deuren van de poorten en voor de verbindingen; ook koper in overvloed, zonder gewicht;", "1 Kron 6:17": "En dit zijn de namen van de zonen van Gerson: Libni en Simeï.", "1 Kron 15:12": "En hij zei tegen hen: U bent hoofden van de families onder de Levieten; heilig uzelf, u en uw broers, zodat u de ark van de HEERE, de God van Israël, opbrengt naar de plaats, die ik voor haar bereid heb.", "1 Kron 23:17": "De kinderen van Eliëzer nu waren deze: Rehabja het hoofd; en Eliëzer had geen andere kinderen, maar de kinderen van Rehabja werden zeer talrijk.", "1 Kron 16:5": "Asaf was het hoofd, en Zecharja de tweede na hem; Jeïel, en Semiramoth, en Jehiël, en Mattithja, en Eliab, en Benaja, en Obed-Edom, en Jeïel, met instrumenten van luiten en met harpen; en Asaf liet zich horen met cimbalen;", "2 Kron 25:24": "Daartoe nam hij al het goud, en het zilver, en alle voorwerpen die in het huis van God gevonden werden, bij Obed-edom, en de schatten van het huis van de koning, alsook gijzelaars, en hij keerde terug naar Samaria.", "2 Kron 19:11": "En zie, Amarja, de hoofdpriester, staat over u in alle zaken van de HEERE; en Zebadja, de zoon van Ismaël, de vorst van het huis van Juda, in alle zaken van de koning; ook zijn de opzichters, de Levieten, voor uw aangezicht; wees sterk en doe het, en de HEERE zal met de goede zijn.", "1 Kron 27:16": "En over de stammen van Israël waren dezen: over de Rubenieten was Eliëzer, de zoon van Zichri, voorganger; over de Simeonieten was Sefatja, de zoon van Maächa;", "1 Kron 23:12": "De kinderen van Kehath waren Amram, Jizhar, Hebron en Uzziël; vier.", "2 Kron 34:13": "Zij waren ook aangesteld over de lastdragers, en de opzichters van allen die in enig werk arbeidden; want uit de Levieten waren er schrijvers, en beambten, en poortwachters.", "Neh 13:13": "En ik stelde tot schatmeesters over de schatten Selemja, de priester, en Zadok, de schrijver, en Pedaja, uit de Levieten; en aan hun zijde Hanan, de zoon van Zakkur, de zoon van Matthanja; want zij werden betrouwbaar geacht, en hun werd opgelegd het aan hun broeders uit te delen.", "1 Petr 4:11": "Als iemand spreekt, laat hij spreken als de woorden van God; als iemand dient, laat hij dienen als uit kracht die God verleent; opdat God in alles geprezen wordt door Jezus Christus, aan Wie de heerlijkheid en de kracht toekomt, tot in alle eeuwigheid. Amen.", "2 Kron 15:11": "En zij offerden aan de HEERE op diezelfde dag van de buit die zij hadden meegebracht, zevenhonderd runderen en zevenduizend schapen.", "Pred 12:11": "De woorden van de wijzen zijn als prikkels, en als spijkers, diep ingeslagen door de meesters van de verzamelingen, die gegeven zijn door de ene Herder.", "1 Kron 23:16": "Van de kinderen van Gersom was Sebuël het hoofd.", "1 Kron 23:19": "Aangaande de kinderen van Hebron: Jeria was het hoofd, Amarja de tweede, Jahaziël de derde, en Jekameam de vierde.", "1 Kon 15:18": "Toen nam Asa al het zilver en goud, dat overgebleven was in de schatten van het huis van de HEERE, en de schatten van het huis van de koning, en gaf ze in de hand van zijn knechten; en de koning Asa zond ze tot Benhadad, de zoon van Tabrimmon, de zoon van Hezion, de koning van Syrië, die te Damaskus woonde, en zei:", "2 Kon 23:11": "En hij schafte de paarden af, die de koningen van Juda voor de zon gesteld hadden, bij de ingang van het huis van de HEERE, tot de kamer van Nathan-melech, de hoveling, die in Parvarim was; en de wagens van de zon verbrandde hij met vuur.", "Num 3:27": "En van Kahath is het geslacht van de Amramieten, en het geslacht van de Izharieten, en het geslacht van de Hebronieten, en het geslacht van de Uzziëlieten; dit zijn de geslachten van de Kohathieten.", "Ps 49:2": "Hoort dit, alle volken! Neemt het ter oor, alle inwoners van de wereld,", "1 Sam 9:9": "(Eertijds zei ieder in Israël dit, als hij ging om God te vragen: Kom, laten wij gaan naar de ziener; want wie tegenwoordig een profeet genoemd wordt, werd eertijds een ziener genoemd.)", "Neh 12:44": "Ook werden op diezelfde dag mannen aangesteld over de kamers, voor de schatten, voor de hefoffers, voor de eerstelingen en voor de tienden, om daarin uit de akkers van de steden de delen van de wet te verzamelen, voor de priesters en voor de Levieten; want Juda was vrolijk over de priesters en over de Levieten, die daar stonden.", "Ex 18:4": "en de naam van de ander was Eliëzer, want, zei hij, de God van mijn vader is mij tot hulp geweest, en heeft mij verlost van het zwaard van Farao.", "2 Kron 8:14": "Hij stelde ook, naar de wijze van zijn vader David, de verdelingen van de priesters aan over hun dienst, en van de Levieten over hun taken, om God te prijzen en voor de priesters te dienen, naar de eis van elke dag; en de poortwachters in hun verdelingen, bij elke poort; want zo was het gebod van David, de man Gods.", "2 Kron 31:11": "Toen zei Hizkia dat men kamers aan het huis van de HEERE gereed zou maken; en zij maakten ze gereed.", "1 Kron 12:28": "En Zadok was een jongeman, een kloeke held; en uit zijn vaders huis waren tweeëntwintig leiders;", "Joz 6:19": "Maar al het zilver en goud, en de koperen en ijzeren voorwerpen, zullen de HEERE heilig zijn; naar de schat van de HEERE zullen zij komen.", "2 Tim 2:3": "Lijd dan verdrukkingen, als een goed soldaat van Jezus Christus.", "1 Kon 2:11": "De dagen nu dat David over Israël geregeerd heeft, zijn veertig jaar; zeven jaar heeft hij geregeerd in Hebron, en in Jeruzalem heeft hij drieëndertig jaar geregeerd.", "Jes 16:9": "Daarom beween ik, met de wening over Jaezer, de wijnstok van Sibma; ik maak u doornat met mijn tranen, o Hesbon en Eleale! Want het vreugdegeroep over uw zomervruchten en over uw oogst is verstomd;", "1 Sam 15:15": "Saul nu zei: Ze hebben ze van de Amalekieten gebracht, want het volk heeft de beste schapen en runderen verschoond, om ze aan de HEERE, uw God, te offeren; maar de rest hebben wij verbannen.", "1 Kron 9:22": "Allen die uitgekozen waren tot poortwachters aan de dorpels, waren tweehonderdtwaalf. Dezen waren in het geslachtsregister ingeschreven naar hun dorpen. David en Samuël, de ziener, hadden hen in hun ambt bevestigd.", "Neh 12:24": "De hoofden dan van de Levieten waren Hasabja, Serebja, en Jesua, de zoon van Kadmiel, en hun broeders tegenover hen, om te prijzen en te danken, naar het gebod van David, de man van God, wacht tegenover wacht.", "1 Tim 6:12": "Strijd de goede strijd van het geloof, grijp naar het eeuwige leven, waartoe u ook geroepen bent en waarvoor u de goede belijdenis afgelegd hebt voor veel getuigen.", "1 Kron 18:11": "Deze heiligde koning David ook aan de HEERE, met het zilver en het goud dat hij had meegebracht van alle heidenvolken: van de Edomieten, en van de Moabieten, en van de kinderen van Ammon, en van de Filistijnen, en van de Amalekieten.", "1 Kon 7:51": "Zo werd al het werk voltooid dat koning Salomo voor het huis van de HEERE maakte. Daarna bracht Salomo de geheiligde dingen van zijn vader David: het zilver, het goud, en de voorwerpen legde hij bij de schatten van het huis van de HEERE.", "Matt 25:15": "En aan de één gaf hij vijf talenten, en aan de ander twee, en aan de derde één, ieder naar zijn vermogen, en hij vertrok meteen.", "1 Kron 23:5": "En vierduizend poortwachters, en vierduizend lofzangers van de HEERE, met instrumenten die ik gemaakt heb, zei David, om lof te zingen.", "2 Kron 26:17": "Doch Azaria, de priester, ging hem na, en met hem priesters van de HEERE, tachtig kloeke mannen.", "Joz 21:39": "Hesbon en haar voorsteden, Jaezer en haar voorsteden: al die steden zijn vier.", "1 Kron 23:15": "De kinderen van Mozes waren Gersom en Eliëzer.", "1 Kron 22:14": "Zie, ik heb in mijn verdrukking voor het huis van de HEERE honderdduizend talenten van het goud bereid, en duizend maal duizend talenten van het zilver; en van het koper en van het ijzer is er geen gewicht, want het is er in overvloed; ik heb ook hout en stenen bereid; voegt u er nog meer aan toe.", "2 Kron 23:19": "En hij stelde de poortwachters aan bij de poorten van het huis van de HEERE, opdat niemand die op enige wijze onrein was, naar binnen zou komen.", "Num 3:19": "En de zonen van Kahath, naar hun geslachten: Amram en Izhar, Hebron en Uzziël.", "2 Kron 35:18": "Er was ook geen pascha zoals dat in Israël gehouden, vanaf de dagen van Samuël, de profeet, af; en geen koningen van Israël hadden zulk een pascha gehouden, zoals Josia hield met de priesters en de Levieten, en heel Juda en Israël, dat er gevonden werd, en de inwoners van Jeruzalem.", "Richt 6:12": "Toen verscheen de Engel van de HEERE aan hem, en zei tegen hem: De HEERE is met u, dappere held!", "1 Kron 5:1": "De kinderen van Ruben nu, de eerstgeborene van Israël; (want hij was de eerstgeborene; maar omdat hij het bed van zijn vader ontheiligd had, werd zijn eerstgeboorterecht gegeven aan de kinderen van Jozef, de zoon van Israël; maar niet zó, dat hij zich in het geslachtsregister naar het eerstgeboorterecht mocht laten rekenen;", "1 Kron 22:4": "en cederhout zonder getal, want de Sidoniërs en de Tyriërs brachten David cederhout in overvloed.", "Neh 11:16": "En Sabbethai, en Jozabad, van de leiders van de Levieten, hadden toezicht over het buitenwerk van het huis van God.", "Neh 10:38": "En dat er een priester, een zoon van Aäron, bij de Levieten zou zijn, als de Levieten de tienden ontvangen; en dat de Levieten de tienden zouden opbrengen naar het huis van onze God, in de kamers van het schathuis.", "2 Kor 3:6": "die ons ook bekwaam gemaakt heeft om dienaars te zijn van het Nieuwe Testament, niet van de letter, maar van de Geest; want de letter doodt, maar de Geest maakt levend.", "1 Kron 6:37": "De zoon van Tahath, de zoon van Assir, de zoon van Ebjasaf, de zoon van Korah,", "1 Kron 15:24": "En Sebanja, en Josafat, en Nethaneel, en Amasai, en Zecharja, en Benaja, en Eliëzer, de priesters, bliezen op trompetten voor de ark van God; en Obed-edom en Jehia waren poortwachters van de ark.", "1 Kron 12:37": "En van de overkant van de Jordaan, van de Rubenieten, en Gadieten, en de halve stam van Manasse, met allerlei oorlogswapens voor de strijd, honderdtwintigduizend.", "Neh 11:14": "En hun broeders, dappere helden, waren honderdachtentwintig; en opziener over hen was Zabdiël, de zoon van Gedolim.", "1 Kron 23:7": "Uit de Gersonieten waren Ladan en Simeï.", "Ps 44:2": "O God! Wij hebben het met onze oren gehoord, onze vaders hebben het ons verteld: Wat een werk hebt U gedaan in hun dagen, in de dagen van vroeger.", "1 Kron 16:38": "Obed-Edom nu, met hun broeders, waren achtenzestig; en hij stelde Obed-Edom, de zoon van Jeduthun, en Hosa, aan tot poortwachters;", "1 Kron 24:20": "Wat betreft de overige kinderen van Levi: van de kinderen van Amram was Subael, van de kinderen van Subael was Jechdeja.", "1 Kron 29:8": "En bij wie stenen gevonden werden, die gaven ze aan de schat van het huis van de HEERE, onder toezicht van Jehiël, de Gersoniet."}, "noten": {"1": "SV: vaderlijke huizen"}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${md(D.vertalingen[vertaling][n] || '—')}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+function paneelInhoud(n, tab) {
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : 'vertalingen');
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  const tekst = popupTekst(ref);
+  if (!tekst) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${md(tekst)}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1 Kronieken 8 — BereaStudieBijbel · De Volle Pinksterzegen</title>
+<style>
+  :root { --accent: #8a6d3b; --accent-donker: #6b5429; --bg: #fdfcf9; --bg-soft: #f7f3ea; --border: #e3ddd0; --tekst: #2b2b2b; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  header.site { text-align: center; padding: 1.2rem 0 .4rem; }
+  header.site h1 { font-size: 2rem; margin: 0; color: var(--accent-donker); letter-spacing: .01em; }
+  header.site .motto { font-style: italic; color: #8b7355; margin: .2rem 0 1rem; }
+  nav.hoofd { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: .55rem 0; font-family: sans-serif; font-size: .8rem; letter-spacing: .25em; text-transform: uppercase; text-align:center; }
+  nav.hoofd a { color: var(--accent); text-decoration: none; margin: 0 .8rem; }
+  nav.hoofd a.actief { color: var(--accent-donker); font-weight: 700; }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<header class="site">
+  <h1>De Volle Pinksterzegen</h1>
+  <div class="motto">Jezus volgen in de kracht van de Geest</div>
+</header>
+<nav class="hoofd">
+  <a>Blog</a> | <a>Boek</a> | <a class="actief">Bijbel</a>
+</nav>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">1 Kronieken</a> › hoofdstuk 8</div>
+<h2 class="hfd">1 Kronieken 8</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "1 Kronieken 8", "boek_naam": "1 Kronieken", "hfd_nr": "8", "zelf_abbr": "1 Kron 8", "totaal": 29, "basis_url": "https://pinksterzegen.nl/bereastudiebijbel/1-kronieken/8", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../7/", "label": "‹ 1 Kronieken 7"}, "volgende": {"href": "../9/", "label": "1 Kronieken 9 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}, {"n": "11", "href": "../11/"}, {"n": "12", "href": "../12/"}, {"n": "13", "href": "../13/"}, {"n": "14", "href": "../14/"}, {"n": "15", "href": "../15/"}, {"n": "16", "href": "../16/"}, {"n": "17", "href": "../17/"}, {"n": "18", "href": "../18/"}, {"n": "19", "href": "../19/"}, {"n": "20", "href": "../20/"}, {"n": "21", "href": "../21/"}, {"n": "22", "href": "../22/"}, {"n": "23", "href": "../23/"}, {"n": "24", "href": "../24/"}, {"n": "25", "href": "../25/"}, {"n": "26", "href": "../26/"}, {"n": "27", "href": "../27/"}, {"n": "28", "href": "../28/"}, {"n": "29", "href": "../29/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "Benjamin verwekte Bela, zijn eerstgeborene, Asbel, de tweede, en Ahrah, de derde,", "2": "Naho, de vierde, en Rafa, de vijfde.", "3": "Bela nu had deze kinderen: Addar, en Gera, en Abihud,", "4": "En Abisua, en Naäman, en Ahoah,", "5": "En Gera, en Sefufan, en Huram.", "6": "Dezen nu zijn de kinderen van Ehud; dezen waren hoofden van de vaderen van de inwoners van Geba, en hij voerde hen over naar Manahath;", "7": "En Naäman, en Ahia, en Gera; dezen voerde hij weg; en hij verwekte Uzza en Ahihud.", "8": "En Saharaim verwekte kinderen in het land van Moab (nadat hij zijn vrouwen weggezonden had) uit Husim en Baara, zijn vrouwen;", "9": "En uit Hodes, zijn vrouw, verwekte hij Jobab, en Zibja, en Mesa, en Malcham,", "10": "En Jeuz, en Sochja, en Mirma; dezen zijn zijn zonen, hoofden van de vaderen.", "11": "En uit Husim verwekte hij Abitub en Elpaal.", "12": "De kinderen van Elpaal nu waren Eber, en Misam, en Semed; deze heeft Ono gebouwd, en Lod en haar onderhorige plaatsen;", "13": "En Beria, en Sema; dezen waren hoofden van de vaderen van de inwoners van Ajalon; dezen hebben de inwoners van Gath verdreven.", "14": "En Ahjo, Sasak en Jeremoth,", "15": "En Zebadja, en Arad, en Eder,", "16": "En Michaël, en Jispa, en Joha waren kinderen van Beria.", "17": "En Zebadja, en Mesullam, en Hizki, en Heber,", "18": "En Jismerai, en Jizlia en Jobab, de kinderen van Elpaal.", "19": "En Jakim, en Zichri, en Zabdi,", "20": "En Eljoenai, en Zillethai, en Eliël,", "21": "En Adaja, en Beraja, en Simrath waren kinderen van Simeï.", "22": "En Jispan, en Eber, en Eliël,", "23": "En Abdon, en Zichri, en Hanan,", "24": "En Hananja, en Elam, en Antothija,", "25": "En Jifdeja, en Pnuël waren zonen van Sasak.", "26": "En Samserai, en Seharja, en Athalja,", "27": "En Jaaresja, en Elia, en Zichri waren zonen van Jeroham.", "28": "Dezen waren de hoofden van de vaderen, hoofden naar hun geslachten; dezen woonden te Jeruzalem.", "29": "En te Gibeon woonde de vader van Gibeon; en de naam van zijn vrouw was Maächa.", "30": "En zijn eerstgeboren zoon was Abdon, daarna Zur, en Kis, en Baäl, en Nadab,", "31": "En Gedor, en Ahio, en Zecher.", "32": "En Mikloth verwekte Simea; en dezen woonden ook tegenover hun broeders te Jeruzalem, samen met hun broeders.", "33": "Ner nu verwekte Kis, en Kis verwekte Saul, en Saul verwekte Jonathan, en Malchi-sua, Abinadab, en Esbaal.", "34": "En Jonathans zoon was Merib-baal, en Merib-baal verwekte Micha.", "35": "De kinderen van Micha nu waren Pithon, en Melech, en Thaarea, en Achaz.", "36": "En Achaz verwekte Jehoadda, en Jehoadda verwekte Alemeth, en Azmaveth, en Zimri; Zimri nu verwekte Moza;", "37": "En Moza verwekte Bina; zijn zoon was Rafa; zijn zoon was Elasa; zijn zoon was Azel.", "38": "Azel nu had zes zonen, en dit zijn hun namen: Azrikam, Bochru, en Ismaël, en Searja, en Obadja, en Hanan. Al dezen waren zonen van Azel.", "39": "En de zonen van Esek, zijn broer, waren Ulam, zijn eerstgeborene, Jeus, de tweede, en Elifelet, de derde.", "40": "En de zonen van Ulam waren dappere helden, die de boog spanden, en zij hadden veel zonen, en kleinzonen, honderdvijftig. Al dezen waren van de kinderen van Benjamin."}, "SV": {"1": "Benjamin nu gewon Bela, zijn eerstgeborene, Asbel, den tweede, en Ahrah, den derde,", "2": "Naho, den vierde, en Rafa, den vijfde,", "3": "Bela nu had deze kinderen: Addar, en Gera, en Abihud,", "4": "En Abisua, en Naäman, en Ahoah,", "5": "En Gera, en Sefufan, en Huram.", "6": "Dezen nu zijn de kinderen van Ehud; dezen waren hoofden der vaderen van de inwoners te Geba, en hij voerde hen over naar Manahath;", "7": "En Naäman, en Ahia, en Gera; dezen voerde hij weg; en hij gewon Uzza en Ahihud.", "8": "En Saharaim gewon kinderen in het land van Moab ( nadat hij dezelve weggezonden had) uit Husim en Baara, zijn vrouwen;", "9": "En uit Hodes, zijn huisvrouw, gewon hij Jobab, en Zibja, en Mesa, en Malcham,", "10": "En Jeuz, en Sochja, en Mirma; dezen zijn zijne zonen, hoofden der vaderen.", "11": "En uit Husim gewon hij Abitub en Elpaal.", "12": "De kinderen van Elpaal nu waren Eber, en Misam, en Semed; deze heeft Ono gebouwd, en Lod en haar onderhorige plaatsen;", "13": "En Beria, en Sema; dezen waren hoofden der vaderen van de inwoners te Ajalon; dezen hebben de inwoners van Gath verdreven.", "14": "En Ahjo, Sasak en Jeremoth,", "15": "En Zebadja, en Arad, en Eder,", "16": "En Michaël, en Jispa, en Joha waren kinderen van Beria.", "17": "En Zebadja, en Mesullam, en Hizki, en Heber,", "18": "En Jismerai, en Jizlia en Jobab, de kinderen van Elpaal.", "19": "En Jakim, en Zichri, en Zabdi,", "20": "En Eljoenai, en Zillethai, en Eliël,", "21": "En Adaja, en Beraja, en Simrath waren kinderen van Simeï.", "22": "En Jispan, en Eber, en Eliël,", "23": "En Abdon, en Zichri, en Hanan,", "24": "En Hananja, en Elam, en Antothija,", "25": "En Jifdeja, en Pnuël waren zonen van Sasak.", "26": "En Samserai, en Seharja, en Athalja,", "27": "En Jaaresja, en Elia, en Zichri waren zonen van Jeroham.", "28": "Dezen waren de hoofden der vaderen, hoofden naar hun geslachten; dezen woonden te Jeruzalem.", "29": "En te Gibeon woonde de vader van Gibeon; en de naam zijner huisvrouw was Maacha.", "30": "En zijn eerstgeboren zoon was Abdon, daarna Zur, en Kis, en Baäl, en Nadab,", "31": "En Gedor, en Ahio, en Zecher.", "32": "En Mikloth gewon Simea; en dezen woonden ook tegenover hun broederen te Jeruzalem, met hun broederen.", "33": "Ner nu gewon Kis, en Kis gewon Saul, en Saul gewon Jonathan, en Malchi-sua, Abinadab, en Esbaal.", "34": "En Jonathans zoon was Merib-baal, en Merib-baal gewon Micha.", "35": "De kinderen van Micha nu waren Pithon, en Melech, en Thaarea, en Achaz.", "36": "En Achaz gewon Jehoadda, en Jehoadda gewon Alemeth, en Azmaveth, en Zimri; Zimri nu gewon Moza;", "37": "En Moza gewon Bina; zijn zoon was Rafa; zijn zoon was Elasa; zijn zoon was Azel.", "38": "Azel nu had zes zonen, en dit zijn hun namen; Azrikam, Bochru, en Ismaël, en Searja, en Obadja, en Hanan. Al dezen waren zonen van Azel.", "39": "En de zonen van Esek, zijn broeder, waren Ulam, zijn eerstgeborene, Jeus, de tweede, en Elifelet, de derde.", "40": "En de zonen van Ulam waren mannen, kloeke helden, den boog spannende, en zij hadden vele zonen, en zoons zonen, honderd en vijftig. Al dezen waren van de kinderen van Benjamin."}, "KJV": {"1": "Now Benjamin begat Bela his firstborn, Ashbel the second, and Aharah the third,", "2": "Nohah the fourth, and Rapha the fifth.", "3": "And the sons of Bela were, Addar, and Gera, and Abihud,", "4": "And Abishua, and Naaman, and Ahoah,", "5": "And Gera, and Shephuphan, and Huram.", "6": "And these are the sons of Ehud: these are the heads of the fathers of the inhabitants of Geba, and they removed them to Manahath:", "7": "And Naaman, and Ahiah, and Gera, he removed them, and begat Uzza, and Ahihud.", "8": "And Shaharaim begat children in the country of Moab, after he had sent them away; Hushim and Baara were his wives.", "9": "And he begat of Hodesh his wife, Jobab, and Zibia, and Mesha, and Malcham,", "10": "And Jeuz, and Shachia, and Mirma. These were his sons, heads of the fathers.", "11": "And of Hushim he begat Abitub, and Elpaal.", "12": "The sons of Elpaal; Eber, and Misham, and Shamed, who built Ono, and Lod, with the towns thereof:", "13": "Beriah also, and Shema, who were heads of the fathers of the inhabitants of Aijalon, who drove away the inhabitants of Gath:", "14": "And Ahio, Shashak, and Jeremoth,", "15": "And Zebadiah, and Arad, and Ader,", "16": "And Michael, and Ispah, and Joha, the sons of Beriah;", "17": "And Zebadiah, and Meshullam, and Hezeki, and Heber,", "18": "Ishmerai also, and Jezliah, and Jobab, the sons of Elpaal;", "19": "And Jakim, and Zichri, and Zabdi,", "20": "And Elienai, and Zilthai, and Eliel,", "21": "And Adaiah, and Beraiah, and Shimrath, the sons of Shimhi;", "22": "And Ishpan, and Heber, and Eliel,", "23": "And Abdon, and Zichri, and Hanan,", "24": "And Hananiah, and Elam, and Antothijah,", "25": "And Iphedeiah, and Penuel, the sons of Shashak;", "26": "And Shamsherai, and Shehariah, and Athaliah,", "27": "And Jaresiah, and Eliah, and Zichri, the sons of Jeroham.", "28": "These were heads of the fathers, by their generations, chief men. These dwelt in Jerusalem.", "29": "And at Gibeon dwelt the father of Gibeon; whose wife's name was Maachah:", "30": "And his firstborn son Abdon, and Zur, and Kish, and Baal, and Nadab,", "31": "And Gedor, and Ahio, and Zacher.", "32": "And Mikloth begat Shimeah. And these also dwelt with their brethren in Jerusalem, over against them.", "33": "And Ner begat Kish, and Kish begat Saul, and Saul begat Jonathan, and Malchishua, and Abinadab, and Eshbaal.", "34": "And the son of Jonathan was Meribbaal; and Meribbaal begat Micah.", "35": "And the sons of Micah were, Pithon, and Melech, and Tarea, and Ahaz.", "36": "And Ahaz begat Jehoadah; and Jehoadah begat Alemeth, and Azmaveth, and Zimri; and Zimri begat Moza,", "37": "And Moza begat Binea: Rapha was his son, Eleasah his son, Azel his son:", "38": "And Azel had six sons, whose names are these, Azrikam, Bocheru, and Ishmael, and Sheariah, and Obadiah, and Hanan. All these were the sons of Azel.", "39": "And the sons of Eshek his brother were, Ulam his firstborn, Jehush the second, and Eliphelet the third.", "40": "And the sons of Ulam were mighty men of valour, archers, and had many sons, and sons' sons, an hundred and fifty. All these are of the sons of Benjamin."}}, "tsk": {"1": [{"kopje": "Bela", "refs": ["1 Kron 7:6-12", "Gen 46:21"]}, {"kopje": "Ahrah", "refs": ["Num 26:38"]}], "3": [{"kopje": "Addar", "refs": ["Gen 46:21", "Num 26:40"]}], "5": [{"kopje": "Gera", "refs": ["Richt 3:15"]}, {"kopje": "Sefufan", "refs": ["1 Kron 7:12", "Num 26:39"]}], "6": [{"kopje": "Ehud", "refs": ["1 Kron 7:10", "Richt 3:20-30", "Richt 4:1", "Gen 46:21"]}, {"kopje": "Geba", "refs": ["1 Kron 6:60"]}, {"kopje": "Manahath", "refs": ["1 Kron 2:25", "1 Kron 2:54"]}], "8": [{"kopje": "in het land", "refs": ["Ruth 1:1"]}, {"kopje": "weggezonden had", "refs": ["Gen 25:6"]}], "9": [{"kopje": "Hodes", "refs": ["1 Kron 8:11"]}], "10": [{"kopje": "Mirma", "refs": ["1 Kron 8:10"]}], "12": [{"kopje": "Ono", "refs": ["Ezra 2:33", "Neh 6:2", "Neh 7:37", "Neh 11:35"]}], "13": [{"kopje": "Sema", "refs": ["1 Kron 8:21"]}, {"kopje": "de vaderen", "refs": ["1 Kron 2:49", "1 Kron 2:50", "1 Kron 2:52", "1 Kron 4:4"]}, {"kopje": "Ajalon", "refs": ["Joz 19:42"]}], "16": [{"kopje": "Beria", "refs": ["1 Kron 8:13"]}], "21": [{"kopje": "Simeï", "refs": ["1 Kron 8:13"]}], "28": [{"kopje": "woonden", "refs": ["Joz 15:63", "Joz 18:28", "Richt 1:21", "Neh 11:1", "Neh 11:7-9"]}, {"kopje": "Jeruzalem", "refs": ["Ps 125:2", "1 Kron 9:34"]}], "29": [{"kopje": "de vader", "refs": ["1 Kron 9:35", "1 Kron 9:36"]}], "30": [{"kopje": "Abdon", "refs": ["1 Kron 9:36", "1 Kron 9:37"]}], "31": [{"kopje": "Zecher", "refs": ["1 Kron 9:37"]}], "32": [{"kopje": "Simea", "refs": ["1 Kron 9:38"]}], "33": [{"kopje": "Ner", "refs": ["1 Kron 9:39", "1 Sam 9:1", "1 Sam 14:50", "1 Sam 14:51"]}, {"kopje": "Kis", "refs": ["1 Sam 9:1", "Hand 13:21"]}, {"kopje": "Saul", "refs": ["1 Sam 14:49", "1 Sam 31:2"]}, {"kopje": "Abinadab", "refs": ["1 Sam 14:49"]}, {"kopje": "Esbaal", "refs": ["2 Sam 2:8", "2 Sam 4:12"]}], "34": [{"kopje": "Merib-baal", "refs": ["2 Sam 4:4", "2 Sam 9:6", "2 Sam 9:10", "2 Sam 19:24-30"]}, {"kopje": "Micha", "refs": ["2 Sam 9:12"]}], "35": [{"kopje": "Thaarea", "refs": ["1 Kron 9:41"]}], "36": [{"kopje": "Jehoadda", "refs": ["1 Kron 9:42"]}], "37": [{"kopje": "Rafa", "refs": ["1 Kron 9:43"]}], "40": [{"kopje": "de boog spanden", "refs": ["1 Kron 12:2", "2 Kron 14:8"]}, {"kopje": "veel zonen", "refs": ["Ps 127:3-5", "Ps 128:3-6"]}]}, "onderwerpen": {"23": [{"onderwerp": "Abdon", "sub": "3. Een Benjaminitisch hoofd", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Zichri", "sub": "2. Drie Benjaminieten", "totaal": 3, "positie": 2, "vorige": "1 Kron 8:19", "volgende": "1 Kron 8:27", "alle": ["1 Kron 8:19", "1 Kron 8:27"], "meer": 0}], "30": [{"onderwerp": "Abdon", "sub": "4. Zoon van Gibeon", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:36", "alle": ["1 Kron 9:36"], "meer": 0}, {"onderwerp": "Nadab", "sub": "4. Een Benjaminiet", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:36", "alle": ["1 Kron 9:36"], "meer": 0}, {"onderwerp": "Zur", "sub": "2. Een Benjaminiet", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:36", "alle": ["1 Kron 9:36"], "meer": 0}], "3": [{"onderwerp": "Abihud", "sub": "Ook genoemd Ahihud, zoon van Bela", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Adar", "sub": "2. Zoon van Bela", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "4": [{"onderwerp": "Abisua", "sub": "2. Een zoon van Bela", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Ahoah", "sub": "Zoon van Bela", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Naäman", "sub": "2. Zoon van Bela", "totaal": 2, "positie": 2, "vorige": "Num 26:40", "volgende": null, "alle": ["Num 26:40"], "meer": 0}], "11": [{"onderwerp": "Abitub", "sub": "Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Elpaäl", "sub": "Een Benjaminiet", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 8:12", "alle": ["1 Kron 8:12"], "meer": 0}], "21": [{"onderwerp": "Adaja", "sub": "4. Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Simeï", "sub": "10. Vader van een geslacht in Benjamin, ook Simeï genaamd", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Simeï", "sub": "Vader van een familie in Benjamin, ook Simeï genoemd", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Simrath", "sub": "Zoon van Simhi", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "15": [{"onderwerp": "Eder", "sub": "Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Zebadja", "sub": "1. Twee Benjaminieten", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 8:17", "alle": ["1 Kron 8:17"], "meer": 0}], "1": [{"onderwerp": "Ahara", "sub": "Ook genoemd Ehi, en Ahiram, en Aher, zoon van Benjamin.", "totaal": 4, "positie": 4, "vorige": "1 Kron 7:12", "volgende": null, "alle": ["Gen 46:21", "Num 26:38", "1 Kron 7:12"], "meer": 0}], "35": [{"onderwerp": "Achaz", "sub": "2. Zoon van Micha", "totaal": 3, "positie": 1, "vorige": null, "volgende": "1 Kron 9:41", "alle": ["1 Kron 9:41", "1 Kron 9:42"], "meer": 0}, {"onderwerp": "Melech", "sub": "Zoon van Micha.", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:41", "alle": ["1 Kron 9:41"], "meer": 0}, {"onderwerp": "Micha", "sub": "3. Genaamd Micha, zoon van Mefiboseth", "totaal": 5, "positie": 3, "vorige": "1 Kron 8:34", "volgende": "1 Kron 9:40", "alle": ["2 Sam 9:12", "1 Kron 8:34", "1 Kron 9:40", "1 Kron 9:41"], "meer": 0}, {"onderwerp": "Pithon", "sub": "Zoon van Micha.", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:41", "alle": ["1 Kron 9:41"], "meer": 0}, {"onderwerp": "Tahrea", "sub": "Genaamd Tarea", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Tarea", "sub": "Een zoon van Micha", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "7": [{"onderwerp": "Ahia", "sub": "3. Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Ahihud", "sub": "2. Een zoon van Bela", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Ahia", "sub": "1. Zoon van Bela", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Ahoah", "sub": "Genaamd Ahia", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Naäman", "sub": "3. Zoon van Ehud", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Uzza", "sub": "4. Zoon van Ehud", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "14": [{"onderwerp": "Ahio", "sub": "2. Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Sasak", "sub": "Een Benjaminiet", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 8:25", "alle": ["1 Kron 8:25"], "meer": 0}], "31": [{"onderwerp": "Ahio", "sub": "3. Zoon van Jehiël", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:37", "alle": ["1 Kron 9:37"], "meer": 0}, {"onderwerp": "Zacher", "sub": "Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "37": [{"onderwerp": "Azel", "sub": "Een Benjaminiet", "totaal": 4, "positie": 1, "vorige": null, "volgende": "1 Kron 8:38", "alle": ["1 Kron 8:38", "1 Kron 9:43", "1 Kron 9:44"], "meer": 0}, {"onderwerp": "Moza", "sub": "2. Een Benjaminiet", "totaal": 4, "positie": 2, "vorige": "1 Kron 8:36", "volgende": "1 Kron 9:42", "alle": ["1 Kron 8:36", "1 Kron 9:42", "1 Kron 9:43"], "meer": 0}, {"onderwerp": "Rafa", "sub": "2. Een nakomeling van Jonathan, genaamd Refaja", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:43", "alle": ["1 Kron 9:43"], "meer": 0}], "38": [{"onderwerp": "Azel", "sub": "Een Benjaminiet", "totaal": 4, "positie": 2, "vorige": "1 Kron 8:37", "volgende": "1 Kron 9:43", "alle": ["1 Kron 8:37", "1 Kron 9:43", "1 Kron 9:44"], "meer": 0}, {"onderwerp": "Obadja", "sub": "4. Zoon van Azel", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:44", "alle": ["1 Kron 9:44"], "meer": 0}, {"onderwerp": "Searja", "sub": "Zoon van Azel", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:44", "alle": ["1 Kron 9:44"], "meer": 0}], "12": [{"onderwerp": "Elpaäl", "sub": "Een Benjaminiet", "totaal": 2, "positie": 2, "vorige": "1 Kron 8:11", "volgende": null, "alle": ["1 Kron 8:11"], "meer": 0}, {"onderwerp": "Misam", "sub": "Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Ono", "sub": "Een stad van Benjamin.", "totaal": 3, "positie": 1, "vorige": null, "volgende": "Neh 6:2", "alle": ["Neh 6:2", "Neh 11:35"], "meer": 0}], "33": [{"onderwerp": "Malchisua", "sub": "Ook genoemd Malchisua, zoon van koning Saul.", "totaal": 5, "positie": 3, "vorige": "1 Sam 31:2", "volgende": "1 Kron 9:39", "alle": ["1 Sam 14:49", "1 Sam 31:2", "1 Kron 9:39", "1 Kron 10:2"], "meer": 0}, {"onderwerp": "Ner", "sub": "Vader van Kis", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:39", "alle": ["1 Kron 9:39"], "meer": 0}], "9": [{"onderwerp": "Mesa", "sub": "4. Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Zibia", "sub": "Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "17": [{"onderwerp": "Messullam", "sub": "4. Drie Benjaminieten", "totaal": 3, "positie": 1, "vorige": null, "volgende": "1 Kron 9:7", "alle": ["1 Kron 9:7", "1 Kron 9:8"], "meer": 0}, {"onderwerp": "Zebadja", "sub": "1. Twee Benjaminieten", "totaal": 2, "positie": 2, "vorige": "1 Kron 8:15", "volgende": null, "alle": ["1 Kron 8:15"], "meer": 0}], "34": [{"onderwerp": "Micha", "sub": "3. Genaamd Micha, zoon van Mefiboseth", "totaal": 5, "positie": 2, "vorige": "2 Sam 9:12", "volgende": "1 Kron 8:35", "alle": ["2 Sam 9:12", "1 Kron 8:35", "1 Kron 9:40", "1 Kron 9:41"], "meer": 0}], "16": [{"onderwerp": "Michaël", "sub": "5. Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "32": [{"onderwerp": "Miklóth", "sub": "1. Een Benjaminiet van Jeruzalem", "totaal": 3, "positie": 1, "vorige": null, "volgende": "1 Kron 9:37", "alle": ["1 Kron 9:37", "1 Kron 9:38"], "meer": 0}], "10": [{"onderwerp": "Mirma", "sub": "Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Saghia", "sub": "Zoon van Saharaim", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "8": [{"onderwerp": "Moabieten", "sub": "Zijn een strik voor de Israëlieten", "totaal": 9, "positie": 6, "vorige": "1 Kon 11:1", "volgende": "Ezra 9:1", "alle": ["Num 25:1", "Num 25:2", "Num 25:3", "Ruth 1:4", "1 Kon 11:1", "Ezra 9:1", "Ezra 9:2", "Neh 13:23"], "meer": 0}, {"onderwerp": "Moabieten", "sub": "Soms huwde onder elkander met", "totaal": 4, "positie": 3, "vorige": "1 Kon 11:1", "volgende": "Neh 13:23", "alle": ["Ruth 1:4", "1 Kon 11:1", "Neh 13:23"], "meer": 0}, {"onderwerp": "Saharaïm", "sub": "Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "36": [{"onderwerp": "Moza", "sub": "2. Een Benjaminiet", "totaal": 4, "positie": 1, "vorige": null, "volgende": "1 Kron 8:37", "alle": ["1 Kron 8:37", "1 Kron 9:42", "1 Kron 9:43"], "meer": 0}, {"onderwerp": "Zimri", "sub": "4. Een Benjaminiet", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 9:42", "alle": ["1 Kron 9:42"], "meer": 0}], "2": [{"onderwerp": "Noha", "sub": "Zoon van Benjamin", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Rafa", "sub": "1. Zoon van Benjamin", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "25": [{"onderwerp": "Pnuël", "sub": "3. Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Sasak", "sub": "Een Benjaminiet", "totaal": 2, "positie": 2, "vorige": "1 Kron 8:14", "volgende": null, "alle": ["1 Kron 8:14"], "meer": 0}], "26": [{"onderwerp": "Samserai", "sub": "Zoon van Jeroham.", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Sehárja", "sub": "Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "13": [{"onderwerp": "Sema", "sub": "4. Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "5": [{"onderwerp": "Sefúfan", "sub": "Zoon van Bela", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "39": [{"onderwerp": "Ulam", "sub": "2. Zoon van Esek", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 8:40", "alle": ["1 Kron 8:40"], "meer": 0}], "40": [{"onderwerp": "Ulam", "sub": "2. Zoon van Esek", "totaal": 2, "positie": 2, "vorige": "1 Kron 8:39", "volgende": null, "alle": ["1 Kron 8:39"], "meer": 0}], "19": [{"onderwerp": "Zabdi", "sub": "2. Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Zichri", "sub": "2. Drie Benjaminieten", "totaal": 3, "positie": 1, "vorige": null, "volgende": "1 Kron 8:23", "alle": ["1 Kron 8:23", "1 Kron 8:27"], "meer": 0}], "27": [{"onderwerp": "Zichri", "sub": "2. Drie Benjaminieten", "totaal": 3, "positie": 3, "vorige": "1 Kron 8:23", "volgende": null, "alle": ["1 Kron 8:19", "1 Kron 8:23"], "meer": 0}], "20": [{"onderwerp": "Ziltai", "sub": "1. Een Benjaminiet", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}]}, "extern": {"1 Sam 14:51": "En Kis was Sauls vader, en Ner, Abners vader, was een zoon van Abiël.", "2 Sam 4:4": "En Jonathan, Sauls zoon, had een zoon die aan beide voeten gewond was; hij was vijf jaar oud toen het bericht over Saul en Jonathan uit Jizreël kwam; en zijn voedster nam hem op en vluchtte; en het gebeurde, toen zij zich haastte om te vluchten, dat hij viel en kreupel werd; en zijn naam was Mefiboseth.", "1 Kron 9:8": "En Jibnea, de zoon van Jeroham, en Ela, de zoon van Uzzi, de zoon van Michri; en Mesullam, de zoon van Sefatja, de zoon van Reüel, de zoon van Jibnija;", "1 Sam 14:49": "De zonen van Saul nu waren: Jonathan, en Isvi, en Malchi-sua; en de namen van zijn twee dochters waren deze: de naam van de oudste was Merab, en de naam van de jongste Michal.", "1 Kron 9:42": "En Achaz verwekte Jaera, en Jaera verwekte Alemeth, en Azmaveth, en Zimri; en Zimri verwekte Moza;", "Neh 11:1": "Verder woonden de leiders van het volk te Jeruzalem; maar het overige van het volk wierp loten, om uit tien er één uit te brengen, die in de heilige stad Jeruzalem zou wonen, en negen delen in de andere steden.", "Joz 19:42": "En Saalabbin, en Ajalon, en Jithla,", "Neh 13:23": "Ook zag ik in die dagen Joden die Asdodische, Ammonietische en Moabietische vrouwen bij zich hadden laten wonen.", "1 Kon 11:1": "En koning Salomo had, behalve de dochter van Farao, veel vreemde vrouwen lief: Moabitische, Ammonitische, Edomitische, Sidonische en Hethitische vrouwen;", "1 Kron 7:10": "De kinderen van Jediaël nu waren Bilhan; en de kinderen van Bilhan waren Jeüs en Benjamin, en Ehud, en Chenaäna, en Zethan, en Tharsis, en Ahi-sahar.", "1 Kron 2:52": "De kinderen van Sobal, de vader van Kirjath-jearim, waren Haroe en Hazihammenuchoth.", "2 Sam 2:8": "Abner nu, de zoon van Ner, de legeraanvoerder die Saul gehad had, nam Isboseth, Sauls zoon, en voerde hem over naar Mahanaim,", "1 Kron 2:54": "De kinderen van Salma waren de Bethlehemieten, en de Netofathieten, Atroth, Beth-joab, en de helft van de Manathieten, en de Zorieten.", "2 Sam 9:6": "Toen nu Mefiboseth, de zoon van Jonathan, de zoon van Saul, bij David kwam, viel hij op zijn aangezicht en boog zich neer. En David zei: Mefiboseth! En hij zei: Zie, hier is uw knecht.", "1 Kron 9:39": "En Ner verwekte Kis, en Kis verwekte Saul, en Saul verwekte Jonathan, en Malchi-sua, en Abinadab, en Esbaal.", "1 Kron 9:43": "En Moza verwekte Bina; wiens zoon was Refaja; wiens zoon was Elasa; wiens zoon was Azel.", "Ezra 9:2": "Want zij hebben van hun dochters genomen voor zichzelf en voor hun zonen, zodat het heilig zaad zich vermengd heeft met de volken van deze landen; ja, de hand van de vorsten en overheden is de eerste geweest in deze overtreding.", "1 Kron 10:2": "En de Filistijnen bleven Saul en zijn zonen op de hielen zitten; en de Filistijnen sloegen Jonathan, en Abinadab, en Malchi-sua, de zonen van Saul.", "Ezra 9:1": "Toen deze dingen voltooid waren, kwamen de vorsten naar mij toe en zeiden: Het volk van Israël, en de priesters, en de Levieten, hebben zich niet afgezonderd van de volken van deze landen, naar hun gruwelen, namelijk van de Kanaänieten, de Hethieten, de Ferezieten, de Jebusieten, de Ammonieten, de Moabieten, de Egyptenaren en de Amorieten.", "Num 25:3": "Toen Israël zich koppelde aan Baäl-peor, ontstak de toorn van de HEERE tegen Israël.", "Hand 13:21": "En vanaf toen verlangden zij naar een koning; en God gaf hun Saul, de zoon van Kis, een man uit de stam van Benjamin, veertig jaar lang.", "Ezra 2:33": "De kinderen van Lod, Hadid en Ono, zevenhonderdvijfentwintig.", "1 Kron 9:38": "Mikloth nu verwekte Simeam; dezen woonden ook te Jeruzalem, tegenover hun broeders, met hun broeders.", "Joz 18:28": "En Zela, Elef en Jebusi (dat is Jeruzalem), Gibath, Kirjath: veertien steden alsook de bijbehorende dorpen. Dit is het erfdeel van de kinderen van Benjamin, naar hun huisgezinnen.", "Ruth 1:1": "In de dagen dat de rechters rechtspraken, gebeurde het dat er honger in het land was; daarom trok een man van Bethlehem-juda weg om als vreemdeling te wonen in de velden van Moab, hij, en zijn vrouw, en zijn twee zonen.", "2 Sam 4:12": "En David gaf zijn knechten bevel, en zij doodden hen, en hakten hun handen en hun voeten af, en hingen ze op bij de vijver te Hebron; maar het hoofd van Isboseth namen zij en begroeven het in Abners graf te Hebron.", "Gen 46:21": "En de zonen van Benjamin: Bela, Becher en Asbel, Gera en Naäman, Echi en Ros, Muppim en Huppim, en Ard.", "Num 25:2": "En zij nodigden het volk tot de offers van hun goden; en het volk at, en boog zich neer voor hun goden.", "2 Sam 9:12": "Mefiboseth nu had een kleine zoon, wiens naam Micha was; en allen die in het huis van Ziba woonden, waren knechten van Mefiboseth.", "1 Kron 2:50": "Dit waren de kinderen van Kaleb, de zoon van Hur, de eerstgeborene van Efratha: Sobal, de vader van Kirjath-jearim;", "Neh 7:37": "De kinderen van Lod, Hadid en Ono, zevenhonderdeenentwintig;", "1 Kron 9:40": "En Jonathans zoon was Merib-baal, en Merib-baal verwekte Micha.", "Ps 125:2": "Rondom Jeruzalem zijn bergen; zo is de HEERE rondom Zijn volk, van nu aan tot in eeuwigheid.", "1 Kron 2:25": "De kinderen van Jerahmeel nu, de eerstgeborene van Hezron, waren deze: de eerstgeborene was Ram, daartoe Buna, en Oren, en Ozem en Ahia.", "Num 26:40": "En de zonen van Bela waren Ard en Naäman; van Ard het geslacht der Ardieten; van Naäman het geslacht der Naamieten.", "Joz 15:63": "Maar de kinderen van Juda konden de Jebusieten, inwoners van Jeruzalem, niet verdrijven; zo woonden de Jebusieten bij de kinderen van Juda te Jeruzalem, tot op deze dag.", "Richt 3:15": "Toen riepen de kinderen van Israël tot de HEERE, en de HEERE verwekte hun een verlosser, Ehud, de zoon van Gera, een zoon van Jemini, een man die links was. En de kinderen van Israël zonden door zijn hand een geschenk aan Eglon, de koning van de Moabieten.", "Num 26:39": "Van Sefufam het geslacht der Sufamieten; van Hufam het geslacht der Hufamieten.", "Neh 6:2": "dat Sanballat en Gesem naar mij stuurden om te zeggen: Kom, laten wij samen bijeenkomen in de dorpen, in het dal Ono. Maar zij waren van plan mij kwaad te doen.", "1 Kron 4:4": "En Pnuël was de vader van Gedor, en Ezer de vader van Husah. Dit zijn de kinderen van Hur, de eerstgeborene van Efratha, de vader van Bethlehem.", "1 Sam 31:2": "En de Filistijnen zaten Saul en zijn zonen dicht op de hielen; en de Filistijnen versloegen Jonathan, en Abinadab, en Malchisua, de zonen van Saul.", "Gen 25:6": "Maar aan de zonen van de bijvrouwen die Abraham had, gaf Abraham geschenken; en zond hen weg van zijn zoon Izak, terwijl hij nog leefde, oostwaarts naar het land van het Oosten.", "Num 26:38": "De zonen van Benjamin, naar hun geslachten: van Bela het geslacht der Belaieten; van Asbel het geslacht der Asbelieten; van Ahiram het geslacht der Ahiramieten;", "1 Kron 9:7": "En van de kinderen van Benjamin waren Sallu, de zoon van Mesullam, de zoon van Hodavia, de zoon van Hassenua;", "2 Kron 14:8": "Asa nu had een leger van driehonderdduizend uit Juda, die rondas en spies droegen, en tweehonderdtachtigduizend uit Benjamin, die het schild droegen en de boog spanden; al dezen waren kloeke helden.", "Richt 1:21": "Doch de Benjaminieten hebben de Jebusieten, die in Jeruzalem woonden, niet verdreven; maar de Jebusieten woonden met de Benjaminieten in Jeruzalem, tot op deze dag.", "1 Kron 12:2": "Gewapend met bogen, rechts en links met stenen werpend, en met pijlen schietend uit de boog; zij waren van de broers van Saul, uit Benjamin.", "Ruth 1:4": "Die namen voor zich Moabitische vrouwen; de naam van de ene was Orpa, en de naam van de andere Ruth; en zij bleven daar ongeveer tien jaar.", "1 Sam 14:50": "En de naam van Sauls vrouw was Ahinoam, een dochter van Ahimaäz; en de naam van zijn legeraanvoerder was Abner, een zoon van Ner, Sauls oom.", "Num 25:1": "Israël verbleef te Sittim, en het volk begon te hoereren met de dochters van de Moabieten.", "1 Sam 9:1": "Er was nu een man van Benjamin, wiens naam Kis was, een zoon van Abiël, de zoon van Zeror, de zoon van Bechorath, de zoon van Afiah, de zoon van een man van Jemini, een dapper held.", "1 Kron 2:49": "En de huisvrouw van Saaf, de vader van Madmanna, baarde Seva, de vader van Machbena, en de vader van Gibea; en de dochter van Kaleb was Achsa.", "1 Kron 6:60": "Van de stam van Benjamin nu: Geba en haar voorsteden, en Allemeth en haar voorsteden, en Anathoth en haar voorsteden. Al hun steden, in hun families, waren dertien steden.", "1 Kron 9:36": "En Abdon was zijn eerstgeboren zoon, daarna Zur, en Kis, en Baäl, en Ner, en Nadab.", "1 Kron 7:12": "Daartoe waren Suppim en Huppim kinderen van Ir, en Husim, kinderen van Aher.", "2 Sam 9:10": "Daarom zult u voor hem het land bewerken, u, en uw zonen, en uw knechten, en de opbrengst inbrengen, zodat de zoon van uw heer brood heeft om te eten; en Mefiboseth, de zoon van uw heer, zal voortdurend brood eten aan mijn tafel. Ziba nu had vijftien zonen en twintig knechten.", "Richt 4:1": "Maar de Israëlieten gingen door met doen wat kwaad was in de ogen van de HEERE, nadat Ehud gestorven was.", "1 Kron 9:35": "Maar te Gibeon hadden gewoond Jeiel, de vader van Gibeon; de naam van zijn zuster nu was Maächa.", "1 Kron 9:41": "De kinderen van Micha nu waren Pithon, en Melech, en Thaerea.", "1 Kron 9:34": "Dit zijn de hoofden van de vaderen onder de Levieten, hoofden in hun geslachten; dezen woonden te Jeruzalem.", "1 Kron 9:37": "En Gedor, en Ahio, en Zacharja, en Mikloth.", "Neh 11:35": "Lod, en Ono, in het dal van de werkmeesters.", "1 Kron 9:44": "Azel nu had zes zonen, en dit zijn hun namen: Azrikam, Bochru, en Ismaël, en Searja, en Obadja, en Hanan; dezen zijn Azels zonen."}, "noten": {}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${md(D.vertalingen[vertaling][n] || '—')}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+function paneelInhoud(n, tab) {
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : 'vertalingen');
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  const tekst = popupTekst(ref);
+  if (!tekst) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${md(tekst)}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>

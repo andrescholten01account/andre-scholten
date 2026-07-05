@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hooglied 6 — BereaStudieBijbel · De Volle Pinksterzegen</title>
+<style>
+  :root { --accent: #8a6d3b; --accent-donker: #6b5429; --bg: #fdfcf9; --bg-soft: #f7f3ea; --border: #e3ddd0; --tekst: #2b2b2b; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  header.site { text-align: center; padding: 1.2rem 0 .4rem; }
+  header.site h1 { font-size: 2rem; margin: 0; color: var(--accent-donker); letter-spacing: .01em; }
+  header.site .motto { font-style: italic; color: #8b7355; margin: .2rem 0 1rem; }
+  nav.hoofd { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: .55rem 0; font-family: sans-serif; font-size: .8rem; letter-spacing: .25em; text-transform: uppercase; text-align:center; }
+  nav.hoofd a { color: var(--accent); text-decoration: none; margin: 0 .8rem; }
+  nav.hoofd a.actief { color: var(--accent-donker); font-weight: 700; }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<header class="site">
+  <h1>De Volle Pinksterzegen</h1>
+  <div class="motto">Jezus volgen in de kracht van de Geest</div>
+</header>
+<nav class="hoofd">
+  <a>Blog</a> | <a>Boek</a> | <a class="actief">Bijbel</a>
+</nav>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">Hooglied</a> › hoofdstuk 6</div>
+<h2 class="hfd">Hooglied 6</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "Hooglied 6", "boek_naam": "Hooglied", "hfd_nr": "6", "zelf_abbr": "Hoogl 6", "totaal": 8, "basis_url": "https://pinksterzegen.nl/bereastudiebijbel/hooglied/6", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../5/", "label": "‹ Hooglied 5"}, "volgende": {"href": "../7/", "label": "Hooglied 7 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "Waar is uw Liefste heengegaan, o u schoonste onder de vrouwen? Waarheen heeft uw Liefste het gezicht gewend, opdat wij Hem met u zoeken?", "2": "Mijn Liefste is afgegaan in Zijn hof, naar de specerijbedden, om te weiden in de hoven, en om de leliën te verzamelen.", "3": "Ik ben van mijn Liefste, en mijn Liefste is van mij, Die onder de leliën weidt.", "4": "U bent mooi, Mijn vriendin, zoals Tirza, lieflijk als Jeruzalem, ontzagwekkend als *legers* met banieren.", "5": "Wend uw ogen van Mij af, want zij overweldigen Mij; uw haar is als een kudde geiten, die van de berghellingen van Gilead afdalen.", "6": "Uw tanden zijn als een kudde schapen, die uit de wasplaats opkomen, die allemaal samen tweelingen voortbrengen, en onder hen is er geen zonder jongen.", "7": "Uw wangen zijn als een stuk van een granaatappel tussen uw vlechten.", "8": "Er zijn zestig koninginnen en tachtig bijvrouwen, en meisjes zonder aantal.", "9": "Eén is Mijn duif, Mijn volmaakte, de enige van haar moeder, zij is de zuivere van hen die haar gebaard heeft; als de dochters haar zien, zullen zij haar gelukkig prijzen, de koninginnen en de bijvrouwen; en zij zullen haar loven.", "10": "Wie is zij, die eruitziet als de dageraad, mooi als de maan, zuiver als de zon, ontzagwekkend als *legers* met banieren?", "11": "Ik ben naar de notenhof afgegaan om de jonge scheuten van het dal te zien; om te zien of de wijnstok bloeide, de granaatbomen uitbotten.", "12": "Voordat ik het wist, zette mijn ziel mij *op* de wagens van mijn gewillige volk.", "13": "Kom terug, kom terug, o Sulammith! Kom terug, kom terug, zodat wij u mogen aanzien. Wat kijkt u naar de Sulammith? Zij is als een rei van twee legers."}, "SV": {"1": "Waar is uw Liefste heengegaan, o gij schoonste onder de vrouwen? Waarheen heeft uw Liefste het aangezicht gewend, opdat wij Hem met u zoeken?", "2": "Mijn Liefste is afgegaan in Zijn hof, tot de specerijbedden, om te weiden in de hoven, en om de leliën te verzamelen.", "3": "Ik ben mijns Liefsten, en mijn Liefste is mijn, Die onder de leliën weidt.", "4": "Gij zijt schoon, Mijn vriendin, gelijk Thirza, liefelijk als Jeruzalem, schrikkelijk als *slagorden* met banieren.", "5": "Wend uw ogen van Mij af, want zij doen Mij geweld aan; uw haar is als een kudde geiten, die *het* *gras* van Gilead afscheren.", "6": "Uw tanden zijn als een kudde schapen, die uit de wasstede opkomen, die al te zamen tweelingen voortbrengen, en onder dezelve is geen jongeloos.", "7": "Uw wangen zijn als een stuk van een granaatappel tussen uw vlechten.", "8": "Er zijn zestig koninginnen en tachtig bijwijven, en maagden zonder getal.", "9": "Een enige is Mijn duive, Mijn volmaakte, de enige harer moeder, zij is de zuivere dergenen, die haar gebaard heeft; als de dochters haar zien, zo zullen zij haar welgelukzalig roemen, de koninginnen en de bijwijven; en zij zullen haar prijzen.", "10": "Wie is zij, die er uitziet als de dageraad, schoon, gelijk de maan, zuiver als de zon, schrikkelijk als *slagorden* met banieren?", "11": "Ik ben tot den notenhof afgegaan om de groene vruchten der vallei te zien; om te zien, of de wijnstok bloeide, de granaatbomen uitbotten.", "12": "Eer ik het wist, zette mij mijn ziel *op* de wagens van mijn vrijwillig volk.", "13": "Keer weder, keer weder, o Sulammith! Keer weder, keer weder, dat wij u mogen aanzien. Wat ziet gijlieden de Sulammith aan? Zij is als een rei van twee heiren."}, "KJV": {"1": "Whither is thy beloved gone, O thou fairest among women? whither is thy beloved turned aside? that we may seek", "2": "My beloved is gone down into his garden, to the beds of spices, to feed in the gardens, and to gather lilies.", "3": "I *am* my beloved's, and my beloved *is* mine: he feedeth among the lilies.", "4": "Thou *art* beautiful, O my love, as Tirzah, comely as Jerusalem, terrible as *an army* with banners.", "5": "Turn away thine eyes from me, for they have overcome me: thy hair *is* as a flock of goats that appear from Gilead.", "6": "Thy teeth *are* as a flock of sheep which go up from the washing, whereof every one beareth twins, and *there is* not one barren", "7": "As a piece of a pomegranate *are* thy temples within thy locks.", "8": "There are threescore queens, and fourscore concubines, and virgins without number.", "9": "My dove, my undefiled is *but* one; she *is* the *only* one of her mother, she *is* the choice *one* of her that bare her. The daughters saw her, and blessed her; *yea*, the queens and the concubines, and they praised", "10": "Who *is* she *that* looketh forth as the morning, fair as the moon, clear as the sun, *and* terrible as *an army* with banners?", "11": "I went down into the garden of nuts to see the fruits of the valley, *and* to see whether the vine flourished, *and* the pomegranates budded.", "12": "Or ever I was aware, my soul made me *like* the chariots of Amminadib.", "13": "Return, return, O Shulamite; return, return, that we may look upon thee. What will ye see in the Shulamite? As it were the company of two armies."}}, "tsk": {"1": [{"kopje": "o u", "refs": ["Hoogl 6:4", "Hoogl 6:9", "Hoogl 6:10", "Hoogl 1:8", "Hoogl 2:2", "Hoogl 5:9"]}, {"kopje": "dat", "refs": ["Hoogl 1:4", "Ruth 1:16", "Ruth 1:17", "Ruth 2:12", "Jes 2:5", "Jer 14:8", "Zach 8:21-23", "Hand 5:11-14"]}], "2": [{"kopje": "afgegaan", "refs": ["Hoogl 6:11", "Hoogl 4:12-16", "Hoogl 5:1", "Jes 58:11", "Jes 61:11", "Matt 18:20", "Matt 28:20"]}, {"kopje": "de specerijbedden", "refs": ["Hoogl 5:13"]}, {"kopje": "weiden", "refs": ["Hoogl 1:7", "Hoogl 1:8", "Jes 40:11", "Ezech 34:23", "Zef 3:17", "Joh 4:34", "Joh 4:35", "Openb 7:17"]}, {"kopje": "en om", "refs": ["Hoogl 2:2", "Jes 57:1", "Joh 14:3", "Joh 17:24", "Fil 1:21-23", "1 Tess 4:13", "1 Tess 4:14"]}], "3": [{"kopje": "van mijn Liefste", "refs": ["Hoogl 2:16", "Hoogl 7:10", "Hebr 8:10", "Openb 21:2-4"]}, {"kopje": "Die", "refs": ["Hoogl 2:16"]}], "4": [{"kopje": "mooi", "refs": ["Hoogl 6:10", "Hoogl 2:14", "Hoogl 4:7", "Hoogl 5:2", "Ezech 16:13", "Ezech 16:14", "Ef 5:27"]}, {"kopje": "zoals Tirza", "refs": ["1 Kon 14:17", "1 Kon 15:21", "1 Kon 15:33"]}, {"kopje": "lieflijk", "refs": ["Ps 48:3", "Klaagl 2:15", "Openb 21:2"]}, {"kopje": "ontzagwekkend", "refs": ["Hoogl 6:10", "Num 24:5-9", "Ps 144:4-8", "Zach 12:3", "2 Kor 10:4", "Openb 19:14-16"]}], "5": [{"kopje": "af", "refs": ["Gen 32:26-28", "Ex 32:10", "Jer 15:1", "Matt 15:27", "Matt 15:28"]}, {"kopje": "overweldigen Mij", "refs": ["Hoogl 4:1-3"]}], "9": [{"kopje": "Mijn duif", "refs": ["Hoogl 2:14", "Hoogl 5:2"]}, {"kopje": "Eén is", "refs": ["Num 23:9", "Ps 45:10", "Gal 4:26", "Ef 4:3-6"]}, {"kopje": "de dochters", "refs": ["Deut 4:6", "Deut 4:7", "Deut 33:29", "Ps 126:2", "Spr 31:28", "Spr 31:29", "2 Tess 1:10", "Openb 21:9", "Openb 21:10"]}], "10": [{"kopje": "Wie", "refs": ["Hoogl 3:6", "Hoogl 8:5", "Jes 63:1", "Openb 21:10", "Openb 21:11"]}, {"kopje": "eruitziet", "refs": ["2 Sam 23:4", "Job 11:17", "Spr 4:18", "Jes 58:8", "Hos 6:5", "Openb 22:16"]}, {"kopje": "mooi", "refs": ["Job 31:26", "Ef 5:27"]}, {"kopje": "zuiver", "refs": ["Ps 14:5", "Mal 4:2", "Matt 13:43", "Matt 17:2", "Openb 10:1", "Openb 12:1", "Openb 21:23", "Openb 22:5"]}, {"kopje": "ontzagwekkend", "refs": ["Hoogl 6:4", "Rom 8:37"]}], "11": [{"kopje": "de notenhof", "refs": ["Hoogl 6:2", "Hoogl 4:12-15", "Hoogl 5:1", "Gen 2:9", "Ps 92:13-16", "Joh 15:16"]}, {"kopje": "om te zien", "refs": ["Hoogl 7:12", "Jes 5:2-4", "Mark 11:13", "Luk 13:7", "Hand 15:36"]}], "12": [{"kopje": "ziel", "refs": ["Jer 31:18-20", "Hos 11:8", "Hos 11:9", "Luk 15:20"]}], "13": [{"kopje": "kom terug", "refs": ["Hoogl 2:14", "Jer 3:12-14", "Jer 3:22", "Hos 14:2-5"]}, {"kopje": "Wat", "refs": ["Hoogl 1:6", "Luk 7:44", "Luk 15:10", "2 Tess 1:10"]}, {"kopje": "Sulammith", "refs": ["Gen 49:10", "Ps 76:3", "Jes 8:6", "Joh 9:7", "Hebr 7:2"]}, {"kopje": "Als", "refs": ["Joh 10:16", "Rom 3:29", "Ef 2:14-17"]}, {"kopje": "twee legers", "refs": ["Gen 32:2", "Rom 7:23", "Gal 5:17", "Ef 6:10-19"]}]}, "onderwerpen": {"10": [{"onderwerp": "Maan", "sub": "Zijn licht", "totaal": 5, "positie": 3, "vorige": "Pred 12:2", "volgende": "Jer 31:35", "alle": ["Job 31:26", "Pred 12:2", "Jer 31:35", "1 Kor 15:41"], "meer": 0}, {"onderwerp": "De maan", "sub": "Schoon", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "De maan", "sub": "Van de schoonheid der gemeente", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Morgen", "sub": "(Doorbrekend,) van de heerlijkheid der kerk", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Jes 58:8", "alle": ["Jes 58:8"], "meer": 0}, {"onderwerp": "Banier", "sub": "Banieren gebruikt als", "totaal": 3, "positie": 3, "vorige": "Hoogl 6:4", "volgende": null, "alle": ["Ps 20:6", "Hoogl 6:4"], "meer": 0}, {"onderwerp": "De zon", "sub": "(De klaarheid ervan,) van de reinheid der kerk", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "De zon", "sub": "Helderheid van zijn licht, waarop gezinspeeld wordt", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "11": [{"onderwerp": "Noot", "sub": "", "totaal": 2, "positie": 2, "vorige": "Gen 43:11", "volgende": null, "alle": ["Gen 43:11"], "meer": 0}, {"onderwerp": "De granaatappelboom", "sub": "Van heiligen", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Hoogl 7:12", "alle": ["Hoogl 7:12"], "meer": 0}, {"onderwerp": "Heiligen, vergeleken met", "sub": "Wijnstokken", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Hos 14:8", "alle": ["Hos 14:8"], "meer": 0}, {"onderwerp": "Dalen", "sub": "Van de gemeente van Christus", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "De wijnstok", "sub": "In de dalen", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "7": [{"onderwerp": "De granaatappelboom", "sub": "(Vrucht van,) van de genadegaven der gemeente", "totaal": 2, "positie": 2, "vorige": "Hoogl 4:3", "volgende": null, "alle": ["Hoogl 4:3"], "meer": 0}], "4": [{"onderwerp": "Banier", "sub": "Banieren gebruikt als", "totaal": 3, "positie": 2, "vorige": "Ps 20:6", "volgende": "Hoogl 6:10", "alle": ["Ps 20:6", "Hoogl 6:10"], "meer": 0}]}, "extern": {"Hoogl 3:6": "Wie is zij, die daar opkomt uit de woestijn, als rookpilaren, berookt met mirre en wierook, en met allerlei poeder van de kruidenier?", "Jes 8:6": "Omdat dit volk het water van Siloa veracht, dat zachtjes stroomt, en er vreugde is bij Rezin en de zoon van Remalia,", "Hoogl 1:4": "Trek mij, wij zullen u nalopen! De koning heeft mij gebracht in zijn binnenkamers; wij zullen ons verheugen en in u verblijden; wij zullen uw uitnemende liefde vermelden, meer dan de wijn; de oprechten hebben u lief.", "Ruth 1:16": "Maar Ruth zei: Dring er bij mij niet op aan om u te verlaten, om van achter u terug te keren; want waar u heen zult gaan, zal ik ook heen gaan, en waar u zult overnachten, zal ik overnachten; uw volk is mijn volk, en uw God mijn God.", "Jes 2:5": "Kom, u huis van Jakob, en laat ons wandelen in het licht van de HEERE.", "Hoogl 5:13": "Zijn wangen zijn als een bed van specerijen, als welriekende torentjes; Zijn lippen zijn als lelies, druppend van vloeiende mirre.", "Joh 14:3": "En wanneer Ik heen zal zijn gegaan en u plaats zal hebben bereid, kom Ik terug en zal u tot Mij nemen, opdat u ook mag zijn waar Ik ben.", "1 Kon 15:21": "En het gebeurde, toen Baësa dit hoorde, dat hij ophield Rama te bouwen, en hij bleef te Thirza.", "Hoogl 7:12": "Laten wij vroeg opstaan naar de wijngaarden, laten wij zien of de wijnstok bloeit, de jonge druifjes zich openen, de granaatappelbomen uitbotten; daar zal ik U mijn liefde geven.", "Zef 3:17": "De HEERE, uw God, is in uw midden, een Held, Die verlossen zal; Hij zal Zich over u verblijden met blijdschap, Hij zal zwijgen in Zijn liefde, Hij zal Zich over u verheugen met gejuich.", "Openb 21:23": "En de stad heeft de zon en de maan niet nodig, om in haar te schijnen; want de heerlijkheid van God heeft haar verlicht, en het Lam is haar lamp.", "2 Sam 23:4": "En Hij zal zijn gelijk het licht van de morgen, wanneer de zon opgaat, een morgen zonder wolken, wanneer door de glans na de regen de grasscheutjes uit de aarde voortkomen.", "1 Tess 4:14": "Want als wij geloven dat Jezus gestorven is en opgestaan, zo zal God ook hen die in Jezus ontslapen zijn, met Hem terug brengen.", "Gen 32:2": "En Jakob zei, toen hij hen zag: Dit is een leger van God! En hij noemde de naam van die plaats Mahanaim.", "Hebr 8:10": "Want dit is het verbond dat Ik met het huis van Israël maken zal na die dagen, zegt de Heere: Ik zal Mijn wetten in hun verstand geven, en in hun harten zal Ik ze inschrijven; en Ik zal hun tot een God zijn, en zij zullen Mij tot een volk zijn.", "Hand 15:36": "En na enige dagen zei Paulus tegen Barnabas: Laten wij nu teruggaan en onze broeders bezoeken in elke stad waarin wij het Woord van de Heere verkondigd hebben, om te zien hoe het met hen gaat.", "Jes 61:11": "Want zoals de aarde haar spruit voortbrengt, en zoals een tuin datgene wat erin gezaaid is, laat uitspruiten, zo zal de Heere HEERE gerechtigheid en lof laten uitspruiten voor alle volken.", "Klaagl 2:15": "Samech. Allen die voorbijgaan, klappen met de handen over u, zij fluiten en schudden hun hoofd over de dochter van Jeruzalem, en zeggen: Is dit die stad, waarvan men zei, dat zij volkomen was van schoonheid, een vreugde van de hele aarde?", "Matt 15:27": "En zij zei: Ja, Heere! maar de hondjes eten ook van de brokjes die van de tafel van hun heren vallen.", "Rom 7:23": "Maar ik zie een andere wet in mijn leden, die strijdt tegen de wet van mijn gemoed, en mij gevangen neemt onder de wet van de zonde, die in mijn leden is.", "Openb 10:1": "En ik zag een andere sterke engel neerkomen uit de hemel, bekleed met een wolk; en een regenboog was boven zijn hoofd; en zijn gezicht was als de zon, en zijn voeten waren als pilaren van vuur.", "Ezech 34:23": "En Ik zal één Herder over hen doen opstaan, en Hij zal hen weiden, namelijk Mijn knecht David; die zal ze weiden, en Die zal hun tot een Herder zijn.", "Hos 14:8": "Zij zullen terugkeren, zittend onder zijn schaduw; zij zullen tot leven voortbrengen als koren, en bloeien als de wijnstok; zijn gedachtenis zal zijn als de wijn van Libanon.", "Hoogl 4:3": "Uw lippen zijn als een scharlaken snoer, en uw spraak is liefelijk; de slaap van uw hoofd is als een stuk van een granaatappel tussen uw vlechten.", "Hoogl 4:7": "Helemaal bent u mooi, Mijn vriendin, en er is geen gebrek aan u.", "Matt 18:20": "Want waar twee of drie in Mijn Naam bijeengekomen zijn, daar ben Ik in hun midden.", "Ezech 16:14": "Daardoor ging van u een naam uit onder de heidenvolken vanwege uw schoonheid; want die was volmaakt door Mijn heerlijkheid, die Ik op u gelegd had, spreekt de Heere HEERE.", "2 Kor 10:4": "Want de wapens van onze strijd zijn niet vleselijk, maar krachtig door God, tot het neerwerpen van bolwerken;", "Jes 63:1": "Wie is Deze, Die van Edom komt met bespatte kleren, van Bozra? Deze, Die praalt in Zijn gewaad? Die voorttrekt in Zijn grote kracht? Ik ben het, Die in gerechtigheid spreek, Die machtig ben om te verlossen.", "Rom 3:29": "Is God een God van de Joden alleen? En is Hij het niet ook van de heidenen? Ja, ook van de heidenen;", "Hos 6:5": "Daarom heb Ik hen gehakt door de profeten; Ik heb hen gedood door de woorden van Mijn mond; en uw oordelen zullen voortkomen als het licht.", "Num 23:9": "Want vanaf de top van de rotsen zie ik hem, en vanaf de heuvels aanschouw ik hem; zie, dat volk zal alleen wonen, en het zal niet bij de heidenvolken gerekend worden.", "Ezech 16:13": "Zo was u versierd met goud en zilver, en uw kleding was fijn linnen, en zijde, en geborduurd werk; u at meelbloem, en honing, en olie, en u was buitengewoon mooi, en u had voorspoed, zodat u een koninkrijk werd.", "Mal 4:2": "Voor u echter, die Mijn Naam vreest, zal de Zon der gerechtigheid opgaan, met genezing onder Haar vleugels; en u zult uitgaan en toenemen als mestkalveren.", "Hoogl 1:7": "Zeg mij aan, U, Die mijn ziel liefheeft, waar U weidt, waar U de kudde legert in de middag; want waarom zou ik zijn als iemand die zich afwendt bij de kudden van uw metgezellen?", "Openb 21:10": "En hij voerde mij weg in de geest op een grote en hoge berg, en hij toonde mij de grote stad, het heilige Jeruzalem, neerdalend uit de hemel van God.", "Openb 22:5": "En daar zal geen nacht zijn, en zij zullen geen kaars noch licht van de zon nodig hebben; want de Heere God verlicht hen; en zij zullen als koningen heersen tot in alle eeuwigheid.", "Mark 11:13": "En toen Hij van verre een vijgenboom zag die bladeren had, ging Hij kijken of Hij er misschien iets aan zou vinden; en toen Hij erbij gekomen was, vond Hij niets dan bladeren; want het was de tijd van de vijgen nog niet.", "Hoogl 5:9": "Wat is uw Liefste meer dan een ander liefste, o u, schoonste onder de vrouwen! Wat is uw Liefste meer dan een ander liefste, dat u ons zo bezworen hebt!", "Luk 15:20": "En hij stond op en ging naar zijn vader. En toen hij nog ver van hem verwijderd was, zag zijn vader hem, en werd innerlijk met ontferming bewogen; en hij liep hem tegemoet, viel hem om de hals, en kuste hem.", "Ex 32:10": "En nu, laat Mij begaan, dat Mijn toorn tegen hen ontsteekt en hen verteert; dan zal Ik u tot een groot volk maken.", "Matt 13:43": "Dan zullen de rechtvaardigen stralen als de zon, in het Koninkrijk van hun Vader. Wie oren heeft om te horen, laat hij horen.", "Luk 15:10": "Zo, zeg Ik u, is er blijdschap voor de engelen van God over één zondaar die zich bekeert.", "Openb 21:2": "En ik, Johannes, zag de heilige stad, het nieuwe Jeruzalem, neerdalen van God uit de hemel, gereedgemaakt als een bruid, die voor haar man versierd is.", "Hoogl 1:6": "Kijk niet naar mij, omdat ik zwartachtig ben, omdat de zon op mij heeft geschenen; de kinderen van mijn moeder waren tegen mij ontstoken, zij hebben mij aangesteld tot een hoedster van de wijngaarden. Mijn eigen wijngaard heb ik niet gehoed.", "Hos 11:9": "Ik zal de gloed van Mijn toorn niet uitvoeren; Ik zal niet terugkeren om Efraïm te verderven; want Ik ben God en geen mens, de Heilige in uw midden, en Ik zal niet in de stad komen.", "Gal 4:26": "Maar het Jeruzalem dat boven is, is vrij, en dat is onze aller moeder.", "Openb 22:16": "Ik, Jezus, heb Mijn engel gezonden om u deze dingen te getuigen in de Gemeenten. Ik ben de Wortel en het geslacht van David, de blinkende Morgenster.", "Hoogl 1:8": "Als u het niet weet, o schoonste onder de vrouwen! ga dan uit op de voetstappen van de schapen, en weid uw geiten bij de woningen van de herders.", "Openb 7:17": "Want het Lam, Dat in het midden van de troon is, zal hen weiden, en zal hun een Leidsman zijn tot levende fonteinen van water; en God zal alle tranen van hun ogen afwissen.", "1 Kon 15:33": "In het derde jaar van Asa, koning van Juda, werd Baësa, de zoon van Ahia, koning over heel Israël, te Thirza, en regeerde vierentwintig jaren.", "Hoogl 5:2": "Ik sliep, maar mijn hart waakte, de stem van mijn Liefste, Die klopte, was: Doe Mij open, Mijn zuster, Mijn vriendin, Mijn duif, Mijn volmaakte! Want Mijn hoofd is vervuld met dauw, Mijn haarlokken met de druppels van de nacht.", "Jes 57:1": "De rechtvaardige komt om, en er is niemand die het ter harte neemt; en de goede mensen worden weggenomen, zonder dat iemand erop let dat de rechtvaardige weggenomen wordt vóór het kwaad komt.", "1 Tess 4:13": "Maar, broeders, ik wil niet dat u onwetend bent over hen die ontslapen zijn, opdat u niet bedroefd bent, zoals ook de anderen, die geen hoop hebben.", "Hoogl 7:10": "Ik ben van mijn Liefste, en Zijn verlangen is naar mij uit.", "Spr 4:18": "Maar het pad van de rechtvaardigen is als een schijnend licht, dat voortgaat en meer licht geeft tot de volle dag toe.", "Ps 20:6": "Wij zullen juichen over Uw heil, en de vaandels opsteken in de Naam van onze God. De HEERE vervult al uw verlangens.", "Rom 8:37": "Maar in dit alles zijn wij meer dan overwinnaars, door Hem Die ons heeft liefgehad.", "Gal 5:17": "Want het vlees begeert tegen de Geest, en de Geest tegen het vlees; en die staan tegenover elkaar, zodat u niet doet wat u zou willen.", "Deut 33:29": "Gelukkig bent u, o Israël! wie is u gelijk? u bent een volk, verlost door de HEERE, het Schild van uw hulp, en Die een Zwaard is van uw hoogheid; daarom zullen uw vijanden zich geveinsd aan u onderwerpen, en u zult op hun hoogten treden!", "Joh 17:24": "Vader, Ik wil dat waar Ik ben, ook zij die bij Mij zijn, die U Mij gegeven hebt; opdat zij Mijn heerlijkheid mogen aanschouwen, die U Mij gegeven hebt; want U hebt Mij liefgehad, voor de grondlegging van de wereld.", "Spr 31:29": "Resch. Veel dochters hebben deugdelijk gehandeld; maar u overtreft ze allemaal.", "Joh 9:7": "en zei tegen hem: Ga heen, was u in het badwater Siloam (wat vertaald wordt: Uitgezonden). Hij ging toen heen en waste zich, en kwam ziende terug.", "Luk 13:7": "En hij zei tegen de wijngaardenier: Zie, ik kom nu al drie jaar vrucht zoeken op deze vijgenboom en vind ze niet; hak hem om; waarom put hij ook nog de grond onnodig uit?", "Jes 58:11": "En de HEERE zal u voortdurend leiden, en Hij zal uw ziel verzadigen in grote droogte, en uw beenderen sterk maken; en u zult zijn als een gewaterde hof, en als een springader van water, waarvan het water niet ontbreekt.", "Job 31:26": "Als ik het licht aangezien heb, wanneer het scheen, of de maan heerlijk voortgaande;", "Matt 28:20": "en leer hen om alles te onderhouden wat Ik u geboden heb. En zie, Ik ben met u al de dagen, tot de voleinding van de wereld. Amen.", "Hoogl 5:1": "Ik ben in Mijn hof gekomen, o Mijn zuster, o bruid! Ik heb Mijn mirre geplukt met Mijn specerij; Ik heb Mijn honigraten met Mijn honig gegeten; Ik heb Mijn wijn, alsook Mijn melk gedronken. Eet, vrienden! Drink, en word dronken, o liefsten!", "Matt 17:2": "En Hij veranderde van gedaante voor hun ogen; Zijn gezicht blonk als de zon, en Zijn kleren werden wit als het licht.", "Spr 31:28": "Koph. Haar kinderen staan op, en prijzen haar gelukkig; ook haar man, en hij prijst haar, en zegt:", "Jer 3:22": "Keer terug, afkerige kinderen! Ik zal uw afkeringen genezen. Zie, hier zijn wij, wij komen tot U, want U bent de HEERE, onze God!", "Jer 15:1": "Maar de HEERE zei tegen mij: Al stonden Mozes en Samuël voor Mijn aangezicht, dan nog zou Mijn ziel niet naar dit volk uitgaan; drijf ze weg van Mijn aangezicht, en laat ze weggaan.", "Hoogl 2:14": "Mijn duif, die in de kloven van de steenrotsen bent, in het verborgene van een steile plaats, toon Mij uw gedaante, laat Mij uw stem horen; want uw stem is zoet, en uw gedaante is liefelijk.", "Openb 21:11": "En zij had de heerlijkheid van God, en haar licht was gelijk aan de allerkostbaarste steen, namelijk als de steen Jaspis, blinkend als kristal.", "Ruth 1:17": "Waar u zult sterven, zal ik sterven, en daar zal ik begraven worden; zo doe mij de HEERE en zo doe Hij daar nog aan toe, als niet de dood alléén scheiding zal maken tussen mij en u!", "Deut 4:6": "Bewaar ze dan, en doe ze; want dat zal uw wijsheid en uw verstand zijn voor de ogen van de volken, die al deze inzettingen zullen horen en zeggen: Dit grote volk is werkelijk een wijs en verstandig volk!", "1 Kor 15:41": "De ene heerlijkheid is die van de zon, en de andere heerlijkheid is die van de maan, en de andere heerlijkheid is die van de sterren; want de ene ster verschilt van de andere ster in heerlijkheid.", "Hos 11:8": "Hoe zou Ik u overgeven, o Efraïm? U overleveren, o Israël? Hoe zou Ik u maken als Adama, u stellen als Zeboïm? Mijn hart is in Mij omgekeerd, al Mijn medelijden is samen ontstoken.", "Gen 2:9": "En de HEERE God had alle bomen uit de aardbodem laten opkomen, begeerlijk voor het gezicht, en goed tot voedsel; en de boom van het leven in het midden van de hof, en de boom van de kennis van goed en kwaad.", "Hebr 7:2": "aan wie Abraham ook van alles de tienden gaf; hij wordt eerst vertaald met 'koning van de gerechtigheid', en daarna was hij ook koning van Salem, dat is: koning van de vrede;", "2 Tess 1:10": "Wanneer Hij gekomen zal zijn om verheerlijkt te worden in Zijn heiligen, en bewonderd te worden in allen die geloven (omdat onze getuigenis onder u geloofd is) op die dag.", "Gen 49:10": "De scepter zal van Juda niet wijken, evenmin de wetgever van tussen zijn voeten, totdat Silo komt, en Hem zullen de volken gehoorzaam zijn.", "Jes 40:11": "Hij zal Zijn kudde weiden gelijk een herder; Hij zal de lammeren in Zijn armen bijeenbrengen, en in Zijn schoot dragen; de zogende dieren zal Hij zachtjes leiden.", "Ruth 2:12": "De HEERE vergeldt u uw daad, en uw loon zij volkomen, vanwege de HEERE, de God van Israël, onder Wiens vleugels u gekomen bent om toevlucht te nemen!", "Ps 126:2": "Toen was onze mond vol lachen, en onze tong vol gejuich; toen zei men onder de heidenvolken: De HEERE heeft grote dingen aan hen gedaan.", "Ps 45:10": "Dochters van koningen zijn onder Uw kostbare hofdames; de Koningin staat aan Uw rechterhand, in het fijnste goud van Ofir.", "Joh 4:35": "Zegt u niet: Het zijn nog vier maanden, en dan komt de oogst? Zie, Ik zeg u: Sla uw ogen op en bekijk de velden; want ze zijn al wit om te oogsten.", "Joh 10:16": "Ik heb nog andere schapen, die niet van deze schaapskooi zijn; ook die moet Ik toebrengen; en zij zullen Mijn stem horen; en het zal worden één kudde, en één Herder.", "Zach 12:3": "En het zal op die dag gebeuren, dat Ik Jeruzalem stellen zal tot een zware steen voor alle volken; allen die zich daarmee belasten, zullen zeker doorsneden worden; en al de volken van de aarde zullen zich tegen haar verzamelen.", "Ef 5:27": "opdat Hij haar Zichzelf heerlijk zou voorstellen, een Gemeente die geen vlek of rimpel heeft, of iets dergelijks, maar die heilig en onberispelijk zou zijn.", "Openb 12:1": "En er werd een groot teken gezien in de hemel: namelijk een vrouw, bekleed met de zon; en de maan was onder haar voeten, en op haar hoofd een kroon van twaalf sterren;", "Jer 14:8": "O Israëls Verwachting, Zijn Verlosser in tijd van benauwdheid! Waarom zou U zijn als een vreemdeling in het land, en als een reiziger die slechts inkeert om te overnachten?", "Jer 31:35": "Zo zegt de HEERE, Die de zon overdag tot een licht geeft, de ordeningen van de maan en van de sterren tot een licht in de nacht, Die de zee klieft, zodat haar golven bruisen, HEERE van de heerscharen is Zijn Naam:", "Joh 4:34": "Jezus zei tegen hen: Mijn voedsel is dat Ik de wil doe van Hem die Mij gezonden heeft, en Zijn werk volbreng.", "Hoogl 2:2": "Zoals een lelie onder de doornen, zo is Mijn vriendin onder de dochters.", "Luk 7:44": "En Hij keerde Zich om naar de vrouw, en zei tegen Simon: Ziet u deze vrouw? Ik ben uw huis binnengekomen; water hebt u Mij niet over de voeten gegeven; maar deze heeft Mijn voeten met tranen nat gemaakt, en met het haar van haar hoofd afgedroogd.", "Matt 15:28": "Toen antwoordde Jezus en zei tegen haar: O vrouw! groot is uw geloof; u geschiede zoals u wilt. En haar dochter werd gezond vanaf dat moment.", "Job 11:17": "Ja, uw levenstijd zal helderder dan de middag oprijzen; u zult stralen, als de morgenstond zult u zijn.", "Gen 43:11": "Toen zei Israël, hun vader, tegen hen: Is het nu zo, doe dan dit; neem van het beste fruit van dit land in uw zakken, en breng die man een geschenk mee: een weinig balsem, en een weinig honing, specerijen en mirre, terpentijnnoten en amandelen.", "Pred 12:2": "Voordat de zon, en het licht, en de maan, en de sterren verduisterd worden, en de wolken terugkomen na de regen.", "Joh 15:16": "U hebt Mij niet uitverkoren, maar Ik heb u uitverkoren, en Ik heb u gesteld, zodat u zou heengaan en vrucht dragen, en dat uw vrucht blijft; zodat, wat u ook van de Vader zal vragen in Mijn Naam, Hij u dat geeft.", "Deut 4:7": "Want welk groot volk is er, dat de goden zo dichtbij heeft als de HEERE, onze God, bij ons is, zo vaak als wij Hem aanroepen?", "1 Kon 14:17": "Toen stond Jerobeams vrouw op, en ging heen, en kwam in Thirza; en toen zij op de drempel van het huis kwam, stierf de jongen.", "Ps 48:3": "Schoon van ligging, een vreugde van de hele aarde is de berg Sion, aan de zijden van het noorden; de stad van de grote Koning.", "Ps 14:5": "Daar zijn zij door grote angst overvallen; want God is bij het geslacht van de rechtvaardige.", "Jes 58:8": "Dan zal uw licht voortbreken als de dageraad, en uw genezing zal snel uitspruiten; en uw gerechtigheid zal voor uw aangezicht heengaan, en de heerlijkheid van de HEERE zal uw achterhoede zijn.", "Hoogl 2:16": "Mijn Liefste is van mij, en ik ben van Hem, Die weidt onder de lelies,", "Hoogl 8:5": "Wie is zij, die daar opklimt uit de woestijn, en liefelijk leunt op haar Liefste? Onder de appelboom heb ik u opgewekt; daar heeft uw moeder u met smart voortgebracht, daar heeft zij u met smart voortgebracht, die u gebaard heeft.", "Openb 21:9": "En er kwam naar mij een van de zeven engelen, die de zeven schalen hadden, die vol geweest waren van de zeven laatste plagen, en hij sprak met mij en zei: Kom hier, ik zal u de Bruid tonen, de Vrouw van het Lam."}, "noten": {"4": "SV: schrikkelijk als *slagorden* met banieren", "10": "SV: schrikkelijk als *slagorden* met banieren"}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${md(D.vertalingen[vertaling][n] || '—')}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+function paneelInhoud(n, tab) {
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : 'vertalingen');
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  const tekst = popupTekst(ref);
+  if (!tekst) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${md(tekst)}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>

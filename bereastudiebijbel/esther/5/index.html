@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esther 5 — BereaStudieBijbel · De Volle Pinksterzegen</title>
+<style>
+  :root { --accent: #8a6d3b; --accent-donker: #6b5429; --bg: #fdfcf9; --bg-soft: #f7f3ea; --border: #e3ddd0; --tekst: #2b2b2b; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  header.site { text-align: center; padding: 1.2rem 0 .4rem; }
+  header.site h1 { font-size: 2rem; margin: 0; color: var(--accent-donker); letter-spacing: .01em; }
+  header.site .motto { font-style: italic; color: #8b7355; margin: .2rem 0 1rem; }
+  nav.hoofd { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: .55rem 0; font-family: sans-serif; font-size: .8rem; letter-spacing: .25em; text-transform: uppercase; text-align:center; }
+  nav.hoofd a { color: var(--accent); text-decoration: none; margin: 0 .8rem; }
+  nav.hoofd a.actief { color: var(--accent-donker); font-weight: 700; }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<header class="site">
+  <h1>De Volle Pinksterzegen</h1>
+  <div class="motto">Jezus volgen in de kracht van de Geest</div>
+</header>
+<nav class="hoofd">
+  <a>Blog</a> | <a>Boek</a> | <a class="actief">Bijbel</a>
+</nav>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">Esther</a> › hoofdstuk 5</div>
+<h2 class="hfd">Esther 5</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "Esther 5", "boek_naam": "Esther", "hfd_nr": "5", "zelf_abbr": "Est 5", "totaal": 10, "basis_url": "https://pinksterzegen.nl/bereastudiebijbel/esther/5", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../4/", "label": "‹ Esther 4"}, "volgende": {"href": "../6/", "label": "Esther 6 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "Op de derde dag gebeurde het dat Esther een koninklijk kleed aantrok, en ging staan in het binnenste voorhof van het huis van de koning, tegenover het huis van de koning; de koning nu zat op zijn koninklijke troon, in het koninklijke huis, tegenover de deur van het huis.", "2": "En het gebeurde, toen de koning koningin Esther zag staan in het voorhof, dat zij genade vond in zijn ogen, zodat de koning de gouden scepter die in zijn hand was naar Esther uitstrekte; en Esther kwam dichterbij, en raakte de top van de scepter aan.", "3": "Toen zei de koning tegen haar: Wat is er, koningin Esther? Of wat is uw verzoek? Het zal u gegeven worden, ook tot de helft van het koninkrijk.", "4": "Esther nu zei: Als het de koning goeddunkt, laat de koning dan met Haman vandaag komen naar de maaltijd die ik voor hem heb klaargemaakt.", "5": "Toen zei de koning: Laat Haman zich haasten, zodat hij doet wat Esther gezegd heeft. Toen nu de koning met Haman gekomen was naar de maaltijd die Esther had klaargemaakt,", "6": "zei de koning tegen Esther bij de maaltijd van de wijn: Wat is uw bede? En zij zal u gegeven worden; en wat is uw verzoek? Het zal gebeuren, ook tot de helft van het koninkrijk.", "7": "Toen antwoordde Esther, en zei: Mijn bede en verzoek is:", "8": "Als ik genade gevonden heb in de ogen van de koning, en als het de koning goeddunkt om mij mijn bede te geven en mijn verzoek te doen, laat de koning dan met Haman komen naar de maaltijd die ik voor hen zal klaarmaken; dan zal ik morgen doen naar het bevel van de koning.", "9": "Toen ging Haman diezelfde dag naar buiten, vrolijk en goedsmoeds; maar toen Haman Mordechai zag in de poort van de koning, en dat hij niet opstond en zich niet voor hem verroerde, werd Haman vervuld met woede op Mordechai.", "10": "Toch bedwong Haman zich, en hij kwam bij zijn huis; en hij stuurde mensen, en liet zijn vrienden komen, en Zeres, zijn vrouw.", "11": "En Haman vertelde hun over de heerlijkheid van zijn rijkdom, en de veelheid van zijn zonen, en alles waarin de koning hem groot gemaakt had, en waarin hij hem verheven had boven de vorsten en dienaren van de koning.", "12": "Verder zei Haman: Ook heeft koningin Esther niemand met de koning laten komen naar de maaltijd die zij bereid heeft, behalve mij; en ik ben ook voor morgen door haar samen met de koning uitgenodigd.", "13": "Maar dit alles baat mij niet, zolang ik de Jood Mordechai zie zitten in de poort van de koning.", "14": "Toen zei zijn vrouw Zeres tegen hem, alsook al zijn vrienden: Laat men een galg maken, vijftig el hoog, en zeg morgen tegen de koning dat men Mordechai daaraan laat hangen; ga dan vrolijk met de koning naar die maaltijd. Dit voorstel nu leek Haman goed, en hij liet de galg maken."}, "SV": {"1": "Het geschiedde nu aan den derden dag, dat Esther een koninklijk kleed aantrok, en stond in het binnenste voorhof van des konings huis, tegenover het huis des konings; de koning nu zat op zijn koninklijken troon, in het koninklijke huis, tegenover de deur van het huis.", "2": "En het geschiedde, toen de koning de koningin Esther zag, staande in het voorhof, verkreeg zij genade in zijn ogen, zodat de koning den gouden scepter, die in zijn hand was, Esther toereikte; en Esther naderde, en roerde de spits des scepters aan.", "3": "Toen zeide de koning tot haar: Wat is u, koningin Esther! of wat is uw verzoek? Het zal u gegeven worden, ook tot de helft des koninkrijks.", "4": "Esther nu zeide: Indien het den koning goeddunkt, zo kome de koning met Haman heden tot den maaltijd, dien ik hem bereid heb.", "5": "Toen zeide de koning: Doet Haman spoeden, dat hij het bevel van Esther doe. Als nu de koning met Haman tot den maaltijd, dien Esther bereid had, gekomen was,", "6": "Zo zeide de koning tot Esther op den maaltijd des wijns: Wat is uw bede? en zij zal u gegeven worden; en wat is uw verzoek? Het zal geschieden, ook tot de helft des koninkrijks.", "7": "Toen antwoordde Esther, en zeide: Mijn bede en verzoek is:", "8": "Indien ik genade gevonden heb in de ogen des konings, en indien het den koning goeddunkt, mij te geven mijn bede, en mijn verzoek te doen, zo kome de koning met Haman tot den maaltijd, dien ik hem bereiden zal; zo zal ik morgen doen naar het bevel des konings.", "9": "Toen ging Haman ten zelfden dage uit, vrolijk en goedsmoeds; maar toen Haman Mordechai zag in de poort des konings, en dat hij niet opstond, noch zich voor hem bewoog, zo werd Haman vervuld met grimmigheid op Mordechai.", "10": "Doch Haman bedwong zich, en hij kwam tot zijn huis; en hij zond henen, en liet zijn vrienden komen, en Zeres, zijn huisvrouw.", "11": "En Haman vertelde hun de heerlijkheid zijns rijkdoms, en de veelheid zijner zonen, en alles, waarin de koning hem groot gemaakt had, en waarin hij hem verheven had boven de vorsten en knechten des konings.", "12": "Verder zeide Haman: Ook heeft de koningin Esther niemand met den koning doen komen tot den maaltijd, dien zij bereid heeft, dan mij; en ik ben ook tegen morgen van haar met den koning genodigd.", "13": "Doch dit alles baat mij niet, zo langen tijd als ik den Jood Mordechai zie zitten in de poort des konings.", "14": "Toen zeide zijn huisvrouw Zeres tot hem, mitsgaders al zijn vrienden: Men make een galg, vijftig ellen hoog, en zeg morgen aan den koning, dat men Mordechai daaraan hange; ga dan vrolijk met den koning tot dien maaltijd. Deze raad nu dacht Haman goed, en hij deed de galg maken."}, "KJV": {"1": "Now it came to pass on the third day, that Esther put on *her* royal *apparel*, and stood in the inner court of the king's house, over against the king's house: and the king sat upon his royal throne in the royal house, over against the gate of the house.", "2": "And it was so, when the king saw Esther the queen standing in the court, *that* she obtained favour in his sight: and the king held out to Esther the golden sceptre that *was* in his hand. So Esther drew near, and touched the top of the sceptre.", "3": "Then said the king unto her, What wilt thou, queen Esther? and what *is* thy request? it shall be even given thee to the half of the kingdom.", "4": "And Esther answered, If *it seem* good unto the king, let the king and Haman come this day unto the banquet that I have prepared", "5": "Then the king said, Cause Haman to make haste, that he may do as Esther hath said. So the king and Haman came to the banquet that Esther had prepared.", "6": "And the king said unto Esther at the banquet of wine, What *is* thy petition? and it shall be granted thee: and what *is* thy request? even to the half of the kingdom it shall be performed.", "7": "Then answered Esther, and said, My petition and my request", "8": "If I have found favour in the sight of the king, and if it please the king to grant my petition, and to perform my request, let the king and Haman come to the banquet that I shall prepare for them, and I will do to morrow as the king hath said.", "9": "Then went Haman forth that day joyful and with a glad heart: but when Haman saw Mordecai in the king's gate, that he stood not up, nor moved for him, he was full of indignation against Mordecai.", "10": "Nevertheless Haman refrained himself: and when he came home, he sent and called for his friends, and Zeresh his wife.", "11": "And Haman told them of the glory of his riches, and the multitude of his children, and all *the things* wherein the king had promoted him, and how he had advanced him above the princes and servants of the king.", "12": "Haman said moreover, Yea, Esther the queen did let no man come in with the king unto the banquet that she had prepared but myself; and to morrow am I invited unto her also with the king.", "13": "Yet all this availeth me nothing, so long as I see Mordecai the Jew sitting at the king's gate.", "14": "Then said Zeresh his wife and all his friends unto him, Let a gallows be made of fifty cubits high, and to morrow speak thou unto the king that Mordecai may be hanged thereon: then go thou in merrily with the king unto the banquet. And the thing pleased Haman; and he caused the gallows to be made."}}, "tsk": {"1": [{"kopje": "tegenover", "refs": ["Est 4:16", "Matt 27:64"]}, {"kopje": "koninklijke", "refs": ["Est 1:11", "Est 8:15", "Matt 10:16", "Matt 11:8", "1 Petr 3:3-5"]}, {"kopje": "binnenste", "refs": ["Est 4:11", "Est 6:4"]}, {"kopje": "zat", "refs": ["1 Kon 10:18-20", "Luk 22:30", "Openb 3:21"]}], "2": [{"kopje": "Esther", "refs": ["Gen 32:28", "Neh 1:11", "Ps 116:1", "Spr 21:1", "Hand 7:10", "Hand 10:4"]}, {"kopje": "gouden scepter", "refs": ["Est 4:11", "Est 8:4"]}], "3": [{"kopje": "Wat", "refs": ["Est 5:6", "Est 7:2", "Est 9:12", "1 Kon 2:20", "1 Kon 3:5", "Matt 20:20-22", "Luk 18:41"]}, {"kopje": "tot", "refs": ["Est 5:6", "Mark 6:23"]}], "4": [{"kopje": "Als het goeddunkt", "refs": ["Est 5:8", "Spr 29:11"]}, {"kopje": "de maaltijd", "refs": ["Est 5:8", "Est 3:15", "Gen 27:25", "Gen 32:20", "Ps 112:5", "1 Kor 14:20"]}], "5": [{"kopje": "Laat Haman zich haasten", "refs": ["Est 6:14"]}], "6": [{"kopje": "zei de koning", "refs": ["Est 5:3", "Est 7:2", "Est 9:12"]}], "8": [{"kopje": "morgen", "refs": ["Est 6:1-13", "Spr 16:9"]}], "9": [{"kopje": "vrolijk", "refs": ["Job 20:5", "Amos 6:12", "Amos 6:13", "Luk 6:25", "Joh 16:20", "Jak 4:9"]}, {"kopje": "hij niet opstond", "refs": ["Est 3:2", "Ps 15:4", "Matt 10:28"]}, {"kopje": "werd vervuld", "refs": ["Est 3:5", "1 Kon 21:4", "Job 31:31", "Ps 27:3", "Dan 3:13", "Dan 3:16-19", "Matt 2:16", "Hand 7:54"]}], "10": [{"kopje": "bedwong Haman zich", "refs": ["Gen 43:30", "Gen 43:31", "Gen 45:1", "2 Sam 13:22", "2 Sam 13:23", "Pred 7:9"]}, {"kopje": "liet zijn vrienden komen", "refs": ["Est 6:13"]}], "11": [{"kopje": "de heerlijkheid", "refs": ["Est 1:4", "Gen 31:1", "Job 31:24", "Job 31:25", "Ps 49:7", "Ps 49:17", "Ps 49:18", "Jes 10:8", "Jer 9:23", "Jer 9:24", "Dan 4:30", "Mark 10:24", "Luk 12:19", "Luk 12:20", "1 Tim 6:17"]}, {"kopje": "de veelheid", "refs": ["Est 9:7-10", "Est 9:12", "Est 9:13", "Job 27:14", "Job 27:15", "Hos 9:13", "Hos 9:14"]}, {"kopje": "en alles waarin", "refs": ["Est 3:1"]}], "12": [{"kopje": "morgen", "refs": ["Job 8:12", "Job 8:13", "Job 20:5-8", "Ps 37:35", "Ps 37:36", "Spr 7:22", "Spr 7:23", "Spr 27:1", "Luk 21:34", "Luk 21:35", "1 Tess 5:3"]}], "13": [{"kopje": "Maar dit alles", "refs": ["1 Kon 21:4-6", "Job 15:20", "Job 18:4", "Pred 1:2", "Pred 1:14", "Fil 4:11", "Fil 4:12"]}], "14": [{"kopje": "zei zijn vrouw Zeres", "refs": ["2 Sam 13:3-5", "1 Kon 21:7", "1 Kon 21:25", "2 Kron 22:3", "2 Kron 22:4", "Mark 6:19-24"]}, {"kopje": "Laat men een galg maken", "refs": ["Est 7:9"]}, {"kopje": "zeg", "refs": ["Est 3:8-15", "Est 6:4"]}, {"kopje": "ga", "refs": ["Est 3:15", "1 Kon 21:7", "Amos 6:4-6", "Openb 11:10"]}, {"kopje": "Dit voorstel", "refs": ["2 Sam 16:21-23", "2 Sam 17:1-4", "Mark 14:10", "Mark 14:11", "Hand 23:14", "Hand 23:15", "Rom 1:32"]}, {"kopje": "hij liet", "refs": ["Est 7:10", "Ps 7:14-17", "Ps 9:16", "Ps 37:14", "Ps 37:32", "Spr 1:18", "Spr 4:16", "Rom 3:15"]}]}, "onderwerpen": {"9": [{"onderwerp": "Geluk van de goddelozen, het", "sub": "Haman", "totaal": 3, "positie": 1, "vorige": null, "volgende": "Est 5:10", "alle": ["Est 5:10", "Est 5:11"], "meer": 0}], "10": [{"onderwerp": "Geluk van de goddelozen, het", "sub": "Haman", "totaal": 3, "positie": 2, "vorige": "Est 5:9", "volgende": "Est 5:11", "alle": ["Est 5:9", "Est 5:11"], "meer": 0}, {"onderwerp": "Zeres", "sub": "Vrouw van Haman.", "totaal": 6, "positie": 1, "vorige": null, "volgende": "Est 5:11", "alle": ["Est 5:11", "Est 5:12", "Est 5:13", "Est 5:14", "Est 6:13"], "meer": 0}], "11": [{"onderwerp": "Geluk van de goddelozen, het", "sub": "Haman", "totaal": 3, "positie": 3, "vorige": "Est 5:10", "volgende": null, "alle": ["Est 5:9", "Est 5:10"], "meer": 0}, {"onderwerp": "Rijkdom", "sub": "Haman", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Zeres", "sub": "Vrouw van Haman.", "totaal": 6, "positie": 2, "vorige": "Est 5:10", "volgende": "Est 5:12", "alle": ["Est 5:10", "Est 5:12", "Est 5:13", "Est 5:14", "Est 6:13"], "meer": 0}], "2": [{"onderwerp": "Medisch-Perzische koninkrijk", "sub": "Hield een gouden scepter in de hand", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Scepter", "sub": "Een staf gebruikt door koningen om gunst of ongunst te tonen aan hen die gehoor begeerden", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Est 8:4", "alle": ["Est 8:4"], "meer": 0}], "1": [{"onderwerp": "Tijd", "sub": "Deel van een tijdvak, doorgaans als het geheel geteld", "totaal": 3, "positie": 3, "vorige": "Est 4:16", "volgende": null, "alle": ["1 Sam 13:1", "Est 4:16"], "meer": 0}], "6": [{"onderwerp": "Wijn", "sub": "Bij alle feesten en gastmalen", "totaal": 8, "positie": 2, "vorige": "Est 1:7", "volgende": "Jes 5:12", "alle": ["Est 1:7", "Jes 5:12", "Dan 5:1", "Dan 5:2", "Dan 5:3", "Dan 5:4", "Joh 2:3"], "meer": 0}, {"onderwerp": "Wijn", "sub": "Maaltijden van", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "14": [{"onderwerp": "Vrouwen", "sub": "Zeres", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Zeres", "sub": "Vrouw van Haman.", "totaal": 6, "positie": 5, "vorige": "Est 5:13", "volgende": "Est 6:13", "alle": ["Est 5:10", "Est 5:11", "Est 5:12", "Est 5:13", "Est 6:13"], "meer": 0}], "12": [{"onderwerp": "Zeres", "sub": "Vrouw van Haman.", "totaal": 6, "positie": 3, "vorige": "Est 5:11", "volgende": "Est 5:13", "alle": ["Est 5:10", "Est 5:11", "Est 5:13", "Est 5:14", "Est 6:13"], "meer": 0}], "13": [{"onderwerp": "Zeres", "sub": "Vrouw van Haman.", "totaal": 6, "positie": 4, "vorige": "Est 5:12", "volgende": "Est 5:14", "alle": ["Est 5:10", "Est 5:11", "Est 5:12", "Est 5:14", "Est 6:13"], "meer": 0}]}, "extern": {"Matt 10:16": "Zie, Ik zend u als schapen te midden van de wolven; wees dan voorzichtig zoals de slangen, en oprecht zoals de duiven.", "Luk 21:35": "Want als een strik zal hij komen over allen die op de hele aardbodem gezeten zijn.", "Matt 2:16": "Toen Herodes zag dat hij door de wijzen bedrogen was, werd hij zeer toornig, en na enigen uitgezonden te hebben, bracht hij al de kinderen om die binnen Bethlehem en in heel dat gebied waren, van twee jaar oud en daaronder, overeenkomstig de tijd die hij van de wijzen nauwkeurig had nagevraagd.", "Dan 5:1": "De koning Belsazar maakte een grote maaltijd voor zijn duizend leiders, en hij dronk wijn ten overstaan van die duizend.", "Spr 21:1": "Het hart van de koning is in de hand van de HEERE als waterbeken. Hij neigt het tot alles wat Hij wil.", "Amos 6:12": "Zullen paarden ook rennen op een steenrots? Zal men daarop ook met runderen ploegen? Want u hebt het recht in gal veranderd, en de vrucht van de gerechtigheid in alsem.", "Matt 10:28": "En weest niet bang voor hen die het lichaam doden, en de ziel niet kunnen doden; maar vreest veel meer Hem, Die zowel ziel als lichaam kan verderven in de hel.", "Matt 11:8": "Maar wat bent u uitgegaan te zien? Een mens, met zachte klederen bekleed? Zie, wie zachte klederen dragen, zijn in de huizen van koningen.", "Spr 4:16": "Want zij slapen niet, als zij geen kwaad gedaan hebben; en hun slaap wordt weggenomen, als zij niemand hebben doen struikelen.", "Dan 5:2": "Toen Belsazar de wijn geproefd had, zei hij dat men de gouden en zilveren vaten voor moest brengen, die zijn vader Nebukadnezar uit de tempel die te Jeruzalem geweest was, weggevoerd had; opdat de koning en zijn leiders, zijn vrouwen en zijn bijvrouwen daaruit zouden drinken.", "2 Sam 13:23": "En het gebeurde, na twee volle jaren, dat Absalom schaapscheerders had bij Baäl-Hazor, dat bij Efraïm ligt; en Absalom nodigde alle zonen van de koning uit.", "2 Kron 22:4": "En hij deed wat kwaad was in de ogen van de HEERE, net als het huis van Achab; want zij waren zijn raadgevers, na de dood van zijn vader, tot zijn verderf.", "Est 8:4": "De koning nu reikte de gouden scepter naar Esther uit. Toen stond Esther op, en zij bleef staan voor de koning.", "1 Kon 21:25": "Doch er was niemand geweest zoals Achab, die zichzelf verkocht had om te doen wat kwaad is in de ogen van de HEERE, omdat Izebel, zijn vrouw, hem ophitste.", "Est 3:1": "Na deze gebeurtenissen maakte de koning Ahasveros Haman groot, de zoon van Hammedatha, de Agagiet, en hij verhoogde hem, en hij zette zijn stoel boven alle vorsten die bij hem waren.", "Luk 22:30": "opdat u eet en drinkt aan Mijn tafel in Mijn Koninkrijk, en zit op tronen, en de twaalf stammen van Israël oordeelt.", "1 Kon 21:4": "Toen kwam Achab in zijn huis, knorrig en toornig over het woord dat Naboth, de Jizreëliet, tot hem gesproken had, want hij had gezegd: Ik zal de erfenis van mijn vaderen niet geven. En hij legde zich neer op zijn bed, keerde zijn gezicht om, en at geen brood.", "Joh 16:20": "Voorwaar, voorwaar, Ik zeg u: u zult huilen en klagen, maar de wereld zal zich verblijden; en u zult bedroefd zijn, maar uw droefheid zal tot blijdschap worden.", "Spr 16:9": "Het hart van de mens overdenkt zijn weg; maar de HEERE bestuurt zijn gang.", "Jer 9:23": "Zo zegt de HEERE: Een wijze beroemt zich niet op zijn wijsheid, en de sterke beroemt zich niet op zijn sterkte; een rijke beroemt zich niet op zijn rijkdom;", "Job 8:13": "Zo zijn de wegen van allen die God vergeten; en de verwachting van de huichelaar zal vergaan.", "Matt 27:64": "Beveel dan dat het graf beveiligd wordt tot de derde dag toe, opdat Zijn discipelen niet 's nachts komen en Hem stelen, en tegen het volk zeggen: Hij is opgestaan uit de doden; want dan zal de laatste dwaling erger zijn dan de eerste.", "1 Tess 5:3": "Want wanneer zij zullen zeggen: Het is vrede en veilig; dan zal een plotseling verderf hun overkomen, zoals de barensweeën een zwangere vrouw overkomen; en zij zullen het geenszins ontvluchten;", "Ps 37:32": "Tsade. De goddeloze loert op de rechtvaardige, en zoekt hem te doden.", "Job 27:14": "Indien zijn kinderen zich vermenigvuldigen, het is voor het zwaard; en zijn spruiten zullen van brood niet verzadigd worden.", "Gen 43:31": "Daarna waste hij zijn gezicht en kwam naar buiten; en hij bedwong zichzelf, en zei: Zet brood op tafel.", "Spr 1:18": "En deze loeren op hun eigen bloed, en verstoppen zich tegen hun eigen leven.", "Mark 14:11": "En zij, die dit hoorden, waren verblijd, en beloofden hem geld te geven; en hij zocht hoe hij Hem op een geschikt moment kon overleveren.", "Hand 7:10": "en verloste hem uit al zijn verdrukkingen, en gaf hem genade en wijsheid voor Farao, de koning van Egypteland; en hij stelde hem aan als leider over Egypte en zijn hele huis.", "Hand 7:54": "Toen zij dit hoorden, brak dit hun harten, en zij knersten met de tanden tegen hem.", "Hand 10:4": "En hij hield de ogen op hem gericht, en werd zeer bevreesd, en zei: Wat is er, Heere? En Hij zei tegen hem: Uw gebeden en uw aalmoezen zijn als gedachtenis opgekomen voor God.", "Est 6:13": "En Haman vertelde aan zijn vrouw Zeres en al zijn vrienden alles wat hem overkomen was. Toen zeiden zijn wijzen, en Zeres, zijn vrouw, tegen hem: Als Mordechai, voor wie u begonnen bent te vallen, uit het nageslacht van de Joden is, zult u tegen hem niets kunnen uitrichten; maar u zult zeker voor zijn aangezicht vallen.", "Est 7:2": "Zei de koning tegen Esther, ook op de tweede dag, op het maaltijd van de wijn: Wat is uw bede, koningin Esther? En zij zal u gegeven worden; en wat is uw verzoek? Het zal gebeuren, ook tot de helft van het koninkrijk.", "Ps 9:16": "De heidenen zijn gezonken in de groeve, die zij gemaakt hadden; hun voet is gevangen in het net, dat zij verborgen hadden.", "Gen 32:20": "En u zult ook zeggen: Zie, uw knecht Jakob is achter ons! Want hij zei: Ik zal hem verzoenen met dit geschenk, dat voor mij uit gaat, en daarna zal ik hem zien; misschien zal hij mij aannemen.", "1 Kon 2:20": "Toen zei zij: Ik vraag u één klein ding, wijs mijn aangezicht niet af. En de koning zei tegen haar: Vraag maar, mijn moeder, want ik zal uw aangezicht niet afwijzen.", "Dan 4:30": "Sprak de koning, en zei: Is dit niet het grote Babel, dat ik gebouwd heb tot een huis van het koninkrijk, door de sterkte van mijn macht, en tot eer van mijn heerlijkheid!", "Spr 7:22": "Hij ging haar meteen achterna, zoals een os naar de slachting gaat, en zoals een dwaas naar de bestraffing van de boeien.", "Est 4:16": "Ga, verzamel alle Joden die te Susan gevonden worden, en vast voor mij, en eet of drink niet, drie dagen lang, nacht noch dag; ik en mijn jonge dochters zullen ook zo vasten, en zo zal ik tot de koning ingaan, wat niet naar de wet is. Wanneer ik dan omkom, dan kom ik om.", "Est 7:9": "En Charbona, een van de kamerlingen, die voor het aanschijn van de koning stond, zei: Ook zie, de galg, die Haman gemaakt heeft voor Mordechai, die goed voor de koning gesproken heeft, staat bij Hamans huis, vijftig el hoog. Toen zei de koning: Hang hem daaraan.", "1 Kon 3:5": "Te Gibeon verscheen de HEERE aan Salomo in een droom 's nachts, en God zei: Vraag wat Ik u geven zal.", "Ps 27:3": "Ofschoon een leger mij belegerde, mijn hart zou niet vrezen; ofschoon een oorlog tegen mij opstond, toch vertrouw ik hierop.", "Hos 9:14": "Geef hun, Heere! Wat zult U geven? Geef hun een baarmoeder die een miskraam krijgt, en uitdrogende borsten.", "Pred 7:9": "Wees niet haastig in uw geest om te toornen; want de toorn rust in de boezem van de dwazen.", "Ps 15:4": "In wiens ogen de verworpene veracht is, maar hij eert hen die de HEERE vrezen; heeft hij gezworen tot zijn eigen schade, toch verandert hij niet;", "Est 4:11": "Alle knechten van de koning en het volk van de landschappen van de koning weten wel dat ieder die tot de koning ingaat in het binnenste voorhof, zonder geroepen te zijn, of het nu een man of een vrouw is, één vonnis geldt: dat men hem doodt, tenzij de koning hem de gouden scepter toereikt, zodat hij levend blijft; ik nu ben deze dertig dagen niet geroepen om bij de koning te komen.", "Est 8:15": "En Mordechai ging weg van voor de koning in een hemelsblauw en wit koninklijk kleed, en met een grote gouden kroon, en met een overkleed van fijn linnen en purper; en de stad Susan juichte en was vrolijk.", "Est 9:12": "En de koning zei tegen koningin Esther: In Susan, op de burcht, hebben de Joden vijfhonderd mannen en de tien zonen van Haman gedood en omgebracht; wat hebben ze dan in de rest van de landschappen van de koning gedaan? Wat is nu uw verzoek? Het zal u gegeven worden; of wat is verder uw wens? Het zal gebeuren.", "2 Sam 13:22": "Doch Absalom sprak niet met Amnon, noch kwaad noch goed; maar Absalom haatte Amnon, vanwege het feit dat hij zijn zuster Thamar verkracht had.", "Amos 6:13": "U, die blij bent over een nietig ding; u, die zegt: Hebben wij niet door onze eigen kracht hoorns voor onszelf verkregen?", "Rom 3:15": "hun voeten zijn snel om bloed te vergieten;", "Joh 2:3": "En toen de wijn ontbrak, zei de moeder van Jezus tegen Hem: Zij hebben geen wijn.", "Est 3:2": "En alle knechten van de koning die in de poort van de koning waren, knielden en bogen zich neer voor Haman; want de koning had zo over hem bevolen; maar Mordechai knielde niet, en boog zich niet neer.", "1 Kor 14:20": "Broeders, word geen kinderen in het verstand, maar wees kinderen in de boosheid, en word in het verstand volwassen.", "Jer 9:24": "Maar wie zich beroemt, beroemt zich hierin, dat hij begrijpt, en Mij kent, dat Ik de HEERE ben, Die weldadigheid, recht en gerechtigheid doe op de aarde, want in die dingen heb Ik behagen, spreekt de HEERE.", "Neh 1:11": "Och, Heere, laat toch Uw oor opmerkzaam zijn op het gebed van Uw dienaar, en op het gebed van Uw dienaren, die ernaar verlangen Uw Naam te vrezen; en laat het Uw dienaar vandaag toch goed lukken, en geef hem barmhartigheid voor het aangezicht van deze man. Ik was namelijk de schenker van de koning.", "Job 18:4": "O u, die uw ziel verscheurt door uw toorn! Zal om uwentwil de aarde verlaten worden, en zal een rots weggenomen worden uit haar plaats?", "Mark 14:10": "En Judas Iskariot, een van de twaalf, ging naar de overpriesters, om Hem aan hen over te leveren.", "Gen 32:28": "Toen zei Hij: Uw naam zal voortaan niet meer Jakob heten, maar Israël; want u hebt zich als een vorst gedragen tegenover God en tegenover de mensen, en hebt de overhand gekregen.", "Ps 49:17": "Vrees niet wanneer een man rijk wordt, wanneer de eer van zijn huis groot wordt;", "Est 3:5": "Toen Haman zag dat Mordechai niet knielde, en zich niet voor hem neerboog, werd Haman vervuld met woede.", "Job 8:12": "Als het nog in zijn groenheid is, hoewel het niet afgesneden wordt, verdort het toch eerder dan al het andere gras.", "Ps 37:14": "Cheth. De goddelozen hebben het zwaard getrokken, en hun boog gespannen, om de ellendige en de arme neer te vellen, om te slachten wie oprecht van weg zijn.", "Gen 27:25": "Toen zei hij: Zet het dichtbij mij, zodat ik van het wildbraad van mijn zoon kan eten, opdat mijn ziel u zegent. En hij zette het dichtbij hem, en hij at; hij bracht hem ook wijn, en hij dronk.", "Spr 29:11": "Een dwaas laat zijn hele geest de vrije loop, maar de wijze weerhoudt die en houdt hem in.", "Job 15:20": "Al zijn dagen doet de goddeloze zichzelf weedom aan; en weinige jaren in getal zijn voor de tiran weggelegd.", "Ps 37:36": "Maar hij ging voorbij, en zie, hij was er niet meer; en ik zocht hem, maar hij werd niet gevonden.", "Hand 23:15": "Laat u dan nu, samen met de raad, de aanvoerder weten dat hij hem morgen naar u toe brengt, alsof u nadere kennis van zijn zaak zou willen nemen; en wij zijn bereid om hem te doden voordat hij bij u komt.", "Mark 6:23": "En hij zwoer haar: Wat u mij ook zult vragen, ik zal het u geven, zelfs tot de helft van mijn koninkrijk!", "Luk 21:34": "En let op uzelf, dat uw harten niet op enig moment bezwaard worden met brasserij en dronkenschap, en zorgen van dit leven, en dat die dag u niet onvoorzien overkomt.", "Est 1:7": "En men gaf te drinken in gouden vaten, en het ene vat was anders dan het andere; en er was veel koninklijke wijn, naar het vermogen van de koning.", "Job 31:25": "Als ik blijde ben geweest, omdat mijn vermogen groot was, en omdat mijn hand geweldig veel verkregen had;", "Est 9:13": "Toen zei Esther: Als het de koning goeddunkt, laat men ook morgen aan de Joden die in Susan zijn, toestaan te doen naar het gebod van vandaag; en laat men de tien zonen van Haman aan de galg hangen.", "Rom 1:32": "die, hoewel zij het recht van God kennen, namelijk dat zij die zulke dingen doen de dood waard zijn, deze dingen niet alleen doen, maar ook nog instemming betonen aan hen die ze doen.", "2 Kron 22:3": "Hij wandelde ook in de wegen van het huis van Achab; want zijn moeder was zijn raadgeefster, om goddeloos te handelen.", "Ps 49:18": "want hij zal bij zijn sterven niets meenemen, zijn eer zal hem niet achterna dalen.", "Est 1:11": "dat zij Vasthi, de koningin, voor het aangezicht van de koning zouden brengen, met de koninklijke kroon, om aan de volken en de vorsten haar schoonheid te tonen; want zij was mooi om te zien.", "Luk 6:25": "Wee u, die verzadigd bent, want u zult honger hebben. Wee u, die nu lacht, want u zult treuren en wenen.", "Gen 43:30": "En Jozef haastte zich; want zijn hart werd bewogen om zijn broer, en hij zocht een plek om te wenen; en hij ging een kamer in, en weende daar.", "Luk 12:19": "en ik zal tegen mijn ziel zeggen: Ziel, je hebt veel goederen liggen, voor vele jaren; neem rust, eet, drink, wees vrolijk.", "Openb 3:21": "Wie overwint, hem zal Ik geven met Mij te zitten op Mijn troon, zoals Ik ook overwonnen heb, en Mij gezet heb met Mijn Vader op Zijn troon.", "Ps 37:35": "Resch. Ik heb een geweldenaar gezien, een goddeloze, die zich uitbreidde als een groene inlandse boom.", "Spr 27:1": "Beroem u niet over de dag van morgen; want u weet niet, wat de dag zal baren.", "Luk 18:41": "Wat wilt u dat Ik voor u doe? En hij zei: Heere, dat ik weer kan zien.", "Est 6:14": "Terwijl zij nog met hem spraken, kwamen de kamerlingen van de koning eraan, en zij haastten zich om Haman naar de maaltijd te brengen die Esther had klaargemaakt.", "Job 31:24": "Als ik het goud tot mijn hoop gezet heb, of tot het fijn goud gezegd heb: U bent mijn vertrouwen;", "Job 20:5": "Dat het gejuich van de goddelozen van dichtbij geweest is², en de vreugde van de huichelaar maar voor een ogenblik?", "Pred 1:2": "Vluchtigheid der vluchtigheden, zegt de prediker; vluchtigheid der vluchtigheden, het is al vluchtig.", "1 Tim 6:17": "Beveel de rijken in deze tegenwoordige wereld dat zij niet hoogmoedig zijn, en ook niet hun hoop stellen op de onzekerheid van de rijkdom, maar op de levende God, Die ons alle dingen rijkelijk verleent om ervan te genieten;", "Gen 45:1": "Toen kon Jozef zich niet bedwingen voor allen die bij hem stonden, en hij riep: Laat iedereen bij mij weggaan! En er stond niemand bij hem, toen Jozef zich aan zijn broers bekend maakte.", "1 Sam 13:1": "Saul was een jaar koning geweest, en in het tweede jaar dat hij over Israël regeerde,", "Hos 9:13": "Efraïm is, zoals Ik Tyrus aanzag, geplant in een aangename woonplaats; maar Efraïm zal zijn kinderen moeten uitbrengen naar de moordenaar.", "Ps 112:5": "Teth. Goed gaat het die man, die zich ontfermt en uitleent; Jod. hij regelt zijn zaken met recht.", "Est 1:4": "Hij liet daarbij de rijkdom van de heerlijkheid van zijn koninkrijk zien, en de kostbaarheid van het sieraad van zijn grootheid, vele dagen lang: honderdtachtig dagen.", "Spr 7:23": "Totdat de pijl zijn lever doorsneed; zoals een vogel zich haast naar de strik, en niet weet dat die tegen zijn leven is.", "Job 31:31": "Als de lieden van mijn tent niet hebben gezegd: Och, hadden wij van zijn vlees maar, wij zouden niet verzadigd worden;", "Hand 23:14": "Zij gingen naar de overpriesters en de oudsten en zeiden: Wij hebben onszelf met een vervloeking vervloekt om niets te nuttigen totdat wij Paulus gedood zullen hebben.", "Jes 5:12": "En harp en luit, tamboerijn en fluit, en wijn zijn bij hun feesten; maar zij letten niet op het werk van de HEERE, en zij zien niet op het maaksel van Zijn handen.", "Fil 4:12": "En ik weet vernederd te worden, ik weet ook overvloed te hebben; in alle opzichten en in alles ben ik ingewijd, zowel verzadigd te zijn als honger te lijden, zowel overvloed te hebben als gebrek te lijden.", "Fil 4:11": "Niet dat ik dit zeg vanwege gebrek; want ik heb geleerd tevreden te zijn in de omstandigheden waarin ik ben.", "Job 27:15": "Zijn overgeblevenen zullen in de dood begraven worden, en zijn weduwen zullen niet wenen.", "1 Kon 21:7": "Toen zei Izebel, zijn vrouw, tegen hem: Regeert u nu het koninkrijk over Israël? Sta op, eet brood, en laat uw hart vrolijk zijn; ik zal u de wijngaard van Naboth, de Jizreëliet, geven.", "Jes 10:8": "Want hij zegt: Zijn niet mijn vorsten allemaal samen koningen?", "Est 7:10": "Zo hingen zij Haman aan de galg, die hij voor Mordechai had laten maken; en de grimmigheid van de koning werd gestild.", "Ps 49:7": "Aangaande hen die op hun bezit vertrouwen, en op de overvloed van hun rijkdom roemen;", "Ps 116:1": "Ik heb Hem lief, want de HEERE hoort mijn stem, mijn smekingen;", "Dan 5:3": "Toen bracht men de gouden vaten, die men uit de tempel van het huis van God, die te Jeruzalem geweest was, weggevoerd had; en de koning en zijn leiders, zijn vrouwen en zijn bijvrouwen dronken daaruit.", "Dan 5:4": "Zij dronken de wijn, en prezen de gouden, zilveren, koperen, ijzeren, houten en stenen goden.", "Jak 4:9": "Gedraag u als ellendigen, en treur en ween; laat uw lachen veranderen in treuren, en uw blijdschap in verdriet.", "Openb 11:10": "En zij die op de aarde wonen, die zullen zich verblijden over hen, en zullen vreugde bedrijven, en zullen elkaar geschenken zenden; omdat deze twee profeten hen die op de aarde wonen, gepijnigd hadden.", "Luk 12:20": "Maar God zei tegen hem: Jij dwaas! Nog deze nacht zal men uw ziel van u opeisen; en wat u hebt klaargemaakt, van wie zal het dan zijn?", "Pred 1:14": "Ik heb al de werken gezien die onder de zon gebeuren; en zie, het was allemaal vluchtig en kwelling van de geest.", "Mark 10:24": "En de discipelen waren verbaasd over deze woorden van Hem. Maar Jezus antwoordde weer en zei tegen hen: Kinderen, hoe moeilijk is het voor hen die op rijkdom vertrouwen, om het Koninkrijk van God binnen te gaan!", "Gen 31:1": "Toen hoorde hij de woorden van de zonen van Laban, die zeiden: Jakob heeft alles genomen wat van onze vader was, en van wat van onze vader was heeft hij al deze rijkdom gemaakt.", "Est 6:4": "Toen zei de koning: Wie is er in het voorhof? (Haman was namelijk gekomen in het buitenste voorhof van het huis van de koning, om tegen de koning te zeggen dat men Mordechai moest hangen aan de galg die hij voor hem had laten klaarmaken.)", "Est 3:15": "De lopers gingen uit, aangespoord door het woord van de koning, en de wet werd uitgegeven in de burcht Susan. En de koning en Haman gingen zitten om te drinken, doch de stad Susan was in verwarring.", "Dan 3:13": "Toen zei Nebukadnezar in toorn en woede, dat men Sadrach, Mesach en Abed-nego moest voorbrengen; toen werden die mannen voor de koning gebracht."}, "noten": {}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${md(D.vertalingen[vertaling][n] || '—')}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+function paneelInhoud(n, tab) {
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : 'vertalingen');
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  const tekst = popupTekst(ref);
+  if (!tekst) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${md(tekst)}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>

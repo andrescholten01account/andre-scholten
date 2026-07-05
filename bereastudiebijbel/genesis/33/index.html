@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Genesis 33 — BereaStudieBijbel · De Volle Pinksterzegen</title>
+<style>
+  :root { --accent: #8a6d3b; --accent-donker: #6b5429; --bg: #fdfcf9; --bg-soft: #f7f3ea; --border: #e3ddd0; --tekst: #2b2b2b; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  header.site { text-align: center; padding: 1.2rem 0 .4rem; }
+  header.site h1 { font-size: 2rem; margin: 0; color: var(--accent-donker); letter-spacing: .01em; }
+  header.site .motto { font-style: italic; color: #8b7355; margin: .2rem 0 1rem; }
+  nav.hoofd { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: .55rem 0; font-family: sans-serif; font-size: .8rem; letter-spacing: .25em; text-transform: uppercase; text-align:center; }
+  nav.hoofd a { color: var(--accent); text-decoration: none; margin: 0 .8rem; }
+  nav.hoofd a.actief { color: var(--accent-donker); font-weight: 700; }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<header class="site">
+  <h1>De Volle Pinksterzegen</h1>
+  <div class="motto">Jezus volgen in de kracht van de Geest</div>
+</header>
+<nav class="hoofd">
+  <a>Blog</a> | <a>Boek</a> | <a class="actief">Bijbel</a>
+</nav>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">Genesis</a> › hoofdstuk 33</div>
+<h2 class="hfd">Genesis 33</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "Genesis 33", "boek_naam": "Genesis", "hfd_nr": "33", "zelf_abbr": "Gen 33", "totaal": 50, "basis_url": "https://pinksterzegen.nl/bereastudiebijbel/genesis/33", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../32/", "label": "‹ Genesis 32"}, "volgende": {"href": "../34/", "label": "Genesis 34 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}, {"n": "11", "href": "../11/"}, {"n": "12", "href": "../12/"}, {"n": "13", "href": "../13/"}, {"n": "14", "href": "../14/"}, {"n": "15", "href": "../15/"}, {"n": "16", "href": "../16/"}, {"n": "17", "href": "../17/"}, {"n": "18", "href": "../18/"}, {"n": "19", "href": "../19/"}, {"n": "20", "href": "../20/"}, {"n": "21", "href": "../21/"}, {"n": "22", "href": "../22/"}, {"n": "23", "href": "../23/"}, {"n": "24", "href": "../24/"}, {"n": "25", "href": "../25/"}, {"n": "26", "href": "../26/"}, {"n": "27", "href": "../27/"}, {"n": "28", "href": "../28/"}, {"n": "29", "href": "../29/"}, {"n": "30", "href": "../30/"}, {"n": "31", "href": "../31/"}, {"n": "32", "href": "../32/"}, {"n": "33", "href": "../33/"}, {"n": "34", "href": "../34/"}, {"n": "35", "href": "../35/"}, {"n": "36", "href": "../36/"}, {"n": "37", "href": "../37/"}, {"n": "38", "href": "../38/"}, {"n": "39", "href": "../39/"}, {"n": "40", "href": "../40/"}, {"n": "41", "href": "../41/"}, {"n": "42", "href": "../42/"}, {"n": "43", "href": "../43/"}, {"n": "44", "href": "../44/"}, {"n": "45", "href": "../45/"}, {"n": "46", "href": "../46/"}, {"n": "47", "href": "../47/"}, {"n": "48", "href": "../48/"}, {"n": "49", "href": "../49/"}, {"n": "50", "href": "../50/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "Jakob sloeg zijn ogen op en keek, en zie, Ezau kwam eraan, en vierhonderd man met hem. Toen verdeelde hij de kinderen onder Lea, en onder Rachel, en onder de twee dienstmaagden.", "2": "En hij zette de dienstmaagden en hun kinderen vooraan; en Lea en haar kinderen daarachter; en Rachel en Jozef achteraan.", "3": "En hij ging voor hen uit heen, en boog zich zeven keer ter aarde, totdat hij bij zijn broer kwam.", "4": "Toen liep Ezau hem tegemoet, en nam hem in zijn armen, en viel hem om de hals, en kuste hem; en zij huilden.", "5": "Daarna sloeg hij zijn ogen op en zag die vrouwen en die kinderen, en zei: Wie zijn dit bij u? En hij zei: De kinderen die God aan uw knecht genadig gegeven heeft.", "6": "Toen kwamen de dienstmaagden naar voren, zij en hun kinderen, en zij bogen zich neer.", "7": "En Lea kwam ook naar voren, met haar kinderen, en zij bogen zich neer; en daarna kwamen Jozef en Rachel naar voren, en zij bogen zich neer.", "8": "En hij zei: Voor wie is heel dit leger dat ik ontmoet heb? En hij zei: Om genade te vinden in de ogen van mijn heer!", "9": "Maar Ezau zei: Ik heb genoeg, mijn broer! Houd zelf wat u hebt!", "10": "Toen zei Jakob: Nee toch! Als ik nu genade in uw ogen gevonden heb, neem dan mijn geschenk uit mijn hand aan; want ik heb daarom uw gezicht gezien alsof ik Gods gezicht gezien had, en u hebt mij welwillend ontvangen.", "11": "Neem toch mijn zegen aan, die u gebracht is, omdat God mij genadig behandeld heeft, en omdat ik alles heb wat ik nodig heb; en hij hield bij hem aan, zodat hij het aannam.", "12": "En hij zei: Laten we op reis gaan en verder trekken; en ik zal voor u uit trekken.", "13": "Maar hij zei tegen hem: Mijn heer weet dat deze kinderen teer zijn, en dat ik zogende schapen en koeien bij mij heb; als men ze maar één dag te hard laat lopen, zal de hele kudde sterven.", "14": "Laat mijn heer toch voor zijn knecht uit trekken; en ik zal rustig aan verder trekken, op het tempo van het vee dat voor mij uit gaat, en op het tempo van deze kinderen, totdat ik bij mijn heer in Seïr kom.", "15": "En Ezau zei: Laat mij toch een deel van dit volk dat bij mij is, bij u achterlaten. En hij zei: Waarom zou dat nodig zijn? Laat mij genade vinden in de ogen van mijn heer!", "16": "Zo keerde Ezau die dag terug, zijn weg naar Seïr op.", "17": "Maar Jakob reisde naar Sukkoth, en bouwde daar een huis voor zichzelf, en maakte hutten voor zijn vee; daarom noemde hij die plaats Sukkoth.", "18": "En Jakob kwam veilig aan bij de stad Sichem, die in het land Kanaän ligt, toen hij vanuit Paddan-Aram kwam; en hij sloeg zijn tenten op tegenover de stad.", "19": "En hij kocht een stuk van het veld, waar hij zijn tent had opgezet, van de zonen van Hemor, de vader van Sichem, voor honderd stukken van het geld.", "20": "En hij richtte daar een altaar op, en noemde het: De God van Israël is God!"}, "SV": {"1": "En Jakob hief zijn ogen op en zag; en ziet, Ezau kwam, en vierhonderd mannen met hem. Toen verdeelde hij de kinderen onder Lea, en onder Rachel, en onder de twee dienstmaagden.", "2": "En hij stelde de dienstmaagden en haar kinderen vooraan; en Lea en haar kinderen meer achterwaarts; maar Rachel en Jozef de achterste.", "3": "En hij ging voorbij hun aangezicht heen, en hij boog zich zeven malen ter aarde, totdat hij bij zijn broeder kwam.", "4": "Toen liep Ezau hem tegemoet, en nam hem in den arm, en viel hem aan den hals, en kuste hem; en zij weenden.", "5": "Daarna hief hij zijn ogen op, en zag die vrouwen en die kinderen, en zeide: Wie zijn deze bij u? En hij zeide: De kinderen, die God aan uw knecht genadiglijk verleend heeft.", "6": "Toen traden de dienstmaagden toe, zij en haar kinderen, en zij bogen zich neder.", "7": "En Lea trad ook toe, met haar kinderen, en zij bogen zich neder; en daarna trad Jozef toe en Rachel, en zij bogen zich neder.", "8": "En hij zeide: *Voor* wien is u al dit heir, dat ik ontmoet heb? En hij zeide: Om genade te vinden in de ogen mijns heren!", "9": "Maar Ezau zeide: Ik heb veel, mijn broeder! het zij het uwe, wat gij hebt!", "10": "Toen zeide Jakob: Och neen! indien ik nu genade in uw ogen gevonden heb, zo neem mijn geschenk van mijn hand; daarom, omdat ik uw aangezicht gezien heb, als had ik Gods aangezicht gezien, en gij welgevallen aan mij genomen hebt.", "11": "Neem toch mijn zegen, die u toegebracht is, dewijl het God mij genadiglijk verleend heeft, en dewijl ik alles heb; en hij hield bij hem aan, zodat hij het nam.", "12": "En hij zeide: Laat ons reizen en voorttrekken; en ik zal voor u trekken.", "13": "Maar hij zeide tot hem: Mijn heer weet, dat deze kinderen teder zijn, en dat ik zogende schapen en koeien bij mij heb; indien men dezelve maar een dag afdrijft, zo zal de gehele kudde sterven.", "14": "Mijn heer trekke toch voorbij, voor het aangezicht van zijn knecht; en ik zal mij op mijn gemak als leidsman voegen, naar den gang van het werk, hetwelk voor mijn aangezicht is, en naar den gang dezer kinderen, totdat ik bij mijn heer te Seir kome.", "15": "En Ezau zeide: Laat mij toch van dit volk, dat met mij is, u bijstellen. En hij zeide: Waartoe dat? laat mij genade vinden in mijns heren ogen!", "16": "Alzo keerde Ezau dien dag wederom zijns weegs naar Seir toe.", "17": "Maar Jakob reisde naar Sukkoth, en bouwde een huis voor zich, en maakte hutten voor zijn vee; daarom noemde hij den naam dier plaats Sukkoth.", "18": "En Jakob kwam behouden *tot* de stad Sichem, welke is in het land Kanaän, als hij kwam van Paddan-aram; en hij legerde zich in het gezicht der stad.", "19": "En hij kocht een deel des velds, waarop hij zijn tent gespannen had, van de hand der zonen van Hemor, den vader van Sichem, voor honderd stukken gelds.", "20": "En hij richtte aldaar een altaar op, en noemde het: De God Israëls *is* God!"}, "KJV": {"1": "And Jacob lifted up his eyes, and looked, and, behold, Esau came, and with him four hundred men. And he divided the children unto Leah, and unto Rachel, and unto the two handmaids.", "2": "And he put the handmaids and their children foremost, and Leah and her children after, and Rachel and Joseph hindermost.", "3": "And he passed over before them, and bowed himself to the ground seven times, until he came near to his brother.", "4": "And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept.", "5": "And he lifted up his eyes, and saw the women and the children; and said, Who *are* those with thee? And he said, The children which God hath graciously given thy servant.", "6": "Then the handmaidens came near, they and their children, and they bowed themselves.", "7": "And Leah also with her children came near, and bowed themselves: and after came Joseph near and Rachel, and they bowed", "8": "And he said, What *meanest* thou by all this drove which I met? And he said, *These are* to find grace in the sight of my lord.", "9": "And Esau said, I have enough, my brother;", "10": "And Jacob said, Nay, I pray thee, if now I have found grace in thy sight, then receive my present at my hand: for therefore I have seen thy face, as though I had seen the face of God, and thou wast pleased with me.", "11": "Take, I pray thee, my blessing that is brought to thee; because God hath dealt graciously with me, and because I have enough. And he urged him, and he took", "12": "And he said, Let us take our journey, and let us go, and I will go", "13": "And he said unto him, My lord knoweth that the children *are* tender, and the flocks and herds with young *are* with me: and if men should overdrive them one day, all the flock will die.", "14": "Let my lord, I pray thee, pass over before his servant: and I will lead on softly, according as the cattle that goeth before me and the children be able to endure, until I come unto my lord unto Seir.", "15": "And Esau said, Let me now leave with thee *some* of the folk that *are* with me. And he said, What needeth it? let me find grace in the sight of my lord.", "16": "So Esau returned that day on his way unto Seir.", "17": "And Jacob journeyed to Succoth, and built him an house, and made booths for his cattle: therefore the name of the place is called Succoth.", "18": "And Jacob came to Shalem, a city of Shechem, which *is* in the land of Canaan, when he came from Padanaram; and pitched his tent before the city.", "19": "And he bought a parcel of a field, where he had spread his tent, at the hand of the children of Hamor, Shechem's father, for an hundred pieces of money.", "20": "And he erected there an altar, and called it Elelohe-Israel."}}, "tsk": {"1": [{"kopje": "Ezau kwam eraan", "refs": ["Gen 27:41", "Gen 27:42", "Gen 32:6"]}, {"kopje": "Toen verdeelde hij", "refs": ["Gen 32:7", "Gen 32:16"]}], "2": [{"kopje": "Rachel", "refs": ["Gen 29:30", "Gen 30:22-24", "Gen 37:3", "Mal 3:17"]}], "3": [{"kopje": "ging voor hen uit heen", "refs": ["Joh 10:4", "Joh 10:11", "Joh 10:12", "Joh 10:15"]}, {"kopje": "boog zich", "refs": ["Gen 18:2", "Gen 42:6", "Gen 43:26", "Spr 6:3", "Pred 10:4", "Luk 14:11"]}, {"kopje": "zeven keer", "refs": ["1 Sam 2:5"]}], "4": [{"kopje": "nam hem in zijn armen", "refs": ["Gen 32:28", "Gen 43:30", "Gen 43:34", "Gen 45:2", "Gen 45:15", "Job 2:12", "Neh 1:11", "Ps 34:5", "Spr 16:7", "Spr 21:1"]}, {"kopje": "viel hem om", "refs": ["Gen 45:14", "Gen 45:15", "Gen 46:29", "Luk 15:20", "Hand 20:37"]}], "5": [{"kopje": "kinderen", "refs": ["Gen 30:2", "Gen 48:9", "Ruth 4:13", "1 Sam 1:27", "1 Kron 28:5", "Ps 127:3", "Jes 8:18", "Hebr 2:13"]}], "8": [{"kopje": "heel dit leger", "refs": ["Gen 32:13-20"]}, {"kopje": "te vinden", "refs": ["Gen 32:5", "Gen 39:5", "Est 2:17"]}], "9": [{"kopje": "genoeg", "refs": ["Gen 27:39", "Spr 30:15", "Pred 4:8"]}, {"kopje": "mijn broer", "refs": ["Gen 4:9", "Gen 27:41", "Richt 20:23", "Spr 16:7", "Hand 9:17", "Hand 21:20", "Filem 1:7", "Filem 1:16"]}], "10": [{"kopje": "Als ik nu", "refs": ["Gen 19:19", "Gen 47:29", "Gen 50:4", "Ex 33:12", "Ex 33:13", "Ruth 2:10", "1 Sam 20:3", "Jer 31:2"]}, {"kopje": "gezien", "refs": ["Gen 32:30", "Gen 43:3", "2 Sam 3:13", "2 Sam 14:24", "2 Sam 14:28", "2 Sam 14:32", "Job 33:26", "Ps 41:12", "Matt 18:10", "Openb 22:4"]}], "11": [{"kopje": "mijn zegen", "refs": ["Gen 32:13-20", "Joz 15:19", "Richt 1:15", "1 Sam 25:27", "1 Sam 30:26", "2 Kon 5:15", "2 Kor 9:5", "2 Kor 9:6"]}, {"kopje": "en omdat", "refs": ["Gen 33:9", "Fil 4:11", "Fil 4:12", "Fil 4:18"]}, {"kopje": "genoeg", "refs": ["Rom 8:31", "Rom 8:32", "1 Kor 3:21", "2 Kor 6:10", "Fil 4:12", "Fil 4:18", "1 Tim 4:8"]}, {"kopje": "hield bij hem aan", "refs": ["2 Kon 2:17", "2 Kon 5:16", "2 Kon 5:23", "Luk 14:23"]}], "13": [{"kopje": "kinderen", "refs": ["1 Kron 22:5", "Spr 12:10", "Jes 40:11", "Ezech 34:15", "Ezech 34:16", "Ezech 34:23-25", "Joh 21:15-17"]}], "14": [{"kopje": "rustig aan verder trekken", "refs": ["Jes 40:11", "Mark 4:33", "Rom 15:1", "1 Kor 3:2", "1 Kor 9:19-22"]}, {"kopje": "in Seïr", "refs": ["Gen 32:3", "Deut 2:1", "Richt 5:4", "2 Kron 20:10", "Ezech 25:8", "Ezech 35:2", "Ezech 35:3"]}], "15": [{"kopje": "genade vinden", "refs": ["Gen 34:11", "Gen 47:25", "Ruth 2:13", "1 Sam 25:8", "2 Sam 16:4"]}], "17": [{"kopje": "Sukkoth", "refs": ["Joz 13:27", "Richt 8:5", "Richt 8:8", "Richt 8:16", "1 Kon 7:46", "Ps 60:8", "Ex 12:37", "Ex 13:20"]}], "18": [{"kopje": "veilig", "refs": ["Joh 3:23", "Joh 4:5", "Hand 7:16"]}, {"kopje": "de stad Sichem", "refs": ["Joz 24:1", "Richt 9:1", "Joh 4:5", "Hand 7:16", "Gen 25:20", "Gen 28:6", "Gen 28:7", "Gen 35:9", "Gen 46:15"]}], "19": [{"kopje": "kocht", "refs": ["Gen 23:17-20", "Gen 49:30-32", "Joz 24:32", "Joh 4:5", "Hand 7:16"]}, {"kopje": "Hemor", "refs": ["Gen 34:2-31", "Hand 7:16"]}], "20": [{"kopje": "altaar", "refs": ["Gen 8:20", "Gen 12:7", "Gen 12:8", "Gen 13:18", "Gen 21:33"]}, {"kopje": "De God van Israël is God", "refs": ["Gen 32:28", "Gen 35:7"]}]}, "onderwerpen": {"20": [{"onderwerp": "Altaren", "sub": "Van Jakob", "totaal": 4, "positie": 1, "vorige": null, "volgende": "Gen 35:1", "alle": ["Gen 35:1", "Gen 35:3", "Gen 35:7"], "meer": 0}, {"onderwerp": "Jakob", "sub": "Reist naar Salem, waar hij een stuk land koopt van Hemor en een altaar opricht", "totaal": 3, "positie": 3, "vorige": "Gen 33:19", "volgende": null, "alle": ["Gen 33:18", "Gen 33:19"], "meer": 0}], "18": [{"onderwerp": "Jakob", "sub": "Reist naar Salem, waar hij een stuk land koopt van Hemor en een altaar opricht", "totaal": 3, "positie": 1, "vorige": null, "volgende": "Gen 33:19", "alle": ["Gen 33:19", "Gen 33:20"], "meer": 0}, {"onderwerp": "Salem", "sub": "Ook genaamd Sichem, een stad in Kanaän, soms vertaald »in vrede«", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "19": [{"onderwerp": "Jakob", "sub": "Reist naar Salem, waar hij een stuk land koopt van Hemor en een altaar opricht", "totaal": 3, "positie": 2, "vorige": "Gen 33:18", "volgende": "Gen 33:20", "alle": ["Gen 33:18", "Gen 33:20"], "meer": 0}, {"onderwerp": "Geld", "sub": "Oorspronkelijk gestempeld met de afbeelding van een lam", "totaal": 2, "positie": 2, "vorige": "Gen 23:15", "volgende": null, "alle": ["Gen 23:15"], "meer": 0}], "2": [{"onderwerp": "Lea", "sub": "Vlucht met Jakob", "totaal": 6, "positie": 1, "vorige": null, "volgende": "Gen 33:3", "alle": ["Gen 33:3", "Gen 33:4", "Gen 33:5", "Gen 33:6", "Gen 33:7"], "meer": 0}], "3": [{"onderwerp": "Lea", "sub": "Vlucht met Jakob", "totaal": 6, "positie": 2, "vorige": "Gen 33:2", "volgende": "Gen 33:4", "alle": ["Gen 33:2", "Gen 33:4", "Gen 33:5", "Gen 33:6", "Gen 33:7"], "meer": 0}, {"onderwerp": "Groeten", "sub": "Zich veelvuldig ter aarde buigen", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Groeten", "sub": "Door buigen", "totaal": 17, "positie": 6, "vorige": "Gen 27:29", "volgende": "Gen 37:10", "alle": ["Gen 18:2", "Gen 19:1", "Gen 19:2", "Gen 23:7", "Gen 27:29", "Gen 37:10", "Gen 41:43", "Gen 43:26", "Gen 43:28", "Gen 49:8", "1 Sam 25:23", "2 Sam 18:28", "1 Kon 1:16", "Est 8:3", "Matt 2:11", "Mark 5:22"], "meer": 0}], "4": [{"onderwerp": "Lea", "sub": "Vlucht met Jakob", "totaal": 6, "positie": 3, "vorige": "Gen 33:3", "volgende": "Gen 33:5", "alle": ["Gen 33:2", "Gen 33:3", "Gen 33:5", "Gen 33:6", "Gen 33:7"], "meer": 0}, {"onderwerp": "Verzoening", "sub": "Van Ezau en Jakob", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Gen 33:11", "alle": ["Gen 33:11"], "meer": 0}, {"onderwerp": "Groeten", "sub": "Vallen om de hals en kussen", "totaal": 4, "positie": 1, "vorige": null, "volgende": "Gen 45:14", "alle": ["Gen 45:14", "Gen 45:15", "Luk 15:20"], "meer": 0}], "5": [{"onderwerp": "Lea", "sub": "Vlucht met Jakob", "totaal": 6, "positie": 4, "vorige": "Gen 33:4", "volgende": "Gen 33:6", "alle": ["Gen 33:2", "Gen 33:3", "Gen 33:4", "Gen 33:6", "Gen 33:7"], "meer": 0}, {"onderwerp": "Ouders", "sub": "Hun kinderen van God ontvangen", "totaal": 3, "positie": 1, "vorige": null, "volgende": "1 Sam 1:27", "alle": ["1 Sam 1:27", "Ps 127:3"], "meer": 0}, {"onderwerp": "Dienstknechten", "sub": "De uitdrukking dikwijls gebruikt om ootmoed uit te drukken", "totaal": 4, "positie": 2, "vorige": "Gen 18:3", "volgende": "1 Sam 20:7", "alle": ["Gen 18:3", "1 Sam 20:7", "1 Kon 20:32"], "meer": 0}], "6": [{"onderwerp": "Lea", "sub": "Vlucht met Jakob", "totaal": 6, "positie": 5, "vorige": "Gen 33:5", "volgende": "Gen 33:7", "alle": ["Gen 33:2", "Gen 33:3", "Gen 33:4", "Gen 33:5", "Gen 33:7"], "meer": 0}], "7": [{"onderwerp": "Lea", "sub": "Vlucht met Jakob", "totaal": 6, "positie": 6, "vorige": "Gen 33:6", "volgende": null, "alle": ["Gen 33:2", "Gen 33:3", "Gen 33:4", "Gen 33:5", "Gen 33:6"], "meer": 0}], "10": [{"onderwerp": "Geschenken", "sub": "Ontvangen van, een teken van welgezindheid", "totaal": 2, "positie": 1, "vorige": null, "volgende": "Gen 33:11", "alle": ["Gen 33:11"], "meer": 0}], "11": [{"onderwerp": "Geschenken", "sub": "Ontvangen van, een teken van welgezindheid", "totaal": 2, "positie": 2, "vorige": "Gen 33:10", "volgende": null, "alle": ["Gen 33:10"], "meer": 0}, {"onderwerp": "Voorspoed", "sub": "Van God", "totaal": 7, "positie": 1, "vorige": null, "volgende": "Gen 49:24", "alle": ["Gen 49:24", "Gen 49:25", "Gen 49:26", "Ps 127:1", "Ps 128:1", "Ps 128:2"], "meer": 0}, {"onderwerp": "Verzoening", "sub": "Van Ezau en Jakob", "totaal": 2, "positie": 2, "vorige": "Gen 33:4", "volgende": null, "alle": ["Gen 33:4"], "meer": 0}], "13": [{"onderwerp": "Herders", "sub": "Tederheid jegens de dragende ooien en jegens de jongen", "totaal": 3, "positie": 1, "vorige": null, "volgende": "Gen 33:14", "alle": ["Gen 33:14", "Ps 78:71"], "meer": 0}], "14": [{"onderwerp": "Herders", "sub": "Tederheid jegens de dragende ooien en jegens de jongen", "totaal": 3, "positie": 2, "vorige": "Gen 33:13", "volgende": "Ps 78:71", "alle": ["Gen 33:13", "Ps 78:71"], "meer": 0}]}, "extern": {"Gen 12:7": "Toen verscheen de HEERE aan Abram, en zei: Aan uw nageslacht zal Ik dit land geven. Toen bouwde hij daar een altaar voor de HEERE, Die hem verschenen was.", "Mark 5:22": "En zie, er kwam een van de leiders van de synagoge, van wie de naam Jaïrus was; en toen hij Hem zag, viel hij aan Zijn voeten,", "Gen 35:7": "En hij bouwde daar een altaar, en noemde die plaats El-Bethel; want God was hem daar geopenbaard, toen hij voor het aangezicht van zijn broer vluchtte.", "Openb 22:4": "En zij zullen Zijn aangezicht zien, en Zijn Naam zal op hun voorhoofden zijn.", "Jes 8:18": "Zie, ik en de kinderen die de HEERE mij gegeven heeft, zijn tot tekenen en tot wonderen in Israël, van de HEERE van de heerscharen, Die op de berg Sion woont.", "Spr 21:1": "Het hart van de koning is in de hand van de HEERE als waterbeken. Hij neigt het tot alles wat Hij wil.", "Gen 27:29": "Volken zullen u dienen, en volken zullen zich voor u neerbuigen; wees heer over uw broers, en de zonen van uw moeder zullen zich voor u neerbuigen! Vervloekt moet hij zijn, wie u vervloekt; en wie u zegent, zij gezegend!", "Gen 46:15": "Dit zijn de zonen van Lea, die zij Jakob gebaard heeft in Paddan-Aram, samen met Dina, zijn dochter; al de zielen van zijn zonen en zijn dochters waren drieëndertig.", "Gen 41:43": "En hij liet hem rijden op de tweede wagen die hij had; en zij riepen voor hem uit: Kniel! Zo stelde hij hem over heel Egypteland.", "Richt 8:8": "En hij trok vandaar op naar Pnuël, en sprak hen op dezelfde manier toe. En de mannen van Pnuël antwoordden hem, zoals de mannen van Sukkoth geantwoord hadden.", "Gen 49:26": "De zegeningen van uw vader gaan de zegeningen van mijn voorvaderen te boven, tot aan het einde van de eeuwige heuvels; die zullen zijn op het hoofd van Jozef, en op de hoofdschedel van hem die afgezonderd is van zijn broers!", "Gen 19:2": "En hij zei: Zie toch, mijn heren! Keert u toch af naar het huis van uw knecht, en overnacht daar, en wast uw voeten; dan kunt u vroeg opstaan en verder gaan op uw weg. En zij zeiden: Nee, maar wij zullen op straat overnachten.", "Joz 24:32": "Zij begroeven ook de beenderen van Jozef, die de kinderen van Israël uit Egypte hadden meegebracht, te Sichem, in dat stuk veld dat Jakob gekocht had van de kinderen van Hemor, de vader van Sichem, voor honderd stukken geld, want zij waren aan de kinderen van Jozef als erfelijk bezit toegevallen.", "Fil 4:18": "Maar ik heb alles ontvangen, en ik heb overvloed; ik ben vervuld geworden, nu ik van Epafroditus ontvangen heb wat door u gestuurd was, als een welriekende geur, een aangenaam offer, God welgevallig.", "Hand 20:37": "En er ontstond een groot geween bij hen allen; en zij vielen Paulus om de hals en kusten hem;", "Ps 127:1": "Een lied Hammaaloth¹, van Salomo. Als de HEERE het huis niet bouwt, werken de bouwers eraan tevergeefs; als de HEERE de stad niet bewaart, waakt de wachter tevergeefs.", "Gen 32:16": "En hij gaf die in de hand van zijn knechten, elke kudde apart; en hij zei tegen zijn knechten: Trekt u voor mij uit, en houdt ruimte tussen de ene kudde en de andere kudde.", "Gen 49:24": "Maar zijn boog is in stevigheid gebleven, en de armen van zijn handen zijn gesterkt, door de handen van de Machtige van Jakob; vandaar is hij een herder, een steen van Israël;", "2 Sam 18:28": "Ahimaäz dan riep en zei tegen de koning: Vrede! En hij boog zich voor de koning met het gezicht ter aarde, en zei: Geloofd zij de HEERE, uw God, Die de mannen heeft overgegeven die hun hand tegen mijn heer de koning ophieven.", "Gen 19:1": "En die twee engelen kwamen 's avonds in Sodom aan; en Lot zat in de poort van Sodom; en toen Lot hen zag, stond hij op om hun tegemoet te gaan, en boog zich met het gezicht ter aarde.", "Gen 27:42": "Toen aan Rebekka deze woorden van Ezau, haar oudste zoon, verteld werden, zond zij een boodschap, en ontbood Jakob, haar jongste zoon, en zei tegen hem: Zie, uw broer Ezau troost zich met de gedachte u te doden.", "Joh 10:11": "Ik ben de goede Herder; de goede herder geeft zijn leven voor de schapen.", "Gen 43:3": "Toen sprak Juda tegen hem en zei: Die man heeft ons op het hoogste betuigd en gezegd: U zult mijn gezicht niet zien, als uw broer niet bij u is.", "Ps 128:1": "Een lied Hammaaloth. Gelukkig is ieder die de HEERE vreest, die in Zijn wegen wandelt.", "Rom 8:31": "Wat zullen wij dan hierop zeggen? Als God vóór ons is, wie zal tegen ons zijn?", "Gen 28:7": "en dat Jakob zijn vader en zijn moeder gehoorzaam geweest was, en naar Paddan-aram getrokken was;", "Gen 49:8": "Juda! U bent het, u zullen uw broers loven; uw hand zal zijn op de nek van uw vijanden; voor u zullen de zonen van uw vader zich neerbuigen.", "Gen 37:10": "En toen hij het aan zijn vader en aan zijn broers vertelde, bestrafte zijn vader hem en zei tegen hem: Wat is dit voor een droom die u gedroomd hebt? Zullen wij dan werkelijk komen, ik, en uw moeder, en uw broers, om ons voor u ter aarde te buigen?", "Gen 39:5": "En het gebeurde vanaf toen, dat hij hem aangesteld had over zijn huis en over alles wat hij had, dat de HEERE het huis van de Egyptenaar zegende, om Jozefs wil; ja, de zegen van de HEERE was op alles wat hij had, in het huis en op het veld.", "2 Kon 5:15": "Toen keerde hij terug naar de man van God, hij en zijn hele leger, en kwam, en stond voor zijn aangezicht en zei: Zie, nu weet ik dat er geen God is op de hele aarde, dan alleen in Israël! Neem dan nu toch een geschenk aan van uw knecht.", "1 Tim 4:8": "Want de lichamelijke oefening is van weinig nut; maar de godvruchtigheid is nuttig voor alles, omdat zij de belofte heeft van het tegenwoordige en van het toekomende leven.", "Gen 47:29": "Toen de dagen naderden dat Israël zou sterven, riep hij zijn zoon Jozef, en zei tegen hem: Als ik nu genade gevonden heb in uw ogen, leg dan toch uw hand onder mijn heup, en bewijs mij goedheid en trouw: begraaf mij toch niet in Egypte;", "1 Sam 30:26": "Toen David in Ziklag kwam, zond hij van de buit naar de oudsten van Juda, zijn vrienden, en zei: Zie, hier is een geschenk voor u, van de buit van de vijanden van de HEERE.", "Gen 23:15": "Mijn heer! Hoor mij; een stuk land van vierhonderd sikkel van het zilver, wat is dat tussen mij en u? Begraaf toch uw dode.", "Spr 12:10": "De rechtvaardige kent het leven van zijn dier; maar de barmhartigheden van de goddelozen zijn wreed.", "Hand 7:16": "En zij werden overgebracht naar Sichem, en gelegd in het graf, dat Abraham gekocht had voor een som geld, van de zonen van Hemor, de vader van Sichem.", "Gen 37:3": "En Israël had Jozef lief, boven al zijn zonen; want hij was hem een zoon van het ouderdom; en hij maakte hem een veelkleurige rok.", "1 Sam 20:7": "Als hij zo zegt: Het is goed, dan heeft uw knecht vrede; maar als hij in gloed van toorn ontstoken is, weet dan zeker dat het kwaad bij hem ten volle besloten is.", "Richt 20:23": "En de kinderen van Israël trokken op, en weenden voor het aangezicht van de HEERE tot de avond, en vroegen de HEERE en zeiden: Zal ik weer naderen ten strijde tegen de kinderen van Benjamin, mijn broeder? En de HEERE zei: Trek tegen hem op.", "Filem 1:16": "Nu voortaan niet als een dienstknecht, maar meer dan een dienstknecht, namelijk een geliefde broeder, vooral voor mij, hoeveel te meer dan voor u, zowel in het vlees als in de Heere.", "1 Sam 25:23": "Toen Abigaïl nu David zag, haastte zij zich, en kwam van de ezel af, en zij viel voor het aangezicht van David op haar aangezicht, en zij boog zich ter aarde.", "Mal 3:17": "En zij zullen, zegt de HEERE van de heerscharen, op die dag, die Ik maken zal, Mij een eigendom zijn; en Ik zal hen verschonen, zoals een man zijn zoon verschoont, die hem dient.", "Luk 15:20": "En hij stond op en ging naar zijn vader. En toen hij nog ver van hem verwijderd was, zag zijn vader hem, en werd innerlijk met ontferming bewogen; en hij liep hem tegemoet, viel hem om de hals, en kuste hem.", "2 Sam 14:24": "En de koning zei: Laat hij naar zijn huis gaan, en mijn gezicht niet zien. Zo ging Absalom naar zijn huis, en zag het gezicht van de koning niet.", "Ps 78:71": "Van achter de zogende schapen liet Hij hem komen, om Jakob te weiden, Zijn volk, en Israël, Zijn erfenis.", "Est 2:17": "En de koning beminde Esther boven alle vrouwen, en zij verkreeg genade en gunst bij hem, boven alle maagden; en hij zette de koninklijke kroon op haar hoofd, en hij maakte haar koningin in de plaats van Vasthi.", "1 Kor 3:2": "Ik heb u met melk gevoed, en niet met vaste spijs; want u kon toen nog niet; ja, u kunt ook nu nog niet.", "Job 2:12": "En toen zij hun ogen van verre opsloegen, herkenden zij hem niet, en zij verhieven hun stem en weenden; daarbij scheurden zij ieder hun mantel, en strooiden stof op hun hoofden, omhoog naar de hemel.", "Gen 34:11": "En Sichem zei tegen haar vader en tegen haar broers: Laat mij genade vinden in uw ogen; en wat u tegen mij zeggen zult, zal ik geven.", "Luk 14:23": "En de heer zei tegen de dienstknecht: Ga de wegen en heggen langs, en dwing hen binnen te komen, zodat mijn huis vol wordt.", "Hebr 2:13": "En verder: Ik zal Mijn vertrouwen op Hem stellen. En verder: Zie, hier ben Ik met de kinderen die God Mij gegeven heeft.", "Gen 25:20": "En Izak was veertig jaar oud, toen hij Rebekka, de dochter van Bethuel, de Syriër, uit Paddan-Aram, de zuster van Laban, de Syriër, tot vrouw nam.", "Gen 19:19": "Zie toch, Uw knecht heeft genade gevonden in Uw ogen, en U hebt Uw goedheid groot gemaakt die U aan mij bewezen hebt, door mijn leven te sparen; maar ik zal niet naar het gebergte kunnen vluchten, want misschien overkomt mij dat kwaad, en moet ik sterven!", "2 Sam 14:32": "En Absalom zei tegen Joab: Zie, ik heb naar u gestuurd, en gezegd: Kom hierheen, zodat ik u naar de koning kan sturen, om te zeggen: Waarom ben ik uit Gesur gekomen? Het was beter voor mij geweest, als ik daar nog was; nu dan, laat mij het gezicht van de koning zien; en is er dan nog een misdaad in mij, laat hij mij dan doden.", "Gen 30:2": "Toen ontstak Jakobs toorn tegen Rachel, en hij zei: Ben ik dan in de plaats van God, Die de vrucht van uw buik van u geweerd heeft?", "Richt 1:15": "En zij zei tegen hem: Geef mij een zegen; omdat u mij een dor land gegeven hebt, geef mij ook waterbronnen. Toen gaf Kaleb haar hoger gelegen bronnen en lager gelegen bronnen.", "Rom 15:1": "Maar wij, die sterk zijn, zijn schuldig de zwakheden van de onsterken te dragen, en niet onszelf te behagen.", "Ps 127:3": "Zie, de kinderen zijn een erfdeel van de HEERE; de vrucht van de buik is een beloning.", "Gen 4:9": "En de HEERE zei tegen Kaïn: Waar is Abel, uw broeder? En hij zei: Ik weet het niet; ben ik de hoeder van mijn broeder?", "Gen 32:6": "En de boden kwamen terug bij Jakob en zeiden: Wij zijn gekomen bij uw broer, bij Ezau; en hij trekt u ook al tegemoet, met vierhonderd man bij zich.", "Gen 32:5": "en ik heb ossen en ezels, schapen en knechten en dienstmeisjes; en ik heb gezonden om mijn heer dit aan te zeggen, opdat ik genade vind in uw ogen.", "Gen 32:30": "En Jakob noemde de naam van die plaats Pniël: Want, zei hij, ik heb God gezien van aangezicht tot aangezicht, en mijn ziel is gered.", "Spr 16:7": "Als iemands wegen de HEERE behagen, zo zal Hij ook zijn vijanden met hem verzoenen.", "Ex 33:12": "En Mozes zei tegen de HEERE: Zie, U zegt tegen mij: Voer dit volk op! maar U laat mij niet weten aan wie U met mij zult zenden; terwijl U gezegd hebt: Ik ken u bij naam! en ook: U hebt genade gevonden in Mijn ogen!", "Ezech 35:3": "En zeg ertegen: Zo zegt de Heere HEERE: Zie, Ik heb het tegen u, o gebergte Seir! En Ik zal Mijn hand tegen u uitstrekken, en zal u maken tot een verwoesting en een verlatenheid.", "Richt 9:1": "Abimelech nu, de zoon van Jerubbaäl, ging naar Sichem, naar de broers van zijn moeder; en hij sprak tot hen, en tot het hele geslacht van het huis van de vader van zijn moeder, en zei:", "Gen 43:34": "En hij liet hun gerechten brengen die voor hem stonden; maar het gerecht van Benjamin was vijf keer groter dan de gerechten van hen allen. En zij dronken, en zij werden vrolijk met hem.", "Joh 3:23": "En Johannes doopte ook, in Enon bij Salim, omdat daar veel water was; en zij kwamen daar en werden gedoopt.", "Gen 45:14": "En hij viel om de hals van Benjamin, zijn broer, en weende; en Benjamin weende om zijn hals.", "1 Kron 28:5": "En uit al mijn zonen (want de HEERE heeft mij veel zonen gegeven) heeft Hij mijn zoon Salomo verkoren, dat hij zou zitten op de troon van het koninkrijk van de HEERE over Israël.", "Gen 48:9": "En Jozef zei tegen zijn vader: Zij zijn mijn zonen, die God mij hier gegeven heeft. En hij zei: Breng hen toch bij mij, dan zal ik hen zegenen!", "2 Kron 20:10": "En nu, zie, de kinderen van Ammon, en Moab, en die van het gebergte Seir, aan wie U niet toestond dat Israël erdoorheen zou trekken, toen zij uit Egypteland kwamen, maar zij weken van hen af en vernietigden hen niet;", "Ezech 25:8": "Zo zegt de Heere HEERE: Omdat Moab en Seïr zeggen: Zie, het huis van Juda is gelijk aan al de heidenvolken;", "Neh 1:11": "Och, Heere, laat toch Uw oor opmerkzaam zijn op het gebed van Uw dienaar, en op het gebed van Uw dienaren, die ernaar verlangen Uw Naam te vrezen; en laat het Uw dienaar vandaag toch goed lukken, en geef hem barmhartigheid voor het aangezicht van deze man. Ik was namelijk de schenker van de koning.", "Richt 5:4": "HEERE! toen U voorttrok van Seïr, toen U daarheen trad van het veld van Edom, beefde de aarde, ook droop de hemel, ook dropen de wolken van water.", "Filem 1:7": "Want wij hebben grote vreugde en vertroosting over uw liefde, dat de harten van de heiligen verkwikt zijn door u, broeder!", "Gen 32:28": "Toen zei Hij: Uw naam zal voortaan niet meer Jakob heten, maar Israël; want u hebt zich als een vorst gedragen tegenover God en tegenover de mensen, en hebt de overhand gekregen.", "Ps 128:2": "Want u zult eten van het werk van uw handen; gelukkig zult u zijn, en het zal u goed gaan.", "Gen 13:18": "En Abram sloeg zijn tenten op, en kwam en woonde bij de eikenbossen van Mamre, die bij Hebron zijn; en hij bouwde daar de HEERE een altaar.", "Ps 34:5": "Daleth. Ik heb de HEERE gezocht, en Hij heeft mij geantwoord, en mij uit al mijn angsten gered.", "Gen 42:6": "Jozef nu was regent over dat land; hij was het die aan al het volk van het land verkocht; en Jozefs broers kwamen, en bogen zich voor hem, met het gezicht ter aarde.", "Matt 18:10": "Kijk uit dat u niet één van deze kleinen veracht. Want Ik zeg u dat hun engelen in de hemelen altijd het aangezicht zien van Mijn Vader, Die in de hemelen is.", "Deut 2:1": "Daarna keerden wij ons, en reisden naar de woestijn, de weg van de Schelfzee, zoals de HEERE tot mij gesproken had, en wij trokken om het gebergte Seir, veel dagen.", "Pred 10:4": "Als de geest van de heerser tegen u oprijst, verlaat uw plaats niet; want het is medicijn, het stilt grote zonden.", "1 Sam 25:8": "Vraag het uw jongemannen, en zij zullen het u vertellen. Laat dan deze jongemannen genade vinden in uw ogen, want wij zijn op een goede dag gekomen; geef toch uw knechten, en uw zoon David, wat uw hand vinden zal.", "1 Kon 7:46": "In de vlakte van de Jordaan liet de koning ze gieten, in de kleigrond, tussen Sukkoth en Zarthan.", "2 Kor 6:10": "als treurend, maar altijd blij; als arm, maar velen rijk makend; als niets hebbend, en toch alles bezittend.", "Gen 32:3": "En Jakob zond boden voor zich uit naar Ezau, zijn broer, naar het land Seir, de landstreek van Edom.", "Ruth 4:13": "Zo nam Boaz Ruth, en zij werd hem tot vrouw, en hij ging tot haar in; en de HEERE gaf haar dat zij zwanger werd en een zoon baarde.", "Gen 45:2": "En hij verhief zijn stem met wenen, zodat de Egyptenaren het hoorden, en dat het huis van Farao het hoorde.", "Ezech 35:2": "Mensenkind! Richt uw gezicht tegen het gebergte Seir, en profeteer ertegen,", "Gen 43:26": "Toen Jozef nu thuisgekomen was, brachten zij hem het geschenk, dat in hun hand was, in het huis, en zij bogen zich voor hem ter aarde.", "Jer 31:2": "Zo zegt de HEERE: Het volk van de overgeblevenen van het zwaard heeft genade gevonden in de woestijn, namelijk Israël, toen Ik heenging om hem tot rust te brengen.", "Gen 43:30": "En Jozef haastte zich; want zijn hart werd bewogen om zijn broer, en hij zocht een plek om te wenen; en hij ging een kamer in, en weende daar.", "1 Kron 22:5": "Want David zei: Mijn zoon Salomo is een jongeman en teder; en het huis dat men voor de HEERE bouwen zal, moet buitengewoon groot gemaakt worden, tot een naam en tot glorie in alle landen; ik zal er nu voorraad voor bereiden. Zo bereidde David voorraad in overvloed voor zijn dood.", "Est 8:3": "En Esther sprak verder voor de koning, en zij viel voor zijn voeten, en zij weende, en zij smeekte hem, dat hij de boosheid van Haman, de Agagiet, en zijn plan, dat hij tegen de Joden bedacht had, zou wegnemen.", "Ezech 34:16": "Het verlorene zal Ik zoeken, en het weggedrevene zal Ik terugbrengen, en het gebrokene zal Ik verbinden, en het zieke zal Ik sterken; maar het vette en het sterke zal Ik verdelgen, Ik zal ze weiden met oordeel.", "Ex 33:13": "Nu dan, ik bid U, als ik genade gevonden heb in Uw ogen, laat mij dan nu Uw weg weten, en ik zal U kennen, opdat ik genade vind in Uw ogen; en zie aan dat dit volk Uw volk is!", "1 Sam 20:3": "Toen zwoer David verder, en zei: Uw vader weet heel goed dat ik genade in uw ogen gevonden heb; daarom heeft hij gezegd: Dat Jonathan dit niet weet, opdat hij zich niet bekommert; en zeker, zo waarachtig als de HEERE leeft, en uw ziel leeft, er is maar als een schrede tussen mij en de dood!", "Gen 47:25": "En zij zeiden: U hebt ons leven gered; laten wij genade vinden in de ogen van mijn heer, en wij zullen knechten van Farao zijn.", "1 Sam 1:27": "Ik bad om dit kind, en de HEERE heeft mij gegeven wat ik van Hem gebeden heb.", "1 Kon 20:32": "Toen gordden zij rouwgewaad om hun lenden, en koorden om hun hoofden, en kwamen naar de koning van Israël, en zeiden: Uw knecht Benhadad zegt: Laat toch mijn leven gespaard blijven. En hij zei: Leeft hij dan nog? Hij is mijn broeder.", "2 Kor 9:6": "En dit zeg ik: wie spaarzaam zaait, zal ook spaarzaam maaien; en wie in zegeningen zaait, zal ook in zegeningen maaien.", "Gen 27:41": "En Ezau haatte Jakob om die zegen, waarmee zijn vader hem gezegend had; en Ezau zei in zijn hart: De dagen van rouw om mijn vader komen dichterbij, en ik zal mijn broer Jakob doden.", "Richt 8:16": "En hij nam de oudsten van die stad, en doornen uit de woestijn, en distels, en liet het de mannen van Sukkoth daarmee ondervinden.", "Gen 28:6": "Toen Ezau nu zag dat Izak Jakob gezegend had, en hem naar Paddan-aram weggezonden had om zich vandaar een vrouw te nemen; en dat hij hem, terwijl hij hem zegende, geboden had en gezegd: Neem geen vrouw van de dochters van Kanaän;", "Joh 10:4": "En wanneer hij zijn eigen schapen naar buiten gedreven heeft, gaat hij voor hen uit; en de schapen volgen hem, omdat zij zijn stem kennen.", "Gen 23:7": "Toen stond Abraham op, en boog zich neer voor het volk van het land, voor de zonen van Heth;", "Gen 43:28": "En zij zeiden: Het gaat goed met uw dienaar, onze vader, hij leeft nog; en zij neigden het hoofd en bogen zich neer.", "Hand 9:17": "En Ananias ging heen en kwam in het huis; en hij legde de handen op hem en zei: Saul, broeder! De Heere heeft mij gezonden, namelijk Jezus, Die u verschenen is op de weg waar u kwam, opdat u weer zou kunnen zien en met de Heilige Geest vervuld zou worden.", "Jes 40:11": "Hij zal Zijn kudde weiden gelijk een herder; Hij zal de lammeren in Zijn armen bijeenbrengen, en in Zijn schoot dragen; de zogende dieren zal Hij zachtjes leiden.", "Spr 6:3": "Doe dan dit, mijn zoon! En red uzelf, omdat u in de hand van uw naaste gekomen bent; ga, verneder uzelf en dring aan bij uw naaste.", "Gen 27:39": "Toen antwoordde zijn vader Izak en zei tegen hem: Zie, de vettigheden van de aarde zullen uw woningen zijn, en van de dauw van de hemel van boven af zult u gezegend zijn.", "Hand 21:20": "En toen zij dat gehoord hadden, loofden zij de Heere en zeiden tegen hem: U ziet, broeder, hoeveel duizenden Joden er zijn die geloven; en zij zijn allen ijveraars voor de wet.", "Spr 30:15": "De bloedzuiger heeft twee dochters: Geef, geef! Deze drie dingen worden niet verzadigd; ja, vier zeggen niet: Het is genoeg!", "2 Kor 9:5": "Ik heb dan nodig geacht deze broeders te vermanen, dat zij eerst tot u zouden komen en van tevoren uw eerder aangediende zegen klaarmaken; zodat die gereed is, als een zegen, en niet als een vrekkigheid.", "Matt 2:11": "En toen zij in het huis gekomen waren, vonden zij het Kindje met Maria, Zijn moeder, en zij vielen neer en aanbaden Het; en na hun schatten geopend te hebben, brachten zij Hem geschenken: goud, wierook en mirre.", "Joh 10:12": "Maar de huurling, die geen herder is, van wie de schapen niet zelf zijn, ziet de wolf komen, en verlaat de schapen, en vlucht; en de wolf grijpt ze, en verstrooit de schapen.", "Mark 4:33": "En door veel van zulke gelijkenissen sprak Hij het Woord tot hen, naarmate zij het konden horen.", "Joh 10:15": "Zoals de Vader Mij kent, zo ken Ik ook de Vader; en Ik geef Mijn leven voor de schapen.", "Gen 50:4": "Toen de dagen van het bewenen van hem voorbij waren, sprak Jozef tot het huis van Farao en zei: Als ik nu genade gevonden heb in uw ogen, spreekt toch voor de oren van Farao, en zeg:", "Gen 35:9": "En God verscheen Jakob opnieuw, toen hij uit Paddan-Aram gekomen was; en Hij zegende hem.", "Gen 21:33": "En hij plantte een bos in Berseba, en riep daar de Naam van de HEERE, de eeuwige God, aan.", "2 Sam 14:28": "Zo bleef Absalom twee volle jaren in Jeruzalem, zonder het gezicht van de koning te zien.", "Joz 15:19": "En zij zei: Geef mij een zegen; omdat u mij een dor land gegeven hebt, geef mij ook waterbronnen. Toen gaf hij haar de hoge waterbronnen en de lage waterbronnen.", "Gen 35:1": "Daarna zei God tegen Jakob: Maak u op, trek op naar Bethel, en woon daar; en maak daar een altaar voor de God Die u verscheen, toen u vluchtte voor het aangezicht van uw broer Ezau.", "Gen 8:20": "En Noach bouwde de HEERE een altaar; en hij nam van al het reine vee, en van al het rein gevogelte, en offerde brandoffers op dat altaar.", "Gen 12:8": "En hij brak vandaar op naar het gebergte, ten oosten van Beth-el, en hij sloeg zijn tent op, met Beth-el naar het westen, en Ai naar het oosten; en hij bouwde daar een altaar voor de HEERE, en riep de Naam van de HEERE aan.", "Gen 45:15": "En hij kuste al zijn broers, en hij weende over hen; en daarna spraken zijn broers met hem.", "Gen 18:3": "En hij zei: Heere! Als ik nu genade gevonden heb in Uw ogen, ga toch niet aan Uw knecht voorbij.", "Rom 8:32": "Hij Die zelfs Zijn eigen Zoon niet gespaard heeft, maar Hem voor ons allen overgegeven heeft, hoe zal Hij ons ook met Hem niet alle dingen schenken?", "2 Kon 2:17": "Maar zij drongen bij hem aan tot het schamen toe; en hij zei: Stuur hen. En zij stuurden vijftig mannen, die drie dagen zochten, doch hem niet vonden.", "Richt 8:5": "En hij zei tegen de mannen van Sukkoth: Geef toch enige broden aan het volk dat mij volgt, want zij zijn moe; en ik jaag Zebah en Tsalmuna, de koningen van de Midianieten, achterna.", "Ruth 2:10": "Toen viel zij op haar gezicht, en boog zich ter aarde, en zei tegen hem: Waarom heb ik genade gevonden in uw ogen, dat u mij kent, terwijl ik een vreemde ben?", "Fil 4:12": "En ik weet vernederd te worden, ik weet ook overvloed te hebben; in alle opzichten en in alles ben ik ingewijd, zowel verzadigd te zijn als honger te lijden, zowel overvloed te hebben als gebrek te lijden.", "Luk 14:11": "Want ieder die zichzelf verhoogt, zal vernederd worden; en wie zichzelf vernedert, zal verhoogd worden.", "Gen 46:29": "Toen spande Jozef zijn wagen aan, en trok op, zijn vader Israël tegemoet naar Gosen; en toen hij zich aan hem vertoonde, viel hij hem om zijn hals, en huilde lang aan zijn hals.", "Fil 4:11": "Niet dat ik dit zeg vanwege gebrek; want ik heb geleerd tevreden te zijn in de omstandigheden waarin ik ben.", "1 Kon 1:16": "En Bathseba boog haar hoofd en boog zich neer voor de koning; en de koning zei: Wat wilt u?", "2 Sam 16:4": "Zo zei de koning tegen Ziba: Zie, alles wat Mefiboseth heeft, zal van u zijn. En Ziba zei: Ik buig mij neer, laat mij genade vinden in uw ogen, mijn heer koning!", "Joz 13:27": "En in het dal, Beth-haram, en Beth-nimra, en Sukkoth, en Zefon, wat overgebleven was van het koninkrijk van Sihon, de koning te Hesbon, de Jordaan en het gebied daarlangs, tot aan het einde van de zee van Cinnereth toe, aan de overkant van de Jordaan, naar het oosten toe.", "Gen 35:3": "En laten wij ons opmaken en optrekken naar Bethel; en ik zal daar een altaar maken voor de God Die mij antwoordt op de dag van mijn benauwdheid, en met mij geweest is op de weg die ik gegaan heb.", "Ruth 2:13": "En zij zei: Laat mij genade vinden in uw ogen, mijn heer, omdat u mij getroost hebt, en omdat u naar het hart van uw dienstmaagd gesproken hebt, hoewel ik niet ben als een van uw dienstmaagden.", "1 Sam 2:5": "Zij die verzadigd waren, hebben zich verhuurd om brood, en zij die hongerig waren, hebben opgehouden; totdat de onvruchtbare zeven heeft gebaard, en zij die veel kinderen had, krachteloos is geworden.", "Job 33:26": "Hij zal tot God ernstig bidden, Die in hem een welbehagen nemen zal, en zijn aangezicht met gejuich aanzien; want Hij zal de mens zijn gerechtigheid wedergeven.", "Pred 4:8": "Daar is er een, en geen tweede; hij heeft ook geen kind, noch broer; toch komt aan al zijn moeite geen einde; ook wordt zijn oog niet verzadigd van de rijkdom, en hij zegt niet: Voor wie zwoeg ik toch, en laat ik mijn ziel gebrek lijden aan het goede? Dit is ook vluchtigheid, en het is een moeilijke bezigheid.", "Gen 18:2": "En hij hief zijn ogen op en keek; en zie, daar stonden drie mannen tegenover hem; toen hij hen zag, liep hij hun tegemoet vanuit de deur van de tent, en boog zich tot op de grond.", "2 Sam 3:13": "En hij zei: Goed, ik zal een verbond met u sluiten; maar één ding vraag ik van u: u zult mijn gezicht niet zien, als u niet eerst Michal, Sauls dochter, meebrengt, wanneer u komt om mijn gezicht te zien.", "1 Sam 25:27": "En nu, dit is de zegen die uw dienstmaagd mijn heer gebracht heeft, dat die gegeven wordt aan de jongemannen die de voetstappen van mijn heer navolgen.", "2 Kon 5:16": "Maar hij zei: Zo waarachtig als de HEERE leeft, voor Wiens aangezicht ik sta: ik zal het niet aannemen! En hij drong bij hem aan opdat hij het zou aannemen, maar hij weigerde het.", "Gen 49:25": "Van de God van uw vader, Die u zal helpen, en van de Almachtige, Die u zal zegenen, met zegeningen van de hemel van boven, met zegeningen van het afgrond, dat daaronder ligt, met zegeningen van de borsten en van de baarmoeder!", "Ex 12:37": "Zo reisden de kinderen van Israël uit van Rameses naar Sukkoth, ongeveer zeshonderdduizend te voet, alleen de mannen, behalve de kinderen.", "Ps 41:12": "Hierbij weet ik, dat U lust aan mij hebt, dat mijn vijand over mij niet zal juichen.", "1 Kor 3:21": "Niemand roemt dan op mensen; want alles is van u.", "Joh 4:5": "Hij kwam dan in een stad van Samaria, genaamd Sichar, dicht bij het stuk land dat Jakob aan zijn zoon Jozef gaf.", "Gen 32:7": "Toen werd Jakob erg bang en benauwd; en hij verdeelde het volk dat bij hem was, en de schapen, en de runderen, en de kamelen, in twee legers;", "Ezech 34:15": "Ik zal Mijn schapen weiden, en Ik zal ze laten neerliggen, spreekt de Heere HEERE.", "Gen 29:30": "En hij kwam ook bij Rachel, en had ook Rachel liever dan Lea; en hij diende bij hem nog zeven andere jaren.", "2 Kon 5:23": "En Naäman zei: Het is goed, neem twee talenten. En hij drong bij hem aan, en bond twee talenten van het zilver in twee buidels, met twee stellen kleren, en gaf ze aan twee van zijn knechten, die ze voor hem uit droegen.", "Joz 24:1": "Daarna verzamelde Jozua al de stammen van Israël te Sichem, en hij riep de oudsten van Israël, en hun hoofden, en hun rechters, en hun opzichters; en zij stelden zich voor het aangezicht van God."}, "noten": {}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${md(D.vertalingen[vertaling][n] || '—')}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+function paneelInhoud(n, tab) {
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : 'vertalingen');
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  const tekst = popupTekst(ref);
+  if (!tekst) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${md(tekst)}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>

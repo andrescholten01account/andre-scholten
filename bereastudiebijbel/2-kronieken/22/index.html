@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2 Kronieken 22 — BereaStudieBijbel · De Volle Pinksterzegen</title>
+<style>
+  :root { --accent: #8a6d3b; --accent-donker: #6b5429; --bg: #fdfcf9; --bg-soft: #f7f3ea; --border: #e3ddd0; --tekst: #2b2b2b; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  header.site { text-align: center; padding: 1.2rem 0 .4rem; }
+  header.site h1 { font-size: 2rem; margin: 0; color: var(--accent-donker); letter-spacing: .01em; }
+  header.site .motto { font-style: italic; color: #8b7355; margin: .2rem 0 1rem; }
+  nav.hoofd { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: .55rem 0; font-family: sans-serif; font-size: .8rem; letter-spacing: .25em; text-transform: uppercase; text-align:center; }
+  nav.hoofd a { color: var(--accent); text-decoration: none; margin: 0 .8rem; }
+  nav.hoofd a.actief { color: var(--accent-donker); font-weight: 700; }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<header class="site">
+  <h1>De Volle Pinksterzegen</h1>
+  <div class="motto">Jezus volgen in de kracht van de Geest</div>
+</header>
+<nav class="hoofd">
+  <a>Blog</a> | <a>Boek</a> | <a class="actief">Bijbel</a>
+</nav>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">2 Kronieken</a> › hoofdstuk 22</div>
+<h2 class="hfd">2 Kronieken 22</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "2 Kronieken 22", "boek_naam": "2 Kronieken", "hfd_nr": "22", "zelf_abbr": "2 Kron 22", "totaal": 36, "basis_url": "https://pinksterzegen.nl/bereastudiebijbel/2-kronieken/22", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../21/", "label": "‹ 2 Kronieken 21"}, "volgende": {"href": "../23/", "label": "2 Kronieken 23 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}, {"n": "11", "href": "../11/"}, {"n": "12", "href": "../12/"}, {"n": "13", "href": "../13/"}, {"n": "14", "href": "../14/"}, {"n": "15", "href": "../15/"}, {"n": "16", "href": "../16/"}, {"n": "17", "href": "../17/"}, {"n": "18", "href": "../18/"}, {"n": "19", "href": "../19/"}, {"n": "20", "href": "../20/"}, {"n": "21", "href": "../21/"}, {"n": "22", "href": "../22/"}, {"n": "23", "href": "../23/"}, {"n": "24", "href": "../24/"}, {"n": "25", "href": "../25/"}, {"n": "26", "href": "../26/"}, {"n": "27", "href": "../27/"}, {"n": "28", "href": "../28/"}, {"n": "29", "href": "../29/"}, {"n": "30", "href": "../30/"}, {"n": "31", "href": "../31/"}, {"n": "32", "href": "../32/"}, {"n": "33", "href": "../33/"}, {"n": "34", "href": "../34/"}, {"n": "35", "href": "../35/"}, {"n": "36", "href": "../36/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "En de inwoners van Jeruzalem maakten Ahazia, zijn jongste zoon, koning in zijn plaats; want de bende die met de Arabieren in het leger gekomen was, had alle oudere broers gedood. Ahazia dan, de zoon van Joram, de koning van Juda, regeerde.", "2": "Ahazia was tweeënveertig jaar oud toen hij koning werd, en hij regeerde een jaar in Jeruzalem; en de naam van zijn moeder was Athalia, een dochter van Omri.", "3": "Hij wandelde ook in de wegen van het huis van Achab; want zijn moeder was zijn raadgeefster, om goddeloos te handelen.", "4": "En hij deed wat kwaad was in de ogen van de HEERE, net als het huis van Achab; want zij waren zijn raadgevers, na de dood van zijn vader, tot zijn verderf.", "5": "Hij wandelde ook naar hun raad, en ging met Joram, de zoon van Achab, de koning van Israël, ten strijde tegen Hazaël, de koning van Syrië, bij Ramoth in Gilead; en de Syriërs sloegen Joram.", "6": "En hij keerde terug om zich te laten genezen te Jizreël; want hij had wonden, die men hem bij Rama geslagen had, toen hij streed tegen Hazaël, de koning van Syrië; en Azarja, de zoon van Joram, de koning van Juda, kwam af om Joram, de zoon van Achab, te Jizreël te bezoeken, want hij was ziek.", "7": "De val van Ahazia nu was van God, doordat hij naar Joram kwam; want toen hij gekomen was, ging hij met Joram uit naar Jehu, de zoon van Nimsi, aan wie de HEERE gezalfd had om het huis van Achab uit te roeien.", "8": "Zo gebeurde het, toen Jehu het oordeel uitvoerde tegen het huis van Achab, dat hij de vorsten van Juda en de zonen van de broers van Ahazia, die Ahazia dienden, vond, en die doodde.", "9": "Daarna zocht hij Ahazia, en zij kregen hem te pakken (want hij had zich verstopt in Samaria), en zij brachten hem tot Jehu, en zij doodden hem, en begroeven hem; want zij zeiden: Hij is de zoon van Josafat, die de HEERE met zijn hele hart gezocht heeft. Zo had het huis van Ahazia niemand die de kracht behield tot het koningschap.", "10": "Toen Athalia, de moeder van Ahazia, zag dat haar zoon dood was, maakte zij zich op en bracht heel het koninklijke nageslacht van het huis van Juda om.", "11": "Maar Jozabath, de dochter van de koning, nam Joas, de zoon van Ahazia, en stal hem uit het midden van de zonen van de koning die gedood werden, en zette hem en zijn voedster in een slaapkamer; zo verborg Jozabath, de dochter van koning Joram, de vrouw van de priester Jojada (want zij was de zuster van Ahazia), hem voor Athalia, zodat zij hem niet doodde.", "12": "En hij was bij hen verborgen in het huis van God, zes jaar; en Athalia regeerde over het land."}, "SV": {"1": "En de inwoners van Jeruzalem maakten Ahazia, zijn kleinsten zoon, koning in zijn plaats; want een bende, die met de Arabiëren in het leger gekomen was, had al de eersten gedood. Ahazia dan, de zoon van Joram, de koning van Juda, regeerde.", "2": "Twee en veertig jaar was Ahazia oud, toen hij koning werd, en hij regeerde een jaar te Jeruzalem; en de naam zijner moeder was Athalia, een dochter van Omri.", "3": "Hij wandelde ook in de wegen van het huis van Achab; want zijn moeder was zijn raadgeefster, om goddelooslijk te handelen.", "4": "En hij deed dat kwaad was in de ogen des HEEREN, gelijk het huis van Achab; want zij waren zijn raadgevers, na den dood zijns vaders, hem ten verderve.", "5": "Hij wandelde ook in hun raad, en toog henen met Joram, den zoon van Achab, den koning van Israël, tot den strijd tegen Hazaël, den koning van Syrië, bij Ramoth in Gilead; en de Syriërs sloegen Joram.", "6": "En hij keerde weder om zich te laten genezen te Jizreël; want *hij* *had* wonden, die men hem bij Rama geslagen had, als hij streed tegen Hazaël, den koning van Syrië; en Azarja, de zoon van Joram, den koning van Juda, kwam af, om Joram, den zoon van Achab, te Jizreël te bezien, want hij was krank.", "7": "De vertreding nu van Ahazia was van God, dat hij tot Joram kwam; want als hij gekomen was, toog hij met Joram uit tot Jehu, den zoon van Nimsi, denwelken de HEERE gezalfd had, om het huis van Achab uit te roeien.", "8": "Zo geschiedde het, als Jehu het oordeel uitvoerde tegen het huis van Achab, dat hij de vorsten van Juda en de zonen der broederen van Ahazia, die Ahazia dienden, vond, en die doodde.", "9": "Daarna zocht hij Ahazia, en zij kregen hem (want hij was verstoken in Samaria), en zij brachten hem tot Jehu, en zij doodden hem, en begroeven hem; want zij zeiden: Hij is de zoon van Josafat, die den HEERE met zijn ganse hart gezocht heeft. Zo had het huis van Ahazia niemand, die kracht behield tot het koninkrijk.", "10": "Toen Athalia, de moeder van Ahazia, zag, dat haar zoon dood was, zo maakte zij zich op, en bracht al het koninklijke zaad van het huis van Juda om.", "11": "Maar Jozabath, de dochter des konings, nam Joas, den zoon van Ahazia, en stal hem uit het midden van des konings zonen, die gedood werden, en zette hem en zijn voedster in een slaapkamer; zo verborg hem Jozabath, de dochter van den koning Joram, de huisvrouw van den priester Jojada ( want zij was de zuster van Ahazia), voor Athalia, dat zij hem niet doodde.", "12": "En hij was bij hen verstoken in het huis Gods zes jaren; en Athalia regeerde over het land."}, "KJV": {"1": "And the inhabitants of Jerusalem made ➔ Ahaziah his youngest son king in his stead: for the band of men that came with the Arabians to the camp had slain all the eldest. So Ahaziah the son of Jehoram king of Judah reigned.", "2": "Forty and two years old was Ahaziah when he began to reign, and he reigned one year in Jerusalem. His mother's name also was Athaliah the daughter of Omri.", "3": "He also walked in the ways of the house of Ahab: for his mother was his counsellor to do wickedly.", "4": "Wherefore he did evil in the sight of the LORD like the house of Ahab: for they were his counsellors after the death of his father to his destruction.", "5": "He walked also after their counsel, and went with Jehoram the son of Ahab king of Israel to war against Hazael king of Syria at Ramothgilead: and the Syrians smote Joram.", "6": "And he returned to be healed in Jezreel because of the wounds which were given him at Ramah, when he fought with Hazael king of Syria. And Azariah the son of Jehoram king of Judah went down to see Jehoram the son of Ahab at Jezreel, because he was sick.", "7": "And the destruction of Ahaziah was of God by coming to Joram: for when he was come, he went out with Jehoram against Jehu the son of Nimshi, whom the LORD had anointed to cut off the house of Ahab.", "8": "And it came to pass, that, when Jehu was executing judgment upon the house of Ahab, and found the princes of Judah, and the sons of the brethren of Ahaziah, that ministered to Ahaziah, he slew them.", "9": "And he sought Ahaziah: and they caught him, (for he was hid in Samaria,) and brought him to Jehu: and when they had slain him, they buried him: Because, said they, he is the son of Jehoshaphat, who sought the LORD with all his heart. So the house of Ahaziah had no power to keep still the kingdom.", "10": "But when Athaliah the mother of Ahaziah saw that her son was dead, she arose and destroyed all the seed royal of the house of Judah.", "11": "But Jehoshabeath, the daughter of the king, took Joash the son of Ahaziah, and stole him from among the king's sons that were slain, and put him and his nurse in a bedchamber. So Jehoshabeath, the daughter of king Jehoram, the wife of Jehoiada the priest, (for she was the sister of Ahaziah,) hid him from Athaliah, so that she slew him not.", "12": "And he was with them hid in the house of God six years: and Athaliah reigned over the land."}}, "tsk": {"1": [{"kopje": "de inwoners", "refs": ["2 Kron 23:3", "2 Kron 26:1", "2 Kron 33:25", "2 Kron 36:1"]}, {"kopje": "Ahazia", "refs": ["2 Kron 22:6", "2 Kron 21:17", "2 Kon 8:24-29", "1 Kron 3:11"]}, {"kopje": "gedood", "refs": ["2 Kron 21:16", "2 Kron 21:17"]}], "2": [{"kopje": "Tweeënveertig", "refs": ["2 Kon 8:26"]}, {"kopje": "Athalia", "refs": ["2 Kron 21:6", "1 Kon 16:28"]}], "3": [{"kopje": "zijn moeder", "refs": ["Gen 6:4", "Gen 6:5", "Deut 7:3", "Deut 7:4", "Deut 13:6-10", "Richt 17:4", "Richt 17:5", "Neh 13:23-27", "Mal 2:15", "Matt 14:8-11"]}, {"kopje": "zijn raadgeefster", "refs": ["Gen 27:12", "Gen 27:13", "Matt 10:37", "Hand 4:19"]}], "4": [{"kopje": "zij waren zijn", "refs": ["2 Kron 24:17", "2 Kron 24:18", "Spr 1:10", "Spr 12:5", "Spr 13:20", "Spr 19:27"]}], "5": [{"kopje": "Hij wandelde", "refs": ["Ps 1:1", "Micha 6:16"]}, {"kopje": "ging met", "refs": ["2 Kon 8:28"]}, {"kopje": "Ramoth in Gilead", "refs": ["2 Kron 18:3", "2 Kron 18:31", "2 Kron 19:2", "1 Kon 22:3", "Dan 5:22"]}], "6": [{"kopje": "En hij keerde terug", "refs": ["2 Kon 9:15"]}, {"kopje": "die men hem geslagen had", "refs": ["2 Kron 22:1", "2 Kron 22:7", "2 Kron 21:17"]}, {"kopje": "om Joram te bezoeken", "refs": ["2 Kon 8:29", "2 Kon 10:13", "2 Kon 10:14"]}], "7": [{"kopje": "val", "refs": ["Mal 4:3"]}, {"kopje": "was van God", "refs": ["2 Kron 10:15", "Deut 32:35", "Richt 14:4", "1 Kon 12:15", "1 Kon 22:20", "Ps 9:17", "Jes 46:10", "Hos 14:10"]}, {"kopje": "ging hij uit", "refs": ["2 Kon 9:21"]}, {"kopje": "de HEERE had", "refs": ["1 Kon 19:16", "2 Kon 9:1-7"]}], "8": [{"kopje": "toen Jehu", "refs": ["2 Kon 10:10-14"]}], "9": [{"kopje": "hij Ahazia", "refs": ["2 Kon 9:27"]}, {"kopje": "in Samaria", "refs": ["1 Kon 13:21"]}, {"kopje": "want zij zeiden", "refs": ["1 Kon 14:13", "2 Kon 9:28", "2 Kon 9:34"]}, {"kopje": "de zoon van Josafat", "refs": ["2 Kron 17:3", "2 Kron 17:4", "2 Kron 21:20"]}, {"kopje": "het huis", "refs": ["2 Kron 22:1", "2 Kron 22:8", "2 Kron 21:4", "2 Kron 21:17"]}], "10": [{"kopje": "Athalia", "refs": ["2 Kron 22:2-4", "2 Kon 11:1"]}], "11": [{"kopje": "Jozabath", "refs": ["2 Kon 11:2"]}, {"kopje": "slaapkamer", "refs": ["Ezech 40:45", "Ezech 40:46"]}, {"kopje": "Jojada", "refs": ["2 Kron 23:1"]}, {"kopje": "zij hem niet doodde", "refs": ["2 Kron 21:7", "2 Sam 7:13", "1 Kon 15:4", "Ps 33:10", "Ps 76:11", "Spr 21:30", "Jes 65:8", "Hand 4:28"]}], "12": [{"kopje": "verborgen in het huis", "refs": ["Ps 27:5"]}, {"kopje": "Athalia", "refs": ["Ps 12:9", "Ps 73:14", "Ps 73:18", "Ps 73:19", "Jer 12:1", "Hab 1:12"]}]}, "onderwerpen": {"7": [{"onderwerp": "Werking", "sub": "In het uitvoeren van oordelen", "totaal": 37, "positie": 26, "vorige": "2 Kon 19:26", "volgende": "Ps 17:13", "alle": ["Gen 3:15", "1 Sam 15:1", "1 Sam 15:2", "1 Sam 15:3", "1 Sam 15:4", "1 Sam 15:5", "1 Sam 15:6", "1 Sam 15:7", "1 Sam 15:8", "1 Sam 15:9", "1 Sam 15:10", "1 Sam 15:11", "1 Sam 15:12", "1 Sam 15:13", "1 Sam 15:14", "1 Sam 15:15", "1 Sam 15:16", "1 Sam 15:17", "1 Sam 15:18", "1 Sam 15:19", "2 Sam 7:14", "2 Kon 9:6", "2 Kon 9:7", "2 Kon 19:25", "2 Kon 19:26", "Ps 17:13", "Ps 17:14", "Jes 10:5", "Jes 10:6", "Jes 13:5", "Jes 41:15", "Jer 27:8", "Jer 51:20", "Jer 51:21", "Jer 51:22", "Jer 51:23"], "meer": 0}, {"onderwerp": "Verbond en gemeenschap met de vijanden Gods", "sub": "Ahazia", "totaal": 5, "positie": 4, "vorige": "2 Kron 22:5", "volgende": "2 Kron 22:8", "alle": ["2 Kron 22:3", "2 Kron 22:4", "2 Kron 22:5", "2 Kron 22:8"], "meer": 0}, {"onderwerp": "Koningen", "sub": "Ahazia", "totaal": 31, "positie": 29, "vorige": "2 Kron 22:6", "volgende": "2 Kron 22:8", "alle": ["1 Kon 22:52", "1 Kon 22:53", "1 Kon 22:54", "2 Kon 8:25", "2 Kon 8:26", "2 Kon 8:27", "2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:16", "2 Kon 9:17", "2 Kon 9:18", "2 Kon 9:19", "2 Kon 9:20", "2 Kon 9:21", "2 Kon 9:22", "2 Kon 9:23", "2 Kon 9:24", "2 Kon 9:25", "2 Kon 9:26", "2 Kon 9:27", "2 Kon 9:28", "2 Kon 9:29", "2 Kron 22:1", "2 Kron 22:2", "2 Kron 22:3", "2 Kron 22:4", "2 Kron 22:5", "2 Kron 22:6", "2 Kron 22:8", "2 Kron 22:9"], "meer": 0}], "3": [{"onderwerp": "Verbond en gemeenschap met de vijanden Gods", "sub": "Ahazia", "totaal": 5, "positie": 1, "vorige": null, "volgende": "2 Kron 22:4", "alle": ["2 Kron 22:4", "2 Kron 22:5", "2 Kron 22:7", "2 Kron 22:8"], "meer": 0}, {"onderwerp": "Koningen", "sub": "Ahazia", "totaal": 31, "positie": 25, "vorige": "2 Kron 22:2", "volgende": "2 Kron 22:4", "alle": ["1 Kon 22:52", "1 Kon 22:53", "1 Kon 22:54", "2 Kon 8:25", "2 Kon 8:26", "2 Kon 8:27", "2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:16", "2 Kon 9:17", "2 Kon 9:18", "2 Kon 9:19", "2 Kon 9:20", "2 Kon 9:21", "2 Kon 9:22", "2 Kon 9:23", "2 Kon 9:24", "2 Kon 9:25", "2 Kon 9:26", "2 Kon 9:27", "2 Kon 9:28", "2 Kon 9:29", "2 Kron 22:1", "2 Kron 22:2", "2 Kron 22:4", "2 Kron 22:5", "2 Kron 22:6", "2 Kron 22:7", "2 Kron 22:8", "2 Kron 22:9"], "meer": 0}, {"onderwerp": "Ouders", "sub": "Athalia", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "4": [{"onderwerp": "Verbond en gemeenschap met de vijanden Gods", "sub": "Ahazia", "totaal": 5, "positie": 2, "vorige": "2 Kron 22:3", "volgende": "2 Kron 22:5", "alle": ["2 Kron 22:3", "2 Kron 22:5", "2 Kron 22:7", "2 Kron 22:8"], "meer": 0}, {"onderwerp": "Koningen", "sub": "Ahazia", "totaal": 31, "positie": 26, "vorige": "2 Kron 22:3", "volgende": "2 Kron 22:5", "alle": ["1 Kon 22:52", "1 Kon 22:53", "1 Kon 22:54", "2 Kon 8:25", "2 Kon 8:26", "2 Kon 8:27", "2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:16", "2 Kon 9:17", "2 Kon 9:18", "2 Kon 9:19", "2 Kon 9:20", "2 Kon 9:21", "2 Kon 9:22", "2 Kon 9:23", "2 Kon 9:24", "2 Kon 9:25", "2 Kon 9:26", "2 Kon 9:27", "2 Kon 9:28", "2 Kon 9:29", "2 Kron 22:1", "2 Kron 22:2", "2 Kron 22:3", "2 Kron 22:5", "2 Kron 22:6", "2 Kron 22:7", "2 Kron 22:8", "2 Kron 22:9"], "meer": 0}], "5": [{"onderwerp": "Verbond en gemeenschap met de vijanden Gods", "sub": "Ahazia", "totaal": 5, "positie": 3, "vorige": "2 Kron 22:4", "volgende": "2 Kron 22:7", "alle": ["2 Kron 22:3", "2 Kron 22:4", "2 Kron 22:7", "2 Kron 22:8"], "meer": 0}, {"onderwerp": "Hazaël", "sub": "Veroveringen door", "totaal": 8, "positie": 7, "vorige": "2 Kon 12:18", "volgende": "2 Kron 22:6", "alle": ["2 Kon 8:28", "2 Kon 8:29", "2 Kon 10:32", "2 Kon 10:33", "2 Kon 12:17", "2 Kon 12:18", "2 Kron 22:6"], "meer": 0}, {"onderwerp": "Koningen", "sub": "Ahazia", "totaal": 31, "positie": 27, "vorige": "2 Kron 22:4", "volgende": "2 Kron 22:6", "alle": ["1 Kon 22:52", "1 Kon 22:53", "1 Kon 22:54", "2 Kon 8:25", "2 Kon 8:26", "2 Kon 8:27", "2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:16", "2 Kon 9:17", "2 Kon 9:18", "2 Kon 9:19", "2 Kon 9:20", "2 Kon 9:21", "2 Kon 9:22", "2 Kon 9:23", "2 Kon 9:24", "2 Kon 9:25", "2 Kon 9:26", "2 Kon 9:27", "2 Kon 9:28", "2 Kon 9:29", "2 Kron 22:1", "2 Kron 22:2", "2 Kron 22:3", "2 Kron 22:4", "2 Kron 22:6", "2 Kron 22:7", "2 Kron 22:8", "2 Kron 22:9"], "meer": 0}, {"onderwerp": "Ramoth-Gilead", "sub": "Heroverd door Joram; Joram gewond te", "totaal": 6, "positie": 5, "vorige": "2 Kon 9:15", "volgende": "2 Kron 22:6", "alle": ["2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:14", "2 Kon 9:15", "2 Kron 22:6"], "meer": 0}], "8": [{"onderwerp": "Verbond en gemeenschap met de vijanden Gods", "sub": "Ahazia", "totaal": 5, "positie": 5, "vorige": "2 Kron 22:7", "volgende": null, "alle": ["2 Kron 22:3", "2 Kron 22:4", "2 Kron 22:5", "2 Kron 22:7"], "meer": 0}, {"onderwerp": "Koningen", "sub": "Ahazia", "totaal": 31, "positie": 30, "vorige": "2 Kron 22:7", "volgende": "2 Kron 22:9", "alle": ["1 Kon 22:52", "1 Kon 22:53", "1 Kon 22:54", "2 Kon 8:25", "2 Kon 8:26", "2 Kon 8:27", "2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:16", "2 Kon 9:17", "2 Kon 9:18", "2 Kon 9:19", "2 Kon 9:20", "2 Kon 9:21", "2 Kon 9:22", "2 Kon 9:23", "2 Kon 9:24", "2 Kon 9:25", "2 Kon 9:26", "2 Kon 9:27", "2 Kon 9:28", "2 Kon 9:29", "2 Kron 22:1", "2 Kron 22:2", "2 Kron 22:3", "2 Kron 22:4", "2 Kron 22:5", "2 Kron 22:6", "2 Kron 22:7", "2 Kron 22:9"], "meer": 0}], "10": [{"onderwerp": "Athalia", "sub": "1. Vrouw van Joram, koning van Juda", "totaal": 15, "positie": 9, "vorige": "2 Kon 11:16", "volgende": "2 Kron 22:11", "alle": ["2 Kon 11:1", "2 Kon 11:2", "2 Kon 11:3", "2 Kon 11:12", "2 Kon 11:13", "2 Kon 11:14", "2 Kon 11:15", "2 Kon 11:16", "2 Kron 22:11", "2 Kron 22:12", "2 Kron 23:12", "2 Kron 23:13", "2 Kron 23:14", "2 Kron 23:15"], "meer": 0}, {"onderwerp": "Koningen", "sub": "Athalia, moeder van Ahazia (troonrover)", "totaal": 6, "positie": 4, "vorige": "2 Kon 11:3", "volgende": "2 Kron 22:11", "alle": ["2 Kon 11:1", "2 Kon 11:2", "2 Kon 11:3", "2 Kron 22:11", "2 Kron 22:12"], "meer": 0}], "11": [{"onderwerp": "Athalia", "sub": "1. Vrouw van Joram, koning van Juda", "totaal": 15, "positie": 10, "vorige": "2 Kron 22:10", "volgende": "2 Kron 22:12", "alle": ["2 Kon 11:1", "2 Kon 11:2", "2 Kon 11:3", "2 Kon 11:12", "2 Kon 11:13", "2 Kon 11:14", "2 Kon 11:15", "2 Kon 11:16", "2 Kron 22:10", "2 Kron 22:12", "2 Kron 23:12", "2 Kron 23:13", "2 Kron 23:14", "2 Kron 23:15"], "meer": 0}, {"onderwerp": "Koningen", "sub": "Athalia, moeder van Ahazia (troonrover)", "totaal": 6, "positie": 5, "vorige": "2 Kron 22:10", "volgende": "2 Kron 22:12", "alle": ["2 Kon 11:1", "2 Kon 11:2", "2 Kon 11:3", "2 Kron 22:10", "2 Kron 22:12"], "meer": 0}], "12": [{"onderwerp": "Athalia", "sub": "1. Vrouw van Joram, koning van Juda", "totaal": 15, "positie": 11, "vorige": "2 Kron 22:11", "volgende": "2 Kron 23:12", "alle": ["2 Kon 11:1", "2 Kon 11:2", "2 Kon 11:3", "2 Kon 11:12", "2 Kon 11:13", "2 Kon 11:14", "2 Kon 11:15", "2 Kon 11:16", "2 Kron 22:10", "2 Kron 22:11", "2 Kron 23:12", "2 Kron 23:13", "2 Kron 23:14", "2 Kron 23:15"], "meer": 0}, {"onderwerp": "Koningen", "sub": "Athalia, moeder van Ahazia (troonrover)", "totaal": 6, "positie": 6, "vorige": "2 Kron 22:11", "volgende": null, "alle": ["2 Kon 11:1", "2 Kon 11:2", "2 Kon 11:3", "2 Kron 22:10", "2 Kron 22:11"], "meer": 0}], "6": [{"onderwerp": "Hazaël", "sub": "Veroveringen door", "totaal": 8, "positie": 8, "vorige": "2 Kron 22:5", "volgende": null, "alle": ["2 Kon 8:28", "2 Kon 8:29", "2 Kon 10:32", "2 Kon 10:33", "2 Kon 12:17", "2 Kon 12:18", "2 Kron 22:5"], "meer": 0}, {"onderwerp": "Koningen", "sub": "Ahazia", "totaal": 31, "positie": 28, "vorige": "2 Kron 22:5", "volgende": "2 Kron 22:7", "alle": ["1 Kon 22:52", "1 Kon 22:53", "1 Kon 22:54", "2 Kon 8:25", "2 Kon 8:26", "2 Kon 8:27", "2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:16", "2 Kon 9:17", "2 Kon 9:18", "2 Kon 9:19", "2 Kon 9:20", "2 Kon 9:21", "2 Kon 9:22", "2 Kon 9:23", "2 Kon 9:24", "2 Kon 9:25", "2 Kon 9:26", "2 Kon 9:27", "2 Kon 9:28", "2 Kon 9:29", "2 Kron 22:1", "2 Kron 22:2", "2 Kron 22:3", "2 Kron 22:4", "2 Kron 22:5", "2 Kron 22:7", "2 Kron 22:8", "2 Kron 22:9"], "meer": 0}, {"onderwerp": "Ramoth-Gilead", "sub": "Genaamd Rama", "totaal": 2, "positie": 2, "vorige": "2 Kon 8:29", "volgende": null, "alle": ["2 Kon 8:29"], "meer": 0}, {"onderwerp": "Ramoth-Gilead", "sub": "Heroverd door Joram; Joram gewond te", "totaal": 6, "positie": 6, "vorige": "2 Kron 22:5", "volgende": null, "alle": ["2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:14", "2 Kon 9:15", "2 Kron 22:5"], "meer": 0}], "1": [{"onderwerp": "Koningen", "sub": "Ahazia", "totaal": 31, "positie": 23, "vorige": "2 Kon 9:29", "volgende": "2 Kron 22:2", "alle": ["1 Kon 22:52", "1 Kon 22:53", "1 Kon 22:54", "2 Kon 8:25", "2 Kon 8:26", "2 Kon 8:27", "2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:16", "2 Kon 9:17", "2 Kon 9:18", "2 Kon 9:19", "2 Kon 9:20", "2 Kon 9:21", "2 Kon 9:22", "2 Kon 9:23", "2 Kon 9:24", "2 Kon 9:25", "2 Kon 9:26", "2 Kon 9:27", "2 Kon 9:28", "2 Kon 9:29", "2 Kron 22:2", "2 Kron 22:3", "2 Kron 22:4", "2 Kron 22:5", "2 Kron 22:6", "2 Kron 22:7", "2 Kron 22:8", "2 Kron 22:9"], "meer": 0}], "2": [{"onderwerp": "Koningen", "sub": "Ahazia", "totaal": 31, "positie": 24, "vorige": "2 Kron 22:1", "volgende": "2 Kron 22:3", "alle": ["1 Kon 22:52", "1 Kon 22:53", "1 Kon 22:54", "2 Kon 8:25", "2 Kon 8:26", "2 Kon 8:27", "2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:16", "2 Kon 9:17", "2 Kon 9:18", "2 Kon 9:19", "2 Kon 9:20", "2 Kon 9:21", "2 Kon 9:22", "2 Kon 9:23", "2 Kon 9:24", "2 Kon 9:25", "2 Kon 9:26", "2 Kon 9:27", "2 Kon 9:28", "2 Kon 9:29", "2 Kron 22:1", "2 Kron 22:3", "2 Kron 22:4", "2 Kron 22:5", "2 Kron 22:6", "2 Kron 22:7", "2 Kron 22:8", "2 Kron 22:9"], "meer": 0}], "9": [{"onderwerp": "Koningen", "sub": "Ahazia", "totaal": 31, "positie": 31, "vorige": "2 Kron 22:8", "volgende": null, "alle": ["1 Kon 22:52", "1 Kon 22:53", "1 Kon 22:54", "2 Kon 8:25", "2 Kon 8:26", "2 Kon 8:27", "2 Kon 8:28", "2 Kon 8:29", "2 Kon 9:16", "2 Kon 9:17", "2 Kon 9:18", "2 Kon 9:19", "2 Kon 9:20", "2 Kon 9:21", "2 Kon 9:22", "2 Kon 9:23", "2 Kon 9:24", "2 Kon 9:25", "2 Kon 9:26", "2 Kon 9:27", "2 Kon 9:28", "2 Kon 9:29", "2 Kron 22:1", "2 Kron 22:2", "2 Kron 22:3", "2 Kron 22:4", "2 Kron 22:5", "2 Kron 22:6", "2 Kron 22:7", "2 Kron 22:8"], "meer": 0}]}, "extern": {"1 Sam 15:4": "Dit verkondigde Saul aan het volk, en hij telde hen te Telaïm, tweehonderdduizend man van het voetvolk, en tienduizend man van Juda.", "1 Kon 22:53": "En hij deed wat kwaad was in de ogen van de HEERE; want hij wandelde in de weg van zijn vader, en in de weg van zijn moeder, en in de weg van Jerobeam, de zoon van Nebat, die Israël deed zondigen.", "Spr 12:5": "De gedachten van de rechtvaardigen zijn recht; de raadslagen van de goddelozen zijn bedrog.", "1 Kon 22:20": "En de HEERE zei: Wie zal Achab overreden, zodat hij optrekt en valt bij Ramoth in Gilead? De één zei dit, en de ander zei dat.", "2 Kron 26:1": "Toen nam heel het volk van Juda Uzzia (die nu zestien jaar oud was), en maakte hem koning in de plaats van zijn vader Amazia.", "2 Kon 12:17": "Toen trok Hazaël, de koning van Syrië, op, en streed tegen Gath, en nam het in; daarna richtte Hazaël zijn gezicht om tegen Jeruzalem op te trekken.", "1 Kon 16:28": "En Omri ontsliep met zijn vaderen, en werd begraven te Samaria; en zijn zoon Achab regeerde in zijn plaats.", "Spr 13:20": "Die met de wijzen omgaat, zal wijs worden; maar die de metgezel van de dwazen is, zal verbroken worden.", "1 Sam 15:6": "En Saul liet de Kenieten zeggen: Ga weg, wijk, trek weg uit het midden van de Amalekieten, opdat ik u niet met hen wegruim; want u hebt barmhartigheid gedaan aan al de kinderen van Israël, toen zij uit Egypte optrokken. Zo weken de Kenieten uit het midden van de Amalekieten.", "1 Sam 15:11": "Het berouwt Mij dat Ik Saul tot koning gemaakt heb, omdat hij zich van Mij afgekeerd heeft, en Mijn woorden niet volbracht heeft. Toen ontstak Samuël in toorn, en hij riep tot de HEERE de hele nacht.", "1 Sam 15:14": "Toen zei Samuël: Wat is dan dit voor een geluid van schapen in mijn oren, en een geluid van runderen dat ik hoor?", "Hos 14:10": "Wie is wijs? die begrijpt deze dingen; wie is verstandig? die bekent ze; want de wegen van de Heere zijn recht, en de rechtvaardigen zullen daarin wandelen, maar de overtreders zullen daarin vallen.", "2 Kron 17:4": "Maar hij zocht de God van zijn vader, en wandelde in Zijn geboden, en niet naar het doen van Israël.", "1 Kon 13:21": "en hij riep tegen de man van God die uit Juda gekomen was, en zei: Zo zegt de HEERE: Omdat u opstandig bent geweest tegen de mond van de HEERE, en het gebod niet gehouden hebt dat de HEERE, uw God, u geboden had,", "Ps 73:19": "Hoe worden zij als in een ogenblik tot verwoesting, komen zij aan hun einde, gaan zij te niet van verschrikkingen!", "1 Sam 15:9": "Doch Saul en het hele volk verschoonden Agag, en de beste schapen, en runderen, en het naastbeste, en de lammeren, en alles wat goed was, en zij wilden dat niet verbannen; maar alles wat minderwaardig was en waardeloos, dat verbanden zij.", "Richt 14:4": "Zijn vader nu en zijn moeder wisten niet dat dit van de HEERE was, dat hij een gelegenheid zocht tegen de Filistijnen; want de Filistijnen heersten in die tijd over Israël.", "1 Kon 12:15": "Zo hoorde de koning niet naar het volk; want deze ommekeer kwam van de HEERE, opdat Hij Zijn woord zou bevestigen, dat de HEERE door de dienst van Ahia, de Siloniet, gesproken had tot Jerobeam, de zoon van Nebat.", "Hand 4:19": "Maar Petrus en Johannes antwoordden hun: Oordeelt u zelf, of het recht is voor God, meer naar u te luisteren dan naar God.", "Matt 10:37": "Wie vader of moeder liefheeft boven Mij, is Mij niet waard; en wie zoon of dochter liefheeft boven Mij, is Mij niet waard.", "Jer 51:22": "En door u zal Ik in stukken slaan de man en de vrouw; en door u zal Ik in stukken slaan de oude en de jonge; en door u zal Ik in stukken slaan de jongeling en de jonkvrouw.", "2 Kon 19:26": "Daarom waren hun inwoners machteloos; zij waren verslagen en beschaamd; zij waren als het gras van het veld, en het groene gras, het hooi van de daken, en het verschroeide koren, voordat het volgroeid is.", "Jer 51:20": "U bent Mij een voorhamer, en oorlogswapens; en door u zal Ik volken in stukken slaan, en door u zal Ik koninkrijken verderven.", "Gen 6:4": "In die dagen waren er reuzen op de aarde, en ook daarna, toen Gods zonen tot de dochters der mensen ingegaan waren, en zich kinderen verwekt hadden; deze zijn de geweldigen, die van ouds geweest zijn, mannen van naam.", "2 Kon 9:25": "Toen zei Jehu tegen Bidkar, zijn hoofdman: Neem hem op, werp hem op dat stuk land van Naboth, de Jizreëliet; want gedenk, toen ik en u samen achter zijn vader Achab reden, dat de HEERE hem deze last oplegde, en zei:", "2 Kon 9:6": "Toen stond hij op, en ging het huis in; hij goot de olie op zijn hoofd, en zei tegen hem: Zo zegt de HEERE, de God van Israël: Ik heb u gezalfd tot koning over het volk van de HEERE, over Israël.", "2 Kon 10:33": "Vanaf de Jordaan, tegen de opgang van de zon, het gehele land van Gilead, van de Gadieten, en van de Rubenieten, en van de Manassieten; van Aroër, dat aan de beek van Arnon is, en Gilead, en Basan.", "2 Kron 23:15": "En zij grepen haar vast, en zij ging naar de ingang van de Paardenpoort, naar het huis van de koning; en zij doodden haar daar.", "Jes 41:15": "Zie, Ik heb u gemaakt tot een scherpe nieuwe dorsslede, die scherpe punten heeft; u zult bergen dorsen en verpulveren, en heuvels zult u maken als kaf.", "2 Kon 9:7": "En u zult het huis van Achab, uw heer, verslaan, opdat Ik het bloed van Mijn knechten, de profeten, en het bloed van alle knechten van de HEERE, wreekt op de hand van Izebel.", "2 Sam 7:14": "Ik zal hem tot een Vader zijn, en hij zal Mij tot een zoon zijn; wanneer hij misdoet, zal Ik hem straffen met een mensenroede en met plagen van de mensenkinderen.", "2 Kon 9:17": "De wachter nu stond op de toren te Jizreël, en zag de troep van Jehu, toen hij aankwam, en zei: Ik zie een troep. Toen zei Joram: Neem een ruiter, en stuur die hun tegemoet, en laat hij zeggen: Is het vrede?", "2 Kon 9:24": "Maar Jehu spande de boog met volle kracht, en schoot Joram tussen zijn armen, zodat de pijl door zijn hart naar buiten kwam; en hij zeeg neer in zijn wagen.", "Jes 10:5": "Wee de Assyriër, die de roede van Mijn toorn is, en Mijn grimmigheid is een stok in hun hand!", "2 Kon 11:15": "Maar de priester Jojada gebood aan de leiders van honderd, die over het leger gesteld waren, en zei tegen hen: Breng haar naar buiten, tot buiten de gelederen, en dood wie haar volgt, met het zwaard; want de priester had gezegd: Laat haar niet in het huis van de HEERE gedood worden.", "2 Kron 23:12": "Toen Athalia nu de stem van het volk hoorde, dat toeliep en de koning prees, kwam zij naar het volk in het huis van de HEERE.", "2 Kon 9:27": "Toen Ahazia, de koning van Juda, dat zag, vluchtte hij via de weg naar het huis van de hoftuin; maar Jehu vervolgde hem, en zei: Sla hem ook neer op de wagen, bij de opgang naar Gur, die bij Jibleam is; en hij vluchtte naar Megiddo, en stierf daar.", "Gen 6:5": "En de HEERE zag dat de slechtheid van de mens groot was op de aarde, en dat elk bedenksel van de gedachten van zijn hart alle dagen alleen maar slecht was.", "1 Kon 15:4": "Maar om Davids wil gaf de HEERE, zijn God, hem een lamp in Jeruzalem, door zijn zoon na hem te verwekken en Jeruzalem te bevestigen.", "Ps 17:13": "Sta op, HEERE, kom hem voor, werp hem neer; bevrijd mijn ziel met Uw zwaard van de goddeloze;", "1 Sam 15:3": "Ga nu heen, en sla Amalek, en verban alles wat hij heeft, en verschoon hem niet; maar dood van de man af tot de vrouw toe, van de kinderen tot de zuigelingen, van de ossen tot de schapen, van de kamelen tot de ezels toe.", "2 Kron 33:25": "Maar het volk van het land sloeg allen die de samenzwering tegen de koning Amon gemaakt hadden; en het volk van het land maakte zijn zoon Josia koning in zijn plaats.", "2 Kon 9:20": "En de wachter meldde dit, en zei: Hij is tot bij hen gekomen, maar hij komt niet terug; en het rijden is als het rijden van Jehu, de zoon van Nimsi, want hij rijdt onzinnig.", "Ps 27:5": "Want Hij verbergt mij in Zijn hut, op de dag van het kwaad; Hij verbergt mij in het verborgene van Zijn tent; Hij verhoogt mij op een rotssteen.", "Ps 17:14": "Met Uw hand van de mensen, o HEERE! Van de mensen, die van de wereld zijn, wier deel in dit leven is, wier buik U vult met Uw verborgen schat; de kinderen worden verzadigd, en zij laten hun overschot achter aan hun kinderen.", "1 Sam 15:12": "Daarna maakte Samuël zich ‘s morgens vroeg op, Saul tegemoet; en het werd Samuël bericht: Saul is te Karmel gekomen, en zie, hij heeft voor zichzelf een gedenkteken opgericht; daarna is hij omgetrokken, en verdergegaan, en naar Gilgal afgedaald.", "2 Kon 19:25": "Hebt u niet gehoord dat Ik dit lang van tevoren gedaan heb, en het van oude dagen af gevormd heb? Nu heb Ik het laten komen, dat u de versterkte steden zou verstoren tot puinhopen.", "2 Kon 11:1": "Toen Athalia, de moeder van Ahazia, zag dat haar zoon dood was, maakte zij zich op en bracht al het koninklijke nageslacht om.", "2 Kon 9:26": "Zeker heb Ik gisteravond het bloed van Naboth gezien, en het bloed van zijn zonen, zegt de HEERE, en Ik zal het u vergelden op dit stuk land, zegt de HEERE. Nu dan, neem hem op, werp hem op dat stuk land, naar het woord van de HEERE.", "2 Kon 11:13": "Toen Athalia de stem hoorde van de lijfwacht en van het volk, kwam zij bij het volk in het huis van de HEERE.", "2 Kron 18:31": "Het gebeurde dan, toen de aanvoerders van de wagens Josafat zagen, dat zij zeiden: Dat is de koning van Israël; en zij trokken om hem heen om te strijden; maar Josafat riep, en de HEERE hielp hem, en God bracht hen ertoe van hem weg te trekken.", "Ps 33:10": "De HEERE vernietigt de raad van de heidenen; Hij breekt de gedachten van de volken.", "2 Kon 10:13": "vond Jehu de broeders van Ahazia, de koning van Juda, en hij zei: Wie bent u? En zij zeiden: Wij zijn de broeders van Ahazia, en zijn afgekomen, om de zonen van de koning en de zonen van de koningin te groeten.", "Ps 9:17": "De HEERE is bekend geworden; Hij heeft recht gedaan; de goddeloze is verstrikt in het werk van zijn handen! Higgajon, Sela.", "2 Kron 23:13": "En zij keek toe; en zie, de koning stond bij zijn pilaar, bij de ingang; en de leiders en de trompetten waren bij de koning; en heel het volk van het land was blij, en blies op de trompetten; en de zangers waren er met muzikale instrumenten, en gaven aanwijzingen om lof te zingen; toen scheurde Athalia haar kleren, en riep: Verraad, verraad!", "2 Kon 9:22": "Het gebeurde nu, toen Joram Jehu zag, dat hij zei: Is het ook vrede, Jehu? Maar hij zei: Wat vrede, zolang de hoererijen van uw moeder Izebel, en haar toverijen, zo veel zijn?", "Ezech 40:46": "Maar de kamer, waarvan de voorkant de weg naar het noorden ligt, is voor de priesters die de wacht van het altaar waarnemen; dat zijn de kinderen van Zadok, die uit de kinderen van Levi tot de HEERE naderen om Hem te dienen.", "2 Kron 24:18": "Zo verlieten zij het huis van de HEERE, de God van hun vaderen, en dienden de gewijde palen en de afgoden; toen kwam er grote toorn over Juda en Jeruzalem, om deze schuld van hen.", "2 Kon 8:27": "En hij ging de weg van het huis van Achab, en deed wat slecht was in de ogen van de HEERE, zoals het huis van Achab; want hij was een schoonzoon van het huis van Achab.", "2 Kron 21:17": "Zij trokken op tegen Juda, braken erin door en voerden al het bezit weg dat in het huis van de koning gevonden werd, zelfs ook zijn kinderen en zijn vrouwen; zodat hem geen zoon overbleef, behalve Joahaz, de jongste van zijn zonen.", "2 Kron 21:16": "Zo wekte de HEERE tegen Joram de geest op van de Filistijnen en de Arabieren, die aan de zijde van de Moren wonen.", "2 Kron 21:20": "Hij was tweeëndertig jaar oud toen hij koning werd, en regeerde acht jaar in Jeruzalem; en hij ging heen zonder dat men hem miste; en zij begroeven hem in de stad van David, maar niet in de graven van de koningen.", "2 Kon 8:29": "Toen keerde koning Joram terug, om zich in Jizreël te laten genezen van de verwondingen die de Syriërs hem in Rama toegebracht hadden, toen hij tegen Hazaël, de koning van Syrië, streed; en Ahazia, de zoon van Jehoram, de koning van Juda, kwam naar Jizreël om Joram, de zoon van Achab, te bezoeken, want hij was ziek.", "1 Sam 15:16": "Toen zei Samuël tegen Saul: Houd op, dan zal ik u vertellen wat de HEERE vannacht tot mij gesproken heeft. Hij dan zei tegen hem: Spreek.", "1 Sam 15:10": "Toen kwam het woord van de HEERE tot Samuël:", "2 Kron 23:14": "Maar de priester Jojada bracht de aanvoerders van de honderdtallen, die over het leger gesteld waren, naar buiten, en zei tegen hen: Breng haar naar buiten, tussen de gelederen door, en wie haar volgt, zal met het zwaard gedood worden; want de priester had gezegd: U zult haar niet doden in het huis van de HEERE.", "2 Kon 10:32": "In die dagen begon de HEERE Israël in te korten, want Hazaël sloeg hen in alle grensgebieden van Israël:", "Gen 27:13": "En zijn moeder zei tegen hem: Uw vloek zij op mij, mijn zoon! luister alleen naar mijn stem, en ga, haal ze voor mij.", "1 Kon 22:52": "Ahazia, de zoon van Achab, werd koning over Israël te Samaria, in het zeventiende jaar van Josafat, de koning van Juda, en regeerde twee jaar over Israël.", "2 Kron 23:1": "Maar in het zevende jaar bemoedigde Jojada zich, en hij nam de leiders van de honderdtallen, Azarja, de zoon van Jeroham, en Ismaël, de zoon van Johanan, en Azarja, de zoon van Obed, en Maaseja, de zoon van Adaja, en Elisafat, de zoon van Zichri, met zich in een verbond.", "Mal 2:15": "Heeft Hij niet maar één gemaakt, hoewel Hij van de Geest overvloed had? En waarom die ene? Hij zocht een zaad van God. Daarom, wees op uw hoede met uw geest, en laat niemand trouweloos handelen tegen de vrouw van zijn jeugd.", "1 Kron 3:11": "zijn zoon was Joram; zijn zoon was Ahazia; zijn zoon was Joas;", "2 Sam 7:13": "Die zal voor Mijn Naam een huis bouwen; en Ik zal de troon van zijn koninkrijk bevestigen tot in eeuwigheid.", "2 Kron 17:3": "En de HEERE was met Josafat; want hij wandelde in de eerdere wegen van zijn vader David, en zocht de Baäls niet.", "2 Kron 36:1": "Toen nam het volk van het land Joahaz, de zoon van Josia, en zij maakten hem koning in de plaats van zijn vader, te Jeruzalem.", "2 Kon 9:14": "Zo smeedde Jehu, de zoon van Josafat, de zoon van Nimsi, een samenzwering tegen Joram. (Joram had namelijk Ramoth in Gilead bewaakt, hij en heel Israël, vanwege Hazaël, de koning van Syrië;", "1 Sam 15:18": "En de HEERE heeft u op weg gezonden, en gezegd: Ga heen en verban de zondaars, de Amalekieten, en strijd tegen hen, totdat u hen vernietigt.", "2 Kron 21:7": "Doch de HEERE wilde het huis van David niet te gronde richten, omwille van het verbond dat Hij met David gesloten had; en zoals Hij gezegd had hem en zijn zonen voor altijd een lamp te zullen geven.", "2 Kon 11:3": "En hij was met haar verborgen in het huis van de HEERE, zes jaar; en Athalia regeerde over het land.", "2 Kron 23:3": "En heel de gemeente sloot een verbond in het huis van God, met de koning; en hij zei tegen hen: Zie, de zoon van de koning zal koning zijn, zoals de HEERE over de zonen van David gesproken heeft.", "Jes 10:6": "Ik zal hem zenden tegen een huichelachtig volk, en Ik zal hem bevel geven tegen het volk van Mijn verbolgenheid; opdat hij de roof rooft, en plundert de plundering, en het stelt ter vertreding, als het slijk van de straten.", "Gen 27:12": "Misschien zal mijn vader mij betasten, en dan zal ik in zijn ogen zijn als een bedrieger; zo zou ik een vloek over mij halen, en geen zegen.", "Jer 51:21": "En door u zal Ik in stukken slaan het paard en zijn ruiter; en door u zal Ik in stukken slaan de wagen en zijn ruiter.", "Jer 27:8": "En het zal gebeuren: het volk en het koninkrijk dat hem, Nebukadnezar, de koning van Babel, niet zal dienen, en dat zijn hals niet onder het juk van de koning van Babel zal geven, over dat volk zal Ik, spreekt de HEERE, straf brengen door het zwaard, en door de honger, en door de pest, totdat Ik ze door zijn hand zal hebben weggevaagd.", "Mal 4:3": "En u zult de goddelozen vertreden, want zij zullen as worden onder de zolen van uw voeten, op die dag die Ik maken zal, zegt de HEERE van de heerscharen.", "2 Kon 8:25": "In het twaalfde jaar van Joram, de zoon van Achab, de koning van Israël, begon Ahazia, de zoon van Jehoram, de koning van Juda, te regeren.", "1 Sam 15:13": "Samuël nu kwam bij Saul, en Saul zei tegen hem: Gezegend bent u door de HEERE! Ik heb het woord van de HEERE volbracht.", "Spr 21:30": "Er is geen wijsheid, en er is geen verstand, en er is geen raad tegen de HEERE.", "Jer 12:1": "Ú zou rechtvaardig zijn, HEERE, wanneer ik tegen U zou twisten; ik zal echter over Uw oordelen met U spreken; waarom is de weg van de goddelozen voorspoedig, waarom hebben zij rust, allen die trouweloos trouweloosheid bedrijven?", "2 Kron 21:6": "En hij ging de weg van de koningen van Israël, zoals het huis van Achab deed; want hij had de dochter van Achab tot vrouw; en hij deed wat slecht was in de ogen van de HEERE.", "2 Kon 11:12": "Daarna bracht hij de zoon van de koning naar voren en zette hem de kroon op, en gaf hem de getuigenis; en zij maakten hem koning en zalfden hem; daarbij klapten zij in de handen en zeiden: Leve de koning!", "1 Sam 15:1": "Toen zei Samuël tegen Saul: De HEERE heeft mij gezonden om u tot koning te zalven over Zijn volk, over Israël; hoor dan nu naar de stem van de woorden van de HEERE.", "2 Kron 18:3": "Want Achab, de koning van Israël, zei tegen Josafat, de koning van Juda: Zult u met mij meegaan naar Ramoth in Gilead? En hij zei tegen hem: Ik zal zijn zoals u bent, en zoals uw volk is, zo zal mijn volk zijn, en wij zullen met u zijn in deze strijd.", "1 Sam 15:7": "Toen sloeg Saul de Amalekieten van Havila af, tot daar waar u komt bij Sur, dat voor Egypte ligt.", "2 Kon 10:14": "Toen zei hij: Grijpt hen levend. En zij grepen hen levend; en zij slachtten hen bij de put van Beth-heked, tweeënveertig mannen, en hij liet niemand van hen over.", "1 Kon 19:16": "Ook zult u Jehu, de zoon van Nimsi, zalven tot koning over Israël; en Elisa, de zoon van Safat, uit Abel-Mehola, zult u tot profeet zalven in uw plaats.", "2 Kon 8:28": "En hij trok met Joram, de zoon van Achab, ten strijde tegen Hazaël, de koning van Syrië, naar Ramoth in Gilead; en de Syriërs verwondden Joram.", "2 Kron 21:4": "Toen Joram was opgestaan over het koninkrijk van zijn vader, en zich versterkt had, doodde hij al zijn broers met het zwaard, en ook enkele van de leiders van Israël.", "2 Kon 11:14": "En zij zag toe, en zie, de koning stond bij de pilaar, naar de gewoonte, en de leiders en de trompetten bij de koning; en al het volk van het land was blij en blies op trompetten. Toen scheurde Athalia haar kleren en riep: Verraad, verraad!", "Micha 6:16": "Want de inzettingen van Omri worden onderhouden, en al het werk van het huis van Achab; en u wandelt in hun raadslagen; opdat Ik u stel tot verwoesting, en haar inwoners tot aanfluiting; zo zult u de smaad van Mijn volk dragen.", "Spr 19:27": "Laat af, mijn zoon, om, terwijl u de tucht hoort, af te dwalen van de woorden van de kennis.", "Jer 51:23": "En door u zal Ik in stukken slaan de herder en zijn kudde; en door u zal Ik in stukken slaan de akkerman en zijn juk ossen; en door u zal Ik in stukken slaan landvoogden en overheden.", "Ps 12:9": "De goddelozen lopen rond aan alle kanten, wanneer de snoodsten van de mensenkinderen verhoogd worden.", "2 Kon 9:29": "In het elfde jaar van Joram, de zoon van Achab, was Ahazia koning geworden over Juda.", "2 Kon 9:34": "Toen hij nu binnengekomen was, en gegeten en gedronken had, zei hij: Kijk nu naar die vervloekte, en begraaf haar; want zij is een koningsdochter.", "1 Sam 15:5": "Toen Saul tot aan de stad Amalek kwam, legde hij een hinderlaag in het dal.", "Deut 7:4": "Want zij zouden uw zonen van Mij doen afwijken, zodat zij andere goden zouden dienen; en de toorn van de HEERE zou tegen u ontsteken, en u snel verdelgen.", "1 Kon 22:54": "En hij diende Baäl, en boog zich voor hem neer, en tergde de HEERE, de God van Israël, naar alles wat zijn vader gedaan had.", "1 Sam 15:2": "Zo zegt de HEERE van de heerscharen: Ik heb bezocht wat Amalek aan Israël gedaan heeft, hoe hij zich tegen hem gesteld heeft op de weg, toen hij uit Egypte opkwam.", "Richt 17:4": "Maar hij gaf dat geld aan zijn moeder terug. En zijn moeder nam tweehonderd zilverlingen, en gaf ze aan de goudsmid, die maakte daarvan een gesneden beeld en een gegoten beeld; dat was in het huis van Micha.", "Spr 1:10": "Mijn zoon! als de zondaars u aanlokken, stem er niet mee in;", "2 Kon 11:2": "Maar Joseba, de dochter van koning Joram, de zuster van Ahazia, nam Joas, de zoon van Ahazia, en stal hem uit het midden van de zonen van de koning die gedood werden. Zij zette hem en zijn voedster in een slaapkamer en verborg hem voor Athalia, zodat hij niet gedood werd.", "2 Kon 9:19": "Toen stuurde hij een tweede ruiter te paard; en toen deze bij hen gekomen was, zei hij: Zo zegt de koning: Is het vrede? En Jehu zei: Wat hebt u met de vrede te maken? Kom achter mij.", "2 Kon 11:16": "En zij legden de handen aan haar; en zij ging de weg van de ingang der paarden naar het huis van de koning, en zij werd daar gedood.", "2 Kon 9:16": "Toen reed Jehu, en trok naar Jizreël; want Joram lag daar; en Ahazia, de koning van Juda, was afgekomen om Joram te bezoeken.", "Richt 17:5": "En de man Micha had een godshuis; en hij maakte een efod, en terafim, en stelde een van zijn zonen aan, zodat hij hem tot priester was.", "Hab 1:12": "Bent U niet van ouds af de HEERE, mijn God, mijn Heilige? Wij zullen niet sterven; o HEERE! Tot een oordeel hebt U hem gesteld, en o Rots! Om te straffen hebt U hem gegrondvest.", "1 Sam 15:8": "En hij ving Agag, de koning van de Amalekieten, levend; maar al het volk verbande hij door de scherpte van het zwaard.", "1 Sam 15:15": "Saul nu zei: Ze hebben ze van de Amalekieten gebracht, want het volk heeft de beste schapen en runderen verschoond, om ze aan de HEERE, uw God, te offeren; maar de rest hebben wij verbannen.", "2 Kon 12:18": "Maar Joas, de koning van Juda, nam al de geheiligde dingen die Josafat, en Joram, en Ahazia, zijn vaderen, de koningen van Juda, geheiligd hadden, en zijn eigen geheiligde dingen, en al het goud dat gevonden werd in de schatten van het huis van de HEERE en van het huis van de koning, en zond het aan Hazaël, de koning van Syrië; toen trok hij weg van Jeruzalem.", "Ps 1:1": "Gelukkig is de man die niet wandelt in de raad van de goddelozen, noch staat op de weg van de zondaars, noch zit op de zetel van de spotters;", "2 Kon 9:28": "En zijn knechten voerden hem naar Jeruzalem, en zij begroeven hem in zijn graf, bij zijn vaderen in de stad van David.", "2 Kon 8:26": "Ahazia was tweeëntwintig jaar oud toen hij koning werd, en regeerde één jaar in Jeruzalem; en de naam van zijn moeder was Athalia, de dochter van Omri, de koning van Israël.", "Ps 73:14": "Want ik ben de hele dag geplaagd, en mijn straf is er elke morgen.", "2 Kron 24:17": "Maar na de dood van Jojada kwamen de vorsten van Juda, en bogen zich neer voor de koning; toen luisterde de koning naar hen.", "Jes 46:10": "Die vanaf het begin aan verkondigt het einde, en van oudsher af die dingen, die nog niet gebeurd zijn; Die zegt: Mijn raad zal standhouden, en Ik zal al Mijn welbehagen doen.", "Ps 73:18": "Zeker, U zet hen op gladde plaatsen; U doet hen vallen in verwoestingen.", "Gen 3:15": "En Ik zal vijandschap zetten tussen u en de vrouw, en tussen uw nageslacht en haar Nageslacht; Dat zal u de kop vermorzelen, en u zult Het de hiel vermorzelen.", "2 Kon 9:15": "maar de koning Joram was teruggekeerd om zich in Jizreël te laten genezen van de verwondingen die de Syriërs hem toegebracht hadden, toen hij streed tegen Hazaël, de koning van Syrië.) En Jehu zei: Als dit uw wens is, laat dan niemand uit de stad ontkomen, die dit in Jizreël zou gaan vertellen.", "Dan 5:22": "En u, Belsazar, zijn zoon! U hebt uw hart niet vernederd, hoewel u dit alles goed geweten hebt.", "Ezech 40:45": "En hij sprak tot mij: Deze kamer, waarvan de voorkant de weg naar het zuiden ligt, is voor de priesters die de wacht van het huis waarnemen.", "2 Kron 19:2": "En Jehu, de zoon van Hanani, de ziener, ging naar buiten, hem tegemoet, en zei tegen koning Josafat: Zou u de goddeloze helpen, en hen liefhebben die de HEERE haten? Daarom is er nu van het aangezicht van de HEERE grote toorn over u.", "1 Kon 14:13": "En heel Israël zal hem beklagen en hem begraven; want deze alleen van Jerobeam zal in het graf komen, omdat in hem iets goeds gevonden is voor de HEERE, de God van Israël, in het huis van Jerobeam.", "2 Kron 10:15": "Zo luisterde de koning niet naar het volk; want deze ommekeer kwam van God, opdat de HEERE Zijn woord zou bevestigen, dat Hij door de dienst van Ahia, de Siloniet, gesproken had tot Jerobeam, de zoon van Nebat.", "1 Kon 22:3": "Toen zei de koning van Israël tegen zijn knechten: Weet u dat Ramoth in Gilead van ons is? En wij blijven stil, zonder het uit de hand van de koning van Syrië te nemen.", "Hand 4:28": "Om te doen alles wat Uw hand en Uw raad van tevoren bepaald hadden dat zou gebeuren.", "1 Sam 15:19": "Waarom toch hebt u niet naar de stem van de HEERE gehoord, maar bent u op de buit afgevlogen, en hebt u gedaan wat kwaad was in de ogen van de HEERE?", "Jes 65:8": "Zo zegt de HEERE: Zoals wanneer men most in een tros druiven vindt, men zegt: Verderf ze niet, want er is een zegen in; zo zal Ik het om Mijn knechten doen, dat Ik hen niet allen verderf.", "Deut 32:35": "Aan Mij is de wraak en de vergelding, op de tijd dat hun voet zal wankelen; want de dag van hun ondergang is nabij, en de dingen die hun zullen gebeuren, haasten zich.", "2 Kon 9:23": "Toen wendde Joram zijn hand, en vluchtte, en zei tegen Ahazia: Het is bedrog, Ahazia!", "1 Sam 15:17": "En Samuël zei: Is het niet zo, toen u klein was in uw eigen ogen, dat u het hoofd van de stammen van Israël geworden bent, en dat de HEERE u tot koning over Israël gezalfd heeft?", "2 Kon 9:18": "En de ruiter te paard ging hem tegemoet, en zei: Zo zegt de koning: Is het vrede? En Jehu zei: Wat hebt u met de vrede te maken? Kom achter mij. En de wachter meldde het, en zei: De bode is bij hen gekomen, maar hij komt niet terug.", "2 Kon 9:21": "Toen zei Joram: Span aan. En men spande zijn wagen aan. Zo trok Joram, de koning van Israël, uit, en Ahazia, de koning van Juda, ieder op zijn wagen; en zij trokken Jehu tegemoet, en vonden hem op het stuk land van Naboth, de Jizreëliet.", "Deut 7:3": "U zult zich ook niet met hen verzwageren; uw dochters zult u niet geven aan hun zonen, en hun dochters niet nemen voor uw zonen.", "Jes 13:5": "Zij komen uit een ver land, van het einde van de hemel; de HEERE en de instrumenten van Zijn gramschap, om dat hele land te verderven."}, "noten": {}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${md(D.vertalingen[vertaling][n] || '—')}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+function paneelInhoud(n, tab) {
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : 'vertalingen');
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  const tekst = popupTekst(ref);
+  if (!tekst) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${md(tekst)}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>
