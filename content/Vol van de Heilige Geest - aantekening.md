@@ -8,9 +8,9 @@ Dit beschrijft karakter, een bestendige geestelijke gesteldheid.
 
 **Lucas 1:15** - over Johannes de Doper:
 
-> hij zal al van de schoot van zijn moeder af vervuld worden met de Heilige Geest
+> ~~hij zal al van de schoot van zijn moeder af vervuld worden met de Heilige Geest~~
 
-**Lucas 4:1** - over Jezus, na Zijn doop:
+~~**Lucas 4:1** - over Jezus, na Zijn doop:~~
 
 > Jezus, vol van de Heilige Geest
 
