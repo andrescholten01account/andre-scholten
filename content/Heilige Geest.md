@@ -25,6 +25,14 @@ maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u
 En Jezus, vol van de Heilige Geest, keerde terug van de Jordaan, en werd door de Geest geleid in de woestijn;
 ~ [Lukas 4:1](https://andre-scholten.nl/bereastudiebijbel/lukas/4#v1) 
 
+Want hij zal groot zijn voor de Heere; hij zal geen wijn en geen sterke drank drinken, en hij zal met de Heilige Geest vervuld worden, al vanaf de moederschoot.
+~ [Lukas 1:15](https://andre-scholten.nl/bereastudiebijbel/lukas/1#v15) 
+
+> [!NOTE] Dit gaat over Johannes de doper ➔ zie [Lukas 1:13](https://andre-scholten.nl/bereastudiebijbel/lukas/1#v13)
+
+%%
+[[Vol van de Heilige Geest - aantekening]]
+%%
 ## Leiding van de Heilige Geest
 
 En Jezus, vol van de Heilige Geest, keerde terug van de Jordaan, en werd door de Geest geleid in de woestijn;
