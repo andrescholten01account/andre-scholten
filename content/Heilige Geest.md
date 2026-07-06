@@ -7,7 +7,7 @@ Maar de vrucht van de Geest is liefde, blijdschap, vrede, geduld, vriendelijkhei
 En Jezus keerde terug, door de kracht van de Geest, naar Galilea; en het gerucht over Hem verspreidde zich door het hele omliggende land.
 ~ [Lukas 4:14](https://andre-scholten.nl/bereastudiebijbel/lukas/4#v14) 
 
-> [!NOTE] In KJV staat er "in the power of the Spirit"
+> [!NOTE] In KJV staat er "in the power of the Spirit" ➔ dus "in de kracht van de Geest""
 
 maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u zult Mijn getuigen zijn, zowel in Jeruzalem als in heel Judea en Samaria, en tot aan het uiterste van de aarde.
 ~ [Handelingen 1:8](https://andre-scholten.nl/bereastudiebijbel/handelingen/1#v8) 
