@@ -5,7 +5,7 @@ Waarom vervuld worden met de Heilige Geest?
 Ik denk dat de hoofdreden is het ontvangen van kracht. Lees Handelingen 1:8 hierover:
 
 >maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u zult Mijn getuigen zijn, zowel in Jeruzalem als in heel Judea en Samaria, en tot aan het uiterste van de aarde.
->~ [Handelingen 1:8](https://pinksterzegen.nl/bereastudiebijbel/handelingen/1#v8) 
+>~ [Handelingen 1:8](https://andre-scholten.nl/bereastudiebijbel/handelingen/1#v8) 
 
 Ik merk dat ik kracht nodig heb in mijn leven als christen. Ik kom kracht tekort. Hier kan de Heilige Geest bij helpen. 
 

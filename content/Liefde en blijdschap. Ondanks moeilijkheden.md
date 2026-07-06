@@ -1,5 +1,5 @@
 >Maar u, wees waakzaam in alles, verdraag verdrukkingen, doe het werk van een evangelist, vervul uw dienst ten volle.
->~ [2 Timotheüs 4:5](https://pinksterzegen.nl/bereastudiebijbel/2-timotheus/4#v5) 
+>~ [2 Timotheüs 4:5](https://andre-scholten.nl/bereastudiebijbel/2-timotheus/4#v5) 
 
 Ergens had ik gehoopt dat wanneer je vervuld bent met de Heilige Geest, dat je leven altijd mooi en geweldig is. In deze tekst lezen we over verdrukking. Dat is niet mooi.
 

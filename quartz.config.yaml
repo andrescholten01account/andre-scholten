@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: nl-NL
-  baseUrl: pinksterzegen.nl
+  baseUrl: andre-scholten.nl
   ignorePatterns:
     - private
     - templates
