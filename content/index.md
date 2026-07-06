@@ -21,8 +21,18 @@ Als christen wil ik Jezus trouw volgen. Ik heb ontdekt hoe onmogelijk dat is in 
 ## Snellink
 
 - [[Heilige Geest]]
-- [[De Bijbel op onderwerp]]
-- [[Bijbeluitleg]]
+
+##
+## Footer
+
+| Links                      | Midden      | Rechts         |
+| -------------------------- | ----------- | -------------- |
+| BereaStudieBijbel          | Zoekfunctie | Over           |
+| [[BereaBijbel]]            |             | Contact        |
+| [[De Bijbel op onderwerp]] | Blogupdate  | Verantwoording |
+| [[Bijbeluitleg]]           |             | Uitgangspunten |
+
+%%
 
 ---
 
@@ -31,8 +41,6 @@ Als christen wil ik Jezus trouw volgen. Ik heb ontdekt hoe onmogelijk dat is in 
 [[Bibliotheek]]
 
 [[Je kinderen opvoeden. Wees daarom vervuld met de Geest]]
-
-[[StudieBijbel]]
 
 %%
 

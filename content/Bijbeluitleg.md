@@ -1,3 +1,5 @@
+Een goede Bijbeluitleg gebeurt volgens bepaalde richtlijnen. Eén daarvan is dat de Bijbel zichzelf uitlegt. Dit wordt ook wel genoemd: Schrift met Schrift vergelijken. 
+
 1 - Schrift met Schrift vergelijken
 
 2 - Een gebeurtenis is geen gebod
