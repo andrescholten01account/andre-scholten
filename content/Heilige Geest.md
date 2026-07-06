@@ -26,10 +26,8 @@ En Jezus, vol van de Heilige Geest, keerde terug van de Jordaan, en werd door de
 En Jezus keerde terug, door de kracht van de Geest, naar Galilea; en het gerucht over Hem verspreidde zich door het hele omliggende land.
 ~ [Lukas 4:14](https://andre-scholten.nl/bereastudiebijbel/lukas/4#v14) 
 
-> [!NOTE] Vol van de Geest = in de kracht van de Geest
-> ➔ In KJV staat er "in the power of the Spirit"
-> ➔ Als je dan Lukas 4:1 vergelijkt met Lukas 4:14, dan kun je tot de conclusie komen dat: vol van de Heilige Geest = in de kracht van de Geest 
-
+> [!NOTE] In KJV staat er "in the power of the Spirit"
+ 
 ## Andere onderwerpen
 
 Blijdschap van de Geest
