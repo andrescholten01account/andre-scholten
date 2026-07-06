@@ -18,12 +18,28 @@ maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u
 [Meer teksten over de kracht van de Geest](https://www.google.com/search?client=firefox-b-d&q=Bijbeltekst%3A+Jezus+kwam+in+kracht+terug+uit+de+woestijn&udm=50&aep=10&ntc=1&mstk=AUtExfDyr9hvOV_uU4P5dyH7QccqoH79uPn68X11q-Y3spCdh7j7cspudSHmMA4buTsOcOpwYfm4q9y40aoPqrOrf742biCRt3xYaTocBBBwUGgX4Zswd7NtEroIhDdD1jY7b5iCZdmebx0eC8vT7x-rOw0irXazFxPHMheGXGFfFaSjYe96zHbvf2OIRWqX8_i4zvPoKRQmolMcKaExGOTJLVrHamWJ-i4Lm4s-rPutiM7OnD73n4qET1-60w&aioh=3&csuir=1&mtid=d21Gap-2CZyD9u8P1-PhmAw)
 %%
 
+## Vol van de Heilige Geest
+
+En Jezus, vol van de Heilige Geest, keerde terug van de Jordaan, en werd door de Geest geleid in de woestijn;
+~ [Lukas 4:1](https://andre-scholten.nl/bereastudiebijbel/lukas/4#v1) 
+
+En Jezus keerde terug, door de kracht van de Geest, naar Galilea; en het gerucht over Hem verspreidde zich door het hele omliggende land.
+~ [Lukas 4:14](https://andre-scholten.nl/bereastudiebijbel/lukas/4#v14) 
+
+
+➔ In KJV staat er "in the power of the Spirit"
+
+
+
+## Andere onderwerpen
+
 Blijdschap van de Geest
 Liefde van de Geest uitgestort in onze harten
 Hoe Heilige Geest ontvangen?
 ➔ Bidden (bid en u zult ontvangen)
 ➔ Handoplegging
 ➔ Zonder actie van mens (Heilige Geest valt op hen ➔ spreken in tongen)
+
 Bijbelteksten:
 ➔ Vervuld met de Geest
 ➔ Vervulling met de Geest
