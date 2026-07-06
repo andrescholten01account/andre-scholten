@@ -24,6 +24,11 @@ maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u
 
 En Jezus, vol van de Heilige Geest, keerde terug van de Jordaan, en werd door de Geest geleid in de woestijn;
 ~ [Lukas 4:1](https://andre-scholten.nl/bereastudiebijbel/lukas/4#v1) 
+
+## Leiding van de Heilige Geest
+
+En Jezus, vol van de Heilige Geest, keerde terug van de Jordaan, en werd door de Geest geleid in de woestijn;
+~ [Lukas 4:1](https://andre-scholten.nl/bereastudiebijbel/lukas/4#v1) 
  
 ## Andere onderwerpen
 
