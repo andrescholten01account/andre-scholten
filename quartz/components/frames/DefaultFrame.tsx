@@ -1,9 +1,11 @@
 import { PageFrame, PageFrameProps } from "./types"
 import HeaderConstructor from "../Header"
 import SiteHeaderConstructor from "../SiteHeader"
+import SiteFooterConstructor from "../SiteFooter"
 
 const Header = HeaderConstructor()
 const SiteHeader = SiteHeaderConstructor()
+const SiteFooter = SiteFooterConstructor()
 
 /**
  * The default page frame — three-column layout with left sidebar, center
@@ -21,7 +23,6 @@ export const DefaultFrame: PageFrame = {
     afterBody,
     left,
     right,
-    footer: Footer,
   }: PageFrameProps) {
     return (
       <>
@@ -57,7 +58,7 @@ export const DefaultFrame: PageFrame = {
             <BodyComponent {...componentData} />
           ))}
         </div>
-        <Footer {...componentData} />
+        <SiteFooter {...componentData} />
       </>
     )
   },

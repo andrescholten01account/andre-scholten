@@ -1,4 +1,7 @@
 import { PageFrame, PageFrameProps } from "./types"
+import SiteFooterConstructor from "../SiteFooter"
+
+const SiteFooter = SiteFooterConstructor()
 
 /**
  * Minimal page frame — no sidebars, no header/footer chrome. Only the
@@ -10,13 +13,13 @@ import { PageFrame, PageFrameProps } from "./types"
  */
 export const MinimalFrame: PageFrame = {
   name: "minimal",
-  render({ componentData, pageBody: Content, footer: Footer }: PageFrameProps) {
+  render({ componentData, pageBody: Content }: PageFrameProps) {
     return (
       <>
         <div class="center minimal">
           <Content {...componentData} />
         </div>
-        <Footer {...componentData} />
+        <SiteFooter {...componentData} />
       </>
     )
   },

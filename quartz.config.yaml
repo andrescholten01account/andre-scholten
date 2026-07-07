@@ -137,7 +137,7 @@ plugins:
       position: right
       priority: 10
   - source: github:quartz-community/search
-    enabled: false
+    enabled: true
     layout:
       position: afterBody
       priority: 10
