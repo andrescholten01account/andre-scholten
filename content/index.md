@@ -29,6 +29,7 @@ Een opwekking in Nederland. Gezinnen die toegewijd zijn aan God. Jezus volgen in
 
 - [[Bijbelteksten Heilige Geest]]
 
+%%
 ## Footer
 
 | Links                           | Midden | Rechts             |
@@ -43,12 +44,6 @@ Zoeken is al quartz-functie
 Blogupdate kan later onder Midden. 
 
 [[BereaBijbel]] ➔ link vanuit BereaStudieBijbel
-
-%%
-
----
-
-%%
 
 [[Je kinderen opvoeden. Wees daarom vervuld met de Geest]]
 
