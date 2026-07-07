@@ -25,10 +25,6 @@ Een opwekking in Nederland. Gezinnen die toegewijd zijn aan God. Jezus volgen in
 [[Start blog]] 
 29-06-2026
 
-## Snellink
-
-- [[Bijbelteksten Heilige Geest]]
-
 %%
 ## Footer
 
