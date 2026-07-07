@@ -43,15 +43,10 @@ Rechts:
 - Verantwoording1
 - [[Uitgangspunten]]
 
----
+## Meer
 
-Zoeken is al quartz-functie
-
-Blogupdate kan later onder Midden. 
-
-[[BereaBijbel]] ➔ link vanuit BereaStudieBijbel
-
-[[Je kinderen opvoeden. Wees daarom vervuld met de Geest]]
+- Blogupdate kan later onder Midden. 
+- [[BereaBijbel]] ➔ link vanuit BereaStudieBijbel
 
 %%
 
