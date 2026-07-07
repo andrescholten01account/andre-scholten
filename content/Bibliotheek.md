@@ -34,6 +34,8 @@ Gods Woord
 
 [[Hebr. 2 vers 17 - verzoenen]]
 
+[[Woord van Christus rijkelijk in u wonen]]
+
 ## Om te overwegen
 
 https://reformatie.nu/
