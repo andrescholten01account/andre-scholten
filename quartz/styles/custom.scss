@@ -151,6 +151,15 @@ h1 {
   display: none;
 }
 
+// Zijbalken zijn hier altijd leeg (explorer/graph/backlinks staan uit).
+// De standaard height:100vh + position:sticky rekte de hele pagina op tot
+// schermhoogte, wat een grote lege ruimte gaf boven de footer.
+.left.sidebar,
+.right.sidebar {
+  height: auto;
+  position: static;
+}
+
 // Footer tekst
 body::after {
   content: "Eigen geschreven tekst is vrij te gebruiken.";
