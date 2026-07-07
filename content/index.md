@@ -48,5 +48,7 @@ Blogupdate kan later onder Midden.
 
 [[Je kinderen opvoeden. Wees daarom vervuld met de Geest]]
 
+[[Hebr. 2 vers 17 - verzoenen]]
+
 %%
 
