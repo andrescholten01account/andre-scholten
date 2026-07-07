@@ -19,7 +19,7 @@ const SiteHeader: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) =>
       <h2 class="page-title">
         <a href={baseDir}>{title}</a>
       </h2>
-      <p class="site-subtitle">Jezus volgen in de kracht van de Geest</p>
+      <p class="site-subtitle">Persoonlijke blog</p>
       <nav class="site-nav">
         <a href={`${baseDir}/blog`}>Blog</a>
         <span class="nav-sep"> | </span>
