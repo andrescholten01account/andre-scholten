@@ -30,15 +30,24 @@ Een opwekking in Nederland. Gezinnen die toegewijd zijn aan God. Jezus volgen in
 - [[Bijbelteksten Heilige Geest]]
 
 %%
-
 ## Footer
 
-| Links                           | Midden | Rechts             |
-| ------------------------------- | ------ | ------------------ |
-| [[De Volle Pinksterzegen]]      | Zoeken | Over               |
-| [[Bijbelteksten Heilige Geest]] |        | Contact            |
-| BereaStudieBijbel               |        | Verantwoording1    |
-| [[Bibliotheek]]                 |        | [[Uitgangspunten]] |
+Links:
+- [[De Volle Pinksterzegen]]
+- [[Bijbelteksten Heilige Geest]]
+- BereaStudieBijbel
+- [[Bibliotheek]]
+
+Midden:
+- Zoekfunctie
+
+Rechts:
+- Over
+- Contact
+- Verantwoording1
+- [[Uitgangspunten]]
+
+---
 
 Zoeken is al quartz-functie
 
