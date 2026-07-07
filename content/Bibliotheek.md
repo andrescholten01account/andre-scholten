@@ -5,6 +5,8 @@ draft: false
 
 %%
 
+[[Backup - Over de BereaBijbel]]
+
 ➔ Pagina's kunnen als draft 
 ➔ ook "verborgen" (via een dubbel-procent-blok) 
 
