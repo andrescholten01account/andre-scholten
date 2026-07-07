@@ -4,11 +4,10 @@ draft: true
 [[Bijbeluitleg]]
 
 %%
+
 ➔ Pagina's kunnen als draft 
 ➔ ook %%verborgen%% 
-%%
 
-%%
 Geschiedenis
 ➔ De Oude Wereld (Genesis 1 - 11)
 ➔ [[Overgang tussen Genesis en Vaderlandse geschiedenis]]
@@ -23,6 +22,13 @@ Logica voor christenen
 ➔ Drogredenen
 ➔ Kritisch denken
 => zie Chatgpt/claude (of onedrive prullenbak)
+
+Opwekking
+Evangelisatie
+De Heilige Geest
+Bidden
+Vasten
+Gods Woord
 
 ## Om te overwegen
 
@@ -52,4 +58,6 @@ Documentaire: Kan ik dit nog geloven?
 https://www.youtube.com/watch?v=FWf6fGq-yKk
 
 ---
+
+%% 
 
