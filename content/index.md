@@ -29,7 +29,6 @@ Een opwekking in Nederland. Gezinnen die toegewijd zijn aan God. Jezus volgen in
 
 - [[Bijbelteksten Heilige Geest]]
 
-%%
 ## Footer
 
 | Links                           | Midden | Rechts             |
