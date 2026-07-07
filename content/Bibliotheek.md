@@ -32,6 +32,8 @@ Bidden
 Vasten
 Gods Woord
 
+[[Links]]
+
 ## Teksten
 
 [[Hebr. 2 vers 17 - verzoenen]]
@@ -73,6 +75,15 @@ ABC van het geloof voor kinderen
 ➔ 1689 / baptisten catechismussen / jerome beddome
 ➔ Matthew Henry (was voor jerome beddome ➔ zie BlueLetterBible)
 ➔ Westminster Shorter / Larger ➔ zie ook baptist versie van de Larger
+
+---
+
+_Het Guldenboekje; Eenige bijzonderheden uit den Bijbel en uit de Leer en de Gebruiken der Kerk, voor Catechesatiën, Scholen met den Bijbel en Huisgezinnen_.
+
+
+
+
+
 
 %% 
 
