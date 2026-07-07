@@ -41,6 +41,14 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
             var btn = document.querySelector(".search-button");
             if (btn) btn.click();
           });
+          document.addEventListener("nav", function () {
+            if (!/[?&]zoeken=1(&|$)/.test(window.location.search)) return;
+            var btn = document.querySelector(".search-button");
+            if (btn) btn.click();
+            var url = new URL(window.location.href);
+            url.searchParams.delete("zoeken");
+            window.history.replaceState(window.history.state, "", url);
+          });
           `,
         }}
       />
