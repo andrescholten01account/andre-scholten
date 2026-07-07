@@ -6,7 +6,7 @@ draft: false
 %%
 
 ➔ Pagina's kunnen als draft 
-➔ ook %%verborgen%% 
+➔ ook "verborgen" (via een dubbel-procent-blok) 
 
 Geschiedenis
 ➔ De Oude Wereld (Genesis 1 - 11)
