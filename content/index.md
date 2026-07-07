@@ -6,13 +6,13 @@ title: Home
 André Scholten
 andre-scholten.nl
 
-Jezus volgen in de kracht van de Geest
+Persoonlijke blog 
 
 [[Blog]] | [[De Volle Pinksterzegen|Boek]] | [Bijbel](/bereastudiebijbel/) 
 
 %%
 
-Een opwekking in Nederland. Gezinnen die toegewijd zijn aan God.  
+Een opwekking in Nederland. Gezinnen die toegewijd zijn aan God. Jezus volgen in de de kracht van de Geest.  
 
 ## Blog
 
