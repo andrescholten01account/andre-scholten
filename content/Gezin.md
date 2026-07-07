@@ -27,3 +27,7 @@ Kind en seksualiteit
 
 Baptist catechism for children
 
+ABC van het geloof voor kinderen
+
+Het Guldenboekje; Eenige bijzonderheden uit den Bijbel en uit de Leer en de Gebruiken der Kerk, voor Catechesatiën, Scholen met den Bijbel en Huisgezinnen.
+
