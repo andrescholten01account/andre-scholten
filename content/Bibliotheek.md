@@ -80,10 +80,7 @@ ABC van het geloof voor kinderen
 
 _Het Guldenboekje; Eenige bijzonderheden uit den Bijbel en uit de Leer en de Gebruiken der Kerk, voor Catechesatiën, Scholen met den Bijbel en Huisgezinnen_.
 
-
-
-
-
+➔ online zoeken bij gereformeerde online boeken
 
 %% 
 
