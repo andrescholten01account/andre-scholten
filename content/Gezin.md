@@ -19,3 +19,11 @@ christelijke gebeden voor kinderen
 ➔ zie boek: elke dag kinderdag: verjaardag
 How to be a father after Gods own heart ➔ ook in nl
 
+John Ploughman's Talk + Pictures 
+
+Kind en telefoon
+Kind en God
+Kind en seksualiteit
+
+Baptist catechism for children
+

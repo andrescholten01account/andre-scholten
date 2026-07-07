@@ -11,18 +11,13 @@ draft: false
 
 [[Gezin]]
 
-Logica voor christenen
-➔ Logica
-➔ Drogredenen
-➔ Kritisch denken
-=> zie Chatgpt/claude (of onedrive prullenbak)
+[[Logica voor christenen]]
 
-Opwekking
-Evangelisatie
-De Heilige Geest
-Bidden
-Vasten
-Gods Woord
+[[Opwekking in Nederland]]
+
+[[Spurgeon]]
+
+[[Schrijven]]
 
 [[Links]]
 

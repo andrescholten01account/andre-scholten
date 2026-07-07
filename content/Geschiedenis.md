@@ -4,3 +4,16 @@
 ➔ Zie claude/google/chatgpt
 ➔ Stamboom Scholten (+Henk + ik)
 
+## De Oude Wereld
+
+## Vaderlandse Geschiedenis
+
+- Oudhollandse recepten
+- Vaderlandse geschiedenis vanuit christelijk oogpunt
+- Oude liedjes
+- Oude rijmpjes
+- Almanakken
+- Tradities
+- Musea geschiedenis
+- Delpher
+
