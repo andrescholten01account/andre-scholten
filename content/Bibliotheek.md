@@ -1,6 +1,31 @@
 ---
 draft: true
 ---
+[[Bijbeluitleg]]
+
+%%
+➔ Pagina's kunnen als draft 
+➔ ook %%verborgen%% 
+%%
+
+%%
+Geschiedenis
+➔ De Oude Wereld (Genesis 1 - 11)
+➔ [[Overgang tussen Genesis en Vaderlandse geschiedenis]]
+➔ [[Vaderlandse geschiedenis]]
+➔ Zie claude/google/chatgpt
+➔ Stamboom Scholten (+Henk + ik)
+
+Gezin
+
+Logica voor christenen
+➔ Logica
+➔ Drogredenen
+➔ Kritisch denken
+=> zie Chatgpt/claude (of onedrive prullenbak)
+
+## Om te overwegen
+
 https://reformatie.nu/
 
 https://thelastreformation.com/join-the-movement/kickstart-weekend/

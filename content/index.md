@@ -25,20 +25,34 @@ Als christen wil ik Jezus trouw volgen. Ik heb ontdekt hoe onmogelijk dat is in 
 ##
 ## Footer
 
-| Links                      | Midden      | Rechts         |
-| -------------------------- | ----------- | -------------- |
-| BereaStudieBijbel          | Zoekfunctie | Over           |
-| [[BereaBijbel]]            |             | Contact        |
-| [[De Bijbel op onderwerp]] | Blogupdate  | Verantwoording |
-| [[Bijbeluitleg]]           |             | Uitgangspunten |
+| Links           | Midden      | Rechts         |
+| --------------- | ----------- | -------------- |
+|                 | Zoekfunctie | Over           |
+| [[BereaBijbel]] |             | Contact        |
+|                 | Blogupdate  | Verantwoording |
+|                 |             | Uitgangspunten |
+
+
+| Links                       | Midden | Rechts             |
+| --------------------------- | ------ | ------------------ |
+| De Volle Pinksterzegen      | Zoeken | Over               |
+| Bijbelteksten Heilige Geest |        | Contact            |
+| BereaStudieBijbel           |        | Verantwoording1    |
+| [[Bibliotheek]]             |        | [[Uitgangspunten]] |
+
+Zoeken is al quartz-functie
+
+Blogupdate kan later onder Midden. 
+
+BereaBijbel ➔ link vanuit BereaStudieBijbel
+
+[[De Bijbel op onderwerp]] - weg
 
 %%
 
 ---
 
 %%
-
-[[Bibliotheek]]
 
 [[Je kinderen opvoeden. Wees daarom vervuld met de Geest]]
 
