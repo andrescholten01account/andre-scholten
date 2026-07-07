@@ -43,11 +43,21 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
           });
           document.addEventListener("nav", function () {
             if (!/[?&]zoeken=1(&|$)/.test(window.location.search)) return;
-            var btn = document.querySelector(".search-button");
-            if (btn) btn.click();
             var url = new URL(window.location.href);
             url.searchParams.delete("zoeken");
             window.history.replaceState(window.history.state, "", url);
+            var pogingen = 0;
+            var iv = setInterval(function () {
+              pogingen++;
+              var container = document.querySelector(".search-container");
+              if (container && container.classList.contains("active")) {
+                clearInterval(iv);
+                return;
+              }
+              var btn = document.querySelector(".search-button");
+              if (btn) btn.click();
+              if (pogingen >= 20) clearInterval(iv);
+            }, 150);
           });
           `,
         }}
