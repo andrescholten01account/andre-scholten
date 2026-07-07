@@ -30,6 +30,10 @@ Bidden
 Vasten
 Gods Woord
 
+## Teksten
+
+[[Hebr. 2 vers 17 - verzoenen]]
+
 ## Om te overwegen
 
 https://reformatie.nu/
@@ -58,6 +62,13 @@ Documentaire: Kan ik dit nog geloven?
 https://www.youtube.com/watch?v=FWf6fGq-yKk
 
 ---
+
+ABC van het geloof
+ABC van het geloof voor kinderen
+➔ geloofsbelijdenissen
+➔ 1689 / baptisten catechismussen / jerome beddome
+➔ Matthew Henry (was voor jerome beddome ➔ zie BlueLetterBible)
+➔ Westminster Shorter / Larger ➔ zie ook baptist versie van de Larger
 
 %% 
 
