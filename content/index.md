@@ -16,14 +16,7 @@ Een opwekking in Nederland. Gezinnen die toegewijd zijn aan God. Jezus volgen in
 
 ## Blog
 
-[[Liefde en blijdschap. Ondanks moeilijkheden]]
-02-07-2026
-
-[[De vrucht van de Geest]]
-30-06-2026
-
-[[Start blog]] 
-29-06-2026
+Komt nog. 
 
 %%
 ## Footer
