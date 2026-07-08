@@ -36,9 +36,13 @@ Het Guldenboekje; Eenige bijzonderheden uit den Bijbel en uit de Leer en de Gebr
 Naam & Feit
 
 [[Kleine gedigten voor kinderen]]
+[[Proeve van kleine gedigten voor kinderen - Hiëronymus van Alphen]]
+Vervolg der kleine gedigten voor kinderen
+Tweede vervolg der kleine gedigten voor kinderen. 
 
 Hieronymus van Alphen ➔ https://www.dbnl.org/auteurs/auteur.php?id=alph002
 Misschien heeft hij wel meer werken voor kinderen
 
 [[Van Alphen's ABC Boekje]]
+
 
