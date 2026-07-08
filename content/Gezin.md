@@ -45,3 +45,41 @@ Misschien heeft hij wel meer werken voor kinderen
 
 [[Van Alphen's ABC Boekje]]
 
+Proeve van gedichten voor de jeugd – Petrus de Wakker van Zon
+https://www.dbnl.org/tekst/_vad003177901_01/_vad003177901_01_0067.php 
+-> klein gedeelte
+
+Gedichten voor kinderen - Katharina Wilhelmina Bilderdijk-Schweickhardt (1824)
+https://www.dbnl.org/tekst/bild001gedi03_01/bild001gedi03_01_0004.php
+https://www.dbnl.org/tekst/bild001gedi04_01/bild001gedi04_01_0015.php
+
+Gedichtjes voor kinderen (1849) - Prudens van Duyse
+https://www.dbnl.org/tekst/duys002gedi02_01/
+
+Gebeden voor kinderen(1833) - Petronella Moens
+https://www.dbnl.org/tekst/moen006gebe01_01/
+
+Gedichtjes voor kinderen – Jan Goeverneur: 
+
+Kleine gedichten voor kinderen – Nicolaas Anslijn: 
+
+Hymns for Children – Charles Wesley
+
+Gedichten voor de jeugd – Johannes Florentius Martinet
+
+Zedelijke en godsdienstige gezangen voor de jeugd – Jan Pieter Heije
+
+Liederen voor de jeugd – Hieronymus van Alphen
+
+Kindergedichten – Petrus Augustus de Génestet
+
+Hymns for the Amusement of Children – Christopher Smart
+
+Hymns in Prose for Children – Anna Laetitia Barbauld
+
+riginal Poems for Infant Minds – Jane Taylor & Ann Taylor
+
+https://books.google.com/ ➔ hier zoeken?
+
+catechisms for children
+catechismussen voor kinderen
