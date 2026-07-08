@@ -2,8 +2,9 @@ ABC for children
 1689 intro
 New England Primer
 Intro Jerome Beddome ➔ ik weet zo niet welke versie
-Intro divine & moral songs for children
-divine and moral songs for children
+[[Divine and Moral Songs for Children]]
+[[Divine and Moral Songs for Children - Preface]]
+
 you can bend the sapling, but not the tree
 nave + TTT ➔ children, parents, fathers
 chapel library ➔ tijdschrift ➔ parents, children, husband, wife
@@ -31,4 +32,6 @@ ABC van het geloof voor kinderen
 
 Het Guldenboekje; Eenige bijzonderheden uit den Bijbel en uit de Leer en de Gebruiken der Kerk, voor Catechesatiën, Scholen met den Bijbel en Huisgezinnen.
 ➔ online zoeken bij gereformeerde online boeken
+
+Naam & Feit
 
