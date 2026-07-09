@@ -5,6 +5,7 @@ Intro Jerome Beddome ➔ ik weet zo niet welke versie
 [[Divine and Moral Songs for Children]]
 [[Divine and Moral Songs for Children - Preface]]
 
+ABC van het geloof
 you can bend the sapling, but not the tree
 nave + TTT ➔ children, parents, fathers
 chapel library ➔ tijdschrift ➔ parents, children, husband, wife
@@ -131,6 +132,16 @@ https://archive.org/details/bim_eighteenth-century_hymns-for-children_wesley-cha
 ...
 
 Basis:
-1 - Van God houden
-2
+- Van God houden
+- Van naaste houden
+
+Als vader:
+-> Van God houden
+-> Van je gezin houden (vrouw + kinderen)
+
+…
+
+https://www.apuritansmind.com/the-christian-walk/the-christian-family/
+
+...
 
