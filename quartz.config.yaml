@@ -101,6 +101,11 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
+    options:
+      title: Lora
+      header: Lora
+      body: Lora
+      code: IBM Plex Mono
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
