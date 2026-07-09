@@ -3,7 +3,15 @@ Schoolboeken vaderlandse geschiedenis vanuit christelijk oogpunt
 
 ## Vertellingen & Schoolklassiekers (Stijl W.G. van de Hulst)
 
-De grote geschiedenis van een klein land - Jan van Reenen
+De grote geschiedenis van een klein land - Jan van Reenen ✅
+
+Toen en nu - W.G. van de Hulst ✅
+
+[[Onze vaderlandse geschiedenis - Johannes van Hulzen]] ✅
+4 delen
+Online ➔ met lijst jaartallen 
+
+Onze vaderlandse geschiedenis (Joh. van Hulzen)
 
 W.G. van de Hulst sr. – Het verleden spreekt
 
