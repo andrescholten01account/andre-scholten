@@ -95,6 +95,11 @@ https://www.dbnl.org/tekst/ghes002land01_01/ghes002land01_01_0008.php
 
 ...
 
+"People don't care how much you know, until they know how much you care."
+~ Abraham Lincoln (?)
+
+...
+
 Catechismus voor kinderen:
 - Geschenk voor de jeugd - eerste stukje (1788) - Johannes Florentius Martinet, ‎Ahazuerus van den Berg
 https://www.google.nl/books/edition/Geschenk_voor_de_jeugd/PqC1WsxB01AC?hl=en&gbpv=1&dq=Gedichten+voor+de+jeugd+%E2%80%93+Johannes+Florentius+Martinet&pg=PP9&printsec=frontcover
