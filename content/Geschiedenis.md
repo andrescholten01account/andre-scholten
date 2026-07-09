@@ -1,12 +1,14 @@
+%%
+
 [[Pagina met lijst van jaartallen vanaf de schepping tot en met nu]]
 
-%%
+## Bibliotheek
 
 ➔ De Oude Wereld (Genesis 1 - 11)
 ➔ [[Overgang tussen Genesis en Vaderlandse geschiedenis]]
 ➔ [[Vaderlandse geschiedenis]]
 ➔ Zie claude/google/chatgpt
-➔ Stamboom Scholten (+Henk + ik)
+➔ Stamboom Scholten (+ Henk + ik)
 
 ## De Oude Wereld
 
