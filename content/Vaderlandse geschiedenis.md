@@ -1,6 +1,9 @@
 Boeken ➔ publiek domein
 Schoolboeken vaderlandse geschiedenis vanuit christelijk oogpunt
 
+https://onderwijsgeschiedenis.nl/ontwikkeling-lesmethoden/ontwikkeling-geschiedenis-onderwijs 
+➔ hier staan volgens mij boeken in die ik op kan zoeken 
+
 ## Vertellingen & Schoolklassiekers (Stijl W.G. van de Hulst)
 
 De grote geschiedenis van een klein land - Jan van Reenen ✅
@@ -8,12 +11,8 @@ De grote geschiedenis van een klein land - Jan van Reenen ✅
 Toen en nu - W.G. van de Hulst ✅
 
 [[Onze vaderlandse geschiedenis - Johannes van Hulzen]] ✅
-4 delen
-Online ➔ met lijst jaartallen 
 
-Onze vaderlandse geschiedenis (Joh. van Hulzen)
-
-W.G. van de Hulst sr. – Het verleden spreekt
+[[Geschiedenis van ons vaderland - A.J. Dekker]] ✅
 
 P. de Zeeuw J.Gzn. – Diversen over Vaderlandse Helden
 
