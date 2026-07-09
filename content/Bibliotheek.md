@@ -9,9 +9,9 @@ draft: false
 
 [[Gezin]]
 
-[[Geschiedenis]]
-
 [[Geloofsbelijdenissen]]
+
+[[Geschiedenis]]
 
 [[Logica voor christenen]]
 
