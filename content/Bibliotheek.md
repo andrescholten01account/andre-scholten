@@ -7,11 +7,12 @@ draft: false
 
 [[Backup - Over de BereaBijbel]]
 
-[[Gezin]]
+## [[Gezin]]
 
-[[Geloofsbelijdenissen]]
+## [[Geloofsbelijdenissen]]
 
-[[Geschiedenis]]
+## [[Geschiedenis]]
+
 
 [[Logica voor christenen]]
 
