@@ -128,3 +128,9 @@ e strekking blijkt vaak al uit de titels, zoals Kinderpligt en zinnebeelden (Haz
 Hymns for children - 1763 - Charles Wesley
 https://archive.org/details/bim_eighteenth-century_hymns-for-children_wesley-charles_1763/page/26/mode/2up
 
+...
+
+Basis:
+1 - Van God houden
+2
+
