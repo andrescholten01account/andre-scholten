@@ -9,7 +9,10 @@ jerome beddome
 Matthew Henry (was voor jerome beddome ➔ zie BlueLetterBible)
 Westminster Shorter / Larger ➔ zie ook baptist versie van de Larger
 Welsh Calvinistic confession of faith
+
 heidelbergse catechismus
+https://heidelblog.net/catechism/
+
 dordtse leerregels
 nederlandse geloofsbelijdenis
 
@@ -34,6 +37,19 @@ Nicene Creed
 Athanasian Creed
 Thirty-Nine Articles of Faith
 
+...
+
+Harmony of the Westminster Standards, the Second Helevetic Confession, & the Three Forms of Unity. 
+-> Joel Beeke 
+
+Reformed Confessions Harmonized (Beeke & Ferguson, eds.)
+[https://heritagebooks.org/products/reformed-confessions-harmonized-beeke-ferguson-eds.html](https://heritagebooks.org/products/reformed-confessions-harmonized-beeke-ferguson-eds.html)
+
+[https://www.amazon.com/Reformed-Confessions-Harmonized-Joel-Beeke/dp/080105222X?asin=080105222X&revisionId=&format=4&depth=1](https://www.amazon.com/Reformed-Confessions-Harmonized-Joel-Beeke/dp/080105222X?asin=080105222X&revisionId=&format=4&depth=1)
+
+https://heidelblog.net/2012/09/synopsis-of-the-three-forms-of-unity-belgic-confession-heidelberg-catechism-canons-of-dort/ ➔ tabel / overzicht
+
+...
 
 Essential Truths
 https://www.youtube.com/watch?v=rPVLkRLNPXA&list=PL__Bm3WwZZILZquKKSR21DT77Z0-1XbN0
