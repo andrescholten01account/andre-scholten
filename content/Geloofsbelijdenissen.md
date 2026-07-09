@@ -1,3 +1,8 @@
+%%
+
+Pagina met lijst van geloofsbelijdenissen en catechismussen 
+## Bibliotheek
+
 1689 
 baptisten catechismussen
 jerome beddome
@@ -32,4 +37,6 @@ Thirty-Nine Articles of Faith
 
 Essential Truths
 https://www.youtube.com/watch?v=rPVLkRLNPXA&list=PL__Bm3WwZZILZquKKSR21DT77Z0-1XbN0
+
+%%
 

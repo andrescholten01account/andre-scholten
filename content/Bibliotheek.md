@@ -7,13 +7,6 @@ draft: false
 
 [[Backup - Over de BereaBijbel]]
 
-## [[Gezin]]
-
-## [[Geloofsbelijdenissen]]
-
-## [[Geschiedenis]]
-
-
 [[Logica voor christenen]]
 
 [[Opwekking in Nederland]]

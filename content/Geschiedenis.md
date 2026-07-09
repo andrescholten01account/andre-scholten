@@ -1,3 +1,7 @@
+[[Pagina met lijst van jaartallen vanaf de schepping tot en met nu]]
+
+%%
+
 ➔ De Oude Wereld (Genesis 1 - 11)
 ➔ [[Overgang tussen Genesis en Vaderlandse geschiedenis]]
 ➔ [[Vaderlandse geschiedenis]]
@@ -18,4 +22,6 @@
 - Tradities
 - Musea geschiedenis
 - Delpher
+
+%%
 

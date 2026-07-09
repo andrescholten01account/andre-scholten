@@ -1,3 +1,9 @@
+%%
+
+Pagina met een aantal rijm- en gebedenboekjes voor kinderen
+
+## Bibliotheek
+
 ABC for children
 1689 intro
 New England Primer
@@ -148,4 +154,6 @@ https://www.apuritansmind.com/the-christian-walk/the-christian-family/
 https://vormingvoorelkedag.nl/onderwerp/opvoeding/
 
 ...
+
+%%
 
