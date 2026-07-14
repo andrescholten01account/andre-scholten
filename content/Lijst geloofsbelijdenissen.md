@@ -1,3 +1,5 @@
+%%
+
 1689 
 baptisten catechismussen
 jerome beddome
@@ -25,4 +27,14 @@ Apostles Creed
 Nicene Creed
 Athanasian Creed
 Thirty-Nine Articles of Faith
+
+## Meer
+
+https://www.reformedconfessions.org/
+https://heidelblog.net/confessions/
+https://cgk.nl/en/decisions-and-regulations/confessional-writings/
+https://apostles-creed.org/documents-creeds-catechisms-confessions/
+https://www.apuritansmind.com/creeds-and-confessions/
+
+%%
 

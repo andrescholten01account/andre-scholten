@@ -25,7 +25,7 @@ Links:
 - [[De Volle Pinksterzegen]]
 - [[Bijbelteksten Heilige Geest]]
 - BereaStudieBijbel
-- [[Bibliotheek]]
+- [[Bibliotheek]] ➔ op verborgen zetten + alles erin op draft
 
 Midden:
 - Zoekfunctie

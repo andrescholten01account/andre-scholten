@@ -155,5 +155,10 @@ https://vormingvoorelkedag.nl/onderwerp/opvoeding/
 
 ...
 
+Grootouders ➔ artikelen Answers in Genesis
+
+Links: 
+- Bijbels beraad m/v
+
 %%
 
