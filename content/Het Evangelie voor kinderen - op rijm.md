@@ -64,4 +64,45 @@ Nee, dat is geen pretje, wat ik je vertel.
 Voor eeuwig pijn, branden in de poel van vuur,
 dat is wat ieder mens verdient, ook al is dit heel erg zuur.
 
-Maar gelukkig is God, naast heel heilig, ook heel erg vol van lief
+Maar gelukkig is God, naast heel heilig, ook heel erg vol van liefde, en genade, 
+Hij komt daarom met een oplossing, om af te rekenen met het kwade.
+Om de werken van de duivel, helemaal kapot te maken,
+zodat de mensen eeuwig leven kunnen krijgen, en de dood niet meer zullen smaken.
+
+Hij stuurde Jezus, ja, Zijn eniggeboren Zoon,
+om ons eeuwig leven aan te bieden, naar genade, niet om loon.
+Jezus kwam naar de aarde, om voor onze ongehoorzaamheid te sterven aan het kruis,
+zodat wij door geloof in Hem, kunnen gaan naar ons eeuwige thuis.
+
+Eeuwig leven, de toegang tot God is dan weer vrij,
+vergeving van je zonden, Hem kennen, dat maakt blij.
+Vertrouwen op Jezus, de eeuwige Zoon van God,
+Hij was God altijd gehoorzaam, en deed elk gebod.
+
+Geloof dus in Jezus, vertrouw op Hem, dan komt het in orde met God,
+dat sta je rein voor Hem, dat is je grootste genot.
+Bekeer je tot Jezus, dan ontvang je eeuwig leven,
+Hij is goed, ja doe het nu, Hij wil het je graag geven.
+
+Door geloof in Jezus, is de toegang tot God weer vrij,
+Hij wil je lasten dragen, van zonde maak Hij vrij.
+Vrede voor nu, en straks voor eeuwig leven bij God,
+in de hemel, wat een plek, ja eeuwig blijdschap en genot.
+
+Geloof in Hem, dat is de juiste keus,
+Hij is te vertrouwen, dat is waar, echt heus.
+Volg Hem nu, ja volg Hem in Zijn wegen,
+dicht bij Hem, vraag Hem om hulp, vraag Hem om Zijn zegen.
+
+En als Hij terugkomt, op de wolken, groot en machtig,
+dan ben jij, als je in Jezus gelooft, een kind van God, en vind je Zijn terugkomst heel erg prachtig.
+Dan zal Hij zitten, op Zijn grote witte troon, 
+in heiligheid en liefde, indrukwekkend, of zo schoon. 
+
+Wat wacht je nog? Geloof in Hem, zou er een betere vriend voor je zijn?
+Door geloof in Hem, mag je een kind van God wezen, is dit niet heel erg fijn?
+Vertrouw op Hem, gehoorzaam Hem voor eeuwig leven,
+Hij houdt van jou, Hij is goed, en wil je het heel graag geven. 
+
+%%
+
