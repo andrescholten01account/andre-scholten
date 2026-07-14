@@ -44,5 +44,11 @@ Bijbelteksten over de basis:
 - Micha 6:4, of 4:6
 ➔ Zie artikel op Heidelblog over soort gelijke teksten
 
+...
+
+https://freegracepress.com/collections/best-sellers/products/basic-christian-doctrines
+
+...
+
 %%
 
