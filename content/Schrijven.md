@@ -11,3 +11,7 @@ Gedichten
 
 [[Schrijven voor kinderen]]
 
+[[Gebeden voor kinderen]]
+
+[[Algemene gedichten]]
+
