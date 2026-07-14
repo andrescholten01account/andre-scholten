@@ -1,8 +1,6 @@
 ---
 draft: false
 ---
-[[Bijbeluitleg]]
-
 %%
 
 [[Backup - Over de BereaBijbel]]
@@ -14,6 +12,10 @@ draft: false
 [[Spurgeon]]
 
 [[Schrijven]]
+
+[[Bijbel]]
+
+[[Hete hangijzers]]
 
 [[Links]]
 
