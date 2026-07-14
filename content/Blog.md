@@ -1,4 +1,24 @@
 %%
+## [[Geloofsbelijdenissen]]
+## [[Gezin]]
+
+## [[Geschiedenis]]
+
+Dagelijkse overdenking
+
+Spurgeon:
+- Morning
+- Evening
+- Of: morning and evening? ➔ hoe is dit oorspronkelijk gepubliceerd?
+- Checkbook of faith
+- Meer van Spurgeon?
+
+Korte overdenking van mijzelf
+
+Lange overdenking van mijzelf:
+➔ Titel, en dan de tekst: de overdenking is gegeven op de bidstond van GlobalRize op ... (datum)
+
+...
 
 [[Je kinderen opvoeden. Wees daarom vervuld met de Geest]]
 

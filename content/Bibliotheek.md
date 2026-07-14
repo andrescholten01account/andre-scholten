@@ -4,11 +4,6 @@ draft: false
 [[Bijbeluitleg]]
 
 %%
-## [[Gezin]]
-
-## [[Geloofsbelijdenissen]]
-
-## [[Geschiedenis]]
 
 [[Backup - Over de BereaBijbel]]
 
