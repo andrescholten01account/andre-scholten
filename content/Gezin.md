@@ -163,6 +163,13 @@ https://vormingvoorelkedag.nl/onderwerp/opvoeding/
 
 Grootouders ➔ artikelen Answers in Genesis
 
+...
+
+Bijbelsberaad m/v: geloofsbelijdenissen over huwelijk en gezin
+https://www.bijbelsberaadmv.nl/kerkelijke-documenten/
+
+...
+
 Links: 
 - Bijbels beraad m/v
 
