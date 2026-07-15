@@ -57,19 +57,19 @@ Hoe ontvangt iemand dit eeuwige leven?
 
 ## DOPEN
 
-Als gevolg van deze keuze voor God moet hij zich laten dopen [1]
+Als gevolg van deze keuze voor God moet hij zich laten dopen [1].
 
 [1] [Handelingen 2:37-38](https://andre-scholten.nl/bereastudiebijbel/handelingen/2#v37) 
 
 ## DE HEILIGE GEEST
 
-En ontvangt hij de Heilige Geest, zodat hij God kan gehoorzamen [1]
+En ontvangt hij de Heilige Geest, zodat hij God kan gehoorzamen [1].
 
 [1] [Handelingen 8:17](https://andre-scholten.nl/bereastudiebijbel/handelingen/8#v17); [Ezechiël 36:27](https://andre-scholten.nl/bereastudiebijbel/ezechiel/36#v27) 
 
 ## GEHOORZAAMHEID
 
-Want het geloof moet zich wel uiten in daden [1]
+Want het geloof moet zich wel uiten in daden [1].
 
 [1] [Jakobus 2:14](https://andre-scholten.nl/bereastudiebijbel/jakobus/2#v14) 
 
