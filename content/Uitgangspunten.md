@@ -15,113 +15,76 @@ God is de Schepper van de hemel en de aarde [1], en de mens [2]. Hij is almachti
 
 ## DE MENS
 
-De mens is geschapen naar het beeld van God [1], en in de hof van Eden gezet om die te bewerken en te onderhouden [2]. Hij mocht van elke boom eten, behalve van de boom van de kennis van goed en kwaad, want als ze dat deden, dan zouden ze zeker sterven [3]. De mens deed het toch, werd uit de hof van Eden gezet en stierf [4]. d
+De mens is geschapen naar het beeld van God [1], en in de hof van Eden gezet om die te bewerken en te onderhouden [2]. Hij mocht van elke boom eten, behalve van de boom van de kennis van goed en kwaad, want als ze dat deden, dan zouden ze zeker sterven [3]. De mens deed het toch, werd uit de hof van Eden gezet en stierf [4]. 
 
 [1] [Genesis 1:27](https://andre-scholten.nl/bereastudiebijbel/genesis/1#v27) 
 [2] [Genesis 2:15](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v15) 
 [3] [Genesis 2:16-17](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v16) 
-[4] [Genesis 3:6-8](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v6) 
-
-Toen zei de HEERE God: Zie, de mens is geworden als één van Ons, kennend het goed en het kwaad! Nu dan, laat hij zijn hand niet uitsteken, en ook nemen van de boom van het leven, en eten, en in eeuwigheid leven — Zo stuurde de HEERE God hem weg uit de hof van Eden, om de aardbodem te bewerken, waaruit hij genomen was.
-~ [Genesis 3:22-23](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v22) (Berea)
-
-Zo waren al de dagen van Adam, die hij leefde, negenhonderd en dertig jaren; en hij stierf.
-~ [Genesis 5:5](https://andre-scholten.nl/bereastudiebijbel/genesis/5#v5) (Berea)
+[4] [Genesis 3:6-8](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v6); [Genesis 3:22-23](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v22); [Genesis 5:5](https://andre-scholten.nl/bereastudiebijbel/genesis/5#v5) 
 
 ## ZONDE
 
-**Het gevolg van de zonde is de dood**
+Het gevolg van de zonde is de dood [1]. En zonde brengt scheiding tussen een mens en God [2]. Sterft een mens in zijn zonden, dan zal hij voor eeuwig gestraft worden voor zijn zonden [3]. 
 
-Daarom, zoals door één mens de zonde in de wereld ingekomen is, en door de zonde de dood; en zo de dood tot alle mensen doorgegaan is, doordat allen gezondigd hebben[1].
-~ [Romeinen 5:12](https://andre-scholten.nl/bereastudiebijbel/romeinen/5#v12) (Berea)
-
-**En zonde brengt scheiding tussen een mens en God**
-
-Maar uw ongerechtigheden brengen een scheiding tussen u en uw God, en uw zonden verbergen Zijn aangezicht voor u, zodat Hij niet hoort.
-~ [Jesaja 59:2](https://andre-scholten.nl/bereastudiebijbel/jesaja/59#v2) (Berea)
-
-**Sterft een mens in zijn zonden, dan zal hij voor eeuwig gestraft worden voor zijn zonden**
-
-En zo iemand niet gevonden werd geschreven in het boek van het leven, die werd geworpen in de poel van het vuur.
-~ [Openbaring 20:15](https://andre-scholten.nl/bereastudiebijbel/openbaring/20#v15) (Berea)
-
-De Zoon des mensen zal Zijn engelen uitzenden, en zij zullen uit Zijn Koninkrijk verzamelen alles wat tot zonde verleidt, en degenen die de ongerechtigheid doen; En zij zullen hen in de vurige oven werpen; daar zal geween zijn en het geknars van de tanden.
-~ [Mattheüs 13:41-42](https://andre-scholten.nl/bereastudiebijbel/mattheus/13#v41) (Berea)
+[1] [Romeinen 5:12](https://andre-scholten.nl/bereastudiebijbel/romeinen/5#v12) 
+[2] [Jesaja 59:2](https://andre-scholten.nl/bereastudiebijbel/jesaja/59#v2) 
+[3] [Openbaring 20:15](https://andre-scholten.nl/bereastudiebijbel/openbaring/20#v15); [Mattheüs 13:41-42](https://andre-scholten.nl/bereastudiebijbel/mattheus/13#v41) 
 
 ## JEZUS CHRISTUS
 
-**Maar gelukkig heeft God Zijn Zoon Jezus Christus naar de aarde gestuurd om de straf te dragen voor de zonden van alle mensen**
+Maar gelukkig heeft God Zijn Zoon Jezus Christus naar de aarde gestuurd om de straf te dragen voor de zonden van alle mensen [1]. Zodat iedereen die in Hem gelooft niet voor eeuwig gestraft wordt voor zijn zonden, maar voor eeuwig mag leven [2]. 
 
-Maar Hij is om onze overtredingen verwond, om onze ongerechtigheden is Hij verbrijzeld; de straf die ons de vrede aanbrengt, was op Hem, en door Zijn striemen is er voor ons genezing gekomen. Wij dwaalden allen als schapen, wij keerden ons ieder naar zijn eigen weg; maar de HEERE heeft de ongerechtigheid van ons allen op Hem doen neerkomen.
-~ [Jesaja 53:5-6](https://andre-scholten.nl/bereastudiebijbel/jesaja/53#v5) (Berea)
-
-Die Zelf onze zonden in Zijn lichaam gedragen heeft op het hout; opdat wij, voor de zonden afgestorven, voor de gerechtigheid zouden leven; door Wiens striemen u genezen bent. Want u was als dwalende schapen; maar u bent nu bekeerd tot de Herder en Opziener van uw zielen.
-~ [1 Petrus 2:24-25](https://andre-scholten.nl/bereastudiebijbel/1-petrus/2#v24) (Berea)
-
-**Zodat iedereen die in Hem gelooft niet voor eeuwig gestraft wordt voor zijn zonden, maar voor eeuwig mag leven**
-
-Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven heeft, opdat ieder die in Hem gelooft, niet verloren gaat, maar het eeuwige leven heeft.
-~ [Johannes 3:16](https://andre-scholten.nl/bereastudiebijbel/johannes/3#v16) (Berea)
+[1] [Jesaja 53:5-6](https://andre-scholten.nl/bereastudiebijbel/jesaja/53#v5); [1 Petrus 2:24-25](https://andre-scholten.nl/bereastudiebijbel/1-petrus/2#v24) 
+[2] [Johannes 3:16](https://andre-scholten.nl/bereastudiebijbel/johannes/3#v16) 
 
 ## BEKERING
 
 Hoe ontvangt iemand dit eeuwige leven?
 
-**1. Hij moet zich bekeren van zijn slechte daden en voortaan gaan leven zoals God dat wil**
+1 - Hij moet zich bekeren van zijn slechte daden en voortaan gaan leven zoals God dat wil [1]
 
-De goddeloze verlaat zijn weg, en de onrechtvaardige man zijn gedachten; en hij bekeert zich tot de HEERE, zo zal Hij Zich over hem ontfermen, en tot onze God, want Hij vergeeft menigvuldig.
-~ [Jesaja 55:7](https://andre-scholten.nl/bereastudiebijbel/jesaja/55#v7) (Berea)
-
-De werken van het vlees nu zijn openbaar; dat zijn: overspel, hoererij, onreinheid, losbandigheid, Afgoderij, toverij, vijandschappen, ruzies, jaloersheden, toorn, twisten, verdeeldheid, afwijkingen in de leer, Afgunst, moord, dronkenschappen, uitspattingen, en dergelijke; waarvan ik u van tevoren zeg, zoals ik ook eerder gezegd heb, dat wie zulke dingen doen, het Koninkrijk van God niet zullen beërven. Maar de vrucht van de Geest is liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
-~ [Galaten 5:19-22](https://andre-scholten.nl/bereastudiebijbel/galaten/5#v19) (Berea)
+[1] [Jesaja 55:7](https://andre-scholten.nl/bereastudiebijbel/jesaja/55#v7); [Galaten 5:19-22](https://andre-scholten.nl/bereastudiebijbel/galaten/5#v19) 
 
 ## GELOOF
 
-**2. Hij accepteert Jezus Christus als Degene Die hem verlost heeft van de straf voor zijn zonden door voor hem de straf van zijn zonden te dragen aan het kruis**
+2 - Hij accepteert Jezus Christus als Degene Die hem verlost heeft van de straf voor zijn zonden door voor hem de straf van zijn zonden te dragen aan het kruis [1]
 
-Hem heeft God voorgesteld tot een verzoening, door het geloof in Zijn bloed, tot een betoning van Zijn gerechtigheid, door de vergeving van de zonden die eerder gebeurd zijn, tijdens de verdraagzaamheid van God;
-~ [Romeinen 3:25](https://andre-scholten.nl/bereastudiebijbel/romeinen/3#v25) (Berea)
+[1] [Romeinen 3:25](https://andre-scholten.nl/bereastudiebijbel/romeinen/3#v25) 
 
-**3. Hij beseft dat hij door Jezus Christus gered is en niet omdat hij zelf zo goed geleefd heeft**
+3 - Hij beseft dat hij door Jezus Christus gered is en niet omdat hij zelf zo goed geleefd heeft [2]
 
-Wij stellen dan vast, dat de mens door het geloof gerechtvaardigd wordt, zonder de werken van de wet.
-~ [Romeinen 3:28](https://andre-scholten.nl/bereastudiebijbel/romeinen/3#v28) (Berea)
+[2] [Romeinen 3:28](https://andre-scholten.nl/bereastudiebijbel/romeinen/3#v28) 
 
 ## DOPEN
 
-**Als gevolg van deze keuze voor God moet hij zich laten dopen**
+Als gevolg van deze keuze voor God moet hij zich laten dopen [1]
 
-En toen zij dit hoorden, werden zij diep in het hart getroffen, en zeiden tegen Petrus en de andere apostelen: Wat moeten wij doen, mannen broeders? En Petrus zei tegen hen: Bekeer u, en ieder van u moet gedoopt worden in de Naam van Jezus Christus, tot vergeving van de zonden; en u zult de gave van de Heilige Geest ontvangen.
-~ [Handelingen 2:37-38](https://andre-scholten.nl/bereastudiebijbel/handelingen/2#v37) (Berea)
+[1] [Handelingen 2:37-38](https://andre-scholten.nl/bereastudiebijbel/handelingen/2#v37) 
 
 ## DE HEILIGE GEEST
 
-**En ontvangt hij de Heilige Geest, zodat hij God kan gehoorzamen**
+En ontvangt hij de Heilige Geest, zodat hij God kan gehoorzamen [1]
 
-Toen legden zij hun de handen op, en zij ontvingen de Heilige Geest.
-~ [Handelingen 8:17](https://andre-scholten.nl/bereastudiebijbel/handelingen/8#v17) (Berea)
-
-En Ik zal Mijn Geest geven in het binnenste van u; en Ik zal maken dat u in Mijn inzettingen zult wandelen, en Mijn rechten zult bewaren en doen.
-~ [Ezechiël 36:27](https://andre-scholten.nl/bereastudiebijbel/ezechiel/36#v27) (Berea)
+[1] [Handelingen 8:17](https://andre-scholten.nl/bereastudiebijbel/handelingen/8#v17); [Ezechiël 36:27](https://andre-scholten.nl/bereastudiebijbel/ezechiel/36#v27) 
 
 ## GEHOORZAAMHEID
 
-**Want het geloof moet zich wel uiten in daden**
+Want het geloof moet zich wel uiten in daden [1]
 
-Wat voor nut heeft het, mijn broeders, als iemand zegt dat hij het geloof heeft, maar hij heeft de werken niet? Kan dat geloof hem zaligmaken?
-~ [Jakobus 2:14](https://andre-scholten.nl/bereastudiebijbel/jakobus/2#v14) (Berea)
+[1] w
+[Jakobus 2:14](https://andre-scholten.nl/bereastudiebijbel/jakobus/2#v14) 
 
 ## HET EEUWIGE OORDEEL
 
-**Als iemand heeft geleefd zoals God dat wil, zal hij daarvoor beloond worden**
+Als iemand heeft geleefd zoals God dat wil, zal hij daarvoor beloond worden
 
 En wanneer de Zoon des mensen komen zal in Zijn heerlijkheid, en alle heilige engelen met Hem, dan zal Hij zitten op de troon van Zijn heerlijkheid. En voor Hem zullen alle volken verzameld worden, en Hij zal ze van elkaar scheiden, zoals de herder de schapen van de bokken scheidt. En Hij zal de schapen aan Zijn rechterhand zetten, maar de bokken aan *Zijn* linkerhand. Dan zal de Koning zeggen tegen hen die aan Zijn rechterhand *zijn*: Kom, u gezegenden van Mijn Vader! Beërf het Koninkrijk dat voor u bereid is vanaf de grondlegging van de wereld. Want Ik ben hongerig geweest, en u hebt Mij te eten gegeven; Ik ben dorstig geweest, en u hebt Mij te drinken gegeven; Ik was een vreemdeling, en u hebt Mij een onderkomen gegeven. *Ik was* naakt, en u hebt Mij gekleed; Ik ben ziek geweest, en u hebt Mij bezocht; Ik was in de gevangenis, en u bent bij Mij gekomen. Dan zullen de rechtvaardigen Hem antwoorden: Heere! Wanneer hebben wij U hongerig gezien, en te eten gegeven, of dorstig, en te drinken gegeven? En wanneer hebben wij U een vreemdeling gezien, en een onderkomen gegeven, of naakt en gekleed? En wanneer hebben wij U ziek gezien, of in de gevangenis, en zijn bij U gekomen? En de Koning zal antwoorden en tegen hen zeggen: Voorwaar, Ik zeg u: Voor zoveel u dit voor één van deze Mijn minste broeders gedaan hebt, hebt u dat Mij gedaan.
-~ [Mattheüs 25:31-40](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v31) (Berea)
+[Mattheüs 25:31-40](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v31) 
 
-**Maar als iemand niet heeft geleefd zoals God dat wil, dan zal hij daarvoor voor eeuwig gestraft worden**
+Maar als iemand niet heeft geleefd zoals God dat wil, dan zal hij daarvoor voor eeuwig gestraft worden
 
 Dan zal Hij ook zeggen tegen hen die aan de linkerhand *zijn*: Ga weg van Mij, u vervloekten, in het eeuwige vuur, dat voor de duivel en zijn engelen bereid is. Want Ik ben hongerig geweest, en u hebt Mij niet te eten gegeven; Ik ben dorstig geweest, en u hebt Mij niet te drinken gegeven; Ik was een vreemdeling; en u hebt Mij geen onderkomen gegeven; naakt, en u hebt Mij niet gekleed; ziek, en in de gevangenis, en u hebt Mij niet bezocht. Dan zullen ook zij Hem antwoorden: Heere, wanneer hebben wij U hongerig gezien, of dorstig, of een vreemdeling, of naakt, of ziek, of in de gevangenis, en hebben U niet gediend? Dan zal Hij hun antwoorden: Voorwaar, Ik zeg u: Voor zoveel u dit voor één van deze minsten niet gedaan hebt, hebt u het Mij ook niet gedaan. En dezen zullen weggaan in de eeuwige pijn; maar de rechtvaardigen in het eeuwige leven.
-~ [Mattheüs 25:41-46](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v41) (Berea)
+[Mattheüs 25:41-46](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v41) 
 
 %%
 
