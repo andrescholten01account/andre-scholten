@@ -8,7 +8,7 @@ andre-scholten.nl
 
 Persoonlijke blog 
 
-[[Blog]] | [[De Volle Pinksterzegen|Boek]] | [Bijbel](/bereastudiebijbel/) 
+[[Blog]] | [[Basis]] | [[De Volle Pinksterzegen|Boek]] | [Bijbel](/bereastudiebijbel/) 
 
 %%
 
