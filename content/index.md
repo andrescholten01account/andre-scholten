@@ -14,8 +14,8 @@ Persoonlijke blog
 
 ![[Pasted image 20260715071609.png|450]]
 
-> Our house ought te be a little church with holiness to the Lord over the door, ...
-> ~ John Ploughman's Talk (nog nakijken)
+> Husbands should try to make home happy and holy.
+> ~ John Ploughman (Charles Spurgeon)
 ## Blog
 
 Komt nog. 

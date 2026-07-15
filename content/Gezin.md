@@ -38,6 +38,8 @@ https://reformed.org/christian-family/
 
 Thuis: warmte en liefde en heiligheid
 
+https://www.romans45.org/spurgeon/misc/plowman.htm#Chapter%2013
+
 Husband should try to maken home happy and holy.
 ~ John Ploughman's Talk (nog nakijken)
 
