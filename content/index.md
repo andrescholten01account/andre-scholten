@@ -26,14 +26,8 @@ Komt nog.
 Links:
 - [[Blog]]
 - [[Basis|Basis christelijk geloof]]
-- De Volle Pinksterzegen
-- BereaStudieBijbel
-
-
 - [[De Volle Pinksterzegen]]
-- [[Bijbelteksten Heilige Geest]]
 - BereaStudieBijbel
-- [[Bibliotheek]] ➔ op verborgen zetten + alles erin op draft
 
 Midden:
 - Zoekfunctie

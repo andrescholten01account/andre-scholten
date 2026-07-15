@@ -16,7 +16,6 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   return (
     <footer class="site-footer">
       <div class="site-footer-col">
-        <a href={`${baseDir}/blog`}>Blog</a>
         <a href={`${baseDir}/basis`}>Basis christelijk geloof</a>
         <a href={`${baseDir}/de-volle-pinksterzegen`}>De Volle Pinksterzegen</a>
         <a href="https://andre-scholten.nl/bereastudiebijbel/">BereaStudieBijbel</a>
