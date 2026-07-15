@@ -18,3 +18,9 @@ Wie nu het goed van de wereld heeft en ziet dat zijn broeder gebrek heeft, en zi
 Breng dan vruchten voort die de bekering waardig zijn; en begin niet bij uzelf te zeggen: Wij hebben Abraham als vader; want ik zeg u dat God zelfs uit deze stenen Abraham kinderen kan verwekken. En de bijl ligt ook al aan de wortel van de bomen; elke boom dan die geen goede vrucht voortbrengt, wordt omgehakt en in het vuur geworpen. En de menigten vroegen hem: Wat zullen wij dan doen? En hij antwoordde en zei tegen hen: Wie twee stukken kleding heeft, moet delen met wie er geen heeft; en wie voedsel heeft, moet hetzelfde doen. En er kwamen ook tollenaars om gedoopt te worden, en zeiden tegen hem: Meester, wat zullen wij doen? En hij zei tegen hen: Eis niet meer dan wat u opgelegd is. En ook de soldaten vroegen hem: En wij, wat zullen wij doen? En hij zei tegen hen: Doe niemand geweld aan, en pers niemand af door bedrog, en wees tevreden met uw soldij.
 ~ [Lukas 3:8-14](https://andre-scholten.nl/bereastudiebijbel/lukas/3#v8)
 
+---
+
+[[Bidden]]
+
+---
+

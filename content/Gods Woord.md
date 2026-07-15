@@ -37,3 +37,9 @@ Ieder dan die deze woorden van Mij hoort en ze doet, hem zal Ik vergelijken met 
 De opening van Uw woorden geeft licht, de eenvoudigen verstandig makend.
 ~ [Psalm 119:130](https://andre-scholten.nl/bereastudiebijbel/psalmen/119#v130)
 
+%%
+
+De Bijbel is waar
+
+%%
+
