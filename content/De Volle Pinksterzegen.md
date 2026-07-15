@@ -21,8 +21,40 @@ Hieronder de paralleleditie Engels en Nederlands hedendaags.
 
 - [[De Volle Pinksterzegen - commentaar]]
 
+Voorwoord ➔ nog laten vertalen
+
+Inhoudsopgave
+
+Introductie
+
+I. Hoe het onderwezen moet worden
+
+II. Hoe geweldig het is
+
+III. Hoe het uit de hemel werd gegeven
+
+IV. Hoe weinig het ervaren wordt
+
+V. Hoe de zegen verhinderd wordt 
+
+VI. Hoe wij het ontvangen 
+
+VII. Hoe het bij ons blijft 
+
+VIII. Hoe het vermeerderd wordt  
+
+IX. Hoe het volledig tot uiting komt 
+
+X. Hoe zeker de belofte van God is
+
+XI. Hoe iedereen het kan vinden
+
+XII. Hoe alles ervoor opgegeven moet worden
+
+- [[Waarom vervuld worden met de Heilige Geest]]
+- [[Hoe vervuld worden met de Geest]]
+
 %%
- 
 ## Inleiding
 
 | Engels | Nederlands |
