@@ -14,6 +14,7 @@ dordtse leerregels
 nederlandse geloofsbelijdenis
 
 the Westminster Confession of Faith -> ook in Nederlands online
+https://theologienet.nl/theologie/de-kleine-catechismus-van-westminster/
 
 There are many others, like the 2nd Helvetic, the Canons of Dort, the Scott's Confession. 
 

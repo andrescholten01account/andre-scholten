@@ -1,8 +1,12 @@
 https://www.christipedia.nl/
 
 Monergism
-Chapel library
-Theologienet
+https://www.chapellibrary.org/
+https://www.apuritansmind.com/
+
+https://theologienet.nl/
+
+https://www.spurgeongems.org/
 
 grace to you
 ligonier
