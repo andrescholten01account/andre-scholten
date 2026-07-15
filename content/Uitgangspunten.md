@@ -2,105 +2,83 @@ Dit is mijn persoonlijke geloofsbelijdenis. Zie het als de grote lijn van wat ik
 
 ## GOD
 
-God is de Schepper van de hemel en de aarde [1], en de mens [2]. Hij is almachtig [3], alwetend [4], eeuwig [5], alomtegenwoordig [6], heilig [7], en rechtvaardig [8]. 
+God is de Schepper van de hemel en de aarde¹, en de mens². Hij is almachtig³, alwetend⁴, eeuwig⁵, alomtegenwoordig⁶, heilig⁷, en rechtvaardig⁸.
 
-[1] [Jesaja 45:12](https://andre-scholten.nl/bereastudiebijbel/jesaja/45#v12) 
-[2] [Jeremia 27:5](https://andre-scholten.nl/bereastudiebijbel/jeremia/27#v5) 
-[3] [Genesis 17:1](https://andre-scholten.nl/bereastudiebijbel/genesis/17#v1) 
-[4] [Jesaja 42:9](https://andre-scholten.nl/bereastudiebijbel/jesaja/42#v9) 
-[5] [Jesaja 44:6](https://andre-scholten.nl/bereastudiebijbel/jesaja/44#v6) 
-[6] [Jeremia 23:23-24](https://andre-scholten.nl/bereastudiebijbel/jeremia/23#v23) 
-[7] [Leviticus 20:26](https://andre-scholten.nl/bereastudiebijbel/leviticus/20#v26) 
-[8] [Jesaja 45:21](https://andre-scholten.nl/bereastudiebijbel/jesaja/45#v21) 
+¹ [Jesaja 45:12](https://andre-scholten.nl/bereastudiebijbel/jesaja/45#v12)
+² [Jeremia 27:5](https://andre-scholten.nl/bereastudiebijbel/jeremia/27#v5)
+³ [Genesis 17:1](https://andre-scholten.nl/bereastudiebijbel/genesis/17#v1)
+⁴ [Jesaja 42:9](https://andre-scholten.nl/bereastudiebijbel/jesaja/42#v9)
+⁵ [Jesaja 44:6](https://andre-scholten.nl/bereastudiebijbel/jesaja/44#v6)
+⁶ [Jeremia 23:23-24](https://andre-scholten.nl/bereastudiebijbel/jeremia/23#v23)
+⁷ [Leviticus 20:26](https://andre-scholten.nl/bereastudiebijbel/leviticus/20#v26)
+⁸ [Jesaja 45:21](https://andre-scholten.nl/bereastudiebijbel/jesaja/45#v21)
 
 ## DE MENS
 
-De mens is geschapen naar het beeld van God [1], en in de hof van Eden gezet om die te bewerken en te onderhouden [2]. Hij mocht van elke boom eten, behalve van de boom van de kennis van goed en kwaad, want als ze dat deden, dan zouden ze zeker sterven [3]. De mens deed het toch, werd uit de hof van Eden gezet en stierf [4]. 
+De mens is geschapen naar het beeld van God¹, en in de hof van Eden gezet om die te bewerken en te onderhouden². Hij mocht van elke boom eten, behalve van de boom van de kennis van goed en kwaad, want als ze dat deden, dan zouden ze zeker sterven³. De mens deed het toch, werd uit de hof van Eden gezet en stierf⁴.
 
-[1] [Genesis 1:27](https://andre-scholten.nl/bereastudiebijbel/genesis/1#v27) 
-[2] [Genesis 2:15](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v15) 
-[3] [Genesis 2:16-17](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v16) 
-[4] [Genesis 3:6-8](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v6); [Genesis 3:22-23](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v22); [Genesis 5:5](https://andre-scholten.nl/bereastudiebijbel/genesis/5#v5) 
+¹ [Genesis 1:27](https://andre-scholten.nl/bereastudiebijbel/genesis/1#v27)
+² [Genesis 2:15](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v15)
+³ [Genesis 2:16-17](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v16)
+⁴ [Genesis 3:6-8](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v6); [Genesis 3:22-23](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v22); [Genesis 5:5](https://andre-scholten.nl/bereastudiebijbel/genesis/5#v5)
 
 ## ZONDE
 
-Het gevolg van de zonde is de dood [1]. En zonde brengt scheiding tussen een mens en God [2]. Sterft een mens in zijn zonden, dan zal hij voor eeuwig gestraft worden voor zijn zonden [3]. 
+Het gevolg van de zonde is de dood¹. En zonde brengt scheiding tussen een mens en God². Sterft een mens in zijn zonden, dan zal hij voor eeuwig gestraft worden voor zijn zonden³.
 
-[1] [Romeinen 5:12](https://andre-scholten.nl/bereastudiebijbel/romeinen/5#v12) 
-[2] [Jesaja 59:2](https://andre-scholten.nl/bereastudiebijbel/jesaja/59#v2) 
-[3] [Openbaring 20:15](https://andre-scholten.nl/bereastudiebijbel/openbaring/20#v15); [Mattheüs 13:41-42](https://andre-scholten.nl/bereastudiebijbel/mattheus/13#v41) 
+¹ [Romeinen 5:12](https://andre-scholten.nl/bereastudiebijbel/romeinen/5#v12)
+² [Jesaja 59:2](https://andre-scholten.nl/bereastudiebijbel/jesaja/59#v2)
+³ [Openbaring 20:15](https://andre-scholten.nl/bereastudiebijbel/openbaring/20#v15); [Mattheüs 13:41-42](https://andre-scholten.nl/bereastudiebijbel/mattheus/13#v41)
 
 ## JEZUS CHRISTUS
 
-Maar gelukkig heeft God Zijn Zoon Jezus Christus naar de aarde gestuurd om de straf te dragen voor de zonden van alle mensen [1]. Zodat iedereen die in Hem gelooft niet voor eeuwig gestraft wordt voor zijn zonden, maar voor eeuwig mag leven [2]. 
+Maar gelukkig heeft God Zijn Zoon Jezus Christus naar de aarde gestuurd om de straf te dragen voor de zonden van alle mensen¹. Zodat iedereen die in Hem gelooft niet voor eeuwig gestraft wordt voor zijn zonden, maar voor eeuwig mag leven².
 
-[1] [Jesaja 53:5-6](https://andre-scholten.nl/bereastudiebijbel/jesaja/53#v5); [1 Petrus 2:24-25](https://andre-scholten.nl/bereastudiebijbel/1-petrus/2#v24) 
-[2] [Johannes 3:16](https://andre-scholten.nl/bereastudiebijbel/johannes/3#v16) 
+¹ [Jesaja 53:5-6](https://andre-scholten.nl/bereastudiebijbel/jesaja/53#v5); [1 Petrus 2:24-25](https://andre-scholten.nl/bereastudiebijbel/1-petrus/2#v24)
+² [Johannes 3:16](https://andre-scholten.nl/bereastudiebijbel/johannes/3#v16)
 
 ## BEKERING
 
 Hoe ontvangt iemand dit eeuwige leven?
 
-1 - Hij moet zich bekeren van zijn slechte daden en voortaan gaan leven zoals God dat wil [1]
+1 - Hij moet zich bekeren van zijn slechte daden en voortaan gaan leven zoals God dat wil¹
 
-[1] [Jesaja 55:7](https://andre-scholten.nl/bereastudiebijbel/jesaja/55#v7); [Galaten 5:19-22](https://andre-scholten.nl/bereastudiebijbel/galaten/5#v19) 
+¹ [Jesaja 55:7](https://andre-scholten.nl/bereastudiebijbel/jesaja/55#v7); [Galaten 5:19-22](https://andre-scholten.nl/bereastudiebijbel/galaten/5#v19)
 
 ## GELOOF
 
-2 - Hij accepteert Jezus Christus als Degene Die hem verlost heeft van de straf voor zijn zonden door voor hem de straf van zijn zonden te dragen aan het kruis [1]
+2 - Hij accepteert Jezus Christus als Degene Die hem verlost heeft van de straf voor zijn zonden door voor hem de straf van zijn zonden te dragen aan het kruis¹
 
-[1] [Romeinen 3:25](https://andre-scholten.nl/bereastudiebijbel/romeinen/3#v25) 
+¹ [Romeinen 3:25](https://andre-scholten.nl/bereastudiebijbel/romeinen/3#v25)
 
-3 - Hij beseft dat hij door Jezus Christus gered is en niet omdat hij zelf zo goed geleefd heeft [2]
+3 - Hij beseft dat hij door Jezus Christus gered is en niet omdat hij zelf zo goed geleefd heeft²
 
-[2] [Romeinen 3:28](https://andre-scholten.nl/bereastudiebijbel/romeinen/3#v28) 
+² [Romeinen 3:28](https://andre-scholten.nl/bereastudiebijbel/romeinen/3#v28)
 
 ## DOPEN
 
-Als gevolg van deze keuze voor God moet hij zich laten dopen [1].
+Als gevolg van deze keuze voor God moet hij zich laten dopen¹.
 
-[1] [Handelingen 2:37-38](https://andre-scholten.nl/bereastudiebijbel/handelingen/2#v37) 
+¹ [Handelingen 2:37-38](https://andre-scholten.nl/bereastudiebijbel/handelingen/2#v37)
 
 ## DE HEILIGE GEEST
 
-En ontvangt hij de Heilige Geest, zodat hij God kan gehoorzamen [1].
+En ontvangt hij de Heilige Geest, zodat hij God kan gehoorzamen¹.
 
-[1] [Handelingen 8:17](https://andre-scholten.nl/bereastudiebijbel/handelingen/8#v17); [Ezechiël 36:27](https://andre-scholten.nl/bereastudiebijbel/ezechiel/36#v27) 
+¹ [Handelingen 8:17](https://andre-scholten.nl/bereastudiebijbel/handelingen/8#v17); [Ezechiël 36:27](https://andre-scholten.nl/bereastudiebijbel/ezechiel/36#v27)
 
 ## GEHOORZAAMHEID
 
-Want het geloof moet zich wel uiten in daden [1].
+Want het geloof moet zich wel uiten in daden¹.
 
-[1] [Jakobus 2:14](https://andre-scholten.nl/bereastudiebijbel/jakobus/2#v14) 
+¹ [Jakobus 2:14](https://andre-scholten.nl/bereastudiebijbel/jakobus/2#v14)
 
 ## HET EEUWIGE OORDEEL
 
-Als iemand heeft geleefd zoals God dat wil, zal hij daarvoor beloond worden [1]. Maar als iemand niet heeft geleefd zoals God dat wil, dan zal hij daarvoor voor eeuwig gestraft worden [2]. 
+Als iemand heeft geleefd zoals God dat wil, zal hij daarvoor beloond worden¹. Maar als iemand niet heeft geleefd zoals God dat wil, dan zal hij daarvoor voor eeuwig gestraft worden².
 
-[1] [Mattheüs 25:31-40](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v31) 
-[2] [Mattheüs 25:41-46](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v41) 
-
------------------------
-
-zet hier neer
-
-
----------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+¹ [Mattheüs 25:31-40](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v31)
+² [Mattheüs 25:41-46](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v41)
 
 %%
 
