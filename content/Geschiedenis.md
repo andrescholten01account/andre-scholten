@@ -8,7 +8,7 @@
 ➔ [[Overgang tussen Genesis en Vaderlandse geschiedenis]]
 ➔ [[Vaderlandse geschiedenis]]
 ➔ Zie claude/google/chatgpt
-➔ Stamboom Scholten (+ Henk + ik)
+➔ S[[Stamboom Scholten]] 
 
 ## De Oude Wereld
 
@@ -24,6 +24,17 @@
 - Tradities
 - Musea geschiedenis
 - Delpher
+
+## Meer
+
+[[Historische romans]]
+
+- Hunebedden
+- Grafheuvels
+- Steentijd, ijzertijd, bronstijd ➔ in Genesis was dit er al (bewerkers van brons? ➔ tekstverwijzing)
+- Trechterbekervolk
+- Friezen, Saksen, Franken, Kaninefaten
+➔ Foto's maken van jaartallentabel: Grote geschiedenis van een klein land ➔ Jan van Reenen
 
 %%
 

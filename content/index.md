@@ -36,6 +36,8 @@ Rechts:
 - Verantwoording1
 - [[Uitgangspunten]]
 
+[[Copyright policy]]
+
 ## Meer
 
 - Blogupdate kan later onder Midden. 

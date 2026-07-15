@@ -27,6 +27,13 @@ christelijke gebeden voor kinderen
 ➔ zie boek: elke dag kinderdag: verjaardag
 How to be a father after Gods own heart ➔ ook in nl
 
+john ploughman's talk
+jonn ploughman's pictures
+
+---
+
+https://gracegems.org/family.htm
+
 ---
 
 ## [[Schrijven voor kinderen]]
@@ -171,7 +178,6 @@ https://www.bijbelsberaadmv.nl/kerkelijke-documenten/
 ...
 
 https://freegracepress.com/collections/best-sellers/products/the-gospel-made-clear-to-children
-
 
 ...
 
