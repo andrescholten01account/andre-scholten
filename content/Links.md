@@ -20,7 +20,11 @@ https://vormingvoorelkedag.nl/
 
 ## Bloggers
 
-- 
+Michaël Hyatt ➔ archive.org
+Challies
+Willem de Vink
+Oorsprong.info
+Gerritveldman.nl
 
 ## Reformed Baptist
 

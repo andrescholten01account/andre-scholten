@@ -16,7 +16,7 @@ Een opwekking in Nederland. Gezinnen die toegewijd zijn aan God. Jezus volgen in
 
 ![[Pasted image 20260715071609.png]]
 
-> Our house ought te be a little church with holiness tot the Lord over the door, ...
+> Our house ought te be a little church with holiness to the Lord over the door, ...
 > ~ John Ploughman's Talk (nog nakijken)
 ## Blog
 
