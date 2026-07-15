@@ -2,23 +2,16 @@ Basis
 
 De Bijbel is waar
 
-Dit is een bewering.[^1]
-
-[^1]: Dit is de voetnoot.
-
 %%
 
 [[Boekje - De basis van het christelijk geloof]]
 
 Staat de bijlage nu ook verborgen?
 
-
 ---
 # DEEL 1 - HET EVANGELIE
 
 ## GOD
-
-God is de Schepper van de hemel en de aarde, en de mens. Hij is almachtig, alwetend, eeuwig, alomtegenwoordig, heilig, en rechtvaardig. 
 
 **Schepper van de hemel en de aarde**
 
