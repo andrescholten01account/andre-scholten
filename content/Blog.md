@@ -1,8 +1,11 @@
-%%
+Hier schrijf ik over onderwerpen die mij bezig houden. 
+
 ## [[Geloofsbelijdenissen]]
 ## [[Gezin]]
 
 ## [[Geschiedenis]]
+
+%%
 
 Dagelijkse overdenking
 

@@ -1,3 +1,5 @@
+De geschiedenis van de wereld, zoals het staat in Genesis 1 t/m 11, en de vaderlandse geschiedenis. 
+
 %%
 
 [[Pagina met lijst van jaartallen vanaf de schepping tot en met nu]]

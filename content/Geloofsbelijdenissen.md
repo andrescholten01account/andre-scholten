@@ -1,3 +1,5 @@
+Wat geloven christenen door de eeuwen heen? Lees het in geloofsbelijdenissen. 
+
 %%
 
 Pagina met lijst van geloofsbelijdenissen en catechismussen 
