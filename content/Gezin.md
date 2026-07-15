@@ -31,6 +31,7 @@ john ploughman's talk
 jonn ploughman's pictures
 
 https://www.biblebb.com/ ➔ zie homepage, naar onder: The Christian Family Collection 
+https://www.graceonlinelibrary.org/family-worship
 
 Thuis: warmte en liefde en heiligheid
 
@@ -39,6 +40,21 @@ Husband should try to maken home happy and holy.
 
 Our house ought te be a little church with holiness tot the Lord over the door, ...
 ~ John Ploughman's Talk (nog nakijken)
+
+---
+
+https://www.reformedreader.org/
+
+_"I am persuaded that the use of a good Catechism in all our families will be a great safeguard against the increasing errors of the times..."_
+
+~ C. H. Spurgeon
+
+---
+
+What is Catechism? ➔ artikel
+by Zacharias Ursinus (1534-1583)
+
+https://www.reformedreader.org/wcat.htm
 
 ---
 

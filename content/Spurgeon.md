@@ -10,3 +10,5 @@ Dagelijkse overdenkingen
 
 ➔ Zie spurgeon.nl / charlesspurgeon.nl
 
+https://www.spurgeon.org/
+
