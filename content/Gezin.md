@@ -15,7 +15,7 @@ ABC van het geloof
 you can bend the sapling, but not the tree
 nave + TTT ➔ children, parents, fathers
 chapel library ➔ tijdschrift ➔ parents, children, husband, wife
-gracegems ➔ family
+[gracegems ➔ family](https://gracegems.org/family.htm)
 boeken public domain engels
 ➔ ryle
 ➔ andrew murray
@@ -44,11 +44,6 @@ Our house ought te be a little church with holiness tot the Lord over the door, 
 - On good nature and firmness (zie boeken John Ploughman)
 
 ---
-
-https://gracegems.org/family.htm
-
----
-
 ## [[Schrijven voor kinderen]]
 
 ---
