@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Psalmen 53 — BereaStudieBijbel · André Scholten</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* huisstijl overgenomen van andre-scholten.nl (Quartz) */
+    --light:#faf6ee; --lightgray:#e6dcc8; --gray:#c9b896; --darkgray:#4a3829; --dark:#3a2a1d;
+    --secondary:#8b5e34; --tertiary:#a87c4f; --highlight:#8b5e341f; --textHighlight:#f0dca888;
+    --bodyFont:"Lora", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --codeFont:"IBM Plex Mono", ui-monospace, monospace;
+    /* aliassen zodat de bestaande regels de nieuwe kleuren gebruiken */
+    --accent: var(--secondary); --accent-donker: var(--dark); --bg: var(--light);
+    --bg-soft: #f2ead8; --border: var(--lightgray); --tekst: var(--darkgray);
+  }
+  * { box-sizing: border-box; }
+  body { font-family: var(--bodyFont); background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  .site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; line-height: normal; }
+  @media (min-width: 801px) { .site-header { margin-top: 4.8rem; } }
+  .page-title { font-size:1.75rem; font-family:var(--bodyFont); text-align:center; margin:0 0 .4rem; font-weight:600; }
+  .page-title a { color:var(--secondary); text-decoration:none; background-color:transparent !important; }
+  .page-title a:hover { color:var(--tertiary); }
+  .site-subtitle { color:var(--secondary); letter-spacing:.04em; margin:0 0 1rem; font-size:1.05em; font-style:italic; line-height:1.6rem; }
+  .site-nav { font-family:"Lora"; letter-spacing:.18em; text-transform:uppercase; border-top:1px solid var(--lightgray); border-bottom:1px solid var(--lightgray); margin:.8rem 0 2rem; padding:1rem 0; font-size:.82em; text-align:center; }
+  .site-nav a { font-weight:500; color:var(--secondary); text-decoration:none; background:transparent !important; }
+  .site-nav a:hover { color:var(--tertiary); text-decoration:underline; }
+  .nav-sep { color:var(--gray); }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .wl { border-bottom: 1px dotted var(--accent); }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  .site-footer { display:grid; grid-template-columns: 1fr 1fr 1fr; gap:1.5rem; max-width:700px; margin:3rem auto 0; padding:2rem 1.5rem 0; border-top:1px solid var(--lightgray); font-size:.85em; }
+  .site-footer-col { display:flex; flex-direction:column; gap:.5rem; }
+  .site-footer-mid { text-align:center; }
+  .site-footer-right { text-align:right; }
+  .site-footer a { color:var(--secondary); text-decoration:underline; }
+  .site-footer .footer-plain { color:var(--gray); }
+  @media (max-width:640px) { .site-footer { grid-template-columns:1fr; text-align:center; } .site-footer-right { text-align:center; } }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<div class="site-header">
+  <h2 class="page-title"><a href="/">André Scholten</a></h2>
+  <p class="site-subtitle">Persoonlijke blog</p>
+  <nav class="site-nav"><a href="/blog">Blog</a><span class="nav-sep"> | </span><a href="/de-volle-pinksterzegen">Boek</a><span class="nav-sep"> | </span><a href="/bereastudiebijbel/">Bijbel</a></nav>
+</div>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">Psalmen</a> › hoofdstuk 53</div>
+<h2 class="hfd">Psalmen 53</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site-footer">
+  <div class="site-footer-col">
+    <a href="/de-volle-pinksterzegen">De Volle Pinksterzegen</a>
+    <a href="/bijbelteksten-heilige-geest">Bijbelteksten Heilige Geest</a>
+    <a href="/bereastudiebijbel/">BereaStudieBijbel</a>
+    <a href="/bibliotheek">Bibliotheek</a>
+  </div>
+  <div class="site-footer-col site-footer-mid">
+    <a href="/?zoeken=1">Zoekfunctie</a>
+  </div>
+  <div class="site-footer-col site-footer-right">
+    <span class="footer-plain">Over</span>
+    <span class="footer-plain">Contact</span>
+    <span class="footer-plain">Verantwoording</span>
+    <a href="/uitgangspunten">Uitgangspunten</a>
+  </div>
+</footer>
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "Psalmen 53", "boek_naam": "Psalmen", "hfd_nr": "53", "zelf_abbr": "Ps 53", "totaal": 150, "basis_url": "https://andre-scholten.nl/bereastudiebijbel/psalmen/53", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../52/", "label": "‹ Psalmen 52"}, "volgende": {"href": "../54/", "label": "Psalmen 54 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}, {"n": "11", "href": "../11/"}, {"n": "12", "href": "../12/"}, {"n": "13", "href": "../13/"}, {"n": "14", "href": "../14/"}, {"n": "15", "href": "../15/"}, {"n": "16", "href": "../16/"}, {"n": "17", "href": "../17/"}, {"n": "18", "href": "../18/"}, {"n": "19", "href": "../19/"}, {"n": "20", "href": "../20/"}, {"n": "21", "href": "../21/"}, {"n": "22", "href": "../22/"}, {"n": "23", "href": "../23/"}, {"n": "24", "href": "../24/"}, {"n": "25", "href": "../25/"}, {"n": "26", "href": "../26/"}, {"n": "27", "href": "../27/"}, {"n": "28", "href": "../28/"}, {"n": "29", "href": "../29/"}, {"n": "30", "href": "../30/"}, {"n": "31", "href": "../31/"}, {"n": "32", "href": "../32/"}, {"n": "33", "href": "../33/"}, {"n": "34", "href": "../34/"}, {"n": "35", "href": "../35/"}, {"n": "36", "href": "../36/"}, {"n": "37", "href": "../37/"}, {"n": "38", "href": "../38/"}, {"n": "39", "href": "../39/"}, {"n": "40", "href": "../40/"}, {"n": "41", "href": "../41/"}, {"n": "42", "href": "../42/"}, {"n": "43", "href": "../43/"}, {"n": "44", "href": "../44/"}, {"n": "45", "href": "../45/"}, {"n": "46", "href": "../46/"}, {"n": "47", "href": "../47/"}, {"n": "48", "href": "../48/"}, {"n": "49", "href": "../49/"}, {"n": "50", "href": "../50/"}, {"n": "51", "href": "../51/"}, {"n": "52", "href": "../52/"}, {"n": "53", "href": "../53/"}, {"n": "54", "href": "../54/"}, {"n": "55", "href": "../55/"}, {"n": "56", "href": "../56/"}, {"n": "57", "href": "../57/"}, {"n": "58", "href": "../58/"}, {"n": "59", "href": "../59/"}, {"n": "60", "href": "../60/"}, {"n": "61", "href": "../61/"}, {"n": "62", "href": "../62/"}, {"n": "63", "href": "../63/"}, {"n": "64", "href": "../64/"}, {"n": "65", "href": "../65/"}, {"n": "66", "href": "../66/"}, {"n": "67", "href": "../67/"}, {"n": "68", "href": "../68/"}, {"n": "69", "href": "../69/"}, {"n": "70", "href": "../70/"}, {"n": "71", "href": "../71/"}, {"n": "72", "href": "../72/"}, {"n": "73", "href": "../73/"}, {"n": "74", "href": "../74/"}, {"n": "75", "href": "../75/"}, {"n": "76", "href": "../76/"}, {"n": "77", "href": "../77/"}, {"n": "78", "href": "../78/"}, {"n": "79", "href": "../79/"}, {"n": "80", "href": "../80/"}, {"n": "81", "href": "../81/"}, {"n": "82", "href": "../82/"}, {"n": "83", "href": "../83/"}, {"n": "84", "href": "../84/"}, {"n": "85", "href": "../85/"}, {"n": "86", "href": "../86/"}, {"n": "87", "href": "../87/"}, {"n": "88", "href": "../88/"}, {"n": "89", "href": "../89/"}, {"n": "90", "href": "../90/"}, {"n": "91", "href": "../91/"}, {"n": "92", "href": "../92/"}, {"n": "93", "href": "../93/"}, {"n": "94", "href": "../94/"}, {"n": "95", "href": "../95/"}, {"n": "96", "href": "../96/"}, {"n": "97", "href": "../97/"}, {"n": "98", "href": "../98/"}, {"n": "99", "href": "../99/"}, {"n": "100", "href": "../100/"}, {"n": "101", "href": "../101/"}, {"n": "102", "href": "../102/"}, {"n": "103", "href": "../103/"}, {"n": "104", "href": "../104/"}, {"n": "105", "href": "../105/"}, {"n": "106", "href": "../106/"}, {"n": "107", "href": "../107/"}, {"n": "108", "href": "../108/"}, {"n": "109", "href": "../109/"}, {"n": "110", "href": "../110/"}, {"n": "111", "href": "../111/"}, {"n": "112", "href": "../112/"}, {"n": "113", "href": "../113/"}, {"n": "114", "href": "../114/"}, {"n": "115", "href": "../115/"}, {"n": "116", "href": "../116/"}, {"n": "117", "href": "../117/"}, {"n": "118", "href": "../118/"}, {"n": "119", "href": "../119/"}, {"n": "120", "href": "../120/"}, {"n": "121", "href": "../121/"}, {"n": "122", "href": "../122/"}, {"n": "123", "href": "../123/"}, {"n": "124", "href": "../124/"}, {"n": "125", "href": "../125/"}, {"n": "126", "href": "../126/"}, {"n": "127", "href": "../127/"}, {"n": "128", "href": "../128/"}, {"n": "129", "href": "../129/"}, {"n": "130", "href": "../130/"}, {"n": "131", "href": "../131/"}, {"n": "132", "href": "../132/"}, {"n": "133", "href": "../133/"}, {"n": "134", "href": "../134/"}, {"n": "135", "href": "../135/"}, {"n": "136", "href": "../136/"}, {"n": "137", "href": "../137/"}, {"n": "138", "href": "../138/"}, {"n": "139", "href": "../139/"}, {"n": "140", "href": "../140/"}, {"n": "141", "href": "../141/"}, {"n": "142", "href": "../142/"}, {"n": "143", "href": "../143/"}, {"n": "144", "href": "../144/"}, {"n": "145", "href": "../145/"}, {"n": "146", "href": "../146/"}, {"n": "147", "href": "../147/"}, {"n": "148", "href": "../148/"}, {"n": "149", "href": "../149/"}, {"n": "150", "href": "../150/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "Een onderwijzing van David, voor de koorleider, op Machalath.", "2": "De dwaas zegt in zijn hart: Er is geen God; zij verderven het, en zij bedrijven gruwelijk onrecht; er is niemand die goed doet.", "3": "God heeft uit de hemel neergezien op de mensenkinderen, om te zien of iemand verstandig was, die God zocht.", "4": "Een ieder van hen is teruggekeerd, samen zijn zij stinkend geworden, er is niemand die goed doet, ook niet één.", "5": "Hebben dan de werkers van de ongerechtigheid geen kennis, die Mijn volk opeten, *alsof* zij brood aten? Zij roepen God niet aan.", "6": "Daar zijn zij met vervaardheid vervaard geworden, *waar* geen vervaardheid was; want God heeft de beenderen van hem die u belegerde, verstrooid; u hebt hen beschaamd gemaakt, want God heeft hen verworpen.", "7": "Och, dat Israëls verlossingen uit Sion kwamen! Als God de gevangenen van Zijn volk zal doen terugkeren, *dan* zal Jakob zich verheugen, Israël zal verblijd zijn."}, "SV": {"1": "Een onderwijzing van David, voor den opperzangmeester, op Machalath.", "2": "De dwaas zegt in zijn hart: Er is geen God; zij verderven het, en zij bedrijven gruwelijk onrecht; er is niemand, die goed doet.", "3": "God heeft uit den hemel nedergezien op de mensenkinderen, om te zien, of iemand verstandig ware, die God zocht.", "4": "Een ieder van hen is teruggekeerd, te zamen zijn zij stinkende geworden, er is niemand, die goed doet, ook niet een.", "5": "Hebben dan de werkers der ongerechtigheid geen kennis, die Mijn volk opeten, *alsof* zij brood aten? Zij roepen God niet aan.", "6": "Aldaar zijn zij met vervaardheid vervaard geworden, *waar* geen vervaardheid was; want God heeft de beenderen desgenen, die u belegerde, verstrooid; gij hebt hen beschaamd gemaakt, want God heeft hen verworpen.", "7": "Och, dat Israëls verlossingen uit Sion kwamen! Als God de gevangenen Zijns volks zal doen wederkeren, *dan* zal zich Jakob verheugen, Israël zal verblijd zijn."}, "KJV": {"1": "[[To the chief Musician upon Mahalath, Maschil, *A Psalm* of David.]] The fool hath said in his heart, *There is* no God. Corrupt are they, and have done abominable iniquity: *there is* none that doeth good.", "2": "God looked down from heaven upon the children of men, to see if there were *any* that did understand, that did seek God.", "3": "Every one of them is gone back: they are altogether become filthy; *there is* none that doeth good, no, not one.", "4": "Have the workers of iniquity no knowledge? who eat up my people *as* they eat bread: they have not called upon God.", "5": "There were they in great fear, *where* no fear was: for God hath scattered the bones of him that encampeth *against* thee: thou hast put *them* to shame, because God hath despised", "6": "Oh that the salvation of Israel *were come* out of Zion! When God bringeth back the captivity of his people, Jacob shall rejoice, *and* Israel shall be glad."}}, "tsk": {"2": [{"kopje": "dwaas", "refs": ["Ps 14:1-7", "Ps 92:7", "Matt 5:22", "Luk 12:20"]}, {"kopje": "zegt", "refs": ["Ps 10:4", "Ps 10:6", "Ps 10:11", "Ps 10:13", "1 Kon 12:26", "Rom 1:21", "Rom 1:28"]}, {"kopje": "verderven", "refs": ["Gen 6:5", "Gen 6:6", "Gen 6:11-13", "Job 14:4", "Job 15:16"]}, {"kopje": "bedrijven", "refs": ["Lev 18:24-30", "Deut 12:31", "1 Kon 14:24", "Ezech 16:47", "Ezech 16:51", "Ef 5:12", "1 Petr 4:3"]}, {"kopje": "er is", "refs": ["Rom 3:10-31"]}], "3": [{"kopje": "neergezien", "refs": ["Ps 11:4", "Ps 33:13", "Ps 33:14", "Ps 102:20", "Jer 16:17", "Jer 23:24"]}, {"kopje": "iemand", "refs": ["Ps 111:10", "Deut 4:6", "Job 28:28"]}, {"kopje": "zocht", "refs": ["Ps 10:4", "Ps 27:8", "1 Kron 28:9", "2 Kron 15:2", "2 Kron 19:3", "Jes 55:6"]}], "4": [{"kopje": "Een ieder", "refs": ["Ps 14:3", "2 Sam 20:2", "Jes 53:6", "Jes 64:6", "Jer 8:5", "Jer 8:6", "Zef 1:6"]}, {"kopje": "stinkend", "refs": ["Job 15:16", "Ezech 36:25", "2 Kor 7:1", "Openb 22:11"]}, {"kopje": "niemand", "refs": ["Rom 3:12", "1 Joh 2:29", "3 Joh 1:11"]}], "5": [{"kopje": "Hebben", "refs": ["Ps 14:1-7", "Ps 94:8", "Jes 27:11", "Jer 4:22", "Matt 23:17-39"]}, {"kopje": "die opeten", "refs": ["Ps 27:2", "Jer 10:25", "Openb 17:16"]}], "6": [{"kopje": "Daar", "refs": ["Lev 26:17", "Lev 26:36", "Deut 28:65-67", "1 Sam 14:15", "2 Kon 7:6", "2 Kon 7:7", "Job 15:21", "Spr 28:1"]}, {"kopje": "zijn zij met vervaardheid vervaard geworden", "refs": ["Ps 14:5"]}, {"kopje": "verstrooid", "refs": ["Ps 141:7", "Ezech 6:5", "Ezech 37:1-11"]}, {"kopje": "u hebt", "refs": ["Ps 35:4", "Ps 35:26", "Ps 40:15", "Ps 83:17", "Ps 83:18"]}, {"kopje": "want", "refs": ["Ps 2:4", "Ps 73:20", "Jes 37:22-38", "Jer 6:30", "Klaagl 2:6"]}], "7": [{"kopje": "Och", "refs": ["Ps 14:7"]}, {"kopje": "uit", "refs": ["Ps 50:2", "Jes 12:6", "Jes 14:32"]}, {"kopje": "God", "refs": ["Ps 14:7"]}, {"kopje": "zal doen terugkeren", "refs": ["Ps 85:2", "Ps 126:1-4", "Job 42:10", "Jer 30:18", "Jer 31:23", "Joël 3:1", "Amos 9:14"]}, {"kopje": "Jakob", "refs": ["Ps 106:46-48", "Ezra 3:11", "Neh 12:43", "Jes 12:1-3"]}]}, "onderwerpen": {"2": [{"onderwerp": "Verdorvenheid van de mens", "sub": "Algemene verwijzingen", "totaal": 94, "positie": 24, "vorige": "Ps 14:3", "volgende": "Ps 53:3", "alle": ["Gen 6:5", "Gen 6:6", "Gen 6:7", "Gen 6:11", "Gen 6:12", "Gen 6:13", "Job 4:17", "Job 4:18", "Job 4:19", "Job 9:2", "Job 9:3", "Job 9:29", "Job 9:30", "Job 9:31", "Job 15:14", "Job 15:15", "Job 15:16", "Job 25:4", "Job 25:5", "Job 25:6", "Ps 14:1", "Ps 14:2", "Ps 14:3", "Ps 53:3", "Ps 53:4", "Ps 58:2", "Ps 58:3", "Ps 58:4", "Ps 58:5", "Ps 58:6", "Jes 1:5", "Jes 1:6", "Jes 42:6", "Jes 42:7", "Ezech 36:25", "Ezech 36:26", "Ezech 37:1", "Ezech 37:2", "Ezech 37:3", "Micha 7:2"], "meer": 53}, {"onderwerp": "Psalmen", "sub": "Lerende Psalmen", "totaal": 225, "positie": 116, "vorige": "Ps 52:11", "volgende": "Ps 53:3", "alle": ["Ps 1:1", "Ps 1:2", "Ps 1:3", "Ps 1:4", "Ps 1:5", "Ps 1:6", "Ps 5:2", "Ps 5:3", "Ps 5:4", "Ps 5:5", "Ps 5:6", "Ps 5:7", "Ps 5:8", "Ps 5:9", "Ps 5:10", "Ps 5:11", "Ps 5:12", "Ps 5:13", "Ps 11:1", "Ps 11:2", "Ps 11:3", "Ps 11:4", "Ps 11:5", "Ps 11:6", "Ps 11:7", "Ps 12:2", "Ps 12:3", "Ps 12:4", "Ps 12:5", "Ps 12:6", "Ps 12:7", "Ps 12:8", "Ps 12:9", "Ps 14:1", "Ps 14:2", "Ps 14:3", "Ps 14:4", "Ps 14:5", "Ps 14:6", "Ps 14:7"], "meer": 184}, {"onderwerp": "Twijfelzucht", "sub": "Algemene verwijzingen", "totaal": 6, "positie": 4, "vorige": "Ps 14:1", "volgende": "Zef 1:12", "alle": ["Job 21:15", "Job 22:17", "Ps 14:1", "Zef 1:12", "Mal 3:14"], "meer": 0}, {"onderwerp": "Goddeloos", "sub": "Beschreven", "totaal": 304, "positie": 84, "vorige": "Ps 52:6", "volgende": "Ps 53:3", "alle": ["Gen 13:13", "Gen 18:20", "Lev 18:25", "Deut 9:13", "Deut 9:24", "Deut 32:10", "Deut 32:32", "Deut 32:33", "1 Sam 24:14", "1 Kon 21:20", "2 Kron 28:10", "2 Kron 28:22", "Ezra 9:11", "Job 14:4", "Job 15:16", "Job 15:20", "Job 15:21", "Job 15:22", "Job 15:23", "Job 15:24", "Job 15:25", "Job 15:26", "Job 15:27", "Job 15:28", "Job 15:29", "Job 15:30", "Job 15:31", "Job 15:32", "Job 15:33", "Job 15:34", "Job 15:35", "Job 20:12", "Job 20:13", "Job 22:5", "Job 24:2", "Job 24:3", "Job 24:4", "Job 24:5", "Job 24:6", "Job 24:7"], "meer": 263}], "3": [{"onderwerp": "Verdorvenheid van de mens", "sub": "Algemene verwijzingen", "totaal": 94, "positie": 25, "vorige": "Ps 53:2", "volgende": "Ps 53:4", "alle": ["Gen 6:5", "Gen 6:6", "Gen 6:7", "Gen 6:11", "Gen 6:12", "Gen 6:13", "Job 4:17", "Job 4:18", "Job 4:19", "Job 9:2", "Job 9:3", "Job 9:29", "Job 9:30", "Job 9:31", "Job 15:14", "Job 15:15", "Job 15:16", "Job 25:4", "Job 25:5", "Job 25:6", "Ps 14:1", "Ps 14:2", "Ps 14:3", "Ps 53:2", "Ps 53:4", "Ps 58:2", "Ps 58:3", "Ps 58:4", "Ps 58:5", "Ps 58:6", "Jes 1:5", "Jes 1:6", "Jes 42:6", "Jes 42:7", "Ezech 36:25", "Ezech 36:26", "Ezech 37:1", "Ezech 37:2", "Ezech 37:3", "Micha 7:2"], "meer": 53}, {"onderwerp": "Goddeloosheid", "sub": "Algemene verwijzingen", "totaal": 27, "positie": 6, "vorige": "Ps 14:3", "volgende": "Ps 53:4", "alle": ["Job 8:11", "Job 8:12", "Job 8:13", "Ps 14:2", "Ps 14:3", "Ps 53:4", "Jes 30:1", "Jes 30:2", "Jes 30:9", "Jes 30:10", "Jes 30:11", "Jes 30:12", "Jes 30:13", "Hos 7:2", "Hos 7:3", "Hos 7:4", "Joh 15:23", "Joh 15:24", "Joh 15:25", "Rom 1:21", "Rom 1:22", "Rom 8:6", "Rom 8:7", "Rom 8:8", "Hebr 10:26", "Hebr 10:27"], "meer": 0}, {"onderwerp": "Psalmen", "sub": "Lerende Psalmen", "totaal": 225, "positie": 117, "vorige": "Ps 53:2", "volgende": "Ps 53:4", "alle": ["Ps 1:1", "Ps 1:2", "Ps 1:3", "Ps 1:4", "Ps 1:5", "Ps 1:6", "Ps 5:2", "Ps 5:3", "Ps 5:4", "Ps 5:5", "Ps 5:6", "Ps 5:7", "Ps 5:8", "Ps 5:9", "Ps 5:10", "Ps 5:11", "Ps 5:12", "Ps 5:13", "Ps 11:1", "Ps 11:2", "Ps 11:3", "Ps 11:4", "Ps 11:5", "Ps 11:6", "Ps 11:7", "Ps 12:2", "Ps 12:3", "Ps 12:4", "Ps 12:5", "Ps 12:6", "Ps 12:7", "Ps 12:8", "Ps 12:9", "Ps 14:1", "Ps 14:2", "Ps 14:3", "Ps 14:4", "Ps 14:5", "Ps 14:6", "Ps 14:7"], "meer": 184}, {"onderwerp": "Goddeloos", "sub": "Beschreven", "totaal": 304, "positie": 85, "vorige": "Ps 53:2", "volgende": "Ps 53:4", "alle": ["Gen 13:13", "Gen 18:20", "Lev 18:25", "Deut 9:13", "Deut 9:24", "Deut 32:10", "Deut 32:32", "Deut 32:33", "1 Sam 24:14", "1 Kon 21:20", "2 Kron 28:10", "2 Kron 28:22", "Ezra 9:11", "Job 14:4", "Job 15:16", "Job 15:20", "Job 15:21", "Job 15:22", "Job 15:23", "Job 15:24", "Job 15:25", "Job 15:26", "Job 15:27", "Job 15:28", "Job 15:29", "Job 15:30", "Job 15:31", "Job 15:32", "Job 15:33", "Job 15:34", "Job 15:35", "Job 20:12", "Job 20:13", "Job 22:5", "Job 24:2", "Job 24:3", "Job 24:4", "Job 24:5", "Job 24:6", "Job 24:7"], "meer": 263}], "4": [{"onderwerp": "Verdorvenheid van de mens", "sub": "Algemene verwijzingen", "totaal": 94, "positie": 26, "vorige": "Ps 53:3", "volgende": "Ps 58:2", "alle": ["Gen 6:5", "Gen 6:6", "Gen 6:7", "Gen 6:11", "Gen 6:12", "Gen 6:13", "Job 4:17", "Job 4:18", "Job 4:19", "Job 9:2", "Job 9:3", "Job 9:29", "Job 9:30", "Job 9:31", "Job 15:14", "Job 15:15", "Job 15:16", "Job 25:4", "Job 25:5", "Job 25:6", "Ps 14:1", "Ps 14:2", "Ps 14:3", "Ps 53:2", "Ps 53:3", "Ps 58:2", "Ps 58:3", "Ps 58:4", "Ps 58:5", "Ps 58:6", "Jes 1:5", "Jes 1:6", "Jes 42:6", "Jes 42:7", "Ezech 36:25", "Ezech 36:26", "Ezech 37:1", "Ezech 37:2", "Ezech 37:3", "Micha 7:2"], "meer": 53}, {"onderwerp": "Goddeloosheid", "sub": "Algemene verwijzingen", "totaal": 27, "positie": 7, "vorige": "Ps 53:3", "volgende": "Jes 30:1", "alle": ["Job 8:11", "Job 8:12", "Job 8:13", "Ps 14:2", "Ps 14:3", "Ps 53:3", "Jes 30:1", "Jes 30:2", "Jes 30:9", "Jes 30:10", "Jes 30:11", "Jes 30:12", "Jes 30:13", "Hos 7:2", "Hos 7:3", "Hos 7:4", "Joh 15:23", "Joh 15:24", "Joh 15:25", "Rom 1:21", "Rom 1:22", "Rom 8:6", "Rom 8:7", "Rom 8:8", "Hebr 10:26", "Hebr 10:27"], "meer": 0}, {"onderwerp": "Psalmen", "sub": "Lerende Psalmen", "totaal": 225, "positie": 118, "vorige": "Ps 53:3", "volgende": "Ps 53:5", "alle": ["Ps 1:1", "Ps 1:2", "Ps 1:3", "Ps 1:4", "Ps 1:5", "Ps 1:6", "Ps 5:2", "Ps 5:3", "Ps 5:4", "Ps 5:5", "Ps 5:6", "Ps 5:7", "Ps 5:8", "Ps 5:9", "Ps 5:10", "Ps 5:11", "Ps 5:12", "Ps 5:13", "Ps 11:1", "Ps 11:2", "Ps 11:3", "Ps 11:4", "Ps 11:5", "Ps 11:6", "Ps 11:7", "Ps 12:2", "Ps 12:3", "Ps 12:4", "Ps 12:5", "Ps 12:6", "Ps 12:7", "Ps 12:8", "Ps 12:9", "Ps 14:1", "Ps 14:2", "Ps 14:3", "Ps 14:4", "Ps 14:5", "Ps 14:6", "Ps 14:7"], "meer": 184}, {"onderwerp": "Goddeloos", "sub": "Beschreven", "totaal": 304, "positie": 86, "vorige": "Ps 53:3", "volgende": "Ps 53:5", "alle": ["Gen 13:13", "Gen 18:20", "Lev 18:25", "Deut 9:13", "Deut 9:24", "Deut 32:10", "Deut 32:32", "Deut 32:33", "1 Sam 24:14", "1 Kon 21:20", "2 Kron 28:10", "2 Kron 28:22", "Ezra 9:11", "Job 14:4", "Job 15:16", "Job 15:20", "Job 15:21", "Job 15:22", "Job 15:23", "Job 15:24", "Job 15:25", "Job 15:26", "Job 15:27", "Job 15:28", "Job 15:29", "Job 15:30", "Job 15:31", "Job 15:32", "Job 15:33", "Job 15:34", "Job 15:35", "Job 20:12", "Job 20:13", "Job 22:5", "Job 24:2", "Job 24:3", "Job 24:4", "Job 24:5", "Job 24:6", "Job 24:7"], "meer": 263}], "5": [{"onderwerp": "Gebedloosheid", "sub": "", "totaal": 15, "positie": 6, "vorige": "Ps 14:4", "volgende": "Ps 79:6", "alle": ["Job 15:4", "Job 21:14", "Job 21:15", "Job 27:10", "Ps 14:4", "Ps 79:6", "Jes 43:22", "Jes 64:7", "Jer 10:21", "Jer 10:25", "Dan 9:13", "Hos 7:7", "Jona 1:6", "Zef 1:6"], "meer": 0}, {"onderwerp": "Psalmen", "sub": "Lerende Psalmen", "totaal": 225, "positie": 119, "vorige": "Ps 53:4", "volgende": "Ps 53:6", "alle": ["Ps 1:1", "Ps 1:2", "Ps 1:3", "Ps 1:4", "Ps 1:5", "Ps 1:6", "Ps 5:2", "Ps 5:3", "Ps 5:4", "Ps 5:5", "Ps 5:6", "Ps 5:7", "Ps 5:8", "Ps 5:9", "Ps 5:10", "Ps 5:11", "Ps 5:12", "Ps 5:13", "Ps 11:1", "Ps 11:2", "Ps 11:3", "Ps 11:4", "Ps 11:5", "Ps 11:6", "Ps 11:7", "Ps 12:2", "Ps 12:3", "Ps 12:4", "Ps 12:5", "Ps 12:6", "Ps 12:7", "Ps 12:8", "Ps 12:9", "Ps 14:1", "Ps 14:2", "Ps 14:3", "Ps 14:4", "Ps 14:5", "Ps 14:6", "Ps 14:7"], "meer": 184}, {"onderwerp": "Goddeloos", "sub": "Beschreven", "totaal": 304, "positie": 87, "vorige": "Ps 53:4", "volgende": "Ps 53:6", "alle": ["Gen 13:13", "Gen 18:20", "Lev 18:25", "Deut 9:13", "Deut 9:24", "Deut 32:10", "Deut 32:32", "Deut 32:33", "1 Sam 24:14", "1 Kon 21:20", "2 Kron 28:10", "2 Kron 28:22", "Ezra 9:11", "Job 14:4", "Job 15:16", "Job 15:20", "Job 15:21", "Job 15:22", "Job 15:23", "Job 15:24", "Job 15:25", "Job 15:26", "Job 15:27", "Job 15:28", "Job 15:29", "Job 15:30", "Job 15:31", "Job 15:32", "Job 15:33", "Job 15:34", "Job 15:35", "Job 20:12", "Job 20:13", "Job 22:5", "Job 24:2", "Job 24:3", "Job 24:4", "Job 24:5", "Job 24:6", "Job 24:7"], "meer": 263}], "6": [{"onderwerp": "Psalmen", "sub": "Lerende Psalmen", "totaal": 225, "positie": 120, "vorige": "Ps 53:5", "volgende": "Ps 53:7", "alle": ["Ps 1:1", "Ps 1:2", "Ps 1:3", "Ps 1:4", "Ps 1:5", "Ps 1:6", "Ps 5:2", "Ps 5:3", "Ps 5:4", "Ps 5:5", "Ps 5:6", "Ps 5:7", "Ps 5:8", "Ps 5:9", "Ps 5:10", "Ps 5:11", "Ps 5:12", "Ps 5:13", "Ps 11:1", "Ps 11:2", "Ps 11:3", "Ps 11:4", "Ps 11:5", "Ps 11:6", "Ps 11:7", "Ps 12:2", "Ps 12:3", "Ps 12:4", "Ps 12:5", "Ps 12:6", "Ps 12:7", "Ps 12:8", "Ps 12:9", "Ps 14:1", "Ps 14:2", "Ps 14:3", "Ps 14:4", "Ps 14:5", "Ps 14:6", "Ps 14:7"], "meer": 184}, {"onderwerp": "Goddeloos", "sub": "Beschreven", "totaal": 304, "positie": 88, "vorige": "Ps 53:5", "volgende": "Ps 58:4", "alle": ["Gen 13:13", "Gen 18:20", "Lev 18:25", "Deut 9:13", "Deut 9:24", "Deut 32:10", "Deut 32:32", "Deut 32:33", "1 Sam 24:14", "1 Kon 21:20", "2 Kron 28:10", "2 Kron 28:22", "Ezra 9:11", "Job 14:4", "Job 15:16", "Job 15:20", "Job 15:21", "Job 15:22", "Job 15:23", "Job 15:24", "Job 15:25", "Job 15:26", "Job 15:27", "Job 15:28", "Job 15:29", "Job 15:30", "Job 15:31", "Job 15:32", "Job 15:33", "Job 15:34", "Job 15:35", "Job 20:12", "Job 20:13", "Job 22:5", "Job 24:2", "Job 24:3", "Job 24:4", "Job 24:5", "Job 24:6", "Job 24:7"], "meer": 263}], "7": [{"onderwerp": "Psalmen", "sub": "Lerende Psalmen", "totaal": 225, "positie": 121, "vorige": "Ps 53:6", "volgende": "Ps 58:2", "alle": ["Ps 1:1", "Ps 1:2", "Ps 1:3", "Ps 1:4", "Ps 1:5", "Ps 1:6", "Ps 5:2", "Ps 5:3", "Ps 5:4", "Ps 5:5", "Ps 5:6", "Ps 5:7", "Ps 5:8", "Ps 5:9", "Ps 5:10", "Ps 5:11", "Ps 5:12", "Ps 5:13", "Ps 11:1", "Ps 11:2", "Ps 11:3", "Ps 11:4", "Ps 11:5", "Ps 11:6", "Ps 11:7", "Ps 12:2", "Ps 12:3", "Ps 12:4", "Ps 12:5", "Ps 12:6", "Ps 12:7", "Ps 12:8", "Ps 12:9", "Ps 14:1", "Ps 14:2", "Ps 14:3", "Ps 14:4", "Ps 14:5", "Ps 14:6", "Ps 14:7"], "meer": 184}]}, "extern": {"Gen 6:7": "En de HEERE zei: Ik zal de mens, die Ik geschapen heb, wegvagen van de aardbodem, van de mens tot het vee, tot het kruipend gedierte, en tot het gevogelte van de hemel toe; want het berouwt Mij dat Ik hen gemaakt heb.", "Jes 30:13": "Daarom zal deze misdaad voor u zijn als een vallende scheur, uitwaarts gebogen in een hoge muur, waarvan de breuk snel, in een ogenblik, komen zal.", "Jer 16:17": "Want Mijn ogen zijn op al hun wegen; zij zijn voor Mijn aangezicht niet verborgen, en hun ongerechtigheid is niet verhuld voor Mijn ogen.", "Ps 5:3": "Let op de stem van mijn geroep, o mijn Koning en mijn God! Want tot U zal ik bidden.", "Ps 58:2": "Spreekt u werkelijk gerechtigheid, gij vergadering? Oordeelt u wat recht is, mensenkinderen?", "Ps 11:5": "De HEERE beproeft de rechtvaardige; maar de goddeloze, en wie geweld liefheeft, haat Zijn ziel.", "2 Kron 28:10": "Daartoe denkt u er nu aan om de kinderen van Juda en Jeruzalem u tot slaven en slavinnen te onderwerpen; bent u het zelf niet die schuldig staan? Bij u zijn schulden tegen de HEERE, uw God.", "Job 42:10": "En de HEERE wendde de gevangenis van Job, toen hij gebeden had voor zijn vrienden; en de HEERE vermeerderde alles wat Job gehad had tot het dubbele.", "Lev 26:17": "Daartoe zal Ik Mijn aangezicht tegen u zetten, zodat u geslagen zult worden voor het aangezicht van uw vijanden; en uw haters zullen over u heersen, en u zult vluchten, ook al vervolgt u niemand.", "Rom 1:22": "terwijl zij zich voor wijzen uitgaven, zijn zij dwaas geworden;", "Ps 102:20": "Omdat Hij uit de hoogte van het heiligdom zal hebben neerwaarts gezien; dat de HEERE uit de hemel op de aarde geschouwd zal hebben;", "Jer 23:24": "Zou iemand zich in verborgen plaatsen kunnen verbergen, zodat Ik hem niet zou zien? spreekt de HEERE; vervul Ik niet de hemel en de aarde? spreekt de HEERE.", "Jes 30:12": "Daarom, zo zegt de Heilige van Israël: Omdat u dit woord verwerpt, en vertrouwt op onderdrukking en verkeerdheid, en daarop steunt:", "Ps 12:7": "De woorden van de HEERE zijn reine woorden, zilver, gelouterd in een aarden smeltkroes, gezuiverd zevenmaal.", "Ps 14:4": "Hebben dan alle werkers van de ongerechtigheid geen kennis, die mijn volk opeten alsof zij brood aten? Zij roepen de HEERE niet aan.", "Ps 52:11": "Ik zal U loven voor eeuwig, omdat U het gedaan hebt; en ik zal Uw Naam verwachten; want hij is goed voor Uw gunstgenoten.", "Ps 10:6": "Hij zegt in zijn hart: Ik zal niet wankelen; want ik zal van geslacht tot geslacht in geen kwaad zijn.", "1 Kon 21:20": "En Achab zei tegen Elia: Hebt u mij gevonden, o mijn vijand? En hij zei: Ik heb u gevonden, omdat u uzelf verkocht hebt om te doen wat kwaad is in de ogen van de HEERE.", "Ps 58:4": "De goddelozen zijn vervreemd van de moederschoot af; de leugensprekers dolen van de moederbuik af.", "Jes 1:5": "Waartoe zou u nog meer geslagen worden? U zou van het afval des te meer maken; het hele hoofd is ziek, en het hele hart is mat.", "Job 15:33": "Men zal zijn onrijpe druiven afrukken, als van een wijnstok, en zijn bloeisel afwerpen, als van een olijfboom.", "Job 9:29": "Ik zal toch goddeloos verklaard worden; waarom dan zal ik zonder nut zwoegen?", "Job 15:32": "Als zijn dag nog niet is, zal het vervuld worden; want zijn tak zal niet groenen.", "Job 24:2": "Zij verzetten de landpalen; de kudden roven zij, en weiden ze.", "Job 8:11": "Groeit het riet op zonder moeras? Groeit het rietgras zonder water?", "2 Kron 28:22": "Ja, in de tijd toen men hem benauwde, ging hij nog meer overtreden tegen de HEERE; dit was koning Achaz.", "Job 15:24": "Angst en benauwdheid verschrikken hem; zij overweldigt hem, als een koning die bereid is ten strijde.", "1 Joh 2:29": "Als u weet, dat Hij rechtvaardig is, dan weet u, dat ieder, die de rechtvaardigheid doet, uit Hem geboren is.", "Hebr 10:27": "maar een schrikwekkend uitzicht op het oordeel, en een felle hitte van het vuur, die de tegenstanders zal verslinden.", "Job 20:12": "Al is het kwaad zoet in zijn mond, al verbergt hij dat onder zijn tong,", "Ps 35:4": "Laat hen beschaamd worden en te schande, die mijn ziel zoeken; laat hen achterwaarts gedreven worden en schaamrood, die kwaad tegen mij bedenken.", "Lev 26:36": "En wat betreft de overgeblevenen onder u, Ik zal in hun hart een angstige zwakheid laten komen in de landen van hun vijanden; zodat het geruis van een opgejaagd blad hen zal opjagen, en zij zullen vluchten, zoals men vlucht voor een zwaard, en zullen vallen, terwijl niemand hen opjaagt.", "Deut 9:24": "Opstandig bent u geweest tegen de HEERE, vanaf de dag dat ik u gekend heb.", "Luk 12:20": "Maar God zei tegen hem: Jij dwaas! Nog deze nacht zal men uw ziel van u opeisen; en wat u hebt klaargemaakt, van wie zal het dan zijn?", "Job 15:31": "Hij vertrouwt niet op ijdelheid, waardoor hij verleid wordt; want ijdelheid zal zijn vergelding zijn.", "Ps 14:7": "Och, dat Israëls verlossing uit Sion kwam! Als de HEERE de gevangenen van Zijn volk zal doen terugkeren, dan zal Jakob zich verheugen, Israël zal blij zijn.", "Rom 1:21": "Omdat zij, hoewel zij God kenden, Hem niet als God verheerlijkt of gedankt hebben; maar in hun overleggingen zijn zij verijdeld geworden, en hun onverstandig hart is verduisterd geworden;", "Ps 33:14": "Hij ziet uit vanaf Zijn vaste woonplaats op alle inwoners van de aarde.", "Ezra 3:11": "En zij zongen bij beurten, om de HEERE te loven en te danken, omdat Hij goed is en Zijn goedertierenheid tot in eeuwigheid is over Israël. En heel het volk juichte met groot gejuich, toen men de HEERE loofde vanwege de grondlegging van het huis van de HEERE.", "Ezech 36:26": "En Ik zal u een nieuw hart geven, en zal een nieuwe geest geven in het binnenste van u; en Ik zal het stenen hart uit uw vlees wegnemen, en zal u een vlezen hart geven.", "Ps 5:4": "Des morgens, HEERE, zult U mijn stem horen; des morgens zal ik mij tot U schikken, en wacht houden.", "Ps 27:8": "Mijn hart zegt tegen U: U zegt: Zoek Mijn aangezicht; ik zoek Uw aangezicht, o HEERE!", "Klaagl 2:6": "Vau. En Hij heeft Zijn hut met geweld afgerukt, als een hof, Hij heeft Zijn vergaderplaats verdorven; de HEERE heeft in Sion doen vergeten het hoogtijd en de sabbat, en Hij heeft in de gramschap van Zijn toorn de koning en de priester smadelijk verworpen.", "Ps 14:6": "U beschaamt de raad van de ellendige, omdat de HEERE zijn Toevlucht is.", "Jes 30:9": "Want het is een opstandig volk; het zijn leugenachtige kinderen; kinderen die de wet van de HEERE niet willen horen.", "Ps 5:2": "O HEERE, neem mijn woorden ter oor; let op mijn overdenking.", "Jes 30:10": "Die tegen de zieners zeggen: Ziet niet; en tegen de schouwers: Schouwt ons niet wat recht is; spreekt tot ons zachte dingen, schouwt ons bedriegerijen.", "Ps 92:7": "Een redeloos man weet er niet van, en een dwaas begrijpt dit niet;", "Job 15:23": "Hij zwerft heen en weer om brood, waar het maar is; hij weet, dat bij zijn hand gereed is de dag van de duisternis.", "Job 15:26": "Hij loopt tegen Hem aan met de hals, met zijn dikke, hoog verheven schilden;", "Jer 10:21": "Want de herders zijn redeloos geworden, en hebben de HEERE niet gezocht; daarom hebben zij niet verstandig gehandeld, en hun hele kudde is verstrooid.", "Ezech 37:3": "En Hij zei tot mij: Mensenkind! Zullen deze beenderen levend worden? En ik zei: Heere HEERE, U weet het!", "Ps 40:15": "Laat hen samen beschaamd en schaamrood worden, die mijn ziel zoeken om die te vernielen; laat hen achterwaarts gedreven worden, en te schande worden, die lust hebben aan mijn kwaad.", "Ps 12:3": "Zij spreken valsheid, ieder met zijn naaste, met vleiende lippen; zij spreken met een dubbel hart.", "Ps 73:20": "Als een droom na het ontwaken! Als U opwaakt, o Heere, dan zult U hun beeld verachten.", "Rom 8:8": "En zij die in het vlees zijn, kunnen God niet behagen.", "Ps 12:5": "Die zeggen: Wij zullen de overhand hebben met onze tong; onze lippen zijn onze! Wie is heer over ons?", "Jes 30:1": "Wee de kinderen die afvallen, spreekt de HEERE, om een raadslag te maken, maar niet uit Mij, en om zich met een bedekking te bedekken, maar niet uit Mijn Geest, om zonde tot zonde te doen;", "Ps 2:4": "Die in de hemel woont, zal lachen; de Heere zal hen bespotten.", "Job 25:6": "Hoeveel te minder de mens, die een made is, en het mensenkind, die een worm is!", "Ps 1:4": "Zo zijn de goddelozen niet, maar als het kaf dat de wind wegdrijft.", "Amos 9:14": "En Ik zal de gevangenschap van Mijn volk Israël omkeren, en zij zullen de verwoeste steden herbouwen en bewonen, en wijngaarden planten, en daarvan de wijn drinken; en zij zullen tuinen maken, en daarvan de vrucht eten.", "Jes 64:6": "Doch wij allen zijn als een onreine, en al onze gerechtigheden zijn als een wegwerpkleed; en wij allen vallen af als een blad, en onze misdaden voeren ons weg als een wind.", "Deut 32:32": "Want hun wijnstok is uit de wijnstok van Sodom, en uit de velden van Gomorra; hun wijndruiven zijn vergiftige wijndruiven; zij hebben bittere druiventrossen.", "Ps 83:17": "Maak hun gezicht vol schande, opdat zij, o HEERE, Uw Naam zoeken.", "Ps 33:13": "De HEERE kijkt uit de hemel, en ziet alle mensenkinderen.", "Openb 17:16": "En de tien horens die u gezien hebt op het beest, die zullen de hoer haten, en zullen haar verwoest maken en naakt; en zij zullen haar vlees eten, en zullen haar met vuur verbranden.", "Deut 32:10": "Hij vond hem in een land van de woestijn, en in een woeste huilende wildernis; Hij voerde hem rondom, Hij onderwees hem, Hij bewaarde hem als Zijn oogappel.", "2 Kron 19:3": "Toch zijn er goede dingen bij u gevonden; want u hebt de bossen uit het land weggedaan, en uw hart erop gericht om God te zoeken.", "Dan 9:13": "Zoals geschreven is in de wet van Mozes, zo is al dat kwaad over ons gekomen; en wij smeekten het aangezicht van de HEERE, onze God, niet, door ons af te keren van onze ongerechtigheden en verstandig acht te geven op Uw waarheid.", "Job 15:20": "Al zijn dagen doet de goddeloze zichzelf weedom aan; en weinige jaren in getal zijn voor de tiran weggelegd.", "Zef 1:6": "En hen die terugkeren van achter de HEERE; en die de HEERE niet zoeken, en niet naar Hem vragen.", "Ps 5:8": "Maar ik zal door de grootheid van Uw goedertierenheid in Uw huis ingaan; ik zal mij buigen naar het paleis van Uw heiligheid, in Uw vreze.", "Joh 15:25": "Maar dit gebeurt, zodat het woord vervuld wordt dat in hun wet geschreven is: Zij hebben Mij zonder oorzaak gehaat.", "Jer 8:5": "Waarom keert dit volk van Jeruzalem dan af, met een altijddurende afkering? Zij houden vast aan bedrog, zij weigeren terug te keren.", "Ps 50:2": "Uit Sion, de volkomenheid van de schoonheid, verschijnt God blinkend.", "Hos 7:2": "En zij zeggen niet in hun hart dat Ik al hun boosheid onthoud; nu omsingelen hun daden hen, zij zijn voor Mijn aangezicht.", "Jes 64:7": "En er is niemand, die Uw Naam aanroept, die zichzelf opwekt, dat hij U aangrijpt; want U verbergt Uw aangezicht voor ons, en U doet ons smelten, door middel van onze ongerechtigheden.", "2 Sam 20:2": "Toen trok alle man van Israël weg van achter David, Seba, de zoon van Bichri, achterna; maar de mannen van Juda kleefden hun koning aan, van de Jordaan af tot aan Jeruzalem.", "Ps 14:3": "Zij zijn allen afgeweken, samen zijn zij smerig geworden; er is niemand die goed doet, ook niet één.", "Lev 18:25": "Zodat het land onrein is, en Ik over hen zijn ongerechtigheid bezoek, en het land zijn inwoners uitspuwt.", "Ps 12:2": "Behoud, o HEERE; want de goedertierene ontbreekt, want de getrouwen zijn weinig geworden onder de mensenkinderen.", "Neh 12:43": "En zij offerden op die dag grote slachtoffers, en waren vrolijk; want God had hen vrolijk gemaakt met grote vrolijkheid; en ook de vrouwen en de kinderen waren vrolijk; zodat de vrolijkheid van Jeruzalem tot van verre gehoord werd.", "Ezech 6:5": "En Ik zal de dode lichamen van de kinderen van Israël voor het aangezicht van hun drekgoden leggen, en Ik zal uw beenderen rondom uw altaren strooien.", "Ps 5:12": "Maar laat verblijd zijn allen die op U vertrouwen, tot in eeuwigheid; laat hen juichen, omdat U hen overdekt; en laat in U van vreugde opspringen die Uw Naam liefhebben.", "Jes 12:6": "Juich en zing vrolijk, u inwoners van Sion! Want de Heilige van Israël is groot in uw midden.", "Ps 27:2": "Toen de bozen, mijn tegenpartijen en mijn vijanden, tegen mij naar mij toe kwamen om mijn vlees te eten, stieten zij zelf aan en vielen.", "2 Kon 7:6": "Want de Heere had het leger van de Syriërs een geluid van wagens laten horen, en een geluid van paarden, het geluid van een groot leger; zodat zij tegen elkaar zeiden: Zie, de koning van Israël heeft tegen ons de koningen van de Hethieten en de koningen van de Egyptenaren gehuurd, om tegen ons op te trekken.", "Jes 30:2": "Die gaan om af te trekken naar Egypte, en vragen Mijn mond niet; om zich te sterken met de macht van Farao, en om hun toevlucht te nemen onder de schaduw van Egypte.", "Joh 15:24": "Als Ik de werken onder hen niet had gedaan, die niemand anders gedaan heeft, hadden zij geen zonde; maar nu hebben zij ze gezien, en hebben zowel Mij als Mijn Vader gehaat.", "Ps 10:13": "Waarom lastert de goddeloze God? Hij zegt in zijn hart: U zult het niet zoeken?", "Job 24:3": "De ezel van de wezen drijven zij weg; de os van een weduwe nemen zij te pand.", "Ps 10:4": "De goddeloze zoekt God niet, zoals hij zijn neus omhoog steekt; al zijn gedachten zijn dat er geen God is.", "Ps 58:5": "Zij hebben vurig gif, gelijk vurig slangengif; zij zijn als een dove adder, die zijn oren toestopt,", "Ezech 36:25": "Dan zal Ik rein water op u sprenkelen, en u zult rein worden; van al uw onreinheden en van al uw drekgoden zal Ik u reinigen.", "Mal 3:14": "U zegt: Het is tevergeefs God te dienen; want wat nut heeft het, dat wij Zijn wacht in acht nemen, en dat wij in het zwart gaan, voor het aangezicht van de HEERE van de heerscharen?", "Ezech 37:2": "En Hij deed mij daar helemaal omheen voorbijgaan; en zie, er waren er zeer veel op de grond van de vallei; en zie, ze waren zeer dor.", "Ps 11:7": "Want de HEERE is rechtvaardig, Hij heeft gerechtigheden lief; Zijn aangezicht aanschouwt de oprechte.", "Ps 1:3": "Want hij zal zijn als een boom, geplant aan waterbeken, die zijn vrucht geeft op zijn tijd, en waarvan het blad niet afvalt; en alles wat hij doet, zal goed gelukken.", "Ps 14:2": "De HEERE heeft uit de hemel neergezien op de mensenkinderen, om te zien of iemand verstandig was, die God zocht.", "Job 21:15": "Wat is de Almachtige, dat wij Hem zouden dienen? En wat baat zouden wij hebben, dat wij Hem zouden aanroepen?", "Job 21:14": "Toch zeggen zij tegen God: Ga weg van ons, want in de kennis van Uw wegen hebben wij geen behagen.", "Deut 32:33": "Hun wijn is vurig drakenvenijn, en een wreed adderenvergif.", "2 Kon 7:7": "Daarom hadden zij zich klaargemaakt, en waren in de schemering gevlucht, en hadden hun tenten achtergelaten, en hun paarden, en hun ezels, het leger precies zoals het was; en waren gevlucht om hun leven te redden.", "Job 14:4": "Wie kan een reine geven uit een onreine? Niemand.", "Job 15:21": "Het geluid van verschrikkingen is in zijn oren; in de vrede zelf komt de verwoester hem over.", "Ps 5:11": "Verklaar hen schuldig, o God; laat hen vervallen van hun raadslagen; drijf hen weg om de veelheid van hun overtredingen, want zij zijn opstandig tegen U.", "Ps 94:8": "Let op, u onverstandigen onder het volk! En u dwazen! Wanneer zult u verstandig worden?", "Job 15:27": "Omdat hij zijn aangezicht met zijn vet bedekt heeft, en rimpels gemaakt heeft rond de weekdarmen;", "Deut 9:13": "Verder sprak de HEERE tot mij en zei: Ik heb dit volk aangemerkt, en zie, het is een hardnekkig volk.", "Jona 1:6": "En de opperschipper kwam naar hem toe, en zei tegen hem: Wat is er met u, harde slaper? Sta op, roep tot uw God; misschien zal die God aan ons denken, zodat wij niet vergaan.", "Gen 13:13": "En de mannen van Sodom waren slecht, en grote zondaars tegen de HEERE.", "Job 25:5": "Zie, zelfs de maan geeft geen schijnsel, en de sterren zijn niet zuiver in Zijn ogen.", "Jer 30:18": "Zo zegt de HEERE: Ziet, Ik zal de gevangenschap van de tenten van Jakob wenden, en Mij ontfermen over hun woningen; en de stad zal herbouwd worden op haar eigen hoop, en het paleis zal staan naar zijn eigen wijze.", "Ps 85:2": "U bent Uw land gunstig geweest, HEERE! De gevangenschap van Jakob hebt U gekeerd.", "Jer 4:22": "Zeker, Mijn volk is dwaas, Mij kennen zij niet; het zijn zotte kinderen, en zij hebben geen inzicht; wijs zijn zij om kwaad te doen, maar goed te doen weten zij niet.", "Gen 6:5": "En de HEERE zag dat de slechtheid van de mens groot was op de aarde, en dat elk bedenksel van de gedachten van zijn hart alle dagen alleen maar slecht was.", "Jes 27:11": "Als haar takken verdord zijn, zullen ze afgebroken worden, en de vrouwen zullen komen en ze aansteken; want het is een volk zonder enig verstand; daarom zal Hij, Die het gemaakt heeft, Zich niet over hen ontfermen, en Die het geformeerd heeft, zal hun geen genade bewijzen.", "Job 15:22": "Hij gelooft niet uit de duisternis terug te keren, maar dat hij beloerd wordt voor het zwaard.", "Rom 8:6": "Want het bedenken van het vlees is de dood, maar het bedenken van de Geest is leven en vrede.", "Ps 1:5": "Daarom zullen de goddelozen niet standhouden in het gericht, noch de zondaars in de vergadering van de rechtvaardigen.", "Jer 8:6": "Ik heb geluisterd en toegehoord, zij spreken wat niet recht is, er is niemand die berouw heeft over zijn slechtheid, en zegt: Wat heb ik gedaan? Ieder keert zich om in zijn eigen loop, zoals een onbesuisd paard zich stort in de strijd.", "Ps 12:9": "De goddelozen lopen rond aan alle kanten, wanneer de snoodsten van de mensenkinderen verhoogd worden.", "2 Kor 7:1": "Omdat wij dan deze beloften hebben, geliefden, laten wij onszelf reinigen van alle besmetting van het vlees en van de geest, en zo de heiligmaking volbrengen in de vreze van God.", "Job 22:5": "Is uw boosheid niet groot, en is er geen einde aan uw ongerechtigheden?", "Jer 6:30": "Men noemt hen een verworpen zilver; want de HEERE heeft hen verworpen.", "Matt 5:22": "Maar Ik zeg u: ieder die zonder reden toornig is op zijn broeder, die zal strafbaar zijn voor het gericht; en wie tegen zijn broeder zegt: Raka! die zal strafbaar zijn voor de grote raad; maar wie zegt: Dwaas! die zal strafbaar zijn voor het helse vuur.", "Job 4:19": "Hoeveel te meer dan hen die in lemen huizen wonen, waarvan de grondslag in het stof is? Zij worden verbrijzeld voor de mot.", "Ps 14:5": "Daar zijn zij door grote angst overvallen; want God is bij het geslacht van de rechtvaardige.", "Ps 58:3": "Ja, u werkt ongerechtigheden in het hart; u weegt het geweld van uw handen af op de aarde.", "Hos 7:3": "Zij verblijden de koning met hun boosheid, en de vorsten met hun leugens.", "Ps 11:3": "Zeker, de fundamenten worden omvergestoten; wat heeft de rechtvaardige gedaan?", "Job 4:17": "Zou een mens rechtvaardiger zijn dan God? Zou een man reiner zijn dan zijn Maker?", "Gen 6:12": "Toen zag God de aarde, en zie, zij was verdorven; want alle vlees had zijn weg verdorven op de aarde.", "Jes 42:7": "Om de blinde ogen te openen, om de gevangenen uit de gevangenis te leiden, en uit de gevangenis hen die in duisternis zitten.", "Ps 5:9": "HEERE! Leid mij in Uw gerechtigheid, om mijn verspieders wil; richt Uw weg voor mijn aangezicht.", "Ps 35:26": "Laat hen beschaamd worden en samen schaamrood, die zich in mijn kwaad verblijden; laat hen met schaamte en schande bekleed worden, die zich tegen mij groot maken.", "Ps 11:2": "Want zie, de goddelozen spannen de boog, zij leggen hun pijlen op de pees, om in het donker te schieten op de oprechten van hart.", "Job 27:10": "Zal hij zich verlustigen in de Almachtige? Zal hij God aanroepen te aller tijd?", "Job 8:12": "Als het nog in zijn groenheid is, hoewel het niet afgesneden wordt, verdort het toch eerder dan al het andere gras.", "Ps 12:4": "De HEERE snijdt alle vleiende lippen af, en de tong die grootspreekt;", "Hebr 10:26": "Want als wij willens en wetens zondigen, nadat wij de kennis van de waarheid ontvangen hebben, blijft er geen offer meer over voor de zonden;", "1 Kon 14:24": "Er waren ook schandjongens in het land; zij deden naar al de gruwelen van de heidenvolken, die de HEERE van voor het aangezicht van de kinderen van Israël uit hun bezit verdreven had.", "Jes 53:6": "Wij dwaalden allen als schapen, wij keerden ons ieder naar zijn eigen weg; maar de HEERE heeft de ongerechtigheid van ons allen op Hem doen neerkomen.", "Ps 141:7": "Onze beenderen zijn verstrooid bij de mond van het graf, zoals wanneer iemand op de aarde iets kloofde en verdeelde.", "Micha 7:2": "De goedertierene is verdwenen uit het land, en er is niemand oprecht onder de mensen; zij loeren allemaal op bloed, zij jagen, ieder op zijn broeder, met een jachtnet.", "Ps 11:1": "Een psalm van David, voor de koorleider. Ik vertrouw op de HEERE; hoe zegt u tegen mijn ziel: Vlucht naar uw gebergte, als een vogel?", "Ps 79:6": "Stort Uw grimmigheid uit over de heidenen, die U niet kennen, en over de koninkrijken, die Uw Naam niet aanroepen.", "Openb 22:11": "Die onrecht doet, laat hij nog onrecht doen; en die vuil is, laat hij nog vuil worden; en die rechtvaardig is, laat hij nog gerechtvaardigd worden; en die heilig is, laat hij nog geheiligd worden.", "Jes 14:32": "Wat zal men dan antwoorden aan de boden van het volk? Dat de HEERE Sion gegrond heeft, opdat de bedrukten van Zijn volk daarin een toevlucht zouden hebben.", "Ps 1:1": "Gelukkig is de man die niet wandelt in de raad van de goddelozen, noch staat op de weg van de zondaars, noch zit op de zetel van de spotters;", "Job 20:13": "Al spaart hij het en laat het niet los, maar houdt het midden in zijn gehemelte binnen;", "Job 24:4": "Zij doen de behoeftigen wijken van de weg; samen verstoppen zich de ellendigen van het land.", "Gen 6:13": "Daarom zei God tegen Noach: Het einde van alle vlees is voor Mijn aangezicht gekomen; want de aarde is door hen vervuld met geweld; en zie, Ik zal hen met de aarde verderven.", "Job 25:4": "Hoe zou dan een mens rechtvaardig zijn bij God, en hoe zou hij zuiver zijn, die van een vrouw geboren is?", "Rom 8:7": "Daarom dat het bedenken van het vlees vijandschap is tegen God; want het onderwerpt zich niet aan de wet van God, want het kan ook niet.", "Job 9:2": "Waarlijk, ik weet dat het zo is; want hoe zou de mens rechtvaardig zijn bij God?", "Jes 43:22": "Doch u hebt Mij niet aangeroepen, o Jakob! toen u zich tegen Mij vermoeid hebt, o Israël!", "Job 8:13": "Zo zijn de wegen van allen die God vergeten; en de verwachting van de huichelaar zal vergaan.", "Job 15:28": "En heeft verdelgde steden bewoond, en huizen die men niet bewoonde, die gereed waren om een puinhoop te worden.", "Ps 11:6": "Hij zal op de goddelozen strikken doen regenen, vuur en zwavel; en een geweldige stormwind zal het deel van hun beker zijn.", "Job 15:30": "Hij zal van de duisternis niet ontwijken, de vlam zal zijn scheut verdrogen; hij zal wijken door het geblaas van zijn mond.", "Jes 1:6": "Van de voetzool af tot het hoofd toe is er niets van het geheel gaaf aan hem; maar wonden, en striemen, en etterbuilen, die niet uitgedrukt noch verbonden zijn, en geen daarvan is met olie verzacht.", "Job 15:29": "Hij zal niet rijk worden, en zijn vermogen zal niet bestaan; en hun volmaaktheid zal zich niet uitbreiden op de aarde.", "Ps 5:7": "U zult de leugensprekers verdoen; van de man van het bloed en van het bedrog heeft de HEERE een gruwel.", "Job 24:6": "Op het veld maaien zij zijn voer, en de wijngaard van de goddeloze lezen zij af.", "Job 15:14": "Wat is de mens, dat hij zuiver zou zijn, en die geboren is van een vrouw, dat hij rechtvaardig zou zijn?", "Ezra 9:11": "die Gij geboden had door de dienst van Uw knechten, de profeten, en zei: Het land, waar u naartoe gaat om het te erven, is een vuil land, door de vuiligheid van de volken van de landen, om hun gruwelen, waarmee zij het vervuld hebben, van het ene einde tot het andere einde, met hun onreinheid.", "1 Petr 4:3": "Want het is ons genoeg dat wij in de voorgaande tijd van ons leven de wil van de heidenen volbracht hebben, en geleefd hebben in losbandigheid, begeerten, dronkenschap, zwelgpartijen, drinkgelagen en gruwelijke afgoderij;", "Rom 1:28": "En zoals het hun niet goeddacht God te erkennen, zo heeft God hen overgegeven aan een verkeerd denken, om dingen te doen die niet betamen;", "Job 15:4": "Ja, u vernietigt de vreze, en neemt het gebed voor het aangezicht van God weg.", "Job 22:17": "Die tegen God zeiden: Wijk van ons! En wat zou de Almachtige voor hen kunnen doen?", "Ps 12:8": "U, HEERE, zult hen bewaren; U zult hen behoeden voor dit geslacht, tot in eeuwigheid.", "Job 24:7": "De naakten laten zij overnachten zonder kleding, die geen bedekking hebben tegen de koude.", "Ezech 16:51": "Samaria heeft ook niet naar de helft van uw zonden gezondigd; en u hebt uw gruwelen meer dan zij vermeerderd, en u hebt uw zusters gerechtvaardigd door al uw gruwelen die u gedaan hebt.", "1 Kron 28:9": "En u, mijn zoon Salomo, ken de God van uw vader, en dien Hem met een volkomen hart en met een gewillige ziel; want de HEERE doorzoekt alle harten, en Hij doorziet elk bedenksel van de gedachten; als u Hem zoekt, zal Hij door u gevonden worden; maar als u Hem verlaat, zal Hij u voor altijd verstoten.", "Job 9:31": "Dan zult U mij in de gracht dompelen, en mijn kleren zullen van mij walgen.", "Job 15:34": "Want de vergadering van de huichelaars wordt eenzaam, en het vuur verteert de tenten van de geschenken.", "Gen 6:6": "Toen had de HEERE er berouw van, dat Hij de mens op de aarde gemaakt had, en het smartte Hem aan Zijn hart.", "Job 9:3": "Als Hij lust heeft om met hem te twisten, zal hij Hem niet één op de duizend beantwoorden.", "Ps 58:6": "opdat hij niet hoort naar de stem van de bezweerders, van hem die ervaren is in het uitvoeren van bezweringen.", "1 Kon 12:26": "En Jerobeam zei in zijn hart: Nu zal het koninkrijk weer naar het huis van David terugkeren.", "Ezech 16:47": "Toch hebt u niet in hun wegen gewandeld, noch naar hun gruwelen gedaan; het was iets van het geringe, een verdriet; maar u hebt het meer verdorven dan zij, in al uw wegen.", "Jer 10:25": "Stort Uw grimmigheid uit over de heidenen, die U niet kennen, en over de geslachten, die Uw Naam niet aanroepen; want zij hebben Jakob opgegeten, ja, zij hebben hem opgegeten, en hem verteerd, en zijn woning verwoest.", "Jes 30:11": "Wijkt af van de weg, maakt u van het pad; laat de Heilige van Israël van ons ophouden!", "Ps 11:4": "De HEERE is in het paleis van Zijn heiligheid, de troon van de HEERE is in de hemel; Zijn ogen aanschouwen, Zijn oogleden beproeven de mensenkinderen.", "3 Joh 1:11": "Geliefde, volg het kwade niet na, maar het goede. Wie goed doet, is uit God; maar wie kwaad doet, heeft God niet gezien.", "Gen 6:11": "Maar de aarde was verdorven voor het aangezicht van God; en de aarde was vervuld met geweld.", "Job 15:15": "Zie, op Zijn heiligen zou Hij niet vertrouwen, en de hemelen zijn niet zuiver in Zijn ogen.", "Gen 18:20": "Verder zei de HEERE: Omdat het geroep van Sodom en Gomorra groot is, en omdat hun zonde zeer zwaar is,", "Job 15:35": "Zij ontvangen moeite, en baren ijdelheid, en hun buik richt bedrog aan.", "Rom 3:12": "Allen zijn zij afgeweken, samen zijn zij onnut geworden; er is niemand die goed doet, er is zelfs niet één.", "Ps 5:5": "Want U bent geen God, Die lust heeft aan goddeloosheid; de boze zal bij U niet verkeren.", "Ps 83:18": "Laat hen beschaamd en verschrikt worden tot in eeuwigheid, en laat hen schaamrood worden, en omkomen;", "Jes 55:6": "Zoek de HEERE, terwijl Hij te vinden is; roep Hem aan, terwijl Hij nabij is.", "Deut 12:31": "Zo zult u niet doen voor de HEERE, uw God; want alles wat de HEERE een gruwel is, dat Hij haat, hebben zij voor hun goden gedaan; want zij hebben zelfs hun zonen en hun dochters met vuur verbrand voor hun goden.", "1 Sam 24:14": "Zoals het spreekwoord van de ouden zegt: Van de goddelozen komt goddeloosheid voort; maar mijn hand zal niet tegen u zijn.", "Hos 7:4": "Zij plegen allemaal samen overspel, zij zijn als een bakoven, die heet gemaakt is door de bakker; die ophoudt met opstoken nadat hij het deeg heeft gekneed, totdat het doorgezuurd is.", "Ps 5:13": "Want U, HEERE, zult de rechtvaardige zegenen; U zult hem met goedgunstigheid kronen, als met een schild.", "Spr 28:1": "De goddelozen vluchten, terwijl geen vervolger er is; maar elke rechtvaardige is moedig, als een jonge leeuw.", "Ps 52:6": "U hebt alle woorden van verslinding lief, en een tong van het bedrog.", "Ps 14:1": "Een psalm van David, voor de koorleider. De dwaas zegt in zijn hart: Er is geen God. Zij verderven het, zij maken het gruwelijk met hun werk; er is niemand die goed doet.", "Ps 111:10": "Resch. De vreze van de HEERE is het beginsel van de wijsheid; Schin. allen die ernaar handelen, hebben goed verstand; Thau. Zijn lof bestaat tot in eeuwigheid.", "Job 9:30": "Al zou ik mij wassen met sneeuwwater, en mijn handen zuiveren met zeep;", "Job 15:16": "Hoeveel te meer is een man gruwelijk en stinkend, die het onrecht indrinkt als water?", "Job 28:28": "Maar tegen de mens heeft Hij gezegd: Zie, de vreze des Heeren, dat is de wijsheid, en van het kwade te wijken is het verstand.", "Ps 1:6": "Want de HEERE kent de weg van de rechtvaardigen; maar de weg van de goddelozen zal vergaan.", "Ps 5:6": "De onzinnigen zullen voor Uw ogen niet bestaan; U haat alle werkers van de ongerechtigheid.", "Ps 12:6": "Om de verwoesting van de ellendigen, om het kermen van de behoeftigen, zal Ik nu opstaan, zegt de HEERE; Ik zal in veiligheid zetten wie ernaar snakt.", "Job 15:25": "Want hij strekt tegen God zijn hand uit, en tegen de Almachtige stelt hij zich geweldig aan.", "Ef 5:12": "Want wat heimelijk door hen gebeurt, is ook schandelijk om te noemen.", "Zef 1:12": "En het zal gebeuren in die tijd, Ik zal Jeruzalem met lantaarns doorzoeken; en Ik zal bezoeking doen over de mannen die star geworden zijn op hun droesem, die in hun hart zeggen: De HEERE doet geen goed, en Hij doet geen kwaad.", "Jes 42:6": "Ik, de HEERE, heb u geroepen in gerechtigheid, en Ik zal u bij uw hand grijpen; en Ik zal u behoeden, en Ik zal u geven tot een Verbond van het volk, tot een Licht van de heidenen.", "Joël 3:1": "Want zie, in die dagen en in die tijd, als Ik de gevangenschap van Juda en Jeruzalem zal wenden,", "Job 24:5": "Zie, zij zijn woudezels in de woestijn; zij gaan uit tot hun werk, maken zich vroeg op om te roven; het vlakke veld is voedsel voor hem en voor de jongeren.", "Joh 15:23": "Die Mij haat, die haat ook Mijn Vader.", "Ps 1:2": "Maar zijn vreugde is in de wet van de HEERE, en hij overdenkt Zijn wet dag en nacht.", "Ps 5:10": "Want in hun mond is niets rechts, hun binnenste is enkel verderving, hun keel is een open graf, met hun tong vleien zij.", "Ezech 37:1": "De hand van de HEERE was op mij, en de HEERE voerde mij uit in de geest, en zette mij neer in het midden van een vallei; die was nu vol beenderen.", "Job 4:18": "Zie, op Zijn knechten zou Hij niet vertrouwen; ook Zijn engelen heeft Hij van dwaasheid beschuldigd.", "Jer 31:23": "Zo zegt de HEERE van de heerscharen, de God van Israël: Dit woord zullen zij nog zeggen in het land van Juda, en in zijn steden, wanneer Ik hun gevangenschap ombuigen zal: De HEERE zegent u, woning van de gerechtigheid, berg van de heiligheid!", "1 Sam 14:15": "En er kwam beving in het leger, op het veld en onder heel het volk; de bezetting en de plunderaars beefden ook zelf; ja, het land schudde, want het was een beving van God.", "2 Kron 15:2": "En hij ging Asa tegemoet, en hij zei tegen hem: Hoor mij, Asa, en heel Juda en Benjamin! De HEERE is met u, zolang u met Hem bent; en als u Hem zoekt, zal Hij door u gevonden worden; maar als u Hem verlaat, zal Hij u verlaten.", "Hos 7:7": "Zij zijn allemaal samen verhit als een bakoven, en zij verteren hun rechters; al hun koningen vallen; er is niemand onder hen die tot Mij roept.", "Ps 10:11": "Hij zegt in zijn hart: God heeft het vergeten, Hij heeft Zijn aangezicht verborgen, Hij ziet het nooit.", "Deut 4:6": "Bewaar ze dan, en doe ze; want dat zal uw wijsheid en uw verstand zijn voor de ogen van de volken, die al deze inzettingen zullen horen en zeggen: Dit grote volk is werkelijk een wijs en verstandig volk!"}, "noten": {"1": "Ps. 53:1 SV: opperzangmeester."}, "koppeling": {"1": "<span class=\"wl\" data-l=\"L1\" data-code=\"H4905\">Een</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H4905\">onderwijzing</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H4905\">van</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1732\">David</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H1732\">voor</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H5329\">de</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H5329\">koorleider</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H5329\">op</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H4257\">Machalath</span>.", "2": "<span class=\"wl\" data-l=\"L1\" data-code=\"H5036\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5036\">dwaas</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H559\">zegt</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H559\">in</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3820\">zijn</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3820\">hart</span>: <span class=\"wl\" data-l=\"L4\" data-code=\"H430\">Er</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H430\">is</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H430\">geen</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H430\">God</span>; <span class=\"wl\" data-l=\"L5\" data-code=\"H7843\">zij</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H7843\">verderven</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H7843\">het</span>, <span class=\"wl\" data-l=\"L6\" data-code=\"H8581\">en</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H8581\">zij</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H8581\">bedrijven</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H8581\">gruwelijk</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H5766\">onrecht</span>; <span class=\"wl\" data-l=\"L8\" data-code=\"H2896\">er</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H2896\">is</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H2896\">niemand</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H2896\">die</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H2896\">goed</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H6213\">doet</span>.", "3": "<span class=\"wl\" data-l=\"L1\" data-code=\"H430\">God</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H430\">heeft</span> uit <span class=\"wl\" data-l=\"L2\" data-code=\"H8064\">de</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H8064\">hemel</span> neergezien op <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">de</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">mensenkinderen</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">om</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H7200\">te</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H7200\">zien</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H7919\">of</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H7919\">iemand</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H7919\">verstandig</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H7919\">was</span>, <span class=\"wl\" data-l=\"L6\" data-code=\"H430\">die</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H430\">God</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H1875\">zocht</span>.", "4": "<span class=\"wl\" data-l=\"L1\" data-code=\"H5472\">Een</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5472\">ieder</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5472\">van</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5472\">hen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5472\">is</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5472\">teruggekeerd</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H3162\">samen</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H3162\">zijn</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H444\">zij</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H444\">stinkend</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H444\">geworden</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H2896\">er</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H2896\">is</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H2896\">niemand</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H2896\">die</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H2896\">goed</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H6213\">doet</span>, <span class=\"wl\" data-l=\"L6\" data-code=\"H259\">ook</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H259\">niet</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H259\">één</span>.", "5": "<span class=\"wl\" data-l=\"L2\" data-code=\"H6466\">Hebben</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H6466\">dan</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H6466\">de</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H6466\">werkers</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H6466\">van</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H205\">de</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H205\">ongerechtigheid</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3045\">geen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3045\">kennis</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H5971\">die</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H5971\">Mijn</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H5971\">volk</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H398\">opeten</span>, <em>alsof</em> <span class=\"wl\" data-l=\"L7\" data-code=\"H7121\">zij</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H3899\">brood</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H398\">aten</span>? <span class=\"wl\" data-l=\"L6\" data-code=\"H3899\">Zij</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H7121\">roepen</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H430\">God</span> niet aan.", "6": "Daar <span class=\"wl\" data-l=\"L1\" data-code=\"H6343\">zijn</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H6343\">zij</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H6343\">met</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H6343\">vervaardheid</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H6342\">vervaard</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H6342\">geworden</span>, <em>waar</em> <span class=\"wl\" data-l=\"L1\" data-code=\"H6343\">geen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H6343\">vervaardheid</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H6343\">was</span>; <span class=\"wl\" data-l=\"L3\" data-code=\"H430\">want</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H430\">God</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H430\">heeft</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H6106\">de</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H6106\">beenderen</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H6106\">van</span> hem <span class=\"wl\" data-l=\"L5\" data-code=\"H2583\">die</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H2583\">u</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H2583\">belegerde</span>, <span class=\"wl\" data-l=\"L6\" data-code=\"H6340\">verstrooid</span>; u <span class=\"wl\" data-l=\"L7\" data-code=\"H954\">hebt</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H3988\">hen</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H954\">beschaamd</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H954\">gemaakt</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H430\">want</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H430\">God</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H430\">heeft</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H954\">hen</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H3988\">verworpen</span>.", "7": "<span class=\"wl\" data-l=\"L1\" data-code=\"H5414\">Och</span>, <span class=\"wl\" data-l=\"L1\" data-code=\"H5414\">dat</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H3478\">Israëls</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3444\">verlossingen</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3444\">uit</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H6726\">Sion</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H430\">kwamen</span>! <span class=\"wl\" data-l=\"L5\" data-code=\"H430\">Als</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H430\">God</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H430\">de</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H7622\">gevangenen</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H7622\">van</span> Zijn volk <span class=\"wl\" data-l=\"L7\" data-code=\"H7725\">zal</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H7725\">doen</span> terugkeren, <em>dan</em> <span class=\"wl\" data-l=\"L8\" data-code=\"H3290\">zal</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H3290\">Jakob</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H3290\">zich</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H1523\">verheugen</span>, <span class=\"wl\" data-l=\"L10\" data-code=\"H3478\">Israël</span> <span class=\"wl\" data-l=\"L10\" data-code=\"H3478\">zal</span> <span class=\"wl\" data-l=\"L11\" data-code=\"H8055\">verblijd</span> <span class=\"wl\" data-l=\"L11\" data-code=\"H8055\">zijn</span>."}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+// Berea-tekst: gebruik de woordgekoppelde HTML (stippellijn onder gelinkte
+// woorden) als die er is; anders gewone md()-weergave.
+function bereaHtml(n) {
+  const k = D.koppeling && D.koppeling[n];
+  if (k) return k;
+  return md(D.vertalingen.Berea[n] || '—');
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      const tekst = md(D.vertalingen[vertaling][n] || '—');
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${tekst}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+// Bijbelbrede concordantie: één klein JSON-bestand per Strong's-code,
+// fetch-on-demand (niet in elke pagina embedded — zou de payload van alle
+// 1189 pagina's enorm maken). Basis-pad: twee niveaus omhoog vanaf
+// <slug>/<hfd>/index.html naar de site-root, dan concordantie/<code>.json.
+const concordCache = {};
+async function haalConcordantie(code) {
+  if (!code) return null;
+  if (code in concordCache) return concordCache[code];
+  try {
+    const res = await fetch(`../../concordantie/${code}.json`);
+    concordCache[code] = res.ok ? await res.json() : null;
+  } catch (e) { concordCache[code] = null; }
+  return concordCache[code];
+}
+function concordantieHtml(data) {
+  if (!data) return '<em>Geen concordantie-gegevens gevonden.</em>';
+  return `<div class="tsk-kop">${data.strongs} — ${data.totaal}× in de Bijbel</div>` +
+    data.weergaven.map(w => {
+      const chip = p => `<a class="refchip" data-ref="${p.ref}" data-tekst="${md(p.tekst).replace(/"/g,'&quot;')}">${p.ref}</a>`;
+      const chips = w.plaatsen.slice(0, 10).map(chip).join('');
+      const rest = w.plaatsen.slice(10).map(chip).join('');
+      const meer = w.n > 10 ? `<details class="alle"><summary>alle ${w.n} tonen</summary><div class="ondrefs">${rest}</div></details>` : '';
+      return `<div class="onderwerp"><div class="okop"><span class="naam">${w.vorm}</span><span class="label"> — ${w.n}×</span></div><div class="ondrefs">${chips}</div>${meer}</div>`;
+    }).join('');
+}
+function paneelInhoud(n, tab) {
+  if (tab === 'grondwoorden') {
+    if (!D.koppeling || !D.koppeling[n]) return '<em>Nog geen woordkoppeling voor dit vers.</em>';
+    return `<div class="gw-tekst" style="font-family:Georgia,serif;line-height:1.8">${D.koppeling[n]}</div>` +
+      `<div class="gw-detail" data-n="${n}" style="margin-top:.5rem"></div>` +
+      '<div class="bronregel">Klik op een onderstreept woord voor de vindplaatsen.</div>';
+  }
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const heeftG = !!(D.koppeling && D.koppeling[n]);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : (heeftG ? 'grondwoorden' : 'vertalingen'));
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab ${eerste === 'grondwoorden' ? 'actief' : ''} ${heeftG ? '' : 'leeg'}" data-tab="grondwoorden" data-n="${n}">Grondwoorden</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const wl = e.target.closest('.wl');
+  if (wl) {
+    e.stopPropagation();
+    const gwTekst = wl.closest('.gw-tekst');
+    if (!gwTekst) return;               // .wl buiten de grondwoorden-tab doet niets (nog) meer
+    const detail = gwTekst.nextElementSibling;  // .gw-detail, direct na .gw-tekst
+    const key = wl.dataset.l;
+    if (detail.dataset.actief === key) {
+      detail.innerHTML = ''; delete detail.dataset.actief;   // zelfde woord: dichtklappen
+    } else {
+      detail.dataset.actief = key;
+      detail.innerHTML = '<em>Laden…</em>';
+      haalConcordantie(wl.dataset.code).then(data => {
+        if (detail.dataset.actief === key) detail.innerHTML = concordantieHtml(data);
+      });
+    }
+    return;
+  }
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  // concordantie-chips dragen hun Berea-tekst al mee (data-tekst, al door md()
+  // gehaald) — die verzen zijn pas na het laden bekend en staan niet in
+  // D.extern (dat wordt alleen bij het genereren gevuld voor TSK/onderwerpen).
+  const html = chip.dataset.tekst !== undefined ? chip.dataset.tekst : md(popupTekst(ref) || '');
+  if (!html) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${html}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>

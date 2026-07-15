@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Psalmen 67 — BereaStudieBijbel · André Scholten</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* huisstijl overgenomen van andre-scholten.nl (Quartz) */
+    --light:#faf6ee; --lightgray:#e6dcc8; --gray:#c9b896; --darkgray:#4a3829; --dark:#3a2a1d;
+    --secondary:#8b5e34; --tertiary:#a87c4f; --highlight:#8b5e341f; --textHighlight:#f0dca888;
+    --bodyFont:"Lora", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --codeFont:"IBM Plex Mono", ui-monospace, monospace;
+    /* aliassen zodat de bestaande regels de nieuwe kleuren gebruiken */
+    --accent: var(--secondary); --accent-donker: var(--dark); --bg: var(--light);
+    --bg-soft: #f2ead8; --border: var(--lightgray); --tekst: var(--darkgray);
+  }
+  * { box-sizing: border-box; }
+  body { font-family: var(--bodyFont); background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  .site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; line-height: normal; }
+  @media (min-width: 801px) { .site-header { margin-top: 4.8rem; } }
+  .page-title { font-size:1.75rem; font-family:var(--bodyFont); text-align:center; margin:0 0 .4rem; font-weight:600; }
+  .page-title a { color:var(--secondary); text-decoration:none; background-color:transparent !important; }
+  .page-title a:hover { color:var(--tertiary); }
+  .site-subtitle { color:var(--secondary); letter-spacing:.04em; margin:0 0 1rem; font-size:1.05em; font-style:italic; line-height:1.6rem; }
+  .site-nav { font-family:"Lora"; letter-spacing:.18em; text-transform:uppercase; border-top:1px solid var(--lightgray); border-bottom:1px solid var(--lightgray); margin:.8rem 0 2rem; padding:1rem 0; font-size:.82em; text-align:center; }
+  .site-nav a { font-weight:500; color:var(--secondary); text-decoration:none; background:transparent !important; }
+  .site-nav a:hover { color:var(--tertiary); text-decoration:underline; }
+  .nav-sep { color:var(--gray); }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .wl { border-bottom: 1px dotted var(--accent); }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  .site-footer { display:grid; grid-template-columns: 1fr 1fr 1fr; gap:1.5rem; max-width:700px; margin:3rem auto 0; padding:2rem 1.5rem 0; border-top:1px solid var(--lightgray); font-size:.85em; }
+  .site-footer-col { display:flex; flex-direction:column; gap:.5rem; }
+  .site-footer-mid { text-align:center; }
+  .site-footer-right { text-align:right; }
+  .site-footer a { color:var(--secondary); text-decoration:underline; }
+  .site-footer .footer-plain { color:var(--gray); }
+  @media (max-width:640px) { .site-footer { grid-template-columns:1fr; text-align:center; } .site-footer-right { text-align:center; } }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<div class="site-header">
+  <h2 class="page-title"><a href="/">André Scholten</a></h2>
+  <p class="site-subtitle">Persoonlijke blog</p>
+  <nav class="site-nav"><a href="/blog">Blog</a><span class="nav-sep"> | </span><a href="/de-volle-pinksterzegen">Boek</a><span class="nav-sep"> | </span><a href="/bereastudiebijbel/">Bijbel</a></nav>
+</div>
+<div class="kruimel"><a id="kruimel-home">BereaStudieBijbel</a> › <a id="kruimel-boek">Psalmen</a> › hoofdstuk 67</div>
+<h2 class="hfd">Psalmen 67</h2>
+<div class="ondertitel">BereaBijbel — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site-footer">
+  <div class="site-footer-col">
+    <a href="/de-volle-pinksterzegen">De Volle Pinksterzegen</a>
+    <a href="/bijbelteksten-heilige-geest">Bijbelteksten Heilige Geest</a>
+    <a href="/bereastudiebijbel/">BereaStudieBijbel</a>
+    <a href="/bibliotheek">Bibliotheek</a>
+  </div>
+  <div class="site-footer-col site-footer-mid">
+    <a href="/?zoeken=1">Zoekfunctie</a>
+  </div>
+  <div class="site-footer-col site-footer-right">
+    <span class="footer-plain">Over</span>
+    <span class="footer-plain">Contact</span>
+    <span class="footer-plain">Verantwoording</span>
+    <a href="/uitgangspunten">Uitgangspunten</a>
+  </div>
+</footer>
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  BereaBijbel: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "Psalmen 67", "boek_naam": "Psalmen", "hfd_nr": "67", "zelf_abbr": "Ps 67", "totaal": 150, "basis_url": "https://andre-scholten.nl/bereastudiebijbel/psalmen/67", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../66/", "label": "‹ Psalmen 66"}, "volgende": {"href": "../68/", "label": "Psalmen 68 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}, {"n": "11", "href": "../11/"}, {"n": "12", "href": "../12/"}, {"n": "13", "href": "../13/"}, {"n": "14", "href": "../14/"}, {"n": "15", "href": "../15/"}, {"n": "16", "href": "../16/"}, {"n": "17", "href": "../17/"}, {"n": "18", "href": "../18/"}, {"n": "19", "href": "../19/"}, {"n": "20", "href": "../20/"}, {"n": "21", "href": "../21/"}, {"n": "22", "href": "../22/"}, {"n": "23", "href": "../23/"}, {"n": "24", "href": "../24/"}, {"n": "25", "href": "../25/"}, {"n": "26", "href": "../26/"}, {"n": "27", "href": "../27/"}, {"n": "28", "href": "../28/"}, {"n": "29", "href": "../29/"}, {"n": "30", "href": "../30/"}, {"n": "31", "href": "../31/"}, {"n": "32", "href": "../32/"}, {"n": "33", "href": "../33/"}, {"n": "34", "href": "../34/"}, {"n": "35", "href": "../35/"}, {"n": "36", "href": "../36/"}, {"n": "37", "href": "../37/"}, {"n": "38", "href": "../38/"}, {"n": "39", "href": "../39/"}, {"n": "40", "href": "../40/"}, {"n": "41", "href": "../41/"}, {"n": "42", "href": "../42/"}, {"n": "43", "href": "../43/"}, {"n": "44", "href": "../44/"}, {"n": "45", "href": "../45/"}, {"n": "46", "href": "../46/"}, {"n": "47", "href": "../47/"}, {"n": "48", "href": "../48/"}, {"n": "49", "href": "../49/"}, {"n": "50", "href": "../50/"}, {"n": "51", "href": "../51/"}, {"n": "52", "href": "../52/"}, {"n": "53", "href": "../53/"}, {"n": "54", "href": "../54/"}, {"n": "55", "href": "../55/"}, {"n": "56", "href": "../56/"}, {"n": "57", "href": "../57/"}, {"n": "58", "href": "../58/"}, {"n": "59", "href": "../59/"}, {"n": "60", "href": "../60/"}, {"n": "61", "href": "../61/"}, {"n": "62", "href": "../62/"}, {"n": "63", "href": "../63/"}, {"n": "64", "href": "../64/"}, {"n": "65", "href": "../65/"}, {"n": "66", "href": "../66/"}, {"n": "67", "href": "../67/"}, {"n": "68", "href": "../68/"}, {"n": "69", "href": "../69/"}, {"n": "70", "href": "../70/"}, {"n": "71", "href": "../71/"}, {"n": "72", "href": "../72/"}, {"n": "73", "href": "../73/"}, {"n": "74", "href": "../74/"}, {"n": "75", "href": "../75/"}, {"n": "76", "href": "../76/"}, {"n": "77", "href": "../77/"}, {"n": "78", "href": "../78/"}, {"n": "79", "href": "../79/"}, {"n": "80", "href": "../80/"}, {"n": "81", "href": "../81/"}, {"n": "82", "href": "../82/"}, {"n": "83", "href": "../83/"}, {"n": "84", "href": "../84/"}, {"n": "85", "href": "../85/"}, {"n": "86", "href": "../86/"}, {"n": "87", "href": "../87/"}, {"n": "88", "href": "../88/"}, {"n": "89", "href": "../89/"}, {"n": "90", "href": "../90/"}, {"n": "91", "href": "../91/"}, {"n": "92", "href": "../92/"}, {"n": "93", "href": "../93/"}, {"n": "94", "href": "../94/"}, {"n": "95", "href": "../95/"}, {"n": "96", "href": "../96/"}, {"n": "97", "href": "../97/"}, {"n": "98", "href": "../98/"}, {"n": "99", "href": "../99/"}, {"n": "100", "href": "../100/"}, {"n": "101", "href": "../101/"}, {"n": "102", "href": "../102/"}, {"n": "103", "href": "../103/"}, {"n": "104", "href": "../104/"}, {"n": "105", "href": "../105/"}, {"n": "106", "href": "../106/"}, {"n": "107", "href": "../107/"}, {"n": "108", "href": "../108/"}, {"n": "109", "href": "../109/"}, {"n": "110", "href": "../110/"}, {"n": "111", "href": "../111/"}, {"n": "112", "href": "../112/"}, {"n": "113", "href": "../113/"}, {"n": "114", "href": "../114/"}, {"n": "115", "href": "../115/"}, {"n": "116", "href": "../116/"}, {"n": "117", "href": "../117/"}, {"n": "118", "href": "../118/"}, {"n": "119", "href": "../119/"}, {"n": "120", "href": "../120/"}, {"n": "121", "href": "../121/"}, {"n": "122", "href": "../122/"}, {"n": "123", "href": "../123/"}, {"n": "124", "href": "../124/"}, {"n": "125", "href": "../125/"}, {"n": "126", "href": "../126/"}, {"n": "127", "href": "../127/"}, {"n": "128", "href": "../128/"}, {"n": "129", "href": "../129/"}, {"n": "130", "href": "../130/"}, {"n": "131", "href": "../131/"}, {"n": "132", "href": "../132/"}, {"n": "133", "href": "../133/"}, {"n": "134", "href": "../134/"}, {"n": "135", "href": "../135/"}, {"n": "136", "href": "../136/"}, {"n": "137", "href": "../137/"}, {"n": "138", "href": "../138/"}, {"n": "139", "href": "../139/"}, {"n": "140", "href": "../140/"}, {"n": "141", "href": "../141/"}, {"n": "142", "href": "../142/"}, {"n": "143", "href": "../143/"}, {"n": "144", "href": "../144/"}, {"n": "145", "href": "../145/"}, {"n": "146", "href": "../146/"}, {"n": "147", "href": "../147/"}, {"n": "148", "href": "../148/"}, {"n": "149", "href": "../149/"}, {"n": "150", "href": "../150/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"Berea": {"1": "Een psalm, een lied, voor de koorleider, op de Neginoth[1].", "2": "God is ons genadig en zegent ons; Hij laat Zijn aangezicht over ons lichten. Sela.", "3": "Opdat men op de aarde Uw weg kent, onder alle heidenvolken Uw heil.", "4": "De volken zullen U, o God, loven; de volken, allemaal, zullen U loven.", "5": "De natiën zullen zich verblijden en juichen, omdat U de volken zult richten in rechtvaardigheid; en de natiën op de aarde, die zult U leiden. Sela.", "6": "De volken zullen U, o God, loven; de volken, allemaal, zullen U loven.", "7": "De aarde geeft haar opbrengst; God, onze God, zal ons zegenen.", "8": "God zal ons zegenen; en alle einden van de aarde zullen Hem vrezen."}, "SV": {"1": "Een psalm, een lied, voor den opperzangmeester, op de Neginoth.", "2": "God zij ons genadig en zegene ons; Hij doe Zijn aanschijn aan ons lichten. Sela.", "3": "Opdat men op de aarde Uw weg kenne, onder alle heidenen Uw heil.", "4": "De volken zullen U, o God! loven; de volken, altemaal, zullen U loven.", "5": "De natiën zullen zich verblijden en juichen, omdat Gij de volken zult richten *in* rechtmatigheid; en de natiën op de aarde die zult Gij leiden. Sela.", "6": "De volken zullen U, o God! loven; de volken, altemaal, zullen U loven.", "7": "De aarde geeft haar gewas; God, onze God, zal ons zegenen.", "8": "God zal ons zegenen; en alle einden der aarde zullen Hem vrezen."}, "KJV": {"1": "[[To the chief Musician on Neginoth, A Psalm *or* Song.]] God be merciful unto us, and bless us; *and* cause his face to shine upon us; Selah.", "2": "That thy way may be known upon earth, thy saving health among all nations.", "3": "Let the people praise thee, O God; let all the people praise", "4": "O let the nations be glad and sing for joy: for thou shalt judge the people righteously, and govern the nations upon earth. Selah.", "5": "Let the people praise thee, O God; let all the people praise", "6": "*Then* shall the earth yield her increase; *and* God, *even* our own God, shall bless", "7": "God shall bless us; and all the ends of the earth shall fear"}}, "tsk": {"2": [{"kopje": "God", "refs": ["Num 6:24-27", "Deut 21:8", "2 Kor 13:14"]}, {"kopje": "zegent ons", "refs": ["Ps 28:9", "Ef 1:3"]}, {"kopje": "laat", "refs": ["Ps 4:7", "Ps 31:17", "Ps 80:2-4", "Ps 80:8", "Ps 80:20", "Ps 119:135", "2 Kor 4:6"]}], "3": [{"kopje": "Opdat", "refs": ["Ps 98:2", "Ps 98:3", "Est 8:15-17", "Zach 8:20-23", "Hand 9:31"]}, {"kopje": "Uw weg", "refs": ["Hand 13:10", "Hand 18:25", "Hand 22:4"]}, {"kopje": "heil", "refs": ["Ps 43:5", "Ps 66:1-4", "Ps 117:2", "Jes 49:6", "Matt 28:19", "Luk 2:30", "Luk 2:31", "Luk 3:6", "Tit 2:11"]}], "5": [{"kopje": "zullen zich", "refs": ["Ps 97:1", "Ps 138:4", "Ps 138:5", "Deut 32:43", "Jes 24:14-16", "Jes 42:10-12", "Jes 54:1", "Rom 15:10", "Rom 15:11", "Gal 4:27"]}, {"kopje": "omdat U", "refs": ["Ps 9:9", "Ps 96:10-13", "Ps 98:9", "Gen 18:25", "Hand 17:31", "Rom 2:5"]}, {"kopje": "richten", "refs": ["Ps 2:8", "Ps 82:6", "Jes 55:4", "Openb 11:15-17"]}], "7": [{"kopje": "geeft", "refs": ["Ps 85:10-13", "Lev 26:4", "Jes 1:19", "Jes 30:23", "Jes 30:24", "Ezech 34:26", "Ezech 34:27", "Hos 2:20", "Hos 2:21", "1 Kor 3:6-9"]}, {"kopje": "onze", "refs": ["Ps 48:15", "Gen 17:7", "Ex 3:15", "Jer 31:1", "Jer 31:33"]}], "8": [{"kopje": "God", "refs": ["Ps 29:11", "Ps 72:17", "Gen 12:2", "Gen 12:3", "Hand 2:28", "Gal 3:9", "Gal 3:14"]}, {"kopje": "alle einden", "refs": ["Ps 22:28", "Ps 65:6", "Ps 98:3", "Jes 43:6", "Jes 45:22", "Jes 52:10", "Micha 5:3", "Zach 9:10", "Mal 1:11", "Hand 13:47", "Openb 15:4"]}, {"kopje": "vrezen", "refs": ["Mal 4:2", "Hand 13:26"]}]}, "onderwerpen": {"3": [{"onderwerp": "De heidenen", "sub": "Bid voor", "totaal": 4, "positie": 1, "vorige": null, "volgende": "Ps 67:4", "alle": ["Ps 67:4", "Ps 67:5", "Ps 67:6"], "meer": 0}, {"onderwerp": "Psalmen", "sub": "Voorbede-Psalmen", "totaal": 40, "positie": 11, "vorige": "Ps 67:2", "volgende": "Ps 67:4", "alle": ["Ps 20:2", "Ps 20:3", "Ps 20:4", "Ps 20:5", "Ps 20:6", "Ps 20:7", "Ps 20:8", "Ps 20:9", "Ps 20:10", "Ps 67:2", "Ps 67:4", "Ps 67:5", "Ps 67:6", "Ps 67:7", "Ps 67:8", "Ps 122:1", "Ps 122:2", "Ps 122:3", "Ps 122:4", "Ps 122:5", "Ps 122:6", "Ps 122:7", "Ps 122:8", "Ps 122:9", "Ps 144:1", "Ps 144:2", "Ps 144:3", "Ps 144:4", "Ps 144:5", "Ps 144:6", "Ps 144:7", "Ps 144:8", "Ps 144:9", "Ps 144:10", "Ps 144:11", "Ps 144:12", "Ps 144:13", "Ps 144:14", "Ps 144:15"], "meer": 0}, {"onderwerp": "Rotsen", "sub": "God als de sterkte van Zijn volk", "totaal": 4, "positie": 3, "vorige": "Ps 18:3", "volgende": "Jes 17:10", "alle": ["Ps 18:2", "Ps 18:3", "Jes 17:10"], "meer": 0}], "4": [{"onderwerp": "De heidenen", "sub": "Bid voor", "totaal": 4, "positie": 2, "vorige": "Ps 67:3", "volgende": "Ps 67:5", "alle": ["Ps 67:3", "Ps 67:5", "Ps 67:6"], "meer": 0}, {"onderwerp": "Lofprijzing", "sub": "Ongeordende schriftplaatsen betreffende", "totaal": 362, "positie": 67, "vorige": "Ps 66:8", "volgende": "Ps 67:5", "alle": ["Gen 14:20", "Ex 15:1", "Ex 15:2", "Deut 10:21", "Richt 5:3", "2 Sam 22:4", "1 Kron 16:31", "1 Kron 16:33", "1 Kron 16:34", "1 Kron 16:36", "1 Kron 23:30", "2 Kron 7:3", "Neh 9:5", "Neh 9:6", "Job 36:24", "Ps 7:18", "Ps 8:3", "Ps 9:12", "Ps 18:4", "Ps 21:14", "Ps 22:23", "Ps 22:24", "Ps 22:26", "Ps 24:7", "Ps 24:8", "Ps 24:9", "Ps 24:10", "Ps 26:12", "Ps 28:6", "Ps 28:7", "Ps 30:5", "Ps 32:11", "Ps 33:1", "Ps 33:2", "Ps 33:3", "Ps 34:2", "Ps 34:3", "Ps 34:4", "Ps 35:18", "Ps 35:28"], "meer": 321}, {"onderwerp": "Psalmen", "sub": "Voorbede-Psalmen", "totaal": 40, "positie": 12, "vorige": "Ps 67:3", "volgende": "Ps 67:5", "alle": ["Ps 20:2", "Ps 20:3", "Ps 20:4", "Ps 20:5", "Ps 20:6", "Ps 20:7", "Ps 20:8", "Ps 20:9", "Ps 20:10", "Ps 67:2", "Ps 67:3", "Ps 67:5", "Ps 67:6", "Ps 67:7", "Ps 67:8", "Ps 122:1", "Ps 122:2", "Ps 122:3", "Ps 122:4", "Ps 122:5", "Ps 122:6", "Ps 122:7", "Ps 122:8", "Ps 122:9", "Ps 144:1", "Ps 144:2", "Ps 144:3", "Ps 144:4", "Ps 144:5", "Ps 144:6", "Ps 144:7", "Ps 144:8", "Ps 144:9", "Ps 144:10", "Ps 144:11", "Ps 144:12", "Ps 144:13", "Ps 144:14", "Ps 144:15"], "meer": 0}], "5": [{"onderwerp": "De heidenen", "sub": "Bid voor", "totaal": 4, "positie": 3, "vorige": "Ps 67:4", "volgende": "Ps 67:6", "alle": ["Ps 67:3", "Ps 67:4", "Ps 67:6"], "meer": 0}, {"onderwerp": "Lofprijzing", "sub": "Ongeordende schriftplaatsen betreffende", "totaal": 362, "positie": 68, "vorige": "Ps 67:4", "volgende": "Ps 68:5", "alle": ["Gen 14:20", "Ex 15:1", "Ex 15:2", "Deut 10:21", "Richt 5:3", "2 Sam 22:4", "1 Kron 16:31", "1 Kron 16:33", "1 Kron 16:34", "1 Kron 16:36", "1 Kron 23:30", "2 Kron 7:3", "Neh 9:5", "Neh 9:6", "Job 36:24", "Ps 7:18", "Ps 8:3", "Ps 9:12", "Ps 18:4", "Ps 21:14", "Ps 22:23", "Ps 22:24", "Ps 22:26", "Ps 24:7", "Ps 24:8", "Ps 24:9", "Ps 24:10", "Ps 26:12", "Ps 28:6", "Ps 28:7", "Ps 30:5", "Ps 32:11", "Ps 33:1", "Ps 33:2", "Ps 33:3", "Ps 34:2", "Ps 34:3", "Ps 34:4", "Ps 35:18", "Ps 35:28"], "meer": 321}, {"onderwerp": "Psalmen", "sub": "Voorbede-Psalmen", "totaal": 40, "positie": 13, "vorige": "Ps 67:4", "volgende": "Ps 67:6", "alle": ["Ps 20:2", "Ps 20:3", "Ps 20:4", "Ps 20:5", "Ps 20:6", "Ps 20:7", "Ps 20:8", "Ps 20:9", "Ps 20:10", "Ps 67:2", "Ps 67:3", "Ps 67:4", "Ps 67:6", "Ps 67:7", "Ps 67:8", "Ps 122:1", "Ps 122:2", "Ps 122:3", "Ps 122:4", "Ps 122:5", "Ps 122:6", "Ps 122:7", "Ps 122:8", "Ps 122:9", "Ps 144:1", "Ps 144:2", "Ps 144:3", "Ps 144:4", "Ps 144:5", "Ps 144:6", "Ps 144:7", "Ps 144:8", "Ps 144:9", "Ps 144:10", "Ps 144:11", "Ps 144:12", "Ps 144:13", "Ps 144:14", "Ps 144:15"], "meer": 0}], "6": [{"onderwerp": "De heidenen", "sub": "Bid voor", "totaal": 4, "positie": 4, "vorige": "Ps 67:5", "volgende": null, "alle": ["Ps 67:3", "Ps 67:4", "Ps 67:5"], "meer": 0}, {"onderwerp": "Psalmen", "sub": "Voorbede-Psalmen", "totaal": 40, "positie": 14, "vorige": "Ps 67:5", "volgende": "Ps 67:7", "alle": ["Ps 20:2", "Ps 20:3", "Ps 20:4", "Ps 20:5", "Ps 20:6", "Ps 20:7", "Ps 20:8", "Ps 20:9", "Ps 20:10", "Ps 67:2", "Ps 67:3", "Ps 67:4", "Ps 67:5", "Ps 67:7", "Ps 67:8", "Ps 122:1", "Ps 122:2", "Ps 122:3", "Ps 122:4", "Ps 122:5", "Ps 122:6", "Ps 122:7", "Ps 122:8", "Ps 122:9", "Ps 144:1", "Ps 144:2", "Ps 144:3", "Ps 144:4", "Ps 144:5", "Ps 144:6", "Ps 144:7", "Ps 144:8", "Ps 144:9", "Ps 144:10", "Ps 144:11", "Ps 144:12", "Ps 144:13", "Ps 144:14", "Ps 144:15"], "meer": 0}], "2": [{"onderwerp": "Psalmen", "sub": "Voorbede-Psalmen", "totaal": 40, "positie": 10, "vorige": "Ps 20:10", "volgende": "Ps 67:3", "alle": ["Ps 20:2", "Ps 20:3", "Ps 20:4", "Ps 20:5", "Ps 20:6", "Ps 20:7", "Ps 20:8", "Ps 20:9", "Ps 20:10", "Ps 67:3", "Ps 67:4", "Ps 67:5", "Ps 67:6", "Ps 67:7", "Ps 67:8", "Ps 122:1", "Ps 122:2", "Ps 122:3", "Ps 122:4", "Ps 122:5", "Ps 122:6", "Ps 122:7", "Ps 122:8", "Ps 122:9", "Ps 144:1", "Ps 144:2", "Ps 144:3", "Ps 144:4", "Ps 144:5", "Ps 144:6", "Ps 144:7", "Ps 144:8", "Ps 144:9", "Ps 144:10", "Ps 144:11", "Ps 144:12", "Ps 144:13", "Ps 144:14", "Ps 144:15"], "meer": 0}], "7": [{"onderwerp": "Psalmen", "sub": "Voorbede-Psalmen", "totaal": 40, "positie": 15, "vorige": "Ps 67:6", "volgende": "Ps 67:8", "alle": ["Ps 20:2", "Ps 20:3", "Ps 20:4", "Ps 20:5", "Ps 20:6", "Ps 20:7", "Ps 20:8", "Ps 20:9", "Ps 20:10", "Ps 67:2", "Ps 67:3", "Ps 67:4", "Ps 67:5", "Ps 67:6", "Ps 67:8", "Ps 122:1", "Ps 122:2", "Ps 122:3", "Ps 122:4", "Ps 122:5", "Ps 122:6", "Ps 122:7", "Ps 122:8", "Ps 122:9", "Ps 144:1", "Ps 144:2", "Ps 144:3", "Ps 144:4", "Ps 144:5", "Ps 144:6", "Ps 144:7", "Ps 144:8", "Ps 144:9", "Ps 144:10", "Ps 144:11", "Ps 144:12", "Ps 144:13", "Ps 144:14", "Ps 144:15"], "meer": 0}], "8": [{"onderwerp": "Psalmen", "sub": "Voorbede-Psalmen", "totaal": 40, "positie": 16, "vorige": "Ps 67:7", "volgende": "Ps 122:1", "alle": ["Ps 20:2", "Ps 20:3", "Ps 20:4", "Ps 20:5", "Ps 20:6", "Ps 20:7", "Ps 20:8", "Ps 20:9", "Ps 20:10", "Ps 67:2", "Ps 67:3", "Ps 67:4", "Ps 67:5", "Ps 67:6", "Ps 67:7", "Ps 122:1", "Ps 122:2", "Ps 122:3", "Ps 122:4", "Ps 122:5", "Ps 122:6", "Ps 122:7", "Ps 122:8", "Ps 122:9", "Ps 144:1", "Ps 144:2", "Ps 144:3", "Ps 144:4", "Ps 144:5", "Ps 144:6", "Ps 144:7", "Ps 144:8", "Ps 144:9", "Ps 144:10", "Ps 144:11", "Ps 144:12", "Ps 144:13", "Ps 144:14", "Ps 144:15"], "meer": 0}]}, "extern": {"Gen 14:20": "En gezegend zij de allerhoogste God, Die uw vijanden in uw hand overgeleverd heeft! En hij gaf hem het tiende deel van alles.", "Ps 18:3": "De HEERE is mijn Steenrots, en mijn Burg, en mijn Uithelper; mijn God, mijn Rots, op Wie ik vertrouw; mijn Schild, en de Hoorn van mijn heil, mijn Hoog Vertrek.", "Ps 29:11": "De HEERE zal Zijn volk sterkte geven; de HEERE zal Zijn volk zegenen met vrede.", "1 Kron 16:31": "Laat de hemelen zich verblijden, en de aarde zich verheugen, en laat men onder de heidenen zeggen: De HEERE regeert.", "Ps 20:4": "Hij gedenkt al uw spijsoffers, en maakt uw brandoffer tot as. Sela.", "2 Kor 4:6": "Want God, Die gezegd heeft dat het licht uit de duisternis zou schijnen, is Degene Die in onze harten geschenen heeft, om te geven de verlichting van de kennis van de heerlijkheid van God in het aangezicht van Jezus Christus.", "Ps 144:12": "opdat onze zonen zijn als planten, die groot geworden zijn in hun jeugd; onze dochters als hoekstenen, uitgehouwen naar het voorbeeld van een paleis.", "Ps 122:2": "Onze voeten staan in uw poorten, o Jeruzalem!", "Ps 20:7": "Nu weet ik, dat de HEERE Zijn Gezalfde behoudt; Hij zal Hem verhoren uit de hemel van Zijn heiligheid; het heil van Zijn rechterhand zal zijn met machten.", "Mal 4:2": "Voor u echter, die Mijn Naam vreest, zal de Zon der gerechtigheid opgaan, met genezing onder Haar vleugels; en u zult uitgaan en toenemen als mestkalveren.", "Hand 9:31": "De gemeenten dan, door heel Judea, en Galilea, en Samaria, hadden vrede en werden opgebouwd; en terwijl zij wandelden in de vreze van de Heere en de vertroosting van de Heilige Geest, werden zij talrijker.", "1 Kron 23:30": "En om elke morgen te staan om de HEERE te loven en te prijzen; en evenzo 's avonds;", "Ps 144:7": "Steek Uw handen van boven uit; bevrijd mij, en red mij uit het vele water, uit de hand van vreemden;", "Ps 144:5": "Buig Uw hemelen, HEERE, en daal neer; raak de bergen aan, zodat ze roken.", "Ps 80:20": "HEERE, God van de heerscharen! Breng ons terug; laat Uw aanschijn lichten, zo zullen wij verlost worden.", "Ps 22:28": "Alle einden van de aarde zullen het gedenken, en zich tot de HEERE bekeren; en alle geslachten van de heidenen zullen voor Uw aangezicht aanbidden.", "Ps 24:10": "Wie is Hij, deze Koning der ere? De HEERE van de heerscharen, Die is de Koning der ere. Sela.", "Luk 2:31": "die U bereid hebt voor het aangezicht van alle volken:", "Gal 3:9": "Zo dan, zij die uit het geloof zijn, worden gezegend samen met de gelovige Abraham.", "Gal 3:14": "Opdat de zegening van Abraham tot de heidenen komen zou in Christus Jezus, en opdat wij de belofte van de Geest zouden verkrijgen door het geloof.", "Hand 13:47": "Want zo heeft de Heere ons geboden: Ik heb u gesteld tot een licht voor de heidenen, opdat u tot zaligheid zou zijn, tot aan het uiterste van de aarde.", "Ps 21:14": "Verhoog U, HEERE! In Uw sterkte; zo zullen wij zingen, en Uw macht met psalmen loven.", "Ps 144:14": "Dat onze ossen goed beladen zijn; dat er geen inbraak is, geen uitval, geen gejammer op onze straten.", "Jes 55:4": "Zie, Ik heb hem tot een getuige van de volken gegeven, een vorst en gebieder van de volken.", "Ps 20:2": "De HEERE verhoort u in de dag van benauwdheid; de Naam van de God van Jakob zet u in een hoog vertrek.", "Luk 2:30": "want mijn ogen hebben Uw zaligheid gezien,", "Ps 30:5": "Zingt psalmen voor de HEERE, u, Zijn gunstgenoten! en looft ter gedachtenis aan Zijn heiligheid.", "Micha 5:3": "En Hij zal staan, en zal weiden in de kracht van de HEERE, in de hoogheid van de Naam van de HEERE, Zijn God, en zij zullen wonen, want nu zal Hij groot zijn tot aan de einden van de aarde.", "1 Kron 16:36": "Geloofd zij de HEERE, de God van Israël, van eeuwigheid tot eeuwigheid! En al het volk zei: Amen! en het loofde de HEERE.", "Deut 10:21": "Hij is uw lof, en Hij is uw God. Die bij u deze grote en ontzagwekkende dingen gedaan heeft, die uw ogen gezien hebben.", "Ps 34:3": "Beth. Mijn ziel zal zich beroemen in de HEERE; de zachtmoedigen zullen het horen en zich verblijden.", "Mal 1:11": "Maar van de opgang van de zon tot haar ondergang, zal Mijn Naam groot zijn onder de heidenen; en op elke plaats zal aan Mijn Naam reukwerk gebracht worden, en een rein spijsoffer; want Mijn Naam zal groot zijn onder de heidenen, zegt de HEERE van de heerscharen.", "Hos 2:21": "En de aarde zal het koren verhoren, alsook de nieuwe wijn en de olie; en die zullen Jizreël verhoren.", "Jer 31:33": "Maar dit is het verbond dat Ik na die dagen met het huis van Israël sluiten zal, spreekt de HEERE: Ik zal Mijn wet in hun binnenste geven, en zal die in hun hart schrijven; en Ik zal hun tot een God zijn, en zij zullen Mij tot een volk zijn.", "Gen 17:7": "En Ik zal Mijn verbond oprichten tussen Mij en u, en uw nageslacht na u, in hun geslachten, tot een eeuwig verbond, om u en uw nageslacht na u tot een God te zijn.", "Ps 144:3": "O HEERE, wat is de mens, dat U hem kent, het kind van de mens, dat U op hem let?", "Ps 20:10": "O HEERE! behoud; die Koning verhoort ons ten dage van ons roepen.", "Ps 122:9": "Om het huis van de HEERE, onze God, zal ik het goede voor u zoeken.", "Gen 18:25": "Het zij verre van U, zoiets te doen, de rechtvaardige te doden met de goddeloze! zodat de rechtvaardige zou zijn als de goddeloze, verre zij het van U! zou de Rechter van de hele aarde geen recht doen?", "Ps 144:10": "U, Die de koningen overwinning geeft, Die Zijn dienaar David bevrijdt van het boze zwaard;", "Ps 20:3": "Hij zendt uw hulp uit het heiligdom, en ondersteunt u uit Sion.", "Ps 18:4": "Ik riep de HEERE aan, die te prijzen is, en werd verlost van mijn vijanden.", "Ps 22:26": "Van U zal mijn lof zijn in een grote gemeente; ik zal mijn geloften betalen in de tegenwoordigheid van hen die Hem vrezen.", "Gen 12:3": "En Ik zal zegenen wie u zegenen, en vervloeken wie u vervloekt; en in u zullen alle geslachten van de aarde gezegend worden.", "Ps 68:5": "Zingt voor God, zingt psalmen voor Zijn Naam; hoogt de wegen voor Hem, Die in de vlakke velden rijdt, omdat Zijn Naam is HEERE; en springt op van vreugde voor Zijn aangezicht.", "Hand 13:26": "Mannen broeders, kinderen van het geslacht van Abraham, en zij die onder u God vrezen, tot u is het woord van deze zaligheid gezonden.", "Ps 98:2": "De HEERE heeft Zijn heil bekendgemaakt; Hij heeft Zijn gerechtigheid geopenbaard voor de ogen van de heidenen.", "Ps 9:9": "En Hij Zelf zal de wereld richten in gerechtigheid, en de volken oordelen in rechtmatigheden.", "Ps 122:7": "Vrede zij binnen uw vesting, welvaart in uw paleizen.", "Jes 52:10": "De HEERE heeft Zijn heilige arm ontbloot voor de ogen van alle heidenvolken; en alle einden van de aarde zullen het heil van onze God zien.", "Ps 144:15": "Gelukkig is het volk dat het zo vergaat; gelukkig is het volk wiens God de HEERE is.", "Job 36:24": "Denk eraan, dat u Zijn werk groot maakt, dat de mensen aanschouwen.", "Ps 98:3": "Hij is gedachtig geweest aan Zijn goedertierenheid en Zijn waarheid aan het huis van Israël; en alle einden van de aarde hebben het heil van onze God gezien.", "Ps 24:9": "Heft uw hoofden op, poorten, ja, heft op, eeuwige deuren! opdat de Koning der ere ingaat!", "Ps 43:5": "Wat buigt u zich neer, o mijn ziel! En wat bent u onrustig in mij? Hoop op God, want ik zal Hem nog loven; Hij is de rijke Verlossing van mijn aangezicht, en mijn God.", "Jes 49:6": "Verder zei Hij: Het is te gering, dat U Mij een Knecht zou zijn, om op te richten de stammen van Jakob, en om terug te brengen de bewaarden in Israël; Ik heb U ook gegeven tot een Licht van de heidenen, om Mijn heil te zijn tot aan het einde van de aarde.", "Ps 20:9": "Zij hebben zich gekromd, en zijn gevallen; maar wij zijn opgestaan en staande gebleven.", "Ezech 34:27": "En het geboomte van het veld zal zijn vrucht geven, en het land zal zijn opbrengst geven, en zij zullen zeker zijn in hun land; en zullen weten, dat Ik de HEERE ben, als Ik de disselbomen van hun juk zal hebben verbroken, en hen gered heb uit de hand van hen die zich door hen deden dienen.", "2 Kor 13:14": "De genade van de Heere Jezus Christus, en de liefde van God, en de gemeenschap van de Heilige Geest, zij met u allen. Amen. De tweede brief aan de Korinthiërs werd door Titus en Lukas geschreven vanuit Filippi, een stad in Macedonië.", "Ps 33:2": "Looft de HEERE met de harp; zingt Hem psalmen met de luit, en het tiensnarig instrument.", "Ps 144:8": "wier mond leugens spreekt, en wier rechterhand een rechterhand van bedrog is.", "Ps 80:8": "O God van de heerscharen! Breng ons terug, en laat Uw aangezicht lichten; zo zullen wij verlost worden.", "Ps 28:9": "Verlos Uw volk, en zegen Uw erfdeel, en weid hen, en verhef hen tot in eeuwigheid.", "Ps 34:4": "Gimel. Maakt de HEERE met mij groot, en laten wij Zijn Naam samen verhogen.", "Zach 9:10": "En Ik zal de wagens uit Efraïm uitroeien, en de paarden uit Jeruzalem; ook zal de strijdboog uitgeroeid worden, en Hij zal tot de heidenen vrede spreken; en Zijn heerschappij zal zijn van zee tot aan zee, en van de rivier tot aan de einden van de aarde.", "Ps 144:1": "Een psalm van David. Geprezen zij de HEERE, mijn Rotssteen, Die mijn handen leert voor de strijd, mijn vingers voor de oorlog;", "Ex 15:2": "De HEERE is mijn Kracht en Lied, en Hij is mij tot een Heil geweest; Deze is mijn God; daarom zal ik Hem een liefelijke woning maken; Hij is de God van mijn vader, daarom zal ik Hem verheffen!", "1 Kron 16:34": "Looft de HEERE, want Hij is goed, want Zijn goedertierenheid is tot in eeuwigheid.", "Rom 15:10": "En opnieuw zegt Hij: Weest vrolijk, heidenen, met Zijn volk!", "Ps 82:6": "Ik heb wel gezegd: U bent goden; en u bent allen kinderen van de Allerhoogste;", "Ps 4:7": "Velen zeggen: Wie zal ons het goede laten zien? Verhef U over ons het licht van uw aangezicht, o HEERE!", "Hos 2:20": "En het zal op die dag gebeuren, dat Ik verhoren zal, spreekt de Heere; Ik zal de hemel verhoren, en die zal de aarde verhoren.", "Ps 20:5": "Hij geeft u naar uw hart, en vervult al uw raad.", "Ps 97:1": "De HEERE regeert, de aarde verheugt zich; laat veel eilanden zich verblijden.", "Hand 18:25": "Deze was onderwezen in de weg van de Heere; en omdat hij vurig was van geest, sprak en leerde hij nauwkeurig de zaken van de Heere, al kende hij alleen de doop van Johannes.", "Ps 34:2": "Aleph. Ik zal de HEERE loven te allen tijde; Zijn lof zal voortdurend in mijn mond zijn.", "Ps 32:11": "Verblijd u in de HEERE, en verheug u, rechtvaardigen! En zing vrolijk, alle oprechten van hart!", "Matt 28:19": "Ga dan heen, onderwijs alle volken, en doop hen in de Naam van de Vader, en van de Zoon, en van de Heilige Geest;", "Jes 45:22": "Wend u naar Mij toe, word behouden, alle einden van de aarde! Want Ik ben God, en niemand meer.", "2 Sam 22:4": "Ik riep de HEERE aan, Die te prijzen is, en ik werd verlost van mijn vijanden.", "Ps 72:17": "Zijn naam zal zijn tot in eeuwigheid; zolang als er de zon is, zal zijn naam van kind tot kind voortgeplant worden; en zij zullen in hem gezegend worden; alle heidenvolken zullen hem gelukkig noemen.", "Ps 122:4": "waarheen de stammen opgaan, de stammen van de HEERE, tot de getuigenis van Israël, om de Naam van de HEERE te danken.", "Hand 13:10": "O kind van de duivel, vol van alle bedrog en van alle arglistigheid, vijand van alle gerechtigheid, zult u niet ophouden de rechte wegen van de Heere te verdraaien?", "Ps 2:8": "Eis van Mij, en Ik zal de heidenen geven tot Uw erfdeel, en de einden van de aarde tot Uw bezitting.", "Gen 12:2": "En Ik zal u tot een groot volk maken, en u zegenen, en uw naam groot maken; en wees een zegen!", "Ps 122:3": "Jeruzalem is gebouwd als een stad die goed samengevoegd is;", "Ezech 34:26": "Want Ik zal hen, en de plaatsen rondom Mijn heuvel, stellen tot een zegen; en Ik zal de plasregen doen neerdalen op zijn tijd, plasregens van zegen zullen er zijn.", "Ps 26:12": "Mijn voet staat op effen grond; ik zal de HEERE loven in de samenkomsten.", "Ps 22:23": "Zo zal ik Uw Naam aan mijn broeders vertellen; in het midden van de gemeente zal ik U prijzen.", "Hand 17:31": "Omdat Hij een dag vastgesteld heeft, waarop Hij de aardbodem rechtvaardig zal oordelen, door een Man Die Hij daartoe aangesteld heeft, en Hij heeft daarvan aan allen zekerheid gegeven doordat Hij Hem uit de doden heeft opgewekt.", "Ex 3:15": "Toen zei God verder tegen Mozes: Zo zult u tegen de kinderen van Israël zeggen: De HEERE, de God van uw vaderen, de God van Abraham, de God van Izak, en de God van Jakob, heeft mij tot u gezonden; dat is Mijn Naam eeuwig, en dat is Mijn gedachtenis van geslacht tot geslacht.", "Deut 21:8": "Wees genadig aan Uw volk Israël, dat U, o HEERE, verlost hebt, en leg geen onschuldig bloed op Uw volk Israël! En dat bloed zal voor hen verzoend zijn.", "Hand 22:4": "Ik heb deze weg vervolgd tot de dood toe, mannen en vrouwen bindend en overleverend in de gevangenissen.", "Ps 18:2": "Hij zei dan: Ik zal U hartelijk liefhebben, HEERE, mijn Sterkte!", "Ex 15:1": "Toen zongen Mozes en de kinderen van Israël de HEERE dit lied, en zeiden: Ik zal de HEERE zingen; want Hij is hoog verheven! Het paard en zijn ruiter heeft Hij in de zee geworpen.", "Luk 3:6": "En alle vlees zal de zaligheid van God zien.", "Jes 54:1": "Zing vrolijk, u onvruchtbare, die niet gebaard hebt! Maak geschal met vrolijk gezang, en juich, die geen barensnood gehad hebt! Want de kinderen van de eenzame zijn meer dan de kinderen van de getrouwde, zegt de HEERE.", "Ps 98:9": "Voor het aangezicht van de HEERE, want Hij komt om de aarde te oordelen; Hij zal de wereld oordelen in gerechtigheid, en de volken in alle rechtmatigheid.", "Ps 22:24": "U die de HEERE vreest, prijs Hem; al u nageslacht van Jakob, vereer Hem; en ontzie u voor Hem, al u nageslacht van Israël!", "1 Kron 16:33": "Dan zullen de bomen van het woud juichen voor het aangezicht van de HEERE, omdat Hij komt om de aarde te richten.", "Richt 5:3": "Hoor, u koningen, neem het ter ore, u vorsten! Ik, den HEERE zal ik zingen, ik zal den HEERE, de God van Israël, psalmzingen.", "Ps 24:8": "Wie is de Koning der ere? De HEERE, sterk en geweldig, de HEERE, geweldig in de strijd.", "Deut 32:43": "Juich, heidenen, met Zijn volk! want Hij zal het bloed van Zijn knechten wreken; en Hij zal de wraak op Zijn tegenpartijen doen wederkeren, en verzoenen Zijn land en Zijn volk.", "Ps 138:5": "En zij zullen zingen van de wegen van de HEERE, want de heerlijkheid van de HEERE is groot.", "Jes 1:19": "Als u willig bent en luistert, zult u het goede van dit land eten;", "Ps 9:12": "Zingt psalmen voor de HEERE, Die te Sion woont; verkondigt onder de volken Zijn daden.", "Jes 30:23": "Dan zal Hij uw zaad, waarmee u het land bezaaid hebt, regen geven, en brood van de opbrengst van het land, en dat zal vet en overvloedig zijn; uw vee zal op die dag in een wijde landouwe weiden.", "Jes 30:24": "En de ossen, en ezelveulens, die het land bewerken, zullen zuiver voeder eten, dat verschud is met de werpschoffel en met de wan.", "Ps 8:3": "Uit de mond van de kinderen en de zuigelingen hebt U sterkte gegrondvest, omwille van Uw tegenstanders, om de vijand en de wraakgierige te doen ophouden.", "Ps 65:6": "Vreselijke dingen zult U ons in gerechtigheid antwoorden, o God van ons heil! o Vertrouwen van alle einden van de aarde, en van de ver weg gelegenen aan de zee!", "Ps 24:7": "Heft uw hoofden op, poorten, en verhef u, eeuwige deuren, opdat de Koning der ere ingaat!", "Ps 48:15": "Want deze God is onze God eeuwig en altoos; Hij zal ons geleiden tot de dood toe.", "Ps 33:3": "Zingt Hem een nieuw lied; speelt goed met vrolijk geschal.", "Ps 122:6": "Bid om de vrede van Jeruzalem; het moet goed gaan met hen die u liefhebben.", "Ps 7:18": "Ik zal de HEERE loven naar Zijn gerechtigheid, en voor de Naam van de HEERE, de Allerhoogste, psalmzingen.", "Ps 138:4": "Alle koningen van de aarde zullen U, o HEERE! loven, wanneer zij de redenen van Uw mond gehoord zullen hebben.", "Hand 2:28": "U hebt mij de wegen van het leven bekendgemaakt; U zult mij vervullen met vreugde door Uw aangezicht.", "Ps 144:2": "Mijn Goedertierenheid en mijn Burg, mijn Hoog Vertrek en mijn Bevrijder voor mij, mijn Schild, en op Wie ik vertrouw; Die mijn volk aan mij onderwerpt!", "Ef 1:3": "Gezegend zij de God en Vader van onze Heere Jezus Christus, Die ons gezegend heeft met alle geestelijke zegening in de hemel in Christus.", "Ps 117:2": "Want Zijn goedertierenheid is machtig over ons, en de waarheid van de HEERE is er voor eeuwig! Halleluja!", "Jer 31:1": "In die tijd, spreekt de HEERE, zal Ik voor alle geslachten van Israël tot een God zijn; en zij zullen Mij tot een volk zijn.", "Ps 144:13": "Dat onze schuren vol zijn, de ene voorraad na de andere opleverend; dat onze kudden bij duizenden jongen werpen, ja, bij tienduizenden op onze velden zich vermenigvuldigen.", "Ps 122:1": "Een lied Hammaaloth, van David. Ik verblijd mij over hen die tegen mij zeggen: Wij zullen naar het huis van de HEERE gaan.", "Ps 20:6": "Wij zullen juichen over Uw heil, en de vaandels opsteken in de Naam van onze God. De HEERE vervult al uw verlangens.", "Ps 122:5": "Want daar staan de stoelen van het gericht, de stoelen van het huis van David.", "Jes 43:6": "Ik zal zeggen tot het noorden: Geef; en tot het zuiden: Houd niet terug; breng Mijn zonen van verre, en Mijn dochters van het einde der aarde;", "Gal 4:27": "Want er is geschreven: Wees vrolijk, u onvruchtbare, die niet baart, breek uit en roep, u die geen weeën hebt, want de kinderen van de eenzame zijn veel meer dan van haar die de man heeft.", "Neh 9:6": "U bent die HEERE alleen, U hebt de hemel gemaakt, de hemel der hemelen, en al hun leger, de aarde en alles wat daarop is, de zeeën en alles wat daarin is, en U maakt dat alles levend; en het leger van de hemel aanbidt U.", "Ps 28:6": "Geprezen zij de HEERE, want Hij heeft de stem van mijn smekingen gehoord.", "Ps 33:1": "Rechtvaardigen! Zingt vrolijk in de HEERE; lof past de oprechten.", "Openb 15:4": "Wie zou U niet vrezen, Heere, en Uw Naam niet verheerlijken? Want Gij alleen zijt heilig; want alle volken zullen komen, en voor U aanbidden; want Uw oordelen zijn openbaar geworden.", "Ps 122:8": "Om mijn broeders en mijn vrienden zal ik nu zeggen: Vrede zij in u!", "Ps 144:4": "De mens lijkt op een ademtocht; zijn dagen zijn als een voorbijgaande schaduw.", "Ps 144:11": "Bevrijd mij en red mij van de hand van vreemden, wier mond leugens spreekt, en wier rechterhand een rechterhand van bedrog is;", "Ps 144:9": "O God, ik zal U een nieuw lied zingen; met de luit en het tiensnarig instrument zal ik U lofzingen.", "Jes 17:10": "Want u hebt de God van uw heil vergeten, en niet gedacht aan de Rotssteen van uw sterkte; daarom zult u wel liefelijke planten planten, en die met uitheemse ranken bezetten;", "Ps 66:8": "Looft, volken, onze God; en laat de stem van Zijn roem horen.", "Rom 2:5": "Maar naar uw hardheid en onbekeerlijk hart, verzamelt u voor uzelf toorn als een schat, voor de dag van de toorn en de openbaring van het rechtvaardig oordeel van God.", "Ps 144:6": "Bliksem met bliksem, en verstrooi hen; zend Uw pijlen uit, en vernietig hen.", "Ps 31:17": "Laat Uw aangezicht over Uw knecht lichten; verlos mij door Uw goedertierenheid.", "Neh 9:5": "En de Levieten, Jesua, en Kadmiel, Bani, Hasabneja; Serebja, Hodia, Sebanja, Petahja, zeiden: Sta op, loof de HEERE, uw God, van eeuwigheid tot in eeuwigheid; en men love de Naam van Uw heerlijkheid, die verhoogd is boven alle lof en prijs!", "Ps 28:7": "De HEERE is mijn Sterkte en mijn Schild; op Hem heeft mijn hart vertrouwd, en ik ben geholpen; daarom springt mijn hart op van vreugde, en ik zal Hem met mijn gezang loven.", "Ps 35:18": "Zo zal ik U loven in de grote gemeente; onder machtig veel volk zal ik U prijzen.", "Lev 26:4": "Dan zal Ik uw regens geven op hun tijd; en het land zal zijn opbrengst geven, en het geboomte van het veld zal zijn vrucht geven;", "Tit 2:11": "Want de genade van God die zaligmakend is, is verschenen aan alle mensen.", "Rom 15:11": "En opnieuw: Looft de Heere, alle heidenen, en prijst Hem, alle volken!", "2 Kron 7:3": "En toen alle kinderen van Israël dat vuur zagen neerdalen, en de heerlijkheid van de HEERE over het huis, bogen zij met hun gezichten ter aarde op de vloer, en aanbaden en loofden de HEERE, dat Hij goed is, dat Zijn goedertierenheid tot in eeuwigheid is.", "Ps 20:8": "Dezen vermelden van wagens, en die van paarden; maar wij zullen vermelden van de Naam van de HEERE, onze God.", "Ps 35:28": "Zo zal mijn tong Uw gerechtigheid vermelden, en Uw lof de hele dag.", "Ps 119:135": "Doe Uw aangezicht lichten over Uw knecht, en leer mij Uw inzettingen."}, "noten": {"1": "SV: opperzangmeester."}, "koppeling": {"1": "<span class=\"wl\" data-l=\"L1\" data-code=\"H4210\">Een</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H4210\">psalm</span>, <span class=\"wl\" data-l=\"L1\" data-code=\"H4210\">een</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H7892\">lied</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H7892\">voor</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H5329\">de</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H5329\">koorleider</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H5329\">op</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H5058\">de</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H5058\">Neginoth</span><sup class=\"noot\" data-noot=\"1\">1</sup>.", "2": "<span class=\"wl\" data-l=\"L1\" data-code=\"H430\">God</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H430\">is</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H2603\">ons</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H2603\">genadig</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1288\">en</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1288\">zegent</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H6440\">ons</span>; <span class=\"wl\" data-l=\"L4\" data-code=\"H6440\">Hij</span> laat Zijn aangezicht <span class=\"wl\" data-l=\"L5\" data-code=\"H215\">over</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H215\">ons</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H215\">lichten</span>. <span class=\"wl\" data-l=\"L6\" data-code=\"H5542\">Sela</span>.", "3": "<span class=\"wl\" data-l=\"L1\" data-code=\"H776\">Opdat</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H776\">men</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H776\">op</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H776\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H776\">aarde</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H776\">Uw</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1870\">weg</span> kent, <span class=\"wl\" data-l=\"L3\" data-code=\"H1471\">onder</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1471\">alle</span> heidenvolken <span class=\"wl\" data-l=\"L4\" data-code=\"H3444\">Uw</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H3444\">heil</span>.", "4": "<span class=\"wl\" data-l=\"L1\" data-code=\"H5971\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5971\">volken</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H430\">zullen</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H430\">U</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H430\">o</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H430\">God</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H3034\">loven</span>; <span class=\"wl\" data-l=\"L1\" data-code=\"H5971\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5971\">volken</span>, allemaal, <span class=\"wl\" data-l=\"L3\" data-code=\"H3034\">zullen</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3034\">U</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3034\">loven</span>.", "5": "<span class=\"wl\" data-l=\"L1\" data-code=\"H3816\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3816\">natiën</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H8055\">zullen</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H8055\">zich</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H8055\">verblijden</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3816\">en</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H7442\">juichen</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H5971\">omdat</span> U <span class=\"wl\" data-l=\"L4\" data-code=\"H5971\">de</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H5971\">volken</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H8199\">zult</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H8199\">richten</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H8199\">in</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H4334\">rechtvaardigheid</span>; <span class=\"wl\" data-l=\"L3\" data-code=\"H7442\">en</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3816\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3816\">natiën</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3816\">op</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H776\">de</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H776\">aarde</span>, <span class=\"wl\" data-l=\"L8\" data-code=\"H5148\">die</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H5148\">zult</span> U <span class=\"wl\" data-l=\"L8\" data-code=\"H5148\">leiden</span>. <span class=\"wl\" data-l=\"L9\" data-code=\"H5542\">Sela</span>.", "6": "<span class=\"wl\" data-l=\"L1\" data-code=\"H5971\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5971\">volken</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H430\">zullen</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H430\">U</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H430\">o</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H430\">God</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H3034\">loven</span>; <span class=\"wl\" data-l=\"L1\" data-code=\"H5971\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5971\">volken</span>, allemaal, <span class=\"wl\" data-l=\"L3\" data-code=\"H3034\">zullen</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3034\">U</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3034\">loven</span>.", "7": "<span class=\"wl\" data-l=\"L1\" data-code=\"H776\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H776\">aarde</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H5414\">geeft</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H5414\">haar</span> opbrengst; <span class=\"wl\" data-l=\"L3\" data-code=\"H430\">God</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H430\">onze</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H430\">God</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H430\">zal</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H1288\">ons</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H1288\">zegenen</span>.", "8": "<span class=\"wl\" data-l=\"L1\" data-code=\"H430\">God</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H430\">zal</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1288\">ons</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1288\">zegenen</span>; <span class=\"wl\" data-l=\"L3\" data-code=\"H657\">en</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H657\">alle</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H657\">einden</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H657\">van</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H776\">de</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H776\">aarde</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H3372\">zullen</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H3372\">Hem</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H3372\">vrezen</span>."}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['Berea', 'SV', 'KJV'];
+let vertaling = 'Berea';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.Berea);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+// Berea-tekst: gebruik de woordgekoppelde HTML (stippellijn onder gelinkte
+// woorden) als die er is; anders gewone md()-weergave.
+function bereaHtml(n) {
+  const k = D.koppeling && D.koppeling[n];
+  if (k) return k;
+  return md(D.vertalingen.Berea[n] || '—');
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      const tekst = md(D.vertalingen[vertaling][n] || '—');
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${tekst}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.Berea[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (Berea)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+// Bijbelbrede concordantie: één klein JSON-bestand per Strong's-code,
+// fetch-on-demand (niet in elke pagina embedded — zou de payload van alle
+// 1189 pagina's enorm maken). Basis-pad: twee niveaus omhoog vanaf
+// <slug>/<hfd>/index.html naar de site-root, dan concordantie/<code>.json.
+const concordCache = {};
+async function haalConcordantie(code) {
+  if (!code) return null;
+  if (code in concordCache) return concordCache[code];
+  try {
+    const res = await fetch(`../../concordantie/${code}.json`);
+    concordCache[code] = res.ok ? await res.json() : null;
+  } catch (e) { concordCache[code] = null; }
+  return concordCache[code];
+}
+function concordantieHtml(data) {
+  if (!data) return '<em>Geen concordantie-gegevens gevonden.</em>';
+  return `<div class="tsk-kop">${data.strongs} — ${data.totaal}× in de Bijbel</div>` +
+    data.weergaven.map(w => {
+      const chip = p => `<a class="refchip" data-ref="${p.ref}" data-tekst="${md(p.tekst).replace(/"/g,'&quot;')}">${p.ref}</a>`;
+      const chips = w.plaatsen.slice(0, 10).map(chip).join('');
+      const rest = w.plaatsen.slice(10).map(chip).join('');
+      const meer = w.n > 10 ? `<details class="alle"><summary>alle ${w.n} tonen</summary><div class="ondrefs">${rest}</div></details>` : '';
+      return `<div class="onderwerp"><div class="okop"><span class="naam">${w.vorm}</span><span class="label"> — ${w.n}×</span></div><div class="ondrefs">${chips}</div>${meer}</div>`;
+    }).join('');
+}
+function paneelInhoud(n, tab) {
+  if (tab === 'grondwoorden') {
+    if (!D.koppeling || !D.koppeling[n]) return '<em>Nog geen woordkoppeling voor dit vers.</em>';
+    return `<div class="gw-tekst" style="font-family:Georgia,serif;line-height:1.8">${D.koppeling[n]}</div>` +
+      `<div class="gw-detail" data-n="${n}" style="margin-top:.5rem"></div>` +
+      '<div class="bronregel">Klik op een onderstreept woord voor de vindplaatsen.</div>';
+  }
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const heeftG = !!(D.koppeling && D.koppeling[n]);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : (heeftG ? 'grondwoorden' : 'vertalingen'));
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab ${eerste === 'grondwoorden' ? 'actief' : ''} ${heeftG ? '' : 'leeg'}" data-tab="grondwoorden" data-n="${n}">Grondwoorden</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const wl = e.target.closest('.wl');
+  if (wl) {
+    e.stopPropagation();
+    const gwTekst = wl.closest('.gw-tekst');
+    if (!gwTekst) return;               // .wl buiten de grondwoorden-tab doet niets (nog) meer
+    const detail = gwTekst.nextElementSibling;  // .gw-detail, direct na .gw-tekst
+    const key = wl.dataset.l;
+    if (detail.dataset.actief === key) {
+      detail.innerHTML = ''; delete detail.dataset.actief;   // zelfde woord: dichtklappen
+    } else {
+      detail.dataset.actief = key;
+      detail.innerHTML = '<em>Laden…</em>';
+      haalConcordantie(wl.dataset.code).then(data => {
+        if (detail.dataset.actief === key) detail.innerHTML = concordantieHtml(data);
+      });
+    }
+    return;
+  }
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.Berea[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  // concordantie-chips dragen hun Berea-tekst al mee (data-tekst, al door md()
+  // gehaald) — die verzen zijn pas na het laden bekend en staan niet in
+  // D.extern (dat wordt alleen bij het genereren gevuld voor TSK/onderwerpen).
+  const html = chip.dataset.tekst !== undefined ? chip.dataset.tekst : md(popupTekst(ref) || '');
+  if (!html) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · Berea</div>${html}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>
