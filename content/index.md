@@ -34,6 +34,7 @@ Persoonlijke blog
 
 </div>
 </div>
+
 ## Blog
 
 Komt nog. 
