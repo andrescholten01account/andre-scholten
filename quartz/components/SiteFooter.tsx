@@ -19,7 +19,6 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
         <a href={`${baseDir}/de-volle-pinksterzegen`}>De Volle Pinksterzegen</a>
         <a href={`${baseDir}/bijbelteksten-heilige-geest`}>Bijbelteksten Heilige Geest</a>
         <a href="https://andre-scholten.nl/bereastudiebijbel/">BereaStudieBijbel</a>
-        <a href={`${baseDir}/bibliotheek`}>Bibliotheek</a>
       </div>
       <div class="site-footer-col site-footer-mid">
         <button type="button" class="footer-search-trigger">
@@ -27,10 +26,9 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
         </button>
       </div>
       <div class="site-footer-col site-footer-right">
-        <span class="footer-plain">Over</span>
-        <span class="footer-plain">Contact</span>
-        <span class="footer-plain">Verantwoording</span>
-        <a href={`${baseDir}/uitgangspunten`}>Uitgangspunten</a>
+        <a href={`${baseDir}/over`}>Over</a>
+        <a href={`${baseDir}/contact`}>Contact</a>
+        <a href={`${baseDir}/verantwoording`}>Verantwoording</a>
       </div>
       <script
         dangerouslySetInnerHTML={{

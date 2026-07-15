@@ -23,6 +23,8 @@ const SiteHeader: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) =>
       <nav class="site-nav">
         <a href={`${baseDir}/blog`}>Blog</a>
         <span class="nav-sep"> | </span>
+        <a href={`${baseDir}/basis`}>Basis</a>
+        <span class="nav-sep"> | </span>
         <a href={`${baseDir}/de-volle-pinksterzegen`}>Boek</a>
         <span class="nav-sep"> | </span>
         <a href="https://andre-scholten.nl/bereastudiebijbel/">Bijbel</a>
