@@ -35,8 +35,7 @@ Midden:
 Rechts:
 - [[Over]]
 - [[Contact]]
-- Verantwoording1
-- [[Uitgangspunten]]
+- [[Verantwoording]]
 
 [[Copyright policy]]
 
