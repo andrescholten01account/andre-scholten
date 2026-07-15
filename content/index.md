@@ -11,6 +11,7 @@ Persoonlijke blog
 [[Blog]] | [[Basis]] | [[De Volle Pinksterzegen|Boek]] | [Bijbel](/bereastudiebijbel/) 
 
 %%
+
 <div align="center">
 
 ![[Pasted image 20260715071609.png|450]]
