@@ -79,12 +79,11 @@ Als iemand heeft geleefd zoals God dat wil, zal hij daarvoor beloond worden¹. M
 
 ¹ [Mattheüs 25:31-40](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v31)
 ² [Mattheüs 25:41-46](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v41)
-
 %%
 
 [[Boekje - De basis van het christelijk geloof]]
 
-Staat de bijlage nu ook verborgen?
+Staat de bijlage nu ook verborgen? ➔ volgens mij niet. Hoe dit doen?
 
 ---
 # DEEL 2
@@ -793,5 +792,4 @@ En dit is de vrijmoedigheid die wij tegenover Hem hebben, dat als wij iets bidde
 Basis 
 
 De Bijbel is waar
-
 %%
