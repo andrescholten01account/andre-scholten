@@ -24,6 +24,12 @@ Komt nog.
 ## Footer
 
 Links:
+- [[Blog]]
+- [[Basis|Basis christelijk geloof]]
+- De Volle Pinksterzegen
+- BereaStudieBijbel
+
+
 - [[De Volle Pinksterzegen]]
 - [[Bijbelteksten Heilige Geest]]
 - BereaStudieBijbel
