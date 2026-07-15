@@ -73,15 +73,3 @@ XII. Hoe alles ervoor opgegeven moet worden
 
 - [[Hoe vervuld worden met de Geest]]
 
-## VII. Hoe het bij ons blijft 
-
-## VIII. Hoe het vermeerderd wordt  
-
-## IX. Hoe het volledig tot uiting komt 
-
-## X. Hoe zeker de belofte van God is
-
-## XI. Hoe iedereen het kan vinden
-
-## XII. Hoe alles ervoor opgegeven moet worden
-
