@@ -1,79 +1,26 @@
-Basis 
-
-De Bijbel is waar
-
-%%
-
-[[Boekje - De basis van het christelijk geloof]]
-
-Staat de bijlage nu ook verborgen?
-
----
-# DEEL 1 - HET EVANGELIE
+Dit is mijn persoonlijke geloofsbelijdenis. Zie het als de grote lijn van wat ik geloof. Er is natuurlijk veel meer te zeggen. 
 
 ## GOD
 
-**Schepper van de hemel en de aarde**
+God is de Schepper van de hemel en de aarde [1], en de mens [2]. Hij is almachtig [3], alwetend [4], eeuwig [5], alomtegenwoordig [6], heilig [7], en rechtvaardig [8]. 
 
-Ik heb de aarde gemaakt, en Ik heb de mens daarop geschapen; Ik ben het! Mijn handen hebben de hemelen uitgebreid, en Ik heb heel hun leger bevel gegeven.
-~ [Jesaja 45:12](https://andre-scholten.nl/bereastudiebijbel/jesaja/45#v12) (Berea)
-
-**Schepper van de mens**
-
-Ik heb de aarde gemaakt, de mens en het vee die op de aardbodem zijn, door Mijn grote kracht en door Mijn uitgestrekte arm, en Ik geef ze aan wie het goed is in Mijn ogen.
-~ [Jeremia 27:5](https://andre-scholten.nl/bereastudiebijbel/jeremia/27#v5) (Berea)
-
-**Almachtig**
-
-Toen Abram negenennegentig jaar oud was, verscheen de HEERE aan Abram en zei tegen hem: Ik ben God, de Almachtige! Wandel voor Mijn aangezicht en wees oprecht!
-~ [Genesis 17:1](https://andre-scholten.nl/bereastudiebijbel/genesis/17#v1) (Berea)
-
-**Alwetend**
-
-Zie, de vroegere dingen zijn gekomen, en nieuwe dingen verkondig Ik; voordat ze uitspruiten, doe Ik u die horen.
-~ [Jesaja 42:9](https://andre-scholten.nl/bereastudiebijbel/jesaja/42#v9) (Berea)
-
-**Eeuwig**
-
-Zo zegt de HEERE, de Koning van Israël, en zijn Verlosser, de HEERE van de heerscharen[1]: Ik ben de Eerste, en Ik ben de Laatste, en behalve Mij is er geen God.
-~ [Jesaja 44:6](https://andre-scholten.nl/bereastudiebijbel/jesaja/44#v6) (Berea)
-
-**Alomtegenwoordig**
-
-Ben Ik een God van dichtbij, spreekt de HEERE, en niet een God van ver? Zou iemand zich in verborgen plaatsen kunnen verbergen, zodat Ik hem niet zou zien? spreekt de HEERE; vervul Ik niet de hemel en de aarde? spreekt de HEERE.
-~ [Jeremia 23:23-24](https://andre-scholten.nl/bereastudiebijbel/jeremia/23#v23) (Berea)
-
-**Heilig**
-
-En u zult Mij heilig zijn, want Ik, de HEERE, ben heilig; en Ik heb u van de volken afgezonderd, opdat u van Mij zou zijn.
-~ [Leviticus 20:26](https://andre-scholten.nl/bereastudiebijbel/leviticus/20#v26) (Berea)
-
-**Rechtvaardig**
-
-Verkondig het en treed hier toe, ja, beraadslaag samen: wie heeft dat van oudsher laten horen? *Wie* heeft dat van toen af verkondigd? Ben Ik het niet, de HEERE? En er is geen God meer behalve Mij, een rechtvaardig God, en een Heiland, niemand is er dan Ik.
-~ [Jesaja 45:21](https://andre-scholten.nl/bereastudiebijbel/jesaja/45#v21) (Berea)
+[1] [Jesaja 45:12](https://andre-scholten.nl/bereastudiebijbel/jesaja/45#v12) 
+[2] [Jeremia 27:5](https://andre-scholten.nl/bereastudiebijbel/jeremia/27#v5) 
+[3] [Genesis 17:1](https://andre-scholten.nl/bereastudiebijbel/genesis/17#v1) 
+[4] [Jesaja 42:9](https://andre-scholten.nl/bereastudiebijbel/jesaja/42#v9) 
+[5] [Jesaja 44:6](https://andre-scholten.nl/bereastudiebijbel/jesaja/44#v6) 
+[6] [Jeremia 23:23-24](https://andre-scholten.nl/bereastudiebijbel/jeremia/23#v23) 
+[7] [Leviticus 20:26](https://andre-scholten.nl/bereastudiebijbel/leviticus/20#v26) 
+[8] [Jesaja 45:21](https://andre-scholten.nl/bereastudiebijbel/jesaja/45#v21) 
 
 ## DE MENS
 
-**Geschapen naar het beeld van God**
+De mens is geschapen naar het beeld van God [1], en in de hof van Eden gezet om die te bewerken en te onderhouden [2]. Hij mocht van elke boom eten, behalve van de boom van de kennis van goed en kwaad, want als ze dat deden, dan zouden ze zeker sterven [3]. De mens deed het toch, werd uit de hof van Eden gezet en stierf [4]. d
 
-En God schiep de mens naar Zijn beeld; naar het beeld van God schiep Hij hem; man en vrouw schiep Hij hen.
-~ [Genesis 1:27](https://andre-scholten.nl/bereastudiebijbel/genesis/1#v27) (Berea)
-
-**In de hof van Eden gezet om die te bewerken en te onderhouden**
-
-Zo nam de HEERE God de mens, en zette hem in de hof van Eden, om die te bewerken, en die te bewaren.
-~ [Genesis 2:15](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v15) (Berea)
-
-**Mocht van elke boom eten, behalve van de boom van de kennis van goed en kwaad, want als ze dat deden, dan zouden ze zeker sterven**
-
-En de HEERE God gebood de mens en zei: Van elke boom van deze hof mag u vrijelijk eten; Maar van de boom van de kennis van goed en kwaad, daarvan mag u niet eten; want op de dag dat u daarvan eet, zult u de dood sterven[2].
-~ [Genesis 2:16-17](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v16) (Berea)
-
-**De mens deed het toch, werd uit de hof van Eden gezet en stierf**
-
-En de vrouw zag dat die boom goed was om van te eten, en dat hij een lust was voor de ogen, ja, een boom die begerenswaardig was om er verstandig van te worden; en zij nam van zijn vrucht en at; en zij gaf ook aan haar man, die bij haar was, en hij at. Toen werden hun beider ogen geopend, en zij merkten dat zij naakt waren; en zij hechtten vijgenbladeren aan elkaar en maakten zich schorten. En zij hoorden de stem van de HEERE God, die wandelde in de hof, bij de avondwind[1]. Toen verborgen Adam en zijn vrouw zich voor het aangezicht van de HEERE God, midden tussen de bomen van de hof.
-~ [Genesis 3:6-8](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v6) (Berea)
+[1] [Genesis 1:27](https://andre-scholten.nl/bereastudiebijbel/genesis/1#v27) 
+[2] [Genesis 2:15](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v15) 
+[3] [Genesis 2:16-17](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v16) 
+[4] [Genesis 3:6-8](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v6) 
 
 Toen zei de HEERE God: Zie, de mens is geworden als één van Ons, kennend het goed en het kwaad! Nu dan, laat hij zijn hand niet uitsteken, en ook nemen van de boom van het leven, en eten, en in eeuwigheid leven — Zo stuurde de HEERE God hem weg uit de hof van Eden, om de aardbodem te bewerken, waaruit hij genomen was.
 ~ [Genesis 3:22-23](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v22) (Berea)
@@ -176,6 +123,13 @@ En wanneer de Zoon des mensen komen zal in Zijn heerlijkheid, en alle heilige en
 Dan zal Hij ook zeggen tegen hen die aan de linkerhand *zijn*: Ga weg van Mij, u vervloekten, in het eeuwige vuur, dat voor de duivel en zijn engelen bereid is. Want Ik ben hongerig geweest, en u hebt Mij niet te eten gegeven; Ik ben dorstig geweest, en u hebt Mij niet te drinken gegeven; Ik was een vreemdeling; en u hebt Mij geen onderkomen gegeven; naakt, en u hebt Mij niet gekleed; ziek, en in de gevangenis, en u hebt Mij niet bezocht. Dan zullen ook zij Hem antwoorden: Heere, wanneer hebben wij U hongerig gezien, of dorstig, of een vreemdeling, of naakt, of ziek, of in de gevangenis, en hebben U niet gediend? Dan zal Hij hun antwoorden: Voorwaar, Ik zeg u: Voor zoveel u dit voor één van deze minsten niet gedaan hebt, hebt u het Mij ook niet gedaan. En dezen zullen weggaan in de eeuwige pijn; maar de rechtvaardigen in het eeuwige leven.
 ~ [Mattheüs 25:41-46](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v41) (Berea)
 
+%%
+
+[[Boekje - De basis van het christelijk geloof]]
+
+Staat de bijlage nu ook verborgen?
+
+---
 # DEEL 2
 
 ## I. GOD (GOD DE VADER)
@@ -876,5 +830,11 @@ En dit is de vrijmoedigheid die wij tegenover Hem hebben, dat als wij iets bidde
 1. Nave's Topical Bible
 2. Torrey's New Topical Textbook
 3. De Heidelbergse Catechismus
+
+---
+
+Basis 
+
+De Bijbel is waar
 
 %%
