@@ -1,4 +1,4 @@
-#### A. WAT IS ZONDE
+## I. Wat is zonde? 
 
 *Zonde is ongehoorzaamheid aan God*
 
@@ -8,7 +8,7 @@ En de HEERE God gebood de mens en zei: Van elke boom van deze hof mag u vrijelij
 En de vrouw zag dat die boom goed was om van te eten, en dat hij een lust was voor de ogen, ja, een boom die begerenswaardig was om er verstandig van te worden; en zij nam van zijn vrucht en at; en zij gaf ook aan haar man, die bij haar was, en hij at.
 ~ [Genesis 3:6](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v6)
 
-#### B. VOORBEELDEN VAN ZONDE
+## II. Voorbeelden van zonde 
 
 De werken van het vlees nu zijn openbaar; dat zijn: overspel, hoererij, onreinheid, losbandigheid, Afgoderij, toverij, vijandschappen, ruzies, jaloersheden, toorn, twisten, verdeeldheid, afwijkingen in de leer, Afgunst, moord, dronkenschappen, uitspattingen, en dergelijke; waarvan ik u van tevoren zeg, zoals ik ook eerder gezegd heb, dat wie zulke dingen doen, het Koninkrijk van God niet zullen beërven.
 ~ [Galaten 5:19-21](https://andre-scholten.nl/bereastudiebijbel/galaten/5#v19)
@@ -19,7 +19,7 @@ Vergis u niet; hoereerders, afgodendienaars, overspelers, ontuchtigen, mannen di
 Want dit weet u, dat geen hoereerder, of onreine, of hebzuchtige, die een afgodendienaar is, erfenis heeft in het Koninkrijk van Christus en van God.
 ~ [Efeze 5:5](https://andre-scholten.nl/bereastudiebijbel/efeze/5#v5)
 
-#### C. GEVOLGEN VAN DE ZONDE
+## III. Gevolgen van de zonde 
 
 *a. Het loon van de zonde is de dood*
 
@@ -41,7 +41,7 @@ Maar de bangen, en ongelovigen, en verfoeilijken, en moordenaars, en hoereerders
 Maar uw ongerechtigheden brengen een scheiding tussen u en uw God, en uw zonden verbergen Zijn aangezicht voor u, zodat Hij niet hoort.
 ~ [Jesaja 59:2](https://andre-scholten.nl/bereastudiebijbel/jesaja/59#v2)
 
-#### D. IEDEREEN HEEFT GEZONDIGD
+## IV. Iedereen heeft gezondigd 
 
 *Maar niet alleen Adam heeft gezondigd, iedereen heeft gezondigd*
 

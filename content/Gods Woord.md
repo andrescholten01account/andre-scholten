@@ -1,9 +1,4 @@
-
-## DEEL 3
-
-### BIJLAGE A: GODS WOORD
-
-#### A. HOE IS GODS WOORD ONTSTAAN
+## I. Hoe is Gods Woord ontstaan? 
 
 **1. Het is door God ingegeven**
 
@@ -15,7 +10,7 @@ Heel de Schrift is door God ingegeven, en is nuttig tot lering, tot weerlegging,
 Want de profetie is vroeger nooit voortgebracht door de wil van een mens, maar de heilige mensen van God hebben gesproken, gedreven door de Heilige Geest.
 ~ [2 Petrus 1:21](https://andre-scholten.nl/bereastudiebijbel/2-petrus/1#v21)
 
-#### B. WAAROM GODS WOORD LEZEN
+## Waarom Gods Woord lezen? 
 
 **1. Om vrucht te dragen**
 

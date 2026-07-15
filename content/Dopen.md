@@ -1,13 +1,9 @@
-
-
-### VII. DOPEN
-
-#### A. EN DAARNA MOETEN WE ONS LATEN DOPEN
+## I. En daarna moeten we ons laten dopen
 
 En toen zij dit hoorden, werden zij diep in het hart getroffen, en zeiden tegen Petrus en de andere apostelen: Wat moeten wij doen, mannen broeders? En Petrus zei tegen hen: Bekeer u, en ieder van u moet gedoopt worden in de Naam van Jezus Christus, tot vergeving van de zonden; en u zult de gave van de Heilige Geest ontvangen.
 ~ [Handelingen 2:37-38](https://andre-scholten.nl/bereastudiebijbel/handelingen/2#v37)
 
-#### B. WANNEER MOGEN WE ONS LATEN DOPEN
+## II. Wanneer mogen w## B. WANNEER MOGEN WE ONS LATEN DOPEN
 
 **1. Als we ons bekeerd hebben**
 

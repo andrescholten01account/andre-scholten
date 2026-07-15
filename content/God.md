@@ -1,6 +1,4 @@
-## I. GOD (GOD DE VADER)
-
-#### WIE IS GOD DE VADER
+## I. Wie is God de Vader?
 
 **1. De Vader is God**
 
@@ -125,3 +123,7 @@ Toen sprak God al deze woorden en zei: Ik ben de HEERE, uw God, Die u uit Egypte
 Zodat wij zelf over u roemen in de Gemeenten van God, over uw volharding en geloof in al uw vervolgingen en verdrukkingen, die u verdraagt; Een bewijs van het rechtvaardige oordeel van God, opdat u waardig geacht wordt voor het Koninkrijk van God, waarvoor u ook lijdt; Aangezien het recht is bij God, verdrukking te vergelden aan hen die u verdrukken;
 ~ [2 Thessalonicenzen 1:4-6](https://andre-scholten.nl/bereastudiebijbel/2-thessalonicenzen/1#v4)
 
+%%
+## I. GOD (GOD DE VADER)
+
+%%

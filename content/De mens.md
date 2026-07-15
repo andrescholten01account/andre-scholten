@@ -1,5 +1,4 @@
-
-#### A. DE OORSPRONG VAN DE MENS
+## I. De oorsprong van de mens 
 
 *a. In het begin schiep God de hemel en de aarde*
 
@@ -16,7 +15,7 @@ En God schiep de mens naar Zijn beeld; naar het beeld van God schiep Hij hem; ma
 Alleen zie, dit heb ik gevonden, dat God de mens recht gemaakt heeft, maar zij hebben veel uitvindingen gezocht.
 ~ [Prediker 7:29](https://andre-scholten.nl/bereastudiebijbel/prediker/7#v29)
 
-#### B. DE VERANTWOORDELIJKHEID VAN DE MENS
+## II. De verantwoording van de mens 
 
 *a. God zette de mens in de hof van Eden*
 
@@ -38,14 +37,14 @@ Maar van de boom van de kennis van goed en kwaad, daarvan mag u niet eten; want 
 Maar van de boom van de kennis van goed en kwaad, daarvan mag u niet eten; want op de dag dat u daarvan eet, zult u de dood sterven.
 ~ [Genesis 2:17](https://andre-scholten.nl/bereastudiebijbel/genesis/2#v17)
 
-#### C. DE ONGEHOORZAAMHEID VAN DE MENS (ZONDEVAL)
+## III. De ongehoorzaamheid van de mens (zondeval) 
 
 *Maar de mens was God ongehoorzaam en at toch van de boom*
 
 En de vrouw zag dat die boom goed was om van te eten, en dat hij een lust was voor de ogen, ja, een boom die begerenswaardig was om er verstandig van te worden; en zij nam van zijn vrucht en at; en zij gaf ook aan haar man, die bij haar was, en hij at.
 ~ [Genesis 3:6](https://andre-scholten.nl/bereastudiebijbel/genesis/3#v6)
 
-#### D. DE GEVOLGEN VAN DE ZONDEVAL
+## IV. De gevolgen van de zondeval 
 
 *a. Daarom werd hij verdreven uit de hof van Eden*
 

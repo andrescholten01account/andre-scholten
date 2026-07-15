@@ -1,11 +1,9 @@
-### VI. GELOOF
-
-#### A. EN WE MOETEN IN JEZUS CHRISTUS GELOVEN OM GERED TE WORDEN VAN HET EEUWIGE VUUR
+## I. En we moeten in Jezus Christus geloven om gered te worden van het eeuwige vuur
 
 Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven heeft, opdat ieder die in Hem gelooft, niet verloren gaat, maar het eeuwige leven heeft.
 ~ [Johannes 3:16](https://andre-scholten.nl/bereastudiebijbel/johannes/3#v16)
 
-#### B. WAT GELOVEN WE DAN
+## II. Wat geloven we dan? 
 
 **1. Dat Jezus Christus de Zoon van God is**
 

@@ -1,8 +1,4 @@
-
-
-### IV. JEZUS CHRISTUS (GOD DE ZOON)
-
-#### A. WIE IS JEZUS CHRISTUS
+## I. Wie is Jezus Christus?
 
 **1. Jezus Christus is God**
 
@@ -73,7 +69,7 @@ Jezus zei tegen hem: Ik ben de Weg, en de Waarheid, en het Leven. Niemand komt t
 En de zaligheid is in geen Ander; want er is ook onder de hemel geen andere Naam, die onder de mensen gegeven is, waardoor wij moeten zalig worden.
 ~ [Handelingen 4:12](https://andre-scholten.nl/bereastudiebijbel/handelingen/4#v12)
 
-#### B. HET LEVEN EN DE WERKEN VAN JEZUS CHRISTUS
+## Het leven en de werken van Jezus Christus 
 
 *a. Voordat Jezus Christus naar de aarde kwam was Hij in de hemel bij God de Vader*
 
@@ -167,3 +163,8 @@ En Jezus zei: Ik ben het. En u zult de Zoon des mensen zien zitten aan de rechte
 Ik roep u dus dringend op, voor het aangezicht van God en de Heere Jezus Christus, Die de levenden en doden zal oordelen bij Zijn verschijning en in Zijn Koninkrijk:
 ~ [2 Timotheüs 4:1](https://andre-scholten.nl/bereastudiebijbel/2-timotheus/4#v1)
 
+%%
+
+IV. JEZUS CHRISTUS (GOD DE ZOON)
+
+%%
