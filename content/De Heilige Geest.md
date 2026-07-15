@@ -1,0 +1,83 @@
+### VIII. DE HEILIGE GEEST (GOD DE HEILIGE GEEST)
+
+#### A. WIE IS DE HEILIGE GEEST
+
+**1. De Heilige Geest is God**
+
+*a. Hij is almachtig*
+
+En de engel antwoordde en zei tegen haar: De Heilige Geest zal over u komen, en de kracht van de Allerhoogste zal u overschaduwen; daarom zal ook dat Heilige Dat uit u geboren zal worden, Gods Zoon genoemd worden.
+~ [Lukas 1:35](https://andre-scholten.nl/bereastudiebijbel/lukas/1#v35)
+
+*b. Hij is alwetend*
+
+Maar God heeft het ons geopenbaard door Zijn Geest; want de Geest onderzoekt alle dingen, ook de diepten van God. Want wie van de mensen weet wat een mens is, dan de geest van de mens die in hem is? Zo weet ook niemand wat van God is, dan de Geest van God.
+~ [1 Korinthe 2:10-11](https://andre-scholten.nl/bereastudiebijbel/1-korinthe/2#v10)
+
+*c. Hij is eeuwig*
+
+hoeveel te meer zal het bloed van Christus, Die door de eeuwige Geest Zichzelf onberispelijk aan God geofferd heeft, uw geweten reinigen van dode werken, om de levende God te dienen?
+~ [Hebreeën 9:14](https://andre-scholten.nl/bereastudiebijbel/hebreeen/9#v14)
+
+*d. Hij is alomtegenwoordig*
+
+Waar zou ik heengaan voor Uw Geest, en waar zou ik heenvlieden voor Uw aangezicht? Als ik opvaar naar de hemel, U bent daar; of maak ik mijn bed in het rijk van de dood, zie, U bent daar. Nam ik vleugels van de dageraad, woonde ik aan het uiterste van de zee; ook daar zou Uw hand mij leiden, en Uw rechterhand zou mij vasthouden.
+~ [Psalm 139:7-10](https://andre-scholten.nl/bereastudiebijbel/psalmen/139#v7)
+
+**2. De Heilige Geest is een Persoon**
+
+*a. Hij heeft verstand*
+
+En Hij Die de harten doorzoekt, weet wat het verlangen van de Geest is, omdat Hij naar de wil van God voor de heiligen bidt.
+~ [Romeinen 8:27](https://andre-scholten.nl/bereastudiebijbel/romeinen/8#v27)
+
+*b. Hij heeft emoties*
+
+Maar zij zijn opstandig geworden, en zij hebben Zijn Heilige Geest smarten aangedaan; daarom is Hij hun in een vijand veranderd, Hij Zelf heeft tegen hen gestreden.
+~ [Jesaja 63:10](https://andre-scholten.nl/bereastudiebijbel/jesaja/63#v10)
+
+*c. Hij heeft een wil*
+
+Ik ben roemend onwijs geworden; u hebt mij genoodzaakt, want ik behoorde door u geprezen te worden; want ik ben in niets minder geweest dan de voortreffelijkste apostelen, hoewel ik niets ben.
+~ [2 Korinthe 12:11](https://andre-scholten.nl/bereastudiebijbel/2-korinthe/12#v11)
+
+*d. Hij kan communiceren*
+
+En de Geest zei tegen Filippus: Ga erheen, en voeg u bij deze wagen.
+~ [Handelingen 8:29](https://andre-scholten.nl/bereastudiebijbel/handelingen/8#v29)
+
+#### B. WAT DOET DE HEILIGE GEEST
+
+*a. De wereld overtuigen van zonde, van gerechtigheid en van oordeel*
+
+En als Hij gekomen is, zal Hij de wereld overtuigen van zonde, en van gerechtigheid, en van oordeel: Van zonde, omdat zij in Mij niet geloven; En van gerechtigheid, omdat Ik tot Mijn Vader heenga, en u Mij niet meer zult zien; En van oordeel, omdat de aanvoerder van deze wereld geoordeeld is.
+~ [Johannes 16:8-11](https://andre-scholten.nl/bereastudiebijbel/johannes/16#v8)
+
+*b. Hij heiligt christenen*
+
+opdat ik een dienaar van Jezus Christus zou zijn onder de heidenen, het Evangelie van God bedienend, opdat het offer van de heidenen aangenaam zou worden, geheiligd door de Heilige Geest.
+~ [Romeinen 15:16](https://andre-scholten.nl/bereastudiebijbel/romeinen/15#v16)
+
+*c. Hij schrijft de wetten op het hart van christenen*
+
+En Ik zal Mijn Geest geven in het binnenste van u; en Ik zal maken dat u in Mijn inzettingen zult wandelen, en Mijn rechten zult bewaren en doen.
+~ [Ezechiël 36:27](https://andre-scholten.nl/bereastudiebijbel/ezechiel/36#v27)
+
+*d. Hij leidt christenen*
+
+En toen Silas en Timotheüs uit Macedonië gekomen waren, werd Paulus door de Geest gedrongen en betuigde hij de Joden dat Jezus de Christus is.
+~ [Handelingen 18:5](https://andre-scholten.nl/bereastudiebijbel/handelingen/18#v5)
+
+*e. Hij onderwijst christenen*
+
+Maar de Trooster, de Heilige Geest, Die de Vader zal zenden in Mijn Naam, Die zal u alles leren, en zal u alles laten herinneren wat Ik u gezegd heb.
+~ [Johannes 14:26](https://andre-scholten.nl/bereastudiebijbel/johannes/14#v26)
+
+Maar wanneer Hij zal gekomen zijn, namelijk de Geest van de waarheid, zal Hij u in alle waarheid leiden; want Hij zal niet uit Zichzelf spreken, maar wat Hij zal gehoord hebben, zal Hij spreken, en de toekomende dingen zal Hij u verkondigen.
+~ [Johannes 16:13](https://andre-scholten.nl/bereastudiebijbel/johannes/16#v13)
+
+*f. Hij versterkt met kracht de innerlijke mens*
+
+opdat Hij u geeft, naar de rijkdom van Zijn heerlijkheid, met kracht versterkt te worden door Zijn Geest in de innerlijke mens;
+~ [Efeze 3:16](https://andre-scholten.nl/bereastudiebijbel/efeze/3#v16)
+
