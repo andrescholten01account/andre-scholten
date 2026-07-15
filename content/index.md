@@ -12,9 +12,7 @@ Persoonlijke blog
 
 %%
 
-Een opwekking in Nederland. Gezinnen die toegewijd zijn aan God. Jezus volgen in de kracht van de Geest.  
-
-![[Pasted image 20260715071609.png]]
+![[Pasted image 20260715071609.png|600]]
 
 > Our house ought te be a little church with holiness to the Lord over the door, ...
 > ~ John Ploughman's Talk (nog nakijken)
@@ -35,8 +33,8 @@ Midden:
 - Zoekfunctie
 
 Rechts:
-- Over
-- Contact
+- [[Over]]
+- [[Contact]]
 - Verantwoording1
 - [[Uitgangspunten]]
 

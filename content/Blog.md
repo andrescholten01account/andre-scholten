@@ -1,5 +1,3 @@
-[[Basis]]
-
 %%
 ## [[Geloofsbelijdenissen]]
 ## [[Gezin]]
