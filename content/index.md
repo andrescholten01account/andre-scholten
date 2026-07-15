@@ -12,7 +12,7 @@ Persoonlijke blog
 
 %%
 
-![[Pasted image 20260715071609.png|600]]
+![[Pasted image 20260715071609.png|450]]
 
 > Our house ought te be a little church with holiness to the Lord over the door, ...
 > ~ John Ploughman's Talk (nog nakijken)
