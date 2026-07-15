@@ -30,6 +30,19 @@ How to be a father after Gods own heart ➔ ook in nl
 john ploughman's talk
 jonn ploughman's pictures
 
+Thuis: warmte en liefde en heiligheid
+
+Husband should try to maken home happy and holy.
+~ John Ploughman's Talk (nog nakijken)
+
+Our house ought te be a little church with holiness tot the Lord over the door, ...
+~ John Ploughman's Talk (nog nakijken)
+
+---
+
+- Man / echtgenoot / vaderschap
+- On good nature and firmness (zie boeken John Ploughman)
+
 ---
 
 https://gracegems.org/family.htm
