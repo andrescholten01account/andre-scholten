@@ -1,6 +1,4 @@
-### VIII. DE HEILIGE GEEST (GOD DE HEILIGE GEEST)
-
-#### A. WIE IS DE HEILIGE GEEST
+## I. Wie is de Heilige Geest?
 
 **1. De Heilige Geest is God**
 
@@ -46,7 +44,7 @@ Ik ben roemend onwijs geworden; u hebt mij genoodzaakt, want ik behoorde door u 
 En de Geest zei tegen Filippus: Ga erheen, en voeg u bij deze wagen.
 ~ [Handelingen 8:29](https://andre-scholten.nl/bereastudiebijbel/handelingen/8#v29)
 
-#### B. WAT DOET DE HEILIGE GEEST
+## II. Wat doet de Heilige Geest? 
 
 *a. De wereld overtuigen van zonde, van gerechtigheid en van oordeel*
 
@@ -82,11 +80,11 @@ opdat Hij u geeft, naar de rijkdom van Zijn heerlijkheid, met kracht versterkt t
 ~ [Efeze 3:16](https://andre-scholten.nl/bereastudiebijbel/efeze/3#v16)
 
 ## Meer
-## Vrucht van de Geest
+### Vrucht van de Geest
 
 Maar de vrucht van de Geest is liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
 ~ [Galaten 5:22](https://andre-scholten.nl/bereastudiebijbel/galaten/5#v22) 
-## Kracht van de Geest
+### Kracht van de Geest
 
 En Jezus keerde terug, door de kracht van de Geest, naar Galilea; en het gerucht over Hem verspreidde zich door het hele omliggende land.
 ~ [Lukas 4:14](https://andre-scholten.nl/bereastudiebijbel/lukas/4#v14) 
@@ -103,8 +101,7 @@ maar u zult de kracht van de Heilige Geest ontvangen, Die over u komen zal; en u
 %%
 [Meer teksten over de kracht van de Geest](https://www.google.com/search?client=firefox-b-d&q=Bijbeltekst%3A+Jezus+kwam+in+kracht+terug+uit+de+woestijn&udm=50&aep=10&ntc=1&mstk=AUtExfDyr9hvOV_uU4P5dyH7QccqoH79uPn68X11q-Y3spCdh7j7cspudSHmMA4buTsOcOpwYfm4q9y40aoPqrOrf742biCRt3xYaTocBBBwUGgX4Zswd7NtEroIhDdD1jY7b5iCZdmebx0eC8vT7x-rOw0irXazFxPHMheGXGFfFaSjYe96zHbvf2OIRWqX8_i4zvPoKRQmolMcKaExGOTJLVrHamWJ-i4Lm4s-rPutiM7OnD73n4qET1-60w&aioh=3&csuir=1&mtid=d21Gap-2CZyD9u8P1-PhmAw)
 %%
-
-## Vol van de Heilige Geest
+### Vol van de Heilige Geest
 
 En Jezus, vol van de Heilige Geest, keerde terug van de Jordaan, en werd door de Geest geleid in de woestijn;
 ~ [Lukas 4:1](https://andre-scholten.nl/bereastudiebijbel/lukas/4#v1) 
@@ -117,12 +114,12 @@ Want hij zal groot zijn voor de Heere; hij zal geen wijn en geen sterke drank dr
 %%
 [[Vol van de Heilige Geest - aantekening]]
 %%
-## Leiding van de Heilige Geest
+### Leiding van de Heilige Geest
 
 En Jezus, vol van de Heilige Geest, keerde terug van de Jordaan, en werd door de Geest geleid in de woestijn;
 ~ [Lukas 4:1](https://andre-scholten.nl/bereastudiebijbel/lukas/4#v1) 
  
-## Andere onderwerpen
+### Andere onderwerpen
 
 Blijdschap van de Geest
 Liefde van de Geest uitgestort in onze harten
@@ -164,3 +161,7 @@ De Heilige Geest in Handelingen
 Elke Bijbeltekst over de Heilige Geest
 ➔ Per Bijbelboek
 
+%%
+### VIII. DE HEILIGE GEEST (GOD DE HEILIGE GEEST)
+
+%%

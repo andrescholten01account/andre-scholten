@@ -1,9 +1,16 @@
 Hier schrijf ik over onderwerpen die mij bezig houden. 
 
 ## [[Geloofsbelijdenissen]]
+
+Wat geloven christenen door de eeuwen heen? Lees het in geloofsbelijdenissen. 
+
 ## [[Gezin]]
 
+Hoe leef je als gezin zoals God het wil? 
+
 ## [[Geschiedenis]]
+
+De geschiedenis van de wereld, zoals het staat in Genesis 1 t/m 11, en de vaderlandse geschiedenis. 
 
 %%
 

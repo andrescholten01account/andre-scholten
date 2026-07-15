@@ -1,8 +1,4 @@
-
-
-### BIJLAGE B: BIDDEN
-
-#### A. WAARVOOR MAG JE BIDDEN
+## I. Waarvoor mag je bidden?
 
 *a. Je mag al je verlangens, door bidden en smeken, met dankzegging bekend maken bij God*
 
@@ -19,7 +15,7 @@ Werp al uw bekommernis op Hem, want Hij zorgt voor u.
 En als iemand van u wijsheid ontbreekt, laat hij die van God vragen, Die ieder mild geeft en niet verwijt; en ze zal hem gegeven worden.
 ~ [Jakobus 1:5](https://andre-scholten.nl/bereastudiebijbel/jakobus/1#v5)
 
-#### B. HOE HOOR JE TE BIDDEN
+## II. Hoe hoor je te bidden? 
 
 *a. Met volharding*
 
