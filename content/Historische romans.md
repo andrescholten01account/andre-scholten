@@ -6,7 +6,7 @@ Piet Prins
 Rien Poortvliet
 ➔ deze schrijvers over de 80-jarige oorlog 
 
-Jan koerveld
+Henk Koesveld 
 
 %%
 %%

@@ -10,7 +10,7 @@ De geschiedenis van de wereld, zoals het staat in Genesis 1 t/m 11, en de vaderl
 ➔ [[Overgang tussen Genesis en Vaderlandse geschiedenis]]
 ➔ [[Vaderlandse geschiedenis]]
 ➔ Zie claude/google/chatgpt
-➔ S[[Stamboom Scholten]] 
+➔ [[Stamboom Scholten]] 
 
 ## De Oude Wereld
 
