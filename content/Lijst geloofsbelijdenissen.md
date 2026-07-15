@@ -37,6 +37,7 @@ https://cgk.nl/en/decisions-and-regulations/confessional-writings/
 https://apostles-creed.org/documents-creeds-catechisms-confessions/
 https://www.apuritansmind.com/creeds-and-confessions/
 https://thewestminsterstandard.org/library/
+https://reformed.org/historic-confessions/
 
 %%
 
