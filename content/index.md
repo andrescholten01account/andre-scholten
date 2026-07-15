@@ -24,7 +24,6 @@ Komt nog.
 ## Footer
 
 Links:
-- [[Blog]]
 - [[Basis|Basis christelijk geloof]]
 - [[De Volle Pinksterzegen]]
 - BereaStudieBijbel
@@ -42,7 +41,6 @@ Rechts:
 ## Meer
 
 - Blogupdate kan later onder Midden. 
-- [[BereaBijbel]] ➔ link vanuit BereaStudieBijbel
 - [To do andre-scholten.nl](https://docs.google.com/document/d/1jtzucFNI_9Exy_BSg7btDH-yfkHD7HdMJq-uZg6YcHY/edit?tab=t.0)
 
 https://books.google.nl/books/about/Divine_and_Moral_Songs_for_Children.html?id=4UdcjfX2b3QC&redir_esc=y
