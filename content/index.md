@@ -25,6 +25,15 @@ Persoonlijke blog
 
 </div>
 
+
+<div style="display: flex; justify-content: center;">
+<div style="max-width: fit-content;">
+
+> Husbands should try to make home happy and holy.
+> ~ John Ploughman (Charles Spurgeon)
+
+</div>
+</div>
 ## Blog
 
 Komt nog. 
