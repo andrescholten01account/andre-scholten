@@ -30,6 +30,8 @@ How to be a father after Gods own heart ➔ ook in nl
 john ploughman's talk
 jonn ploughman's pictures
 
+https://www.biblebb.com/ ➔ zie homepage, naar onder: The Christian Family Collection 
+
 Thuis: warmte en liefde en heiligheid
 
 Husband should try to maken home happy and holy.

@@ -392,7 +392,7 @@ Hoe ontvangt iemand dit eeuwige leven?
 19 De werken van het vlees nu zijn openbaar; dat zijn: overspel, hoererij, onreinheid, losbandigheid, 20 Afgoderij, toverij, vijandschappen, ruzies, jaloersheden, toorn, twisten, verdeeldheid, afwijkingen in de leer, 21 Afgunst, moord, dronkenschappen, uitspattingen, en dergelijke; waarvan ik u van tevoren zeg, zoals ik ook eerder gezegd heb, dat wie zulke dingen doen, het Koninkrijk van God niet zullen beërven.
 
 [1 Korinthe 6:10](https://andre-scholten.nl/bereastudiebijbel/1-korinthe/6#v10)
-10 Vergis u niet; hoereerders, afgodendienaars, overspelers, ontuchtigen, mannen die bij mannen liggen, dieven, hebzuchtigen, dronkaards, geen lasteraars, geen rovers, zullen het Koninkrijk van God niet beërven.
+10 Vergis u niet; hoereerders, afgodendienaars, overspelers, ontuchtigen, mannen die bij mannen liggen, dieven, hebzuchtigen, dronkaards, geen lasteraars, geen rovers, zullen het Koninkrijk van God beërven.
 
 [Efeze 5:5](https://andre-scholten.nl/bereastudiebijbel/efeze/5#v5)
 5 Want dit weet u, dat geen hoereerder, of onreine, of hebzuchtige, die een afgodendienaar is, erfenis heeft in het Koninkrijk van Christus en van God.
