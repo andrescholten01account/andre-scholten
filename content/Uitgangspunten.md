@@ -80,6 +80,28 @@ Als iemand heeft geleefd zoals God dat wil, zal hij daarvoor beloond worden [1].
 [1] [Mattheüs 25:31-40](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v31) 
 [2] [Mattheüs 25:41-46](https://andre-scholten.nl/bereastudiebijbel/mattheus/25#v41) 
 
+-----------------------
+
+zet hier neer
+
+
+---------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 %%
 
 [[Boekje - De basis van het christelijk geloof]]
