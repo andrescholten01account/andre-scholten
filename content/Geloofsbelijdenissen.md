@@ -46,6 +46,10 @@ Bijbelteksten over de basis:
 
 ...
 
+https://www.reformedreader.org/ccc/hbd.htm
+
+...
+
 https://freegracepress.com/collections/best-sellers/products/basic-christian-doctrines
 
 ...
