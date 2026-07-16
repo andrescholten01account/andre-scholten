@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Nave's Topical Bible — Y — BereaStudieBijbel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+:root {
+  --light:#faf6ee; --lightgray:#e6dcc8; --gray:#c9b896; --darkgray:#4a3829; --dark:#3a2a1d;
+  --secondary:#8b5e34; --tertiary:#a87c4f;
+  --bodyFont:"Lora", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --accent:var(--secondary); --accent-donker:var(--dark); --bg:var(--light);
+  --bg-soft:#f2ead8; --border:var(--lightgray); --tekst:var(--darkgray);
+}
+* { box-sizing:border-box; }
+body { font-family:var(--bodyFont); background:var(--bg); color:var(--tekst); margin:0; line-height:1.7; }
+.omslag { max-width:900px; margin:0 auto; padding:1.2rem 1rem 4rem; }
+.site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; line-height:normal; }
+@media (min-width:801px) { .site-header { margin-top:4.8rem; } }
+.page-title { font-size:1.75rem; font-family:"Lora"; text-align:center; margin:0 0 .4rem; font-weight:700; }
+.page-title a { color:var(--secondary); text-decoration:none; background-color:transparent !important; }
+.page-title a:hover { color:var(--tertiary); }
+.site-subtitle { font-family:"Lora"; color:var(--secondary); letter-spacing:.04em; margin:0 0 1rem; font-size:1.05em; font-style:italic; line-height:1.6rem; }
+.site-nav { font-family:"Lora"; letter-spacing:.18em; text-transform:uppercase; border-top:1px solid var(--lightgray); border-bottom:1px solid var(--lightgray); margin:.8rem 0 2rem; padding:1rem 0; font-size:.82em; text-align:center; }
+.site-nav a { font-weight:500; color:var(--secondary); text-decoration:none; background:transparent !important; }
+.site-nav a:hover { color:var(--tertiary); text-decoration:underline; }
+.nav-sep { color:var(--gray); }
+.kruimel { font-family:sans-serif; font-size:.78rem; color:#999; margin:1rem 0 .2rem; }
+.kruimel a { color:var(--accent); text-decoration:none; }
+h2.titel { text-align:center; font-size:1.7rem; margin:.6rem 0 .2rem; }
+.ondertitel { text-align:center; color:#8b7355; font-style:italic; font-size:.95rem; margin-bottom:1.4rem; }
+.testament { font-family:sans-serif; font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-donker); border-bottom:1px solid var(--border); padding-bottom:.3rem; margin:1.6rem 0 .8rem; }
+.boekgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(155px,1fr)); gap:.4rem; }
+.boeklink { display:flex; justify-content:space-between; align-items:baseline; gap:.4rem; text-decoration:none; color:var(--tekst); border:1px solid var(--border); border-radius:8px; padding:.5rem .7rem; background:#fff; }
+.boeklink:hover { border-color:var(--accent); background:var(--bg-soft); }
+.boeklink .bn { color:var(--accent-donker); }
+.boeklink .hn { font-family:sans-serif; font-size:.72rem; color:#b3a184; }
+.hfdgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(48px,1fr)); gap:.4rem; margin-top:1rem; }
+.hfdlink { display:flex; align-items:center; justify-content:center; text-decoration:none; color:var(--accent-donker); border:1px solid var(--border); border-radius:8px; padding:.55rem 0; background:#fff; font-family:sans-serif; }
+.hfdlink:hover { border-color:var(--accent); background:var(--accent); color:#fff; }
+.site-footer { font-family:"Lora"; display:grid; grid-template-columns: 1fr 1fr 1fr; gap:1.5rem; max-width:700px; margin:3rem auto 0; padding:2rem 1.5rem 0; border-top:1px solid var(--lightgray); font-size:.85em; }
+.site-footer-col { display:flex; flex-direction:column; gap:.5rem; }
+.site-footer-mid { text-align:center; }
+.site-footer-right { text-align:right; }
+.site-footer a { color:var(--secondary); text-decoration:underline; }
+.site-footer .footer-plain { color:var(--gray); }
+@media (max-width:640px) { .site-footer { grid-template-columns:1fr; text-align:center; } .site-footer-right { text-align:center; } }
+footer.site { margin-top:2.5rem; border-top:1px solid var(--border); padding-top:1rem; text-align:center; font-family:sans-serif; font-size:.72rem; color:#999; line-height:1.7; }
+
+.letterbalk { display:flex; flex-wrap:wrap; gap:.35rem; justify-content:center; margin:1.2rem 0 1.5rem; }
+.letter { display:inline-flex; align-items:center; justify-content:center; min-width:2.1rem; padding:.4rem .2rem; border:1px solid var(--border); border-radius:8px; text-decoration:none; color:var(--accent-donker); background:#fff; font-family:sans-serif; font-weight:600; }
+.letter:hover { border-color:var(--accent); background:var(--accent); color:#fff; }
+.letter.leeg { color:#ccc; pointer-events:none; }
+.topic { margin:1.1rem 0; padding-bottom:.8rem; border-bottom:1px solid var(--bg-soft); }
+.topic-naam { font-family:"Lora"; font-size:1.15rem; color:var(--accent-donker); font-weight:700; margin:0 0 .3rem; }
+.subtopic { margin:.35rem 0 .35rem .2rem; }
+.sub-naam { font-style:italic; color:#6b5844; margin-right:.4rem; }
+.reflink { display:inline-block; text-decoration:none; color:var(--accent); border-bottom:1px dotted var(--accent); margin:0 .35rem .15rem 0; font-size:.92em; white-space:nowrap; }
+.reflink:hover { color:var(--accent-donker); background:var(--bg-soft); }
+.reg-intro { text-align:center; color:#6b5844; font-style:italic; margin-bottom:.4rem; }
+.terug { font-family:sans-serif; font-size:.8rem; }
+</style></head><body><div class="omslag">
+<div class="site-header"><h2 class="page-title"><a href="/">André Scholten</a></h2>
+<p class="site-subtitle">Persoonlijke blog</p>
+<nav class="site-nav"><a href="/blog">Blog</a><span class="nav-sep"> | </span><a href="/basis">Basis</a><span class="nav-sep"> | </span><a href="/de-volle-pinksterzegen">Boek</a><span class="nav-sep"> | </span><a href="/bereastudiebijbel/genesis/1/">Bijbel</a></nav></div>
+<div class="kruimel"><a href="../../genesis/1/">BereaStudieBijbel</a> › <a href="../">Nave's Topical Bible</a> › Y</div><h2 class="titel">Nave's Topical Bible — Y</h2><div class="letterbalk"><a class="letter" href="../a/">A</a><a class="letter" href="../b/">B</a><a class="letter" href="../c/">C</a><a class="letter" href="../d/">D</a><a class="letter" href="../e/">E</a><a class="letter" href="../f/">F</a><a class="letter" href="../g/">G</a><a class="letter" href="../h/">H</a><a class="letter" href="../i/">I</a><a class="letter" href="../j/">J</a><a class="letter" href="../k/">K</a><a class="letter" href="../l/">L</a><a class="letter" href="../m/">M</a><a class="letter" href="../n/">N</a><a class="letter" href="../o/">O</a><a class="letter" href="../p/">P</a><a class="letter" href="../q/">Q</a><a class="letter" href="../r/">R</a><a class="letter" href="../s/">S</a><a class="letter" href="../t/">T</a><a class="letter" href="../u/">U</a><a class="letter" href="../v/">V</a><a class="letter" href="../w/">W</a><span class="letter leeg">X</span><a class="letter actief" href="../y/">Y</a><a class="letter" href="../z/">Z</a></div><div class="topic"><div class="topic-naam">Yarn</div><div class="subtopic"><span class="sub-naam">General scriptures concerning</span><a class="reflink" href="../../1-koningen/10/#v28">1 Kon 10:28</a><a class="reflink" href="../../2-kronieken/1/#v16">2 Kron 1:16</a></div></div><div class="topic"><div class="topic-naam">Year</div><div class="subtopic"><span class="sub-naam">General scriptures concerning</span><a class="reflink" href="../../genesis/1/#v14">Gen 1:14</a></div><div class="subtopic"><span class="sub-naam">Divided into months</span><a class="reflink" href="../../exodus/12/#v2">Ex 12:2</a><a class="reflink" href="../../numeri/10/#v10">Num 10:10</a><a class="reflink" href="../../numeri/28/#v11">Num 28:11</a></div><div class="subtopic"><span class="sub-naam">Annual feasts</span><a class="reflink" href="../../leviticus/25/#v5">Lev 25:5</a></div><div class="subtopic"><span class="sub-naam">Redemption of houses sold, limited to one</span><a class="reflink" href="../../leviticus/25/#v29">Lev 25:29</a><a class="reflink" href="../../leviticus/25/#v30">Lev 25:30</a></div><div class="subtopic"><span class="sub-naam">Land to rest for one, in seven</span><a class="reflink" href="../../leviticus/25/#v5">Lev 25:5</a></div><div class="subtopic"><span class="sub-naam">Of release</span><a class="reflink" href="../../deuteronomium/15/#v9">Deut 15:9</a></div><div class="subtopic"><span class="sub-naam">Age computed by Of Abraham</span><a class="reflink" href="../../genesis/25/#v7">Gen 25:7</a><a class="reflink" href="../../genesis/47/#v9">Gen 47:9</a></div><div class="subtopic"><span class="sub-naam">A thousand, with the Lord is like one day</span><a class="reflink" href="../../psalmen/90/#v4">Ps 90:4</a><a class="reflink" href="../../2-petrus/3/#v8">2 Petr 3:8</a></div><div class="subtopic"><span class="sub-naam">Satan to be bound for a thousand</span><a class="reflink" href="../../openbaring/20/#v2">Openb 20:2-4</a><a class="reflink" href="../../openbaring/20/#v7">Openb 20:7</a></div></div><div class="topic"><div class="topic-naam">Yoke</div><div class="subtopic"><span class="sub-naam">FIGURATIVE</span><a class="reflink" href="../../leviticus/26/#v13">Lev 26:13</a><a class="reflink" href="../../jesaja/9/#v3">Jes 9:4 (3)</a><a class="reflink" href="../../jesaja/10/#v27">Jes 10:27</a><a class="reflink" href="../../jeremia/2/#v20">Jer 2:20</a><a class="reflink" href="../../jeremia/5/#v5">Jer 5:5</a><a class="reflink" href="../../jeremia/28/#v2">Jer 28:2</a><a class="reflink" href="../../jeremia/28/#v4">Jer 28:4</a><a class="reflink" href="../../jeremia/28/#v10">Jer 28:10</a><a class="reflink" href="../../jeremia/30/#v8">Jer 30:8</a><a class="reflink" href="../../klaagliederen/1/#v14">Klaagl 1:14</a><a class="reflink" href="../../klaagliederen/3/#v27">Klaagl 3:27</a><a class="reflink" href="../../mattheus/11/#v29">Matt 11:29</a><a class="reflink" href="../../mattheus/11/#v30">Matt 11:30</a><a class="reflink" href="../../handelingen/15/#v10">Hand 15:10</a></div></div><div class="topic"><div class="topic-naam">Young Men</div><div class="subtopic"><span class="sub-naam">General scriptures concerning</span><a class="reflink" href="../../exodus/24/#v3">Ex 24:3-5</a><a class="reflink" href="../../1-koningen/12/#v6">1 Kon 12:6-15</a><a class="reflink" href="../../2-kronieken/10/#v8">2 Kron 10:8</a><a class="reflink" href="../../psalmen/119/#v9">Ps 119:9</a><a class="reflink" href="../../psalmen/148/#v12">Ps 148:12</a><a class="reflink" href="../../psalmen/148/#v13">Ps 148:13</a><a class="reflink" href="../../spreuken/1/#v1">Spr 1:1-33</a><a class="reflink" href="../../spreuken/2/#v1">Spr 2:1-22</a><a class="reflink" href="../../spreuken/3/#v1">Spr 3:1-35</a><a class="reflink" href="../../spreuken/4/#v1">Spr 4:1-27</a><a class="reflink" href="../../spreuken/5/#v1">Spr 5:1-23</a><a class="reflink" href="../../spreuken/6/#v1">Spr 6:1-35</a><a class="reflink" href="../../spreuken/7/#v1">Spr 7:1-27</a><a class="reflink" href="../../spreuken/10/#v1">Spr 10:1</a><a class="reflink" href="../../spreuken/13/#v1">Spr 13:1</a><a class="reflink" href="../../spreuken/15/#v5">Spr 15:5</a><a class="reflink" href="../../spreuken/15/#v20">Spr 15:20</a><a class="reflink" href="../../spreuken/17/#v2">Spr 17:2</a><a class="reflink" href="../../spreuken/17/#v25">Spr 17:25</a><a class="reflink" href="../../spreuken/19/#v13">Spr 19:13</a><a class="reflink" href="../../spreuken/19/#v26">Spr 19:26</a><a class="reflink" href="../../spreuken/19/#v27">Spr 19:27</a><a class="reflink" href="../../spreuken/20/#v29">Spr 20:29</a><a class="reflink" href="../../spreuken/23/#v15">Spr 23:15-35</a><a class="reflink" href="../../spreuken/24/#v1">Spr 24:1-34</a><a class="reflink" href="../../spreuken/27/#v11">Spr 27:11</a><a class="reflink" href="../../spreuken/28/#v7">Spr 28:7</a><a class="reflink" href="../../spreuken/29/#v3">Spr 29:3</a><a class="reflink" href="../../spreuken/31/#v1">Spr 31:1-3</a><a class="reflink" href="../../jeremia/22/#v18">Jer 22:18-21</a><a class="reflink" href="../../mattheus/19/#v16">Matt 19:16-22</a><a class="reflink" href="../../markus/10/#v17">Mark 10:17-22</a><a class="reflink" href="../../lukas/15/#v11">Luk 15:11-32</a><a class="reflink" href="../../lukas/18/#v18">Luk 18:18-23</a><a class="reflink" href="../../1-timotheus/4/#v12">1 Tim 4:12</a><a class="reflink" href="../../2-timotheus/2/#v22">2 Tim 2:22</a><a class="reflink" href="../../2-timotheus/2/#v23">2 Tim 2:23</a><a class="reflink" href="../../titus/2/#v6">Tit 2:6</a><a class="reflink" href="../../hebreeen/11/#v24">Hebr 11:24-26</a><a class="reflink" href="../../1-johannes/2/#v13">1 Joh 2:13-17</a></div><div class="subtopic"><span class="sub-naam">INSTANCES OF RELIGIOUS YOUNG MEN See</span><a class="reflink" href="../../mattheus/19/#v16">Matt 19:16-22</a><a class="reflink" href="../../markus/10/#v17">Mark 10:17-22</a><a class="reflink" href="../../lukas/18/#v18">Luk 18:18-23</a></div></div>
+<footer class="site">BereaStudieBijbel &middot; Nave's Topical Bible &amp; Torrey's New Topical Textbook — publiek domein (CrossWire)</footer>
+</div></body></html>
