@@ -17,3 +17,7 @@ I am reminded of the quote from Hodge:
 - toepassen
 - doorgeven
 
+---
+
+https://www.refoweb.nl/vragenrubriek/29033/omgaan-met-schriftgezag/
+
