@@ -24,3 +24,7 @@ Outline per Bijbelboek (zie TSK-indeling op internet, of outlines BereaBible ➔
 - Zie online boeken Amazon.nl over: Bible lists
 - Zie ook Nederlandse boeken (publiek domein?)
 
+## Bijbelcursussen
+
+- https://study.bible/courseList
+
