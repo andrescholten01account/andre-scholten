@@ -61,10 +61,27 @@ ul.item-subs { list-style: circle; margin-top:.2rem; }
 .reflink:hover { color:var(--accent-donker); background:var(--bg-soft); }
 .reg-intro { text-align:center; color:#6b5844; font-style:italic; margin-bottom:.4rem; }
 .terug { font-family:sans-serif; font-size:.8rem; }
+@keyframes flits { 0%,50% { background:#f0e2bd; } 100% { background:transparent; } }
+.reflink.flits { animation: flits 2.2s ease-out; border-radius: 4px; }
 </style></head><body><div class="omslag">
 <div class="site-header"><h2 class="page-title"><a href="/">André Scholten</a></h2>
 <p class="site-subtitle">Persoonlijke blog</p>
 <nav class="site-nav"><a href="/blog">Blog</a><span class="nav-sep"> | </span><a href="/basis">Basis</a><span class="nav-sep"> | </span><a href="/de-volle-pinksterzegen">Boek</a><span class="nav-sep"> | </span><a href="/bereastudiebijbel/genesis/1/">Bijbel</a></nav></div>
-<div class="kruimel"><a href="../genesis/1/">BereaStudieBijbel</a> › Nave's Topical Bible</div><h2 class="titel">Nave's Topical Bible</h2><div class="reg-intro">Kies een letter om de onderwerpen te bekijken</div><div class="letterbalk"><a class="letter" href="./a/">A</a><a class="letter" href="./b/">B</a><a class="letter" href="./c/">C</a><a class="letter" href="./d/">D</a><a class="letter" href="./e/">E</a><a class="letter" href="./f/">F</a><a class="letter" href="./g/">G</a><a class="letter" href="./h/">H</a><a class="letter" href="./i/">I</a><a class="letter" href="./j/">J</a><a class="letter" href="./k/">K</a><a class="letter" href="./l/">L</a><a class="letter" href="./m/">M</a><a class="letter" href="./n/">N</a><a class="letter" href="./o/">O</a><a class="letter" href="./p/">P</a><a class="letter" href="./q/">Q</a><a class="letter" href="./r/">R</a><a class="letter" href="./s/">S</a><a class="letter" href="./t/">T</a><a class="letter" href="./u/">U</a><a class="letter" href="./v/">V</a><a class="letter" href="./w/">W</a><span class="letter leeg">X</span><a class="letter" href="./y/">Y</a><a class="letter" href="./z/">Z</a></div>
+<h2 class="titel">Nave's Topical Bible</h2><div class="reg-intro">Kies een letter om de onderwerpen te bekijken</div><div class="letterbalk"><a class="letter" href="./a/">A</a><a class="letter" href="./b/">B</a><a class="letter" href="./c/">C</a><a class="letter" href="./d/">D</a><a class="letter" href="./e/">E</a><a class="letter" href="./f/">F</a><a class="letter" href="./g/">G</a><a class="letter" href="./h/">H</a><a class="letter" href="./i/">I</a><a class="letter" href="./j/">J</a><a class="letter" href="./k/">K</a><a class="letter" href="./l/">L</a><a class="letter" href="./m/">M</a><a class="letter" href="./n/">N</a><a class="letter" href="./o/">O</a><a class="letter" href="./p/">P</a><a class="letter" href="./q/">Q</a><a class="letter" href="./r/">R</a><a class="letter" href="./s/">S</a><a class="letter" href="./t/">T</a><a class="letter" href="./u/">U</a><a class="letter" href="./v/">V</a><a class="letter" href="./w/">W</a><span class="letter leeg">X</span><a class="letter" href="./y/">Y</a><a class="letter" href="./z/">Z</a></div>
 <footer class="site">BereaStudieBijbel</footer>
-</div></body></html>
+</div>
+<script>
+(function(){
+  var m = location.search.match(/[?&]hl=([^&]+)/);
+  if (!m) return;
+  var sv = decodeURIComponent(m[1]);
+  var el;
+  try { el = document.querySelector('a.reflink[data-sv="'+CSS.escape(sv)+'"]'); } catch(e) {}
+  if (el) {
+    el.scrollIntoView({block:'center'});
+    el.classList.add('flits');
+    setTimeout(function(){ el.classList.remove('flits'); }, 2200);
+  }
+})();
+</script>
+</body></html>
