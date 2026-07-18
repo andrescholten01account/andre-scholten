@@ -23,8 +23,25 @@ h6 a {
   font-weight: bold !important;
 }
 
+// Sierlijk scheidingsteken i.p.v. een gewone lijn bij ---
 hr {
-  display: none !important;
+  overflow: visible;
+  text-align: center;
+  height: 1px;
+  border: 0;
+  background-color: var(--lightgray);
+  margin: 2.5rem auto;
+}
+
+hr::after {
+  content: "❦";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  padding: 0 0.8em;
+  background-color: var(--light);
+  color: var(--secondary);
+  font-size: 1.2rem;
 }
 
 
