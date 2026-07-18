@@ -2,32 +2,10 @@ Hoe leef je als gezin zoals God het wil?
 
 %%
 
-Pagina met een aantal rijm- en gebedenboekjes voor kinderen
+Thuis: warmte en liefde en heiligheid
 
-## Bibliotheek
-
-ABC for children
-1689 intro
-New England Primer
-Intro Jerome Beddome ➔ ik weet zo niet welke versie
-[[Divine and Moral Songs for Children]]
-[[Divine and Moral Songs for Children - Preface]]
-
-ABC van het geloof
-you can bend the sapling, but not the tree
-nave + TTT ➔ children, parents, fathers
-chapel library ➔ tijdschrift ➔ parents, children, husband, wife
-[gracegems ➔ family](https://gracegems.org/family.htm)
-boeken public domain engels
-➔ ryle
-➔ andrew murray
-➔ matthew henry 
-➔ spurgeon
-christelijke kinderrijmpjes van vroeger
-➔ ik ga slapen, ik ben moe ➔ hele lied
-christelijke gebeden voor kinderen
-➔ zie boek: elke dag kinderdag: verjaardag
-How to be a father after Gods own heart ➔ ook in nl
+Our house ought te be a little church with holiness tot the Lord over the door, ...
+~ John Ploughman's Talk (nog nakijken)
 
 john ploughman's talk
 jonn ploughman's pictures
@@ -36,23 +14,68 @@ https://www.biblebb.com/ ➔ zie homepage, naar onder: The Christian Family Coll
 https://www.graceonlinelibrary.org/family-worship
 https://reformed.org/christian-family/
 
-Thuis: warmte en liefde en heiligheid
+## Geloofsopvoeding
+
+ABC for children
+1689 intro
+New England Primer
+Intro Jerome Beddome ➔ ik weet zo niet welke versie
+[[Divine and Moral Songs for Children]]
+[[Divine and Moral Songs for Children - Preface]]
+you can bend the sapling, but not the tree
+nave + TTT ➔ children, parents, fathers
+chapel library ➔ grace broadcaster ➔ parents, children, husband, wife
+[gracegems ➔ family](https://gracegems.org/family.htm)
+boeken public domain engels
+➔ ryle
+➔ andrew murray
+➔ matthew henry 
+➔ spurgeon
+
+christelijke kinderrijmpjes van vroeger
+
+➔ ik ga slapen, ik ben moe ➔ hele lied
+christelijke gebeden voor kinderen
+➔ zie boek: elke dag kinderdag: verjaardag
+How to be a father after Gods own heart ➔ ook in nl
 
 https://www.romans45.org/spurgeon/misc/plowman.htm#Chapter%2013
 
-Husband should try to maken home happy and holy.
-~ John Ploughman's Talk (nog nakijken)
 
-Our house ought te be a little church with holiness tot the Lord over the door, ...
-~ John Ploughman's Talk (nog nakijken)
-
----
 
 https://www.reformedreader.org/
 
 _"I am persuaded that the use of a good Catechism in all our families will be a great safeguard against the increasing errors of the times..."_
-
 ~ C. H. Spurgeon
+
+## Man
+
+Husband should try to maken home happy and holy.
+~ John Ploughman's Talk (nog nakijken)
+
+- Man / echtgenoot / vaderschap
+- On good nature and firmness (zie boeken John Ploughman)
+
+## Vrouw
+
+## Kinderen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 
 ---
 
@@ -63,8 +86,7 @@ https://www.reformedreader.org/wcat.htm
 
 ---
 
-- Man / echtgenoot / vaderschap
-- On good nature and firmness (zie boeken John Ploughman)
+
 
 ---
 ## [[Schrijven voor kinderen]]
@@ -85,6 +107,8 @@ Het Guldenboekje; Eenige bijzonderheden uit den Bijbel en uit de Leer en de Gebr
 ➔ online zoeken bij gereformeerde online boeken
 
 Naam & Feit
+
+Pagina met een aantal rijm- en gebedenboekjes voor kinderen
 
 [[Kleine gedigten voor kinderen]]
 [[Proeve van kleine gedigten voor kinderen - Hiëronymus van Alphen]]
