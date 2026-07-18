@@ -1,13 +1,11 @@
 > En vaders, wek geen toorn bij uw kinderen op, maar voed hen op in de onderwijzing en de terechtwijzing van de Heere.
 > ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) 
 
-
 <div align="center">
 
 ![[Pasted image 20260715071609.png|450]]
 
 </div>
-
 
 ![[Pasted image 20260715071609.png|450]]
 
