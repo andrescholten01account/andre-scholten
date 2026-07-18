@@ -11,9 +11,6 @@ Persoonlijke blog
 [[Blog]] | [[Basis]] | [[Boek]] | [Bijbel](/studiebijbel/) 
 
 %%
-
-## Home
-
 <div align="center">
 
 ![[Pasted image 20260715071609.png|450]]
