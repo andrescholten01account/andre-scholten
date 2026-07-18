@@ -8,7 +8,7 @@ andre-scholten.nl
 
 Persoonlijke blog 
 
-[[Blog]] | [[Basis]] | [[De Volle Pinksterzegen|Boek]] | [Bijbel](/studiebijbel/) 
+[[Blog]] | [[Basis]] | [[Boek]] | [Bijbel](/studiebijbel/) 
 
 %%
 
@@ -43,8 +43,9 @@ lijn staat hierboven
 ## Footer
 
 Links:
+- [[Blog]]
 - [[Basis|Basis christelijk geloof]]
-- [[De Volle Pinksterzegen]]
+- [[Boek]]
 - StudieBijbel
 
 Midden:
