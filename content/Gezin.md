@@ -246,7 +246,7 @@ huwelijk
 gezin
 
 werk/vrijwilligerswerk
-thuis (klussen, auto)
+[[Thuis]]
 
 familie
 vrienden
