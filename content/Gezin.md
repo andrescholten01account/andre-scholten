@@ -2,6 +2,10 @@ Hoe leef je als gezin zoals God het wil?
 
 %%
 
+Basis:
+- Van God houden
+- Van naaste houden
+
 Thuis: warmte en liefde en heiligheid
 
 Our house ought te be a little church with holiness tot the Lord over the door, ...
@@ -57,7 +61,64 @@ Het Guldenboekje; Eenige bijzonderheden uit den Bijbel en uit de Leer en de Gebr
 
 Naam & Feit
 
+"People don't care how much you know, until they know how much you care."
+~ Abraham Lincoln (?)
+
+
+https://www.apuritansmind.com/the-christian-walk/the-christian-family/
+
+...
+
+https://vormingvoorelkedag.nl/onderwerp/opvoeding/
+
+...
+
+Bijbelsberaad m/v: geloofsbelijdenissen over huwelijk en gezin
+https://www.bijbelsberaadmv.nl/kerkelijke-documenten/
+
+...
+
+https://freegracepress.com/collections/best-sellers/products/the-gospel-made-clear-to-children
+
+catechisms for children
+catechismussen voor kinderen
+
+### Kinderrijmpjes
+
+
+Catechismus voor kinderen:
+- Geschenk voor de jeugd - eerste stukje (1788) - Johannes Florentius Martinet, ‎Ahazuerus van den Berg
+https://www.google.nl/books/edition/Geschenk_voor_de_jeugd/PqC1WsxB01AC?hl=en&gbpv=1&dq=Gedichten+voor+de+jeugd+%E2%80%93+Johannes+Florentius+Martinet&pg=PP9&printsec=frontcover
+
+Spieghel der jonghers - Lambertus Goetman (1488)
+
+Den uutersten wille - Lowys Porquin (1563)
+
+Groot ABC-boek of hanenboek
+‘O! kinders van den wakk'ren haan/ Leer vroeg na bed en school toe gaan.’
+
+Spieghel van den ouden ende nieuwen tijd (1632) - Jacob of ‘vader’ Cats
+
+Des menschen begin, midden en einde (1712) - Jan Luikens 
+
+De kleine print-bybel (1720)
+
+Pieter 't Hoen - 1778 - Nieuwe Proeve van klijne gedichten voor kinderen
+
+Johannes Hazeu Czn., Petronella Moens, Katharina Wilhelmina Bilderdijk en Francijntje de Boer schreven vanuit dezelfde verlichte denkbeelden.
+
+e strekking blijkt vaak al uit de titels, zoals Kinderpligt en zinnebeelden (Hazeu, 1789) of Letter-kransje voor lieve en brave kinderen (Moens, 1806). Volgens de uitgever schreef de blinde Petronella Moens haar gedichten ‘ter loon van Deugd en Vlijt’. Hij roept de kinderen op de gedichten waardig te zijn, ‘dan zal, dat goede Pietje,/ Die u zoo hartlijk mint,/ Sinds hare vroege kindscheid./ Door 't droevigst noodlot blind,/ De droefheid minder voelen’. Francijntje de Boer drukte in het voorwoord bij haar Gedichtjes voor kinderen (1822) haar bewondering uit voor ‘den onnavolgbaren Van Alphen’. Als eenvoudige dienstbode richtte zij zich vaker tot kinderen uit lagere standen, bijvoorbeeld in haar Gedichtjes voor behoeftige kinderen (1823).
+
+‘Het vrolijk leren’ (Ill. Jacobus Buys)
+
+Hymns for children - 1763 - Charles Wesley
+https://archive.org/details/bim_eighteenth-century_hymns-for-children_wesley-charles_1763/page/26/mode/2up
+
 ## Man
+
+Als vader:
+-> Van God houden
+-> Van je gezin houden (vrouw + kinderen)
 
 Husband should try to maken home happy and holy.
 ~ John Ploughman's Talk (nog nakijken)
@@ -67,6 +128,18 @@ Husband should try to maken home happy and holy.
 
 John Ploughman's Talk + Pictures 
 
+You have to be a man, before you can be a gentle man.
+➔ john wayne?
+
+Courage is accepting the fear, and saddling up anyway.
+➔ john wayne
+
+spurgeon ➔ manly "stick to it"
+
+if you could kick the person in the paint, most responsible for your problems, you wouldn't sit for a week.
+➔ theodore roosevelt
+
+artofmanliness.com/
 
 ## Vrouw
 
@@ -134,123 +207,26 @@ by Zacharias Ursinus (1534-1583)
 https://www.reformedreader.org/wcat.htm
 ➔ naar geloofsbelijdenissen
 
-
-
-
-
----
-
-
-
----
-## [[Schrijven voor kinderen]]
-
----
-
-
-
-
-
-catechisms for children
-catechismussen voor kinderen
-
-...
-
-https://www.dbnl.org/tekst/ghes002land01_01/ghes002land01_01_0008.php
-
->Van Alphen liet de kindpersonages zichzelf en de lezers lessen geven in ijver, leergierigheid, geduld, gehoorzaamheid, dankbaarheid en nederigheid. ==Hij stelde zich niet zoals zijn voorgangers op als leermeester, maar als **liefdevolle vader** die vooral begaan was met het geluk van zijn kinderen, in de overtuiging dat geluk volgde uit godsvrucht en deugd.==
-
-...
-
-"People don't care how much you know, until they know how much you care."
-~ Abraham Lincoln (?)
-
-...
-
-Catechismus voor kinderen:
-- Geschenk voor de jeugd - eerste stukje (1788) - Johannes Florentius Martinet, ‎Ahazuerus van den Berg
-https://www.google.nl/books/edition/Geschenk_voor_de_jeugd/PqC1WsxB01AC?hl=en&gbpv=1&dq=Gedichten+voor+de+jeugd+%E2%80%93+Johannes+Florentius+Martinet&pg=PP9&printsec=frontcover
-
-Spieghel der jonghers - Lambertus Goetman (1488)
-
-Den uutersten wille - Lowys Porquin (1563)
-
-Groot ABC-boek of hanenboek
-‘O! kinders van den wakk'ren haan/ Leer vroeg na bed en school toe gaan.’
-
-Spieghel van den ouden ende nieuwen tijd (1632) - Jacob of ‘vader’ Cats
-
-Des menschen begin, midden en einde (1712) - Jan Luikens 
-
-De kleine print-bybel (1720)
-
-Pieter 't Hoen - 1778 - Nieuwe Proeve van klijne gedichten voor kinderen
-
-Johannes Hazeu Czn., Petronella Moens, Katharina Wilhelmina Bilderdijk en Francijntje de Boer schreven vanuit dezelfde verlichte denkbeelden.
-
-e strekking blijkt vaak al uit de titels, zoals Kinderpligt en zinnebeelden (Hazeu, 1789) of Letter-kransje voor lieve en brave kinderen (Moens, 1806). Volgens de uitgever schreef de blinde Petronella Moens haar gedichten ‘ter loon van Deugd en Vlijt’. Hij roept de kinderen op de gedichten waardig te zijn, ‘dan zal, dat goede Pietje,/ Die u zoo hartlijk mint,/ Sinds hare vroege kindscheid./ Door 't droevigst noodlot blind,/ De droefheid minder voelen’. Francijntje de Boer drukte in het voorwoord bij haar Gedichtjes voor kinderen (1822) haar bewondering uit voor ‘den onnavolgbaren Van Alphen’. Als eenvoudige dienstbode richtte zij zich vaker tot kinderen uit lagere standen, bijvoorbeeld in haar Gedichtjes voor behoeftige kinderen (1823).
-
-‘Het vrolijk leren’ (Ill. Jacobus Buys)
-
-Hymns for children - 1763 - Charles Wesley
-https://archive.org/details/bim_eighteenth-century_hymns-for-children_wesley-charles_1763/page/26/mode/2up
-
-...
-
-Basis:
-- Van God houden
-- Van naaste houden
-
-Als vader:
--> Van God houden
--> Van je gezin houden (vrouw + kinderen)
-
-…
-
-https://www.apuritansmind.com/the-christian-walk/the-christian-family/
-
-...
-
-https://vormingvoorelkedag.nl/onderwerp/opvoeding/
-
-...
+## Grootouders
 
 Grootouders ➔ artikelen Answers in Genesis
 
-...
+## Links
 
-Bijbelsberaad m/v: geloofsbelijdenissen over huwelijk en gezin
-https://www.bijbelsberaadmv.nl/kerkelijke-documenten/
-
-...
-
-https://freegracepress.com/collections/best-sellers/products/the-gospel-made-clear-to-children
-
-...
-
-Links: 
 - Bijbels beraad m/v
 - https://reformedbooksonline.com/topics/topics-by-subject/family/
 - Nave
 - TTT
 - Chapel Library: family, man, woman, husband, wife, children 
 
-...
+---
+## [[Schrijven voor kinderen]]
 
-You have to be a man, before you can be a gentle man.
-➔ john wayne?
+---
 
-Courage is accepting the fear, and saddling up anyway.
-➔ john wayne
+https://www.dbnl.org/tekst/ghes002land01_01/ghes002land01_01_0008.php
 
-spurgeon ➔ manly "stick to it"
-
-if you could kick the person in the paint, most responsible for your problems, you wouldn't sit for a week.
-➔ theodore roosevelt
-
-...
-
-artofmanliness.com
+>Van Alphen liet de kindpersonages zichzelf en de lezers lessen geven in ijver, leergierigheid, geduld, gehoorzaamheid, dankbaarheid en nederigheid. ==Hij stelde zich niet zoals zijn voorgangers op als leermeester, maar als **liefdevolle vader** die vooral begaan was met het geluk van zijn kinderen, in de overtuiging dat geluk volgde uit godsvrucht en deugd.==
 
 ...
 
