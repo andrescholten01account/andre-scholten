@@ -23,8 +23,13 @@ h6 a {
   font-weight: bold !important;
 }
 
-// Sierlijk scheidingsteken i.p.v. een gewone lijn bij ---
-hr {
+// Layout-hr tussen artikel en footer (geen inhoudelijke ---) verborgen houden
+article + hr {
+  display: none !important;
+}
+
+// Sierlijk scheidingsteken i.p.v. een gewone lijn, alleen voor --- in de tekst zelf
+article hr {
   overflow: visible;
   text-align: center;
   height: 1px;
@@ -33,7 +38,7 @@ hr {
   margin: 2.5rem auto;
 }
 
-hr::after {
+article hr::after {
   content: "❦";
   display: inline-block;
   position: relative;
