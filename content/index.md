@@ -1,7 +1,7 @@
 ---
 title: Home
 ---
- %% 
+%% 
 
 André Scholten
 andre-scholten.nl
@@ -29,13 +29,6 @@ Persoonlijke blog
 </div>
 
 Lees meer over het [[Blog|gezin]]. 
-
----
-
-lijn staat hierboven
-
-
-
 
 %%
 ## Footer
