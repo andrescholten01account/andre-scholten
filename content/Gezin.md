@@ -236,6 +236,14 @@ if you could kick the person in the paint, most responsible for your problems, y
 
 artofmanliness.com
 
+...
+
+michael hyatt ➔ 10 gebieden
+
+God
+Ik 
+
+
 
 %%
 
