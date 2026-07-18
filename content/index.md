@@ -12,6 +12,8 @@ Persoonlijke blog
 
 %%
 
+## Home
+
 <div align="center">
 
 ![[Pasted image 20260715071609.png|450]]
@@ -28,9 +30,7 @@ Persoonlijke blog
 
 </div>
 
-## Blog
-
-Komt nog. 
+Lees meer over het [[Blog|gezin]]. 
 
 ---
 
