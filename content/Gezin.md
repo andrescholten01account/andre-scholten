@@ -242,8 +242,15 @@ michael hyatt ➔ 10 gebieden
 
 God
 Ik 
+huwelijk
+gezin
 
+werk/vrijwilligerswerk
+thuis (klussen, auto)
 
+familie
+vrienden
+gemeente
 
 %%
 
