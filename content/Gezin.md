@@ -219,5 +219,21 @@ Links:
 - TTT
 - Chapel Library: family, man, woman, husband, wife, children 
 
+...
+
+You have to be a man, before you can be a gentle man.
+➔ john wayne?
+
+Courage is accepting the fear, and saddling up anyway.
+➔ john wayne
+
+spurgeon ➔ manly "stick to it"
+
+if you could kick the person in the paint, most responsible for your problems, you wouldn't sit for a week.
+➔ theodore roosevelt
+
+
+
+
 %%
 
