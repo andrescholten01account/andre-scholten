@@ -1,12 +1,12 @@
 * [[Persoonlijke geloofsbelijdenis]]
-* [[Verantwoording BereaBijbel]]
-* [[Verantwoording BereaBijbel_brief]]
+* [[Verantwoording StatenvertalingNu]]
+* [[Verantwoording StatenvertalingNu_brief]]
 
 %%
 
-[[Backup - Over de BereaBijbel]]
+[[Backup - Over de StatenvertalingNu]]
 
-[[BereaBijbel]] ➔ link vanuit BereaStudieBijbel
+[[StatenvertalingNu]] ➔ link vanuit StudieBijbel
 
 Er is nog een link met Vertaalprincipes ➔ deze ook plaatsen
 

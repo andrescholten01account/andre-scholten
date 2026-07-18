@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1 Kronieken 3 — StudieBijbel · André Scholten</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* huisstijl overgenomen van andre-scholten.nl (Quartz) */
+    --light:#faf6ee; --lightgray:#e6dcc8; --gray:#c9b896; --darkgray:#4a3829; --dark:#3a2a1d;
+    --secondary:#8b5e34; --tertiary:#a87c4f; --highlight:#8b5e341f; --textHighlight:#f0dca888;
+    --bodyFont:"Lora", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --codeFont:"IBM Plex Mono", ui-monospace, monospace;
+    /* aliassen zodat de bestaande regels de nieuwe kleuren gebruiken */
+    --accent: var(--secondary); --accent-donker: var(--dark); --bg: var(--light);
+    --bg-soft: #f2ead8; --border: var(--lightgray); --tekst: var(--darkgray);
+  }
+  * { box-sizing: border-box; }
+  body { font-family: var(--bodyFont); background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  .site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; line-height: normal; }
+  @media (min-width: 801px) { .site-header { margin-top: 4.8rem; } }
+  .page-title { font-size:1.75rem; font-family:"Lora"; text-align:center; margin:0 0 .4rem; font-weight:700; }
+  .page-title a { color:var(--secondary); text-decoration:none; background-color:transparent !important; }
+  .page-title a:hover { color:var(--tertiary); }
+  .site-subtitle { font-family:"Lora"; color:var(--secondary); letter-spacing:.04em; margin:0 0 1rem; font-size:1.05em; font-style:italic; line-height:1.6rem; }
+  .site-nav { font-family:"Lora"; letter-spacing:.18em; text-transform:uppercase; border-top:1px solid var(--lightgray); border-bottom:1px solid var(--lightgray); margin:.8rem 0 2rem; padding:1rem 0; font-size:.82em; text-align:center; }
+  .site-nav a { font-weight:500; color:var(--secondary); text-decoration:none; background:transparent !important; }
+  .site-nav a:hover { color:var(--tertiary); text-decoration:underline; }
+  .nav-sep { color:var(--gray); }
+  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel a { color: var(--accent); text-decoration: none; }
+  h2.hfd { text-align: center; font-size: 1.7rem; margin: .6rem 0 .2rem; }
+  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:.5rem 0; margin-bottom:1.1rem; }
+  .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
+  .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
+  .navknop.uit { color:#ccc; pointer-events:none; }
+  .hfdnav .midden { display:flex; align-items:center; gap:.4rem; color:#777; }
+  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:6px; padding:.2rem 1.4rem .2rem .5rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+
+  /* weergave-schakelaar: tabs (één kolom) of parallel (naast elkaar) */
+  .modusbalk { display:flex; justify-content:center; align-items:center; gap:.8rem; margin:0 0 1rem; font-family:sans-serif; font-size:.82rem; }
+  .vtabs { display: flex; justify-content: center; gap: .35rem; font-family: sans-serif; }
+  .vtab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: .3rem 1.1rem; font-size: .85rem; cursor: pointer; color: #666; }
+  .vtab.actief { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .modusknop { border:1px solid var(--border); background:#fff; border-radius:999px; padding:.3rem 1rem; cursor:pointer; color:#666; font-size:.82rem; }
+  .modusknop.actief { background:var(--accent-donker); color:#fff; border-color:var(--accent-donker); }
+
+  /* verzen — tabsmodus (één kolom) */
+  .vers { position: relative; display: flex; gap: .8rem; padding: .45rem 2.4rem .45rem .4rem; border-radius: 6px; cursor: pointer; }
+  .vers:hover { background: var(--bg-soft); }
+  .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .vers.flits { animation: flits 1.6s ease-out; }
+  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vtekst em, .pcel em { font-style: italic; color: #555; }
+  .wl { border-bottom: 1px dotted var(--accent); }
+  .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
+  .noot:hover { color: var(--accent-donker); }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
+  #notenlijst .nootregel { margin: .25rem 0; }
+  #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
+  .kopieer { position: absolute; right: .4rem; top: .55rem; opacity: 0; border: none; background: none; cursor: pointer; color: var(--accent); font-size: .95rem; padding: .1rem .3rem; transition: opacity .15s; }
+  .vers:hover .kopieer { opacity: .75; }
+  .kopieer:hover { opacity: 1 !important; }
+
+  /* parallelmodus (kolommen naast elkaar) */
+  #bijbel.parallel .vers { display:grid; gap:.8rem; cursor:pointer; align-items:start; }
+  #bijbel.parallel .vnr { grid-row: 1; }
+  .kolomkop { display:none; }
+  #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
+  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  #bijbel.parallel .pcel em { font-style:italic; color:#555; }
+
+  /* naslagpaneel */
+  .paneel { display: none; margin: 0 0 .6rem 2.4rem; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: .87rem; }
+  .paneel.open { display: block; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
+  .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ntab.leeg { opacity: .4; cursor: default; }
+  .tsk-kop { font-weight: 600; color: #444; margin: .55rem 0 .2rem; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-size: .8rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip:hover { background: var(--accent); color: #fff; }
+  .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
+  .onderwerp .okop { margin-bottom:.25rem; }
+  .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
+  .onderwerp .label { font-style: italic; color: #666; }
+  .ondrefs { line-height:1.9; margin-top:.4rem; }
+  .meer { font-size:.72rem; color:#999; margin-left:.3rem; }
+  .schakelnav { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .schakelnav .pos { font-size:.75rem; color:#999; }
+  .alle > summary { font-size:.75rem; color:var(--accent); cursor:pointer; margin-top:.35rem; list-style:none; }
+  .alle > summary::-webkit-details-marker { display:none; }
+  .alle > summary:hover { text-decoration:underline; }
+  .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
+
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
+  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #toast.zichtbaar { opacity: 1; }
+  .site-footer { font-family:"Lora"; display:grid; grid-template-columns: 1fr 1fr 1fr; gap:1.5rem; max-width:700px; margin:3rem auto 0; padding:2rem 1.5rem 0; border-top:1px solid var(--lightgray); font-size:.85em; }
+  .site-footer-col { display:flex; flex-direction:column; gap:.5rem; }
+  .site-footer-mid { text-align:center; }
+  .site-footer-right { text-align:right; }
+  .site-footer a { color:var(--secondary); text-decoration:underline; }
+  .site-footer .footer-plain { color:var(--gray); }
+  @media (max-width:640px) { .site-footer { grid-template-columns:1fr; text-align:center; } .site-footer-right { text-align:center; } }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } .paneel { margin-left: .4rem; } }
+</style>
+</head>
+<body>
+<div class="omslag">
+<div class="site-header">
+  <h2 class="page-title"><a href="/">André Scholten</a></h2>
+  <p class="site-subtitle">Persoonlijke blog</p>
+  <nav class="site-nav"><a href="/blog">Blog</a><span class="nav-sep"> | </span><a href="/basis">Basis</a><span class="nav-sep"> | </span><a href="/de-volle-pinksterzegen">Boek</a><span class="nav-sep"> | </span><a href="/studiebijbel/">Bijbel</a></nav>
+</div>
+<div class="kruimel"><a id="kruimel-home">StudieBijbel</a> › <a id="kruimel-boek">1 Kronieken</a> › hoofdstuk 3</div>
+<h2 class="hfd">1 Kronieken 3</h2>
+<div class="ondertitel">StatenvertalingNu — De Statenvertaling in begrijpelijk Nederlands</div>
+
+<nav class="hfdnav" id="hfdnav"></nav>
+
+<div class="modusbalk">
+  <div class="vtabs" id="vtabs"></div>
+  <button class="modusknop" id="parallelknop" title="Toon vertalingen naast elkaar">Parallel ⇄</button>
+</div>
+<div id="bijbel"></div>
+<section id="notenlijst"></section>
+
+<footer class="site-footer">
+  <div class="site-footer-col">
+    <a href="/basis">Basis christelijk geloof</a>
+    <a href="/de-volle-pinksterzegen">De Volle Pinksterzegen</a>
+    <a href="/studiebijbel/">StudieBijbel</a>
+  </div>
+  <div class="site-footer-col site-footer-mid">
+    <a href="/?zoeken=1">Zoekfunctie</a>
+  </div>
+  <div class="site-footer-col site-footer-right">
+    <a href="/over">Over</a>
+    <a href="/contact">Contact</a>
+    <a href="/verantwoording">Verantwoording</a>
+  </div>
+</footer>
+<footer class="site">
+  Verwijzingen: Treasury of Scripture Knowledge (publiek domein)<br>
+  Onderwerpen: Nave's Topical Bible &amp; Torrey's Topical Textbook (publiek domein)<br>
+  StatenvertalingNu: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
+</footer>
+</div>
+<div id="popup"></div>
+<div id="toast">Gekopieerd</div>
+
+<script>
+const D = {"meta": {"hfd_naam": "1 Kronieken 3", "boek_naam": "1 Kronieken", "hfd_nr": "3", "zelf_abbr": "1 Kron 3", "totaal": 29, "basis_url": "https://andre-scholten.nl/studiebijbel/1-kronieken/3", "home_href": "../../", "boek_href": "../", "vorige": {"href": "../2/", "label": "‹ 1 Kronieken 2"}, "volgende": {"href": "../4/", "label": "1 Kronieken 4 ›"}, "hoofdstukken": [{"n": "1", "href": "../1/"}, {"n": "2", "href": "../2/"}, {"n": "3", "href": "../3/"}, {"n": "4", "href": "../4/"}, {"n": "5", "href": "../5/"}, {"n": "6", "href": "../6/"}, {"n": "7", "href": "../7/"}, {"n": "8", "href": "../8/"}, {"n": "9", "href": "../9/"}, {"n": "10", "href": "../10/"}, {"n": "11", "href": "../11/"}, {"n": "12", "href": "../12/"}, {"n": "13", "href": "../13/"}, {"n": "14", "href": "../14/"}, {"n": "15", "href": "../15/"}, {"n": "16", "href": "../16/"}, {"n": "17", "href": "../17/"}, {"n": "18", "href": "../18/"}, {"n": "19", "href": "../19/"}, {"n": "20", "href": "../20/"}, {"n": "21", "href": "../21/"}, {"n": "22", "href": "../22/"}, {"n": "23", "href": "../23/"}, {"n": "24", "href": "../24/"}, {"n": "25", "href": "../25/"}, {"n": "26", "href": "../26/"}, {"n": "27", "href": "../27/"}, {"n": "28", "href": "../28/"}, {"n": "29", "href": "../29/"}], "slugmap": {"Gen": "genesis", "Ex": "exodus", "Lev": "leviticus", "Num": "numeri", "Deut": "deuteronomium", "Joz": "jozua", "Richt": "richteren", "Ruth": "ruth", "1 Sam": "1-samuel", "2 Sam": "2-samuel", "1 Kon": "1-koningen", "2 Kon": "2-koningen", "1 Kron": "1-kronieken", "2 Kron": "2-kronieken", "Ezra": "ezra", "Neh": "nehemia", "Est": "esther", "Job": "job", "Ps": "psalmen", "Spr": "spreuken", "Pred": "prediker", "Hoogl": "hooglied", "Jes": "jesaja", "Jer": "jeremia", "Klaagl": "klaagliederen", "Ezech": "ezechiel", "Dan": "daniel", "Hos": "hosea", "Joël": "joel", "Amos": "amos", "Obadja": "obadja", "Jona": "jona", "Micha": "micha", "Nahum": "nahum", "Hab": "habakuk", "Zef": "zefanja", "Hagg": "haggai", "Zach": "zacharia", "Mal": "maleachi", "Matt": "mattheus", "Mark": "markus", "Luk": "lukas", "Joh": "johannes", "Hand": "handelingen", "Rom": "romeinen", "1 Kor": "1-korinthe", "2 Kor": "2-korinthe", "Gal": "galaten", "Ef": "efeze", "Fil": "filippenzen", "Kol": "kolossenzen", "1 Tess": "1-thessalonicenzen", "2 Tess": "2-thessalonicenzen", "1 Tim": "1-timotheus", "2 Tim": "2-timotheus", "Tit": "titus", "Filem": "filemon", "Hebr": "hebreeen", "Jak": "jakobus", "1 Petr": "1-petrus", "2 Petr": "2-petrus", "1 Joh": "1-johannes", "2 Joh": "2-johannes", "3 Joh": "3-johannes", "Judas": "judas", "Openb": "openbaring"}}, "vertalingen": {"SVnu": {"1": "Dit waren de kinderen van David die hem in Hebron geboren zijn: de eerstgeborene Amnon, van Ahinoam, de Jizreëlietische; de tweede Daniël, van Abigaïl, de Karmelietische;", "2": "de derde Absalom, de zoon van Maächa, de dochter van Thalmai, de koning van Gesur; de vierde Adonia, de zoon van Haggith;", "3": "de vijfde Sefatja, van Abital; de zesde Jithream, van zijn vrouw Egla.", "4": "Zes zijn hem in Hebron geboren; want hij regeerde daar zeven jaar en zes maanden; en drieëndertig jaar regeerde hij in Jeruzalem.", "5": "Dit nu zijn hem in Jeruzalem geboren: Simea, en Sobab, en Nathan, en Salomo; *deze* vier zijn van Bath-Sua, de dochter van Ammiël;", "6": "daartoe Jibchar, en Elisama, en Elifelet,", "7": "en Nogah, en Nefeg, en Jafia,", "8": "en Elisama, en Eljada, en Elifelet, negen.", "9": "*Deze* allen zijn zonen van David, behalve de kinderen van de bijvrouwen, en Thamar hun zuster.", "10": "Salomo's zoon nu was Rehabeam; zijn zoon was Abia; zijn zoon was Asa; zijn zoon was Josafat;", "11": "zijn zoon was Joram; zijn zoon was Ahazia; zijn zoon was Joas;", "12": "zijn zoon was Amazia; zijn zoon was Azaria; zijn zoon was Jotham;", "13": "zijn zoon was Achaz; zijn zoon was Hizkia; zijn zoon was Manasse;", "14": "zijn zoon was Amon; zijn zoon was Josia.", "15": "De zonen van Josia nu waren deze: de eerstgeborene Johanan, de tweede Jojakim, de derde Zedekia, de vierde Sallum.", "16": "De kinderen van Jojakim nu waren: Jechonia zijn zoon, Zedekia zijn zoon.", "17": "En de kinderen van Jechonia waren Assir; zijn zoon was Sealthiël;", "18": "Zijn *zonen* waren Malchiram, en Pedaja, en Senazar, Jekamja, Hosama en Nedabja.", "19": "De kinderen van Pedaja nu waren Zerubbabel en Simeï; en de kinderen van Zerubbabel waren Mesullam en Hananja; en Selomith was hun zuster;", "20": "en Hasuba, en Ohel, en Berechja, en Hasadja, Jusab-Hesed; vijf.", "21": "De kinderen van Hananja nu waren Pelatja en Jesaja. De kinderen van Refaja, de kinderen van Arnan, de kinderen van Obadja, de kinderen van Sechanja.", "22": "De kinderen nu van Sechanja waren Semaja; en de kinderen van Semaja waren Hattus, en Jigeal, en Bariah, en Nearja, en Safat; zes.", "23": "En de kinderen van Nearja waren Eljoenai, en Hizkia, en Azrikam; drie.", "24": "En de kinderen van Eljoenai waren Hodajeva, en Eljasib, en Pelaja, en Akkub, en Johanan, en Delaja, en Anani; zeven."}, "SV": {"1": "Dezen nu waren de kinderen van David, die hem te Hebron geboren zijn: de eerstgeborene Amnon, van Ahinoam, de Jizreëlietische; de tweede Daniël, van Abigaïl, de Karmelietische;", "2": "De derde Absalom, de zoon van Maacha, de dochter van Thalmai, de koning te Gesur; de vierde Adonia, de zoon van Haggith;", "3": "De vijfde Sefatja, van Abital; de zesde Jithream, van zijn huisvrouw Egla.", "4": "Zes zijn hem te Hebron geboren; want hij regeerde daar zeven jaren en zes maanden; en drie en dertig jaren regeerde hij te Jeruzalem.", "5": "Dezen nu zijn hem te Jeruzalem geboren: Simea, en Sobab, en Nathan, en Salomo; *deze* vier zijn van Bath-sua, de dochter van Ammiël;", "6": "Daartoe Jibchar, en Elisama, en Elifelet,", "7": "En Nogah, en Nefeg, en Jafia,", "8": "En Elisama, en Eljada, en Elifelet, negen.", "9": "*Deze* allen zijn zonen van David, behalve de kinderen der bijwijven, en Thamar hun zuster.", "10": "Salomo’s zoon nu was Rehabeam; zijn zoon was Abia; zijn zoon was Asa; zijn zoon was Josafat;", "11": "Zijn zoon was Joram; zijn zoon was Ahazia; zijn zoon was Joas;", "12": "Zijn zoon was Amazia; zijn zoon was Azaria; zijn zoon was Jotham;", "13": "Zijn zoon was Achaz; zijn zoon was Hizkia; zijn zoon was Manasse;", "14": "Zijn zoon was Amon; zijn zoon was Josia.", "15": "De zonen van Josia nu waren *dezen*: de eerstgeborene Johanan, de tweede Jojakim, de derde Zedekia, de vierde Sallum.", "16": "De kinderen van Jojakim nu waren: Jechonia zijn zoon, Zedekia zijn zoon.", "17": "En de kinderen van Jechonia waren Assir; zijn zoon was Sealthiël;", "18": "Dezes *zonen* waren Malchiram, en Pedaja, en Senazar, Jekamja, Hosama en Nedabja.", "19": "De kinderen van Pedaja nu waren Zerubbabel en Simeï; en de kinderen van Zerubbabel waren Mesullam en Hananja; en Selomith was hunlieder zuster;", "20": "En Hasuba, en Ohel, en Berechja, en Hasadja, Jusabhesed; vijf.", "21": "De kinderen van Hananja nu waren Pelatja en Jesaja. De kinderen van Refaja, de kinderen van Arnan, de kinderen van Obadja, de kinderen van Sechanja.", "22": "De kinderen nu van Sechanja waren Semaja; en de kinderen van Semaja waren Hattus, en Jigeal, en Bariah, en Nearja, en Safat; zes.", "23": "En de kinderen van Nearja waren Eljoenai, en Hizkia, en Azrikam; drie.", "24": "En de kinderen van Eljoenai waren Hodajeva, en Eljasib, en Pelaja, en Akkub, en Johanan, en Delaja, en Anani; zeven."}, "KJV": {"1": "Now these were the sons of David, which were born unto him in Hebron; the firstborn Amnon, of Ahinoam the Jezreelitess; the second Daniel, of Abigail the Carmelitess:", "2": "The third, Absalom the son of Maachah the daughter of Talmai king of Geshur: the fourth, Adonijah the son of Haggith:", "3": "The fifth, Shephatiah of Abital: the sixth, Ithream by Eglah his wife.", "4": "These six were born unto him in Hebron; and there he reigned seven years and six months: and in Jerusalem he reigned thirty and three years.", "5": "And these were born unto him in Jerusalem; Shimea, and Shobab, and Nathan, and Solomon, four, of Bathshua the daughter of Ammiel:", "6": "Ibhar also, and Elishama, and Eliphelet,", "7": "And Nogah, and Nepheg, and Japhia,", "8": "And Elishama, and Eliada, and Eliphelet, nine.", "9": "These were all the sons of David, beside the sons of the concubines, and Tamar their sister.", "10": "And Solomon's son was Rehoboam, Abia his son, Asa his son, Jehoshaphat his son,", "11": "Joram his son, Ahaziah his son, Joash his son,", "12": "Amaziah his son, Azariah his son, Jotham his son,", "13": "Ahaz his son, Hezekiah his son, Manasseh his son,", "14": "Amon his son, Josiah his son.", "15": "And the sons of Josiah were, the firstborn Johanan, the second Jehoiakim, the third Zedekiah, the fourth Shallum.", "16": "And the sons of Jehoiakim: Jeconiah his son, Zedekiah his son.", "17": "And the sons of Jeconiah; Assir, Salathiel his son,", "18": "Malchiram also, and Pedaiah, and Shenazar, Jecamiah, Hoshama, and Nedabiah.", "19": "And the sons of Pedaiah were, Zerubbabel, and Shimei: and the sons of Zerubbabel; Meshullam, and Hananiah, and Shelomith their sister:", "20": "And Hashubah, and Ohel, and Berechiah, and Hasadiah, Jushabhesed, five.", "21": "And the sons of Hananiah; Pelatiah, and Jesaiah: the sons of Rephaiah, the sons of Arnan, the sons of Obadiah, the sons of Shechaniah.", "22": "And the sons of Shechaniah; Shemaiah: and the sons of Shemaiah; Hattush, and Igeal, and Bariah, and Neariah, and Shaphat, six.", "23": "And the sons of Neariah; Elioenai, and Hezekiah, and Azrikam, three.", "24": "And the sons of Elioenai were, Hodaiah, and Eliashib, and Pelaiah, and Akkub, and Johanan, and Dalaiah, and Anani, seven."}}, "tsk": {"1": [{"kopje": "de kinderen van David", "refs": ["2 Sam 3:2-5"]}, {"kopje": "Amnon", "refs": ["2 Sam 13:1", "2 Sam 13:29"]}, {"kopje": "Ahinoam", "refs": ["1 Sam 25:42", "1 Sam 25:43", "1 Sam 27:3"]}, {"kopje": "Jizreëlietische", "refs": ["Joz 15:56"]}, {"kopje": "Daniël", "refs": ["2 Sam 3:3"]}, {"kopje": "van Abigaïl", "refs": ["1 Sam 25:39-42"]}], "2": [{"kopje": "Absalom", "refs": ["2 Sam 13:1", "2 Sam 13:20-28", "2 Sam 13:38", "2 Sam 18:14", "2 Sam 18:18", "2 Sam 18:33", "2 Sam 19:4-10"]}, {"kopje": "Gesur", "refs": ["1 Kron 2:23", "Joz 13:13", "2 Sam 14:23", "2 Sam 14:32", "2 Sam 15:8"]}, {"kopje": "Adonia", "refs": ["2 Sam 3:4", "1 Kon 1:5", "1 Kon 2:24", "1 Kon 2:25"]}], "3": [{"kopje": "Egla", "refs": ["2 Sam 6:23", "2 Sam 3:5"]}], "4": [{"kopje": "hij regeerde daar", "refs": ["2 Sam 2:11", "2 Sam 5:4", "2 Sam 5:5", "1 Kon 2:11"]}, {"kopje": "in Jeruzalem", "refs": ["2 Sam 5:4", "2 Sam 5:14-16"]}], "5": [{"kopje": "Simea", "refs": ["1 Kron 14:4", "2 Sam 5:14"]}, {"kopje": "Nathan", "refs": ["2 Sam 7:2-4", "2 Sam 12:1-15", "Luk 3:31"]}, {"kopje": "Salomo", "refs": ["1 Kron 28:5", "1 Kron 28:6", "2 Sam 12:24", "2 Sam 12:25"]}, {"kopje": "Bath-Sua", "refs": ["2 Sam 11:3", "Matt 1:6"]}, {"kopje": "Ammiël", "refs": ["2 Sam 11:3"]}], "6": [{"kopje": "Elisama", "refs": ["1 Kron 14:5", "2 Sam 5:15"]}, {"kopje": "Elifelet", "refs": ["1 Sam 14:5"]}], "7": [{"kopje": "Nogah", "refs": ["2 Sam 5:15", "2 Sam 5:16"]}], "8": [{"kopje": "Eljada", "refs": ["1 Kron 14:7"]}, {"kopje": "Elifelet", "refs": ["1 Kron 14:7", "2 Sam 5:14-16"]}], "9": [{"kopje": "de bijvrouwen", "refs": ["2 Sam 5:13"]}, {"kopje": "Thamar", "refs": ["2 Sam 13:1-20"]}], "10": [{"kopje": "Rehabeam", "refs": ["1 Kon 11:43", "1 Kon 14:31", "1 Kon 15:6", "Matt 1:7"]}, {"kopje": "Abia", "refs": ["1 Kon 15:1", "2 Kron 13:1"]}, {"kopje": "Asa", "refs": ["1 Kon 15:8", "2 Kron 14:1"]}, {"kopje": "Josafat", "refs": ["1 Kon 15:24", "2 Kron 17:1", "Matt 1:8"]}], "11": [{"kopje": "Joram", "refs": ["1 Kon 22:51", "2 Kron 21:1"]}, {"kopje": "Ahazia", "refs": ["2 Kon 8:24", "2 Kron 21:17", "1 Kron 22:1-6"]}, {"kopje": "Joas", "refs": ["2 Kon 11:21", "2 Kron 24:1"]}], "12": [{"kopje": "Amazia", "refs": ["2 Kon 14:1", "2 Kron 25:1"]}, {"kopje": "Azaria", "refs": ["2 Kon 14:21", "2 Kon 15:30", "2 Kron 26:1", "Matt 1:8", "Matt 1:9"]}, {"kopje": "Jotham", "refs": ["2 Kon 15:5", "2 Kon 15:32", "2 Kron 27:1", "Matt 1:9"]}], "13": [{"kopje": "Achaz", "refs": ["2 Kon 16:1", "2 Kron 28:1-8", "Matt 1:9"]}, {"kopje": "Hizkia", "refs": ["2 Kon 18:1", "2 Kron 29:1", "Matt 1:9"]}, {"kopje": "Manasse", "refs": ["2 Kon 21:1", "2 Kron 33:1", "Matt 1:10"]}], "14": [{"kopje": "Amon", "refs": ["2 Kon 21:19", "2 Kron 33:20", "2 Kron 33:21"]}, {"kopje": "Josia", "refs": ["2 Kon 22:1", "2 Kron 34:1", "Matt 1:10", "Matt 1:11", "2 Kon 23:30", "2 Kon 23:34", "2 Kron 36:5", "Jer 22:18", "2 Kon 24:17", "2 Kon 24:18", "2 Kron 36:11", "2 Kon 23:30", "2 Kron 36:1", "Jer 22:11"]}], "16": [{"kopje": "Jechonia", "refs": ["2 Kon 24:6", "2 Kon 24:8", "2 Kon 25:27", "2 Kron 36:9", "Jer 22:24", "Jer 22:28", "Matt 1:11"]}, {"kopje": "Zedekia", "refs": ["1 Kron 3:15", "2 Kon 24:17"]}], "17": [{"kopje": "Sealthiël", "refs": ["Ezra 3:2", "Ezra 3:8", "Ezra 5:2", "Matt 1:12"]}], "19": [{"kopje": "Zerubbabel", "refs": ["Ezra 2:2", "Ezra 3:2", "Hagg 1:12-14", "Hagg 2:3", "Hagg 2:5", "Zach 4:6-9", "Matt 1:12"]}], "22": [{"kopje": "Hattus", "refs": ["Ezra 8:2"]}], "23": [{"kopje": "Hizkia", "refs": ["1 Kron 3:23"]}]}, "onderwerpen": {"3": [{"onderwerp": "Abital", "sub": "Vrouw van David.", "totaal": 2, "positie": 2, "vorige": "2 Sam 3:4", "volgende": null, "alle": ["2 Sam 3:4"], "meer": 0}, {"onderwerp": "Sefátja", "sub": "1. Zoon van David", "totaal": 2, "positie": 2, "vorige": "2 Sam 3:4", "volgende": null, "alle": ["2 Sam 3:4"], "meer": 0}], "2": [{"onderwerp": "Absalom", "sub": "Zoon van David bij Maächa", "totaal": 2, "positie": 2, "vorige": "2 Sam 3:3", "volgende": null, "alle": ["2 Sam 3:3"], "meer": 0}, {"onderwerp": "Talmai", "sub": "2. Koning van Gesur", "totaal": 3, "positie": 3, "vorige": "2 Sam 13:37", "volgende": null, "alle": ["2 Sam 3:3", "2 Sam 13:37"], "meer": 0}], "24": [{"onderwerp": "Akkub", "sub": "3. Een zoon van Eljoënai", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Eljoënai", "sub": "6. Zoon van Nearja", "totaal": 2, "positie": 2, "vorige": "1 Kron 3:23", "volgende": null, "alle": ["1 Kron 3:23"], "meer": 0}, {"onderwerp": "Pelaja", "sub": "1. Zoon van Eljoënai", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "23": [{"onderwerp": "Eljoënai", "sub": "6. Zoon van Nearja", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 3:24", "alle": ["1 Kron 3:24"], "meer": 0}, {"onderwerp": "Nearja", "sub": "1. Zoon van Semaja", "totaal": 2, "positie": 2, "vorige": "1 Kron 3:22", "volgende": null, "alle": ["1 Kron 3:22"], "meer": 0}], "17": [{"onderwerp": "Jójachin", "sub": "Zonen van", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 3:18", "alle": ["1 Kron 3:18"], "meer": 0}, {"onderwerp": "Sealthiël", "sub": "Ook genoemd Sealthiël, vader van Zerubbabel en voorvader van Jezus.", "totaal": 12, "positie": 1, "vorige": null, "volgende": "Ezra 3:2", "alle": ["Ezra 3:2", "Ezra 3:8", "Ezra 5:2", "Neh 12:1", "Hagg 1:1", "Hagg 1:12", "Hagg 1:14", "Hagg 2:3", "Hagg 2:24", "Matt 1:12", "Luk 3:27"], "meer": 0}], "18": [{"onderwerp": "Jójachin", "sub": "Zonen van", "totaal": 2, "positie": 2, "vorige": "1 Kron 3:17", "volgende": null, "alle": ["1 Kron 3:17"], "meer": 0}, {"onderwerp": "Nedabja", "sub": "Zoon van Jechonia.", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Pedaja", "sub": "2. Vader van Zerubbabel", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 3:19", "alle": ["1 Kron 3:19"], "meer": 0}, {"onderwerp": "Senázar", "sub": "Zoon van Jechonia.", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "19": [{"onderwerp": "Messullam", "sub": "2. Een zoon van Zerubbabel", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Pedaja", "sub": "2. Vader van Zerubbabel", "totaal": 2, "positie": 2, "vorige": "1 Kron 3:18", "volgende": null, "alle": ["1 Kron 3:18"], "meer": 0}, {"onderwerp": "Selómith", "sub": "2. Dochter van Zerubbabel", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Simeï", "sub": "5. Kleinzoon van Jechonia", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "5": [{"onderwerp": "Nathan", "sub": "1. Zoon van David en Bathseba", "totaal": 3, "positie": 2, "vorige": "2 Sam 5:14", "volgende": "1 Kron 14:4", "alle": ["2 Sam 5:14", "1 Kron 14:4"], "meer": 0}, {"onderwerp": "Sammua", "sub": "Genaamd Simea", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Sobab", "sub": "1. Zoon van David", "totaal": 3, "positie": 2, "vorige": "2 Sam 5:14", "volgende": "1 Kron 14:4", "alle": ["2 Sam 5:14", "1 Kron 14:4"], "meer": 0}], "22": [{"onderwerp": "Nearja", "sub": "1. Zoon van Semaja", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 3:23", "alle": ["1 Kron 3:23"], "meer": 0}, {"onderwerp": "Safat", "sub": "3. Zoon van Semaja", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Sechanja", "sub": "1. Een nakomeling van David", "totaal": 2, "positie": 2, "vorige": "1 Kron 3:21", "volgende": null, "alle": ["1 Kron 3:21"], "meer": 0}, {"onderwerp": "Semája", "sub": "2. Een nakomeling van David", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "7": [{"onderwerp": "Nefeg", "sub": "2. Een zoon van David", "totaal": 3, "positie": 2, "vorige": "2 Sam 5:15", "volgende": "1 Kron 14:6", "alle": ["2 Sam 5:15", "1 Kron 14:6"], "meer": 0}, {"onderwerp": "Nogah", "sub": "Zoon van David.", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 14:6", "alle": ["1 Kron 14:6"], "meer": 0}], "21": [{"onderwerp": "Obadja", "sub": "2. Hoofd van een familie", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Pelatja", "sub": "1. Een zoon van Hananja, uit het geslacht van David", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Refaja", "sub": "1. Een nakomeling van David", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}, {"onderwerp": "Sechanja", "sub": "1. Een nakomeling van David", "totaal": 2, "positie": 1, "vorige": null, "volgende": "1 Kron 3:22", "alle": ["1 Kron 3:22"], "meer": 0}], "20": [{"onderwerp": "Ohel", "sub": "Zoon van Zerubbabel", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}], "9": [{"onderwerp": "Tamar", "sub": "2. Dochter van David", "totaal": 33, "positie": 33, "vorige": "2 Sam 13:32", "volgende": null, "alle": ["2 Sam 13:1", "2 Sam 13:2", "2 Sam 13:3", "2 Sam 13:4", "2 Sam 13:5", "2 Sam 13:6", "2 Sam 13:7", "2 Sam 13:8", "2 Sam 13:9", "2 Sam 13:10", "2 Sam 13:11", "2 Sam 13:12", "2 Sam 13:13", "2 Sam 13:14", "2 Sam 13:15", "2 Sam 13:16", "2 Sam 13:17", "2 Sam 13:18", "2 Sam 13:19", "2 Sam 13:20", "2 Sam 13:21", "2 Sam 13:22", "2 Sam 13:23", "2 Sam 13:24", "2 Sam 13:25", "2 Sam 13:26", "2 Sam 13:27", "2 Sam 13:28", "2 Sam 13:29", "2 Sam 13:30", "2 Sam 13:31", "2 Sam 13:32"], "meer": 0}], "16": [{"onderwerp": "Zedekia", "sub": "2. Kleinzoon van Jojakim", "totaal": 1, "positie": 1, "vorige": null, "volgende": null, "alle": [], "meer": 0}]}, "extern": {"2 Sam 3:3": "en zijn tweede was Chileab, van Abigaïl, de vrouw van Nabal, de Karmeliet; en de derde, Absalom, de zoon van Maächa, de dochter van Thalmai, koning van Gesur;", "Jer 22:11": "Want zo zegt de HEERE van Sallum, de zoon van Josia, koning van Juda, die in de plaats van zijn vader Josia regeerde, die uit deze plaats is weggegaan: Hij zal daar nooit meer terugkomen.", "1 Kon 2:24": "En nu, zo waarachtig als de HEERE leeft, Die mij bevestigd heeft, en mij heeft doen zitten op de troon van mijn vader David, en Die mij een huis gemaakt heeft, zoals Hij gesproken had; zeker, Adonia zal vandaag gedood worden!", "2 Sam 13:15": "Daarna haatte Amnon haar met een zeer grote haat; want de haat waarmee hij haar haatte, was groter dan de liefde waarmee hij haar had liefgehad; en Amnon zei tegen haar: Sta op, ga weg.", "Jer 22:24": "Zo waarachtig als Ik leef, spreekt de HEERE, al was Chonia, de zoon van Jojakim, de koning van Juda, een zegelring aan Mijn rechterhand, toch zal Ik u vandaar wegrukken.", "2 Sam 13:12": "Maar zij zei tegen hem: Nee, mijn broer, verkracht mij niet, want zo doet men niet in Israël; doe deze dwaasheid niet.", "2 Sam 13:13": "Want ik, waarheen zou ik mijn schande brengen? En u, u zou zijn als een van de dwazen in Israël; spreek toch nu met de koning, want hij zal mij niet aan u onthouden.", "2 Kron 24:1": "Joas was zeven jaar oud, toen hij koning werd, en hij regeerde veertig jaar te Jeruzalem; en de naam van zijn moeder was Zibja, van Ber-seba.", "Neh 12:1": "Dit zijn de priesters en de Levieten die met Zerubbabel, de zoon van Sealthiël, en Jesua optrokken: Seraja, Jeremia, Ezra,", "Joz 15:56": "en Jizreël, en Jokdeam, en Zanoah,", "2 Kon 14:1": "In het tweede jaar van Joas, de zoon van Joahaz, de koning van Israël, werd Amazia koning, de zoon van Joas, de koning van Juda.", "Hagg 1:14": "En de HEERE wekte de geest op van Zerubbabel, de zoon van Sealthiël, de vorst van Juda, en de geest van Josua, de zoon van Jozadak, de hogepriester, en de geest van heel het overblijfsel van het volk; en zij kwamen en gingen aan het werk in het huis van de HEERE van de heerscharen, hun God,", "2 Sam 13:22": "Doch Absalom sprak niet met Amnon, noch kwaad noch goed; maar Absalom haatte Amnon, vanwege het feit dat hij zijn zuster Thamar verkracht had.", "2 Kon 21:1": "Manasse was twaalf jaar oud, toen hij koning werd, en hij regeerde vijfenvijftig jaar te Jeruzalem; en de naam van zijn moeder was Hefzi-bah.", "Hagg 2:24": "Op die dag, spreekt de HEERE van de heerscharen, zal Ik u nemen, Zerubbabel, zoon van Sealthiël, Mijn dienstknecht! spreekt de HEERE, en Ik zal u stellen als een zegelring; want Ik heb u verkozen, spreekt de HEERE van de heerscharen.", "1 Kon 15:24": "En Asa ontsliep met zijn vaderen, en werd begraven met zijn vaderen, in de stad van zijn vader David; en zijn zoon Josafat werd koning in zijn plaats.", "2 Kon 21:19": "Amon was tweeëntwintig jaar oud, toen hij koning werd, en hij regeerde twee jaar te Jeruzalem; en de naam van zijn moeder was Mesullemet, een dochter van Haruz uit Jotba.", "Hagg 1:1": "In het tweede jaar van koning Darius, in de zesde maand, op de eerste dag van de maand, kwam het woord van de HEERE, door de dienst van Haggai, de profeet, tot Zerubbabel, de zoon van Sealthiël, de vorst van Juda, en tot Josua, de zoon van Jozadak, de hogepriester, en Hij zei:", "2 Sam 13:24": "En Absalom kwam bij de koning, en zei: Zie, uw knecht heeft nu schaapscheerders; laat toch de koning en zijn knechten met uw knecht meegaan.", "2 Sam 13:8": "En Thamar ging naar het huis van haar broer Amnon (hij lag namelijk neer), en zij nam deeg, en kneedde het, en maakte er voor zijn ogen koekjes van, en bakte de koekjes.", "2 Kon 25:27": "Het gebeurde daarna in het zevenendertigste jaar van de wegvoering van Jojachin, de koning van Juda, in de twaalfde maand, op de zevenentwintigste van de maand, dat Evilmerodach, de koning van Babel, in het jaar dat hij koning werd, het hoofd van Jojachin, de koning van Juda, uit de gevangenis verhief.", "2 Sam 13:7": "Toen zond David iemand naar Thamar in het huis, en zei: Ga toch naar het huis van uw broer Amnon, en maak voor hem voedsel klaar.", "Hagg 1:12": "Toen luisterden Zerubbabel, de zoon van Sealthiël, en Josua, de zoon van Jozadak, de hogepriester, en heel het overblijfsel van het volk, naar de stem van de HEERE, hun God, en naar de woorden van de profeet Haggai, zoals de HEERE, hun God, hem gezonden had; en het volk vreesde voor het aangezicht van de HEERE.", "2 Kron 26:1": "Toen nam heel het volk van Juda Uzzia (die nu zestien jaar oud was), en maakte hem koning in de plaats van zijn vader Amazia.", "2 Kron 33:20": "En Manasse ontsliep met zijn vaderen, en zij begroeven hem in zijn huis; en zijn zoon Amon werd koning in zijn plaats.", "2 Sam 13:5": "En Jonadab zei tegen hem: Ga liggen op uw bed, en doe alsof u ziek bent; als dan uw vader komt om u te zien, zeg dan tegen hem: Laat toch mijn zuster Thamar komen, dat zij mij brood laat eten, en het voedsel voor mijn ogen klaarmaakt, zodat ik het zie, en het uit haar hand eet.", "2 Sam 13:20": "En haar broer Absalom zei tegen haar: Is uw broer Amnon bij u geweest? Nu dan, mijn zuster, zwijg stil, hij is uw broer; zet uw hart niet op deze zaak. Zo bleef Thamar, eenzaam, in het huis van haar broer Absalom.", "2 Kron 21:1": "Daarna stierf Josafat en werd bij zijn voorouders begraven, in de stad van David; en zijn zoon Joram werd koning in zijn plaats.", "2 Kron 36:11": "Eenentwintig jaar was Zedekia oud, toen hij koning werd, en hij regeerde elf jaar te Jeruzalem.", "2 Kron 34:1": "Josia was acht jaar oud, toen hij koning werd, en hij regeerde eenendertig jaar te Jeruzalem.", "Hagg 2:3": "Spreek nu tot Zerubbabel, de zoon van Sealthiël, de vorst van Juda, en tot Josua, de zoon van Jozadak, de hogepriester, en tot het overblijfsel van het volk. Zeg:", "2 Sam 13:16": "Toen zei zij tegen hem: Er is geen reden om mij weg te sturen; dit kwaad zou groter zijn dan het andere dat u mij hebt aangedaan; maar hij wilde niet naar haar luisteren.", "2 Kon 11:21": "Joas was zeven jaar oud, toen hij koning werd.", "2 Sam 15:8": "Want uw knecht heeft een gelofte gedaan, toen ik te Gesur in Syrië woonde, en zei: Als de HEERE mij werkelijk terug naar Jeruzalem zal brengen, dan zal ik de HEERE dienen.", "2 Kon 24:6": "En Jojakim ontsliep met zijn vaderen; en zijn zoon Jojachin werd koning in zijn plaats.", "2 Sam 14:32": "En Absalom zei tegen Joab: Zie, ik heb naar u gestuurd, en gezegd: Kom hierheen, zodat ik u naar de koning kan sturen, om te zeggen: Waarom ben ik uit Gesur gekomen? Het was beter voor mij geweest, als ik daar nog was; nu dan, laat mij het gezicht van de koning zien; en is er dan nog een misdaad in mij, laat hij mij dan doden.", "2 Kron 33:21": "Amon was tweeëntwintig jaar oud, toen hij koning werd, en hij regeerde twee jaar te Jeruzalem.", "2 Kron 36:1": "Toen nam het volk van het land Joahaz, de zoon van Josia, en zij maakten hem koning in de plaats van zijn vader, te Jeruzalem.", "Matt 1:9": "en Uzzia verwekte Jotham, en Jotham verwekte Achaz, en Achaz verwekte Hizkia;", "Ezra 5:2": "Toen maakten Zerubbabel, de zoon van Sealthiël, en Jesua, de zoon van Jozadak, zich op en begonnen het huis van God te bouwen, Dat te Jeruzalem woont; en met hen de profeten van God, die hen ondersteunden.", "Ezra 2:2": "Die kwamen met Zerubbabel: Jesua, Nehemia, Seraja, Reelaja, Mordechai, Bilsan, Mizpar, Bigvai, Rehum en Baëna. Dit is het aantal mannen van het volk van Israël.", "2 Kon 15:30": "En Hosea, de zoon van Ela, smeedde een samenzwering tegen Pekah, de zoon van Remalia, en sloeg hem neer, en doodde hem, en werd koning in zijn plaats; in het twintigste jaar van Jotham, de zoon van Uzzia.", "Matt 1:12": "En na de Babylonische wegvoering verwekte Jechonia Sealthiël, en Sealthiël verwekte Zerubbabel;", "1 Kron 28:6": "En Hij heeft tegen mij gezegd: Uw zoon Salomo, die zal Mijn huis en Mijn voorhoven bouwen; want Ik heb hem voor Mij verkoren tot een zoon, en Ik zal hem tot een Vader zijn.", "2 Sam 13:6": "Amnon legde zich toen neer, en deed alsof hij ziek was. Toen nu de koning kwam om hem te zien, zei Amnon tegen de koning: Laat toch mijn zuster Thamar komen, dat zij twee koekjes voor mijn ogen klaarmaakt, en ik ze uit haar hand eet.", "2 Sam 13:32": "Maar Jonadab, de zoon van Simea, Davids broer, antwoordde en zei: Mijn heer moet niet denken dat zij alle jongemannen, de zonen van de koning, gedood hebben; maar Amnon alleen is dood; want Absalom had dit van tevoren zo besloten, vanaf de dag dat hij zijn zuster Thamar verkracht heeft.", "Joz 13:13": "Maar de kinderen van Israël verdreven de Gezurieten en de Maachathieten niet; maar Gezur en Maachath woonden midden in Israël tot op deze dag.", "2 Sam 13:1": "Het gebeurde daarna dat Absalom, Davids zoon, een mooie zuster had, wier naam Thamar was, en Amnon, Davids zoon, kreeg haar lief.", "2 Kon 23:34": "Ook maakte Farao Necho Eljakim, de zoon van Josia, koning, in de plaats van zijn vader Josia, en veranderde zijn naam in Jojakim; maar Joahaz nam hij mee, en hij kwam in Egypte, en stierf daar.", "2 Sam 5:5": "In Hebron regeerde hij over Juda zeven jaar en zes maanden; en in Jeruzalem regeerde hij drieëndertig jaar over heel Israël en Juda.", "Hagg 2:5": "Toch nu, wees sterk, Zerubbabel! spreekt de HEERE; en wees sterk, Josua, zoon van Jozadak, hogepriester! en wees sterk, al u volk van het land! spreekt de HEERE; en werk, want Ik ben met u, spreekt de HEERE van de heerscharen;", "2 Sam 12:24": "Daarna troostte David zijn vrouw Bathseba, en ging naar haar toe, en lag bij haar; en zij baarde een zoon, wiens naam zij Salomo noemde; en de HEERE had hem lief,", "1 Kon 11:43": "Daarna ontsliep Salomo met zijn vaderen, en werd begraven in de stad van zijn vader David; en Rehabeam, zijn zoon, werd koning in zijn plaats.", "2 Sam 13:29": "En Absaloms knechten deden met Amnon zoals Absalom geboden had. Toen stonden alle zonen van de koning op, en reden ieder op zijn muildier, en vluchtten.", "2 Sam 13:10": "Toen zei Amnon tegen Thamar: Breng het voedsel in de kamer, dat ik het uit uw hand eet; zo nam Thamar de koekjes die zij gemaakt had, en bracht ze haar broer Amnon in de kamer.", "2 Sam 13:31": "Toen stond de koning op, en scheurde zijn kleren, en ging op de grond liggen; en al zijn knechten stonden erbij met gescheurde kleren.", "Luk 3:31": "de zoon van Meleas, de zoon van Mainan, de zoon van Mattatha, de zoon van Nathan, de zoon van David,", "Matt 1:6": "en Isaï verwekte David, de koning; en David, de koning, verwekte Salomo bij haar die de vrouw van Uria geweest was;", "2 Sam 5:16": "En Elischama, en Eljada, en Elifeleth.", "2 Kron 36:5": "Vijfentwintig jaar was Jojakim oud, toen hij koning werd, en hij regeerde elf jaar te Jeruzalem; en hij deed wat slecht was in de ogen van de HEERE, zijn God.", "2 Sam 13:17": "En hij riep zijn knecht die hem diende, en zei: Stuur haar naar buiten, weg van mij, en grendel de deur achter haar dicht.", "2 Sam 13:30": "En het gebeurde, terwijl zij onderweg waren, dat het gerucht David bereikte, dat men zei: Absalom heeft alle zonen van de koning gedood, en er is niet één van hen overgebleven.", "2 Kon 8:24": "En Joram stierf en werd bij zijn voorvaderen begraven, in de stad van David; en Ahazia, zijn zoon, werd koning in zijn plaats.", "2 Kon 23:30": "En zijn knechten voerden hem dood op een wagen van Megiddo, en brachten hem naar Jeruzalem, en begroeven hem in zijn graf; en het volk van het land nam Joahaz, de zoon van Josia, en zalfde hem, en maakte hem koning in de plaats van zijn vader.", "1 Kon 14:31": "En Rehabeam ontsliep met zijn vaderen, en werd begraven bij zijn vaderen in de stad van David; en de naam van zijn moeder was Naäma, de Ammonietische; en zijn zoon Abiam regeerde in zijn plaats.", "2 Kron 27:1": "Jotham was vijfentwintig jaar oud toen hij koning werd, en hij regeerde zestien jaar in Jeruzalem; en de naam van zijn moeder was Jerusa, een dochter van Zadok.", "2 Sam 13:2": "En Amnon werd zo door haar in beslag genomen dat hij er ziek van werd, vanwege zijn zuster Thamar; want zij was een maagd, zodat het in Amnons ogen onmogelijk leek haar iets te doen.", "1 Sam 14:5": "De ene rots lag naar het noorden, tegenover Michmas, en de andere naar het zuiden, tegenover Geba.", "1 Kon 2:11": "De dagen nu dat David over Israël geregeerd heeft, zijn veertig jaar; zeven jaar heeft hij geregeerd in Hebron, en in Jeruzalem heeft hij drieëndertig jaar geregeerd.", "2 Kron 25:1": "Amazia werd koning toen hij vijfentwintig jaar oud was, en hij regeerde negenentwintig jaar in Jeruzalem; en de naam van zijn moeder was Joaddan, van Jeruzalem.", "2 Sam 13:11": "Toen zij ze naar hem toe bracht om te eten, greep hij haar vast, en zei tegen haar: Kom, lig bij mij, mijn zuster!", "Matt 1:8": "en Asa verwekte Josafat, en Josafat verwekte Joram, en Joram verwekte Uzzia;", "Ezra 3:8": "In het tweede jaar van hun aankomst bij het huis van God te Jeruzalem, in de tweede maand, begonnen Zerubbabel, de zoon van Sealthiël, en Jesua, de zoon van Jozadak, en de rest van hun broeders, de priesters en de Levieten, en allen die uit de gevangenschap te Jeruzalem gekomen waren; en zij stelden de Levieten aan, van twintig jaar oud en daarboven, om toezicht te houden op het werk van het huis van de HEERE.", "1 Kon 15:8": "En Abiam ontsliep met zijn vaderen, en zij begroeven hem in de stad van David; en Asa, zijn zoon, regeerde in zijn plaats.", "2 Sam 2:11": "Het getal nu van de dagen dat David koning geweest is te Hebron, over het huis van Juda, is zeven jaar en zes maanden.", "1 Kon 15:6": "En er was oorlog geweest tussen Rehabeam en Jerobeam, al de dagen van zijn leven.", "1 Sam 27:3": "En David bleef bij Achis in Gath, hij en zijn mannen, ieder met zijn huisgezin; David met zijn beide vrouwen, Ahinoam, de Jizreëlietische, en Abigaïl, de vrouw van Nabal, de Karmelietische.", "2 Kon 24:18": "Zedekia was eenentwintig jaar oud toen hij koning werd, en hij regeerde elf jaar in Jeruzalem; en de naam van zijn moeder was Hamutal, een dochter van Jeremia, uit Libna.", "Ezra 3:2": "En Jesua, de zoon van Jozadak, maakte zich op, en zijn broeders, de priesters, en Zerubbabel, de zoon van Sealthiël, en zijn broeders, en zij bouwden het altaar van de God van Israël, om daarop brandoffers te offeren, zoals geschreven is in de wet van Mozes, de man Gods.", "1 Sam 25:43": "Ook nam David Ahinoam van Jizreël; zo werden ook die beiden hem tot vrouwen.", "1 Kon 15:1": "In het achttiende jaar van koning Jerobeam, de zoon van Nebat, werd Abiam koning over Juda.", "Matt 1:11": "en Josia verwekte Jechonia en zijn broers, ten tijde van de Babylonische wegvoering.", "2 Kon 14:21": "En het hele volk van Juda nam Azaria (die toen zestien jaar oud was), en maakte hem koning in de plaats van zijn vader Amazia.", "2 Sam 13:4": "Die zei tegen hem: Waarom bent u, dag na dag, zo mager, u koningszoon, zult u het mij niet vertellen? Toen zei Amnon tegen hem: Ik heb Thamar, de zuster van mijn broer Absalom, lief.", "2 Kron 29:1": "Hizkia werd koning toen hij vijfentwintig jaar oud was, en regeerde negenentwintig jaar in Jeruzalem; en de naam van zijn moeder was Abia, een dochter van Zacharia.", "2 Sam 13:25": "Maar de koning zei tegen Absalom: Nee, mijn zoon, laten we toch niet allemaal samen gaan, opdat wij u niet tot last zijn; en hij drong bij hem aan, doch hij wilde niet gaan, maar zegende hem.", "2 Sam 13:18": "Zij droeg een veelkleurige mantel; want zo werden de dochters van de koning die nog maagd waren gekleed. En zijn dienaar bracht haar naar buiten, en grendelde de deur achter haar dicht.", "Matt 1:10": "en Hizkia verwekte Manasse, en Manasse verwekte Amon, en Amon verwekte Josia;", "2 Sam 13:14": "Doch hij wilde niet naar haar luisteren; maar omdat hij sterker was dan zij, verkrachtte hij haar, en lag bij haar.", "2 Sam 14:23": "Zo maakte Joab zich op, en ging naar Gesur; en hij bracht Absalom naar Jeruzalem.", "1 Kron 2:23": "En hij nam Gesur en Aram, met de vlekken van Jaïr, van hen, met Kenath en haar onderhorige plaatsen, zestig steden. Deze allen zijn zonen van Machir, de vader van Gilead.", "2 Kron 36:9": "Acht jaar was Jojachin oud, toen hij koning werd, en hij regeerde drie maanden en tien dagen te Jeruzalem, en deed wat slecht was in de ogen van de HEERE.", "2 Sam 18:18": "Absalom nu had tijdens zijn leven voor zichzelf een gedenkzuil opgericht, die in het koningsdal staat; want hij zei: Ik heb geen zoon om aan mijn naam te doen denken; en hij had die zuil naar zijn eigen naam genoemd; daarom wordt die tot op deze dag Absaloms hand genoemd.", "2 Sam 13:26": "Toen zei Absalom: Als het dan niet kan, laat toch mijn broer Amnon met ons meegaan. Maar de koning zei tegen hem: Waarom zou hij met u meegaan?", "2 Sam 12:25": "en zond een boodschap door de hand van de profeet Nathan, en noemde zijn naam Jedid-jah, omwille van de HEERE.", "2 Kron 21:17": "Zij trokken op tegen Juda, braken erin door en voerden al het bezit weg dat in het huis van de koning gevonden werd, zelfs ook zijn kinderen en zijn vrouwen; zodat hem geen zoon overbleef, behalve Joahaz, de jongste van zijn zonen.", "1 Kon 22:51": "En Josafat ontsliep met zijn vaderen, en werd bij zijn vaderen begraven in de stad van zijn vader David; en zijn zoon Joram werd koning in zijn plaats.", "Matt 1:7": "en Salomo verwekte Rehabeam, en Rehabeam verwekte Abia, en Abia verwekte Asa;", "2 Kon 18:1": "Het gebeurde nu in het derde jaar van Hosea, de zoon van Ela, de koning van Israël, dat Hizkia koning werd, de zoon van Achaz, koning van Juda.", "1 Kron 14:5": "En Jibchar, en Elisua, en Elpelet,", "2 Sam 13:27": "Toen Absalom bij hem aandrong, liet hij Amnon en alle zonen van de koning met hem meegaan.", "2 Sam 11:3": "En David zond iemand, en liet naar deze vrouw navragen; en men zei: Is dat niet Bathseba, de dochter van Eliam, de vrouw van Uria, de Hethiet?", "2 Kron 33:1": "Manasse was twaalf jaar oud, toen hij koning werd, en hij regeerde vijfenvijftig jaar te Jeruzalem.", "2 Kon 24:8": "Jojachin was achttien jaar oud toen hij koning werd, en regeerde drie maanden in Jeruzalem; en de naam van zijn moeder was Nehusta, een dochter van Elnathan, uit Jeruzalem.", "Luk 3:27": "de zoon van Johannes, de zoon van Rhesa, de zoon van Zorobabel, de zoon van Salathiël, de zoon van Neri,", "2 Sam 5:15": "En Ibchar, en Elischua, en Nefeg, en Jafia,", "2 Kon 15:5": "En de HEERE plaagde de koning, zodat hij melaats werd tot de dag van zijn dood; en hij woonde in een afgezonderd huis, terwijl Jotham, de zoon van de koning, over het huis ging en het volk van het land rechtsprak.", "2 Sam 18:33": "Toen raakte de koning zeer ontroerd, en ging naar boven, naar de bovenzaal boven de poort, en huilde; en al gaande zei hij dit: Mijn zoon Absalom, mijn zoon, mijn zoon Absalom! Was ik maar, was ik maar in uw plaats gestorven, Absalom, mijn zoon, mijn zoon!", "2 Kon 24:17": "En de koning van Babel maakte Mattanja, diens oom, koning in zijn plaats, en veranderde zijn naam in Zedekia.", "2 Sam 5:13": "En David nam nog meer bijvrouwen en vrouwen uit Jeruzalem, nadat hij uit Hebron gekomen was; en David werden nog meer zonen en dochters geboren.", "1 Kron 14:4": "Dit nu zijn de namen van de kinderen die hij te Jeruzalem had: Sammua, en Sobab, Nathan en Salomo,", "1 Sam 25:42": "Abigaïl nu haastte zich, en maakte zich op, en zij reed op een ezel, met haar vijf jonge dienaressen, die haar voetstappen navolgden; zij dan volgde de boden van David na, en zij werd hem tot vrouw.", "1 Kon 2:25": "En de koning Salomo stuurde Benaja, de zoon van Jojada; die viel op hem aan, zodat hij stierf.", "2 Sam 13:28": "Absalom nu gebood zijn knechten: Let er nu op, wanneer Amnons hart vrolijk is van de wijn, en ik tegen u zeg: Sla Amnon neer, dan zult u hem doden; wees niet bang; heb ik het u niet geboden? Wees sterk en wees dapper.", "2 Sam 5:14": "En dit zijn de namen van hen die hem in Jeruzalem geboren zijn: Schammua, en Schobab, en Nathan, en Salomo.", "2 Sam 13:21": "Toen koning David al deze dingen hoorde, werd hij zeer boos.", "2 Sam 13:9": "En zij nam een pan, en goot ze voor hem uit; maar hij weigerde te eten. En Amnon zei: Laat iedereen bij mij weggaan. En iedereen ging bij hem weg.", "2 Kron 14:1": "Zo ontsliep Abia met zijn vaderen, en zij begroeven hem in de stad van David, en zijn zoon Asa werd koning in zijn plaats. In zijn dagen was het land tien jaren stil.", "2 Kon 22:1": "Josia was acht jaar oud, toen hij koning werd, en regeerde eenendertig jaar te Jeruzalem; en de naam van zijn moeder was Jedida, een dochter van Adaja, uit Bozkath.", "2 Kron 13:1": "In het achttiende jaar van koning Jerobeam werd Abia koning over Juda.", "2 Kon 15:32": "In het tweede jaar van Pekah, de zoon van Remalia, de koning van Israël, werd Jotham koning, de zoon van Uzzia, de koning van Juda.", "2 Sam 13:19": "Toen nam Thamar as en strooide die op haar hoofd, en scheurde de veelkleurige mantel die zij aanhad; en zij legde haar hand op haar hoofd, en liep luid schreiend weg.", "2 Sam 5:4": "Dertig jaar was David oud, toen hij koning werd; veertig jaar heeft hij geregeerd.", "1 Kon 1:5": "Adonia nu, de zoon van Haggith, verhief zich en zei: Ik zal koning zijn; en hij bereidde zich wagens en ruiters, en vijftig mannen die voor hem uit liepen.", "2 Sam 13:23": "En het gebeurde, na twee volle jaren, dat Absalom schaapscheerders had bij Baäl-Hazor, dat bij Efraïm ligt; en Absalom nodigde alle zonen van de koning uit.", "2 Sam 3:5": "en de zesde, Jithream, van Egla, Davids vrouw. Deze zonen werden David geboren in Hebron.", "1 Kron 14:7": "En Elisama, en Beëljada, en Elifelet.", "2 Sam 13:3": "Maar Amnon had een vriend, wiens naam Jonadab was, een zoon van Simea, Davids broer; en Jonadab was een zeer sluwe man.", "2 Sam 6:23": "Michal nu, de dochter van Saul, had geen kind, tot de dag van haar dood toe.", "Jer 22:28": "Is dan deze man Chonia een veracht, verbrijzeld afgodsbeeld? Of is hij een vat waaraan men geen lust heeft? Waarom zijn hij en zijn nageslacht weggeworpen, ja, weggeworpen in een land dat zij niet kennen?", "Jer 22:18": "Daarom zegt de HEERE zo van Jojakim, zoon van Josia, koning van Juda: Zij zullen hem niet beklagen: Och, mijn broeder! of, och, zuster! Zij zullen hem niet beklagen: Och, heer! of, och, zijn majesteit!", "Ezra 8:2": "Van de kinderen van Pinehas, Gersom; van de kinderen van Ithamar, Daniël; van de kinderen van David, Hattus.", "2 Sam 18:14": "Toen zei Joab: Ik zal hier zo niet langer bij u blijven wachten; en hij nam drie pijlen in zijn hand, en stak ze in het hart van Absalom, terwijl hij nog leefde, midden in de eik.", "2 Kon 16:1": "In het zeventiende jaar van Pekah, de zoon van Remalia, werd Achaz koning, de zoon van Jotham, de koning van Juda.", "2 Sam 13:37": "(Absalom nu vluchtte, en ging naar Thalmai, de zoon van Ammihur, koning van Gesur.) En hij droeg rouw over zijn zoon, al die dagen.", "2 Sam 3:4": "en de vierde, Adonia, de zoon van Haggith; en de vijfde Sefatja, de zoon van Abital;", "2 Kron 17:1": "En zijn zoon Josafat werd koning in zijn plaats, en hij maakte zich sterk tegen Israël.", "2 Sam 13:38": "Zo vluchtte Absalom, en ging naar Gesur; en hij was daar drie jaar.", "1 Kron 14:6": "En Nogah, en Nefeg, en Jafia,", "1 Kron 28:5": "En uit al mijn zonen (want de HEERE heeft mij veel zonen gegeven) heeft Hij mijn zoon Salomo verkoren, dat hij zou zitten op de troon van het koninkrijk van de HEERE over Israël."}, "noten": {}, "koppeling": {"1": "Dit <span class=\"wl\" data-l=\"L1\" data-code=\"H1971\">waren</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1971\">de</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1732\">David</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H834\">die</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H2275\">hem</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H2275\">in</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H2275\">Hebron</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H3205\">geboren</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H3205\">zijn</span>: <span class=\"wl\" data-l=\"L7\" data-code=\"H1060\">de</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H1060\">eerstgeborene</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H550\">Amnon</span>, <span class=\"wl\" data-l=\"L8\" data-code=\"H550\">van</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H293\">Ahinoam</span>, <span class=\"wl\" data-l=\"L9\" data-code=\"H293\">de</span> <span class=\"wl\" data-l=\"L10\" data-code=\"H3159\">Jizreëlietische</span>; <span class=\"wl\" data-l=\"L10\" data-code=\"H3159\">de</span> <span class=\"wl\" data-l=\"L11\" data-code=\"H8145\">tweede</span> <span class=\"wl\" data-l=\"L12\" data-code=\"H1840\">Daniël</span>, <span class=\"wl\" data-l=\"L12\" data-code=\"H1840\">van</span> <span class=\"wl\" data-l=\"L13\" data-code=\"H26\">Abigaïl</span>, <span class=\"wl\" data-l=\"L13\" data-code=\"H26\">de</span> <span class=\"wl\" data-l=\"L14\" data-code=\"H3762\">Karmelietische</span>;", "2": "<span class=\"wl\" data-l=\"L1\" data-code=\"H7992\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H7992\">derde</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H53\">Absalom</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H53\">de</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H4601\">Maächa</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H4601\">de</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H1323\">dochter</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H1323\">van</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H8526\">Thalmai</span>, <span class=\"wl\" data-l=\"L6\" data-code=\"H8526\">de</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H4428\">koning</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H4428\">van</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H1650\">Gesur</span>; <span class=\"wl\" data-l=\"L8\" data-code=\"H1650\">de</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H7243\">vierde</span> <span class=\"wl\" data-l=\"L10\" data-code=\"H138\">Adonia</span>, <span class=\"wl\" data-l=\"L10\" data-code=\"H138\">de</span> <span class=\"wl\" data-l=\"L11\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L11\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L12\" data-code=\"H2294\">Haggith</span>;", "3": "<span class=\"wl\" data-l=\"L1\" data-code=\"H2549\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H2549\">vijfde</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H8203\">Sefatja</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H8203\">van</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H37\">Abital</span>; <span class=\"wl\" data-l=\"L3\" data-code=\"H37\">de</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H8345\">zesde</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H3507\">Jithream</span>, <span class=\"wl\" data-l=\"L5\" data-code=\"H3507\">van</span> zijn vrouw <span class=\"wl\" data-l=\"L6\" data-code=\"H5698\">Egla</span>.", "4": "<span class=\"wl\" data-l=\"L1\" data-code=\"H8337\">Zes</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H8337\">zijn</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H2275\">hem</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H2275\">in</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H2275\">Hebron</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3205\">geboren</span>; <span class=\"wl\" data-l=\"L4\" data-code=\"H4427\">want</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H4427\">hij</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H4427\">regeerde</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H8033\">daar</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H7651\">zeven</span> jaar <span class=\"wl\" data-l=\"L1\" data-code=\"H8337\">en</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H8337\">zes</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H2320\">maanden</span>; <span class=\"wl\" data-l=\"L8\" data-code=\"H7969\">en</span> drieëndertig jaar <span class=\"wl\" data-l=\"L9\" data-code=\"H4427\">regeerde</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H4427\">hij</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H4427\">in</span> <span class=\"wl\" data-l=\"L10\" data-code=\"H3389\">Jeruzalem</span>.", "5": "Dit <span class=\"wl\" data-l=\"L1\" data-code=\"H3389\">nu</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3389\">zijn</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3389\">hem</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3389\">in</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3389\">Jeruzalem</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H3205\">geboren</span>: <span class=\"wl\" data-l=\"L3\" data-code=\"H8092\">Simea</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H7727\">en</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H7727\">Sobab</span>, <span class=\"wl\" data-l=\"L5\" data-code=\"H5416\">en</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H5416\">Nathan</span>, <span class=\"wl\" data-l=\"L6\" data-code=\"H8010\">en</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H8010\">Salomo</span>; <em>deze</em> <span class=\"wl\" data-l=\"L7\" data-code=\"H702\">vier</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H702\">zijn</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H1340\">van</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H1340\">Bath</span>-<span class=\"wl\" data-l=\"L8\" data-code=\"H1340\">Sua</span>, <span class=\"wl\" data-l=\"L8\" data-code=\"H1340\">de</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H1323\">dochter</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H1323\">van</span> <span class=\"wl\" data-l=\"L10\" data-code=\"H5988\">Ammiël</span>;", "6": "<span class=\"wl\" data-l=\"L1\" data-code=\"H2984\">daartoe</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H2984\">Jibchar</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H476\">en</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H476\">Elisama</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H467\">en</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H467\">Elifelet</span>,", "7": "<span class=\"wl\" data-l=\"L1\" data-code=\"H5052\">en</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H5052\">Nogah</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H5298\">en</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H5298\">Nefeg</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H3309\">en</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3309\">Jafia</span>,", "8": "<span class=\"wl\" data-l=\"L1\" data-code=\"H476\">en</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H476\">Elisama</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H450\">en</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H450\">Eljada</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H467\">en</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H467\">Elifelet</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H8672\">negen</span>.", "9": "<em>Deze</em> <span class=\"wl\" data-l=\"L1\" data-code=\"H3605\">allen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H3605\">zijn</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1121\">zonen</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1732\">David</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H4480\">behalve</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1121\">de</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1121\">van</span> de bijvrouwen, <span class=\"wl\" data-l=\"L5\" data-code=\"H8559\">en</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H8559\">Thamar</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H8559\">hun</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H269\">zuster</span>.", "10": "<span class=\"wl\" data-l=\"L1\" data-code=\"H8010\">Salomo</span>'<span class=\"wl\" data-l=\"L1\" data-code=\"H8010\">s</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H7346\">nu</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H7346\">was</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H7346\">Rehabeam</span>; <span class=\"wl\" data-l=\"L3\" data-code=\"H7346\">zijn</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H29\">Abia</span>; <span class=\"wl\" data-l=\"L5\" data-code=\"H29\">zijn</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H609\">Asa</span>; <span class=\"wl\" data-l=\"L7\" data-code=\"H609\">zijn</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H3092\">Josafat</span>;", "11": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zijn</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H3141\">Joram</span>; <span class=\"wl\" data-l=\"L2\" data-code=\"H3141\">zijn</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H274\">Ahazia</span>; <span class=\"wl\" data-l=\"L4\" data-code=\"H274\">zijn</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H3101\">Joas</span>;", "12": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zijn</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H558\">Amazia</span>; <span class=\"wl\" data-l=\"L2\" data-code=\"H558\">zijn</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H5838\">Azaria</span>; <span class=\"wl\" data-l=\"L4\" data-code=\"H5838\">zijn</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H3147\">Jotham</span>;", "13": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zijn</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H271\">Achaz</span>; <span class=\"wl\" data-l=\"L2\" data-code=\"H271\">zijn</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H2396\">Hizkia</span>; <span class=\"wl\" data-l=\"L4\" data-code=\"H2396\">zijn</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H4519\">Manasse</span>;", "14": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zijn</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H526\">Amon</span>; <span class=\"wl\" data-l=\"L2\" data-code=\"H526\">zijn</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H2977\">Josia</span>.", "15": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zonen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H2977\">Josia</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1060\">nu</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1060\">waren</span> deze: <span class=\"wl\" data-l=\"L3\" data-code=\"H1060\">de</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1060\">eerstgeborene</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H3110\">Johanan</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H3110\">de</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H8145\">tweede</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H3079\">Jojakim</span>, <span class=\"wl\" data-l=\"L6\" data-code=\"H3079\">de</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H7992\">derde</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H6667\">Zedekia</span>, <span class=\"wl\" data-l=\"L8\" data-code=\"H6667\">de</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H7243\">vierde</span> <span class=\"wl\" data-l=\"L10\" data-code=\"H7967\">Sallum</span>.", "16": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H3079\">Jojakim</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3204\">nu</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H3204\">waren</span>: <span class=\"wl\" data-l=\"L3\" data-code=\"H3204\">Jechonia</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zijn</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zoon</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H6667\">Zedekia</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zijn</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zoon</span>.", "17": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">En</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H3204\">Jechonia</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H617\">waren</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H617\">Assir</span>; <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zijn</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">zoon</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">was</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H7597\">Sealthiël</span>;", "18": "Zijn <em>zonen</em> <span class=\"wl\" data-l=\"L1\" data-code=\"H4443\">waren</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H4443\">Malchiram</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H6305\">en</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H6305\">Pedaja</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H8137\">en</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H8137\">Senazar</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H3359\">Jekamja</span>, <span class=\"wl\" data-l=\"L5\" data-code=\"H1953\">Hosama</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H5072\">en</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H5072\">Nedabja</span>.", "19": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H6305\">Pedaja</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H2216\">nu</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H2216\">waren</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H2216\">Zerubbabel</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">en</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H8096\">Simeï</span>; <span class=\"wl\" data-l=\"L4\" data-code=\"H8096\">en</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H2216\">Zerubbabel</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H4918\">waren</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H4918\">Mesullam</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H8019\">en</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H2608\">Hananja</span>; <span class=\"wl\" data-l=\"L6\" data-code=\"H2608\">en</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H8019\">Selomith</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H8019\">was</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H269\">hun</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H269\">zuster</span>;", "20": "<span class=\"wl\" data-l=\"L1\" data-code=\"H2807\">en</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H2807\">Hasuba</span>, <span class=\"wl\" data-l=\"L2\" data-code=\"H169\">en</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H169\">Ohel</span>, <span class=\"wl\" data-l=\"L3\" data-code=\"H1296\">en</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1296\">Berechja</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H2619\">en</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H2619\">Hasadja</span>, Jusab-Hesed; <span class=\"wl\" data-l=\"L5\" data-code=\"H2568\">vijf</span>.", "21": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H2608\">Hananja</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H6410\">nu</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H6410\">waren</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H6410\">Pelatja</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H3470\">en</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H3470\">Jesaja</span>. <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H7509\">Refaja</span>, <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H770\">Arnan</span>, <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H5662\">Obadja</span>, <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H7935\">Sechanja</span>.", "22": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">De</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H7935\">nu</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H7935\">van</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H7935\">Sechanja</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H8098\">waren</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H8098\">Semaja</span>; <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">en</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H8098\">Semaja</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H2407\">waren</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H2407\">Hattus</span>, <span class=\"wl\" data-l=\"L8\" data-code=\"H8202\">en</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H3008\">Jigeal</span>, <span class=\"wl\" data-l=\"L5\" data-code=\"H3008\">en</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H1282\">Bariah</span>, <span class=\"wl\" data-l=\"L6\" data-code=\"H1282\">en</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H5294\">Nearja</span>, <span class=\"wl\" data-l=\"L7\" data-code=\"H5294\">en</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H8202\">Safat</span>; <span class=\"wl\" data-l=\"L9\" data-code=\"H8337\">zes</span>.", "23": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">En</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H5294\">Nearja</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H454\">waren</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H454\">Eljoenai</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H2396\">en</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H2396\">Hizkia</span>, <span class=\"wl\" data-l=\"L5\" data-code=\"H5840\">en</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H5840\">Azrikam</span>; <span class=\"wl\" data-l=\"L6\" data-code=\"H7969\">drie</span>.", "24": "<span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">En</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">de</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">kinderen</span> <span class=\"wl\" data-l=\"L1\" data-code=\"H1121\">van</span> <span class=\"wl\" data-l=\"L2\" data-code=\"H454\">Eljoenai</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1939\">waren</span> <span class=\"wl\" data-l=\"L3\" data-code=\"H1939\">Hodajeva</span>, <span class=\"wl\" data-l=\"L4\" data-code=\"H475\">en</span> <span class=\"wl\" data-l=\"L4\" data-code=\"H475\">Eljasib</span>, <span class=\"wl\" data-l=\"L5\" data-code=\"H6411\">en</span> <span class=\"wl\" data-l=\"L5\" data-code=\"H6411\">Pelaja</span>, <span class=\"wl\" data-l=\"L6\" data-code=\"H6126\">en</span> <span class=\"wl\" data-l=\"L6\" data-code=\"H6126\">Akkub</span>, <span class=\"wl\" data-l=\"L7\" data-code=\"H3110\">en</span> <span class=\"wl\" data-l=\"L7\" data-code=\"H3110\">Johanan</span>, <span class=\"wl\" data-l=\"L8\" data-code=\"H1806\">en</span> <span class=\"wl\" data-l=\"L8\" data-code=\"H1806\">Delaja</span>, <span class=\"wl\" data-l=\"L9\" data-code=\"H6054\">en</span> <span class=\"wl\" data-l=\"L9\" data-code=\"H6054\">Anani</span>; <span class=\"wl\" data-l=\"L10\" data-code=\"H7651\">zeven</span>."}};
+const HFD = D.meta.hfd_naam;        // weergavenaam, bv. "Johannes 3"
+const ZELF = D.meta.zelf_abbr;      // afkorting binnen dit hoofdstuk, bv. "Joh 3"
+const BASIS_URL = D.meta.basis_url;
+const PARALLEL_VOLGORDE = ['SVnu', 'SV', 'KJV'];
+let vertaling = 'SVnu';
+let parallel = false;
+let openVers = null;
+
+const bijbel = document.getElementById('bijbel');
+const popup = document.getElementById('popup');
+const toast = document.getElementById('toast');
+const nummers = Object.keys(D.vertalingen.SVnu);
+
+/* ---------- navigatie: kruimelpad + hoofdstukbalk ---------- */
+document.getElementById('kruimel-home').href = D.meta.home_href;
+document.getElementById('kruimel-boek').href = D.meta.boek_href;
+(function bouwHfdnav() {
+  const m = D.meta;
+  const opties = m.hoofdstukken.map(h =>
+    `<option value="${h.href}"${h.n === m.hfd_nr ? ' selected' : ''}>${h.n}</option>`).join('');
+  document.getElementById('hfdnav').innerHTML =
+    (m.vorige ? `<a class="navknop" href="${m.vorige.href}">${m.vorige.label}</a>` : '<span class="navknop uit">‹</span>') +
+    `<span class="midden"><a class="navknop" href="${m.boek_href}">${m.boek_naam}</a> ` +
+    `<select id="hfdkies">${opties}</select> / ${m.totaal}</span>` +
+    (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
+  document.getElementById('hfdkies').onchange = e => { location.href = e.target.value; };
+})();
+
+// verwijzing -> URL van het doel-hoofdstuk (relatief), of null
+function refUrl(ref) {
+  const m = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  if (!m) return null;
+  const slug = D.meta.slugmap[m[1]];
+  return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
+}
+
+// popup positioneren bij een element
+function plaatsPopup(el, html) {
+  popup.innerHTML = html;
+  const r = el.getBoundingClientRect();
+  popup.style.display = 'block';
+  popup.style.left = Math.max(8, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 400)) + 'px';
+  popup.style.top = (r.bottom + window.scrollY + 6) + 'px';
+}
+
+// noten-lijst onderaan opbouwen
+(function vulNoten() {
+  const noten = D.noten || {};
+  const keys = Object.keys(noten);
+  if (!keys.length) return;
+  document.getElementById('notenlijst').innerHTML = '<h3>Noten</h3>' +
+    keys.map(n => `<div class="nootregel" id="noot-${n}"><span class="nn">[${n}]</span>${md(noten[n])}</div>`).join('');
+})();
+
+function md(t) {  // *cursief* -> <em>, noot [n] -> sup
+  t = (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  t = t.replace(/\[(\d+)\]/g, '<sup class="noot" data-noot="$1">$1</sup>');
+  return t;
+}
+
+// Berea-tekst: gebruik de woordgekoppelde HTML (stippellijn onder gelinkte
+// woorden) als die er is; anders gewone md()-weergave.
+function bereaHtml(n) {
+  const k = D.koppeling && D.koppeling[n];
+  if (k) return k;
+  return md(D.vertalingen.SVnu[n] || '—');
+}
+
+/* ---------- vertaling-tabs ---------- */
+const vtabs = document.getElementById('vtabs');
+for (const naam of Object.keys(D.vertalingen)) {
+  const b = document.createElement('button');
+  b.className = 'vtab' + (naam === vertaling ? ' actief' : '');
+  b.textContent = naam;
+  b.onclick = () => { vertaling = naam; parallel = false;
+    document.getElementById('parallelknop').classList.remove('actief');
+    document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', x.textContent === naam));
+    bouwRijen(); };
+  vtabs.appendChild(b);
+}
+document.getElementById('parallelknop').onclick = () => {
+  parallel = !parallel;
+  document.getElementById('parallelknop').classList.toggle('actief', parallel);
+  document.querySelectorAll('.vtab').forEach(x => x.classList.toggle('actief', !parallel && x.textContent === vertaling));
+  bouwRijen();
+};
+
+/* ---------- rijen (her)bouwen ---------- */
+function bouwRijen() {
+  bijbel.innerHTML = '';
+  bijbel.className = parallel ? 'parallel' : '';
+  const kols = PARALLEL_VOLGORDE.filter(k => D.vertalingen[k]);
+  for (const n of nummers) {
+    const rij = document.createElement('div');
+    rij.className = 'vers'; rij.id = 'v' + n;
+    if (parallel) {
+      rij.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+      let cellen = `<div class="vnr">${n}</div>`;
+      for (const k of kols) cellen += `<div class="pcel">${md(D.vertalingen[k][n] || '—')}</div>`;
+      rij.innerHTML = cellen;
+    } else {
+      const tekst = md(D.vertalingen[vertaling][n] || '—');
+      rij.innerHTML = `<div class="vnr">${n}</div><div class="vtekst">${tekst}</div>` +
+        `<button class="kopieer" title="Kopieer vers" data-n="${n}">⧉</button>`;
+    }
+    const paneel = document.createElement('div');
+    paneel.className = 'paneel'; paneel.id = 'p' + n;
+    bijbel.appendChild(rij); bijbel.appendChild(paneel);
+    rij.addEventListener('click', e => { if (!e.target.closest('.kopieer') && !e.target.closest('.noot')) toggle(n); });
+  }
+  // parallelle kolomkoppen bovenaan
+  if (parallel) {
+    const kop = document.createElement('div');
+    kop.className = 'vers'; kop.style.cursor = 'default';
+    kop.style.gridTemplateColumns = `1.6rem repeat(${kols.length}, 1fr)`;
+    kop.innerHTML = `<div class="vnr"></div>` + kols.map(k => `<div class="pk">${k}</div>`).join('');
+    bijbel.prepend(kop);
+  }
+  openVers = null;
+}
+bouwRijen();
+
+/* ---------- kopieerfunctie ---------- */
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  const n = k.dataset.n;
+  const tekst = (D.vertalingen.SVnu[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (SVnu)`).then(() => {
+    toast.classList.add('zichtbaar');
+    setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+  });
+});
+
+/* ---------- naslagpaneel ---------- */
+// Bijbelbrede concordantie: één klein JSON-bestand per Strong's-code,
+// fetch-on-demand (niet in elke pagina embedded — zou de payload van alle
+// 1189 pagina's enorm maken). Basis-pad: twee niveaus omhoog vanaf
+// <slug>/<hfd>/index.html naar de site-root, dan concordantie/<code>.json.
+const concordCache = {};
+async function haalConcordantie(code) {
+  if (!code) return null;
+  if (code in concordCache) return concordCache[code];
+  try {
+    const res = await fetch(`../../concordantie/${code}.json`);
+    concordCache[code] = res.ok ? await res.json() : null;
+  } catch (e) { concordCache[code] = null; }
+  return concordCache[code];
+}
+function concordantieHtml(data) {
+  if (!data) return '<em>Geen concordantie-gegevens gevonden.</em>';
+  return `<div class="tsk-kop">${data.strongs} — ${data.totaal}× in de Bijbel</div>` +
+    data.weergaven.map(w => {
+      const chip = p => `<a class="refchip" data-ref="${p.ref}" data-tekst="${md(p.tekst).replace(/"/g,'&quot;')}">${p.ref}</a>`;
+      const chips = w.plaatsen.slice(0, 10).map(chip).join('');
+      const rest = w.plaatsen.slice(10).map(chip).join('');
+      const meer = w.n > 10 ? `<details class="alle"><summary>alle ${w.n} tonen</summary><div class="ondrefs">${rest}</div></details>` : '';
+      return `<div class="onderwerp"><div class="okop"><span class="naam">${w.vorm}</span><span class="label"> — ${w.n}×</span></div><div class="ondrefs">${chips}</div>${meer}</div>`;
+    }).join('');
+}
+function paneelInhoud(n, tab) {
+  if (tab === 'grondwoorden') {
+    if (!D.koppeling || !D.koppeling[n]) return '<em>Nog geen woordkoppeling voor dit vers.</em>';
+    return `<div class="gw-tekst" style="font-family:Georgia,serif;line-height:1.8">${D.koppeling[n]}</div>` +
+      `<div class="gw-detail" data-n="${n}" style="margin-top:.5rem"></div>` +
+      '<div class="bronregel">Klik op een onderstreept woord voor de vindplaatsen.</div>';
+  }
+  if (tab === 'vertalingen') {
+    return PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
+      `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
+      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+    ).join('');
+  }
+  if (tab === 'verwijzingen') {
+    const items = D.tsk[n];
+    if (!items || !items.length) return '<em>Geen verwijzingen bij dit vers.</em>';
+    return items.map(i => (i.kopje ? `<div class="tsk-kop">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
+      i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('') +
+      '<div class="bronregel">Treasury of Scripture Knowledge — publiek domein</div>';
+  }
+  const items = D.onderwerpen[n];
+  if (!items || !items.length) return '<em>Geen onderwerpen bij dit vers.</em>';
+  return items.map(it => {
+    const pos = it.positie > 0 ? `schakel ${it.positie} van ${it.totaal}` : `${it.totaal} verzen`;
+    const nav = `<div class="schakelnav">` +
+      (it.vorige ? `<a class="refchip" data-ref="${it.vorige}">← ${it.vorige}</a>` : '<span class="pos">begin</span>') +
+      `<span class="pos">${pos}</span>` +
+      (it.volgende ? `<a class="refchip" data-ref="${it.volgende}">${it.volgende} →</a>` : '<span class="pos">einde</span>') +
+      `</div>`;
+    const chips = (it.alle || []).map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') +
+      (it.meer ? `<span class="meer">+${it.meer} meer</span>` : '');
+    const alle = it.totaal > 1 ? `<details class="alle"><summary>alle ${it.totaal} verzen tonen</summary><div class="ondrefs">${chips}</div></details>` : '';
+    return `<div class="onderwerp"><div class="okop"><span class="naam">${it.onderwerp}</span>` +
+      (it.sub ? `<span class="label"> — ${it.sub}</span>` : '') + '</div>' + nav + alle + '</div>';
+  }).join('') +
+    '<div class="bronregel">Nave\'s Topical Bible &amp; Torrey\'s Topical Textbook — publiek domein</div>';
+}
+function renderPaneel(n) {
+  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!(D.onderwerpen[n] && D.onderwerpen[n].length);
+  const heeftG = !!(D.koppeling && D.koppeling[n]);
+  const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : (heeftG ? 'grondwoorden' : 'vertalingen'));
+  return `<div class="ntabs">
+    <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
+    <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
+    <div class="ntab ${eerste === 'grondwoorden' ? 'actief' : ''} ${heeftG ? '' : 'leeg'}" data-tab="grondwoorden" data-n="${n}">Grondwoorden</div>
+    <div class="ntab" data-tab="vertalingen" data-n="${n}">Vertalingen</div>
+  </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
+}
+function toggle(n) {
+  const paneel = document.getElementById('p' + n);
+  if (openVers && openVers !== n) {
+    document.getElementById('p' + openVers).classList.remove('open');
+    document.getElementById('v' + openVers).classList.remove('open');
+  }
+  const isOpen = paneel.classList.toggle('open');
+  document.getElementById('v' + n).classList.toggle('open', isOpen);
+  if (isOpen) { paneel.innerHTML = renderPaneel(n); openVers = n; } else openVers = null;
+}
+
+document.addEventListener('click', e => {
+  const wl = e.target.closest('.wl');
+  if (wl) {
+    e.stopPropagation();
+    const gwTekst = wl.closest('.gw-tekst');
+    if (!gwTekst) return;               // .wl buiten de grondwoorden-tab doet niets (nog) meer
+    const detail = gwTekst.nextElementSibling;  // .gw-detail, direct na .gw-tekst
+    const key = wl.dataset.l;
+    if (detail.dataset.actief === key) {
+      detail.innerHTML = ''; delete detail.dataset.actief;   // zelfde woord: dichtklappen
+    } else {
+      detail.dataset.actief = key;
+      detail.innerHTML = '<em>Laden…</em>';
+      haalConcordantie(wl.dataset.code).then(data => {
+        if (detail.dataset.actief === key) detail.innerHTML = concordantieHtml(data);
+      });
+    }
+    return;
+  }
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    e.stopPropagation();
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const tab = e.target.closest('.ntab');
+  if (tab && !tab.classList.contains('leeg')) {
+    e.stopPropagation();
+    tab.parentElement.querySelectorAll('.ntab').forEach(t => t.classList.remove('actief'));
+    tab.classList.add('actief');
+    tab.parentElement.nextElementSibling.innerHTML = paneelInhoud(tab.dataset.n, tab.dataset.tab);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (chip) {
+    e.stopPropagation();
+    popup.style.display = 'none';
+    const ref = chip.dataset.ref;
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    if (m && document.getElementById('v' + m[1])) {
+      const doel = document.getElementById('v' + m[1]);
+      doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
+      if (openVers !== m[1]) toggle(m[1]);
+    } else {
+      const url = refUrl(ref);
+      if (url) location.href = url;
+      else alert(ref);
+    }
+  }
+});
+
+/* ---------- hover-popups op verwijzingen ---------- */
+function popupTekst(ref) {
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  if (m) return (D.vertalingen.SVnu[m[1]]||'').replace(/\[\d+\]/g, '');
+  return D.extern[ref] || null;
+}
+document.addEventListener('mouseover', e => {
+  const noot = e.target.closest('.noot');
+  if (noot) {
+    const t = (D.noten || {})[noot.dataset.noot];
+    if (t) plaatsPopup(noot, `<div class="pref">Noot ${noot.dataset.noot}</div>${md(t)}`);
+    return;
+  }
+  const chip = e.target.closest('.refchip');
+  if (!chip) return;
+  const ref = chip.dataset.ref;
+  // concordantie-chips dragen hun Berea-tekst al mee (data-tekst, al door md()
+  // gehaald) — die verzen zijn pas na het laden bekend en staan niet in
+  // D.extern (dat wordt alleen bij het genereren gevuld voor TSK/onderwerpen).
+  const html = chip.dataset.tekst !== undefined ? chip.dataset.tekst : md(popupTekst(ref) || '');
+  if (!html) return;
+  plaatsPopup(chip, `<div class="pref">${ref} · SVnu</div>${html}<div class="pklik">Klik om hierheen te gaan</div>`);
+});
+document.addEventListener('mouseout', e => {
+  if (e.target.closest('.refchip, .noot')) popup.style.display = 'none';
+});
+
+/* ---------- vers-anker: binnenkomen via link ~ [Joh 3:16](...#v16) ---------- */
+if (location.hash.match(/^#v\d+$/)) {
+  const n = location.hash.slice(2);
+  const doel = document.getElementById('v' + n);
+  if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
+}
+</script>
+</body>
+</html>

@@ -27,7 +27,7 @@ const SiteHeader: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) =>
         <span class="nav-sep"> | </span>
         <a href={`${baseDir}/de-volle-pinksterzegen`}>Boek</a>
         <span class="nav-sep"> | </span>
-        <a href="https://andre-scholten.nl/bereastudiebijbel/genesis/1/">Bijbel</a>
+        <a href="https://andre-scholten.nl/studiebijbel/genesis/1/">Bijbel</a>
       </nav>
     </div>
   )

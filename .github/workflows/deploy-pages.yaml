@@ -52,8 +52,8 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
 
-      - name: Add BereaStudieBijbel (statische sub-site)
-        run: cp -r bereastudiebijbel public/bereastudiebijbel
+      - name: Add StudieBijbel (statische sub-site)
+        run: cp -r studiebijbel public/studiebijbel
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

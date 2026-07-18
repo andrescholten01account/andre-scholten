@@ -18,7 +18,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
       <div class="site-footer-col">
         <a href={`${baseDir}/basis`}>Basis christelijk geloof</a>
         <a href={`${baseDir}/de-volle-pinksterzegen`}>De Volle Pinksterzegen</a>
-        <a href="https://andre-scholten.nl/bereastudiebijbel/">BereaStudieBijbel</a>
+        <a href="https://andre-scholten.nl/studiebijbel/">StudieBijbel</a>
       </div>
       <div class="site-footer-col site-footer-mid">
         <button type="button" class="footer-search-trigger">
