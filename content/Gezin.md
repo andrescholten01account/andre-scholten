@@ -48,57 +48,6 @@ https://www.reformedreader.org/
 _"I am persuaded that the use of a good Catechism in all our families will be a great safeguard against the increasing errors of the times..."_
 ~ C. H. Spurgeon
 
-## Man
-
-Husband should try to maken home happy and holy.
-~ John Ploughman's Talk (nog nakijken)
-
-- Man / echtgenoot / vaderschap
-- On good nature and firmness (zie boeken John Ploughman)
-
-## Vrouw
-
-## Kinderen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
----
-
-What is Catechism? ➔ artikel
-by Zacharias Ursinus (1534-1583)
-
-https://www.reformedreader.org/wcat.htm
-
----
-
-
-
----
-## [[Schrijven voor kinderen]]
-
----
-
-John Ploughman's Talk + Pictures 
-
-Kind en telefoon
-Kind en God
-Kind en seksualiteit
-
 Baptist catechism for children
 
 ABC van het geloof voor kinderen
@@ -108,7 +57,25 @@ Het Guldenboekje; Eenige bijzonderheden uit den Bijbel en uit de Leer en de Gebr
 
 Naam & Feit
 
-Pagina met een aantal rijm- en gebedenboekjes voor kinderen
+## Man
+
+Husband should try to maken home happy and holy.
+~ John Ploughman's Talk (nog nakijken)
+
+- Man / echtgenoot / vaderschap
+- On good nature and firmness (zie boeken John Ploughman)
+
+John Ploughman's Talk + Pictures 
+
+
+## Vrouw
+
+## Kinderen
+
+Kind en telefoon
+Kind en God
+Kind en seksualiteit
+### Pagina met een aantal rijm- en gebedenboekjes voor kinderen
 
 [[Kleine gedigten voor kinderen]]
 [[Proeve van kleine gedigten voor kinderen - Hiëronymus van Alphen]]
@@ -158,6 +125,31 @@ Hymns in Prose for Children – Anna Laetitia Barbauld
 riginal Poems for Infant Minds – Jane Taylor & Ann Taylor
 
 https://books.google.com/ ➔ hier zoeken?
+
+
+
+What is Catechism? ➔ artikel
+by Zacharias Ursinus (1534-1583)
+
+https://www.reformedreader.org/wcat.htm
+➔ naar geloofsbelijdenissen
+
+
+
+
+
+---
+
+
+
+---
+## [[Schrijven voor kinderen]]
+
+---
+
+
+
+
 
 catechisms for children
 catechismussen voor kinderen
