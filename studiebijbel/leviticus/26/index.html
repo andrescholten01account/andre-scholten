@@ -309,7 +309,7 @@ function concordantieHtml(data) {
     }).join('');
 }
 const BIJBELUITLEG_HTML = [
-  ['Bijbelverklaringen', ['Kanttekeningen Statenvertaling', 'Kanttekeningen Statenvertaling NL']],
+  ['Bijbelverklaringen', ['Kanttekeningen Statenvertaling EN', 'Kanttekeningen Statenvertaling NL']],
 ].map(([kop, items], i) =>
   `<div class="tsk-kop"${i ? ' style="margin-top:.9rem"' : ''}>${kop}</div>` +
   `<ul class="bu-lijst">${items.map(it => `<li>${it}</li>`).join('')}</ul>`
