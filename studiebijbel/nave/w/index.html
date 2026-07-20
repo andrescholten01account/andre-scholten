@@ -121,5 +121,48 @@ ul.item-subs { list-style: circle; margin-top:.2rem; }
     if (e.target.closest && e.target.closest('a.refchip')) popup.style.display = 'none';
   });
 })();
+(function(){
+  var vpopup = document.createElement('div');
+  vpopup.id = 'bijbelvertpopup';
+  vpopup.style.cssText = 'position:fixed;display:none;max-width:420px;background:#fffdf7;border:1px solid #c9b98a;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.8rem 1rem;font-size:.85rem;line-height:1.55;z-index:9999;font-family:Georgia,serif;color:#3a2a1d;';
+  document.body.appendChild(vpopup);
+  var VERTALINGEN = [
+    { naam: 'SVnu', map: 'versteksten' },
+    { naam: 'SV', map: 'versteksten_sv' },
+    { naam: 'KJV', map: 'versteksten_kjv' }
+  ];
+  var vcache = {};
+  function haalVert(map, slug, hfd) {
+    var sleutel = map + ':' + slug + '/' + hfd;
+    if (sleutel in vcache) return vcache[sleutel];
+    vcache[sleutel] = fetch('../../' + map + '/' + slug + '/' + hfd + '.json')
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .catch(function(){ return null; });
+    return vcache[sleutel];
+  }
+  document.addEventListener('contextmenu', function(e){
+    var chip = e.target.closest ? e.target.closest('a.refchip') : null;
+    if (!chip) return;
+    var m = (chip.getAttribute('href') || '').match(/([a-z0-9-]+)\/(\d+)\/#v(\d+)$/);
+    if (!m) return;
+    e.preventDefault();
+    var slug = m[1], hfd = m[2], v = m[3];
+    document.getElementById('popup').style.display = 'none';
+    vpopup.innerHTML = '<div style="text-align:center;color:#8b7355;">laden…</div>';
+    vpopup.style.left = Math.max(4, Math.min(e.clientX, window.innerWidth - 440)) + 'px';
+    vpopup.style.top = Math.max(4, Math.min(e.clientY, window.innerHeight - 40)) + 'px';
+    vpopup.style.display = 'block';
+    Promise.all(VERTALINGEN.map(function(vv){ return haalVert(vv.map, slug, hfd); })).then(function(resultaten){
+      vpopup.innerHTML = VERTALINGEN.map(function(vv, i){
+        var tekst = resultaten[i] && resultaten[i][v];
+        return '<div style="font-family:sans-serif;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">' + vv.naam + '</div>' + (tekst || '<em>Tekst niet gevonden.</em>');
+      }).join('');
+    });
+  });
+  document.addEventListener('click', function(e){
+    if (!e.target.closest('#bijbelvertpopup')) vpopup.style.display = 'none';
+  });
+  document.addEventListener('scroll', function(){ vpopup.style.display = 'none'; }, true);
+})();
 </script>
 </body></html>
