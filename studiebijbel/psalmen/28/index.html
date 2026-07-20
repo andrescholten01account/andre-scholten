@@ -317,21 +317,7 @@ const BIJBELUITLEG_HTML = [
 
 function paneelInhoud(n, tab) {
   if (tab === 'vergelijk') {
-    const heeftB = D.koppeling && D.koppeling[n];
-    const heeftK = D.koppeling_kjv && D.koppeling_kjv[n];
-    let h = '<div class="verg-kop">Grondwoorden</div>';
-    if (!heeftB && !heeftK) {
-      h += '<em>Nog geen woordkoppeling voor dit vers.</em>';
-    } else {
-      if (heeftB) h += `<div class="tsk-kop">SVnu</div>` +
-        `<div class="gw-tekst" style="font-family:Georgia,serif;line-height:1.8">${D.koppeling[n]}</div>` +
-        `<div class="gw-detail" style="margin-top:.5rem"></div>`;
-      if (heeftK) h += `<div class="tsk-kop" style="margin-top:.9rem">KJV</div>` +
-        `<div class="gw-tekst" style="font-family:Georgia,serif;line-height:1.8">${D.koppeling_kjv[n]}</div>` +
-        `<div class="gw-detail" style="margin-top:.5rem"></div>`;
-      h += '<div class="bronregel">Klik op een onderstreept woord voor de vindplaatsen.</div>';
-    }
-    h += '<div class="verg-kop" style="margin-top:1.4rem">Vertalingen</div>';
+    let h = '<div class="verg-kop">Vertalingen</div>';
     h += PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
       `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
       `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
@@ -385,7 +371,7 @@ function renderPaneel(n) {
   return `<div class="ntabs">
     <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
     <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
-    <div class="ntab ${eerste === 'vergelijk' ? 'actief' : ''}" data-tab="vergelijk" data-n="${n}">Vergelijk</div>
+    <div class="ntab ${eerste === 'vergelijk' ? 'actief' : ''}" data-tab="vergelijk" data-n="${n}">Vertalingen</div>
     <div class="ntab" data-tab="bijbeluitleg" data-n="${n}">Bijbeluitleg</div>
   </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
 }
