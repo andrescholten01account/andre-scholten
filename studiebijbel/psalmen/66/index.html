@@ -330,15 +330,16 @@ function paneelInhoud(n, tab) {
   if (tab === 'verwijzingen') {
     const kjvTekst = D.vertalingen.KJV && D.vertalingen.KJV[n];
     const engels = D.tsk_kjv[n];
-    if (!kjvTekst && (!engels || !engels.length)) return '<em>Geen verwijzingen bij dit vers.</em>';
     let h = '';
     if (kjvTekst) {
       h += `<div style="font-family:Georgia,serif;line-height:1.8">${md(kjvTekst)}</div>`;
     }
+    h += '<div class="tsk-kop" style="margin-top:.9rem">Treasury of Scripture Knowledge | KJV</div>';
     if (engels && engels.length) {
-      h += '<div class="tsk-kop" style="margin-top:.9rem">Treasury of Scripture Knowledge | KJV</div>';
       h += engels.map(i => (i.kopje ? `<div class="tsk-sub">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
         i.refs.map(r => `<a class="refchip" data-ref="${r.ref}">${r.disp}</a>`).join('') + '</div>').join('');
+    } else {
+      h += '<em>Geen verwijzingen bij dit vers.</em>';
     }
     return h;
   }
