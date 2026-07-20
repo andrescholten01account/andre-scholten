@@ -328,13 +328,12 @@ function paneelInhoud(n, tab) {
     return BIJBELUITLEG_HTML;
   }
   if (tab === 'verwijzingen') {
-    const berea = D.tsk[n], engels = D.tsk_kjv[n];
-    if ((!berea || !berea.length) && (!engels || !engels.length)) return '<em>Geen verwijzingen bij dit vers.</em>';
+    const kjvTekst = D.vertalingen.KJV && D.vertalingen.KJV[n];
+    const engels = D.tsk_kjv[n];
+    if (!kjvTekst && (!engels || !engels.length)) return '<em>Geen verwijzingen bij dit vers.</em>';
     let h = '';
-    if (berea && berea.length) {
-      h += '<div class="tsk-kop">Treasury of Scripture Knowledge | SVnu</div>';
-      h += berea.map(i => (i.kopje ? `<div class="tsk-sub">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
-        i.refs.map(r => `<a class="refchip" data-ref="${r}">${r}</a>`).join('') + '</div>').join('');
+    if (kjvTekst) {
+      h += `<div style="font-family:Georgia,serif;line-height:1.8">${md(kjvTekst)}</div>`;
     }
     if (engels && engels.length) {
       h += '<div class="tsk-kop" style="margin-top:.9rem">Treasury of Scripture Knowledge | KJV</div>';
@@ -366,7 +365,7 @@ function paneelInhoud(n, tab) {
   return blok("Nave's Topical Bible", o.nave) + blok("Torrey's New Topical Textbook", o.torrey);
 }
 function renderPaneel(n) {
-  const heeftV = !!(D.tsk[n] && D.tsk[n].length), heeftO = !!D.onderwerpen[n];
+  const heeftV = !!(D.vertalingen.KJV && D.vertalingen.KJV[n]) || !!(D.tsk_kjv[n] && D.tsk_kjv[n].length), heeftO = !!D.onderwerpen[n];
   const eerste = heeftV ? 'verwijzingen' : (heeftO ? 'onderwerpen' : 'vergelijk');
   return `<div class="ntabs">
     <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
