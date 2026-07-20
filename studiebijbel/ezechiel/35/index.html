@@ -339,7 +339,7 @@ function paneelInhoud(n, tab) {
       h += engels.map(i => (i.kopje ? `<div class="tsk-sub">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
         i.refs.map(r => `<a class="refchip" data-ref="${r.ref}">${r.disp}</a>`).join('') + '</div>').join('');
     } else {
-      h += '<em>Geen verwijzingen bij dit vers.</em>';
+      h += '<em>Geen verwijzingen</em>';
     }
     return h;
   }
