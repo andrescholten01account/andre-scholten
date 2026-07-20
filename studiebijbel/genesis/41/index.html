@@ -309,11 +309,7 @@ function concordantieHtml(data) {
     }).join('');
 }
 const BIJBELUITLEG_HTML = [
-  ['Bijbelverklaringen', ['Kanttekeningen Statenvertaling', 'Matthew Henry-verklaring']],
-  ['Geloofsbelijdenissen', ['1689 Baptist Confession', 'Westminster Confession']],
-  ['Boeken', ['Institutie — Calvijn', 'A Body of Divinity — Watson']],
-  ['Preken', ['Spurgeon']],
-  ['Devotionals', ['Spurgeon']],
+  ['Bijbelverklaringen', ['Kanttekeningen Statenvertaling', 'Kanttekeningen Statenvertaling NL']],
 ].map(([kop, items], i) =>
   `<div class="tsk-kop"${i ? ' style="margin-top:.9rem"' : ''}>${kop}</div>` +
   `<ul class="bu-lijst">${items.map(it => `<li>${it}</li>`).join('')}</ul>`
@@ -491,6 +487,50 @@ if (location.hash.match(/^#v\d+$/)) {
   const doel = document.getElementById('v' + n);
   if (doel) { doel.scrollIntoView({ block: 'center' }); doel.classList.add('flits'); toggle(n); }
 }
+
+/* ---------- rechtsklik op een vers: snel wisselen van vertaling ---------- */
+(function () {
+  const menu = document.createElement('div');
+  menu.id = 'vertmenu';
+  menu.style.cssText = 'position:absolute;display:none;background:#fffdf7;border:1px solid #c9b98a;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.3rem;font-family:sans-serif;font-size:.85rem;z-index:30;min-width:7rem;';
+  document.body.appendChild(menu);
+  function toon(x, y) {
+    menu.innerHTML = Object.keys(D.vertalingen).map(naam =>
+      `<div class="vm-optie" data-v="${naam}" style="padding:.35rem .6rem;border-radius:5px;cursor:pointer;${naam === vertaling ? 'font-weight:700;color:var(--accent-donker)' : ''}">${naam}</div>`
+    ).join('');
+    const breedte = document.documentElement.clientWidth;
+    menu.style.left = Math.max(4, Math.min(x, breedte - 130)) + 'px';
+    menu.style.top = y + 'px';
+    menu.style.display = 'block';
+  }
+  document.addEventListener('contextmenu', e => {
+    const rij = e.target.closest('.vers');
+    if (!rij) return;
+    e.preventDefault();
+    toon(e.pageX, e.pageY);
+  });
+  menu.addEventListener('mouseover', e => {
+    const o = e.target.closest('.vm-optie');
+    if (o) o.style.background = 'var(--bg-soft)';
+  });
+  menu.addEventListener('mouseout', e => {
+    const o = e.target.closest('.vm-optie');
+    if (o) o.style.background = '';
+  });
+  menu.addEventListener('click', e => {
+    const o = e.target.closest('.vm-optie');
+    if (!o) return;
+    vertaling = o.dataset.v;
+    const kies = document.getElementById('vertaalkies');
+    if (kies) kies.value = vertaling;
+    bouwRijen();
+    menu.style.display = 'none';
+  });
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#vertmenu')) menu.style.display = 'none';
+  });
+  document.addEventListener('scroll', () => { menu.style.display = 'none'; }, true);
+})();
 </script>
 </body>
 </html>
