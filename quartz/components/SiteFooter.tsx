@@ -57,6 +57,58 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
               if (pogingen >= 20) clearInterval(iv);
             }, 150);
           });
+
+          /* Rechtsklik op een Bijbeltekst-link (/studiebijbel/{boek}/{hfd}#v{vers}):
+             toon meteen de volledig uitgeschreven tekst in SVnu, SV en KJV. */
+          (function () {
+            function parseRef(href) {
+              if (!href) return null;
+              var m = href.match(/\\/studiebijbel\\/([a-z0-9-]+)\\/(\\d+)#v(\\d+)$/);
+              if (!m) return null;
+              return { slug: m[1], hfd: m[2], vers: m[3] };
+            }
+            var popup = document.getElementById('bijbelvertpopup');
+            if (!popup) {
+              popup = document.createElement('div');
+              popup.id = 'bijbelvertpopup';
+              popup.style.cssText = 'position:fixed;display:none;max-width:420px;background:#fffdf7;border:1px solid #c9b98a;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.8rem 1rem;font-size:.85rem;line-height:1.55;z-index:9999;font-family:Georgia,serif;color:#3a2a1d;';
+              document.body.appendChild(popup);
+            }
+            var VERTALINGEN = [
+              { naam: 'SVnu', map: 'versteksten' },
+              { naam: 'SV', map: 'versteksten_sv' },
+              { naam: 'KJV', map: 'versteksten_kjv' }
+            ];
+            var cache = {};
+            function haal(map, ref) {
+              var sleutel = map + ':' + ref.slug + '/' + ref.hfd;
+              if (sleutel in cache) return cache[sleutel];
+              cache[sleutel] = fetch('https://andre-scholten.nl/studiebijbel/' + map + '/' + ref.slug + '/' + ref.hfd + '.json')
+                .then(function (r) { return r.ok ? r.json() : null; })
+                .catch(function () { return null; });
+              return cache[sleutel];
+            }
+            document.addEventListener('contextmenu', function (e) {
+              var a = e.target.closest ? e.target.closest('a[href*="/studiebijbel/"]') : null;
+              var ref = a ? parseRef(a.getAttribute('href')) : null;
+              if (!ref) return;
+              e.preventDefault();
+              popup.innerHTML = '<div style="text-align:center;color:#8b7355;">laden…</div>';
+              popup.style.left = Math.max(4, Math.min(e.clientX, window.innerWidth - 440)) + 'px';
+              popup.style.top = Math.max(4, Math.min(e.clientY, window.innerHeight - 40)) + 'px';
+              popup.style.display = 'block';
+              Promise.all(VERTALINGEN.map(function (v) { return haal(v.map, ref); })).then(function (resultaten) {
+                popup.innerHTML = VERTALINGEN.map(function (v, i) {
+                  var tekst = resultaten[i] && resultaten[i][ref.vers];
+                  return '<div style="font-family:sans-serif;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">' + v.naam + '</div>' + (tekst || '<em>Tekst niet gevonden.</em>');
+                }).join('');
+              });
+            });
+            document.addEventListener('click', function (e) {
+              if (!e.target.closest('#bijbelvertpopup')) popup.style.display = 'none';
+            });
+            document.addEventListener('scroll', function () { popup.style.display = 'none'; }, true);
+          })();
           `,
         }}
       />
