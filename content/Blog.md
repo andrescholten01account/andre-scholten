@@ -309,6 +309,9 @@ Lange overdenking van mijzelf:
 
 
 
+https://www.gracegems.org/1/Family.htm ➔ Die van gracegems helemaal doorwerken
+
+
 
 
 Jim George - Een jonge man naar Gods hart
