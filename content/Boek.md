@@ -1,5 +1,6 @@
 ---
 Status: Draft
+draft: true
 ---
 De plek voor gepubliceerde boeken / boeken die ik heb geschreven / vertaald, maar die niet uitgeven zijn
 ➔ in pdf e-pub 

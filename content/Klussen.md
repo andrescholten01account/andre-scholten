@@ -1,5 +1,6 @@
 ---
 Status: Draft
+draft: true
 ---
 Moet je een klus doen? ➔ kan dan op internet hoe je deze klus doet. 
 
