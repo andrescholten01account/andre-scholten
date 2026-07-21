@@ -426,7 +426,7 @@ Voor altijd een Vriend in Jezus – Tienerjongen
 ➔ preken voor het gezin googelen (dit om te printen en voor te lezen)
 
 ➔ Spurgeon: come ye childeren
-➔ 
+➔ Spurgeon boekje voor jonge gelovigen (een goed begin?)
 
 %%
 
