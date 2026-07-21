@@ -428,5 +428,16 @@ Voor altijd een Vriend in Jezus – Tienerjongen
 ➔ Spurgeon: come ye childeren
 ➔ Spurgeon boekje voor jonge gelovigen (een goed begin?)
 
+---
+
+Vertalen: 
+- Baptist catechism children ➔ al gedaan?
+- Spurgeon catechism
+- Westminster shorter catechism
+
+-> vertalen en printen -> in draft zetten
+➔ in tabel: links origineel ➔ rechts vertaling NL ➔ elke  vraag in een tabel ➔ tussen de vragen witruimte (lege regel)
+-> met SVnu
+
 %%
 
