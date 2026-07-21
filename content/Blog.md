@@ -73,6 +73,16 @@ Verhoudingen (rollen) binnen het gezin:
 - Artikel
 - Artikel
 
+---
+
+Tips ouderschap:
+
+1. Heb een goede relatie met God
+2. Heb een goed huwelijk
+3. Hou van je kinderen
+4. Wees zelf het goede voorbeeld
+5. Onderwijs je kinderen over God
+
 ## Geloofsopvoeding
 
 ABC for children
@@ -381,6 +391,9 @@ Stilletijdboekje voor een meisje naar Gods hart
 
 Voor altijd een Vriend in Jezus – Tienerjongen
 
+---
+
+jak. 1:14 ➔ gehoorzaamheid
 
 
 %%
