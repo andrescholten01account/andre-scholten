@@ -31,18 +31,18 @@
   .site-nav a { font-weight:500; color:var(--secondary); text-decoration:none; background:transparent !important; }
   .site-nav a:hover { color:var(--tertiary); text-decoration:underline; }
   .nav-sep { color:var(--gray); }
-  .kruimel { font-family: sans-serif; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
+  .kruimel { font-family: "Lora"; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
   .kruimel a { color: var(--accent); text-decoration: none; }
   h2.hfd { text-align: center; font-size: 1.75rem; font-weight: 700; margin: 2rem 0 0; }
   .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
-  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:sans-serif; font-size:.85rem; padding:.5rem 0; margin-bottom:1.1rem; }
+  .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:"Lora"; font-size:.85rem; padding:.5rem 0; margin-bottom:1.1rem; }
   .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
   .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
   .navknop.uit { color:#ccc; pointer-events:none; }
   .hfdnav .midden { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:.4rem; color:#777; }
-  .hfdnav select { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:999px; padding:.3rem 1.6rem .3rem .8rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
+  .hfdnav select { font-family:"Lora"; font-size:.85rem; border:1px solid var(--border); border-radius:999px; padding:.3rem 1.6rem .3rem .8rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
 
-  .navselect { font-family:sans-serif; font-size:.85rem; border:1px solid var(--border); border-radius:999px; padding:.3rem 1.6rem .3rem .8rem; background:#fff; color:var(--accent-donker); cursor:pointer; display:inline-flex; align-items:center; text-decoration:none; }
+  .navselect { font-family:"Lora"; font-size:.85rem; border:1px solid var(--border); border-radius:999px; padding:.3rem 1.6rem .3rem .8rem; background:#fff; color:var(--accent-donker); cursor:pointer; display:inline-flex; align-items:center; text-decoration:none; }
   #bibliotheekknop { padding:.3rem .7rem; font-size:1rem; line-height:1; }
   /* mobiel (smal): natuurlijke DOM-volgorde boek→hoofdstuk→vertaling→lampje,
      wrapt dan als 'boek hoofdstuk' boven / 'vertaling lampje' onder */
@@ -56,12 +56,12 @@
   .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); border-radius: 8px 8px 0 0; }
   .vers.flits { animation: flits 1.6s ease-out; }
   @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
-  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: sans-serif; }
+  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: "Lora"; }
   .vtekst em, .pcel em { font-style: italic; color: #555; }
   .wl { border-bottom: 1px dotted var(--accent); }
   .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
   .noot:hover { color: var(--accent-donker); }
-  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: sans-serif; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: "Lora"; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
   #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
   #notenlijst .nootregel { margin: .25rem 0; }
   #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
@@ -74,11 +74,11 @@
   #bijbel.parallel .vnr { grid-row: 1; }
   .kolomkop { display:none; }
   #bijbel.parallel + .kolomkop, .kolomkop.tonen { }
-  .pk { font-family:sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
+  .pk { font-family:"Lora"; font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-donker); font-weight:700; }
   #bijbel.parallel .pcel em { font-style:italic; color:#555; }
 
   /* naslagpaneel */
-  .paneel { display: none; margin: 0 0 .6rem 0; background: #fff; box-shadow: inset 3px 0 0 var(--accent); border-radius: 0 0 8px 8px; padding: .9rem 1.1rem 1rem; font-family: sans-serif; font-size: 1rem; }
+  .paneel { display: none; margin: 0 0 .6rem 0; background: #fff; box-shadow: inset 3px 0 0 var(--accent); border-radius: 0 0 8px 8px; padding: .9rem 1.1rem 1rem; font-family: "Lora"; font-size: 1rem; }
   .paneel.open { display: block; }
   .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
   .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
@@ -126,10 +126,10 @@
   .alle > summary:hover { text-decoration:underline; }
   .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
 
-  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: Georgia, serif; }
-  #popup .pref { font-family: sans-serif; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
-  #popup .pklik { font-family: sans-serif; font-size: .68rem; color: #999; margin-top: .4rem; }
-  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: sans-serif; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
+  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: "Lora", serif; }
+  #popup .pref { font-family: "Lora"; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
+  #popup .pklik { font-family: "Lora"; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: "Lora"; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
   #toast.zichtbaar { opacity: 1; }
   .site-footer { font-family:"Lora"; display:grid; grid-template-columns: 1fr 1fr 1fr; gap:1.5rem; max-width:700px; margin:3rem auto 0; padding:2rem 1.5rem 0; border-top:1px solid var(--lightgray); font-size:.85em; }
   .site-footer-col { display:flex; flex-direction:column; gap:.5rem; }
@@ -138,7 +138,7 @@
   .site-footer a { color:var(--secondary); text-decoration:underline; }
   .site-footer .footer-plain { color:var(--gray); }
   @media (max-width:640px) { .site-footer { grid-template-columns:1fr; text-align:center; } .site-footer-right { text-align:center; } }
-  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: sans-serif; font-size: .72rem; color: #999; line-height: 1.7; }
+  footer.site { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: "Lora"; font-size: .72rem; color: #999; line-height: 1.7; }
   @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } }
 </style>
 </head>
@@ -578,7 +578,7 @@ if (location.hash.match(/^#v\d+$/)) {
   }
   const vpopup = document.createElement('div');
   vpopup.id = 'bijbelvertpopup';
-  vpopup.style.cssText = 'position:fixed;display:none;max-width:420px;background:#fffdf7;border:1px solid #c9b98a;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.8rem 1rem;font-size:.85rem;line-height:1.55;z-index:9999;font-family:Georgia,serif;color:#3a2a1d;';
+  vpopup.style.cssText = 'position:fixed;display:none;max-width:420px;background:#fffdf7;border:1px solid #c9b98a;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.8rem 1rem;font-size:.85rem;line-height:1.55;z-index:9999;font-family:"Lora",serif;color:#3a2a1d;';
   document.body.appendChild(vpopup);
   const VERTALINGEN = [
     { naam: 'SVnu', map: 'versteksten' },
@@ -607,7 +607,7 @@ if (location.hash.match(/^#v\d+$/)) {
     Promise.all(VERTALINGEN.map(v => haalVert(v.map, ref))).then(resultaten => {
       vpopup.innerHTML = VERTALINGEN.map((v, i) => {
         const tekst = resultaten[i] && resultaten[i][ref.vers];
-        return `<div style="font-family:sans-serif;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:${i ? '.8rem' : '0'};margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">${v.naam}</div>${tekst ? md(tekst) : '<em>Tekst niet gevonden.</em>'}`;
+        return `<div style="font-family:"Lora";font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:${i ? '.8rem' : '0'};margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">${v.naam}</div>${tekst ? md(tekst) : '<em>Tekst niet gevonden.</em>'}`;
       }).join('');
     });
   });
