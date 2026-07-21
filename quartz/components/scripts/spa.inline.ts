@@ -32,6 +32,10 @@ const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined 
   if ("routerIgnore" in a.dataset) return
   const { href } = a
   if (!isLocalUrl(href)) return
+  // StudieBijbel is een losse, niet-Quartz static site (eigen <script>-tags die
+  // na een SPA-DOM-morph niet worden uitgevoerd) -- altijd een gewone
+  // browser-navigatie hierheen, nooit onderscheppen.
+  if (new URL(href).pathname.startsWith("/studiebijbel/")) return
   return { url: new URL(href), scroll: "routerNoscroll" in a.dataset ? false : undefined }
 }
 
