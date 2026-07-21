@@ -45,6 +45,33 @@ B. Moeder (ouders)
 C. Kinderen
 
 ---
+
+Opvoeding
+
+Geloofsopvoeding
+
+- Onderwijzen vanaf jonge leeftijd
+	- Spr. 22:6
+	- You can bend the sapling, but not the tree
+
+- Eerste les: gehoorzaamheid
+	- John Plougman's Talk
+
+- Catechismussen voor kinderen
+- Geloofsboeken voor kinderen
+	- Ikeg
+- Gedichten en gebeden voor kinderen
+	- Intro Divine & Moral songs
+
+- Je kinderen onderwijzen over God
+	- Ef 6:4
+	- Deut. 6:6-7; 4:9; 11
+	- Intro catechismus Spurgeon
+	- Intro Jerome Beddome ➔ op internet
+	- Intro 1689
+	- Intro divine & moral songs
+
+---
 ## [[Gezin]]
 
 Hoe leef je als gezin zoals God het wil? 
@@ -394,6 +421,12 @@ Stilletijdboekje voor een meisje naar Gods hart
 Voor altijd een Vriend in Jezus – Tienerjongen
 
 ---
+
+➔ Spurgeon preken ➔ gezin ➔ zie ook nl-boekjes Spurgeon over het gezin (Boekholt?) 
+➔ preken voor het gezin googelen (dit om te printen en voor te lezen)
+
+➔ Spurgeon: come ye childeren
+➔ 
 
 %%
 
