@@ -122,3 +122,23 @@ GitHub), zodat anderen erop kunnen voortbouwen.
 Doe als de Bereeërs: neem niets zomaar aan — ook dit niet. Onderzoek de
 Schriften, leg de hertaling naast de bron, en meld wat beter kan. Zo wordt
 dit werk, vers voor vers, betrouwbaarder.
+
+%%
+
+StatenvertalingNu
+
+Gebruik de StatenvertalingNu als grote lijn. Om te weten wat er zo ongeveer staat. Wil je zeker weten wat er staat? Kijk dan bij de SV of KJV.
+Overal waar ik de StatenvertalingNu gebruik staat erachter SVnu. Als voorbeeld:
+
+En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
+~ Efeze 6:4 (SVnu)
+
+Als er staat:
+
+En vaders, wek geen toorn bij uw kinderen op, maar voed hen op in de onderwijzing en de terechtwijzing van de Heere.
+~ Efeze 6:4
+
+Dus zonder (SVnu) erachter, dan is de Bijbelvertaling de HSV (Herziene Statenvertaling). Er staat dan wel een link onder de tekstverwijzing, zodat je naar de StudieBijbel kunt gaan voor verdere studie.
+
+%%
+

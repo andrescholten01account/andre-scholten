@@ -4,8 +4,6 @@
 
 %%
 
-[[Backup - Over de StatenvertalingNu]]
-
 [[StatenvertalingNu]] ➔ link vanuit StudieBijbel
 
 Er is nog een link met Vertaalprincipes ➔ deze ook plaatsen
