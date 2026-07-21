@@ -439,5 +439,17 @@ Vertalen:
 ➔ in tabel: links origineel ➔ rechts vertaling NL ➔ elke  vraag in een tabel ➔ tussen de vragen witruimte (lege regel)
 -> met SVnu
 
+---
+
+Ef. 6:4 -> traag tot toorn -> jak. 1:19-20
+
+---
+
+Spr. 4:23 -> hart van de kinderen beschermt
+-> wat laten ze in zich aan boeken, filmpjes, muziek?
+-> is dit overeenkomstig de wil van God?
+
+---
+
 %%
 
