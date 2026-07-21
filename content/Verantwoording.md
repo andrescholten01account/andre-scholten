@@ -1,6 +1,7 @@
 * [[Persoonlijke geloofsbelijdenis]]
 * [[Verantwoording StatenvertalingNu]]
 * [[Verantwoording StatenvertalingNu_brief]]
+* [[Verantwoording StudieBijbel]]
 
 %%
 

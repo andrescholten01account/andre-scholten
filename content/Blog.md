@@ -1,5 +1,5 @@
-> En vaders, wek geen toorn bij uw kinderen op, maar voed hen op in de onderwijzing en de terechtwijzing van de Heere.
-> ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) 
+> En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
+> ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) (SVnu)
 
 ![[Pasted image 20260715071609.png|450]]
 
@@ -450,6 +450,23 @@ Spr. 4:23 -> hart van de kinderen beschermt
 -> is dit overeenkomstig de wil van God?
 
 ---
+
+? 1 Tim. -> ouderling goed leiding geven aan eigen huis -> dan aan gemeente
+
+Michaël Hyatt: eerst leiding geven aan jezelf, dan aan anderen
+
+Dus:
+
+jezelf -> gezin -> gemeente
+
+
+
+Leiding geven aan jezelf:
+gezondheid
+-> slaap
+-> eten
+-> beweging
+-> ontspanning (rust, plezier)
 
 %%
 

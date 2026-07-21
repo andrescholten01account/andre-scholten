@@ -20,8 +20,8 @@ Persoonlijke blog
 
 <div style="text-align: center;">
 
-> En vaders, wek geen toorn bij uw kinderen op, maar voed hen op in de onderwijzing en de terechtwijzing van de Heere.
-> ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) 
+> En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
+> ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) (SVnu)
 
 > Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
