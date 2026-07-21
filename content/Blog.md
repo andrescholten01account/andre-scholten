@@ -7,6 +7,10 @@
 > ~ John Ploughman (Charles Spurgeon)
 
 %%
+
+... Ik en mijn huis, wij zullen de Heere dienen.
+➔ Joz. 24:15 b
+
 ## [[Gezin]]
 
 Hoe leef je als gezin zoals God het wil? 
