@@ -11,6 +11,40 @@
 ... Ik en mijn huis, wij zullen de Heere dienen.
 ➔ Joz. 24:15 b
 
+
+![[Pasted image 20260721085837.png]]
+
+➔ in de tekening moet dit nog gebeuren: tussen vader en moeder moet nog ouders komen ➔ staat nu half doorgekrast
+➔ H1 Gezin staat nu doorgekrast ➔ moet niet 
+➔ nog aanpassen bij kinderen ➔ rechts: dochter, zoon
+
+# Gezin
+
+## I. Persoonlijke relatie met God
+
+A. Man
+B. Vrouw
+
+## II. Huwelijk 
+
+A. Echtgenoot
+B. Echtgenote
+
+## III. Gezin
+
+A. Vader (ouders)
+
+1. Vader en zoon
+2. Vader en dochter
+
+B. Moeder (ouders)
+
+1. Moeder en dochter
+2. Moeder en zoon
+
+C. Kinderen
+
+---
 ## [[Gezin]]
 
 Hoe leef je als gezin zoals God het wil? 
@@ -30,6 +64,14 @@ jonn ploughman's pictures
 https://www.biblebb.com/ ➔ zie homepage, naar onder: The Christian Family Collection 
 https://www.graceonlinelibrary.org/family-worship
 https://reformed.org/christian-family/
+
+
+
+Verhoudingen (rollen) binnen het gezin:
+
+- Bijbelteksten over de verhoudingen binnen het gezin
+- Artikel
+- Artikel
 
 ## Geloofsopvoeding
 
@@ -238,6 +280,7 @@ Grootouders ➔ artikelen Answers in Genesis
 - Nave
 - TTT
 - Chapel Library: family, man, woman, husband, wife, children 
+- josh.org ➔ fatherhood
 
 ---
 ## [[Schrijven voor kinderen]]
