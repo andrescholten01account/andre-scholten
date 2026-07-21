@@ -338,6 +338,8 @@ Lange overdenking van mijzelf:
 
 [[Documentaire - Kan ik dit nog geloven]]
 
+[[Jak. 2 vers 24 - gerechtvaardig door werken (vraagteken)]]
+
 ## Onderwerpen
 
 ➔ op verborgen zetten + alles erin op draft
@@ -392,9 +394,6 @@ Stilletijdboekje voor een meisje naar Gods hart
 Voor altijd een Vriend in Jezus – Tienerjongen
 
 ---
-
-jak. 1:14 ➔ gehoorzaamheid
-
 
 %%
 

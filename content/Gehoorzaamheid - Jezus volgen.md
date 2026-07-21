@@ -20,3 +20,10 @@ Breng dan vruchten voort die de bekering waardig zijn; en begin niet bij uzelf t
 
 ---
 
+jak. 1:14 ➔ gehoorzaamheid
+jak. 1:17 ➔ gehoorzaamheid
+jak. 1:20 ➔ gehoorzaamheid
+jak. 1:26 ➔ gehoorzaamheid
+
+---
+
