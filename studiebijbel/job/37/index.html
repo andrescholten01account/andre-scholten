@@ -96,9 +96,9 @@
   .opener.open::before { content: '▾ '; }
   .smoothOpen { max-height: 0; overflow: hidden; transition: max-height .25s ease; }
   .smoothOpen.open { max-height: 4000px; }
-  .uitleg-item { margin: .5rem 0; font-family: Georgia, serif; }
+  .uitleg-item { margin: .5rem 0; font-family: Lora, serif; }
   .uitleg-cw { font-weight: 700; color: var(--accent-donker); margin-right: .3rem; }
-  .uitleg-brontekst { font-family: Georgia, serif; font-style: italic; color: #4a3829; background: var(--bg-soft); border-left: 3px solid var(--accent); padding: .5rem .8rem; margin: 0 0 .7rem; border-radius: 0 6px 6px 0; }
+  .uitleg-brontekst { font-family: Lora, serif; font-style: italic; color: #4a3829; background: var(--bg-soft); border-left: 3px solid var(--accent); padding: .5rem .8rem; margin: 0 0 .7rem; border-radius: 0 6px 6px 0; }
   .kt-nr { font-style: normal; font-weight: 700; color: var(--accent-donker); }
   .tsk-sub { font-weight: 600; color: #444; margin: .5rem 0 .2rem; }
   .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-family: "Lora", serif; font-size: .85rem; color: var(--accent-donker); cursor: pointer; }
@@ -381,7 +381,7 @@ function paneelInhoud(n, tab) {
     let h = '<div class="verg-kop">Vertalingen</div>';
     h += PARALLEL_VOLGORDE.filter(k=>D.vertalingen[k]).map(naam =>
       `<div style="margin:.45rem 0"><span style="display:inline-block;min-width:3.4rem;font-weight:700;color:var(--accent-donker)">${naam}</span>` +
-      `<span style="font-family:Georgia,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
+      `<span style="font-family:Lora,serif">${md(D.vertalingen[naam][n] || '—')}</span></div>`
     ).join('');
     return h;
   }
@@ -393,7 +393,7 @@ function paneelInhoud(n, tab) {
     const engels = D.tsk_kjv[n];
     let h = '';
     if (kjvTekst) {
-      h += `<div style="font-family:Georgia,serif;line-height:1.8">${md(kjvTekst)}</div>`;
+      h += `<div style="font-family:Lora,serif;line-height:1.8">${md(kjvTekst)}</div>`;
     }
     h += '<div class="tsk-kop" style="margin-top:.9rem">Treasury of Scripture Knowledge | KJV</div>';
     if (engels && engels.length) {
