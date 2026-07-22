@@ -10,6 +10,8 @@ Persoonlijke blog
 
 [[Blog]] | [[Basis]] | [Bijbel](/studiebijbel/) 
 
+[[Man]] | [[Echtgenoot]] | [[Vader]]
+
 %%
 
 <div align="center">
