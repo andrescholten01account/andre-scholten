@@ -6,7 +6,7 @@
 > Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
 
-## I. Persoonlijke relatie met God
+## I. Eigen leven ➔in relatie met God
 
 A. Man
 B. Vrouw
