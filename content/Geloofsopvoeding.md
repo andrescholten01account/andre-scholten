@@ -86,3 +86,9 @@ Vertalen:
 
 ---
 
+https://founders.org/library/section-1-catechism-for-girls-and-boys/
+
+https://www.fairviewbaptistchurch.ca/childrens-catechism/
+
+---
+
