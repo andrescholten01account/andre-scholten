@@ -8,7 +8,7 @@ andre-scholten.nl
 
 Persoonlijke blog 
 
-[[Blog over gezin]] | [[Basis]] | [Bijbel](/studiebijbel/) 
+[[Blog over gezin|Blog]] | [[Basis]] | [Bijbel](/studiebijbel/) 
 
 %%
 
