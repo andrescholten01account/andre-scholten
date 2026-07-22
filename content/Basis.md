@@ -35,5 +35,9 @@ Gehoorzaamheid: jak. 1:22; jak. 1:25
 
 ---
 
+[[Documentaire - Kan ik dit nog geloven]]
+
+[[Jak. 2 vers 24 - gerechtvaardig door werken (vraagteken)]]
+
 %%
 
