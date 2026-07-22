@@ -27,16 +27,15 @@ Vader en moeder = [[Ouders]]
 - [[Moeder]]
 - [[Kinderen]]
 
-### Meer onderwerpen
+## [[Grootouders]]
 
-Inhoudelijk:
+## [[Geloofsopvoeding]]
 
-- [[Grootouders]]
-- [[Geloofsopvoeding]]
-- [[Kinderrijmpjes]]
-- [[Schrijven]]
+## [[Kinderrijmpjes]]
 
-Bronnen:
+## [[Schrijven]]
+
+## 
 
 - [[Boeken]]
 - [[Preken]]
