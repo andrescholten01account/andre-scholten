@@ -6,7 +6,11 @@
 > Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
 
-## I. Eigen leven ➔in relatie met God
+%%
+
+![[Pasted image 20260722110741.png]]
+
+## I. God 
 
 A. Man
 B. Vrouw
@@ -17,24 +21,21 @@ A. Echtgenoot
 B. Echtgenote
 
 ## III. Gezin
+Vader en moeder = [[Ouders|ouders]]
 
-A. Vader (ouders)
+A. [[Vader]]
 
 1. Vader en zoon
 2. Vader en dochter
 
-B. Moeder (ouders)
+B. [[Moeder]]
 
 1. Moeder en dochter
 2. Moeder en zoon
 
 C. Kinderen
 
-![[Pasted image 20260722110741.png]]
-
-
-
-%%
+---
 
 Opvoeding
 
@@ -62,7 +63,6 @@ Geloofsopvoeding
 	- Intro divine & moral songs
 
 ---
-## [[Gezin]]
 
 Hoe leef je als gezin zoals God het wil? 
 
