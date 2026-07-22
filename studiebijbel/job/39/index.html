@@ -607,7 +607,7 @@ if (location.hash.match(/^#v\d+$/)) {
     Promise.all(VERTALINGEN.map(v => haalVert(v.map, ref))).then(resultaten => {
       vpopup.innerHTML = VERTALINGEN.map((v, i) => {
         const tekst = resultaten[i] && resultaten[i][ref.vers];
-        return `<div style="font-family:"Lora";font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:${i ? '.8rem' : '0'};margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">${v.naam}</div>${tekst ? md(tekst) : '<em>Tekst niet gevonden.</em>'}`;
+        return `<div style="font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:${i ? '.8rem' : '0'};margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">${v.naam}</div>${tekst ? md(tekst) : '<em>Tekst niet gevonden.</em>'}`;
       }).join('');
     });
   });

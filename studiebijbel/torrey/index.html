@@ -155,7 +155,7 @@ ul.item-subs { list-style: circle; margin-top:.2rem; }
     Promise.all(VERTALINGEN.map(function(vv){ return haalVert(vv.map, slug, hfd); })).then(function(resultaten){
       vpopup.innerHTML = VERTALINGEN.map(function(vv, i){
         var tekst = resultaten[i] && resultaten[i][v];
-        return '<div style="font-family:"Lora";font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">' + vv.naam + '</div>' + (tekst || '<em>Tekst niet gevonden.</em>');
+        return '<div style="font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">' + vv.naam + '</div>' + (tekst || '<em>Tekst niet gevonden.</em>');
       }).join('');
     });
   });
