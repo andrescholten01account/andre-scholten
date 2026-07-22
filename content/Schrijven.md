@@ -1,17 +1,21 @@
-Verhalen
-➔ Wachter Willem
+---
+Status: Draft
+---
+## Evangelie voor kinderen
 
-Boeken
-➔ [[Piratenbaai]]
+[[Alfabet voor kinderen]]
 
-Gedichten
-➔ Zie: divine & moral songs for children
-➔ Zie: gedichten van Bunyan
-➔ Zie ook: liederen in liedbundel (gereformeerd?)
+[[Het Evangelie voor kinderen - op rijm]]
 
-[[Schrijven voor kinderen]]
+## Gebeden voor kinderen
 
-[[Gebeden voor kinderen]]
+[[Ochtendgebed]]
 
-[[Algemene gedichten]]
+## Voor kinderen algemeen
+
+[[Het eendje]] 
+
+## Algemeen
+
+[[Het verborgen plekje]]
 

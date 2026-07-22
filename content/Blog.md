@@ -371,19 +371,8 @@ Lange overdenking van mijzelf:
 
 ➔ op verborgen zetten + alles erin op draft
 
-[[Geschiedenis]]
-
-[[Logica voor christenen]]
-
-[[Opwekking in Nederland]]
-
-[[Spurgeon]]
 
 [[Schrijven]]
-
-[[Bijbel]]
-
-[[Hete hangijzers]]
 
 [[Links]]
 

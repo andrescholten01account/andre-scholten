@@ -1,3 +1,6 @@
+---
+Status: Draft
+---
 A is van Adam,
 God gaf hem een gebod, maar hij deed wat niet mag. 
 

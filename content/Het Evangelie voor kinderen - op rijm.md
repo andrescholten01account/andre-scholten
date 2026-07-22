@@ -1,5 +1,6 @@
-%%
-
+---
+Status: Draft
+---
 God heeft alles in zes dagen gemaakt,
 
 Van de boom van de kennis van goed en kwaad,
@@ -103,6 +104,4 @@ Wat wacht je nog? Geloof in Hem, zou er een betere vriend voor je zijn?
 Door geloof in Hem, mag je een kind van God wezen, is dit niet heel erg fijn?
 Vertrouw op Hem, gehoorzaam Hem voor eeuwig leven,
 Hij houdt van jou, Hij is goed, en wil je het heel graag geven. 
-
-%%
 
