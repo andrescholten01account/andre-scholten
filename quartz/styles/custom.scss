@@ -191,39 +191,6 @@ h1 {
   position: static;
 }
 
-// Spurgeon "Morning and Evening" blok (op /blog en /), visueel losstaand van
-// de gewone blockquotes door een eigen kleuraccent en achtergrondtint.
-.spurgeon-block {
-  background-color: color-mix(in srgb, var(--tertiary) 8%, var(--light));
-  border-left: 3px solid var(--tertiary);
-  border-radius: 4px;
-  padding: 1.2rem 1.5rem;
-  margin: 1.5rem 0 2rem;
-}
-
-.spurgeon-heading {
-  font-family: var(--titleFont);
-  font-weight: 700;
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--tertiary);
-  margin-bottom: 0.5rem;
-}
-
-.spurgeon-block .spurgeon-quote {
-  border-left-color: var(--tertiary);
-  margin: 0 0 1rem;
-}
-
-.spurgeon-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-  margin-top: 1rem;
-  font-size: 0.85em;
-}
-
 // Footer tekst
 body::after {
   content: "Eigen geschreven tekst is vrij te gebruiken.";
