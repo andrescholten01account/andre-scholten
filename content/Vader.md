@@ -1,8 +1,15 @@
+Hoe ben je een vader naar Gods hart?
+
+%%
+
+Ook het gezin. 
+
+---
+
 - Vader en zoon
 - Vader en dochter
 
 ---
-
 ## [[Geloofsopvoeding]]
 
 ## [[Kinderrijmpjes]]
@@ -29,57 +36,66 @@ Husband should try to maken home happy and holy.
 "People don't care how much you know, until they know how much you care."
 ~ Abraham Lincoln (?)
 
-- Man / echtgenoot / vaderschap
-- On good nature and firmness (zie boeken John Ploughman)
+---
 
-John Ploughman's Talk + Pictures 
+Spr. 4:23 -> hart van de kinderen beschermt
+-> wat laten ze in zich aan boeken, filmpjes, muziek?
+-> is dit overeenkomstig de wil van God?
 
-You have to be a man, before you can be a gentle man.
-➔ john wayne?
-
-Courage is accepting the fear, and saddling up anyway.
-➔ john wayne
-
-spurgeon ➔ manly "stick to it"
-
-if you could kick the person in the paint, most responsible for your problems, you wouldn't sit for a week.
-➔ theodore roosevelt
-
-artofmanliness.com/
+Ef. 6:4 -> traag tot toorn -> jak. 1:19-20
 
 ---
 
-michael hyatt ➔ 10 gebieden
+Hoe leef je als gezin zoals God het wil? 
 
-God
-Ik 
-huwelijk
-gezin
+Basis:
+- Van God houden
+- Van naaste houden
 
-werk/vrijwilligerswerk
-[[Thuis]]
+Thuis: warmte en liefde en heiligheid
 
-familie
-vrienden
-gemeente
-
-
-Leiding geven aan jezelf:
-gezondheid
--> slaap
--> eten
--> beweging
--> [[ontspanning]] 
+Our house ought te be a little church with holiness tot the Lord over the door, ...
+~ John Ploughman's Talk (nog nakijken)
 
 ---
 
-? 1 Tim. -> ouderling goed leiding geven aan eigen huis -> dan aan gemeente
-
-Michaël Hyatt: eerst leiding geven aan jezelf, dan aan anderen
-
-Dus:
-
-jezelf -> gezin -> gemeente
+> En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
+> ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) (SVnu)
 
 ---
+
+Verhoudingen (rollen) binnen het gezin:
+
+- Bijbelteksten over de verhoudingen binnen het gezin
+- Artikel
+- Artikel
+
+---
+## Tips ouderschap
+
+1. Heb een goede relatie met God
+2. Heb een goed huwelijk
+3. Hou van je kinderen
+4. Wees zelf het goede voorbeeld
+5. Onderwijs je kinderen over God
+
+---
+## Kinderen
+
+Kind en telefoon
+Kind en God
+Kind en seksualiteit
+
+---
+## [[Schrijven]]
+
+## [[Boeken]]
+
+## [[Preken]]
+
+## [[Grootouders]]
+
+## [[Bronnen]]
+
+%%
 
