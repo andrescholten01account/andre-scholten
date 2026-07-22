@@ -6,15 +6,6 @@
 > Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
 
-## Gezin
-
-### Inhoudsopgave
-
-![[Pasted image 20260722110741.png]]
-
-### Indeling 
-# Gezin
-
 ## I. Persoonlijke relatie met God
 
 A. Man
@@ -38,6 +29,10 @@ B. Moeder (ouders)
 2. Moeder en zoon
 
 C. Kinderen
+
+![[Pasted image 20260722110741.png]]
+
+
 
 %%
 
