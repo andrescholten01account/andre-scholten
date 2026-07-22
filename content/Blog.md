@@ -6,10 +6,13 @@
 > Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
 
-%%
+## Gezin
+
+### Inhoudsopgave
 
 ![[Pasted image 20260722110741.png]]
 
+### Indeling 
 # Gezin
 
 ## I. Persoonlijke relatie met God
@@ -36,7 +39,7 @@ B. Moeder (ouders)
 
 C. Kinderen
 
----
+%%
 
 Opvoeding
 
@@ -129,7 +132,8 @@ How to be a father after Gods own heart ➔ ook in nl
 
 https://www.romans45.org/spurgeon/misc/plowman.htm#Chapter%2013
 
-
+> En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
+> ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) (SVnu)
 
 https://www.reformedreader.org/
 
