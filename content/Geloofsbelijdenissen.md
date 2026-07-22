@@ -1,3 +1,7 @@
+Dit gedeelte is nu tijdelijk als opslag voor documenten. 
+
+
+
 Wat geloven christenen door de eeuwen heen? Lees het in geloofsbelijdenissen. 
 
 %%

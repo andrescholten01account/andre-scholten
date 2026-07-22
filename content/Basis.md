@@ -1,4 +1,4 @@
-Wat is de basis van het christelijk geloof? In mijn [[Persoonlijke geloofsbelijdenis|persoonlijke geloofsbelijdenis]] heb ik dit in het kort weergegeven. Ook kun je bij de [[Geloofsbelijdenissen - blog|geloofsbelijdenissen]] hier meer over lezen. 
+Wat is de basis van het christelijk geloof? In mijn [[Persoonlijke geloofsbelijdenis|persoonlijke geloofsbelijdenis]] heb ik dit in het kort weergegeven. Ook kun je bij de [[Geloofsbelijdenissen|geloofsbelijdenissen]] hier meer over lezen. 
 
 Ik heb de basis van het christelijk geloof in 10 hoofdonderwerpen verdeeld. 
 
@@ -32,6 +32,15 @@ God: ja is ja, nee is nee: jab. 1:17
 Gods Woord: Woord van de waarheid: jak. 1:18
 Gods Woord kan zielen zalig maken: jak. 1:21
 Gehoorzaamheid: jak. 1:22; jak. 1:25
+
+---
+
+## [[Geloofsbelijdenissen]]
+
+- [[Lijst geloofsbelijdenissen]]
+- [[Geloofsbelijdenissen op onderwerp]]
+- [[Verklaringen geloofsbelijdenissen]]
+
 
 %%
 

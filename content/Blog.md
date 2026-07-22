@@ -371,8 +371,6 @@ Lange overdenking van mijzelf:
 
 ➔ op verborgen zetten + alles erin op draft
 
-[[Geloofsbelijdenissen - blog]]
-
 [[Geschiedenis]]
 
 [[Logica voor christenen]]
