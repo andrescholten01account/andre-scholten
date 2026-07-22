@@ -374,13 +374,11 @@ Lange overdenking van mijzelf:
 
 [[Schrijven]]
 
+
+
 [[Links]]
 
 ---
-
-[[Ontspanning]]
-
-
 
 https://www.gracegems.org/1/Family.htm ➔ Die van gracegems helemaal doorwerken
 
@@ -453,7 +451,7 @@ gezondheid
 -> slaap
 -> eten
 -> beweging
--> ontspanning (rust, plezier)
+-> [[ontspanning]] 
 
 %%
 
