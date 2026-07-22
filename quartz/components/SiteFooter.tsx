@@ -79,6 +79,10 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
               { naam: 'SV', map: 'versteksten_sv' },
               { naam: 'KJV', map: 'versteksten_kjv' }
             ];
+            function mdMini(t) {
+              t = (t || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
+              return t.replace(/\\*([^*]+)\\*/g, '<em>$1</em>');
+            }
             var cache = {};
             function haal(map, ref) {
               var sleutel = map + ':' + ref.slug + '/' + ref.hfd;
@@ -101,7 +105,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
                 popup.innerHTML = VERTALINGEN.map(function (v, i) {
                   var tekst = resultaten[i] && resultaten[i][ref.vers];
                   var doelHref = 'https://andre-scholten.nl/studiebijbel/' + ref.slug + '/' + ref.hfd + '/?vert=' + v.naam + '#v' + ref.vers;
-                  return '<a href="' + doelHref + '" data-router-ignore style="display:block;font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">' + v.naam + ' ›</a>' + (tekst || '<em>Tekst niet gevonden.</em>');
+                  return '<a href="' + doelHref + '" data-router-ignore style="display:block;font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">' + v.naam + ' ›</a>' + (tekst ? mdMini(tekst) : '<em>Tekst niet gevonden.</em>');
                 }).join('');
               });
             });

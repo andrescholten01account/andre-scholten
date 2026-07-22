@@ -139,6 +139,10 @@ ul.item-subs { list-style: circle; margin-top:.2rem; }
     { naam: 'SV', map: 'versteksten_sv' },
     { naam: 'KJV', map: 'versteksten_kjv' }
   ];
+  function mdMini(t) {
+    t = (t || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
+    return t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  }
   var vcache = {};
   function haalVert(map, slug, hfd) {
     var sleutel = map + ':' + slug + '/' + hfd;
@@ -164,7 +168,7 @@ ul.item-subs { list-style: circle; margin-top:.2rem; }
       vpopup.innerHTML = VERTALINGEN.map(function(vv, i){
         var tekst = resultaten[i] && resultaten[i][v];
         var doelHref = '../../' + slug + '/' + hfd + '/?vert=' + vv.naam + '#v' + v;
-        return '<a href="' + doelHref + '" style="display:block;font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">' + vv.naam + ' ›</a>' + (tekst || '<em>Tekst niet gevonden.</em>');
+        return '<a href="' + doelHref + '" style="display:block;font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">' + vv.naam + ' ›</a>' + (tekst ? mdMini(tekst) : '<em>Tekst niet gevonden.</em>');
       }).join('');
     });
   });
