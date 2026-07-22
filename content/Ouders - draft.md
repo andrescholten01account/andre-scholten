@@ -1,4 +1,0 @@
----
-Status: Draft
-draft: true
----

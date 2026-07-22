@@ -2,6 +2,11 @@
 Status: Draft
 draft: true
 ---
+- Vader en zoon
+- Vader en dochter
+
+---
+
 ## Man
 
 Als vader:

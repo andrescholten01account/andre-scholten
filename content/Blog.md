@@ -10,54 +10,37 @@
 
 ## Inhoudsopgave
 
-### I. God 
+### Relatie met God  
 
-A. Man
-B. Vrouw
+- Man
+- Vrouw
 
-### II. Huwelijk 
+### Huwelijk 
 
-A. Echtgenoot
-B. Echtgenote
+- Echtgenoot
+- Echtgenote
 
-### III. Gezin
-Vader en moeder = [[Ouders - draft|ouders - draft]]
+### Gezin
+Vader en moeder = [[Ouders]]
 
-A. [[Vader - draft]]
+- [[Vader]]
+- [[Moeder]]
+- [[Kinderen]]
 
-1. Vader en zoon
-2. Vader en dochter
+## Meer onderwerpen
 
-B. [[Moeder - draft]]
+- [[Grootouders]]
+- [[Geloofsopvoeding]]
+- [[Kinderrijmpjes]]
+- [[Bronnen]]
+- [[Boeken]]
+- [[Preken]]
+- [[Schrijven]]
 
-1. Moeder en dochter
-2. Moeder en zoon
 
-C. [[Kinderen - draft]]
 
 
 ![[Pasted image 20260722110741.png]]
-
-
-
----
-## Grootouders
-
-Grootouders ➔ artikelen Answers in Genesis
-
----
-
-[[Geloofsopvoeding - draft]]
-
-[[Kinderrijmpjes - draft]]
-
-[[Bronnen - draft]]
-
-[[Boeken - draft]]
-
-[[Preken - draft]]
-
-[[Schrijven - draft]]
 
 ---
 
