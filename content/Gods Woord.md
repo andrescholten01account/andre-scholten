@@ -1,4 +1,4 @@
-## I. Hoe is Gods Woord ontstaan? 
+## Hoe is Gods Woord ontstaan? 
 
 **1. Het is door God ingegeven**
 

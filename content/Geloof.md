@@ -1,9 +1,9 @@
-## I. En we moeten in Jezus Christus geloven om gered te worden van het eeuwige vuur
+## En we moeten in Jezus Christus geloven om gered te worden van het eeuwige vuur
 
 Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven heeft, opdat ieder die in Hem gelooft, niet verloren gaat, maar het eeuwige leven heeft.
 ~ [Johannes 3:16](https://andre-scholten.nl/studiebijbel/johannes/3#v16) (SVnu)
 
-## II. Wat geloven we dan? 
+## Wat geloven we dan? 
 
 **1. Dat Jezus Christus de Zoon van God is**
 

@@ -1,4 +1,4 @@
-## I. Wie is God de Vader?
+## Wie is God de Vader?
 
 **1. De Vader is God**
 
@@ -124,6 +124,6 @@ Zodat wij zelf over u roemen in de Gemeenten van God, over uw volharding en gelo
 ~ [2 Thessalonicenzen 1:4-6](https://andre-scholten.nl/studiebijbel/2-thessalonicenzen/1#v4) (SVnu)
 
 %%
-## I. GOD (GOD DE VADER)
+## GOD (GOD DE VADER)
 
 %%

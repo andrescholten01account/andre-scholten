@@ -1,4 +1,4 @@
-## I. Wie is Jezus Christus?
+## Wie is Jezus Christus?
 
 **1. Jezus Christus is God**
 
@@ -165,6 +165,6 @@ Ik roep u dus dringend op, voor het aangezicht van God en de Heere Jezus Christu
 
 %%
 
-IV. JEZUS CHRISTUS (GOD DE ZOON)
+JEZUS CHRISTUS (GOD DE ZOON)
 
 %%

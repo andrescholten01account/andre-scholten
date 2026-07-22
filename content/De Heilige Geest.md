@@ -1,4 +1,4 @@
-## I. Wie is de Heilige Geest?
+## Wie is de Heilige Geest?
 
 **1. De Heilige Geest is God**
 
@@ -44,7 +44,7 @@ Ik ben roemend onwijs geworden; u hebt mij genoodzaakt, want ik behoorde door u 
 En de Geest zei tegen Filippus: Ga erheen, en voeg u bij deze wagen.
 ~ [Handelingen 8:29](https://andre-scholten.nl/studiebijbel/handelingen/8#v29) (SVnu)
 
-## II. Wat doet de Heilige Geest? 
+## Wat doet de Heilige Geest? 
 
 *a. De wereld overtuigen van zonde, van gerechtigheid en van oordeel*
 
@@ -112,8 +112,9 @@ Want hij zal groot zijn voor de Heere; hij zal geen wijn en geen sterke drank dr
 > [!NOTE] Dit gaat over Johannes de doper ➔ zie [Lukas 1:13](https://andre-scholten.nl/studiebijbel/lukas/1#v13)
 
 %%
+
 [[Vol van de Heilige Geest - aantekening]]
-%%
+
 ### Leiding van de Heilige Geest
 
 En Jezus, vol van de Heilige Geest, keerde terug van de Jordaan, en werd door de Geest geleid in de woestijn;
@@ -161,8 +162,7 @@ De Heilige Geest in Handelingen
 Elke Bijbeltekst over de Heilige Geest
 ➔ Per Bijbelboek
 
-%%
-### VIII. DE HEILIGE GEEST (GOD DE HEILIGE GEEST)
+VIII. DE HEILIGE GEEST (GOD DE HEILIGE GEEST)
 
 ![[Pasted image 20260629160409.png|300]]
 

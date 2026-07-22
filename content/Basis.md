@@ -2,25 +2,25 @@ Wat is de basis van het christelijk geloof? In mijn [[Persoonlijke geloofsbelijd
 
 Ik heb de basis van het christelijk geloof in 10 hoofdonderwerpen verdeeld. 
 
-## 01 - [[Gods Woord]]
+## [[Gods Woord]]
 
-## 02 - [[God]]
+## [[God]]
 
-## 03 - [[De mens]]
+## [[De mens]]
 
-## 04 - [[Zonde]]
+## [[Zonde]]
 
-## 05 - [[Jezus Christus]]
+## [[Jezus Christus]]
 
-## 06 - [[Redding]]
+## [[Redding]]
 
-## 07 - [[Dopen]]
+## [[Dopen]]
 
-## 08 - [[De Heilige Geest]]
+## [[De Heilige Geest]]
 
-## 09 - [[Gehoorzaamheid - Jezus volgen]]
+## [[Gehoorzaamheid - Jezus volgen]]
 
-## 10 - [[Het eeuwige oordeel]]
+## [[Het eeuwige oordeel]]
 
 %%
 

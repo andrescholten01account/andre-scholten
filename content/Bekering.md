@@ -1,19 +1,19 @@
-## I. Mensen moeten zich bekeren om gered te worden van de straf voor hun zonden
+## Mensen moeten zich bekeren om gered te worden van de straf voor hun zonden
 
 Kom dus tot inkeer en bekeer u, opdat uw zonden uitgewist worden, wanneer de tijden van verkwikking gekomen zijn van het aangezicht van de Heere,
 ~ [Handelingen 3:19](https://andre-scholten.nl/studiebijbel/handelingen/3#v19) (SVnu)
 
-## II. Wat is bekering? 
+## Wat is bekering? 
 
 De goddeloze verlaat zijn weg, en de onrechtvaardige man zijn gedachten; en hij bekeert zich tot de HEERE, zo zal Hij Zich over hem ontfermen, en tot onze God, want Hij vergeeft menigvuldig.
 ~ [Jesaja 55:7](https://andre-scholten.nl/studiebijbel/jesaja/55#v7) (SVnu)
 
-## III. Waarvan moet iemand zich bekeren? 
+## Waarvan moet iemand zich bekeren? 
 
 De werken van het vlees nu zijn openbaar; dat zijn: overspel, hoererij, onreinheid, losbandigheid, Afgoderij, toverij, vijandschappen, ruzies, jaloersheden, toorn, twisten, verdeeldheid, afwijkingen in de leer, Afgunst, moord, dronkenschappen, uitspattingen, en dergelijke; waarvan ik u van tevoren zeg, zoals ik ook eerder gezegd heb, dat wie zulke dingen doen, het Koninkrijk van God niet zullen beërven.
 ~ [Galaten 5:19-21](https://andre-scholten.nl/studiebijbel/galaten/5#v19) (SVnu)
 
-## IV. Waarnaar moet iemand zich bekeren? 
+## Waarnaar moet iemand zich bekeren? 
 
 Maar de vrucht van de Geest is liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
 ~ [Galaten 5:22](https://andre-scholten.nl/studiebijbel/galaten/5#v22) (SVnu)
