@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"><title>Torrey's New Topical Textbook — Y — StudieBijbel</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:wght@600;700&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 <style>
 :root {
   --light:#ffffff; --lightgray:#e5e5e5; --gray:#b3b3b3; --darkgray:#333333; --dark:#111111;
@@ -16,7 +16,7 @@ body { font-family:var(--bodyFont); background:var(--bg); color:var(--tekst); ma
 .omslag { max-width:900px; margin:0 auto; padding:1.2rem 1rem 4rem; }
 .site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; line-height:normal; }
 @media (min-width:801px) { .site-header { margin-top:4.8rem; } }
-.page-title { font-size:1.75rem; font-family:"Playfair Display","Lora",serif; text-align:center; margin:0 0 .4rem; font-weight:700; }
+.page-title { font-size:1.75rem; font-family:"Lora"; text-align:center; margin:0 0 .4rem; font-weight:700; }
 .page-title a { color:var(--secondary); text-decoration:none; background-color:transparent !important; }
 .page-title a:hover { color:var(--tertiary); }
 .site-subtitle { font-family:"Lora"; color:var(--secondary); letter-spacing:.04em; margin:0 0 1rem; font-size:1.05em; font-style:italic; line-height:1.6rem; }
@@ -26,7 +26,7 @@ body { font-family:var(--bodyFont); background:var(--bg); color:var(--tekst); ma
 .nav-sep { color:var(--gray); }
 .kruimel { font-family:sans-serif; font-size:.78rem; color:#999; margin:1rem 0 .2rem; }
 .kruimel a { color:var(--accent); text-decoration:none; }
-h2.titel { font-family:"Playfair Display",serif; color:var(--dark); text-align:center; font-size:1.7rem; margin:.6rem 0 .2rem; }
+h2.titel { color:var(--dark); text-align:center; font-size:1.7rem; margin:.6rem 0 .2rem; }
 .ondertitel { text-align:center; color:#666666; font-style:italic; font-size:.95rem; margin-bottom:1.4rem; }
 .testament { font-family:sans-serif; font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-donker); border-bottom:1px solid var(--border); padding-bottom:.3rem; margin:1.6rem 0 .8rem; }
 .boekgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(155px,1fr)); gap:.4rem; }
@@ -66,6 +66,7 @@ ul.item-subs { list-style: circle; margin-top:.2rem; }
 #popup { position:absolute; display:none; max-width:380px; background:#ffffff; border:1px solid #cccccc; border-radius:8px; box-shadow:0 6px 24px rgba(0,0,0,.16); padding:.7rem .9rem; font-size:.85rem; line-height:1.55; z-index:20; font-family:"Lora",serif; }
 #popup .pref { font-family:"Lora"; font-weight:700; font-size:.72rem; color:var(--accent-donker); margin-bottom:.25rem; text-transform:uppercase; letter-spacing:.05em; }
 #popup .pklik { font-family:"Lora"; font-size:.68rem; color:#999; margin-top:.4rem; }
+#popup .popup-vnr { color: var(--tertiary); font-weight: 700; margin-right: .4rem; }
 </style></head><body><div class="omslag">
 <div class="site-header"><h2 class="page-title"><a href="/">André Scholten</a></h2>
 <p class="site-subtitle">Persoonlijke blog</p>
@@ -110,11 +111,18 @@ ul.item-subs { list-style: circle; margin-top:.2rem; }
     if (!chip) return;
     var m = (chip.getAttribute('href') || '').match(/([a-z0-9-]+)\/(\d+)\/#v(\d+)$/);
     if (!m) return;
-    var slug = m[1], hfd = m[2], v = m[3];
+    var slug = m[1], hfd = m[2], start = parseInt(m[3], 10);
     haalVerstekst(slug, hfd).then(function(data){
-      var tekst = data && data[v];
-      if (!tekst) return;
-      plaatsPopup(chip, '<div class="pref">' + chip.textContent + ' \u00b7 SVnu</div>' + tekst + '<div class="pklik">Klik om hierheen te gaan</div>');
+      if (!data) return;
+      var nummers = [];
+      for (var i = 0; i < 3; i++) { var n = start + i; if (data[n]) nummers.push(n); }
+      if (!nummers.length) return;
+      var meerdere = nummers.length > 1;
+      var html = nummers.map(function(n){
+        var nr = meerdere ? '<span class="popup-vnr">' + n + '</span>' : '';
+        return '<div class="popup-vers">' + nr + data[n] + '</div>';
+      }).join('');
+      plaatsPopup(chip, '<div class="pref">' + chip.textContent + ' \u00b7 SVnu</div>' + html + '<div class="pklik">Klik om hierheen te gaan</div>');
     });
   });
   document.addEventListener('mouseout', function(e){

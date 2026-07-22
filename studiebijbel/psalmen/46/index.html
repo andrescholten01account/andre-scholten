@@ -6,7 +6,7 @@
 <title>Psalmen 46 — StudieBijbel · André Scholten</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:wght@600;700&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 <style>
   :root {
     /* huisstijl overgenomen van andre-scholten.nl (Quartz) */
@@ -23,7 +23,7 @@
   .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
   .site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; line-height: normal; }
   @media (min-width: 801px) { .site-header { margin-top: 4.8rem; } }
-  .page-title { font-size:1.75rem; font-family:"Playfair Display","Lora",serif; text-align:center; margin:0 0 .4rem; font-weight:700; }
+  .page-title { font-size:1.75rem; font-family:"Lora"; text-align:center; margin:0 0 .4rem; font-weight:700; }
   .page-title a { color:var(--secondary); text-decoration:none; background-color:transparent !important; }
   .page-title a:hover { color:var(--tertiary); }
   .site-subtitle { font-family:"Lora"; color:var(--secondary); letter-spacing:.04em; margin:0 0 1rem; font-size:1.05em; font-style:italic; line-height:1.6rem; }
@@ -33,7 +33,7 @@
   .nav-sep { color:var(--gray); }
   .kruimel { font-family: "Lora"; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
   .kruimel a { color: var(--accent); text-decoration: none; }
-  h2.hfd { font-family:"Playfair Display",serif; color: var(--dark); text-align: center; font-size: 1.75rem; font-weight: 700; margin: 2rem 0 0; }
+  h2.hfd { color: var(--dark); text-align: center; font-size: 1.75rem; font-weight: 700; margin: 2rem 0 0; }
   .ondertitel { text-align: center; color: #666666; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
   .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:"Lora"; font-size:.85rem; padding:.5rem 0; margin-bottom:1.1rem; }
   .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
@@ -129,6 +129,7 @@
   #popup { position: absolute; display: none; max-width: 380px; background: #ffffff; border: 1px solid #cccccc; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: "Lora", serif; }
   #popup .pref { font-family: "Lora"; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
   #popup .pklik { font-family: "Lora"; font-size: .68rem; color: #999; margin-top: .4rem; }
+  #popup .popup-vnr { color: var(--tertiary); font-weight: 700; margin-right: .4rem; }
   #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: "Lora"; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
   #toast.zichtbaar { opacity: 1; }
   .site-footer { font-family:"Lora"; display:grid; grid-template-columns: 1fr 1fr 1fr; gap:1.5rem; max-width:700px; margin:3rem auto 0; padding:2rem 1.5rem 0; border-top:1px solid var(--lightgray); font-size:.85em; }
@@ -159,7 +160,7 @@
   <div class="site-footer-col">
     <a href="/blog">Blog</a>
     <a href="/basis">Basis christelijk geloof</a>
-    <a href="/studiebijbel/">StudieBijbel</a>
+    <a href="/studiebijbel/genesis/1/">StudieBijbel</a>
   </div>
   <div class="site-footer-col site-footer-mid">
     <a href="/?zoeken=1">Zoekfunctie</a>
@@ -528,6 +529,18 @@ function haalPopupHfd(slug, hfd) {
     .then(r => r.ok ? r.json() : null).catch(() => null);
   return popupCache[sleutel];
 }
+// tot 3 verzen tonen in de hover-popup; bij meer dan 1 vers het versnummer
+// tonen (in een aparte grijstint) zodat duidelijk is waar elk vers begint.
+function popupVerzenHtml(bron, start) {
+  const nummers = [];
+  for (let i = 0; i < 3; i++) { const n = start + i; if (bron[n]) nummers.push(n); }
+  const meerdere = nummers.length > 1;
+  return nummers.map(n => {
+    const t = md((bron[n] || '').replace(/\[\d+\]/g, ''));
+    const nr = meerdere ? `<span class="popup-vnr">${n}</span>` : '';
+    return `<div class="popup-vers">${nr}${t}</div>`;
+  }).join('');
+}
 let hoverChip = null;
 document.addEventListener('mouseover', e => {
   const noot = e.target.closest('.noot');
@@ -540,16 +553,11 @@ document.addEventListener('mouseover', e => {
   if (!chip) return;
   hoverChip = chip;
   const ref = chip.dataset.ref;
-  // concordantie-chips dragen hun Berea-tekst al mee (data-tekst, al door md()
-  // gehaald).
-  if (chip.dataset.tekst !== undefined) {
-    plaatsPopup(chip, `<div class="pref">${ref} · SVnu</div>${chip.dataset.tekst}<div class="pklik">Klik om hierheen te gaan</div>`);
-    return;
-  }
   const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)'));
   if (m) {
-    const t = (D.vertalingen.SVnu[m[1]]||'').replace(/\[\d+\]/g, '');
-    if (t) plaatsPopup(chip, `<div class="pref">${ref} · SVnu</div>${md(t)}<div class="pklik">Klik om hierheen te gaan</div>`);
+    const start = parseInt(m[1], 10);
+    const html = popupVerzenHtml(D.vertalingen.SVnu, start);
+    if (html) plaatsPopup(chip, `<div class="pref">${ref} · SVnu</div>${html}<div class="pklik">Klik om hierheen te gaan</div>`);
     return;
   }
   const rm = ref.match(/^(.*?)\s+(\d+):(\d+)/);
@@ -557,10 +565,11 @@ document.addEventListener('mouseover', e => {
   if (!slug) return;
   haalPopupHfd(slug, rm[2]).then(data => {
     if (hoverChip !== chip) return;
-    const ruw = data && data[rm[3]];
-    if (!ruw) return;
-    const t = ruw.replace(/\[\d+\]/g, '').replace(/\*/g, '');
-    plaatsPopup(chip, `<div class="pref">${ref} · SVnu</div>${md(t)}<div class="pklik">Klik om hierheen te gaan</div>`);
+    if (!data) return;
+    const start = parseInt(rm[3], 10);
+    const html = popupVerzenHtml(data, start);
+    if (!html) return;
+    plaatsPopup(chip, `<div class="pref">${ref} · SVnu</div>${html}<div class="pklik">Klik om hierheen te gaan</div>`);
   });
 });
 document.addEventListener('mouseout', e => {

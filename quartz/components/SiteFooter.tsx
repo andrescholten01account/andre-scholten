@@ -71,7 +71,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
             if (!popup) {
               popup = document.createElement('div');
               popup.id = 'bijbelvertpopup';
-              popup.style.cssText = 'position:fixed;display:none;max-width:420px;background:#fffdf7;border:1px solid #c9b98a;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.8rem 1rem;font-size:.85rem;line-height:1.55;z-index:9999;font-family:"Lora",serif;color:#3a2a1d;';
+              popup.style.cssText = 'position:fixed;display:none;max-width:420px;background:#ffffff;border:1px solid #cccccc;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.8rem 1rem;font-size:.85rem;line-height:1.55;z-index:9999;font-family:"Lora",serif;color:#111111;';
               document.body.appendChild(popup);
             }
             var VERTALINGEN = [
@@ -102,7 +102,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
               // variabele bestaat dan nog wel, maar hangt niet meer echt in
               // de zichtbare pagina; steeds opnieuw vastzetten lost dat op.
               if (!document.body.contains(popup)) document.body.appendChild(popup);
-              popup.innerHTML = '<div style="text-align:center;color:#8b7355;">laden…</div>';
+              popup.innerHTML = '<div style="text-align:center;color:#666666;">laden…</div>';
               popup.style.left = Math.max(4, Math.min(e.clientX, window.innerWidth - 440)) + 'px';
               popup.style.top = Math.max(4, Math.min(e.clientY, window.innerHeight - 40)) + 'px';
               popup.style.display = 'block';
@@ -110,7 +110,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
                 popup.innerHTML = VERTALINGEN.map(function (v, i) {
                   var tekst = resultaten[i] && resultaten[i][ref.vers];
                   var doelHref = 'https://andre-scholten.nl/studiebijbel/' + ref.slug + '/' + ref.hfd + '/?vert=' + v.naam + '#v' + ref.vers;
-                  return '<a href="' + doelHref + '" data-router-ignore style="display:block;font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">' + v.naam + ' ›</a>' + (tekst ? mdMini(tekst) : '<em>Tekst niet gevonden.</em>');
+                  return '<a href="' + doelHref + '" data-router-ignore style="display:block;font-family:Lora;font-weight:700;font-size:.72rem;color:#1a1a1a;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">' + v.naam + ' ›</a>' + (tekst ? mdMini(tekst) : '<em>Tekst niet gevonden.</em>');
                 }).join('');
               });
             });
@@ -138,7 +138,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
             if (!hoverPopup) {
               hoverPopup = document.createElement('div');
               hoverPopup.id = 'bijbelhoverpopup';
-              hoverPopup.style.cssText = 'position:fixed;display:none;max-width:380px;background:#fffdf7;border:1px solid #c9b98a;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.7rem .9rem;font-size:.85rem;line-height:1.55;z-index:9998;font-family:"Lora",serif;color:#3a2a1d;';
+              hoverPopup.style.cssText = 'position:fixed;display:none;max-width:380px;background:#ffffff;border:1px solid #cccccc;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.7rem .9rem;font-size:.85rem;line-height:1.55;z-index:9998;font-family:"Lora",serif;color:#111111;';
               document.body.appendChild(hoverPopup);
             }
             var cache = {};
@@ -159,9 +159,17 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
               if (!document.body.contains(hoverPopup)) document.body.appendChild(hoverPopup);
               haalVerstekst(ref).then(function (data) {
                 if (hoverLink !== a) return;
-                var tekst = data && data[ref.vers];
-                if (!tekst) return;
-                hoverPopup.innerHTML = '<div style="font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">' + a.textContent + ' · SVnu</div>' + mdMini(tekst);
+                if (!data) return;
+                var start = parseInt(ref.vers, 10);
+                var nummers = [];
+                for (var i = 0; i < 3; i++) { var n = start + i; if (data[n]) nummers.push(n); }
+                if (!nummers.length) return;
+                var meerdere = nummers.length > 1;
+                var versenHtml = nummers.map(function (n) {
+                  var nr = meerdere ? '<span style="color:var(--tertiary);font-weight:700;margin-right:.35rem;">' + n + '</span>' : '';
+                  return '<div style="margin-bottom:.3rem;">' + nr + mdMini(data[n]) + '</div>';
+                }).join('');
+                hoverPopup.innerHTML = '<div style="font-family:Lora;font-weight:700;font-size:.72rem;color:#1a1a1a;margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">' + a.textContent + ' · SVnu</div>' + versenHtml;
                 var r = a.getBoundingClientRect();
                 hoverPopup.style.left = Math.max(8, Math.min(r.left, window.innerWidth - 400)) + 'px';
                 hoverPopup.style.top = (r.bottom + 6) + 'px';
