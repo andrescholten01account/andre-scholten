@@ -97,6 +97,11 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
               var ref = a ? parseRef(a.getAttribute('href')) : null;
               if (!ref) return;
               e.preventDefault();
+              // na een SPA-navigatie (Quartz-router) is deze div uit de pagina
+              // gehaald (stond niet in de vers gefetchte HTML) -- de popup-
+              // variabele bestaat dan nog wel, maar hangt niet meer echt in
+              // de zichtbare pagina; steeds opnieuw vastzetten lost dat op.
+              if (!document.body.contains(popup)) document.body.appendChild(popup);
               popup.innerHTML = '<div style="text-align:center;color:#8b7355;">laden…</div>';
               popup.style.left = Math.max(4, Math.min(e.clientX, window.innerWidth - 440)) + 'px';
               popup.style.top = Math.max(4, Math.min(e.clientY, window.innerHeight - 40)) + 'px';
