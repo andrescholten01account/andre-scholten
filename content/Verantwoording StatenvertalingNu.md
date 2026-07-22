@@ -140,5 +140,11 @@ En vaders, wek geen toorn bij uw kinderen op, maar voed hen op in de onderwijzin
 
 Dus zonder (SVnu) erachter, dan is de Bijbelvertaling de HSV (Herziene Statenvertaling). Er staat dan wel een link onder de tekstverwijzing, zodat je naar de StudieBijbel kunt gaan voor verdere studie.
 
+--- 
+
+In de verantwoording wil hebben staan dat we de SV alleen hertaald hebben. Dus de vertaalprincipes van de Statenvertaling blijven gehandhaafd, ook al leest dat wat ingewikkelder. Trouw aan de Statenvertaling staat dan boven de verstaanbaarheid. Voor de verstaanbaarheid is een foutnoot toegevoegd.
+
+-> zoiets wil ik in de Verantwoording. Tenminste als dit klopt.
+
 %%
 
