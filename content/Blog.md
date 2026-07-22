@@ -27,7 +27,6 @@ Vader en moeder = [[Ouders]]
 - [[Moeder]]
 - [[Kinderen]]
 
-## [[Grootouders]]
 
 ## [[Geloofsopvoeding]]
 
@@ -35,15 +34,14 @@ Vader en moeder = [[Ouders]]
 
 ## [[Schrijven]]
 
-## 
+## [[Boeken]]
 
-- [[Boeken]]
-- [[Preken]]
-- [[Bronnen]]
+## [[Preken]]
 
+## [[Grootouders]]
 
+## [[Bronnen]]
 
-![[Pasted image 20260722110741.png]]
 
 ---
 
