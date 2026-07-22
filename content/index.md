@@ -32,6 +32,14 @@ Lees meer over het [[Blog over gezin|gezin]]
 
 </div>
 
+---
+
+Morning + evening ➔ Spurgeon
+
+---
+
+Eigen tekst 
+
 %%
 ## Footer
 
