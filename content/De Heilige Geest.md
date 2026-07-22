@@ -164,4 +164,10 @@ Elke Bijbeltekst over de Heilige Geest
 %%
 ### VIII. DE HEILIGE GEEST (GOD DE HEILIGE GEEST)
 
+![[Pasted image 20260629160409.png|300]]
+
+- [[Waarom vervuld worden met de Heilige Geest]]
+- [[Hoe vervuld worden met de Geest]]
+
 %%
+

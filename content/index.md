@@ -8,7 +8,7 @@ andre-scholten.nl
 
 Persoonlijke blog 
 
-[[Blog]] | [[Basis]] | [[Boek]] | [Bijbel](/studiebijbel/) 
+[[Blog]] | [[Basis]] | [Bijbel](/studiebijbel/) 
 
 %%
 
@@ -36,7 +36,6 @@ Lees meer over het [[Blog|gezin]].
 Links:
 - [[Blog]]
 - [[Basis|Basis christelijk geloof]]
-- [[Boek]]
 - StudieBijbel
 
 Midden:
@@ -51,7 +50,6 @@ Rechts:
 
 ## Meer
 
-- Blogupdate kan later onder Midden. 
 - [To do andre-scholten.nl](https://docs.google.com/document/d/1jtzucFNI_9Exy_BSg7btDH-yfkHD7HdMJq-uZg6YcHY/edit?tab=t.0)
 
 https://books.google.nl/books/about/Divine_and_Moral_Songs_for_Children.html?id=4UdcjfX2b3QC&redir_esc=y
