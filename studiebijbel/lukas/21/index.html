@@ -101,8 +101,8 @@
   .uitleg-brontekst { font-family: Lora, serif; font-style: italic; color: #333333; background: var(--bg-soft); border-left: 3px solid var(--accent); padding: .5rem .8rem; margin: 0 0 .7rem; border-radius: 0 6px 6px 0; }
   .kt-nr { font-style: normal; font-weight: 700; color: var(--accent-donker); }
   .tsk-sub { font-weight: 600; color: #444; margin: .5rem 0 .2rem; }
-  .refchip { font-family: "Lora", serif; font-size: .85rem; color: var(--dark); text-decoration: underline; cursor: pointer; }
-  .refchip:hover { color: var(--tertiary); }
+  .refchip { font-family: "Lora", serif; font-size: .85rem; color: var(--tertiary); text-decoration: none; border-bottom: 1px dotted var(--tertiary); cursor: pointer; }
+  .refchip:hover { color: var(--dark); border-bottom-color: var(--dark); }
   .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
   .onderwerp .okop { margin-bottom:.25rem; }
   .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
@@ -536,7 +536,7 @@ function popupVerzenHtml(bron, start, eind) {
   const aantal = Math.min(totaal, 3);
   const nummers = [];
   for (let i = 0; i < aantal; i++) { const n = start + i; if (bron[n]) nummers.push(n); }
-  const meerdere = nummers.length > 2;
+  const meerdere = nummers.length > 1;
   return nummers.map(n => {
     const t = md((bron[n] || '').replace(/\[\d+\]/g, ''));
     const nr = meerdere ? `<span class="popup-vnr">${n}</span>` : '';

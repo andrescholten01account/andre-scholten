@@ -168,7 +168,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
                 var nummers = [];
                 for (var i = 0; i < aantal; i++) { var n = start + i; if (data[n]) nummers.push(n); }
                 if (!nummers.length) return;
-                var meerdere = nummers.length > 2;
+                var meerdere = nummers.length > 1;
                 var versenHtml = nummers.map(function (n) {
                   var nr = meerdere ? '<span style="color:var(--tertiary);font-weight:700;margin-right:.35rem;">' + n + '</span>' : '';
                   return '<div style="margin-bottom:.3rem;">' + nr + mdMini(data[n]) + '</div>';
