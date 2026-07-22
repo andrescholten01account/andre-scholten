@@ -100,7 +100,8 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
               Promise.all(VERTALINGEN.map(function (v) { return haal(v.map, ref); })).then(function (resultaten) {
                 popup.innerHTML = VERTALINGEN.map(function (v, i) {
                   var tekst = resultaten[i] && resultaten[i][ref.vers];
-                  return '<div style="font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">' + v.naam + '</div>' + (tekst || '<em>Tekst niet gevonden.</em>');
+                  var doelHref = 'https://andre-scholten.nl/studiebijbel/' + ref.slug + '/' + ref.hfd + '/?vert=' + v.naam + '#v' + ref.vers;
+                  return '<a href="' + doelHref + '" data-router-ignore style="display:block;font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">' + v.naam + ' ›</a>' + (tekst || '<em>Tekst niet gevonden.</em>');
                 }).join('');
               });
             });
