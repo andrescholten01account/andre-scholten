@@ -1,4 +1,4 @@
-Hoe ben je een vader naar Gods hart?
+Wees een vader naar Gods hart
 
 %%
 

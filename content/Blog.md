@@ -9,6 +9,13 @@ title: Blog over gezin
 > Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
 
+---
+
+Spurgeon - morning and evening
+
+---
+
+
 %%
 
 tekst 

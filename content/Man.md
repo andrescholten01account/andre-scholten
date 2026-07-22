@@ -1,6 +1,8 @@
+Wees een man naar Gods hart
+
 %%
 
-- Man / echtgenoot / vaderschap
+
 - On good nature and firmness (zie boeken John Ploughman)
 
 John Ploughman's Talk + Pictures 
