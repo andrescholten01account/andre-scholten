@@ -6,7 +6,7 @@ title: Home
 André Scholten
 andre-scholten.nl
 
-Persoonlijke blog 
+Wees een man naar Gods hart
 
 [[Man]] | [[Echtgenoot]] | [[Vader]]
 
