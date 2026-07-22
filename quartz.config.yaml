@@ -17,8 +17,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      title: Lora
-      header: Lora
+      title: Playfair Display
+      header: Playfair Display
       body: Lora
       code: IBM Plex Mono
     colors:
@@ -26,8 +26,8 @@ configuration:
         light: "#faf6ee"
         lightgray: "#e6dcc8"
         gray: "#c9b896"
-        darkgray: "#4a3829"
-        dark: "#3a2a1d"
+        darkgray: "#333333"
+        dark: "#111111"
         secondary: "#8b5e34"
         tertiary: "#a87c4f"
         highlight: rgba(139, 94, 52, 0.12)

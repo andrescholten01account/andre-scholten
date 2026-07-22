@@ -6,24 +6,24 @@
 <title>Deuteronomium 34 — StudieBijbel · André Scholten</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:wght@600;700&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 <style>
   :root {
     /* huisstijl overgenomen van andre-scholten.nl (Quartz) */
-    --light:#faf6ee; --lightgray:#e6dcc8; --gray:#c9b896; --darkgray:#4a3829; --dark:#3a2a1d;
-    --secondary:#8b5e34; --tertiary:#a87c4f; --highlight:#8b5e341f; --textHighlight:#f0dca888;
+    --light:#ffffff; --lightgray:#e5e5e5; --gray:#b3b3b3; --darkgray:#333333; --dark:#111111;
+    --secondary:#1a1a1a; --tertiary:#757575; --highlight:#1a1a1a1f; --textHighlight:#e0e0e088;
     --bodyFont:"Lora", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --codeFont:"IBM Plex Mono", ui-monospace, monospace;
     /* aliassen zodat de bestaande regels de nieuwe kleuren gebruiken */
     --accent: var(--secondary); --accent-donker: var(--dark); --bg: var(--light);
-    --bg-soft: #f2ead8; --border: var(--lightgray); --tekst: var(--darkgray);
+    --bg-soft: #f5f5f5; --border: var(--lightgray); --tekst: var(--darkgray);
   }
   * { box-sizing: border-box; }
   body { font-family: var(--bodyFont); background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
   .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
   .site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; line-height: normal; }
   @media (min-width: 801px) { .site-header { margin-top: 4.8rem; } }
-  .page-title { font-size:1.75rem; font-family:"Lora"; text-align:center; margin:0 0 .4rem; font-weight:700; }
+  .page-title { font-size:1.75rem; font-family:"Playfair Display","Lora",serif; text-align:center; margin:0 0 .4rem; font-weight:700; }
   .page-title a { color:var(--secondary); text-decoration:none; background-color:transparent !important; }
   .page-title a:hover { color:var(--tertiary); }
   .site-subtitle { font-family:"Lora"; color:var(--secondary); letter-spacing:.04em; margin:0 0 1rem; font-size:1.05em; font-style:italic; line-height:1.6rem; }
@@ -33,8 +33,8 @@
   .nav-sep { color:var(--gray); }
   .kruimel { font-family: "Lora"; font-size: .78rem; color: #999; margin: 1rem 0 .2rem; }
   .kruimel a { color: var(--accent); text-decoration: none; }
-  h2.hfd { text-align: center; font-size: 1.75rem; font-weight: 700; margin: 2rem 0 0; }
-  .ondertitel { text-align: center; color: #8b7355; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
+  h2.hfd { font-family:"Playfair Display",serif; color: var(--dark); text-align: center; font-size: 1.75rem; font-weight: 700; margin: 2rem 0 0; }
+  .ondertitel { text-align: center; color: #666666; font-style: italic; font-size: .95rem; margin-bottom: 1rem; }
   .hfdnav { display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap; font-family:"Lora"; font-size:.85rem; padding:.5rem 0; margin-bottom:1.1rem; }
   .navknop { color:var(--accent); text-decoration:none; padding:.25rem .3rem; white-space:nowrap; }
   .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
@@ -55,8 +55,8 @@
   .vers:hover { background: var(--bg-soft); }
   .vers.open { background: var(--bg-soft); box-shadow: inset 3px 0 0 var(--accent); border-radius: 8px 8px 0 0; }
   .vers.flits { animation: flits 1.6s ease-out; }
-  @keyframes flits { 0% { background: #f0e2bd; } 100% { background: var(--bg-soft); } }
-  .vnr { color: #b3a184; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: "Lora"; }
+  @keyframes flits { 0% { background: #e0e0e0; } 100% { background: var(--bg-soft); } }
+  .vnr { color: #999999; font-size: .75rem; min-width: 1.6rem; text-align: right; padding-top: .45rem; font-family: "Lora"; }
   .vtekst em, .pcel em { font-style: italic; color: #555; }
   .wl { border-bottom: 1px dotted var(--accent); }
   .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
@@ -87,7 +87,7 @@
   .tsk-kop { font-weight: 700; color: var(--accent-donker); margin: .55rem 0 .3rem; font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; }
   .verg-kop { font-family:"Lora"; font-weight: 700; color: var(--accent-donker); font-size: 1.05rem; margin: 0 0 .6rem; padding-bottom: .35rem; border-bottom: 2px solid var(--accent); }
   .bu-lijst { list-style: disc; margin: .2rem 0 0 1.2rem; padding: 0; }
-  .bu-lijst li { margin: .3rem 0; color: #4a3829; }
+  .bu-lijst li { margin: .3rem 0; color: #333333; }
   .uitleg-bron { border-bottom: 1px solid var(--bg-soft); padding: .3rem 0; }
   .uitleg-bron:last-of-type { border-bottom: none; }
   .opener { display: block; cursor: pointer; font-weight: 600; color: var(--accent-donker); padding: .2rem 0; }
@@ -98,10 +98,10 @@
   .smoothOpen.open { max-height: 4000px; }
   .uitleg-item { margin: .5rem 0; font-family: Lora, serif; }
   .uitleg-cw { font-weight: 700; color: var(--accent-donker); margin-right: .3rem; }
-  .uitleg-brontekst { font-family: Lora, serif; font-style: italic; color: #4a3829; background: var(--bg-soft); border-left: 3px solid var(--accent); padding: .5rem .8rem; margin: 0 0 .7rem; border-radius: 0 6px 6px 0; }
+  .uitleg-brontekst { font-family: Lora, serif; font-style: italic; color: #333333; background: var(--bg-soft); border-left: 3px solid var(--accent); padding: .5rem .8rem; margin: 0 0 .7rem; border-radius: 0 6px 6px 0; }
   .kt-nr { font-style: normal; font-weight: 700; color: var(--accent-donker); }
   .tsk-sub { font-weight: 600; color: #444; margin: .5rem 0 .2rem; }
-  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-family: "Lora", serif; font-size: .85rem; color: var(--accent-donker); cursor: pointer; }
+  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-family: "Lora", serif; font-size: .85rem; color: var(--accent-donker); text-decoration: none; cursor: pointer; }
   .refchip:hover { background: var(--accent); color: #fff; }
   .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
   .onderwerp .okop { margin-bottom:.25rem; }
@@ -109,10 +109,10 @@
   a.ondlink { text-decoration: none; background: transparent !important; cursor: pointer; color: var(--accent-donker); font-weight: 400; }
   a.ondlink:hover { text-decoration: underline; }
   .ond-topic { margin: .7rem 0; }
-  .ond-subs { margin: .25rem 0 0 1.2rem; padding-left: 1rem; list-style: disc; color: #4a3829; }
+  .ond-subs { margin: .25rem 0 0 1.2rem; padding-left: 1rem; list-style: disc; color: #333333; }
   .ond-subs .ond-subs { list-style: circle; }
   .ond-subs li { margin: .4rem 0; }
-  .ond-label { color: #4a3829; }
+  .ond-label { color: #333333; }
   .ond-refs { margin: .3rem 0 0; }
   .ond-refs .alle { display: inline; }
   .ond-refs .alle summary { display: inline-block; cursor: pointer; color: var(--accent); font-size: .8rem; margin: .1rem 0; }
@@ -126,7 +126,7 @@
   .alle > summary:hover { text-decoration:underline; }
   .bronregel { font-size:.72rem; color:#999; margin-top:.6rem; }
 
-  #popup { position: absolute; display: none; max-width: 380px; background: #fffdf7; border: 1px solid #c9b98a; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: "Lora", serif; }
+  #popup { position: absolute; display: none; max-width: 380px; background: #ffffff; border: 1px solid #cccccc; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.16); padding: .7rem .9rem; font-size: .85rem; line-height: 1.55; z-index: 20; font-family: "Lora", serif; }
   #popup .pref { font-family: "Lora"; font-weight: 700; font-size: .72rem; color: var(--accent-donker); margin-bottom: .25rem; text-transform: uppercase; letter-spacing: .05em; }
   #popup .pklik { font-family: "Lora"; font-size: .68rem; color: #999; margin-top: .4rem; }
   #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: "Lora"; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
@@ -229,6 +229,12 @@ function refUrl(ref) {
   const slug = D.meta.slugmap[m[1]];
   return slug ? `../../${slug}/${m[2]}/#v${m[3]}` : null;
 }
+// refchip href-attribuut (leeg als de verwijzing niet oplosbaar is)
+function refHrefAttr(ref) {
+  const u = refUrl(ref);
+  return u ? ` href="${u}"` : '';
+}
+const REFSEP = '<span style="color:#999999;margin:0 .1rem;">;</span>';
 
 // popup positioneren bij een element
 function plaatsPopup(el, html) {
@@ -263,10 +269,10 @@ function linkifyRefs(html) {
     const afk = REFBOEK2AFK[boek];
     if (!afk) return heel;
     const ankerTekst = staart ? heel.slice(0, heel.length - staart.length) : heel;
-    let uit = `<a class="refchip" data-ref="${afk} ${hfd}:${vers}">${ankerTekst}</a>`;
+    let uit = `<a class="refchip" data-ref="${afk} ${hfd}:${vers}"${refHrefAttr(afk + ' ' + hfd + ':' + vers)}>${ankerTekst}</a>`;
     if (staart) {
       uit += staart.replace(VERVOLG_RE, (stuk, sep, h, v) =>
-        `${sep}<a class="refchip" data-ref="${afk} ${h}:${v}">${stuk.slice(sep.length)}</a>`);
+        `${sep}<a class="refchip" data-ref="${afk} ${h}:${v}"${refHrefAttr(afk + ' ' + h + ':' + v)}>${stuk.slice(sep.length)}</a>`);
     }
     return uit;
   });
@@ -334,9 +340,9 @@ function concordantieHtml(data) {
   if (!data) return '<em>Geen concordantie-gegevens gevonden.</em>';
   return `<div class="tsk-kop">${data.strongs} — ${data.totaal}× in de Bijbel</div>` +
     data.weergaven.map(w => {
-      const chip = p => `<a class="refchip" data-ref="${p.ref}" data-tekst="${md(p.tekst).replace(/"/g,'&quot;')}">${p.ref}</a>`;
-      const chips = w.plaatsen.slice(0, 10).map(chip).join('');
-      const rest = w.plaatsen.slice(10).map(chip).join('');
+      const chip = p => `<a class="refchip" data-ref="${p.ref}" data-tekst="${md(p.tekst).replace(/"/g,'&quot;')}"${refHrefAttr(p.ref)}>${p.ref}</a>`;
+      const chips = w.plaatsen.slice(0, 10).map(chip).join(REFSEP);
+      const rest = w.plaatsen.slice(10).map(chip).join(REFSEP);
       const meer = w.n > 10 ? `<details class="alle"><summary>alle ${w.n} tonen</summary><div class="ondrefs">${rest}</div></details>` : '';
       return `<div class="onderwerp"><div class="okop"><span class="naam">${w.vorm}</span><span class="label"> — ${w.n}×</span></div><div class="ondrefs">${chips}</div>${meer}</div>`;
     }).join('');
@@ -402,7 +408,7 @@ function paneelInhoud(n, tab) {
     h += '<div class="tsk-kop" style="margin-top:.9rem">Treasury of Scripture Knowledge | KJV</div>';
     if (engels && engels.length) {
       h += engels.map(i => (i.kopje ? `<div class="tsk-sub">&ldquo;${i.kopje}&rdquo;</div>` : '') + '<div>' +
-        i.refs.map(r => `<a class="refchip" data-ref="${r.ref}">${r.disp}</a>`).join('') + '</div>').join('');
+        i.refs.map(r => `<a class="refchip" data-ref="${r.ref}"${refHrefAttr(r.ref)}>${r.disp}</a>`).join(REFSEP) + '</div>').join('');
     } else {
       h += '<em>Geen verwijzingen</em>';
     }
@@ -413,8 +419,8 @@ function paneelInhoud(n, tab) {
   if (!o) return '<em>Geen onderwerpen bij dit vers.</em>';
   const refChips = refs => {
     if (!refs || !refs.length) return '';
-    const chip = r => `<a class="refchip" data-ref="${r.ref}"${r.svLabel ? ` title="${r.svLabel}"` : ''}>${r.disp}</a>`;
-    return `<div class="ond-refs">${refs.map(chip).join('')}</div>`;
+    const chip = r => `<a class="refchip" data-ref="${r.ref}"${r.svLabel ? ` title="${r.svLabel}"` : ''}${refHrefAttr(r.ref)}>${r.disp}</a>`;
+    return `<div class="ond-refs">${refs.map(chip).join(REFSEP)}</div>`;
   };
   const knoop = nd => {
     const label = nd.href ? `<a class="ondlink" href="${nd.href}">${nd.label}</a>` : `<span class="ond-label">${nd.label}</span>`;
@@ -499,16 +505,13 @@ document.addEventListener('click', e => {
     e.stopPropagation();
     popup.style.display = 'none';
     const ref = chip.dataset.ref;
-    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+    const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)'));
     if (m && document.getElementById('v' + m[1])) {
+      e.preventDefault();
       const doel = document.getElementById('v' + m[1]);
       doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
       doel.classList.remove('flits'); void doel.offsetWidth; doel.classList.add('flits');
       if (openVers !== m[1]) toggle(m[1]);
-    } else {
-      const url = refUrl(ref);
-      if (url) location.href = url;
-      else alert(ref);
     }
   }
 });
@@ -543,13 +546,13 @@ document.addEventListener('mouseover', e => {
     plaatsPopup(chip, `<div class="pref">${ref} · SVnu</div>${chip.dataset.tekst}<div class="pklik">Klik om hierheen te gaan</div>`);
     return;
   }
-  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)$'));
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)'));
   if (m) {
     const t = (D.vertalingen.SVnu[m[1]]||'').replace(/\[\d+\]/g, '');
     if (t) plaatsPopup(chip, `<div class="pref">${ref} · SVnu</div>${md(t)}<div class="pklik">Klik om hierheen te gaan</div>`);
     return;
   }
-  const rm = ref.match(/^(.*?)\s+(\d+):(\d+)$/);
+  const rm = ref.match(/^(.*?)\s+(\d+):(\d+)/);
   const slug = rm && D.meta.slugmap[rm[1]];
   if (!slug) return;
   haalPopupHfd(slug, rm[2]).then(data => {
@@ -582,7 +585,7 @@ if (location.hash.match(/^#v\d+$/)) {
   }
   const vpopup = document.createElement('div');
   vpopup.id = 'bijbelvertpopup';
-  vpopup.style.cssText = 'position:fixed;display:none;max-width:420px;background:#fffdf7;border:1px solid #c9b98a;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.8rem 1rem;font-size:.85rem;line-height:1.55;z-index:9999;font-family:"Lora",serif;color:#3a2a1d;';
+  vpopup.style.cssText = 'position:fixed;display:none;max-width:420px;background:#ffffff;border:1px solid #cccccc;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.8rem 1rem;font-size:.85rem;line-height:1.55;z-index:9999;font-family:"Lora",serif;color:#111111;';
   document.body.appendChild(vpopup);
   const VERTALINGEN = [
     { naam: 'SVnu', map: 'versteksten' },
@@ -604,7 +607,7 @@ if (location.hash.match(/^#v\d+$/)) {
     if (!ref) return;
     e.preventDefault();
     popup.style.display = 'none';
-    vpopup.innerHTML = '<div style="text-align:center;color:#8b7355;">laden…</div>';
+    vpopup.innerHTML = '<div style="text-align:center;color:#666666;">laden…</div>';
     vpopup.style.left = Math.max(4, Math.min(e.clientX, window.innerWidth - 440)) + 'px';
     vpopup.style.top = Math.max(4, Math.min(e.clientY, window.innerHeight - 40)) + 'px';
     vpopup.style.display = 'block';
@@ -612,7 +615,7 @@ if (location.hash.match(/^#v\d+$/)) {
       vpopup.innerHTML = VERTALINGEN.map((v, i) => {
         const tekst = resultaten[i] && resultaten[i][ref.vers];
         const doelHref = `../../${ref.slug}/${ref.hfd}/?vert=${v.naam}#v${ref.vers}`;
-        return `<a href="${doelHref}" style="display:block;font-family:Lora;font-weight:700;font-size:.72rem;color:#8b5e34;margin-top:${i ? '.8rem' : '0'};margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">${v.naam} ›</a>${tekst ? md(tekst) : '<em>Tekst niet gevonden.</em>'}`;
+        return `<a href="${doelHref}" style="display:block;font-family:Lora;font-weight:700;font-size:.72rem;color:#1a1a1a;margin-top:${i ? '.8rem' : '0'};margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">${v.naam} ›</a>${tekst ? md(tekst) : '<em>Tekst niet gevonden.</em>'}`;
       }).join('');
     });
   });

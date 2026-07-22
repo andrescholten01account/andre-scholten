@@ -2,21 +2,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"><title>Ezra — StudieBijbel</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:wght@600;700&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 <style>
 :root {
-  --light:#faf6ee; --lightgray:#e6dcc8; --gray:#c9b896; --darkgray:#4a3829; --dark:#3a2a1d;
-  --secondary:#8b5e34; --tertiary:#a87c4f;
+  --light:#ffffff; --lightgray:#e5e5e5; --gray:#b3b3b3; --darkgray:#333333; --dark:#111111;
+  --secondary:#1a1a1a; --tertiary:#757575;
   --bodyFont:"Lora", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --accent:var(--secondary); --accent-donker:var(--dark); --bg:var(--light);
-  --bg-soft:#f2ead8; --border:var(--lightgray); --tekst:var(--darkgray);
+  --bg-soft:#f5f5f5; --border:var(--lightgray); --tekst:var(--darkgray);
 }
 * { box-sizing:border-box; }
 body { font-family:var(--bodyFont); background:var(--bg); color:var(--tekst); margin:0; line-height:1.7; }
 .omslag { max-width:900px; margin:0 auto; padding:1.2rem 1rem 4rem; }
 .site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; line-height:normal; }
 @media (min-width:801px) { .site-header { margin-top:4.8rem; } }
-.page-title { font-size:1.75rem; font-family:"Lora"; text-align:center; margin:0 0 .4rem; font-weight:700; }
+.page-title { font-size:1.75rem; font-family:"Playfair Display","Lora",serif; text-align:center; margin:0 0 .4rem; font-weight:700; }
 .page-title a { color:var(--secondary); text-decoration:none; background-color:transparent !important; }
 .page-title a:hover { color:var(--tertiary); }
 .site-subtitle { font-family:"Lora"; color:var(--secondary); letter-spacing:.04em; margin:0 0 1rem; font-size:1.05em; font-style:italic; line-height:1.6rem; }
@@ -26,14 +26,14 @@ body { font-family:var(--bodyFont); background:var(--bg); color:var(--tekst); ma
 .nav-sep { color:var(--gray); }
 .kruimel { font-family:sans-serif; font-size:.78rem; color:#999; margin:1rem 0 .2rem; }
 .kruimel a { color:var(--accent); text-decoration:none; }
-h2.titel { text-align:center; font-size:1.7rem; margin:.6rem 0 .2rem; }
-.ondertitel { text-align:center; color:#8b7355; font-style:italic; font-size:.95rem; margin-bottom:1.4rem; }
+h2.titel { font-family:"Playfair Display",serif; color:var(--dark); text-align:center; font-size:1.7rem; margin:.6rem 0 .2rem; }
+.ondertitel { text-align:center; color:#666666; font-style:italic; font-size:.95rem; margin-bottom:1.4rem; }
 .testament { font-family:sans-serif; font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-donker); border-bottom:1px solid var(--border); padding-bottom:.3rem; margin:1.6rem 0 .8rem; }
 .boekgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(155px,1fr)); gap:.4rem; }
 .boeklink { display:flex; justify-content:space-between; align-items:baseline; gap:.4rem; text-decoration:none; color:var(--tekst); border:1px solid var(--border); border-radius:8px; padding:.5rem .7rem; background:#fff; }
 .boeklink:hover { border-color:var(--accent); background:var(--bg-soft); }
 .boeklink .bn { color:var(--accent-donker); }
-.boeklink .hn { font-family:sans-serif; font-size:.72rem; color:#b3a184; }
+.boeklink .hn { font-family:sans-serif; font-size:.72rem; color:#999999; }
 .hfdgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(48px,1fr)); gap:.4rem; margin-top:1rem; }
 .hfdlink { display:flex; align-items:center; justify-content:center; text-decoration:none; color:var(--accent-donker); border:1px solid var(--border); border-radius:8px; padding:.55rem 0; background:#fff; font-family:sans-serif; }
 .hfdlink:hover { border-color:var(--accent); background:var(--accent); color:#fff; }
