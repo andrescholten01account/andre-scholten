@@ -8,7 +8,7 @@ andre-scholten.nl
 
 Persoonlijke blog 
 
-[[Blog]] | [[Basis]] | [Bijbel](/studiebijbel/) 
+[[Blog over gezin]] | [[Basis]] | [Bijbel](/studiebijbel/) 
 
 %%
 
@@ -26,7 +26,7 @@ Persoonlijke blog
 > Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
 
-Lees meer over het [[Blog|gezin]]. 
+Lees meer over het [[Blog over gezin|gezin]]. 
 
 </div>
 
@@ -34,7 +34,7 @@ Lees meer over het [[Blog|gezin]].
 ## Footer
 
 Links:
-- [[Blog]]
+- [[Blog over gezin]]
 - [[Basis|Basis christelijk geloof]]
 - StudieBijbel
 
