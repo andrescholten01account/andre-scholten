@@ -64,9 +64,13 @@ https://gentlereformation.com/2024/12/11/christian-masculinity-rethinking-streng
 
 https://manhoodjourney.org/
 
+https://www.impactplayers.org/
+
 https://catholicgentleman.com/ ➔ wel katholiek, maar het idee is goed
 
 https://www.desiringgod.org/topics/men/all
+
+https://www.youthreachhouston.org/category/biblical-manhood/
 
 %%
 
