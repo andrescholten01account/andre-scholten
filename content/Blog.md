@@ -8,9 +8,6 @@
 
 %%
 
-> En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
-> ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) (SVnu)
-
 ![[Pasted image 20260722110741.png]]
 
 # Gezin
