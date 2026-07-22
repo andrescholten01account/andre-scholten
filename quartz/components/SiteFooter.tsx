@@ -157,14 +157,18 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
               if (!ref) return;
               hoverLink = a;
               if (!document.body.contains(hoverPopup)) document.body.appendChild(hoverPopup);
+              var eindMatch = a.textContent.match(/-(\\d+)/);
+              var eind = eindMatch ? parseInt(eindMatch[1], 10) : undefined;
               haalVerstekst(ref).then(function (data) {
                 if (hoverLink !== a) return;
                 if (!data) return;
                 var start = parseInt(ref.vers, 10);
+                var totaal = eind ? Math.max(1, eind - start + 1) : 1;
+                var aantal = Math.min(totaal, 3);
                 var nummers = [];
-                for (var i = 0; i < 3; i++) { var n = start + i; if (data[n]) nummers.push(n); }
+                for (var i = 0; i < aantal; i++) { var n = start + i; if (data[n]) nummers.push(n); }
                 if (!nummers.length) return;
-                var meerdere = nummers.length > 1;
+                var meerdere = nummers.length > 2;
                 var versenHtml = nummers.map(function (n) {
                   var nr = meerdere ? '<span style="color:var(--tertiary);font-weight:700;margin-right:.35rem;">' + n + '</span>' : '';
                   return '<div style="margin-bottom:.3rem;">' + nr + mdMini(data[n]) + '</div>';

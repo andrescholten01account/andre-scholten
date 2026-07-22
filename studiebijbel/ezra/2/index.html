@@ -101,8 +101,8 @@
   .uitleg-brontekst { font-family: Lora, serif; font-style: italic; color: #333333; background: var(--bg-soft); border-left: 3px solid var(--accent); padding: .5rem .8rem; margin: 0 0 .7rem; border-radius: 0 6px 6px 0; }
   .kt-nr { font-style: normal; font-weight: 700; color: var(--accent-donker); }
   .tsk-sub { font-weight: 600; color: #444; margin: .5rem 0 .2rem; }
-  .refchip { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: .12rem .7rem; margin: .15rem .25rem .15rem 0; font-family: "Lora", serif; font-size: .85rem; color: var(--accent-donker); text-decoration: none; cursor: pointer; }
-  .refchip:hover { background: var(--accent); color: #fff; }
+  .refchip { font-family: "Lora", serif; font-size: .85rem; color: var(--dark); text-decoration: underline; cursor: pointer; }
+  .refchip:hover { color: var(--tertiary); }
   .onderwerp { padding:.45rem 0; border-bottom:1px solid var(--bg-soft); }
   .onderwerp .okop { margin-bottom:.25rem; }
   .onderwerp .naam { font-weight: 700; color: var(--accent-donker); }
@@ -531,10 +531,12 @@ function haalPopupHfd(slug, hfd) {
 }
 // tot 3 verzen tonen in de hover-popup; bij meer dan 1 vers het versnummer
 // tonen (in een aparte grijstint) zodat duidelijk is waar elk vers begint.
-function popupVerzenHtml(bron, start) {
+function popupVerzenHtml(bron, start, eind) {
+  const totaal = eind ? Math.max(1, eind - start + 1) : 1;
+  const aantal = Math.min(totaal, 3);
   const nummers = [];
-  for (let i = 0; i < 3; i++) { const n = start + i; if (bron[n]) nummers.push(n); }
-  const meerdere = nummers.length > 1;
+  for (let i = 0; i < aantal; i++) { const n = start + i; if (bron[n]) nummers.push(n); }
+  const meerdere = nummers.length > 2;
   return nummers.map(n => {
     const t = md((bron[n] || '').replace(/\[\d+\]/g, ''));
     const nr = meerdere ? `<span class="popup-vnr">${n}</span>` : '';
@@ -553,21 +555,23 @@ document.addEventListener('mouseover', e => {
   if (!chip) return;
   hoverChip = chip;
   const ref = chip.dataset.ref;
-  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)'));
+  const m = ref.match(new RegExp('^' + ZELF.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ':(\\d+)(?:-(\\d+))?'));
   if (m) {
     const start = parseInt(m[1], 10);
-    const html = popupVerzenHtml(D.vertalingen.SVnu, start);
+    const eind = m[2] ? parseInt(m[2], 10) : undefined;
+    const html = popupVerzenHtml(D.vertalingen.SVnu, start, eind);
     if (html) plaatsPopup(chip, `<div class="pref">${ref} · SVnu</div>${html}<div class="pklik">Klik om hierheen te gaan</div>`);
     return;
   }
-  const rm = ref.match(/^(.*?)\s+(\d+):(\d+)/);
+  const rm = ref.match(/^(.*?)\s+(\d+):(\d+)(?:-(\d+))?/);
   const slug = rm && D.meta.slugmap[rm[1]];
   if (!slug) return;
   haalPopupHfd(slug, rm[2]).then(data => {
     if (hoverChip !== chip) return;
     if (!data) return;
     const start = parseInt(rm[3], 10);
-    const html = popupVerzenHtml(data, start);
+    const eind = rm[4] ? parseInt(rm[4], 10) : undefined;
+    const html = popupVerzenHtml(data, start, eind);
     if (!html) return;
     plaatsPopup(chip, `<div class="pref">${ref} · SVnu</div>${html}<div class="pklik">Klik om hierheen te gaan</div>`);
   });
