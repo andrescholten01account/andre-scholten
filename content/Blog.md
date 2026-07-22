@@ -1,5 +1,5 @@
-> En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
-> ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) (SVnu)
+... maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
+~ [Jozua 24:15d](https://andre-scholten.nl/studiebijbel/jozua/24#v15) (SVnu)
 
 ![[Pasted image 20260715071609.png|450]]
 
@@ -8,15 +8,10 @@
 
 %%
 
-... Ik en mijn huis, wij zullen de Heere dienen.
-➔ Joz. 24:15 b
+> En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
+> ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) (SVnu)
 
-
-![[Pasted image 20260721085837.png]]
-
-➔ in de tekening moet dit nog gebeuren: tussen vader en moeder moet nog ouders komen ➔ staat nu half doorgekrast
-➔ H1 Gezin staat nu doorgekrast ➔ moet niet 
-➔ nog aanpassen bij kinderen ➔ rechts: dochter, zoon
+![[Pasted image 20260722110741.png]]
 
 # Gezin
 
