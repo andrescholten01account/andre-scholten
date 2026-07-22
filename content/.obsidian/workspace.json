@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vader.md",
+                "file": "Man.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vader"
+              "title": "Man"
             }
           }
         ]
@@ -190,9 +190,10 @@
   "active": "f35d218d4af34828",
   "lastOpenFiles": [
     "index.md",
+    "Blog.md.tmp.18312.ebb609fbdfb7",
+    "Vader.md",
     "Man.md",
     "Echtgenoot.md",
-    "Vader.md",
     "Blog.md",
     "studiebijbel.md",
     "Boeken.md",
@@ -214,7 +215,6 @@
     "God.md",
     "Gods Woord.md",
     "Blog over gezin.md",
-    "Obsidian.md",
     "Pasted image 20260722135232.png",
     "Pasted image 20260722110741.png",
     "Pasted image 20260721085837.png",
@@ -233,7 +233,6 @@
     "Vertaalproject/Murray-Pinksteren/bron/fullblessingpent00murruoft.epub",
     "Vertaalproject/Murray-Pinksteren/vertaling",
     "Vertaalproject/Murray-Pinksteren/bron",
-    "Vertaalproject/Murray-Pinksteren",
-    "Vertaalproject"
+    "Vertaalproject/Murray-Pinksteren"
   ]
 }

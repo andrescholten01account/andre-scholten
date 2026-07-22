@@ -30,17 +30,9 @@ Lees meer over [[Vader|vaderschap]]
 
 </div>
 
-<<<<<<< HEAD
----
-
-Morning + evening ➔ Spurgeon
-
----
+<div id="spurgeon-block" class="spurgeon-block"></div>
 
 Eigen tekst 
-=======
-<div id="spurgeon-block" class="spurgeon-block"></div>
->>>>>>> claude/spurgeon-morning-evening-blog-82c3f0
 
 %%
 ## Footer
@@ -68,4 +60,3 @@ Rechts:
 https://books.google.nl/books/about/Divine_and_Moral_Songs_for_Children.html?id=4UdcjfX2b3QC&redir_esc=y
 
 %%
-

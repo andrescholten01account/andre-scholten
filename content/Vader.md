@@ -48,7 +48,7 @@ Ef. 6:4 -> traag tot toorn -> jak. 1:19-20
 
 Cat in the cradle
 
-
+Vertegenwoordiger ➔ veel tijd weg, later zag hij zijn kinderen bijna niet meer. 
 
 ---
 

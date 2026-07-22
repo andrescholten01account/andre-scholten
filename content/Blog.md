@@ -11,56 +11,10 @@ title: Blog over gezin
 > Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
 
-<<<<<<< HEAD
----
-=======
 <div id="spurgeon-block" class="spurgeon-block"></div>
-
-%%
-
-## Gezin
-
-### Relatie met God  
-
-- Man
-- Vrouw
-
-### Huwelijk 
-
-- Echtgenoot
-- Echtgenote
-
-### Gezin
-Vader en moeder = [[Ouders]]
-
-- [[Vader]]
-- [[Moeder]]
-- [[Kinderen]]
-
-
-## [[Geloofsopvoeding]]
-
-## [[Kinderrijmpjes]]
-
-## [[Schrijven]]
-
-## [[Boeken]]
-
-## [[Preken]]
-
-## [[Grootouders]]
-
-## [[Bronnen]]
->>>>>>> claude/spurgeon-morning-evening-blog-82c3f0
-
-Spurgeon - morning and evening
-
----
-
 
 %%
 
 tekst 
 
 %%
-
