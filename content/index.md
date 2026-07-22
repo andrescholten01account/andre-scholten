@@ -30,10 +30,6 @@ Lees meer over [[Vader|vaderschap]]
 
 </div>
 
-<div id="spurgeon-block" class="spurgeon-block"></div>
-
-Eigen tekst 
-
 %%
 ## Footer
 

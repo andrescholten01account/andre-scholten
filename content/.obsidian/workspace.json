@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Man.md",
+                "file": "Blog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Man"
+              "title": "Blog"
             }
           }
         ]
@@ -190,11 +190,11 @@
   "active": "f35d218d4af34828",
   "lastOpenFiles": [
     "index.md",
+    "Blog.md",
+    "Man.md",
     "Blog.md.tmp.18312.ebb609fbdfb7",
     "Vader.md",
-    "Man.md",
     "Echtgenoot.md",
-    "Blog.md",
     "studiebijbel.md",
     "Boeken.md",
     "Kinderen.md",
