@@ -3,6 +3,12 @@
 
 ---
 
+## [[Geloofsopvoeding]]
+
+## [[Kinderrijmpjes]]
+
+---
+
 ## Man
 
 Als vader:

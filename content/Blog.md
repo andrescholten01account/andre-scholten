@@ -31,9 +31,7 @@ Vader en moeder = [[Ouders]]
 - [[Kinderen]]
 
 
-## [[Geloofsopvoeding]]
 
-## [[Kinderrijmpjes]]
 
 ## [[Schrijven]]
 
