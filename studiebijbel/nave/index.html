@@ -57,8 +57,8 @@ ul.item-list { list-style: disc; }
 ul.item-subs { list-style: circle; margin-top:.2rem; }
 .item-list li, .item-subs li { margin:.3rem 0; }
 .item-label { color:#333333; margin-right:.5rem; }
-.refchip { font-family:"Lora",serif; font-size:.85rem; color:var(--dark); text-decoration:underline; cursor:pointer; }
-.refchip:hover { color:var(--tertiary); }
+.refchip { font-family:"Lora",serif; font-size:.85rem; color:var(--tertiary); text-decoration:none; border-bottom:1px dotted var(--tertiary); cursor:pointer; }
+.refchip:hover { color:var(--dark); border-bottom-color:var(--dark); }
 .reg-intro { text-align:center; color:#666666; font-style:italic; margin-bottom:.4rem; }
 .terug { font-family:"Lora"; font-size:.8rem; }
 @keyframes flits { 0%,50% { background:#e0e0e0; border-color:#999999; } 100% { background:var(--bg-soft); border-color:var(--border); } }
@@ -112,8 +112,17 @@ ul.item-subs { list-style: circle; margin-top:.2rem; }
     var m = (chip.getAttribute('href') || '').match(/([a-z0-9-]+)\/(\d+)\/#v(\d+)$/);
     if (!m) return;
     var slug = m[1], hfd = m[2], start = parseInt(m[3], 10);
-    var eindMatch = chip.textContent.match(/-(\d+)/);
-    var eind = eindMatch ? parseInt(eindMatch[1], 10) : undefined;
+    // de weergavetekst gebruikt soms de KJV-versnummering, die af en toe 1
+    // vers verschilt van de SV-nummering (het href-vers is al naar SV
+    // gecorrigeerd) -- de verschuiving tussen beide toepassen op het
+    // eindvers voorkomt een fout aantal getoonde verzen bij zo'n bereik.
+    var textMatch = chip.textContent.match(/(\d+)(?:-(\d+))?$/);
+    var eind;
+    if (textMatch && textMatch[2]) {
+      var textStart = parseInt(textMatch[1], 10);
+      var verschuiving = start - textStart;
+      eind = parseInt(textMatch[2], 10) + verschuiving;
+    }
     haalVerstekst(slug, hfd).then(function(data){
       if (!data) return;
       var totaal = eind ? Math.max(1, eind - start + 1) : 1;
@@ -121,7 +130,7 @@ ul.item-subs { list-style: circle; margin-top:.2rem; }
       var nummers = [];
       for (var i = 0; i < aantal; i++) { var n = start + i; if (data[n]) nummers.push(n); }
       if (!nummers.length) return;
-      var meerdere = nummers.length > 2;
+      var meerdere = nummers.length > 1;
       var html = nummers.map(function(n){
         var nr = meerdere ? '<span class="popup-vnr">' + n + '</span>' : '';
         return '<div class="popup-vers">' + nr + data[n] + '</div>';
