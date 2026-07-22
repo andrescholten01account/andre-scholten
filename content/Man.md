@@ -66,6 +66,10 @@ https://manhoodjourney.org/
 
 https://www.impactplayers.org/
 
+https://fathers.com/
+
+https://allprodad.com/
+
 https://catholicgentleman.com/ ➔ wel katholiek, maar het idee is goed
 
 https://www.desiringgod.org/topics/men/all
