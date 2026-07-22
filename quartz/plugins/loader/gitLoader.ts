@@ -310,7 +310,16 @@ function trySymlink(target: string, linkPath: string): void {
   try {
     fs.symlinkSync(target, linkPath, "dir")
   } catch (err: unknown) {
-    if ((err as NodeJS.ErrnoException).code === "EEXIST") return
+    const e = err as NodeJS.ErrnoException
+    if (e.code === "EEXIST") return
+    if (e.code === "EPERM" && process.platform === "win32") {
+      // Windows without Developer Mode/admin can't create symlinks; a
+      // junction gives the same directory link without that privilege,
+      // but (unlike a symlink) requires an absolute target path.
+      const absTarget = path.resolve(path.dirname(linkPath), target)
+      fs.symlinkSync(absTarget, linkPath, "junction")
+      return
+    }
     throw err
   }
 }

@@ -30,6 +30,7 @@ Lees meer over [[Vader|vaderschap]]
 
 </div>
 
+<<<<<<< HEAD
 ---
 
 Morning + evening ➔ Spurgeon
@@ -37,6 +38,9 @@ Morning + evening ➔ Spurgeon
 ---
 
 Eigen tekst 
+=======
+<div id="spurgeon-block" class="spurgeon-block"></div>
+>>>>>>> claude/spurgeon-morning-evening-blog-82c3f0
 
 %%
 ## Footer

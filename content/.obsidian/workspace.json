@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "f5ed32b23c520c6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ce15ffa9828f9b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f35d218d4af34828",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vader.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vader"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "96c25554fd0ca0c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd315eadb14d7bde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4456425972787b90",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Verkenner"
+            }
+          },
+          {
+            "id": "3ae97e9aaf91d3c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Zoeken"
+            }
+          },
+          {
+            "id": "7443ff02d00dc463",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bladwijzers"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "3b95f4458cba8f01",
+    "type": "split",
+    "children": [
+      {
+        "id": "d50bbf8f6325bcb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0ea03374bf9fff2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Terugverwijzingen voor index"
+            }
+          },
+          {
+            "id": "2eb1cbe7be0aecd7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Waarom vervuld worden met de Heilige Geest.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Uitgaande verwijzingen van Waarom vervuld worden met de Heilige Geest"
+            }
+          },
+          {
+            "id": "51b5c84836c16760",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Labels"
+            }
+          },
+          {
+            "id": "c37a9262f71e7b13",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Alle eigenschappen"
+            }
+          },
+          {
+            "id": "8e1fa3d7ff78d8ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Waarom vervuld worden met de Heilige Geest.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Overzicht van Waarom vervuld worden met de Heilige Geest"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open snel wisselen": false,
+      "graph:Open grafiek weergave": false,
+      "canvas:Nieuw doek aanmaken": false,
+      "daily-notes:Open de notitie van vandaag": false,
+      "templates:Sjabloon invoegen": false,
+      "command-palette:Open opdrachtenpaneel": false,
+      "bases:Nieuwe basis maken": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "f35d218d4af34828",
+  "lastOpenFiles": [
+    "index.md",
+    "Man.md",
+    "Echtgenoot.md",
+    "Vader.md",
+    "Blog.md",
+    "studiebijbel.md",
+    "Boeken.md",
+    "Kinderen.md",
+    "Moeder.md",
+    "Ouders.md",
+    "Het eeuwige oordeel.md",
+    "Geloofsopvoeding.md",
+    "Basis.md",
+    "Persoonlijke geloofsbelijdenis.md",
+    "Gehoorzaamheid - Jezus volgen.md",
+    "De Heilige Geest.md",
+    "Dopen.md",
+    "Redding.md",
+    "Geloof.md",
+    "Bekering.md",
+    "Jezus Christus.md",
+    "De mens.md",
+    "God.md",
+    "Gods Woord.md",
+    "Blog over gezin.md",
+    "Obsidian.md",
+    "Pasted image 20260722135232.png",
+    "Pasted image 20260722110741.png",
+    "Pasted image 20260721085837.png",
+    "Pasted image 20260720161745.png",
+    "Pasted image 20260708215230.png",
+    "Templates",
+    "Uitgangspunten.md.tmp.28544.14dace586039",
+    "Pasted image 20260715071609.png",
+    "V2_De basis van het het Christelijk geloof_definitief.pdf",
+    "Pasted image 20260708215343.png",
+    "Pasted image 20260708215241.png",
+    "Pasted image 20260708215218.png",
+    "Pasted image 20260708215205.png",
+    "Blog.md.tmp.26036.4bf52c38c978",
+    "index.md.tmp.18824.a1d505baa2a1",
+    "Vertaalproject/Murray-Pinksteren/bron/fullblessingpent00murruoft.epub",
+    "Vertaalproject/Murray-Pinksteren/vertaling",
+    "Vertaalproject/Murray-Pinksteren/bron",
+    "Vertaalproject/Murray-Pinksteren",
+    "Vertaalproject"
+  ]
+}

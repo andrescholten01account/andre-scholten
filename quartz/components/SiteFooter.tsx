@@ -16,7 +16,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   return (
     <footer class="site-footer">
       <div class="site-footer-col">
-        <a href={`${baseDir}/blog`}>Blog over gezin</a>
+        <a href={`${baseDir}/blog`}>Blog</a>
         <a href={`${baseDir}/basis`}>Basis christelijk geloof</a>
         <a href="https://andre-scholten.nl/studiebijbel/genesis/1/" data-router-ignore>StudieBijbel</a>
       </div>
@@ -63,7 +63,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
           (function () {
             function parseRef(href) {
               if (!href) return null;
-              var m = href.match(/\\/studiebijbel\\/([a-z0-9-]+)\\/(\\d+)#v(\\d+)$/);
+              var m = href.match(/\\/studiebijbel\\/([a-z0-9-]+)\\/(\\d+)\\/?(?:\\?[^#]*)?#v(\\d+)$/);
               if (!m) return null;
               return { slug: m[1], hfd: m[2], vers: m[3] };
             }
@@ -125,15 +125,21 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
           (function () {
             function parseRef(href) {
               if (!href) return null;
-              var m = href.match(/\\/studiebijbel\\/([a-z0-9-]+)\\/(\\d+)#v(\\d+)$/);
+              var m = href.match(/\\/studiebijbel\\/([a-z0-9-]+)\\/(\\d+)\\/?(?:\\?([^#]*))?#v(\\d+)$/);
               if (!m) return null;
-              return { slug: m[1], hfd: m[2], vers: m[3] };
+              var vert = 'SVnu';
+              if (m[3]) {
+                var vm = m[3].match(/(?:^|&)vert=([^&]+)/);
+                if (vm) vert = decodeURIComponent(vm[1]);
+              }
+              return { slug: m[1], hfd: m[2], vers: m[4], vert: vert };
             }
             function mdMini(t) {
               t = (t || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
               t = t.replace(/\\[\\d+\\]/g, '');
               return t.replace(/\\*([^*]+)\\*/g, '<em>$1</em>');
             }
+            var VERT_MAP = { SVnu: 'versteksten', SV: 'versteksten_sv', KJV: 'versteksten_kjv' };
             var hoverPopup = document.getElementById('bijbelhoverpopup');
             if (!hoverPopup) {
               hoverPopup = document.createElement('div');
@@ -143,9 +149,10 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
             }
             var cache = {};
             function haalVerstekst(ref) {
-              var sleutel = ref.slug + '/' + ref.hfd;
+              var map = VERT_MAP[ref.vert] || 'versteksten';
+              var sleutel = map + ':' + ref.slug + '/' + ref.hfd;
               if (sleutel in cache) return cache[sleutel];
-              cache[sleutel] = fetch('https://andre-scholten.nl/studiebijbel/versteksten/' + ref.slug + '/' + ref.hfd + '.json')
+              cache[sleutel] = fetch('https://andre-scholten.nl/studiebijbel/' + map + '/' + ref.slug + '/' + ref.hfd + '.json')
                 .then(function (r) { return r.ok ? r.json() : null; })
                 .catch(function () { return null; });
               return cache[sleutel];
@@ -173,7 +180,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
                   var nr = meerdere ? '<span style="color:var(--tertiary);font-weight:700;margin-right:.35rem;">' + n + '</span>' : '';
                   return '<div style="margin-bottom:.3rem;">' + nr + mdMini(data[n]) + '</div>';
                 }).join('');
-                hoverPopup.innerHTML = '<div style="font-family:Lora;font-weight:700;font-size:.72rem;color:#1a1a1a;margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">' + a.textContent + ' · SVnu</div>' + versenHtml;
+                hoverPopup.innerHTML = '<div style="font-family:Lora;font-weight:700;font-size:.72rem;color:#1a1a1a;margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">' + a.textContent + ' · ' + ref.vert + '</div>' + versenHtml;
                 var r = a.getBoundingClientRect();
                 hoverPopup.style.left = Math.max(8, Math.min(r.left, window.innerWidth - 400)) + 'px';
                 hoverPopup.style.top = (r.bottom + 6) + 'px';
@@ -208,6 +215,64 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
             }
             kleurVerwijzingScheiders();
             document.addEventListener('nav', kleurVerwijzingScheiders);
+          })();
+
+          /* Spurgeon "Morning and Evening" van vandaag: op /blog en / wordt
+             #spurgeon-block gevuld met de overdenking die past bij het
+             tijdstip van de bezoeker (00:00-12:00 = morning, 12:00-24:00 =
+             evening), met kruislinks naar het andere deel van die dag en
+             naar het archief. */
+          (function () {
+            var dataPromise = null;
+            function haalSpurgeonData() {
+              if (!dataPromise) {
+                dataPromise = fetch('https://andre-scholten.nl/static/spurgeon.json')
+                  .then(function (r) { return r.ok ? r.json() : null; })
+                  .catch(function () { return null; });
+              }
+              return dataPromise;
+            }
+            function esc(t) {
+              return (t || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
+            }
+            function emph(t) {
+              return esc(t).replace(/_([^_]+)_/g, '<em>$1</em>');
+            }
+            function renderSectie(sectie, label) {
+              var quoteHtml = '<blockquote class="spurgeon-quote"><p>' + emph(sectie.quote) + '</p><p>~ ' +
+                (sectie.link ? '<a href="' + sectie.link + '" data-router-ignore>' + esc(sectie.ref) + '</a>' : esc(sectie.ref)) +
+                ' (KJV)</p></blockquote>';
+              var bodyHtml = sectie.paragraphs.map(function (p) { return '<p>' + emph(p) + '</p>'; }).join('');
+              return '<div class="spurgeon-heading">' + label + '</div>' + quoteHtml + bodyHtml;
+            }
+            function renderSpurgeonBlock() {
+              var el = document.getElementById('spurgeon-block');
+              if (!el) return;
+              haalSpurgeonData().then(function (data) {
+                if (!data) return;
+                var el2 = document.getElementById('spurgeon-block');
+                if (!el2) return;
+                var nu = new Date();
+                var mm = String(nu.getMonth() + 1).padStart(2, '0');
+                var dd = String(nu.getDate()).padStart(2, '0');
+                var sleutel = mm + '-' + dd;
+                var dag = data[sleutel];
+                if (!dag) return;
+                var isOchtend = nu.getHours() < 12;
+                var deze = isOchtend ? dag.morning : dag.evening;
+                var andere = isOchtend ? 'evening' : 'morning';
+                var dagHref = 'https://andre-scholten.nl/spurgeon/' + sleutel;
+                var andereLabel = isOchtend ? 'Vanavond: de evening van vandaag »' : 'Vanmorgen: de morning van vandaag »';
+                var alleLabel = isOchtend ? 'Alle mornings (archief) »' : 'Alle evenings (archief) »';
+                el2.innerHTML = renderSectie(deze, isOchtend ? 'Morning' : 'Evening') +
+                  '<div class="spurgeon-links">' +
+                  '<a href="' + dagHref + '#' + andere + '" data-router-ignore>' + andereLabel + '</a>' +
+                  '<a href="https://andre-scholten.nl/spurgeon/" data-router-ignore>' + alleLabel + '</a>' +
+                  '</div>';
+              });
+            }
+            renderSpurgeonBlock();
+            document.addEventListener('nav', renderSpurgeonBlock);
           })();
           `,
         }}

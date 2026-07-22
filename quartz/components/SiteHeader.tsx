@@ -21,11 +21,11 @@ const SiteHeader: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) =>
       </h2>
       <p class="site-subtitle">Persoonlijke blog</p>
       <nav class="site-nav">
-        <a href={`${baseDir}/blog`}>Blog</a>
+        <a href={`${baseDir}/man`}>Man</a>
         <span class="nav-sep"> | </span>
-        <a href={`${baseDir}/basis`}>Basis</a>
+        <a href={`${baseDir}/echtgenoot`}>Echtgenoot</a>
         <span class="nav-sep"> | </span>
-        <a href="https://andre-scholten.nl/studiebijbel/genesis/1/" data-router-ignore>Bijbel</a>
+        <a href={`${baseDir}/vader`}>Vader</a>
       </nav>
     </div>
   )

@@ -1,0 +1,13 @@
+{
+  "debug": false,
+  "convertRules": "'->|' ->  '➔|'",
+  "zoneIndicatorOn": false,
+  "autoFormatOn": false,
+  "profiles": [
+    {
+      "title": "global",
+      "content": "'->|' ->  '➔|'"
+    }
+  ],
+  "activeProfile": "global"
+}

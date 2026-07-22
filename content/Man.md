@@ -54,12 +54,19 @@ Dus:
 
 jezelf -> gezin -> gemeente
 
+ Before You Rule, Rule Yourself 
+ https://www.desiringgod.org/articles/before-you-rule-rule-yourself
+
 ---
 
 Christian Masculinity: Rethinking Strength and Grace
 https://gentlereformation.com/2024/12/11/christian-masculinity-rethinking-strength-and-grace/
 
 https://manhoodjourney.org/
+
+https://catholicgentleman.com/ ➔ wel katholiek, maar het idee is goed
+
+https://www.desiringgod.org/topics/men/all
 
 %%
 
