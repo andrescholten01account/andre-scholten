@@ -8,7 +8,7 @@
 
 %%
 
-## Inhoudsopgave
+## Gezin
 
 ### Relatie met God  
 
@@ -27,16 +27,20 @@ Vader en moeder = [[Ouders]]
 - [[Moeder]]
 - [[Kinderen]]
 
-## Meer onderwerpen
+### Meer onderwerpen
+
+Inhoudelijk:
 
 - [[Grootouders]]
 - [[Geloofsopvoeding]]
 - [[Kinderrijmpjes]]
-- [[Bronnen]]
-- [[Boeken]]
-- [[Preken]]
 - [[Schrijven]]
 
+Bronnen:
+
+- [[Boeken]]
+- [[Preken]]
+- [[Bronnen]]
 
 
 
