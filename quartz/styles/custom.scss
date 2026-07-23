@@ -2,6 +2,14 @@
 
 // put your custom CSS here!
 
+// Broodtekst: Lora, ruim leesbaar voor lange artikelen
+body {
+  font-family: "Lora", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.65;
+  color: #2b2b2b;
+}
+
 a:not(.page-title a):not(.site-nav a) {
   background-color: transparent !important;
   text-decoration: underline !important;
@@ -65,22 +73,28 @@ h1 {
 .page-title {
   font-size: 1.75rem;
   margin: 0 0 0.4rem;
-  font-family: var(--titleFont);
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
   text-align: center;
   width: 100%;
 }
 
 .site-subtitle {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
   font-style: italic;
-  font-size: 1.05em;
+  text-transform: uppercase;
+  font-size: 0.95em;
   color: var(--secondary);
-  letter-spacing: 0.04em;
+  letter-spacing: 2px;
   margin: 0 0 1rem;
 }
 
 .site-nav {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
   font-size: 0.82em;
-  letter-spacing: 0.18em;
+  letter-spacing: 3.5px;
   text-transform: uppercase;
   margin: 0 0 1.5rem;
   border-top: 1px solid var(--lightgray);
@@ -92,7 +106,7 @@ h1 {
 
 .site-nav a {
   text-decoration: none !important;
-  font-weight: 500;
+  font-weight: 700;
   background: transparent !important;
 }
 
@@ -102,20 +116,13 @@ h1 {
 
 .nav-sep {
   color: var(--gray);
+  margin: 0 0.6em;
 }
 
-// Mobiel: meer ruimte en iets groter lettertype
+// Mobiel: meer ruimte
 @media (max-width: 800px) {
   .page > #quartz-body {
     padding: 0 1.8rem !important;
-  }
-
-  body {
-    font-size: 1.08rem;
-  }
-
-  p, li {
-    line-height: 1.8rem;
   }
 }
 
