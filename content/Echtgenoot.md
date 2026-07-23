@@ -2,7 +2,7 @@ Wees een echtgenoot naar Gods hart
 
 %%
 
-Ook huwelijk. 
+Hoe heb je een goed huwelijk?  
 
 %%
 

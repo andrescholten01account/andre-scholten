@@ -2,6 +2,7 @@ Wees een man naar Gods hart
 
 %%
 
+Bijbelteksten
 
 - On good nature and firmness (zie boeken John Ploughman)
 
@@ -17,8 +18,6 @@ spurgeon ➔ manly "stick to it"
 
 if you could kick the person in the paint, most responsible for your problems, you wouldn't sit for a week.
 ➔ theodore roosevelt
-
-artofmanliness.com/
 
 ---
 
@@ -36,15 +35,16 @@ familie
 vrienden
 gemeente
 
+---
+## Leiding geven aan jezelf
 
-Leiding geven aan jezelf:
 gezondheid
 -> slaap
 -> eten
 -> beweging
 -> [[ontspanning]] 
 
----
+...
 
 ? 1 Tim. -> ouderling goed leiding geven aan eigen huis -> dan aan gemeente
 
@@ -58,6 +58,9 @@ jezelf -> gezin -> gemeente
  https://www.desiringgod.org/articles/before-you-rule-rule-yourself
 
 ---
+## Bronnen
+
+https://artofmanliness.com/
 
 Christian Masculinity: Rethinking Strength and Grace
 https://gentlereformation.com/2024/12/11/christian-masculinity-rethinking-strength-and-grace/

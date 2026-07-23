@@ -5,7 +5,7 @@ Wees een vader naar Gods hart
 > En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
 > ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) (SVnu)
 
-Ook het gezin. 
+De vader als leider van het gezin.  
 
 ---
 ## Man
@@ -28,7 +28,6 @@ Husband should try to maken home happy and holy.
 5. Onderwijs je kinderen over God
 
 ---
-
 ## [[Geloofsopvoeding]]
 
 Bijbelteksten
@@ -48,6 +47,12 @@ Kind en seksualiteit
 ## Vader en zoon
 
 ## Vader en dochter
+
+---
+## Gezin
+
+- [[Hoe leef je als gezin zoals God het wil]]? 
+- [[Verhoudingen (rollen) binnen het gezin]]
 
 ---
 
@@ -70,20 +75,6 @@ Cat in the cradle
 Vertegenwoordiger ➔ veel tijd weg, later zag hij zijn kinderen bijna niet meer. 
 
 ---
-
-Hoe leef je als gezin zoals God het wil? 
-
-Basis:
-- Van God houden
-- Van naaste houden
-
-Thuis: warmte en liefde en heiligheid
-
-Our house ought te be a little church with holiness tot the Lord over the door, ...
-~ John Ploughman's Talk (nog nakijken)
-
----
-
 ## [[Schrijven]]
 
 ## [[Boeken]]
