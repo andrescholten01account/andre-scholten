@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -188,13 +189,13 @@
   },
   "active": "f35d218d4af34828",
   "lastOpenFiles": [
+    "Vader.md",
+    "index.md",
+    "Echtgenoot.md",
     "Man.md",
     "Thuis.md",
     "Auto.md",
     "Klussen.md",
-    "index.md",
-    "Echtgenoot.md",
-    "Vader.md",
     "Verhoudingen (rollen) binnen het gezin.md",
     "Hoe leef je als gezin zoals God het wil.md",
     "Geloofsopvoeding.md",
