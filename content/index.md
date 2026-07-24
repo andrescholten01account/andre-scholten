@@ -52,6 +52,7 @@ Rechts:
 
 - [To do andre-scholten.nl](https://docs.google.com/document/d/1jtzucFNI_9Exy_BSg7btDH-yfkHD7HdMJq-uZg6YcHY/edit?tab=t.0)
 - [[Obsidian]]
+- [[SEO]]
 
 https://books.google.nl/books/about/Divine_and_Moral_Songs_for_Children.html?id=4UdcjfX2b3QC&redir_esc=y
 

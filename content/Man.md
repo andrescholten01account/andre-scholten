@@ -60,6 +60,8 @@ jezelf -> gezin -> gemeente
 ---
 ## Bronnen
 
+https://web.archive.org/web/20160205221615/http://michaelhyatt.com/
+
 https://artofmanliness.com/
 
 Christian Masculinity: Rethinking Strength and Grace

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "SEO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "SEO"
             }
           }
         ]
@@ -188,10 +188,12 @@
   },
   "active": "f35d218d4af34828",
   "lastOpenFiles": [
-    "Vader.md",
+    "test.md",
+    "SEO.md",
     "index.md",
-    "Echtgenoot.md",
     "Man.md",
+    "Vader.md",
+    "Echtgenoot.md",
     "Thuis.md",
     "Auto.md",
     "Klussen.md",
@@ -212,8 +214,6 @@
     "spurgeon/12-20.md",
     "spurgeon/12-21.md",
     "spurgeon/12-19.md",
-    "spurgeon/12-18.md",
-    "spurgeon/12-17.md",
     "spurgeon",
     "Blog.md.tmp.18312.ebb609fbdfb7",
     "Pasted image 20260722135232.png",
