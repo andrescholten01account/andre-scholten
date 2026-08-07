@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Oude homepage"
             }
+          },
+          {
+            "id": "c375f0ef7b7b3ddf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Naamloos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Naamloos"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -214,11 +228,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "022e11e8ca756414",
+  "active": "c375f0ef7b7b3ddf",
   "lastOpenFiles": [
+    "Oude homepage.md",
+    "Naamloos.md",
+    "Naamloos",
+    "Blog",
     "Pasted image 20260807080840.png",
     "index.md",
-    "Oude homepage.md",
     "Blog.md",
     "conflict-files-obsidian-git.md",
     "Oude tekst van Blogpagina.md",
@@ -256,11 +273,8 @@
     "Pasted image 20260708215343.png",
     "Pasted image 20260708215241.png",
     "Pasted image 20260708215218.png",
-    "Pasted image 20260708215205.png",
     "Blog.md.tmp.26036.4bf52c38c978",
     "index.md.tmp.18824.a1d505baa2a1",
-    "Vertaalproject/Murray-Pinksteren/bron/fullblessingpent00murruoft.epub",
-    "Vertaalproject/Murray-Pinksteren/vertaling",
-    "Vertaalproject/Murray-Pinksteren/bron"
+    "Vertaalproject/Murray-Pinksteren/bron/fullblessingpent00murruoft.epub"
   ]
 }
