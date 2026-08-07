@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dit is een testblog.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dit is een testblog"
+              "title": "index"
             }
           }
         ],
@@ -230,8 +230,8 @@
   },
   "active": "c375f0ef7b7b3ddf",
   "lastOpenFiles": [
-    "Oude homepage.md",
     "Dit is een testblog.md",
+    "Oude homepage.md",
     "Naamloos",
     "Blog",
     "Pasted image 20260807080840.png",
