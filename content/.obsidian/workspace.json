@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bronnen.md",
+                "file": "Blog/Dit is een testblog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bronnen"
+              "title": "Dit is een testblog"
             }
           },
           {
