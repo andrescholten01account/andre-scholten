@@ -84,8 +84,9 @@ const BlogList: QuartzComponent = ({ cfg, fileData, allFiles }: QuartzComponentP
 }
 
 BlogList.css = `
+.blog-lijst { margin-top: 2rem; }
 .blog-lijst-ul { list-style: none; margin: 0; padding: 0; }
-.blog-lijst-li { padding: .9rem 0; border-bottom: 1px solid var(--lightgray); }
+.blog-lijst-li { padding: .9rem 0; }
 .blog-lijst-li:first-child { padding-top: 0; }
 .blog-lijst-titel { font-size: 16px; font-weight: 600; }
 .blog-lijst-datum { margin: .25rem 0 0; color: var(--gray); font-size: .85rem; }

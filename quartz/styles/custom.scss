@@ -161,16 +161,3 @@ h1 {
   text-align: center;
   margin: 0 0 1rem;
 }
-
-// Footer tekst
-body::after {
-  content: "Eigen geschreven tekst is vrij te gebruiken.";
-  display: block;
-  text-align: center;
-  font-size: 0.8em;
-  color: var(--gray);
-  padding: 2rem 1.5rem 1.5rem;
-  border-top: 1px solid var(--lightgray);
-  margin: 0 auto;
-  max-width: 700px;
-}
