@@ -1,4 +1,6 @@
 ---
 Status: Draft
-draft: true
+draft: false
 ---
+Tekst
+

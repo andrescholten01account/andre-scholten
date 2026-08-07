@@ -74,8 +74,7 @@
               "title": "Bladwijzers"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -188,8 +187,13 @@
   },
   "active": "f35d218d4af34828",
   "lastOpenFiles": [
-    "Blogtips.md",
+    "Verantwoording.md",
     "index.md",
+    "Blog.md",
+    "Oude tekst van Blogpagina.md",
+    "Contact.md",
+    "Over deze site.md",
+    "Blogtips.md",
     "SEO.md",
     "test.md",
     "Man.md",
@@ -209,11 +213,6 @@
     "spurgeon/12-27.md",
     "spurgeon/12-26.md",
     "spurgeon/12-25.md",
-    "spurgeon/12-24.md",
-    "spurgeon/12-23.md",
-    "spurgeon/12-22.md",
-    "spurgeon/12-20.md",
-    "spurgeon/12-21.md",
     "spurgeon",
     "Blog.md.tmp.18312.ebb609fbdfb7",
     "Pasted image 20260722135232.png",

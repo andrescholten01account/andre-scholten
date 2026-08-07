@@ -3,10 +3,10 @@ title: Home
 ---
 %% 
 
-André Scholten
-andre-scholten.nl
+Gezin voor God
+gezinvoorgod.nl 
 
-Wees een man naar Gods hart
+De man als leider van het gezin 
 
 [[Man]] | [[Echtgenoot]] | [[Vader]]
 
@@ -35,15 +35,14 @@ Lees meer over [[Vader|vaderschap]]
 
 Links:
 - [[Blog]]
-- [[Basis|Basis christelijk geloof]]
-- StudieBijbel
+- [[Over deze site]]
+- [[Contact]]
 
 Midden:
 - Zoekfunctie
 
 Rechts:
 - [[Over]]
-- [[Contact]]
 - [[Verantwoording]]
 
 [[Copyright policy]]
@@ -54,6 +53,9 @@ Rechts:
 - [[Obsidian]]
 - [[SEO]]
 - [[Blogtips]]
+- [[Basis|Basis christelijk geloof]]
+- StudieBijbel
+- [[Oude tekst van Blogpagina]]
 
 https://books.google.nl/books/about/Divine_and_Moral_Songs_for_Children.html?id=4UdcjfX2b3QC&redir_esc=y
 
