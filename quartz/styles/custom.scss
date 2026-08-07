@@ -148,6 +148,20 @@ h1 {
   position: static;
 }
 
+// Homepage-blogwidget (gevuld door de blog-list-plugin met de volledige
+// nieuwste blogpost)
+.blog-widget-datum {
+  color: var(--gray);
+  font-size: 0.85rem;
+  margin: 0 0 0.2rem;
+  text-align: center;
+}
+
+.blog-widget-titel {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
 // Footer tekst
 body::after {
   content: "Eigen geschreven tekst is vrij te gebruiken.";

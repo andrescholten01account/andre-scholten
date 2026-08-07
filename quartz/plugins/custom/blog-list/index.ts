@@ -5,9 +5,9 @@ import type {
   QuartzComponentProps,
   QuartzPageTypePlugin,
 } from "@quartz-community/types"
-import type { Root, Element } from "hast"
+import type { Root, Element, ElementContent } from "hast"
 import { h } from "preact"
-import { resolveRelative } from "../../../util/path.ts"
+import { resolveRelative, normalizeHastElement } from "../../../util/path.ts"
 
 function formatDatum(d: Date, locale?: string): string {
   return d.toLocaleDateString(locale ?? "nl-NL", {
@@ -87,7 +87,7 @@ BlogList.css = `
 .blog-lijst-ul { list-style: none; margin: 0; padding: 0; }
 .blog-lijst-li { padding: .9rem 0; border-bottom: 1px solid var(--lightgray); }
 .blog-lijst-li:first-child { padding-top: 0; }
-.blog-lijst-titel { font-size: 1.1rem; font-weight: 600; }
+.blog-lijst-titel { font-size: 16px; font-weight: 600; }
 .blog-lijst-datum { margin: .25rem 0 0; color: var(--gray); font-size: .85rem; }
 .blog-leeg { color: var(--gray); }
 `
@@ -124,12 +124,19 @@ function homepageBlogTransform(root: Root, slug: string, componentData: QuartzCo
   }
 
   const { f, datum } = posten[0]
-  const href = resolveRelative(componentData.fileData.slug!, f.slug!)
+  const doelSlug = f.slug!
   const titel = String(f.frontmatter?.title ?? "")
   const datumTekst = formatDatum(datum, componentData.cfg.locale)
 
   widget.tagName = "div"
   widget.properties = { class: "blog-widget-inhoud" }
+
+  const inhoud: ElementContent[] = f.htmlAst
+    ? (f.htmlAst.children as ElementContent[]).map((c) =>
+        normalizeHastElement(c as Element, componentData.fileData.slug!, doelSlug),
+      )
+    : []
+
   widget.children = [
     {
       type: "element",
@@ -139,17 +146,11 @@ function homepageBlogTransform(root: Root, slug: string, componentData: QuartzCo
     },
     {
       type: "element",
-      tagName: "h3",
-      properties: {},
-      children: [
-        {
-          type: "element",
-          tagName: "a",
-          properties: { href, class: ["internal", "internal-link"] },
-          children: [{ type: "text", value: titel }],
-        },
-      ],
+      tagName: "h2",
+      properties: { class: "blog-widget-titel" },
+      children: [{ type: "text", value: titel }],
     },
+    ...inhoud,
   ]
 }
 
