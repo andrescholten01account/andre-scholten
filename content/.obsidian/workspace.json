@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Naamloos.md",
+                "file": "Dit is een testblog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Naamloos"
+              "title": "Dit is een testblog"
             }
           }
         ],
@@ -231,7 +231,7 @@
   "active": "c375f0ef7b7b3ddf",
   "lastOpenFiles": [
     "Oude homepage.md",
-    "Naamloos.md",
+    "Dit is een testblog.md",
     "Naamloos",
     "Blog",
     "Pasted image 20260807080840.png",
