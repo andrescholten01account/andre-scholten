@@ -133,6 +133,12 @@ h1 {
   color: var(--secondary);
 }
 
+// Standaard zoekknop niet tonen in de page-footer (footer bevat alleen
+// Blog | Over deze site | Contact)
+.page-footer .search-button {
+  display: none;
+}
+
 // Zijbalken zijn hier altijd leeg (explorer/graph/backlinks staan uit).
 // De standaard height:100vh + position:sticky rekte de hele pagina op tot
 // schermhoogte, wat een grote lege ruimte gaf boven de footer.

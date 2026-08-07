@@ -142,3 +142,119 @@
 
   knop.addEventListener('click', zoeken);
 })();
+
+/* ---------- Hover/rechtermuisknop-popup voor zoekresultaten (en elke
+   andere /studiebijbel/-link op deze statische pagina's): dezelfde
+   functie als Bijbelverswijzingen op de hoofdsite. ---------- */
+(function () {
+  function parseRef(href) {
+    if (!href) return null;
+    var m = href.match(/\/studiebijbel\/([a-z0-9-]+)\/(\d+)#v(\d+)$/);
+    if (!m) return null;
+    return { slug: m[1], hfd: m[2], vers: m[3] };
+  }
+
+  function mdMini(t) {
+    t = (t || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
+    return t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  }
+
+  var hoverPopup = document.getElementById('zoek-hoverpopup');
+  if (!hoverPopup) {
+    hoverPopup = document.createElement('div');
+    hoverPopup.id = 'zoek-hoverpopup';
+    hoverPopup.style.cssText =
+      'position:fixed;display:none;max-width:380px;background:#fff;border:1px solid #cccccc;' +
+      'border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.7rem .9rem;font-size:.85rem;' +
+      'line-height:1.55;z-index:9998;font-family:"Lora",serif;color:#111111;';
+    document.body.appendChild(hoverPopup);
+  }
+  var hoverCache = {};
+  function haalVerstekst(ref) {
+    var sleutel = ref.slug + '/' + ref.hfd;
+    if (sleutel in hoverCache) return hoverCache[sleutel];
+    hoverCache[sleutel] = fetch('/studiebijbel/versteksten/' + ref.slug + '/' + ref.hfd + '.json')
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; });
+    return hoverCache[sleutel];
+  }
+  var hoverLink = null;
+  document.addEventListener('mouseover', function (e) {
+    var a = e.target.closest ? e.target.closest('a[href*="/studiebijbel/"]') : null;
+    var ref = a ? parseRef(a.getAttribute('href')) : null;
+    if (!ref) return;
+    hoverLink = a;
+    if (!document.body.contains(hoverPopup)) document.body.appendChild(hoverPopup);
+    haalVerstekst(ref).then(function (data) {
+      if (hoverLink !== a) return;
+      var tekst = data && data[ref.vers];
+      if (!tekst) return;
+      hoverPopup.innerHTML =
+        '<div style="font-family:Lora;font-weight:700;font-size:.72rem;color:#1a1a1a;' +
+        'margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;">' +
+        a.textContent + ' · SVnu</div><div>' + mdMini(tekst) + '</div>';
+      var r = a.getBoundingClientRect();
+      hoverPopup.style.left = Math.max(8, Math.min(r.left, window.innerWidth - 400)) + 'px';
+      hoverPopup.style.top = (r.bottom + 6) + 'px';
+      hoverPopup.style.display = 'block';
+    });
+  });
+  document.addEventListener('mouseout', function (e) {
+    var a = e.target.closest ? e.target.closest('a[href*="/studiebijbel/"]') : null;
+    if (a) { hoverPopup.style.display = 'none'; hoverLink = null; }
+  });
+  document.addEventListener('scroll', function () { hoverPopup.style.display = 'none'; }, true);
+
+  var vertPopup = document.getElementById('zoek-vertpopup');
+  if (!vertPopup) {
+    vertPopup = document.createElement('div');
+    vertPopup.id = 'zoek-vertpopup';
+    vertPopup.style.cssText =
+      'position:fixed;display:none;max-width:420px;background:#fff;border:1px solid #cccccc;' +
+      'border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.16);padding:.8rem 1rem;font-size:.85rem;' +
+      'line-height:1.55;z-index:9999;font-family:"Lora",serif;color:#111111;';
+    document.body.appendChild(vertPopup);
+  }
+  var VERTALINGEN = [
+    { naam: 'SVnu', map: 'versteksten' },
+    { naam: 'SV', map: 'versteksten_sv' },
+    { naam: 'KJV', map: 'versteksten_kjv' },
+  ];
+  var vertCache = {};
+  function haalVert(map, ref) {
+    var sleutel = map + ':' + ref.slug + '/' + ref.hfd;
+    if (sleutel in vertCache) return vertCache[sleutel];
+    vertCache[sleutel] = fetch('/studiebijbel/' + map + '/' + ref.slug + '/' + ref.hfd + '.json')
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; });
+    return vertCache[sleutel];
+  }
+  document.addEventListener('contextmenu', function (e) {
+    var a = e.target.closest ? e.target.closest('a[href*="/studiebijbel/"]') : null;
+    var ref = a ? parseRef(a.getAttribute('href')) : null;
+    if (!ref) return;
+    e.preventDefault();
+    hoverPopup.style.display = 'none';
+    if (!document.body.contains(vertPopup)) document.body.appendChild(vertPopup);
+    vertPopup.innerHTML = '<div style="text-align:center;color:#666666;">laden…</div>';
+    vertPopup.style.left = Math.max(4, Math.min(e.clientX, window.innerWidth - 440)) + 'px';
+    vertPopup.style.top = Math.max(4, Math.min(e.clientY, window.innerHeight - 40)) + 'px';
+    vertPopup.style.display = 'block';
+    Promise.all(VERTALINGEN.map(function (v) { return haalVert(v.map, ref); })).then(function (resultaten) {
+      vertPopup.innerHTML = VERTALINGEN.map(function (v, i) {
+        var tekst = resultaten[i] && resultaten[i][ref.vers];
+        var doelHref = '/studiebijbel/' + ref.slug + '/' + ref.hfd + '/?vert=' + v.naam + '#v' + ref.vers;
+        return (
+          '<a href="' + doelHref + '" style="display:block;font-family:Lora;font-weight:700;' +
+          'font-size:.72rem;color:#1a1a1a;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;' +
+          'text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">' + v.naam + ' ›</a>' +
+          (tekst ? mdMini(tekst) : '<em>Tekst niet gevonden.</em>')
+        );
+      }).join('');
+    });
+  });
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('#zoek-vertpopup')) vertPopup.style.display = 'none';
+  });
+  document.addEventListener('scroll', function () { vertPopup.style.display = 'none'; }, true);
+})();
