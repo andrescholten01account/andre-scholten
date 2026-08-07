@@ -18,9 +18,9 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
       <div class="site-footer-row">
         <a href={`${baseDir}/blog`}>Blog</a>
         <span class="nav-sep"> | </span>
-        <a href={`${baseDir}/over-deze-site`}>Over deze site</a>
-        <span class="nav-sep"> | </span>
         <a href={`${baseDir}/contact`}>Contact</a>
+        <span class="nav-sep"> | </span>
+        <a href={`${baseDir}/over-deze-site`}>Over deze site</a>
       </div>
       <script
         dangerouslySetInnerHTML={{

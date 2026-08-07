@@ -40,6 +40,7 @@
   .navknop:hover { color:var(--accent-donker); text-decoration:underline; }
   .navknop.uit { color:#ccc; pointer-events:none; }
   .hfdnav .midden { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:.4rem; color:#777; }
+  @media (max-width:640px) { .hfdnav .midden { order:1; width:100%; justify-content:center; } .hfdnav .navknop { order:2; } }
   .hfdnav select { font-family:"Lora"; font-size:.85rem; border:1px solid var(--border); border-radius:999px; padding:.3rem 1.6rem .3rem .8rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
 
   .navselect { font-family:"Lora"; font-size:.85rem; border:1px solid var(--border); border-radius:999px; padding:.3rem 1.6rem .3rem .8rem; background:#fff; color:var(--accent-donker); cursor:pointer; display:inline-flex; align-items:center; text-decoration:none; }
@@ -62,6 +63,7 @@
   .noot { color: var(--accent); cursor: pointer; font-weight: 700; padding: 0 .05rem; }
   .noot:hover { color: var(--accent-donker); }
   #notenlijst { margin: 1.5rem 0 0 2.4rem; font-family: "Lora"; font-size: .82rem; color: #666; border-top: 1px solid var(--border); padding-top: .8rem; }
+  #notenlijst:empty { display: none; }
   #notenlijst h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--accent-donker); margin: 0 0 .5rem; }
   #notenlijst .nootregel { margin: .25rem 0; }
   #notenlijst .nootregel .nn { color: var(--accent); font-weight: 700; margin-right: .35rem; }
@@ -80,7 +82,8 @@
   /* naslagpaneel */
   .paneel { display: none; margin: 0 0 .6rem 0; background: #fff; box-shadow: inset 3px 0 0 var(--accent); border-radius: 0 0 8px 8px; padding: .9rem 1.1rem 1rem; font-family: "Lora"; font-size: 1rem; }
   .paneel.open { display: block; }
-  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; scroll-snap-type: x proximity; }
+  .ntabs .ntab { scroll-snap-align: start; flex: 0 0 auto; }
   .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
   .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
   .ntab.leeg { opacity: .4; cursor: default; }
@@ -132,7 +135,7 @@
   #popup .popup-vnr { color: var(--tertiary); font-weight: 700; margin-right: .4rem; }
   #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: "Lora"; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
   #toast.zichtbaar { opacity: 1; }
-  .site-footer { font-family:"Lora"; text-align:center; max-width:700px; margin:3rem auto 0; padding:2rem 1.5rem 0; border-top:1px solid var(--lightgray); font-size:.85em; }
+  .site-footer { font-family:"Lora"; text-align:center; max-width:700px; margin:1rem auto 0; padding:1rem 1.5rem 1.5rem; border-top:1px solid var(--lightgray); font-size:.85em; }
   
   
   
@@ -159,9 +162,9 @@
 <footer class="site-footer">
   <a href="/blog">Blog</a>
   <span class="nav-sep"> | </span>
-  <a href="/over-deze-site">Over deze site</a>
-  <span class="nav-sep"> | </span>
   <a href="/contact">Contact</a>
+  <span class="nav-sep"> | </span>
+  <a href="/over-deze-site">Over deze site</a>
 </footer>
 
 </div>
