@@ -1,0 +1,13 @@
+{
+  "name": "blog-filter",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "quartz": {
+    "name": "blog-filter",
+    "displayName": "Blog Filter",
+    "category": "filter",
+    "defaultOrder": 50,
+    "defaultEnabled": true
+  }
+}

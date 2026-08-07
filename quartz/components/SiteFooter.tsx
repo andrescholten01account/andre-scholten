@@ -15,49 +15,16 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
 
   return (
     <footer class="site-footer">
-      <div class="site-footer-col">
+      <div class="site-footer-row">
         <a href={`${baseDir}/blog`}>Blog</a>
-        <a href={`${baseDir}/basis`}>Basis christelijk geloof</a>
-        <a href="https://gezinvoorgod.nl/studiebijbel/genesis/1/" data-router-ignore>StudieBijbel</a>
-      </div>
-      <div class="site-footer-col site-footer-mid">
-        <button type="button" class="footer-search-trigger">
-          Zoekfunctie
-        </button>
-      </div>
-      <div class="site-footer-col site-footer-right">
-        <a href={`${baseDir}/over`}>Over</a>
+        <span class="nav-sep"> | </span>
+        <a href={`${baseDir}/over-deze-site`}>Over deze site</a>
+        <span class="nav-sep"> | </span>
         <a href={`${baseDir}/contact`}>Contact</a>
-        <a href={`${baseDir}/verantwoording`}>Verantwoording</a>
       </div>
       <script
         dangerouslySetInnerHTML={{
           __html: `
-          document.addEventListener("click", function (e) {
-            var t = e.target.closest(".footer-search-trigger");
-            if (!t) return;
-            var btn = document.querySelector(".search-button");
-            if (btn) btn.click();
-          });
-          document.addEventListener("nav", function () {
-            if (!/[?&]zoeken=1(&|$)/.test(window.location.search)) return;
-            var url = new URL(window.location.href);
-            url.searchParams.delete("zoeken");
-            window.history.replaceState(window.history.state, "", url);
-            var pogingen = 0;
-            var iv = setInterval(function () {
-              pogingen++;
-              var container = document.querySelector(".search-container");
-              if (container && container.classList.contains("active")) {
-                clearInterval(iv);
-                return;
-              }
-              var btn = document.querySelector(".search-button");
-              if (btn) btn.click();
-              if (pogingen >= 20) clearInterval(iv);
-            }, 150);
-          });
-
           /* Rechtsklik op een Bijbeltekst-link (/studiebijbel/{boek}/{hfd}#v{vers}):
              toon meteen de volledig uitgeschreven tekst in SVnu, SV en KJV. */
           (function () {

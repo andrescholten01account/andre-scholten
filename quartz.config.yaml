@@ -108,6 +108,10 @@ plugins:
       body: Lora
       code: IBM Plex Mono
   - source: github:quartz-community/remove-draft
+    enabled: false
+  - source: ./quartz/plugins/custom/blog-filter
+    enabled: true
+  - source: ./quartz/plugins/custom/blog-list
     enabled: true
   - source: github:quartz-community/explicit-publish
     enabled: false

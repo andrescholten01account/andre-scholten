@@ -1,0 +1,13 @@
+{
+  "name": "blog-list",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "quartz": {
+    "name": "blog-list",
+    "displayName": "Blog List",
+    "category": "pageType",
+    "defaultOrder": 50,
+    "defaultEnabled": true
+  }
+}

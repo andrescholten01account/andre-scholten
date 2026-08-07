@@ -132,24 +132,24 @@
   #popup .popup-vnr { color: var(--tertiary); font-weight: 700; margin-right: .4rem; }
   #toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%); background: var(--accent-donker); color: #fff; font-family: "Lora"; font-size: .85rem; padding: .5rem 1.2rem; border-radius: 999px; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 30; }
   #toast.zichtbaar { opacity: 1; }
-  .site-footer { font-family:"Lora"; display:grid; grid-template-columns: 1fr 1fr 1fr; gap:1.5rem; max-width:700px; margin:3rem auto 0; padding:2rem 1.5rem 0; border-top:1px solid var(--lightgray); font-size:.85em; }
-  .site-footer-col { display:flex; flex-direction:column; gap:.5rem; }
-  .site-footer-mid { text-align:center; }
-  .site-footer-right { text-align:right; }
+  .site-footer { font-family:"Lora"; text-align:center; max-width:700px; margin:3rem auto 0; padding:2rem 1.5rem 0; border-top:1px solid var(--lightgray); font-size:.85em; }
+  
+  
+  
   .site-footer a { color:var(--secondary); text-decoration:underline; }
-  .site-footer .footer-plain { color:var(--gray); }
-  @media (max-width:640px) { .site-footer { grid-template-columns:1fr; text-align:center; } .site-footer-right { text-align:center; } }
+  
+  
   footer.site { margin-top: 2.5rem; margin-bottom: -3rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: "Lora"; font-size: .72rem; color: #999; line-height: 1.7; }
   @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } }
-</style>
+.zoekbalk { max-width:640px; margin:0 auto 1rem; }.zoekinvoer { width:100%; box-sizing:border-box; font-family:"Lora"; font-size:.9rem; border:1px solid var(--border); border-radius:8px; padding:.6rem .8rem; resize:vertical; color:var(--tekst); background:#fff; }.zoekinvoer::placeholder { color:#aaa; }.zoekknoprij { display:flex; justify-content:center; margin-top:.5rem; }.zoekknop { font-family:"Lora"; font-size:.85rem; border:1px solid var(--accent); background:#fff; color:var(--accent-donker); border-radius:999px; padding:.4rem 1.1rem; cursor:pointer; }.zoekknop:hover { background:var(--accent); color:#fff; }.zoekresultaten { margin-top:.8rem; display:flex; flex-wrap:wrap; gap:.4rem; justify-content:center; }.zoekresultaten a { font-family:"Lora"; font-size:.8rem; border:1px solid var(--border); border-radius:999px; padding:.25rem .7rem; text-decoration:none; color:var(--accent-donker); background:#fff; }.zoekresultaten a:hover { background:var(--bg-soft); }.zoekresultaten .zoek-leeg { color:#999; font-size:.85rem; font-family:"Lora"; }</style>
 </head>
 <body>
 <div class="omslag">
 <div class="site-header">
   <h2 class="page-title"><a href="/">Gezin voor God</a></h2>
-  <p class="site-subtitle">Wees een man naar Gods hart</p>
+  <p class="site-subtitle">De man als leider van het gezin</p>
   <nav class="site-nav"><a href="/man">Man</a><span class="nav-sep"> | </span><a href="/echtgenoot">Echtgenoot</a><span class="nav-sep"> | </span><a href="/vader">Vader</a></nav>
-</div>
+</div><div class="zoekbalk"><textarea id="zoekinvoer" class="zoekinvoer" rows="2" placeholder="liefde / Joh. 3:16"></textarea><div class="zoekknoprij"><button type="button" id="zoekknop" class="zoekknop">Zoek Bijbelverzen</button></div><div id="zoekresultaten" class="zoekresultaten"></div></div>
 <h2 class="hfd">2 Kronieken 25</h2>
 
 <nav class="hfdnav" id="hfdnav"></nav>
@@ -157,19 +157,11 @@
 <section id="notenlijst"></section>
 
 <footer class="site-footer">
-  <div class="site-footer-col">
-    <a href="/blog">Blog</a>
-    <a href="/basis">Basis christelijk geloof</a>
-    <a href="/studiebijbel/genesis/1/">StudieBijbel</a>
-  </div>
-  <div class="site-footer-col site-footer-mid">
-    <a href="/?zoeken=1">Zoekfunctie</a>
-  </div>
-  <div class="site-footer-col site-footer-right">
-    <a href="/over">Over</a>
-    <a href="/contact">Contact</a>
-    <a href="/verantwoording">Verantwoording</a>
-  </div>
+  <a href="/blog">Blog</a>
+  <span class="nav-sep"> | </span>
+  <a href="/over-deze-site">Over deze site</a>
+  <span class="nav-sep"> | </span>
+  <a href="/contact">Contact</a>
 </footer>
 <footer class="site">
   StatenvertalingNu: hertaling van de Statenvertaling (publiek domein) — concept/proefontwerp · <a style="color:var(--accent)">Fout gezien? Meld het</a>
@@ -638,5 +630,5 @@ if (location.hash.match(/^#v\d+$/)) {
   document.addEventListener('scroll', () => { vpopup.style.display = 'none'; }, true);
 })();
 </script>
-</body>
+<script src="/studiebijbel/zoekbalk.js"></script></body>
 </html>

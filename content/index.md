@@ -30,6 +30,10 @@ Lees meer over [[Vader|vaderschap]]
 
 </div>
 
+<!-- BLOG-SECTIE-BEGIN: niet handmatig bewerken, wordt automatisch gevuld -->
+<div id="blog-widget"></div>
+<!-- BLOG-SECTIE-EIND -->
+
 %%
 ## Footer
 
