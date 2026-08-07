@@ -3,7 +3,7 @@ Wees een vader naar Gods hart
 %%
 
 > En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
-> ~ [Efeze 6:4](https://andre-scholten.nl/studiebijbel/efeze/6#v4) (SVnu)
+> ~ [Efeze 6:4](https://gezinvoorgod.nl/studiebijbel/efeze/6#v4) (SVnu)
 
 De vader als leider van het gezin.  
 

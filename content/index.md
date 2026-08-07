@@ -4,7 +4,7 @@ title: Home
 %% 
 
 Gezin voor God
-gezinvoorgod.nl 
+gezinvoorgod.nl
 
 De man als leider van het gezin 
 
@@ -21,7 +21,7 @@ De man als leider van het gezin
 <div style="text-align: center;">
 
 > ... maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
-> ~ [Jozua 24:15d](https://andre-scholten.nl/studiebijbel/jozua/24#v15) (SVnu)
+> ~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
 
 > Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
@@ -49,7 +49,7 @@ Rechts:
 
 ## Meer
 
-- [To do andre-scholten.nl](https://docs.google.com/document/d/1jtzucFNI_9Exy_BSg7btDH-yfkHD7HdMJq-uZg6YcHY/edit?tab=t.0)
+- [To do gezinvoorgod.nl](https://docs.google.com/document/d/1jtzucFNI_9Exy_BSg7btDH-yfkHD7HdMJq-uZg6YcHY/edit?tab=t.0)
 - [[Obsidian]]
 - [[SEO]]
 - [[Blogtips]]

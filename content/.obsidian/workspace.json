@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "f38507f223f8f562",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "022e11e8ca756414",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,12 +214,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f35d218d4af34828",
+  "active": "022e11e8ca756414",
   "lastOpenFiles": [
-    "Verantwoording.md",
-    "index.md",
     "Blog.md",
+    "index.md",
+    "conflict-files-obsidian-git.md",
     "Oude tekst van Blogpagina.md",
+    "Verantwoording.md",
     "Contact.md",
     "Over deze site.md",
     "Blogtips.md",
@@ -212,7 +242,6 @@
     "spurgeon/12-29.md",
     "spurgeon/12-27.md",
     "spurgeon/12-26.md",
-    "spurgeon/12-25.md",
     "spurgeon",
     "Blog.md.tmp.18312.ebb609fbdfb7",
     "Pasted image 20260722135232.png",

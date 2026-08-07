@@ -18,7 +18,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
       <div class="site-footer-col">
         <a href={`${baseDir}/blog`}>Blog</a>
         <a href={`${baseDir}/basis`}>Basis christelijk geloof</a>
-        <a href="https://andre-scholten.nl/studiebijbel/genesis/1/" data-router-ignore>StudieBijbel</a>
+        <a href="https://gezinvoorgod.nl/studiebijbel/genesis/1/" data-router-ignore>StudieBijbel</a>
       </div>
       <div class="site-footer-col site-footer-mid">
         <button type="button" class="footer-search-trigger">
@@ -87,7 +87,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
             function haal(map, ref) {
               var sleutel = map + ':' + ref.slug + '/' + ref.hfd;
               if (sleutel in cache) return cache[sleutel];
-              cache[sleutel] = fetch('https://andre-scholten.nl/studiebijbel/' + map + '/' + ref.slug + '/' + ref.hfd + '.json')
+              cache[sleutel] = fetch('https://gezinvoorgod.nl/studiebijbel/' + map + '/' + ref.slug + '/' + ref.hfd + '.json')
                 .then(function (r) { return r.ok ? r.json() : null; })
                 .catch(function () { return null; });
               return cache[sleutel];
@@ -109,7 +109,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
               Promise.all(VERTALINGEN.map(function (v) { return haal(v.map, ref); })).then(function (resultaten) {
                 popup.innerHTML = VERTALINGEN.map(function (v, i) {
                   var tekst = resultaten[i] && resultaten[i][ref.vers];
-                  var doelHref = 'https://andre-scholten.nl/studiebijbel/' + ref.slug + '/' + ref.hfd + '/?vert=' + v.naam + '#v' + ref.vers;
+                  var doelHref = 'https://gezinvoorgod.nl/studiebijbel/' + ref.slug + '/' + ref.hfd + '/?vert=' + v.naam + '#v' + ref.vers;
                   return '<a href="' + doelHref + '" data-router-ignore style="display:block;font-family:Lora;font-weight:700;font-size:.72rem;color:#1a1a1a;margin-top:' + (i ? '.8rem' : '0') + ';margin-bottom:.25rem;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;">' + v.naam + ' ›</a>' + (tekst ? mdMini(tekst) : '<em>Tekst niet gevonden.</em>');
                 }).join('');
               });
@@ -145,7 +145,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
             function haalVerstekst(ref) {
               var sleutel = ref.slug + '/' + ref.hfd;
               if (sleutel in cache) return cache[sleutel];
-              cache[sleutel] = fetch('https://andre-scholten.nl/studiebijbel/versteksten/' + ref.slug + '/' + ref.hfd + '.json')
+              cache[sleutel] = fetch('https://gezinvoorgod.nl/studiebijbel/versteksten/' + ref.slug + '/' + ref.hfd + '.json')
                 .then(function (r) { return r.ok ? r.json() : null; })
                 .catch(function () { return null; });
               return cache[sleutel];
