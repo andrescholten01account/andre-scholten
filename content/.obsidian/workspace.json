@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Blog/Dit is een testblog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Dit is een testblog"
             }
           },
           {
@@ -55,16 +55,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Test 2.md",
+                "file": "Templates/Nieuwe Pagina Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test 2"
+              "title": "Nieuwe Pagina Template"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,11 +227,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c375f0ef7b7b3ddf",
+  "active": "f35d218d4af34828",
   "lastOpenFiles": [
-    "Blog/Dit is een testblog.md",
     "Blog/Test 2.md",
     "index.md",
+    "Templates/Nieuwe Pagina Template.md",
+    "Blog/Dit is een testblog.md",
     "Oude homepage.md",
     "Naamloos",
     "Blog",
@@ -258,7 +258,6 @@
     "spurgeon/index.md",
     "spurgeon/12-31.md",
     "spurgeon/12-30.md",
-    "spurgeon/12-28.md",
     "spurgeon",
     "Blog.md.tmp.18312.ebb609fbdfb7",
     "Pasted image 20260722135232.png",

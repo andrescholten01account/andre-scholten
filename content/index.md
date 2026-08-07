@@ -66,7 +66,7 @@ Rechts:
 - [[SEO]]
 - [[Blogtips]]
 - [[Basis|Basis christelijk geloof]]
-- StudieBijbel
+- StudieBijbel ➔ https://gezinvoorgod.nl/studiebijbel/genesis/1/
 - [[Oude tekst van Blogpagina]]
 - [[Oude homepage]]
 
