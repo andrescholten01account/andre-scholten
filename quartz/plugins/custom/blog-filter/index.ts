@@ -8,8 +8,16 @@ function alsISODatum(waarde: unknown): string | null {
   if (!waarde) return null
   if (waarde instanceof Date) return waarde.toISOString().slice(0, 10)
   const s = String(waarde).trim()
-  const m = s.match(/^\d{4}-\d{2}-\d{2}/)
-  return m ? m[0] : null
+
+  // ISO: JJJJ-MM-DD
+  let m = s.match(/^(\d{4})-(\d{2})-(\d{2})/)
+  if (m) return `${m[1]}-${m[2]}-${m[3]}`
+
+  // NL-notatie: DD-MM-JJJJ (of DD/MM/JJJJ)
+  m = s.match(/^(\d{2})[-/](\d{2})[-/](\d{4})/)
+  if (m) return `${m[3]}-${m[2]}-${m[1]}`
+
+  return null
 }
 
 /**

@@ -20,8 +20,17 @@ function formatDatum(d: Date, locale?: string): string {
 function alsDatum(waarde: unknown): Date | null {
   if (!waarde) return null
   if (waarde instanceof Date) return waarde
-  const m = String(waarde).match(/^\d{4}-\d{2}-\d{2}/)
-  return m ? new Date(m[0]) : null
+  const s = String(waarde).trim()
+
+  // ISO: JJJJ-MM-DD
+  let m = s.match(/^(\d{4})-(\d{2})-(\d{2})/)
+  if (m) return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]))
+
+  // NL-notatie: DD-MM-JJJJ (of DD/MM/JJJJ)
+  m = s.match(/^(\d{2})[-/](\d{2})[-/](\d{4})/)
+  if (m) return new Date(Number(m[3]), Number(m[2]) - 1, Number(m[1]))
+
+  return null
 }
 
 type BlogPost = { f: QuartzComponentProps["allFiles"][number]; datum: Date }
