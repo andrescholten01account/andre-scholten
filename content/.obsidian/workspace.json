@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Oude homepage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Oude homepage"
             }
           }
         ],
@@ -216,8 +216,10 @@
   },
   "active": "022e11e8ca756414",
   "lastOpenFiles": [
-    "Blog.md",
+    "Pasted image 20260807080840.png",
     "index.md",
+    "Oude homepage.md",
+    "Blog.md",
     "conflict-files-obsidian-git.md",
     "Oude tekst van Blogpagina.md",
     "Verantwoording.md",
@@ -240,8 +242,6 @@
     "spurgeon/12-30.md",
     "spurgeon/12-28.md",
     "spurgeon/12-29.md",
-    "spurgeon/12-27.md",
-    "spurgeon/12-26.md",
     "spurgeon",
     "Blog.md.tmp.18312.ebb609fbdfb7",
     "Pasted image 20260722135232.png",
