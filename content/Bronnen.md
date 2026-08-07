@@ -1,7 +1,9 @@
 ---
 Status: Draft
-draft: true
+draft: false
 ---
+%%
+
 https://www.biblebb.com/ ➔ zie homepage, naar onder: The Christian Family Collection 
 https://www.graceonlinelibrary.org/family-worship
 https://reformed.org/christian-family/
@@ -31,4 +33,13 @@ https://geloofwaardigopvoeden.nl/
 
 https://abcvoorkinderen.nl/
 
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GfISoaLiGwg?si=7TIncVLdHhZISksd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+YouTube: Later bekijken: https://www.youtube.com/playlist?list=WL
+
+%%
 
