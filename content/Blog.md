@@ -1,5 +1,5 @@
 ... maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
-~ [Jozua 24:15d](https://andre-scholten.nl/studiebijbel/jozua/24#v15) (SVnu)
+~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
 
 ![[Pasted image 20260715071609.png|450]]
 

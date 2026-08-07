@@ -11,7 +11,7 @@ function pathToRoot(slug: string): string {
 }
 
 const SiteHeader: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
-  const title = cfg?.pageTitle ?? "André Scholten"
+  const title = cfg?.pageTitle ?? "Gezin voor God"
   const baseDir = pathToRoot(fileData.slug as string)
 
   return (

@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: André Scholten
+  pageTitle: Gezin voor God
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: false
   analytics:
     provider: plausible
   locale: nl-NL
-  baseUrl: andre-scholten.nl
+  baseUrl: gezinvoorgod.nl
   ignorePatterns:
     - private
     - templates
