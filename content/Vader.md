@@ -21,6 +21,25 @@ De kinderen onderwijzen over God. Gods Woord inprenten. Mijn kinderen discipelen
 
 ---
 
+Opvoeden:
+- Bestraffen
+
+Kinderen:
+- Gehoorzaam aan ouders
+- Bestraffen
+- Het Evangelie voor kinderen:
+	- Boeken
+	- Websites
+
+Vader:
+- Leider van gezin ➔ Leider
+- Bidden voor gezin ➔ Bidder
+- Onderwijs geven ➔ Leraar
+
+➔ vanuit de rollen van de man praten?
+
+---
+
 ## Hou van je gezin
 
 ## Onderwijs je kinderen

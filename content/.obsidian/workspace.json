@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Vader.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Vader"
             }
           }
         ]
@@ -189,8 +189,9 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
-    "Vader.md",
+    "Over deze site.md",
     "index.md",
+    "Vader.md",
     "Geloofsbelijdenissen.md",
     "Gehoorzaamheid - Jezus volgen.md",
     "Basis.md",
@@ -201,7 +202,6 @@
     "Man.md",
     "Geschiedenis.md",
     "Boeken.md",
-    "Over deze site.md",
     "Breng tijd met je kinderen door.md",
     "Contact.md",
     "Over.md",
