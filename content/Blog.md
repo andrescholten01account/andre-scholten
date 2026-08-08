@@ -2,6 +2,10 @@ De blogs komen op de site via iets van Claude heeft gemaakt.
 
 ---
 
+[[Welkom en eerste blog]]
+
+---
+
 [[De Heilige Geest - Hoe zit dat]]
 
 [[Gods Geest kan je kracht geven]]

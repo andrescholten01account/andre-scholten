@@ -38,8 +38,14 @@ Vader:
 
 ➔ vanuit de rollen van de man praten?
 
----
+Toerusting voor kinderen ➔ discipelen
+- Boeken 
+	- IKEG-boekjes
+	- Een bijzondere deur
+	- Antwoordenboekje voor kinderen ➔ Ken Ham
+- Websites 
 
+---
 ## Hou van je gezin
 
 ## Onderwijs je kinderen
@@ -187,6 +193,19 @@ Vertegenwoordiger ➔ veel tijd weg, later zag hij zijn kinderen bijna niet meer
 ## [[Grootouders]]
 
 ## [[Bronnen]]
+
+---
+
+God
+Zelf
+Werk
+Thuis
+Familie
+Vrienden
+Gemeente
+Omgeving 
+- O.a. vrijwilligerswerk + evangelisatie
+- Een licht zijn voor de wereld ➔ "bereidheid schoenen Evangelie"
 
 %%
 
