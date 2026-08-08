@@ -35,4 +35,8 @@ Zorg jij ervoor dat je gezin deze dingen doet?
 Dus niet half-hartig. Loop de kantjes er niet vanaf. Neem je verantwoordelijkheid. Wees grondig. Verdiep je in leiding geven in je gezin:
 
 - Lees boeken
-- 
+- Bekijk YouTube-filmpjes
+- Praat er met anderen over
+
+Er zijn genoeg mogelijkheden om meer te leren
+
