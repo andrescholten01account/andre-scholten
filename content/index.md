@@ -54,7 +54,6 @@ Midden:
 - Zoekfunctie
 
 Rechts:
-- [[Over]]
 - [[Verantwoording]]
 
 [[Copyright policy]]
