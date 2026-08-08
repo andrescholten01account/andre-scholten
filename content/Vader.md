@@ -164,6 +164,7 @@ Dingen hier per bullet
 
 Kind en telefoon
 Kind en God
+[[Kind en relaties]]
 Kind en seksualiteit
 
 ## Vader en zoon
