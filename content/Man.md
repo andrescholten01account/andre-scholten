@@ -142,5 +142,10 @@ https://www.desiringgod.org/topics/men/all
 
 https://www.youthreachhouston.org/category/biblical-manhood/
 
+---
+
+Theodore Roosevelt: 
+"Do what you can, with what you have."
+
 %%
 

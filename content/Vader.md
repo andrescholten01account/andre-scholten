@@ -207,5 +207,22 @@ Omgeving
 - O.a. vrijwilligerswerk + evangelisatie
 - Een licht zijn voor de wereld ➔ "bereidheid schoenen Evangelie"
 
+---
+
+1 - Voorkomen is beter dan genezen
+
+Je weet dat er bepaalde dingen gaan komen in het leven van je kinderen ➔ bereid ze er nu al op voor, voordat deze dingen spelen:
+
+- Seksualiteit, relaties
+- Vragen over God (evolutie)
+- Telefoongebruik
+
+---
+
+Goede band met je kinderen hebben, dan luisteren ze. 
+
+Nobody care how much you know, until they know how much they care.
+~ Abraham Lincoln (nakijken)
+
 %%
 
