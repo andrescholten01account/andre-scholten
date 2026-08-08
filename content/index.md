@@ -40,13 +40,19 @@ De man als leider van het gezin
 
 <div style="text-align: center;">
 
-Links
-Tekst
+Links gezin
+Boeken gezin
 [[Bronnen]]
 
 </div>
 
 %%
+
+- Links gezin
+- Boeken gezin
+- [[Bronnen]]
+- Rss gezin (van andere sites)
+
 ## Footer
 
 Links:
