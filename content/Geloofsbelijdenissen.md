@@ -17,4 +17,8 @@ publicatiedatum:
 ➔ zie online: Heidelblog
 ➔ zie boek hierover
 
-## Verklaringen geloofs
+## Verklaringen geloofsbelijdenissen
+
+➔ Heidelblog
+➔ Monergism
+

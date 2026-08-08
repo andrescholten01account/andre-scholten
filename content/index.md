@@ -26,7 +26,7 @@ De man als leider van het gezin
 > Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
 
-Lees meer over [[Vader|vaderschap]]
+[[Over deze site|Lees meer]] 
 
 </div>
 
@@ -38,9 +38,13 @@ Lees meer over [[Vader|vaderschap]]
 
 ---
 
+<div style="text-align: center;">
+
 Links
 Tekst
 [[Bronnen]]
+
+</div>
 
 %%
 ## Footer

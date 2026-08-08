@@ -21,6 +21,19 @@ De kinderen onderwijzen over God. Gods Woord inprenten. Mijn kinderen discipelen
 
 ---
 
+## Hou van je gezin
+
+## Onderwijs je kinderen
+
+## Bid voor je kinderen
+
+## Leer van anderen
+
+- Boekenlijst
+- Spurgeon preek
+
+---
+
 De vader als leider van het gezin.  
 
 ---

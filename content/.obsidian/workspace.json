@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geloofsbelijdenissen.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Geloofsbelijdenissen"
+              "title": "index"
             }
           }
         ]
@@ -189,11 +189,11 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
+    "Vader.md",
     "index.md",
     "Geloofsbelijdenissen.md",
     "Gehoorzaamheid - Jezus volgen.md",
     "Basis.md",
-    "Vader.md",
     "Hou van God en je naaste.md",
     "Hou van je gezin.md",
     "Echtgenoot.md",
