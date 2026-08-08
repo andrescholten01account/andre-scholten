@@ -28,7 +28,5 @@ Wat zegt Gods Woord over een echtgenoot zijn? En huwelijk?
 
 https://youtube.com/shorts/kgpAKvkz9OA?si=tVicb17cYjJDL4HL
 
-
-
 %%
 
