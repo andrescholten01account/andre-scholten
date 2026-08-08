@@ -300,16 +300,27 @@ function bouwRijen() {
 bouwRijen();
 
 /* ---------- kopieerfunctie ---------- */
-document.addEventListener('click', e => {
-  const k = e.target.closest('.kopieer');
-  if (!k) return;
-  e.stopPropagation();
-  const n = k.dataset.n;
+function kopieerVers(n) {
   const tekst = (D.vertalingen.SVnu[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
   navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (SVnu)`).then(() => {
     toast.classList.add('zichtbaar');
     setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
   });
+}
+document.addEventListener('click', e => {
+  const k = e.target.closest('.kopieer');
+  if (!k) return;
+  e.stopPropagation();
+  kopieerVers(k.dataset.n);
+});
+// rechtermuisklik op een vers kopieert het (in plaats van het browser-contextmenu)
+document.addEventListener('contextmenu', e => {
+  const rij = e.target.closest('.vers');
+  if (!rij || !rij.id.startsWith('v')) return;
+  const n = rij.id.slice(1);
+  if (!D.vertalingen.SVnu[n]) return;
+  e.preventDefault();
+  kopieerVers(n);
 });
 
 /* ---------- naslagpaneel ---------- */
