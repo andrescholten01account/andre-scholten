@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "c5330abcb2c22b4e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.4"
+            }
+          },
+          {
             "id": "f38507f223f8f562",
             "type": "leaf",
             "state": {
@@ -63,7 +75,8 @@
               "title": "Nieuwe Pagina Template"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +96,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Verkenner"
@@ -227,7 +242,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f35d218d4af34828",
+  "active": "c5330abcb2c22b4e",
   "lastOpenFiles": [
     "index.md",
     "Bronnen.md",
