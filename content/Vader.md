@@ -48,6 +48,7 @@ Goede communicatie ➔ ook huwelijk
 Een goede band met je kinderen hebben
 
 Wees een goed voorbeeld
+➔ Wees een rolmodel
 ➔ practice what you preach
 ➔ a good example is the best sermon
 
@@ -55,6 +56,24 @@ Vervuld zijn met de Heilige Geest
 - De Heilige Geest leidt je
 - De Heilige Geest geeft je kracht
 - De Heilige Geest stort de liefde van God in je hart uit
+
+---
+
+Een vader die een Godvrezend voorbeeld heeft - hoofdstuk 1
+
+I. Wees een voorbeeld
+
+➔ rolmodel
+
+II. Voorbeelden voor vaders
+
+A. Andere vaders in je omgeving
+
+B. Vaders uit boeken, films, geschiedenis
+
+C. God de Vader
+
+➔ God, onze Vader
 
 ---
 ## [[Geloofsopvoeding]]

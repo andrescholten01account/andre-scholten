@@ -4,5 +4,3 @@ draft: true
 blog: false
 publicatiedatum:
 ---
-[[Piratenbaai]]
-

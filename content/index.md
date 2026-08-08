@@ -68,9 +68,12 @@ Rechts:
 - [[Blogtips]]
 - [[Basis|Basis christelijk geloof]]
 - StudieBijbel ➔ https://gezinvoorgod.nl/studiebijbel/genesis/1/
-- [[Schrijven privé]]
 - [[Oude tekst van Blogpagina]]
 - [[Oude homepage]]
+
+## Privé
+
+- [[Geschiedenis]]
 
 https://books.google.nl/books/about/Divine_and_Moral_Songs_for_Children.html?id=4UdcjfX2b3QC&redir_esc=y
 
