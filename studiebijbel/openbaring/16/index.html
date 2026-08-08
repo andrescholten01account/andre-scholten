@@ -617,12 +617,37 @@ if (location.hash.match(/^#v\d+$/)) {
       .then(r => r.ok ? r.json() : null).catch(() => null);
     return vcache[sleutel];
   }
+  // dubbele rechtsklik (binnen 500ms, zelfde verwijzing) kopieert het vers
+  // i.p.v. de vertalingen-popup te tonen (enkele rechtsklik blijft bestaand gedrag)
+  function kopieerVerwijzing(chip, ref) {
+    haalVert('versteksten', ref).then(data => {
+      const tekst = data && data[ref.vers];
+      if (!tekst) return;
+      const url = location.origin + '/studiebijbel/' + ref.slug + '/' + ref.hfd + '#v' + ref.vers;
+      const kopie = tekst.replace(/\*/g, '') + `\n~ [${chip.textContent}](${url}) (SVnu)`;
+      navigator.clipboard.writeText(kopie).then(() => {
+        toast.classList.add('zichtbaar');
+        setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
+      });
+    });
+  }
+  let laatsteRechtsklik = { sleutel: null, tijd: 0 };
   document.addEventListener('contextmenu', e => {
     const chip = e.target.closest('.refchip');
     if (!chip) return;
     const ref = refParts(chip.dataset.ref || '');
     if (!ref) return;
     e.preventDefault();
+    const sleutel = chip.dataset.ref;
+    const nu = Date.now();
+    const isDubbelklik = laatsteRechtsklik.sleutel === sleutel && (nu - laatsteRechtsklik.tijd) < 500;
+    laatsteRechtsklik = isDubbelklik ? { sleutel: null, tijd: 0 } : { sleutel, tijd: nu };
+    if (isDubbelklik) {
+      popup.style.display = 'none';
+      vpopup.style.display = 'none';
+      kopieerVerwijzing(chip, ref);
+      return;
+    }
     popup.style.display = 'none';
     vpopup.innerHTML = '<div style="text-align:center;color:#666666;">laden…</div>';
     vpopup.style.left = Math.max(4, Math.min(e.clientX, window.innerWidth - 440)) + 'px';
