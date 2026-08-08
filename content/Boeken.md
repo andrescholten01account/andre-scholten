@@ -36,3 +36,15 @@ jonn ploughman's pictures
 How to raise Godly children in an ungodly world - Ken ham
 ➔ kan ook heten nu: Will they stand?
 
+Raising children - Ray Comfort
+John MacArthur - The war on children, the fullfilled family ➔ meerdere
+Natasha Crain ➔ ook in NL
+Come ye children ➔ Spurgeon
+R.C. Ryle ➔ How to raise children
+Heartcry artikelen
+Andrew Murray - Raising children
+Sean McDowell - so the next generation will know
+Matthew Henry
+
+➔ ook preken van deze mensen
+

@@ -60,3 +60,13 @@ Foto
 André Scholten
 [[Contact]]
 
+%%
+
+Toewijding. Blijven leren. Elke dag weer. Over vaderschap en huwelijk. Die twee. Over mijn eigen relatie met God lees ik in de Bijbel. 
+
+Toewijding.
+
+➔ Elke dag lezen over huwelijk, opvoeding, gezin. 
+
+%%
+

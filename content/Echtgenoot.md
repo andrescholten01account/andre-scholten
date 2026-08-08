@@ -9,6 +9,11 @@ Een echtgenoot naar Gods hart. Een goed en gelukkig huwelijk tot eer van God. Al
 
 %%
 
+## Basis
+
+- [[Hou van God en je naaste]]
+
+
 Hoe heb je een goed huwelijk?  
 Dit gedeelte is gericht op de huwelijksrelatie.
 

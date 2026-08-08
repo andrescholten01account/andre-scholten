@@ -10,6 +10,8 @@ Een vader naar Gods hart. Een gezin tot eer van God. Een warm en liefdevol thuis
 %%
 ## Geloofsopvoeding
 
+De kinderen onderwijzen over God. Gods Woord inprenten. Mijn kinderen discipelen. 
+
 ---
 
 De vader als leider van het gezin.  

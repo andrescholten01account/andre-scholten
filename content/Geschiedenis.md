@@ -4,10 +4,14 @@ draft: true
 blog: false
 publicatiedatum:
 ---
-- [[Stamboom familie Scholten]]
+## Indeling Genesis 1 - 11 
+De oude wereld
+
 - Berekening leeftijd aarde / jaartal schepping
 - Gen. 1 + 2 in harmony
 
-Indeling Genesis 1 - 11 ➔ De oude wereld
-Babel ➔ Nederland nu ➔ Vaderlandse geschiedenis
+## Vaderlandse geschiedenis
+Babel ➔ Nederland nu
+
+## [[Stamboom familie Scholten]]
 

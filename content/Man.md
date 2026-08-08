@@ -9,6 +9,10 @@ Een man naar Gods hart, die wandelt met God. Gezond en sterk, vol van de vrucht 
 
 %%
 
+## Basis
+
+- [[Hou van God en je naaste]]
+
 ## Leven met God
 (relatie met God, wandelen met God)
 
