@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f35d218d4af34828",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blog/Dit is een testblog.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dit is een testblog"
-            }
-          },
-          {
-            "id": "c5330abcb2c22b4e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.4"
-            }
-          },
-          {
             "id": "f38507f223f8f562",
             "type": "leaf",
             "state": {
@@ -46,37 +20,8 @@
               "icon": "lucide-file",
               "title": "index"
             }
-          },
-          {
-            "id": "022e11e8ca756414",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Oude homepage.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Oude homepage"
-            }
-          },
-          {
-            "id": "c375f0ef7b7b3ddf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Nieuwe Pagina Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nieuwe Pagina Template"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -242,14 +188,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c5330abcb2c22b4e",
+  "active": "f38507f223f8f562",
   "lastOpenFiles": [
+    "Vader.md",
     "index.md",
+    "Man.md",
+    "Echtgenoot.md",
+    "Oude homepage.md",
+    "Templates/Nieuwe Pagina Template.md",
+    "Blog/Dit is een testblog.md",
+    "Pasted image 20260808071405.png",
     "Bronnen.md",
     "Blog/Test 2.md",
-    "Blog/Dit is een testblog.md",
-    "Templates/Nieuwe Pagina Template.md",
-    "Oude homepage.md",
     "Naamloos",
     "Blog",
     "Pasted image 20260807080840.png",
@@ -262,9 +212,6 @@
     "Blogtips.md",
     "SEO.md",
     "test.md",
-    "Man.md",
-    "Vader.md",
-    "Echtgenoot.md",
     "Thuis.md",
     "Auto.md",
     "Klussen.md",
@@ -272,7 +219,6 @@
     "Hoe leef je als gezin zoals God het wil.md",
     "Geloofsopvoeding.md",
     "spurgeon/index.md",
-    "spurgeon/12-31.md",
     "spurgeon",
     "Blog.md.tmp.18312.ebb609fbdfb7",
     "Pasted image 20260722135232.png",
@@ -286,7 +232,6 @@
     "V2_De basis van het het Christelijk geloof_definitief.pdf",
     "Pasted image 20260708215343.png",
     "Pasted image 20260708215241.png",
-    "Pasted image 20260708215218.png",
     "Blog.md.tmp.26036.4bf52c38c978",
     "index.md.tmp.18824.a1d505baa2a1",
     "Vertaalproject/Murray-Pinksteren/bron/fullblessingpent00murruoft.epub"

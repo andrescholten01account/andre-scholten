@@ -21,6 +21,12 @@ if you could kick the person in the paint, most responsible for your problems, y
 
 ---
 
+Wat zegt Gods Woord over het zijn van een christelijke man?
+- TSK + NAVE + TTT
+- Vandaar alle tekstverwijzingen volgen
+
+---
+
 michael hyatt ➔ 10 gebieden
 
 God

@@ -8,6 +8,12 @@ Wees een vader naar Gods hart
 De vader als leider van het gezin.  
 
 ---
+
+Wat zegt Gods Woord over vaderschap?
+- Ef. 6:4 ➔ TSK + NAVE + TTT
+- Vandaar alle tekstverwijzingen volgen
+
+---
 ## Man
 
 Als vader:
@@ -26,6 +32,29 @@ Husband should try to maken home happy and holy.
 3. Heb een goede relatie met je kinderen
 4. Wees zelf het goede voorbeeld
 5. Onderwijs je kinderen over God
+
+---
+
+Wandelen met God
+
+Een goed huwelijk
+
+Hou van je kinderen ➔ liefde: wat zegt God in de Bijbel over liefde?
+➔ 5 talen van de liefde (voor kinderen)
+
+Goede communicatie ➔ ook huwelijk
+➔ zie: How to win friends and influence people
+
+Een goede band met je kinderen hebben
+
+Wees een goed voorbeeld
+➔ practice what you preach
+➔ a good example is the best sermon
+
+Vervuld zijn met de Heilige Geest
+- De Heilige Geest leidt je
+- De Heilige Geest geeft je kracht
+- De Heilige Geest stort de liefde van God in je hart uit
 
 ---
 ## [[Geloofsopvoeding]]
