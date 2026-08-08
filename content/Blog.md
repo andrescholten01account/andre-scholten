@@ -2,7 +2,7 @@ De blogs komen op de site via iets van Claude heeft gemaakt.
 
 ---
 
-[[Hou je]]
+[[Hou je kinderen onderdanig]]
 
 [[Wat is goed leiderschap in het gezin]]
 
