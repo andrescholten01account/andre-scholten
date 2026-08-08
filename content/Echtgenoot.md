@@ -1,4 +1,6 @@
-Wees een echtgenoot naar Gods hart
+%%
+Plaatje
+%%
 
 %%
 

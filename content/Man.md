@@ -1,4 +1,11 @@
-Wees een man naar Gods hart
+%%
+Plaatje
+%%
+
+> ... Ik heb David gevonden, de zoon van Isaï, een man naar Mijn hart, die al Mijn wil zal doen.
+> ~ [Handelingen 13:22b](https://gezinvoorgod.nl/studiebijbel/handelingen/13#v22) (SVnu)
+
+Een man naar Gods hart, die wandelt met God. Gezond en sterk, vol van de vrucht van de Geest.
 
 %%
 
