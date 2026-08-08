@@ -8,11 +8,12 @@ Plaatje
 Een echtgenoot naar Gods hart. Een goed en gelukkig huwelijk tot eer van God. Als echtgenoot de positie innemen die God mij gegeven heeft. 
 
 %%
-
 ## Basis
 
 - [[Hou van God en je naaste]]
+- [[Hou van je vrouw]]
 
+---
 
 Hoe heb je een goed huwelijk?  
 Dit gedeelte is gericht op de huwelijksrelatie.

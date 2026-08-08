@@ -27,3 +27,23 @@ jak. 1:26 ➔ gehoorzaamheid
 
 ---
 
+Basis gehooraamheid: [[Hou van God en je naaste]]
+
+10 geboden:
+
+1 - Alleen God
+
+2 - Niet buigen voor anderen goden
+
+3 - Gods naam niet ijdel gebruiken
+
+4 - Sabbath
+
+➔ Zie tekstverwijzingen TSK + Heidelberse catechismus
+
+---
+
+Standvastigheid: 1 Kor. 15:58
+
+---
+

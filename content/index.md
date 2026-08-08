@@ -75,6 +75,7 @@ https://books.google.nl/books/about/Divine_and_Moral_Songs_for_Children.html?id=
 
 - [[Basis|Basis christelijk geloof]]
 - [[Geschiedenis]]
+- [[Geloofsbelijdenissen]]
 - Apologetiek 
 - Opwekking
 - De Heilige Geest

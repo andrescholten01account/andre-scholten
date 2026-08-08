@@ -8,6 +8,13 @@ Plaatje
 Een vader naar Gods hart. Een gezin tot eer van God. Een warm en liefdevol thuis. Je gezin als licht in deze wereld. 
 
 %%
+## Basis
+
+- [[Hou van God en je naaste]]
+- [[Hou van je vrouw]]
+- [[Hou van je gezin]]
+
+---
 ## Geloofsopvoeding
 
 De kinderen onderwijzen over God. Gods Woord inprenten. Mijn kinderen discipelen. 
