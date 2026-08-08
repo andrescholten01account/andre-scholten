@@ -2,6 +2,10 @@ De blogs komen op de site via iets van Claude heeft gemaakt.
 
 ---
 
+[[Wees standvastig]]
+
+[[Zaai het zaad]]
+
 [[Hou je kinderen onderdanig]]
 
 [[Wat is goed leiderschap in het gezin]]
