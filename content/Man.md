@@ -46,7 +46,7 @@ Een man naar Gods hart, die wandelt met God. Gezond en sterk, vol van de vrucht 
 ## Karakter
 (ook vrucht van de Geest ➔ vervulling met de Geest)
 
-- Moed
+- [[Moed]]
 - Trouw
 - Doorzettingsvermogen
 - Liefde

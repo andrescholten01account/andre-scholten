@@ -2,6 +2,10 @@ De blogs komen op de site via iets van Claude heeft gemaakt.
 
 ---
 
+[[Hoe belangrijk zijn je kinderen voor je]]
+
+[[Hoe is je eígen leven met God]]
+
 [[Je kunt het, vader!]]
 
 [[Wees standvastig]]

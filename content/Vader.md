@@ -96,6 +96,19 @@ Husband should try to maken home happy and holy.
 
 ---
 
+De vader als gids. Het terrein verkennen voor je kinderen. Wat gaan ze tegenkomen? Hoe kan ik ze erop voorbereiden?
+
+---
+
+God staat boven je vrouw
+
+Jezus zegt: "Wie niet meer van mij houdt dan van ... vader, moeder, vrouw, kinderen ... is het niet waard mij te volgen."
+
+➔ denk aan koning Salomo en zijn vrouwen die hem tot afgoderij overhaalden
+➔ andere voorbeelden van vrouwen met verkeerde invloed ➔ Simson en Deliah?
+
+---
+
 Wandelen met God
 
 Een goed huwelijk
@@ -223,6 +236,11 @@ Goede band met je kinderen hebben, dan luisteren ze.
 
 Nobody care how much you know, until they know how much they care.
 ~ Abraham Lincoln (nakijken)
+
+---
+
+Wat is mijn doel met de kinderen?
+Wat zie ik voor hen voor ogen?
 
 %%
 
