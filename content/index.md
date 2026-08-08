@@ -23,7 +23,7 @@ De man als leider van het gezin
 > ... maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
 > ~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
 
-> *Husbands* should try to make home happy and holy.
+> Husbands should try to make home happy and holy.
 > ~ John Ploughman (Charles Spurgeon)
 
 [[Over deze site|Lees meer]] 
