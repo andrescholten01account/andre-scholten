@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Echtgenoot.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Echtgenoot"
+              "title": "index"
             }
           }
         ]
@@ -189,16 +189,17 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
-    "Man.md",
     "Over deze site.md",
+    "Vader.md",
+    "Breng tijd met je kinderen door.md",
+    "Echtgenoot.md",
+    "Man.md",
     "Contact.md",
     "index.md",
     "Over.md",
     "Blog.md",
-    "Vader.md",
     "Boeken.md",
     "Bronnen.md",
-    "Breng tijd met je kinderen door.md",
     "De Heilige Geest - Hoe zit dat.md",
     "Geschiedenis.md",
     "Stamboom familie Scholten.md",
@@ -212,7 +213,6 @@
     "Kies als Jozua.md",
     "Ontwerp site.md",
     "Pasted image 20260808072337.png",
-    "Echtgenoot.md",
     "Oude homepage.md",
     "Templates/Nieuwe Pagina Template.md",
     "Blog/Dit is een testblog.md",

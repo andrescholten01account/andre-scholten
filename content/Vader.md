@@ -1,9 +1,16 @@
-Wees een vader naar Gods hart
-
+%%
+Plaatje
 %%
 
 > En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
 > ~ [Efeze 6:4](https://gezinvoorgod.nl/studiebijbel/efeze/6#v4) (SVnu)
+
+Een vader naar Gods hart. Een gezin tot eer van God. Een warm en liefdevol thuis. Je gezin als licht in deze wereld. 
+
+%%
+## Geloofsopvoeding
+
+---
 
 De vader als leider van het gezin.  
 
@@ -33,6 +40,12 @@ Husband should try to maken home happy and holy.
 4. Wees zelf het goede voorbeeld
 5. Onderwijs je kinderen over God
 6. [[Breng tijd met je kinderen door]]
+
+---
+
+1 - Een goede band met je kinderen hebben
+
+- Tijd met ze doorbrengen
 
 ---
 

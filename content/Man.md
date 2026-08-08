@@ -9,6 +9,48 @@ Een man naar Gods hart, die wandelt met God. Gezond en sterk, vol van de vrucht 
 
 %%
 
+## Leven met God
+(relatie met God, wandelen met God)
+
+## Lichaam
+
+- Slaap
+- Eten
+- Beweging
+- Ontspanning (rust)
+
+## Mentaal/intellectueel
+
+- Orde
+- Logisch denken
+- Leiderschap
+- Bescherm (grenzen, Spr. 4:23, nee, on good nature and firmness)
+
+## Emotioneel
+
+- Plezier (leuke dingen doen)
+- Humor (Pinterest ➔ memes, moppen)
+- Avontuur
+
+## Sociaal
+
+- Sociale vaardigheden (how to win friend & influence people)
+- Communicatie
+
+## Karakter
+(ook vrucht van de Geest ➔ vervulling met de Geest)
+
+- Moed
+- Trouw
+- Doorzettingsvermogen
+- Liefde
+- Heiligheid
+- Blijdschap
+- Vrede
+- ==Standvastig==
+
+---
+
 Bijbelteksten
 
 - On good nature and firmness (zie boeken John Ploughman)
