@@ -7,8 +7,16 @@ Plaatje
 
 Een man naar Gods hart, die wandelt met God. Gezond en sterk, vol van de vrucht van de Geest.
 
-%%
+> You can’t take care of anyone else unless you first take care of yourself.
+> ~ Michael Hyatt
 
+If a man cannot take care of himself, his wit must be as scant as the wool of a blue dog.
+~ Charles Spurgeon (John Ploughman's Talk
+
+> Self-leadership always precedes team leadership. 
+> ~ Michael Hyatt
+
+%%
 ## Basis
 
 - [[Hou van God en je naaste]]
@@ -62,6 +70,7 @@ Bijbelteksten
 - On good nature and firmness (zie boeken John Ploughman)
 
 John Ploughman's Talk + Pictures 
+https://www.romans45.org/spurgeon/misc/plowman.htm
 
 You have to be a man, before you can be a gentle man.
 ➔ john wayne?
