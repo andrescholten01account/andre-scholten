@@ -389,10 +389,31 @@ input[type="checkbox"] {
 }
 
 blockquote {
+  position: relative;
   margin: 1rem 0;
-  border-left: 3px solid var(--secondary);
-  padding-left: 1rem;
-  transition: border-color 0.2s ease;
+  padding-left: 2.2rem;
+  transition: color 0.2s ease;
+
+  &::before {
+    content: "\201C";
+    position: absolute;
+    left: 0;
+    top: -0.3rem;
+    font-family: Georgia, serif;
+    font-size: 2.75rem;
+    line-height: 1;
+    color: var(--secondary);
+    transition: color 0.2s ease;
+  }
+
+  @media all and ($mobile) {
+    padding-left: 1.7rem;
+
+    &::before {
+      font-size: 2.1rem;
+      top: -0.1rem;
+    }
+  }
 }
 
 h1,
