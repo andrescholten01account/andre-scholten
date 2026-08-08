@@ -14,6 +14,6 @@ Ik heb geen reactiemogelijkheid op de blog, maar je kunt reageren door me een [[
 
 Om af te sluiten met een mooie Bijbeltekst:
 
-… maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!  
-~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
+> … maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!  
+> ~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
 
