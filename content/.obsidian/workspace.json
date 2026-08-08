@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wees standvastig.md",
+                "file": "Aanhoudend.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wees standvastig"
+              "title": "Aanhoudend"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -190,11 +191,15 @@
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
     "Man.md",
-    "Wees standvastig.md",
+    "Aanhoudend.md",
+    "Groeimindset.md",
     "Blog.md",
+    "Je kunt het, vader!.md",
+    "index.md",
+    "Persoonlijk voor mij.md",
+    "Wees standvastig.md",
     "Zaai het zaad.md",
     "Hou je kinderen onderdanig.md",
-    "index.md",
     "Gehoorzaamheid - Jezus volgen.md",
     "Wat is goed leiderschap in het gezin.md",
     "Iedere vader als leider van zijn gezin.md",
@@ -211,10 +216,6 @@
     "Hou van God en je naaste.md",
     "Hou van je gezin.md",
     "Echtgenoot.md",
-    "Hou van je vrouw.md",
-    "Geschiedenis.md",
-    "Boeken.md",
-    "Breng tijd met je kinderen door.md",
     "Pasted image 20260808072337.png",
     "Pasted image 20260808071405.png",
     "Naamloos",

@@ -13,4 +13,7 @@ Ik denk dat dit één van de belangrijkste kenmerken is van hoe een man hoort te
 
 Je niet van je stuk laten brengen. Zeker zijn van de waarheid van Gods Woord, zekerheid over je redding, blijven staan in wat Jezus onderwezen heeft. 
 
-Niet meegaan met ideeën die afwijken van wat God in Zijn Woord zegt, ook al klinkt het nog zo mooi. 
+Niet meegaan met ideeën die afwijken van wat God in Zijn Woord zegt, ook al klinkt het nog zo mooi. Ook niet als anderen, en misschien jijzelf, dit nog zo graag willen. 
+
+Blijf bij wat God geschreven heeft in Zijn Woord. Wees standvastig!
+

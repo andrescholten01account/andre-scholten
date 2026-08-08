@@ -29,6 +29,8 @@ Een man naar Gods hart, die wandelt met God. Gezond en sterk, vol van de vrucht 
 - Logisch denken
 - Leiderschap
 - Bescherm (grenzen, Spr. 4:23, nee, on good nature and firmness)
+- [[Groeimindset]]
+- [[Aanhoudend]]
 
 ## Emotioneel
 

@@ -2,6 +2,8 @@ De blogs komen op de site via iets van Claude heeft gemaakt.
 
 ---
 
+[[Je kunt het, vader!]]
+
 [[Wees standvastig]]
 
 [[Zaai het zaad]]

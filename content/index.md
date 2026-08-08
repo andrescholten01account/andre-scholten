@@ -97,6 +97,7 @@ https://books.google.nl/books/about/Divine_and_Moral_Songs_for_Children.html?id=
 - Vrienden
 - Gemeente
 - Vrijwilligerswerk
+- [[Persoonlijk voor mij]]
 
 %%
 
