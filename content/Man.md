@@ -17,7 +17,7 @@ Een man naar Gods hart, die wandelt met God. Gezond en sterk, vol van de vrucht 
 
 > Self-leadership always precedes team leadership. 
 > ~ Michael Hyatt
-
+a
 %%
 ## Basis
 
