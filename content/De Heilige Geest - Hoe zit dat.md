@@ -12,4 +12,17 @@ Zo ja, als je al vervuld bent met de Heilige Geest, waarom dan het gebod om verv
 
 Of kan de vervulling van de Heilige Geest minder worden, en dat de Heilige Geest dan weer bijgevuld moet worden? Ik bedoel: je kunt de Geest ook uitdoven (...). Kun je dan ook minder van de Geest krijgen?
 
-Ik heb ook wel eens gehoord dat er staat: blijvend vervuld worden met de Geest, als in: telkens, continue, in een s
+Ik heb ook wel eens gehoord dat er staat: blijvend vervuld worden met de Geest, als in: telkens, continue in een staat zijn van gevuld zijn met de Heilige Geest. Dan lijkt het op "wandel in de Geest" (...), en dan in andere woorden gezegd. 
+
+Gevuld zijn met de Geest staat tegenover dronkenschap (...). 
+Wandelen in de Geest tegenover wandelen in het vlees (...) ➔ Gal. 5:16. 
+
+Maar dan nog? Hoe zit het met de Heilige Geest? Kan ik de Heilige Geest ervaren? Merken?
+
+Ik heb het idee dat er meer is met het leven met de Heilige Geest dan we nu als christen merken. Maar wat?
+
+Ik denk hierbij aan kracht.
+En opwekkingen.
+
+Zou de Heilige Geest niet een grote bron van kracht zijn die we grotendeels onaangeroerd laten?
+

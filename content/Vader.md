@@ -32,6 +32,7 @@ Husband should try to maken home happy and holy.
 3. Heb een goede relatie met je kinderen
 4. Wees zelf het goede voorbeeld
 5. Onderwijs je kinderen over God
+6. [[Breng tijd met je kinderen door]]
 
 ---
 
