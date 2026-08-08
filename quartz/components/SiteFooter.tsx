@@ -59,11 +59,44 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
                 .catch(function () { return null; });
               return cache[sleutel];
             }
+            var toast = document.getElementById('bijbeltoast');
+            if (!toast) {
+              toast = document.createElement('div');
+              toast.id = 'bijbeltoast';
+              toast.textContent = 'Gekopieerd';
+              toast.style.cssText = 'position:fixed;left:50%;bottom:2rem;transform:translateX(-50%);background:#1a1a1a;color:#fff;font-family:sans-serif;font-size:.85rem;padding:.5rem 1.2rem;border-radius:999px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:9999;';
+              document.body.appendChild(toast);
+            }
+            function toonToast() {
+              toast.style.opacity = '1';
+              setTimeout(function () { toast.style.opacity = '0'; }, 1400);
+            }
+            function kopieerVers(a, ref) {
+              haal('versteksten', ref).then(function (data) {
+                var tekst = data && data[ref.vers];
+                if (!tekst) return;
+                var url = 'https://gezinvoorgod.nl/studiebijbel/' + ref.slug + '/' + ref.hfd + '#v' + ref.vers;
+                var kopie = tekst.replace(/\\*/g, '') + '\\n~ [' + a.textContent + '](' + url + ') (SVnu)';
+                navigator.clipboard.writeText(kopie).then(toonToast);
+              });
+            }
+            // enkele rechtsklik toont de vertalingen-popup (bestaand gedrag);
+            // dubbele rechtsklik (binnen 500ms, zelfde vers) kopieert het vers
+            var laatsteRechtsklik = { sleutel: null, tijd: 0 };
             document.addEventListener('contextmenu', function (e) {
               var a = e.target.closest ? e.target.closest('a[href*="/studiebijbel/"]') : null;
               var ref = a ? parseRef(a.getAttribute('href')) : null;
               if (!ref) return;
               e.preventDefault();
+              var sleutel = ref.slug + '/' + ref.hfd + '/' + ref.vers;
+              var nu = Date.now();
+              var isDubbelklik = laatsteRechtsklik.sleutel === sleutel && (nu - laatsteRechtsklik.tijd) < 500;
+              laatsteRechtsklik = isDubbelklik ? { sleutel: null, tijd: 0 } : { sleutel: sleutel, tijd: nu };
+              if (isDubbelklik) {
+                popup.style.display = 'none';
+                kopieerVers(a, ref);
+                return;
+              }
               // na een SPA-navigatie (Quartz-router) is deze div uit de pagina
               // gehaald (stond niet in de vers gefetchte HTML) -- de popup-
               // variabele bestaat dan nog wel, maar hangt niet meer echt in
