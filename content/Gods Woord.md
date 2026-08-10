@@ -1,3 +1,8 @@
+1 - Gods Woord is waar  
+
+Heilig hen in Uw waarheid; Uw woord is de waarheid.
+~ [Joh 17:17](https://gezinvoorgod.nl/studiebijbel/johannes/17#v17) (SVnu)
+
 ## Hoe is Gods Woord ontstaan? 
 
 **1. Het is door God ingegeven**
@@ -33,8 +38,6 @@ De opening van Uw woorden geeft licht, de eenvoudigen verstandig makend.
 ~ [Psalm 119:130](https://gezinvoorgod.nl/studiebijbel/psalmen/119#v130) (SVnu)
 
 %%
-
-De Bijbel is waar
 
 Gods Woord: Woord van de waarheid: jak. 1:18
 
