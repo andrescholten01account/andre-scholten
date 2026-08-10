@@ -5,7 +5,7 @@ Plaatje
 > ... Ik heb David gevonden, de zoon van Isaï, een man naar Mijn hart, die al Mijn wil zal doen.
 > ~ [Handelingen 13:22b](https://gezinvoorgod.nl/studiebijbel/handelingen/13#v22) (SVnu)
 
-Een man naar Gods hart, die wandelt met God. Gezond en sterk, vol van de vrucht van de Geest.
+Hoe ben je een man naar Gods hart? Door Hem te kennen en gehoorzaam te zijn. Hoe heb je als christelijke man je leven op orde? Hoe word je gezond en sterk? Hoe ben je vol van de vrucht van de Geest? 
 
 ## Voor jezelf zorgen
 

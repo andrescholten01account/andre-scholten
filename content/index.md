@@ -81,7 +81,6 @@ Rechts:
 - [[Ontwerp site]]
 - [[Obsidian]]
 - [[SEO]]
-- [[Blogtips]]
 - [[Oude tekst van Blogpagina]]
 - [[Oude homepage]]
 
