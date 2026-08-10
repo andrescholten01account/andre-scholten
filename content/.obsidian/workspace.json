@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Basis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Basis"
             }
           }
         ]
@@ -189,10 +189,10 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
+    "index.md",
     "Basis.md",
     "Persoonlijke geloofsbelijdenis.md",
     "Boekje - De basis van het christelijk geloof.md",
-    "index.md",
     "De Volle Pinksterzegen.md",
     "Blog.md",
     "Leer je kinderen Jezus te gehoorzamen.md",
