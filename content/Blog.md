@@ -2,6 +2,8 @@ De blogs komen op de site via iets van Claude heeft gemaakt.
 
 ---
 
+[[Gods wil voor vaders]]
+
 [[Leer je kinderen Jezus te gehoorzamen]]
 
 [[Zending begint thuis]]
