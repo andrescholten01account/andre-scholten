@@ -1,7 +1,6 @@
 <div align="center">
 
 ![[Pasted image 20260810143904.png|450]]
-<small>*Afbeelding afkomstig uit "Divine and Moral Songs for Children" door Isaac Watts*</small>
 
 </div>
 
