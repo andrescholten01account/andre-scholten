@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -107,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Terugverwijzingen voor index"
+              "title": "Terugverwijzing"
             }
           },
           {
@@ -190,9 +189,11 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
-    "De Volle Pinksterzegen.md",
-    "index.md",
     "Basis.md",
+    "Persoonlijke geloofsbelijdenis.md",
+    "Boekje - De basis van het christelijk geloof.md",
+    "index.md",
+    "De Volle Pinksterzegen.md",
     "Blog.md",
     "Leer je kinderen Jezus te gehoorzamen.md",
     "Zending begint thuis.md",
@@ -214,8 +215,6 @@
     "Wees standvastig.md",
     "Zaai het zaad.md",
     "Hou je kinderen onderdanig.md",
-    "Gehoorzaamheid - Jezus volgen.md",
-    "Wat is goed leiderschap in het gezin.md",
     "Pasted image 20260808072337.png",
     "Pasted image 20260808071405.png",
     "Naamloos",
