@@ -68,7 +68,7 @@ Midden:
 
 Rechts:
 - [[Verantwoording]]
-
+s
 [[Copyright policy]]
 
 ## Meer
