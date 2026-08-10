@@ -36,5 +36,9 @@ De opening van Uw woorden geeft licht, de eenvoudigen verstandig makend.
 
 De Bijbel is waar
 
+Gods Woord: Woord van de waarheid: jak. 1:18
+
+Gods Woord kan zielen zalig maken: jak. 1:21
+
 %%
 

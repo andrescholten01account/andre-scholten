@@ -47,3 +47,13 @@ Standvastigheid: 1 Kor. 15:58
 
 ---
 
+Basis: 
+jak. 1:27 
+-> ook bij gehoorzaamheid
+
+---
+
+Gehoorzaamheid: jak. 1:22; jak. 1:25
+
+---
+

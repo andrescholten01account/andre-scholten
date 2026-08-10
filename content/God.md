@@ -125,9 +125,12 @@ Zodat wij zelf over u roemen in de Gemeenten van God, over uw volharding en gelo
 
 ---
 
-[[Argumenten bestaan God]]
+[[Iedereen weet dat God bestaat]]
 
 %%
 ## GOD (GOD DE VADER)
 
+God: ja is ja, nee is nee: jab. 1:17
+
 %%
+

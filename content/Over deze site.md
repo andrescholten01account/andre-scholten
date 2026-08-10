@@ -58,6 +58,7 @@ In Christus verbonden,
 Foto
 
 André Scholten
+[[Over mij]]
 [[Contact]]
 
 %%
