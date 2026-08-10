@@ -13,12 +13,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Links gezin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Links gezin"
+            }
+          },
+          {
+            "id": "94b75b57be6a4b5a",
+            "type": "leaf",
+            "state": {
+              "type": "rss-dashboard-view",
+              "state": {},
+              "icon": "rss",
+              "title": "RSS dashboard"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "8b93a4579d1b1d76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40450b338ed3f7e0",
+            "type": "leaf",
+            "state": {
+              "type": "rss-reader-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "7 Things We Get Wrong About Parenting Teens"
             }
           }
         ]
@@ -80,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -166,8 +194,19 @@
               "icon": "lucide-list",
               "title": "Overzicht van Waarom vervuld worden met de Heilige Geest"
             }
+          },
+          {
+            "id": "f3f8e973db0e625a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -184,14 +223,17 @@
       "command-palette:Open opdrachtenpaneel": false,
       "bases:Nieuwe basis maken": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "f38507f223f8f562",
+  "active": "40450b338ed3f7e0",
   "lastOpenFiles": [
+    "2026-08-10.md",
+    "Links gezin.md",
+    "index.md",
     "Basis.md",
     "Gods Woord.md",
-    "index.md",
     "Vraag en antwoord.md",
     "Jak. 2 vers 24 - gerechtvaardig door werken (vraagteken).md",
     "Apologetiek.md",
@@ -213,8 +255,6 @@
     "Boeken.md",
     "Echtgenoot.md",
     "Kind en relaties.md",
-    "Bronnen.md",
-    "Moed.md",
     "Pasted image 20260808072337.png",
     "Pasted image 20260808071405.png",
     "Naamloos",

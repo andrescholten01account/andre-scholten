@@ -40,7 +40,7 @@ De man als leider van het gezin
 
 <div style="text-align: center;">
 
-Links gezin
+[[Links gezin]]
 Boeken gezin
 [[Bronnen]]
 
@@ -62,6 +62,7 @@ Links:
 - [[Blog]]
 - [[Over deze site]]
 - [[Contact]]
+- [[Links gezin]]
 
 Midden:
 - Zoekfunctie
