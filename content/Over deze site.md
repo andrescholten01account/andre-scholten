@@ -47,7 +47,7 @@ Een echtgenoot naar Gods hart. Een goed en gelukkig huwelijk tot eer van God. Al
 > En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
 > ~ [Efeze 6:4](https://gezinvoorgod.nl/studiebijbel/efeze/6#v4) (SVnu)
 
-Een vader naar Gods hart. Een gezin tot eer van God. Een warm en liefdevol thuis. Je gezin als licht in deze wereld. 
+Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis. Hoe ben je als gezin een licht in deze wereld?
 
 De focus van deze website is het gezin. Hierbij ga ik, als man, uit van de positie van de man. Ik wil groeien, en blijven groeien, in de rol die God mij gegeven heeft als man, echtgenoot, en vader.
 
