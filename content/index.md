@@ -45,7 +45,8 @@ Boeken gezin
 [[Bronnen]]
 
 [[Basis]]
-
+[StudieBijbel](https://gezinvoorgod.nl/studiebijbel/genesis/1/)
+[[De Volle Pinksterzegen|Boek]]
 </div>
 
 %%
