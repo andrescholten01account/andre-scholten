@@ -31,7 +31,7 @@ De man als leider van het gezin
 </div>
 
 ---
-d
+
 <!-- BLOG-SECTIE-BEGIN: niet handmatig bewerken, wordt automatisch gevuld -->
 <div id="blog-widget"></div>
 <!-- BLOG-SECTIE-EIND -->
