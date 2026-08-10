@@ -2,10 +2,6 @@
 Status: Draft
 draft: false
 ---
-Gebruikte afbeeldingen afkomstig van:
-
-[Divine and Moral Songs for Children - Isaac Watts](https://books.google.nl/books?id=4UdcjfX2b3QC&pg=PA79&hl=nl&source=gbs_selected_pages&cad=1#v=onepage&q&f=false)
-
 %%
 
 https://www.biblebb.com/ ➔ zie homepage, naar onder: The Christian Family Collection 
@@ -45,6 +41,12 @@ https://abcvoorkinderen.nl/
 
 YouTube: Later bekijken: https://www.youtube.com/playlist?list=WL
 YouTube playlists: https://www.youtube.com/feed/playlists
+
+---
+
+Afbeeldingen:
+
+[Divine and Moral Songs for Children - Isaac Watts](https://books.google.nl/books?id=4UdcjfX2b3QC&pg=PA79&hl=nl&source=gbs_selected_pages&cad=1#v=onepage&q&f=false)
 
 %%
 

@@ -15,7 +15,7 @@ De man als leider van het gezin
 <div align="center">
 
 ![[Pasted image 20260715071609.png|450]]
-*Afbeelding afkomstig uit "Divine and Moral Songs for Children" door Isaac Watts*
+Afbeelding afkomstig uit "Divine and Moral Songs for Children" door Isaac Watts
 
 </div>
 

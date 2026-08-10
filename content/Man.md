@@ -1,5 +1,9 @@
+<div align="center">
+
 ![[Pasted image 20260810143904.png|450]]
 *Afbeelding afkomstig uit "Divine and Moral Songs for Children" door Isaac Watts*
+
+</div>
 
 > ... Ik heb David gevonden, de zoon van Isaï, een man naar Mijn hart, die al Mijn wil zal doen.
 > ~ [Handelingen 13:22b](https://gezinvoorgod.nl/studiebijbel/handelingen/13#v22) (SVnu)
