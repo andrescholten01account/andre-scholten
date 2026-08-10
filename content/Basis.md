@@ -1,3 +1,6 @@
+## Basis christelijk geloof
+
+
 Wat is de basis van het christelijk geloof? In mijn [[Persoonlijke geloofsbelijdenis|persoonlijke geloofsbelijdenis]] heb ik dit in het kort weergegeven. 
 
 Ik heb de basis van het christelijk geloof in 10 hoofdonderwerpen verdeeld. 
@@ -21,6 +24,18 @@ Ik heb de basis van het christelijk geloof in 10 hoofdonderwerpen verdeeld.
 ## [[Gehoorzaamheid - Jezus volgen]]
 
 ## [[Het eeuwige oordeel]]
+
+---
+
+## Genesis 1 - 11
+
+- Berekening leeftijd aarde
+- Harmonie Genesis 1 +2
+
+## Geloofsbelijdenissen
+
+- Lijst geloofsbelijdenissen
+- Geloofsbelijdenissen op onderwerp
 
 %%
 

@@ -19,4 +19,7 @@ Het Evangelie:
 
 In Jezus geloven = Hem gehoorzamen. 
 
-Het is denk ik net hoe je het verwoord. Je kunt ook zeggen: het gaat om een levend geloof. Waar het om gaat: het gaat erom dat je kinderen niet alleen maar de feiten van het Evangelie kennen (God is heilig, ieder mens is )
+Het is denk ik net hoe je het verwoord. Je kunt ook zeggen: het gaat om een levend geloof. Waar het om gaat: het gaat erom dat je kinderen niet alleen maar de feiten van het Evangelie kennen (o.a. God is heilig, ieder mens is ongehoorzaam aan God en verdient daarom straf, Jezus is gekomen om de straf op deze ongehoorzaamheid te dragen aan het kruis), maar ook dat ze het *aannemen* (geloven). Ook dat ze Jezus volgen (zich bekeren). 
+
+Geloven jouw kinderen in Jezus met hun hoofd, hart, en handen?
+

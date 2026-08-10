@@ -44,6 +44,8 @@ Links gezin
 Boeken gezin
 [[Bronnen]]
 
+[[Basis]]
+
 </div>
 
 %%
@@ -70,12 +72,14 @@ Rechts:
 
 ## Meer
 
+- [[Basis]]
+- StudieBijbel ➔ https://gezinvoorgod.nl/studiebijbel/genesis/1/
+- [[De Volle Pinksterzegen|Boek]]
 - [To do gezinvoorgod.nl](https://docs.google.com/document/d/1jtzucFNI_9Exy_BSg7btDH-yfkHD7HdMJq-uZg6YcHY/edit?tab=t.0)
 - [[Ontwerp site]]
 - [[Obsidian]]
 - [[SEO]]
 - [[Blogtips]]
-- StudieBijbel ➔ https://gezinvoorgod.nl/studiebijbel/genesis/1/
 - [[Oude tekst van Blogpagina]]
 - [[Oude homepage]]
 
@@ -83,7 +87,6 @@ https://books.google.nl/books/about/Divine_and_Moral_Songs_for_Children.html?id=
 
 ## Privé
 
-- [[Basis|Basis christelijk geloof]]
 - [[Geschiedenis]]
 - [[Geloofsbelijdenissen]]
 - Apologetiek 
