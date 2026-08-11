@@ -2,6 +2,14 @@ De blogs komen op de site via iets van Claude heeft gemaakt.
 
 ---
 
+## Blogs die live staan
+
+
+
+---
+
+## Drafts
+
 [[Gods wil voor vaders]]
 
 [[Leer je kinderen Jezus te gehoorzamen]]
