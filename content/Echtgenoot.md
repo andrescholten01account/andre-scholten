@@ -1,9 +1,3 @@
-<div align="center">
-
-![[Pasted image 20260811230331.png|450]]
-
-</div>
-
 > Kortom, ieder van u afzonderlijk moet zijn eigen vrouw zo liefhebben als zichzelf; ... 
 > ~ [Efeze 5:33a](https://gezinvoorgod.nl/studiebijbel/efeze/5#v33) (SVnu)
 
