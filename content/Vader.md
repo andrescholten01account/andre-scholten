@@ -29,8 +29,8 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 ## Basis goed vaderschap
 
 - Stap 1: [[Hou van God en je naaste]]
-- [[Hou van je vrouw]]
-- [[Hou van je gezin]]
+- Stap 2: [[Hou van je vrouw]]
+- Stap 3: [[Hou van je gezin]]
 
 ---
 ## Geloofsopvoeding
