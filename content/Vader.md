@@ -9,6 +9,11 @@
 
 Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis. Hoe ben je als gezin een licht in deze wereld?
 
+## Rollen in het gezin
+
+> iemand die zijn eigen huis goed bestuurt en zijn kinderen in onderdanigheid houdt, met alle waardigheid;
+> ~ [1 Timotheüs 3:4](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v4) (SVnu)
+
 ## Als gezin God dienen
 
 > Doch als het kwaad is in uw ogen om de HEERE te dienen, kies heden wie u dienen zult; hetzij de goden die uw vaders, die aan de andere kant van de rivier waren, gediend hebben, of de goden van de Amorieten, in wiens land u woont; maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
