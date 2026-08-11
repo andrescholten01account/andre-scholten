@@ -21,6 +21,12 @@
 - Lijst geloofsbelijdenissen
 - Geloofsbelijdenissen op onderwerp
 
+## Catechismussen
+
+- Lijst catechismussen
+- Catechismussen op onderwerp
+- [[Verklaring catechismussen]]
+
 %%
 
 Aantekeningen
