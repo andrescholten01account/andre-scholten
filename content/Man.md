@@ -1,6 +1,6 @@
 <div align="center">
 
-![[Pasted image 20260810143904.png|450]]
+![[Pasted image 20260811232307.png|450]]
 
 </div>
 
