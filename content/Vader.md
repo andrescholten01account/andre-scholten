@@ -11,8 +11,10 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 
 ## Rollen in het gezin
 
-> iemand die zijn eigen huis goed bestuurt en zijn kinderen in onderdanigheid houdt, met alle waardigheid;
-> ~ [1 Timotheüs 3:4](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v4) (SVnu)
+- [[De vader is de leider van het gezin]]
+- [[De man is het hoofd van de vrouw]]
+- [[De vrouw haar eigen man onderdanig]]
+- [[Kinderen onderdanig aan ouders]]
 
 ## Als gezin God dienen
 
