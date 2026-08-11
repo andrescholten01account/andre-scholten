@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog.md",
+                "file": "Basis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blog"
+              "title": "Basis"
             }
           }
         ]
@@ -203,13 +203,13 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
-    "Jozua 24 vers 15.md",
-    "Blog.md",
+    "Verklaringen geloofsbelijdenissen en catechismussen.md",
+    "Basis.md",
     "index.md",
+    "Blog.md",
+    "Jozua 24 vers 15.md",
     "Blog/Dit is een testblog.md",
     "Blog/Test 2.md",
-    "Basis.md",
-    "Verklaring catechismussen.md",
     "Bronnen.md",
     "Vader.md",
     "Man.md",

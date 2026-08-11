@@ -16,16 +16,11 @@
 - Berekening leeftijd aarde
 - Harmonie Genesis 1 +2
 
-## Geloofsbelijdenissen
+## Geloofsbelijdenissen en catechismussen
 
-- Lijst geloofsbelijdenissen
-- Geloofsbelijdenissen op onderwerp
-
-## Catechismussen
-
-- Lijst catechismussen
-- Catechismussen op onderwerp
-- [[Verklaring catechismussen]]
+- Lijst geloofsbelijdenissen en catechismussen
+- Geloofsbelijdenissen en catechismussen op onderwerp
+- [[Verklaringen geloofsbelijdenissen en catechismussen]]
 
 %%
 
