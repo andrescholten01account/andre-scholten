@@ -4,15 +4,10 @@
 
 </div>
 
-> En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
-> ~ [Efeze 6:4](https://gezinvoorgod.nl/studiebijbel/efeze/6#v4) (SVnu)
-
-Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis. Hoe ben je als gezin een licht in deze wereld?
-
-## Als gezin God dienen
-
 > Doch als het kwaad is in uw ogen om de HEERE te dienen, kies heden wie u dienen zult; hetzij de goden die uw vaders, die aan de andere kant van de rivier waren, gediend hebben, of de goden van de Amorieten, in wiens land u woont; maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
 > ~ [Jozua 24:15](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
+
+Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis. Hoe ben je als gezin een licht in deze wereld?
 
 ## [[Verhoudingen binnen het gezin]]
 
@@ -31,9 +26,9 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 > ~ [Ef 6:4](https://gezinvoorgod.nl/studiebijbel/efeze/6#v4) (SVnu)
 
 %%
-## Basis
+## Basis goed vaderschap
 
-- [[Hou van God en je naaste]]
+- Stap 1: [[Hou van God en je naaste]]
 - [[Hou van je vrouw]]
 - [[Hou van je gezin]]
 

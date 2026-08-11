@@ -14,6 +14,9 @@ publicatiedatum:
 > iemand die zijn eigen huis goed bestuurt en zijn kinderen in onderdanigheid houdt, met alle waardigheid;
 > ~ [1 Timotheüs 3:4](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v4) (SVnu)
 
+> Doch als het kwaad is in uw ogen om de HEERE te dienen, kies heden wie u dienen zult; hetzij de goden die uw vaders, die aan de andere kant van de rivier waren, gediend hebben, of de goden van de Amorieten, in wiens land u woont; maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
+> ~ [Jozua 24:15](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
+
 ## De man is het hoofd van de vrouw
 
 > want de man is het hoofd van de vrouw, zoals ook Christus het Hoofd van de Gemeente is; en Hij is de Behouder van het lichaam.
