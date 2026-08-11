@@ -4,6 +4,11 @@ draft: false
 blog: false
 publicatiedatum:
 ---
+## Jezus is het Hoofd van de man 
+
+> Maar ik wil dat u weet, dat Christus het Hoofd is van iedere man, en de man het hoofd van de vrouw, en God het Hoofd van Christus.
+> ~ [1 Korinthe 11:3](https://gezinvoorgod.nl/studiebijbel/1-korinthe/11#v3) (SVnu)
+
 ## De vader is de leider van het gezin
 
 > iemand die zijn eigen huis goed bestuurt en zijn kinderen in onderdanigheid houdt, met alle waardigheid;
