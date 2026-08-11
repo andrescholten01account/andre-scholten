@@ -35,11 +35,11 @@
         "currentTab": 1
       },
       {
-        "id": "6e692c2f12c7a4dd",
+        "id": "5ba7e1101f42ade2",
         "type": "tabs",
         "children": [
           {
-            "id": "18ed4d3f46d4e52d",
+            "id": "e2c448fa5195b2a6",
             "type": "leaf",
             "state": {
               "type": "rss-reader-view",
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -227,7 +226,7 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "18ed4d3f46d4e52d",
+  "active": "e2c448fa5195b2a6",
   "lastOpenFiles": [
     "index.md",
     "Vader.md",
