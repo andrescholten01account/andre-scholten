@@ -1,6 +1,8 @@
-%%
-Plaatje
-%%
+<div align="center">
+
+![[Pasted image 20260811161447.png|450]]
+
+</div>
 
 > En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
 > ~ [Efeze 6:4](https://gezinvoorgod.nl/studiebijbel/efeze/6#v4) (SVnu)
