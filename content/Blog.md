@@ -1,13 +1,11 @@
 De blogs komen op de site via iets van Claude heeft gemaakt. 
 
 ---
-
 ## Blogs die live staan
 
 [[Jozua 24 vers 15]]
 
 ---
-
 ## Drafts
 
 [[Gods wil voor vaders]]
