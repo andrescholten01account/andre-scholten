@@ -20,6 +20,33 @@
               "icon": "lucide-file",
               "title": "Vader"
             }
+          },
+          {
+            "id": "7f56da88d1a20750",
+            "type": "leaf",
+            "state": {
+              "type": "rss-dashboard-view",
+              "state": {},
+              "icon": "rss",
+              "title": "RSS dashboard"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "6e692c2f12c7a4dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18ed4d3f46d4e52d",
+            "type": "leaf",
+            "state": {
+              "type": "rss-reader-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Kurt Warner: 5 Small Moments That Make Great Dads"
+            }
           }
         ]
       }
@@ -200,7 +227,7 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "f38507f223f8f562",
+  "active": "18ed4d3f46d4e52d",
   "lastOpenFiles": [
     "index.md",
     "Vader.md",
