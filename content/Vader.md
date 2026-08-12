@@ -9,21 +9,21 @@
 
 Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis. Hoe ben je als gezin een licht in deze wereld?
 
+## Stappenplan vader naar Gods hart
+
+1 - Onderwijs je kinderen
+
+
+
 ## [[Verhoudingen binnen het gezin]]
 
 > iemand die zijn eigen huis goed bestuurt en zijn kinderen in onderdanigheid houdt, met alle waardigheid;
 > ~ [1 Timotheüs 3:4](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v4) (SVnu)
 
-## Onderwijs je kinderen
 
-> Denk aan de dag dat u voor de HEERE, uw God, bij Horeb stond, toen de HEERE tegen mij zei: Verzamel dit volk voor Mij, en Ik zal hun Mijn woorden laten horen, die zij zullen leren, om Mij te vrezen al de dagen dat zij op de aardbodem leven, en zij zullen ze hun kinderen leren;
-> ~ [Deut 4:10](https://gezinvoorgod.nl/studiebijbel/deuteronomium/4#v10) (SVnu)
+## 
 
-> Leer de jongen de eerste beginselen naar de eis van zijn weg; ook als hij oud geworden is, zal hij daar niet van afwijken.
-> ~ [Spreuken 22:6](https://gezinvoorgod.nl/studiebijbel/spreuken/22#v6) (SVnu)
 
-> En u vaders, verwek uw kinderen niet tot toorn, maar voed hen op in de lering en vermaning van de Heere.
-> ~ [Ef 6:4](https://gezinvoorgod.nl/studiebijbel/efeze/6#v4) (SVnu)
 
 %%
 ## Basis goed vaderschap
@@ -31,6 +31,16 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - Stap 1: [[Hou van God en je naaste]]
 - Stap 2: [[Hou van je vrouw]]
 - Stap 3: [[Hou van je gezin]]
+
+---
+## Tips vaderschap
+
+1. Heb een goede relatie met God
+2. Heb een goed huwelijk
+3. Heb een goede relatie met je kinderen
+4. Wees zelf het goede voorbeeld
+5. Onderwijs je kinderen over God
+6. [[Breng tijd met je kinderen door]]
 
 ---
 ## Geloofsopvoeding
@@ -95,16 +105,6 @@ Als vader:
 
 Husband should try to maken home happy and holy.
 ~ John Ploughman's Talk (nog nakijken)
-
----
-## Tips vaderschap
-
-1. Heb een goede relatie met God
-2. Heb een goed huwelijk
-3. Heb een goede relatie met je kinderen
-4. Wees zelf het goede voorbeeld
-5. Onderwijs je kinderen over God
-6. [[Breng tijd met je kinderen door]]
 
 ---
 

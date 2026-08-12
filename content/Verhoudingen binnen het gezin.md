@@ -4,6 +4,17 @@ draft: false
 blog: false
 publicatiedatum:
 ---
+## God is een God van orde
+
+> Want God is geen God van verwarring, maar van vrede, zoals in al de Gemeenten der heiligen.
+> ~ [1 Korinthe 14:33](https://gezinvoorgod.nl/studiebijbel/1-korinthe/14#v33) (SVnu)
+
+> Laat alle dingen eerlijk en met orde gebeuren.
+> ~ [1 Korinthe 14:40](https://gezinvoorgod.nl/studiebijbel/1-korinthe/14#v40) (SVnu)
+
+> Want hoewel ik naar het vlees van u ben, ben ik toch met de geest bij u, terwijl ik mij verblijd en uw ordening zie, en de vastheid van uw geloof in Christus.
+> ~ [Kolossenzen 2:5](https://gezinvoorgod.nl/studiebijbel/kolossenzen/2#v5) (SVnu)
+
 ## Jezus is het Hoofd van de man 
 
 > Maar ik wil dat u weet, dat Christus het Hoofd is van iedere man, en de man het hoofd van de vrouw, en God het Hoofd van Christus.
