@@ -21,51 +21,48 @@ Hoe ben je een man naar Gods hart? Door Hem te kennen en gehoorzaam te zijn. Hoe
 > ~ Michael Hyatt
 
 %%
+
+Stap 1: Heb de basis op orde
+
+1. Hou van God
+2. Hou van je naaste
+3. Heb je eigen leven op orde 
+
+Stap 2: Leef volgens de 10 geboden
+
+1. Alleen God
+2. Geen beelden
+
+Stap 3: [[Heb de 8 levensgebieden op orde]]
+
+1. God
+2. [[Zelf]]
+3. Huwelijk
+4. Gezin
+5. Werk
+6. Thuis
+7. Familie
+8. Vrienden
+9. Gemeente
+10. Vrijwilligerswerk
+
+Stap 4: [[Bouw aan je karakter]]
+
+- Liefde
+- Blijdschap
+- Moed
+- Doorzettingsvermogen
+- Standvastigheid
+- Trouw
+- IJverheid
+
+---
 ## Basis
 
 - [[Hou van God en je naaste]]
 
-## Leven met God
+## Leven met God ➔ Stap 3: God
 (relatie met God, wandelen met God)
-
-## Lichaam
-
-- Slaap
-- Eten
-- Beweging
-- Ontspanning (rust)
-
-## Mentaal/intellectueel
-
-- Orde
-- Logisch denken
-- Leiderschap
-- Bescherm (grenzen, Spr. 4:23, nee, on good nature and firmness)
-- [[Groeimindset]]
-- [[Aanhoudend]]
-
-## Emotioneel
-
-- Plezier (leuke dingen doen)
-- Humor (Pinterest ➔ memes, moppen)
-- Avontuur
-
-## Sociaal
-
-- Sociale vaardigheden (how to win friend & influence people)
-- Communicatie
-
-## Karakter
-(ook vrucht van de Geest ➔ vervulling met de Geest)
-
-- [[Moed]]
-- Trouw
-- Doorzettingsvermogen
-- Liefde
-- Heiligheid
-- Blijdschap
-- Vrede
-- ==Standvastig==
 
 ---
 
@@ -94,31 +91,6 @@ Wat zegt Gods Woord over het zijn van een christelijke man?
 - Vandaar alle tekstverwijzingen volgen
 
 ---
-
-michael hyatt ➔ 10 gebieden
-
-God
-Ik 
-huwelijk
-gezin
-
-werk/vrijwilligerswerk
-[[Thuis]]
-
-familie
-vrienden
-gemeente
-
----
-## Leiding geven aan jezelf
-
-gezondheid
--> slaap
--> eten
--> beweging
--> [[ontspanning]] 
-
-...
 
 ? 1 Tim. -> ouderling goed leiding geven aan eigen huis -> dan aan gemeente
 
