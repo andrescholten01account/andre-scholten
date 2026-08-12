@@ -8,3 +8,14 @@ publicatiedatum:
 > 38 Dit is het eerste en het grootste gebod.
 > ~ [Mattheüs 22:37-38](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
 
+%%
+## Prioriteit 1: Hou van God
+
+Mat. 22:37-38
+
+Ex. 20:1-? (dus de eerste twee geboden)
+
+Deut. 5
+
+%%
+

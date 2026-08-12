@@ -11,24 +11,26 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 
 ## Hoe ben je een vader naar Gods hart?
 
-1. [[Zet God op de eerste plek in je leven]]
-2. [[Heb een goed huwelijk]]
+Basis goed vaderschap:
 
-1 - [[Onderwijs je kinderen]]
+1. [[Hou van God]]
+2. [[Hou van je vrouw]]
+3. [[Hou van je gezin]]
+
+Instructie goed vaderschap: 
+
+1. [[Respecteer de juiste verhoudingen binnen het gezin]]
+2. [[Onderwijs je kinderen]]
 
 
 
-## [[Verhoudingen binnen het gezin]]
+## 
 
-> iemand die zijn eigen huis goed bestuurt en zijn kinderen in onderdanigheid houdt, met alle waardigheid;
-> ~ [1 Timotheüs 3:4](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v4) (SVnu)
 
 %%
-## Basis goed vaderschap
 
-- Stap 1: [[Hou van God en je naaste]]
-
-- Stap 3: [[Hou van je gezin]]
+➔ dit naar: Basis ➔ gehoorzaamheid? [[Hou van God en je naaste]]
+➔ Basis gehoorzaamheid
 
 ---
 ## Tips vaderschap

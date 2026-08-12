@@ -4,6 +4,11 @@ draft: false
 blog: false
 publicatiedatum:
 ---
+## Hou van je eigen vrouw
+
+Mannen, heb uw eigen vrouwen lief, zoals ook Christus de Gemeente liefgehad heeft, en Zichzelf voor haar heeft overgegeven,
+~ [Efeze 5:25](https://gezinvoorgod.nl/studiebijbel/efeze/5#v25) (SVnu)
+
 ## Hou van je vrouw zoals van jezelf
 
 En het tweede, hieraan gelijk, is: U zult uw naaste liefhebben als uzelf.
