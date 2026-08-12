@@ -11,21 +11,11 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 
 ## Hoe ben je een vader naar Gods hart?
 
-Basis goed vaderschap:
-
 1. [[Hou van God]]
 2. [[Hou van je vrouw]]
 3. [[Hou van je gezin]]
-
-Instructie goed vaderschap: 
-
-1. [[Respecteer de juiste verhoudingen binnen het gezin]]
-2. [[Onderwijs je kinderen]]
-
-
-
-## 
-
+4. [[Order je gezin volgens Gods principes]]
+5. [[Onderwijs je kinderen]]
 
 %%
 
