@@ -34,7 +34,7 @@ Stap 2: Leef volgens de 10 geboden
 1. Alleen God
 2. Geen beelden
 
-Stap 3: [[Heb de 8 levensgebieden op orde]]
+Stap 3: [[Heb de 10 levensgebieden op orde]]
 
 1. God
 2. [[Zelf]]
@@ -47,15 +47,16 @@ Stap 3: [[Heb de 8 levensgebieden op orde]]
 9. Gemeente
 10. [[Omgeving]]
 
-Stap 4: [[Bouw aan je karakter]]
+Stap 4: [[Bouw aan je karakter]] 
 
 - Liefde
 - Blijdschap
-- Moed
+- [[Moed]]
 - Doorzettingsvermogen
 - Standvastigheid
 - Trouw
 - IJverheid
+- [[Verantwoordelijkheid]]
 
 ---
 ## Basis
@@ -74,16 +75,9 @@ Bijbelteksten
 John Ploughman's Talk + Pictures 
 https://www.romans45.org/spurgeon/misc/plowman.htm
 
-You have to be a man, before you can be a gentle man.
-➔ john wayne?
-
-Courage is accepting the fear, and saddling up anyway.
-➔ john wayne
-
 spurgeon ➔ manly "stick to it"
 
-if you could kick the person in the paint, most responsible for your problems, you wouldn't sit for a week.
-➔ theodore roosevelt
+Zie boek van The Art of Manliness over 7 eigenschappen man zijn
 
 ---
 
@@ -125,7 +119,7 @@ Theodore Roosevelt:
 Leider:
 - Initiatief nemen
 - Plannen
-- Hetv voortouw nemen
+- Het voortouw nemen
 
 %%
 

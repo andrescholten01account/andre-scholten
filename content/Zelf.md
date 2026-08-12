@@ -16,7 +16,7 @@ publicatiedatum:
 - Orde
 - Logisch denken
 - Leiderschap
-- [[Beschermen]] Bescherm (grenzen, Spr. 4:23, nee, on good nature and firmness)
+- [[Beschermen]] 
 - [[Groeimindset]]
 - [[Aanhoudend]]
 

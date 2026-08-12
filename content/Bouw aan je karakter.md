@@ -21,3 +21,8 @@ Oa. Vrucht van de Geest
 
 ---
 
+You have to be a man, before you can be a gentle man.
+➔ john wayne?
+
+---
+
