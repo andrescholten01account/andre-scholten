@@ -90,4 +90,19 @@ U zult niet begeren het huis van uw naaste; u zult niet begeren de vrouw van uw 
 
 https://www.heidelbergse-catechismus.nl/vragen ➔ De wet
 
+https://learn.ligonier.org/topics/ten-commandments
+https://learn.ligonier.org/devotionals/the-law-of-god
+https://learn.ligonier.org/devotionals/first-commandment
+https://learn.ligonier.org/devotionals/second-commandment
+https://learn.ligonier.org/devotionals/third-commandment
+https://learn.ligonier.org/devotionals/fourth-commandment
+https://learn.ligonier.org/devotionals/fifth-commandment
+https://learn.ligonier.org/devotionals/sixth-commandment
+https://learn.ligonier.org/devotionals/the-scope-of-the-sixth-commandment
+https://learn.ligonier.org/devotionals/seventh-commandment
+https://learn.ligonier.org/devotionals/eighth-commandment
+https://learn.ligonier.org/devotionals/ninth-commandment
+https://learn.ligonier.org/devotionals/tenth-commandment
+
 %%
+
