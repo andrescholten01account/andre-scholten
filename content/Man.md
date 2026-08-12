@@ -21,6 +21,7 @@ Hoe ben je een man naar Gods hart? Door Hem te kennen en gehoorzaam te zijn. Hoe
 > ~ Michael Hyatt
 
 %%
+## Hoe ben je een man naar Gods hart?
 
 Stap 1: Heb de basis op orde
 
@@ -44,7 +45,7 @@ Stap 3: [[Heb de 8 levensgebieden op orde]]
 7. Familie
 8. Vrienden
 9. Gemeente
-10. Vrijwilligerswerk
+10. [[Omgeving]]
 
 Stap 4: [[Bouw aan je karakter]]
 
@@ -91,19 +92,6 @@ Wat zegt Gods Woord over het zijn van een christelijke man?
 - Vandaar alle tekstverwijzingen volgen
 
 ---
-
-? 1 Tim. -> ouderling goed leiding geven aan eigen huis -> dan aan gemeente
-
-Michaël Hyatt: eerst leiding geven aan jezelf, dan aan anderen
-
-Dus:
-
-jezelf -> gezin -> gemeente
-
- Before You Rule, Rule Yourself 
- https://www.desiringgod.org/articles/before-you-rule-rule-yourself
-
----
 ## Bronnen
 
 https://web.archive.org/web/20160205221615/http://michaelhyatt.com/
@@ -131,6 +119,13 @@ https://www.youthreachhouston.org/category/biblical-manhood/
 
 Theodore Roosevelt: 
 "Do what you can, with what you have."
+
+---
+
+Leider:
+- Initiatief nemen
+- Plannen
+- Hetv voortouw nemen
 
 %%
 
