@@ -4,14 +4,14 @@
 
 </div>
 
-> Doch als het kwaad is in uw ogen om de HEERE te dienen, kies heden wie u dienen zult; hetzij de goden die uw vaders, die aan de andere kant van de rivier waren, gediend hebben, of de goden van de Amorieten, in wiens land u woont; maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
-> ~ [Jozua 24:15](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
+> ... maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
+> ~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
 
-Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis. Hoe ben je als gezin een licht in deze wereld?
+Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis?
 
 ## Hoe ben je een vader naar Gods hart?
 
-Stap 1: Heb de basis goed
+Stap 1: Heb de basis op orde
 
 1. [[Hou van God]]
 2. [[Hou van je vrouw]]

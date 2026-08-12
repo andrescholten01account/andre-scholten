@@ -7,29 +7,17 @@
 > ... Ik heb David gevonden, de zoon van Isaï, een man naar Mijn hart, die al Mijn wil zal doen.
 > ~ [Handelingen 13:22b](https://gezinvoorgod.nl/studiebijbel/handelingen/13#v22) (SVnu)
 
-Hoe ben je een man naar Gods hart? Door Hem te kennen en gehoorzaam te zijn. Hoe heb je als christelijke man je leven op orde? Hoe word je gezond en sterk? Hoe ben je vol van de vrucht van de Geest? 
+Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op orde? Hoe ben je vol van de vrucht van de Geest? 
 
-## Voor jezelf zorgen
-
-> You can’t take care of anyone else unless you first take care of yourself.
-> ~ Michael Hyatt
-
-> If a man cannot take care of himself, his wit must be as scant as the wool of a blue dog.
-> ~ Charles Spurgeon (John Ploughman's Talk)
-
-> Self-leadership always precedes team leadership. 
-> ~ Michael Hyatt
-
-%%
 ## Hoe ben je een man naar Gods hart?
 
 Stap 1: Heb de basis op orde
 
-1. Hou van God
-2. Hou van je naaste
-3. Heb je eigen leven op orde 
+1. [[Hou van God]]
+2. [[Hou van je naaste]]
+3. [[Heb je eigen leven op orde]]
 
-Stap 2: Leef volgens de 10 geboden
+Stap 2: [[Leef volgens de 10 geboden]]
 
 1. Alleen God
 2. Geen beelden
@@ -58,7 +46,7 @@ Stap 4: [[Bouw aan je karakter]]
 - IJverheid
 - [[Verantwoordelijkheid]]
 
----
+%%
 ## Basis
 
 - [[Hou van God en je naaste]]
@@ -120,6 +108,10 @@ Leider:
 - Initiatief nemen
 - Plannen
 - Het voortouw nemen
+
+---
+
+Een man naar Gods hart: God kennen en Hem gehoorzaam zijn.  
 
 %%
 
