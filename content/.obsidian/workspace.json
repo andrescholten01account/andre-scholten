@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Leef volgens de 10 geboden.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Leef volgens de 10 geboden"
             }
           }
         ]
@@ -203,8 +203,8 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
-    "Ontwerp site.md",
     "index.md",
+    "Ontwerp site.md",
     "Leef volgens de 10 geboden.md",
     "Man.md",
     "Hou van je naaste.md",
