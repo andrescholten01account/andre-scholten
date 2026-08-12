@@ -9,9 +9,12 @@
 
 Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis. Hoe ben je als gezin een licht in deze wereld?
 
-## Stappenplan vader naar Gods hart
+## Hoe ben je een vader naar Gods hart?
 
-1 - Onderwijs je kinderen
+1. [[Zet God op de eerste plek in je leven]]
+2. [[Heb een goed huwelijk]]
+
+1 - [[Onderwijs je kinderen]]
 
 
 
@@ -20,16 +23,11 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 > iemand die zijn eigen huis goed bestuurt en zijn kinderen in onderdanigheid houdt, met alle waardigheid;
 > ~ [1 Timotheüs 3:4](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v4) (SVnu)
 
-
-## 
-
-
-
 %%
 ## Basis goed vaderschap
 
 - Stap 1: [[Hou van God en je naaste]]
-- Stap 2: [[Hou van je vrouw]]
+
 - Stap 3: [[Hou van je gezin]]
 
 ---

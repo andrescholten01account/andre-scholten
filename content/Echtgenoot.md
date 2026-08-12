@@ -13,7 +13,7 @@ Een echtgenoot naar Gods hart. Een goed en gelukkig huwelijk tot eer van God. Al
 ## Basis
 
 - [[Hou van God en je naaste]]
-- [[Hou van je vrouw]]
+- [[Heb een goed huwelijk]]
 
 ---
 

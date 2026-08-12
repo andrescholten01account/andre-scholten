@@ -95,7 +95,7 @@ https://books.google.nl/books/about/Divine_and_Moral_Songs_for_Children.html?id=
 - Opwekking
 - De Heilige Geest
 - Evangelisatie
-- Logica voor christenen
+- [[Logica voor christenen]]
 - Werk
 - Thuis
 - Familie
