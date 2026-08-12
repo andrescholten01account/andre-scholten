@@ -112,13 +112,6 @@ Theodore Roosevelt:
 
 ---
 
-Leider:
-- Initiatief nemen
-- Plannen
-- Het voortouw nemen
-
----
-
 Een man naar Gods hart: God kennen en Hem gehoorzaam zijn.  
 
 %%

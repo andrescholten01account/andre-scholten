@@ -87,6 +87,14 @@ De vader als leider van het gezin.
 
 ---
 
+Leider:
+
+- Initiatief nemen
+- Plannen
+- Het voortouw nemen
+
+---
+
 Wat zegt Gods Woord over vaderschap?
 - Ef. 6:4 ➔ TSK + NAVE + TTT
 - Vandaar alle tekstverwijzingen volgen
