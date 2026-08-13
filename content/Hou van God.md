@@ -8,8 +8,6 @@ publicatiedatum:
 38 Dit is het eerste en het grootste gebod.
 ~ [Mattheüs 22:37-38](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
 
-➔ [[God leren kennen]]
-
 ## Introductie - God beter leren kennen
 
 1 Toen sprak God al deze woorden en zei:

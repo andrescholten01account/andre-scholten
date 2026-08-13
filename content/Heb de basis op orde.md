@@ -32,7 +32,7 @@ Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven he
 
 ## Indeling 10 geboden
 
-- God kennen
+- God beter leren kennen
 
 Deel 1: Hou van God 
 
