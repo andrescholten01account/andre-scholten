@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To to Gezin voor God.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "To to Gezin voor God"
+              "title": "index"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To to Gezin voor God.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,11 +203,12 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
+    "To do Gezin voor God.md",
+    "index.md",
+    "Ontwerp site.md",
     "Bronnen.md",
-    "To to Gezin voor God.md",
     "Back-up plan.md",
     "Compleet stappenplan ➔ laten uitvoeren door claude.md",
-    "index.md",
     "Man.md",
     "Vader.md",
     "Preken.md",
@@ -228,7 +229,6 @@
     "Basis christelijk geloof.md",
     "Iedere vader als leider van zijn gezin.md",
     "Echtgenoot.md",
-    "Doorzettingsvermogen.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",

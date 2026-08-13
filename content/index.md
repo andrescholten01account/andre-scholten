@@ -70,9 +70,7 @@ Boeken gezin
 ---
 ## Meer
 
-- [[To to Gezin voor God]]
-- [To do gezinvoorgod.nl](https://docs.google.com/document/d/1jtzucFNI_9Exy_BSg7btDH-yfkHD7HdMJq-uZg6YcHY/edit?tab=t.0)
-- [[Ontwerp site]]
+- [[To do Gezin voor God]]
 - [[Obsidian]]
 - [[Verantwoording]]
 - [[Copyright policy]]
