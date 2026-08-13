@@ -1,6 +1,6 @@
 ---
 Status: Draft
-draft: true
+draft: false
 blog: false
 publicatiedatum:
 ---
