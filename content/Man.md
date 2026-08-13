@@ -15,7 +15,6 @@ Stap 1: Heb de basis op orde
 
 1. [[Hou van God]]
 2. [[Hou van je naaste]]
-3. [[Heb je eigen leven op orde]]
 
 Stap 2: [[Leef volgens de 10 geboden]]
 
@@ -30,25 +29,19 @@ Stap 2: [[Leef volgens de 10 geboden]]
 9. Niet liegen
 10. Niet willen wat van een ander is
 
-Stap 3: [[Heb de 10 levensgebieden op orde]]
+Stap 3: [[Heb je eigen leven op orde]] 
 
-1. God
-2. [[Zelf]]
-3. Huwelijk
-4. Gezin
-5. Werk
-6. Thuis
-7. Familie
-8. Vrienden
-9. Gemeente
-10. [[Omgeving]]
+- [[Lichaam]]
+- [[Mentaal]]
+- [[Emotioneel]]
+- [[Sociaal]]
 
 Stap 4: [[Bouw aan je karakter]] 
 
 - Liefde
 - Blijdschap
 - [[Moed]]
-- Doorzettingsvermogen
+- [[Doorzettingsvermogen]]
 - Standvastigheid
 - Trouw
 - IJverheid
