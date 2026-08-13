@@ -9,6 +9,25 @@ publicatiedatum:
 > ~ [Mattheüs 22:37-38](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
 
 %%
+
+## 1. God kennen
+
+Bijbel: Bijbel lezen + Gods Woord overdenken + Gods Woord memoriseren
+
+Bidden: aanbidden, voorbed
+
+Aanbidden: aanbidding: lofprijzen, liederen zingen
+
+## 2. God gehoorzamen
+
+Mat. 22:37-38
+
+1. Geen andere goden 
+2. Geen beelden
+3. Gods naam niet misbruiken
+4. Houd je aan de rustdag
+
+---
 ## Prioriteit 1: Hou van God
 
 Mat. 22:37-38
