@@ -1,5 +1,16 @@
 De blogs komen op de site via iets van Claude heeft gemaakt. 
 
+%%
+
+## Wat op de blog zetten?
+
+- [[Bijbelteksten]]
+- [[Quotes]]
+- [[Bijbelcommentaren op een bepaalde Bijbelvers]]
+- [[Kinderrijmpjes]] 
+
+%%
+
 ---
 ## Blogs die live staan
 
@@ -43,4 +54,6 @@ De blogs komen op de site via iets van Claude heeft gemaakt.
 [[Kies als Jozua]]
 
 [[Dien met je gezin de HEERE!]]
+
+---
 

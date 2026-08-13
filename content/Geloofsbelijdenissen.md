@@ -35,3 +35,9 @@ https://www.heidelbergse-catechismus.nl/
 
 ---
 
+zie heidelblog
+zie reformatica.nl
+zie boek van joel beek? over geloofsbelijdenissen op onderwerp
+
+---
+

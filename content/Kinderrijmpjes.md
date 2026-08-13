@@ -2,6 +2,8 @@
 Status: Draft
 draft: true
 ---
+[Divine and Moral Songs for Children - Isaac Watts](https://books.google.nl/books?id=4UdcjfX2b3QC&pg=PA79&hl=nl&source=gbs_selected_pages&cad=1#v=onepage&q&f=false)
+
 Catechismus voor kinderen:
 - Geschenk voor de jeugd - eerste stukje (1788) - Johannes Florentius Martinet, ‎Ahazuerus van den Berg
 https://www.google.nl/books/edition/Geschenk_voor_de_jeugd/PqC1WsxB01AC?hl=en&gbpv=1&dq=Gedichten+voor+de+jeugd+%E2%80%93+Johannes+Florentius+Martinet&pg=PP9&printsec=frontcover
