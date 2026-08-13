@@ -54,5 +54,14 @@ https://reformata.nl/
 
 Rss gezin (van andere sites)
 
+---
+
+Goede websites
+
+➔ periodicals van chapel library:
+- family
+- husband
+- wife
+
 %%
 
