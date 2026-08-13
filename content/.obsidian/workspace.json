@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Man.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Man"
             }
           }
         ]
@@ -203,12 +203,12 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
-    "Vader.md",
     "Hou van God.md",
-    "index.md",
     "Man.md",
-    "Hou van je naaste.md",
     "Heb de basis op orde.md",
+    "index.md",
+    "Vader.md",
+    "Hou van je naaste.md",
     "Aanbidden.md",
     "Basis.md",
     "Heb je eigen leven op orde.md",
