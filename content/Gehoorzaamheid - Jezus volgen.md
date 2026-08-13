@@ -28,6 +28,7 @@ jak. 1:26 ➔ gehoorzaamheid
 ---
 
 Basis gehooraamheid: [[Hou van God en je naaste]]
+Basis: [[Hou van God en je naaste]]
 
 10 geboden:
 
@@ -54,10 +55,6 @@ jak. 1:27
 ---
 
 Gehoorzaamheid: jak. 1:22; jak. 1:25
-
----
-
-Basis: [[Hou van God en je naaste]]
 
 ---
 

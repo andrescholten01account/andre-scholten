@@ -18,6 +18,8 @@ publicatiedatum:
 2 Ik ben de HEERE, uw God, Die u uit Egypteland, uit het diensthuis, uitgeleid heb.
 ~ [Exodus 20:2](https://gezinvoorgod.nl/studiebijbel/exodus/20#v2) (SVnu)
 
+➔ [[God kennen]] 
+
 ### Gebod 1 - Geen andere goden 
 
 U zult geen andere goden voor Mijn aangezicht hebben.
@@ -44,16 +46,7 @@ U zult de naam van de HEERE, uw God, niet ijdel gebruiken; want de HEERE zal nie
 ~ [Exodus 20:8-11](https://gezinvoorgod.nl/studiebijbel/exodus/20#v8) (SVnu)
 
 %%
-## 1. God kennen
 
-Leven met God 
-Relatie met God, wandelen met God
-
-Bijbel: Bijbel lezen + Gods Woord overdenken + Gods Woord memoriseren
-
-Bidden: aanbidden, voorbed
-
-[[Aanbidden]]: aanbidding: lofprijzen, liederen zingen
 
 ## 2. God gehoorzamen
 
