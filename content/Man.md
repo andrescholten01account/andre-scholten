@@ -14,14 +14,7 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 1. [[Hou van God]]
 2. [[Hou van je naaste]]
 
-## Stap 2: [[Heb je eigen leven op orde]] 
-
-- [[Lichaam]]
-- [[Mentaal]]
-- [[Emotioneel]]
-- [[Sociaal]]
-
-## Stap 3: [[Vrucht van de Geest]]
+## Stap 2: [[Vrucht van de Geest]]
 
 - Liefde
 - Blijdschap
@@ -33,16 +26,13 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - Zachtmoedigheid
 - Zelfbeheersing
 
-## Stap 4: [[Bouw aan je karakter]] 
+## Stap 3: [[Heb je eigen leven op orde]] 
 
-- Leiderschap
-- [[Moed]]
-- [[Doorzettingsvermogen]]
-- Standvastigheid
-- Trouw
-- [[IJverheid]]
-- [[Verantwoordelijkheid]]
-- [[Beschermen]] 
+- [[Lichaam]]
+- [[Mentaal]]
+- [[Emotioneel]]
+- [[Karakter]]
+- [[Sociaal]]
 
 ## Bibliotheek
 

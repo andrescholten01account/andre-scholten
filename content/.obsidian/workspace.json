@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Man.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Man"
             }
           }
         ]
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Man.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,8 +202,12 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
-    "Bronnen.md",
+    "Karakter.md",
+    "Bouw aan je karakter.md",
+    "Man.md",
+    "Heb je eigen leven op orde.md",
     "index.md",
+    "Bronnen.md",
     "Links gezin.md",
     "Vraag en antwoord.md",
     "Jak. 2 vers 24 - gerechtvaardig door werken (vraagteken).md",
@@ -218,16 +222,12 @@
     "Geloofsbelijdenissen.md",
     "Geloofsbelijdenissen en catechismussen.md",
     "Basis christelijk geloof.md",
-    "Man.md",
     "Gehoorzaamheid - Jezus volgen.md",
     "Gehoorzaamheid.md",
     "Evangelisatie.md",
     "Hou van God.md",
     "Hou van je naaste.md",
     "Heb de basis op orde.md",
-    "God kennen.md",
-    "God leren kennen.md",
-    "Aanbidden.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",
