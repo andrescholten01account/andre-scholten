@@ -398,24 +398,142 @@ gezinvoorgod.nl
 youtube.com/gezinvoorgod
 x.com/gezinvoorgod
 
+https://heritagebooks.org/products/living-in-a-godly-marriage-beeke.html
+Zie ook de aangeraden boeken eronder.
+https://heritagebooks.org/products/building-a-godly-home-volume-2-a-holy-vision-for-a-happy-marriage-gouge.html
+https://www.monergism.com/recommended-books-family-and-marriage
+https://www.monergism.com/recommended-books-training-children
+The Master Plan of Evangelism
+ https://amzn.eu/d/08x0TQXt
+
+https://hopebaptistchurch.info/wp-content/uploads/2013/01/How-the-Church-can-Prepare-Men-to-Be-Family-Shepherds-Scott-Brown.pdf
+"win the father, win the family; win the
+"win the father, win the family; win the family, win the church; win the
+church and win the world.
+
+https://www.amazon.nl/Building-God-Centered-Family-Fathers-English-ebook/dp/B008SFRPUW/ref=mp_s_a_1_27?dib=eyJ2IjoiMSJ9.hRwN1RrW3ejt266vlycWLwjaT7t_gELKS6chwVbeiqSR0IJzTcnQF9Vc7ZIQghXJDehbWcBUDPfm5CY_99fN4cZN-VDXDj76vbTCOLYbPsjyufMo0fKr_1yTx-BfYiTY0_0_UWzTIhcHe8rkq6F4nBmGrtaONJ_Xlc53TlU4-ZuNcOojSGqkCjwmzbInL3phc65gx59o4tu_v5TieLl-dA.i6-nYmxmkiQOf4k2iEbVbU0Xo6QMZBEC3wAJKNpI04Q&dib_tag=se&qid=1785769862&refinements=p_27%3AScott+T.+Brown&s=digital-text&sr=1-27&text=Scott+T.+Brown&xpid=qvLfK49860ssR
+
+https://www.chapellibrary.org/book/chus/christlike-husband-the-gougewilliam
+https://www.chapellibrary.org/book/bubfba/book-for-boys-and-girls-bunyanjohn
+https://www.apuritansmind.com/the-christian-walk/the-christian-family/family-duty-by-john-bunyan/
+https://www.chapellibrary.org/book/fdut/family-duty-bunyanjohn
+https://www.ichthusboekhandel.nl/9789087184742/william-gouge/opvoeden-voor-de-heere/?srsltid=AfmBOorgInLj3GuX-OcVf3171XlGk9LDiq_TLy-rlCZr2IWt7zXuiHFC
+https://www.amazon.com/Building-Godly-Home-Vision-Family-ebook/dp/B00BI7ZW8E?dplnkId=f99f2435-b15d-4ff0-8d3a-e1a39d0a2753#
+https://a.co/d/0duFpMrN
+https://a.co/d/0gXsqAXG
+
+https://www.bijbelsopvoeden.nl/
+
+De zegen van een christelijk gezin - Spurgeon
+https://charlesspurgeon.nl/de-zegen-van-een-christelijk-gezin/
+-> mooie pagina, warm (plaatje met AI gemaakt, maar wel mooi)
+
+https://charlesspurgeon.nl/spurgeon-ai/
+
+Doorzoek meer dan 5700 artikelen met AI-gedreven semantische search – op basis van betekenis, niet alleen keywords.
+-> iets voor de StudieBijbel
+
+Zie ook: https://charlesspurgeon.nl/spurgeon-assistent/
+
+---
+
+Bron:
+https://charlesspurgeon.nl/spurgeon-ai/
+-> zoeken op o.a.: gezin
+
+---
+
+Zie: https://charlesspurgeon.nl/heiligheid-in-spurgeons-leven/ -> kopje: Gezinsleven en karakter
+
+---
+
+zie ook de StudieBijbel: https://charlesspurgeon.nl/spurgeon-studiebijbel/
+
+---
+
+Deze site is een bron: https://charlesspurgeon.nl/
+-> hier kan ik veel ideeën bij opdoen
+
+---
+
+https://gracegems.org/family.htm
+https://gracegems.org/1/Family.htm
+
+---
+
+https://gracegems.org/21/christian_father.htm
+
+https://gracegems.org/20/James_domestic_happiness.htm
+
+---
+
+https://godrules.net/library/spurgeon/NEW10spurgeon_a10.htm
+
+Harry Heartless will make a bad husband.
+-> Better let him remain a bachelor.
+
+---
+
+https://godrules.net/library/spurgeon/NEW10spurgeon_a10.htm
+
+Hast thou a sweet wife? She is of God’s making.
+
+---
+
+Happy is he that is happy in his children.
+
+John wrote, “I have no greater joy than to hear that my children ‘walk in truth.” It is a choice mercy, a crowning mercy.
+
+https://godrules.net/library/spurgeon/NEW10spurgeon_a10.htm
+
+---
+
+Honor your parents, and your children will honor you.
+
+https://godrules.net/library/spurgeon/NEW10spurgeon_a10.htm
 
 
+---
 
+https://media.sabda.org/alkitab-9/LIBRARY/SPU_SAL1.PDF
 
+As the old cock crows the young cock learns.
 
+Children imitate ‘their parents’ examples. Nature goes for much,
+and example for more.
 
+To fix a good or evil course,
+Example is of potent force;
+And they who wish the young to teach
+Must practice ever what they preach.
 
+---
 
+the salt cellars:
+https://media.sabda.org/alkitab-9/LIBRARY/SPU_SAL1.PDF
+https://media.sabda.org/alkitab-9/LIBRARY/SPU_SAL2.PDF
 
+-> hier staan ze als tekst: https://godrules.net/library/spurgeon/spurgeon.htm#the-salt-cellars -> claude vragen naar quotes over gezin, kinderen, huwelijk
 
+-> ingescand: https://www.loc.gov/resource/gdcmassbookdig.witwisdom00spur/?sp=161&st=text&r=-0.307,0.091,1.614,1.614,0
 
+hoe zorg je ervoor dat je met je kinderen over God praat?
 
+Bijbeltekst: waar het hart vol van is, daar loopt de mond van over.
 
+Zorg dat je vol bent van God (Bijbel lezen, Gods Woord overdenken, bidden, aanbidden, christelijke boeken lezen, enz.), dan ben je zo vol van God, dat je daar als "vanzelf" met je kinderen over wilt en gaat praten.
 
+---
 
+The story book for boys and girls - T.S. Arthur -> christelijk -> lijkt in de lijn met Divine and moral songs van Isaac Watts
 
+---
 
+Songs for the Little Ones at Home - American Tract society -> lijkt me mooi
 
+---
+
+[[Geloofsbelijdenissen]]
 
 %%
 

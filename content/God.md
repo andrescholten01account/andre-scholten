@@ -132,5 +132,15 @@ Zodat wij zelf over u roemen in de Gemeenten van God, over uw volharding en gelo
 
 God: ja is ja, nee is nee: jab. 1:17
 
+---
+
+https://youtube.com/@discoverysciencechannel?si=5x-KXw4FZmZcs805
+https://youtube.com/@discoverysciencechannel?si=iFi3oAd6-cLoixRd
+https://youtu.be/gbycQf1TbM0?is=rAB8A7PeJQAfVEYe
+Voor: Man, Zelf, intellectueel, basis christelijk geloof
+God, argumenten bestaan God
+Ook:
+Iederern weet dat God bestaat
+
 %%
 

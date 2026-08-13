@@ -14,7 +14,15 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 1. [[Hou van God]]
 2. [[Hou van je naaste]]
 
-## Stap 2: [[Vrucht van de Geest]]
+## Stap 2: [[Heb je eigen leven op orde]] 
+
+- [[Lichaam]]
+- [[Mentaal]]
+- [[Emotioneel]]
+- [[Karakter]]
+- [[Sociaal]]
+
+## Stap 3: [[Vrucht van de Geest]]
 
 - Liefde
 - Blijdschap
@@ -26,14 +34,6 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - Zachtmoedigheid
 - Zelfbeheersing
 
-## Stap 3: [[Heb je eigen leven op orde]] 
-
-- [[Lichaam]]
-- [[Mentaal]]
-- [[Emotioneel]]
-- [[Karakter]]
-- [[Sociaal]]
-
 ## Bibliotheek
 
 - [[Links man]]
@@ -42,7 +42,13 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 %%
 
-Aantekeningen
+Zie leeslijst soldaten
+
+John Ploughman's talk
+https://archive.org/details/johnploughmansta00spur/mode/2up
+
+John Ploughman's pictures
+https://archive.org/details/johnploughmanspi00spu/mode/2up
 
 %%
 

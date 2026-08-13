@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vader.md",
+                "file": "Man.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vader"
+              "title": "Man"
             }
           }
         ]
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vader.md",
+                "file": "Man.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,12 +201,17 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
-    "Basis christelijk geloof.md",
-    "Vader.md",
     "index.md",
     "Man.md",
+    "Vader.md",
+    "Basis christelijk geloof.md",
+    "Geloofsbelijdenissen.md",
+    "Iedere vader als leider van zijn gezin.md",
+    "Echtgenoot.md",
     "Karakter.md",
     "Bouw aan je karakter.md",
+    "Doorzettingsvermogen.md",
+    "God.md",
     "Heb je eigen leven op orde.md",
     "Bronnen.md",
     "Links gezin.md",
@@ -221,13 +225,8 @@
     "Persoonlijk voor mij.md",
     "Geschiedenis.md",
     "Genesis 1 - 11.md",
-    "Geloofsbelijdenissen.md",
     "Geloofsbelijdenissen en catechismussen.md",
     "Gehoorzaamheid - Jezus volgen.md",
-    "Gehoorzaamheid.md",
-    "Evangelisatie.md",
-    "Hou van God.md",
-    "Hou van je naaste.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",

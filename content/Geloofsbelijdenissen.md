@@ -30,3 +30,8 @@ publicatiedatum:
 
 ---
 
+https://www.belijdenis.nu/
+https://www.heidelbergse-catechismus.nl/
+
+---
+
