@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Vader.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Vader"
             }
           }
         ]
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Vader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,6 +203,7 @@
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
     "Basis christelijk geloof.md",
+    "Vader.md",
     "index.md",
     "Man.md",
     "Karakter.md",
@@ -227,7 +228,6 @@
     "Evangelisatie.md",
     "Hou van God.md",
     "Hou van je naaste.md",
-    "Heb de basis op orde.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",
