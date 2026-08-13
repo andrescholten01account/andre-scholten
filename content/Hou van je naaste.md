@@ -20,9 +20,7 @@ Als u dan de koninklijke wet vervult, naar de Schrift: U zult uw naaste liefhebb
 
 ➔ zie hierboven
 
-## 2. 
-
-od gehoorzamen
+## 2. Praktisch
 
 Mat. 22:39
 
