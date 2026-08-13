@@ -6,6 +6,8 @@ publicatiedatum:
 ---
 Leven met God / relatie met God / wandelen met God
 
+Als je God kent, hoe onderhoud je de relatie met Hem?
+
 ## 1. Bijbel
 
 - Bijbel lezen
@@ -14,6 +16,13 @@ Leven met God / relatie met God / wandelen met God
 
 ## 2. Bidden
 
+- Bidden
+- [[Aanbidden]]
+- Voorbede
 
-: aanbidden, voorbed
-- [[Aanbidden]]: aanbidding: lofprijzen, liederen zingen
+## 3. Lofprijzen
+
+- Aanbidding door zingen
+- Lofprijzen
+- Liederen zingen
+
