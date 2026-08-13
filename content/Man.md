@@ -11,32 +11,19 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 ## Hoe ben je een man naar Gods hart?
 
-Stap 1: Heb de basis op orde
+Stap 1: [[Heb de basis op orde]]
 
 1. [[Hou van God]]
 2. [[Hou van je naaste]]
 
-Stap 2: [[Leef volgens de 10 geboden]]
-
-1. Geen andere goden 
-2. Geen beelden
-3. Gods naam niet misbruiken
-4. Houd je aan de rustdag
-5. Eer je vader en moeder
-6. Niet doden
-7. Geen ontrouw in het huwelijk
-8. Niet stelen
-9. Niet liegen
-10. Niet willen wat van een ander is
-
-Stap 3: [[Heb je eigen leven op orde]] 
+Stap 2: [[Heb je eigen leven op orde]] 
 
 - [[Lichaam]]
 - [[Mentaal]]
 - [[Emotioneel]]
 - [[Sociaal]]
 
-Stap 4: [[Bouw aan je karakter]] 
+Stap 3: [[Bouw aan je karakter]] 
 
 - Liefde
 - Blijdschap

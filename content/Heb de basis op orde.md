@@ -1,6 +1,6 @@
 ---
 Status: Draft
-draft: false
+draft: true
 blog: false
 publicatiedatum:
 ---
@@ -11,6 +11,19 @@ publicatiedatum:
 39 En het tweede, hieraan gelijk, is: U zult uw naaste liefhebben als uzelf.
 40 Aan deze twee geboden hangt de hele wet en de profeten.
 ~ [Mattheüs 22:37-40](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
+
+## 10 geboden in het kort
+
+1. Geen andere goden 
+2. Geen beelden
+3. Gods naam niet misbruiken
+4. Houd je aan de rustdag
+5. Eer je vader en moeder
+6. Niet doden
+7. Geen ontrouw in het huwelijk
+8. Niet stelen
+9. Niet liegen
+10. Niet willen wat van een ander is
 
 ## Deel 1: Hou van God  
 

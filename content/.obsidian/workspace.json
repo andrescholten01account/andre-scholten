@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -202,11 +203,15 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
-    "Leef volgens de 10 geboden.md",
+    "Heb de basis op orde.md",
     "Man.md",
+    "Leef volgens de 10 geboden.md",
+    "index.md",
+    "Vader.md",
+    "Echtgenoot.md",
+    "Hou van God.md",
     "Bouw aan je karakter.md",
     "Heb je eigen leven op orde.md",
-    "Hou van God.md",
     "Lichaam.md",
     "ontspanning.md",
     "Sociaal.md",
@@ -217,9 +222,6 @@
     "Zelf.md",
     "Omgeving.md",
     "Heb de 10 levensgebieden op orde.md",
-    "index.md",
-    "Vader.md",
-    "Echtgenoot.md",
     "Ontwerp site.md",
     "Hou van je naaste.md",
     "Hou van je vrouw.md",
@@ -227,7 +229,6 @@
     "Moed.md",
     "Verantwoordelijkheid.md",
     "Beschermen.md",
-    "Orden je gezin volgens Gods principes.md",
     "Pasted image 20260811232307.png",
     "Pasted image 20260811231048.png",
     "Pasted image 20260811230331.png",
