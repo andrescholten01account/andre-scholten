@@ -15,7 +15,8 @@
               "state": {
                 "file": "To to Gezin voor God.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "To to Gezin voor God"
@@ -202,11 +203,13 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
-    "index.md",
+    "Bronnen.md",
     "To to Gezin voor God.md",
+    "Back-up plan.md",
+    "Compleet stappenplan ➔ laten uitvoeren door claude.md",
+    "index.md",
     "Man.md",
     "Vader.md",
-    "Bronnen.md",
     "Preken.md",
     "Boeken.md",
     "Blog.md",
@@ -226,8 +229,6 @@
     "Iedere vader als leider van zijn gezin.md",
     "Echtgenoot.md",
     "Doorzettingsvermogen.md",
-    "God.md",
-    "Links gezin.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",
