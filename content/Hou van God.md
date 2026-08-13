@@ -10,10 +10,10 @@ publicatiedatum:
 
 ## Introductie
 
-1 Toen sprak God al deze woorden en zei:
+Toen sprak God al deze woorden en zei:
 ~ [Exodus 20:1](https://gezinvoorgod.nl/studiebijbel/exodus/20#v1) (SVnu)
 
-2 Ik ben de HEERE, uw God, Die u uit Egypteland, uit het diensthuis, uitgeleid heb.
+Ik ben de HEERE, uw God, Die u uit Egypteland, uit het diensthuis, uitgeleid heb.
 ~ [Exodus 20:2](https://gezinvoorgod.nl/studiebijbel/exodus/20#v2) (SVnu)
 
 ➔ [[God leren kennen]]
