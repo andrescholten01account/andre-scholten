@@ -7,8 +7,8 @@ publicatiedatum:
 ## Indeling Genesis 1 - 11 
 De oude wereld
 
-- Berekening leeftijd aarde / jaartal schepping
-- Gen. 1 + 2 in harmony
+- Berekening leeftijd aarde
+- Harmonie Genesis 1 +2
 
 ## Vaderlandse geschiedenis
 Babel ➔ Nederland nu

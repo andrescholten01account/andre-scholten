@@ -1,5 +1,3 @@
-## Basis christelijk geloof
-
 - [[Gods Woord]]
 - [[God]]
 - [[De mens]]
@@ -11,13 +9,7 @@
 - [[Gehoorzaamheid - Jezus volgen]]
 - [[Het eeuwige oordeel]]
 
-
-
 %%
-
-[[Genesis 1 - 11]]
-
-[[Geloofsbelijdenissen en catechismussen]]
 
 Openb. 4:8 God is heilig
 Openb. 4:8 God is almachtig

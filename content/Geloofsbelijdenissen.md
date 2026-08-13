@@ -22,3 +22,11 @@ publicatiedatum:
 ➔ Heidelblog
 ➔ Monergism
 
+---
+
+- Lijst geloofsbelijdenissen en catechismussen
+- Geloofsbelijdenissen en catechismussen op onderwerp
+- [[Verklaringen geloofsbelijdenissen en catechismussen]]
+
+---
+
