@@ -25,7 +25,7 @@ publicatiedatum:
 9. Niet liegen
 10. Niet willen wat van een ander is
 
-## Hou van God en je naaste en de 10 geboden
+## Indeling 10 geboden
 
 Deel 1: Hou van God 
 
