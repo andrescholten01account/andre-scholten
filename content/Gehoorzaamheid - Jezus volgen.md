@@ -57,3 +57,7 @@ Gehoorzaamheid: jak. 1:22; jak. 1:25
 
 ---
 
+Basis: [[Hou van God en je naaste]]
+
+---
+

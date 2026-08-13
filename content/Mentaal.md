@@ -8,7 +8,11 @@ Mentaal / intellectueel
 
 - Orde
 - Logisch denken
-- Leiderschap
-- [[Beschermen]] 
 - [[Groeimindset]]
+
+%%
+
+On good nature and firmness (zie boeken John Ploughman)
+
+%%
 

@@ -26,3 +26,12 @@ You have to be a man, before you can be a gentle man.
 
 ---
 
+%%
+
+The art of manliness manvotionals
+
+![[Pasted image 20260813104547.png|450]]
+
+![[Pasted image 20260813104809.png|450]]
+
+%%

@@ -14,3 +14,10 @@ Volhouden ➔ beetje bij beetje
 
 "Constant dropping wears away stones"
 
+---
+
+spurgeon ➔ manly "stick to it"
+➔ uit preek
+
+---
+

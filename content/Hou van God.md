@@ -17,5 +17,10 @@ Ex. 20:1-? (dus de eerste twee geboden)
 
 Deut. 5
 
+---
+
+Leven met God 
+Relatie met God, wandelen met God
+
 %%
 

@@ -31,62 +31,25 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - Trouw
 - IJverheid
 - [[Verantwoordelijkheid]]
+- Leiderschap
+- [[Beschermen]] 
 
 ## Bibliotheek
 
 - [[Links man]]
 - [[Artikelen man]]
+- [[Boeken man]]
 
 %%
-## Basis
-
-- [[Hou van God en je naaste]]
-
-## Leven met God ➔ Stap 3: God
-(relatie met God, wandelen met God)
 
 ---
 
-Bijbelteksten
 
-- On good nature and firmness (zie boeken John Ploughman)
 
-John Ploughman's Talk + Pictures 
-https://www.romans45.org/spurgeon/misc/plowman.htm
 
-spurgeon ➔ manly "stick to it"
+
 
 Zie boek van The Art of Manliness over 7 eigenschappen man zijn
-
----
-
-Wat zegt Gods Woord over het zijn van een christelijke man?
-- TSK + NAVE + TTT
-- Vandaar alle tekstverwijzingen volgen
-
----
-## Bronnen
-
-https://web.archive.org/web/20160205221615/http://michaelhyatt.com/
-
-https://artofmanliness.com/
-
-Christian Masculinity: Rethinking Strength and Grace
-https://gentlereformation.com/2024/12/11/christian-masculinity-rethinking-strength-and-grace/
-
-https://manhoodjourney.org/
-
-https://www.impactplayers.org/
-
-https://fathers.com/
-
-https://allprodad.com/
-
-https://catholicgentleman.com/ ➔ wel katholiek, maar het idee is goed
-
-https://www.desiringgod.org/topics/men/all
-
-https://www.youthreachhouston.org/category/biblical-manhood/
 
 ---
 
