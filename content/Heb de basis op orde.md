@@ -4,6 +4,19 @@ draft: true
 blog: false
 publicatiedatum:
 ---
+%%
+## Basis
+
+Een man naar Gods hart: God kennen en Hem gehoorzaam zijn
+
+1 Joh. 1:3
+
+Joh. 3:16 
+
+Mat. 28:19
+
+%%
+
 ## Samenvatting 10 geboden
 
 37 En Jezus zei tegen hem: U zult de Heere, uw God, liefhebben met heel uw hart, en met heel uw ziel, en met heel uw verstand.

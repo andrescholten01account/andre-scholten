@@ -35,3 +35,4 @@ The art of manliness manvotionals
 ![[Pasted image 20260813104809.png|450]]
 
 %%
+

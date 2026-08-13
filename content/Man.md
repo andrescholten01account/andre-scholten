@@ -21,15 +21,25 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - [[Emotioneel]]
 - [[Sociaal]]
 
-## Stap 3: [[Bouw aan je karakter]] 
+## Stap 3: [[Vrucht van de Geest]]
 
 - Liefde
 - Blijdschap
+- Vrede
+- Geduld
+- Vriendelijkheid
+- Goedheid
+- Geloof
+- Zachtmoedigheid
+- Zelfbeheersing
+
+## Stap 4: [[Bouw aan je karakter]] 
+
 - [[Moed]]
 - [[Doorzettingsvermogen]]
 - Standvastigheid
 - Trouw
-- IJverheid
+- [[IJverheid]]
 - [[Verantwoordelijkheid]]
 - Leiderschap
 - [[Beschermen]] 
@@ -42,23 +52,7 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 %%
 
----
-
-
-
-
-
-
-Zie boek van The Art of Manliness over 7 eigenschappen man zijn
-
----
-
-Theodore Roosevelt: 
-"Do what you can, with what you have."
-
----
-
-Een man naar Gods hart: God kennen en Hem gehoorzaam zijn.  
+Aantekeningen
 
 %%
 
