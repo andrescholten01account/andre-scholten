@@ -4,7 +4,10 @@ draft: false
 blog: false
 publicatiedatum:
 ---
-## Hou van God en je naaste
+## De basis 
+
+Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven heeft, opdat ieder die in Hem gelooft, niet verloren gaat, maar het eeuwige leven heeft.
+~ [Johannes 3:16](https://gezinvoorgod.nl/studiebijbel/johannes/3#v16) (SVnu)
 
 37 En Jezus zei tegen hem: U zult de Heere, uw God, liefhebben met heel uw hart, en met heel uw ziel, en met heel uw verstand.
 38 Dit is het eerste en het grootste gebod.
@@ -13,6 +16,8 @@ publicatiedatum:
 ~ [Mattheüs 22:37-40](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
 
 ## 10 geboden in het kort
+
+- God beter leren kennen
 
 1. Geen andere goden 
 2. Geen beelden
@@ -26,6 +31,8 @@ publicatiedatum:
 10. Niet willen wat van een ander is
 
 ## Indeling 10 geboden
+
+- God kennen
 
 Deel 1: Hou van God 
 
