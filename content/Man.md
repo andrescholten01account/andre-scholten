@@ -34,6 +34,11 @@ Stap 3: [[Bouw aan je karakter]]
 - IJverheid
 - [[Verantwoordelijkheid]]
 
+## Bibliotheek
+
+- [[Links man]]
+- [[Artikelen man]]
+
 %%
 ## Basis
 
