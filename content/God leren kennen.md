@@ -4,6 +4,9 @@ draft: false
 blog: false
 publicatiedatum:
 ---
+Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven heeft, opdat ieder die in Hem gelooft, niet verloren gaat, maar het eeuwige leven heeft.
+~ [Johannes 3:16](https://gezinvoorgod.nl/studiebijbel/johannes/3#v16) (SVnu)
+
 Hoe leer je God persoonlijk kennen?
 
 ## Geloof in Jezus en krijg eeuwig leven

@@ -8,13 +8,11 @@ publicatiedatum:
 38 Dit is het eerste en het grootste gebod.
 ~ [Mattheüs 22:37-38](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
 
-## Introductie - God beter leren kennen
+## Introductie - [[God beter leren kennen]]
 
 1 Toen sprak God al deze woorden en zei:
 2 Ik ben de HEERE, uw God, Die u uit Egypteland, uit het diensthuis, uitgeleid heb.
 ~ [Exodus 20:1-2](https://gezinvoorgod.nl/studiebijbel/exodus/20#v1) (SVnu)
-
-➔ [[God beter leren kennen]] 
 
 ## Gebod 1 - Geen andere goden 
 
