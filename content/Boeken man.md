@@ -7,9 +7,11 @@ publicatiedatum:
 John Ploughman's Talk + Pictures 
 https://www.romans45.org/spurgeon/misc/plowman.htm
 
-The art of manliness manvotionals - Brett McKay 
+Studies in the Sermon on the Mount - Martyn Lloyd-Jones
 
 %%
+
+The art of manliness manvotionals - Brett McKay 
 
 https://anekopress.com/
 

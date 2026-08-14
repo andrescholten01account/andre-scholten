@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Man.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Man"
             }
           }
         ]
@@ -203,9 +203,10 @@
   },
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
+    "Boeken man.md",
     "Man.md",
-    "Karakter.md",
     "index.md",
+    "Karakter.md",
     "Bouw aan je karakter.md",
     "Basis christelijk geloof.md",
     "To do Gezin voor God.md",
@@ -225,7 +226,6 @@
     "Lichaam.md",
     "Heb je eigen leven op orde.md",
     "Gehoorzaamheid - Jezus volgen.md",
-    "Boeken man.md",
     "Omgang met God - Aanbidden.md",
     "Omgang met God - Bidden.md",
     "Omgang met God - Bijbel lezen.md",
