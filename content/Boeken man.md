@@ -11,7 +11,9 @@ Studies in the Sermon on the Mount - Martyn Lloyd-Jones
 
 %%
 
-The art of manliness manvotionals - Brett McKay 
+The Art of Manliness - Manvotionals - Brett McKay
+
+Self help - Samuel Smiles 
 
 https://anekopress.com/
 
