@@ -560,5 +560,11 @@ https://thewestminsterstandard.org/household-service-of-god-by-william-perkins/
 How to be a Godly Father, by Matthew Henry
 https://thewestminsterstandard.org/how-to-be-a-godly-father-by-matthew-henry/
 
+---
+
+Bidden voor je gezin
+➔Je vrouw en kinderen vragen om gebedspunten
+➔ Waar kun jij voor bidden voor je vrouw en kinderen?
+
 %%
 
