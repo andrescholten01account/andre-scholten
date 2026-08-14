@@ -69,7 +69,6 @@ Gehoorzaamheid: jak. 1:22; jak. 1:25
 40 Aan deze twee geboden hangt de hele wet en de profeten.
 ~ [Mattheüs 22:37-40](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
 
----
 ## 10 geboden in het kort
 
 1. Geen andere goden
@@ -83,7 +82,6 @@ Gehoorzaamheid: jak. 1:22; jak. 1:25
 9. Niet liegen
 10. Niet willen wat van een ander is
 
----
 ## Indeling 10 geboden
 
 Deel 1: [[Hou van God]] 
