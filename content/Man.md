@@ -9,12 +9,18 @@
 
 Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op orde? Hoe ben je vol van de vrucht van de Geest? 
 
-## Stap 1: [[Heb de basis op orde]]
+## Stap 1: Omgang met God
+
+1. [[Omgang met God - Bijbel lezen|Bijbel lezen]]
+2. [[Omgang met God - Bidden|Bidden]]
+3. [[Omgang met God - Aanbidden|Aanbidden]]
+
+## Stap 2: [[Heb de basis op orde]]
 
 1. [[Hou van God]]
 2. [[Hou van je naaste]]
 
-## Stap 2: [[Heb je eigen leven op orde]] 
+## Stap 3: [[Heb je eigen leven op orde]] 
 
 - [[Lichaam]]
 - [[Mentaal]]
@@ -22,7 +28,7 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - [[Karakter]]
 - [[Sociaal]]
 
-## Stap 3: [[Draag geestelijke vrucht]]
+## Stap 4: [[Draag geestelijke vrucht]]
 
 - Liefde
 - Blijdschap
