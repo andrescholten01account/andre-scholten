@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Bijbel",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,6 +204,7 @@
   "active": "f38507f223f8f562",
   "lastOpenFiles": [
     "Vader.md",
+    "Boeken.md",
     "index.md",
     "Man.md",
     "Artikelen man.md",
@@ -228,7 +229,6 @@
     "Aanbidden.md",
     "God beter leren kennen.md",
     "Bidden - basis.md",
-    "Bidden.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",
