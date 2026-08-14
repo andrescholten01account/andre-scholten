@@ -17,10 +17,15 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 ## Stap 2: [[10 geboden]]
 
+Deel 1: [[Hou van God]] 
+
 1. Geen andere goden 
 2. Geen beelden
 3. Gods naam niet misbruiken
 4. Houd je aan de rustdag
+
+Deel 2: [[Hou van je naaste]]
+
 5. Eer je vader en moeder
 6. Niet doden
 7. Geen ontrouw in het huwelijk
