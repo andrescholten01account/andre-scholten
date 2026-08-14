@@ -4,22 +4,7 @@ draft: false
 blog: false
 publicatiedatum:
 ---
-## Vrucht van de Geest
-
-Galaten 5:22 De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
-(HSV)
-
-- Liefde
-- Blijdschap
-- Vrede
-- Geduld
-- Vriendelijkheid
-- Goedheid
-- Geloof
-- Zachtmoedigheid
-- Zelfbeheersing
-
-## [[Bouw aan je karakter]] 
+[[Bouw aan je karakter]] 
 
 - Leiderschap
 - [[Moed]]
