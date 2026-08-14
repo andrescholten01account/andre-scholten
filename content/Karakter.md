@@ -21,6 +21,14 @@ Galaten 5:22 De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld
 
 ## [[Bouw aan je karakter]] 
 
+- Mannelijkheid  
+- Moed  
+- Vlijtigheid  
+- Vastberadenheid  
+- Zelfstandigheid  
+- Zelfdiscipline  
+- Eer
+
 - Leiderschap
 - [[Moed]]
 - [[Doorzettingsvermogen]]
