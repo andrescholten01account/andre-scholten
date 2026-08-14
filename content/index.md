@@ -40,10 +40,6 @@ De man als leider van het gezin
 
 <div style="text-align: center;">
 
-[[Links gezin]]
-Boeken gezin
-[[Bronnen]]
-
 [[Basis christelijk geloof|Basis]]
 [StudieBijbel](https://gezinvoorgod.nl/studiebijbel/genesis/1/)
 [[De Volle Pinksterzegen|Boek]]
@@ -53,11 +49,7 @@ Boeken gezin
 
 ## Onderaan homepage
 
-- [[Links gezin]]
-- Boeken gezin
-- [[Bronnen]]
-
-- [[Basis christelijk geloof]]
+- [[Basis christelijk geloof|Basis]]
 - [StudieBijbel](https://gezinvoorgod.nl/studiebijbel/genesis/1/)
 - [[De Volle Pinksterzegen|Boek]]
 
@@ -74,6 +66,7 @@ Boeken gezin
 - [[Obsidian]]
 - [[Verantwoording]]
 - [[Copyright policy]]
+- [[Bronnen afbeeldingen]]
 
 ## Privé
 

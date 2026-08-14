@@ -11,9 +11,8 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 ## Stap 1: [[Heb de basis op orde]]
 
-1. [[God leren kennen]]
-2. [[Hou van God]]
-3. [[Hou van je naaste]]
+1. [[Hou van God]]
+2. [[Hou van je naaste]]
 
 ## Stap 2: [[Heb je eigen leven op orde]] 
 

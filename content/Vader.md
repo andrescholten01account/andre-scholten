@@ -23,6 +23,12 @@ Stap 3: Wees actief betrokken bij je kinderen
 
 1. [[Onderwijs je kinderen]]
 
+## Bibliotheek
+
+- [[Links gezin]]
+- Boeken gezin
+- [[Bronnen gezin]]
+
 %%
 
 ➔ dit naar: Basis ➔ gehoorzaamheid? [[Hou van God en je naaste]]
@@ -228,7 +234,7 @@ Vertegenwoordiger ➔ veel tijd weg, later zag hij zijn kinderen bijna niet meer
 
 ## [[Grootouders]]
 
-## [[Bronnen]]
+## [[Bronnen gezin]]
 
 ---
 
