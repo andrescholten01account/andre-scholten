@@ -547,5 +547,18 @@ Bidden als vader -> boeken over lezen
 
 ---
 
+https://thewestminsterstandard.org/
+https://thewestminsterstandard.org/ -> interessante blog -> rss
+https://thewestminsterstandard.org/library/
+https://thewestminsterstandard.org/kids/ -> zie The Kid's Catechism 
+
+---
+
+Household Service of God, by William Perkins
+https://thewestminsterstandard.org/household-service-of-god-by-william-perkins/
+
+How to be a Godly Father, by Matthew Henry
+https://thewestminsterstandard.org/how-to-be-a-godly-father-by-matthew-henry/
+
 %%
 

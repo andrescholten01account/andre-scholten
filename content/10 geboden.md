@@ -61,5 +61,22 @@ https://learn.ligonier.org/devotionals/eighth-commandment
 https://learn.ligonier.org/devotionals/ninth-commandment
 https://learn.ligonier.org/devotionals/tenth-commandment
 
+---
+
+10 geboden:
+
+https://puritanboard.com/threads/ten-commandments.87189/
+The Larger Catechism, and Thomas Ridgley's comments on that section in his Body of Divinity are also profitable.
+-> https://thewestminsterstandard.org/westminster-larger-catechism/#96
+-> https://www.monergism.com/body-divinity-being-substance-several-lectures-assemblys-larger-catechism-ebook
+-> zie ook de Heidelbergse catechismus
+-> andere catechismussen (die van spurgeon)
+
+---
+
+Larger catechism:
+-> https://thewestminsterstandard.org/westminster-larger-catechism/
+-> https://www.monergism.com/body-divinity-being-substance-several-lectures-assemblys-larger-catechism-ebook
+
 %%
 
