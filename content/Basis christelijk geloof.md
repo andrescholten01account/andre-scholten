@@ -131,5 +131,15 @@ Het Evangelie
 
 ---
 
+Als God bestaat, is de enige logische reactie om je hele leven daarop af te stemmen. Als je af en toe bidt, ben je gewoon een atheïst die toch bevreesd is. 
+
+---
+
+Zodra de windrichting verandert, zullen we hun ware aard zien. Maar laten we voor nu ter vergelijking eens naar de data kijken.
+
+-> denk aan woke -> nu de "windrichting" is veranderd zijn er mensen die er anders over denken
+
+---
+
 %%
 

@@ -14,6 +14,7 @@ publicatiedatum:
 - [[#Algemeen]]
 - [[#Kwaliteitscontrole]]
 - [[#StatenvertalingNu]]
+- [[#Back-up plan]]
 - [[#Bijbeluitleg]]
 - [[#Ontwerp StudieBijbel]]
 - [[#Ontwerp Gezin voor God]]
@@ -781,7 +782,29 @@ maar de zevende dag is de sabbat van de HEERE, uw God; dan zult u geen werk doen
 
 ---
 
-[[Back-up plan]]
+SVnu
+
+19 Ga dan heen, onderwijs alle volken, en doop hen in de Naam van de Vader, en van de Zoon, en van de Heilige Geest;
+~ [Matt 28:19](https://gezinvoorgod.nl/studiebijbel/mattheus/28#v19) (SVnu)
+
+20 en leer hen om alles te onderhouden wat Ik u geboden heb. En zie, Ik ben met u al de dagen, tot de voleinding van de wereld. Amen.
+~ [Mattheüs 28:20](https://gezinvoorgod.nl/studiebijbel/mattheus/28#v20) (SVnu)
+
+-> heeft engelse nummering -> moet naar nederlandstalige nummering
+
+---
+
+svnu -> mat. 28:19-20 klopt de verwijzing niet in de hsv is dit alleen mat. 28:19 -> checken of dit klopt
+-> de nummering is dus anders
+
+---
+
+Gezin voor God
+
+Spreuken 22:6 -> KJV vers is niet compleet -> de goede KJV erin zetten
+
+---
+## [[Back-up plan]]
 
 ---
 ## Bijbeluitleg
