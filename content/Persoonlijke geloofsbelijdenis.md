@@ -86,5 +86,13 @@ Als iemand heeft geleefd zoals God dat wil, zal hij daarvoor beloond worden¹. M
 
 Staat de bijlage nu ook verborgen? ➔ volgens mij niet. Hoe dit doen?
 
+---
+
+Gehoorzaamheid:
+- Omgang met God:
+	- Bijbel lezen
+	- Bidden
+	- Aanbidden
+
 %%
 

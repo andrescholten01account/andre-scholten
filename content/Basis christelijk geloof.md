@@ -12,7 +12,6 @@ Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven he
 
 %%
 
-- [[Gods Woord]]
 - [[God]]
 - [[De mens]]
 - [[Zonde]]
@@ -140,6 +139,16 @@ Zodra de windrichting verandert, zullen we hun ware aard zien. Maar laten we voo
 -> denk aan woke -> nu de "windrichting" is veranderd zijn er mensen die er anders over denken
 
 ---
+
+Of:
+
+God
+De mens
+Gehoorzaamheid
+- Omgang met God
+	- Bijbel lezen ➔ hier Gods Woord zetten
+	- Bidden
+	- Aanbidden
 
 %%
 

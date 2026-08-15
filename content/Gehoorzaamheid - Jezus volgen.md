@@ -1,3 +1,11 @@
+%%
+## Omgang met God
+
+1. [[Omgang met God - Bijbel lezen|Bijbel lezen]]
+2. [[Omgang met God - Bidden|Bidden]]
+3. [[Omgang met God - Aanbidden|Aanbidden]]
+
+%%
 ## Geloof zonder de werken is een dood geloof
 
 Wat voor nut heeft het, mijn broeders, als iemand zegt dat hij het geloof heeft, maar hij heeft de werken niet? Kan dat geloof hem zaligmaken? Als er nu een broeder of zuster naakt zouden zijn, en gebrek zouden hebben aan dagelijks voedsel; en iemand van u zou tegen hen zeggen: Ga heen in vrede, word warm en word verzadigd; maar u zou hun niet geven wat nodig is voor het lichaam, wat voor nut is dat? Zo is ook het geloof, als het de werken niet heeft, op zichzelf dood.
@@ -16,7 +24,9 @@ Breng dan vruchten voort die de bekering waardig zijn; en begin niet bij uzelf t
 
 ---
 
+[[Gods Woord]]
 [[Bidden]]
+Aanbidden
 
 ---
 

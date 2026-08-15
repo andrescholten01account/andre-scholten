@@ -4,20 +4,13 @@ draft: false
 blog: false
 publicatiedatum:
 ---
-## Lichaam
-
-- Slaap
-- Eten
-- Beweging
-- Ontspanning (rust)
+1. [[Slaap]]
+2. [[Eten]]
+3. [[Beweging]]
+4. [[Ontspanning]]
 
 %%
 
-rust, plezier
-
-Humor:
-- Moppen ➔ grappige dingen
-- Memes ➔ grappige dingen
 
 %%
 
