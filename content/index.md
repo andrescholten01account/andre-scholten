@@ -46,7 +46,6 @@ De man als leider van het gezin
 </div>
 
 %%
-
 ## Onderaan homepage
 
 - [[Basis christelijk geloof|Basis]]
