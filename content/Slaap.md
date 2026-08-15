@@ -6,35 +6,31 @@ publicatiedatum:
 ---
 ## Waarom is een goede nachtrust belangrijk?
 
-1 - Maakt je hersens "schoon"
+1 - Voldoende energie
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-2 - Je onthoudt dingen beter
+2 - Je bent overdag uitgeruster en alerter
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-3 - Je bent overdag uitgeruster en alerter
+3 - Je zit lekkerder in je vel
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-4 - Verwerken van emoties
+4 - Je onthoudt dingen beter
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-5 - Voldoende energie
+5 - Verwerken van emoties
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-6 - Je zit lekkerder in je vel
+6 - Positieve invloed op afweersysteem
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-7 - Positieve invloed op afweersysteem
-
-Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-
-8 - Verkleint kans op bepaalde ziektes en aandoeningen
+7 - Verkleint kans op bepaalde ziektes en aandoeningen
 
 - Depressie
 - Dementie
