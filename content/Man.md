@@ -22,9 +22,9 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 ## Stap 3: [[Heb je eigen leven op orde]] 
 
+- [[Lichaam]]
 - [[Karakter]]
 - [[Mentaal]]
-- [[Lichaam]]
 - [[Emotioneel]]
 - [[Sociaal]]
 

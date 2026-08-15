@@ -26,6 +26,13 @@ You have to be a man, before you can be a gentle man.
 
 ---
 
+Karakter = goede gewoontes
+
+➔ wat je regelmatig doet ➔ wordt gewoonte ➔ gewoonte wordt karakter
+= een quote ➔ uitzoeken
+
+---
+
 %%
 
 The art of manliness manvotionals

@@ -37,6 +37,18 @@ Galaten 5:22 De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld
 - [[IJverheid]]
 - [[Verantwoordelijkheid]]
 - [[Beschermen]] 
+- Bekwaamheid
+- Resilient 
+- Weerbaar (of is dit resilient?)
+- Heiligheid
+- Genade
+- Rechtvaardigheid
+- Barmhartig
+- Gastvrij
+- Vrijgevig
+- Zelfrespect
+- [[Goede gewoontes]]
+- [[Doelgericht]]
 
 %%
 
