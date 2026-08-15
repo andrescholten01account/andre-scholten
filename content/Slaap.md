@@ -18,19 +18,30 @@ Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-4 - Je onthoudt dingen beter
+4 - Belangrijk voor een gezonde testosteronspiegel
+
+- Je lichaam maakt het grootste deel van je testosteron aan tijdens de diepe slaapfasen
+- Voldoende slaap houdt je testosteron hoog en je cortisol laag, wat cruciaal is voor spieropbouw en energie
+- Een slaaptekort zorgt voor een snelle daling van dit mannelijke hormoon
+
+Bronnen:
+
+- [FIT.nl - Waarom is slaap zo belangrijk?](https://www.fit.nl/herstel/slapen/waarom-slaap)
+- [Drogespieren.nl - Natuurlijk je testosteron verhogen](https://drogespieren.nl/hormonen/testosteron-verhogen)
+
+5 - Je onthoudt dingen beter
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-5 - Verwerken van emoties
+6 - Verwerken van emoties
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-6 - Positieve invloed op afweersysteem
+7 - Positieve invloed op afweersysteem
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-7 - Verkleint kans op bepaalde ziektes en aandoeningen
+8 - Verkleint kans op bepaalde ziektes en aandoeningen
 
 - Depressie
 - Dementie
@@ -39,17 +50,6 @@ Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-
 - Obesitas (ernstig overgewicht)
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-
-8 - Belangrijk voor een gezonde testosteronspiegel
-
-- Je lichaam maakt het grootste deel van je testosteron aan tijdens de diepe slaapfasen
-- Voldoende slaap houdt je testosteron hoog en je cortisol laag, wat cruciaal is voor spieropbouw en energie.
-- Een slaaptekort zorgt voor een snelle daling van dit mannelijke hormoon. 
-
-Bronnen:
-
-- [FIT.nl - Waarom is slaap zo belangrijk?](https://www.fit.nl/herstel/slapen/waarom-slaap)
-- [Drogespieren.nl - Natuurlijk je testosteron verhogen](https://drogespieren.nl/hormonen/testosteron-verhogen)
 
 ## Interessante bronnen
 
