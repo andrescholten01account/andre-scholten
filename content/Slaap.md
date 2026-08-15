@@ -10,15 +10,7 @@ publicatiedatum:
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-2 - Je bent overdag uitgeruster en alerter
-
-Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-
-3 - Je zit lekkerder in je vel
-
-Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-
-4 - Belangrijk voor een gezonde testosteronspiegel
+2 - Belangrijk voor een gezonde testosteronspiegel
 
 - Je lichaam maakt het grootste deel van je testosteron aan tijdens de diepe slaapfasen
 - Voldoende slaap houdt je testosteron hoog en je cortisol laag, wat cruciaal is voor spieropbouw en energie
@@ -28,6 +20,14 @@ Bronnen:
 
 - [FIT.nl - Waarom is slaap zo belangrijk?](https://www.fit.nl/herstel/slapen/waarom-slaap)
 - [Drogespieren.nl - Natuurlijk je testosteron verhogen](https://drogespieren.nl/hormonen/testosteron-verhogen)
+
+3 - Je bent overdag uitgeruster en alerter
+
+Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
+
+4 - Je zit lekkerder in je vel
+
+Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
 5 - Je onthoudt dingen beter
 
