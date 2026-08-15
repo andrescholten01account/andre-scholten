@@ -40,6 +40,17 @@ Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
+8 - Belangrijk voor een gezonde testosteronspiegel
+
+- Je lichaam maakt het grootste deel van je testosteron aan tijdens de diepe slaapfasen
+- Voldoende slaap houdt je testosteron hoog en je cortisol laag, wat cruciaal is voor spieropbouw en energie.
+- Een slaaptekort zorgt voor een snelle daling van dit mannelijke hormoon. 
+
+Bronnen:
+
+- [FIT.nl - Waarom is slaap zo belangrijk?](https://www.fit.nl/herstel/slapen/waarom-slaap)
+- [Drogespieren.nl - Natuurlijk je testosteron verhogen](https://drogespieren.nl/hormonen/testosteron-verhogen)
+
 ## Interessante bronnen
 
 - [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
