@@ -29,7 +29,7 @@ Galaten 5:22 De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld
 - Zelfdiscipline  
 - Eer
 
-- Leiderschap
+- [[Leiderschap]]
 - [[Moed]]
 - [[Doorzettingsvermogen]]
 - Standvastigheid

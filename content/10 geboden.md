@@ -78,5 +78,12 @@ Larger catechism:
 -> https://thewestminsterstandard.org/westminster-larger-catechism/
 -> https://www.monergism.com/body-divinity-being-substance-several-lectures-assemblys-larger-catechism-ebook
 
+---
+
+10 geboden
+
+Gebod 1:
+"Doe alles tot eer van God""
+
 %%
 
