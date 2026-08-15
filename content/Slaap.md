@@ -40,3 +40,8 @@ Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
+## Interessante bronnen
+
+- [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
+- [Waarom is slaap belangrijk? | FIT.nl](https://www.fit.nl/herstel/slapen/waarom-slaap)
+
