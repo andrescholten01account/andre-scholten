@@ -402,7 +402,6 @@ https://archive.org/details/churchinhouseorf00henr/page/n3/mode/2up
 
 gezinvoorgod.nl
 youtube.com/gezinvoorgod
-x.com/gezinvoorgod
 
 https://heritagebooks.org/products/living-in-a-godly-marriage-beeke.html
 Zie ook de aangeraden boeken eronder.
