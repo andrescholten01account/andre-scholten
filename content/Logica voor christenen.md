@@ -19,3 +19,9 @@ Als u dan de koninklijke wet vervult, naar de Schrift: U zult uw naaste liefhebb
 
 ---
 
+%% 
+
+Logisch denken
+
+%%
+

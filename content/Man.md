@@ -60,7 +60,6 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - Zelfrespect
 - [[Goede gewoontes]]
 - Orde
-- Logisch denken
 - [[Groeimindset]]
 - [[Sociaal vaardig]]
 
