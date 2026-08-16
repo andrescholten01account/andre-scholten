@@ -9,7 +9,7 @@
 
 Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op orde? Hoe ben je vol van de vrucht van de Geest? 
 
-## Stap 1: Omgang met God
+## Stap 1: [[Omgang met God]]
 
 1. [[Omgang met God - Bijbel lezen|Bijbel lezen]]
 2. [[Omgang met God - Bidden|Bidden]]
