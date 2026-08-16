@@ -14,3 +14,8 @@ Courage is accepting the fear, and saddling up anyway.
 
 ---
 
+"Wees manmoedig" ➔ klopt die Bijbeltekst hier? Of gaat die tekst over moedig zijn?
+➔ gaat dit over mannelijk zijn, of moedig?
+
+---
+

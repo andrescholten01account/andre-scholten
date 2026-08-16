@@ -26,41 +26,37 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - [[Doelgericht]]
 - Standvastigheid
 - [[Beschermen]]  
-- Weerbaar (of is dit resilient?)
-- [[Bouw aan je karakter]] 
-- [[Mannelijkheid]] 
 - [[IJverheid]]
-- [[Vastberadenheid]] 
-- Zelfstandigheid  
-- Zelfdiscipline  
-- Eer
-- [[Leiderschap]]
 - [[Moed]]
+- [[Vrijgevig]]
+
+
+- Zelfstandigheid  
+- [[Verantwoordelijkheid]]
+- Zelfdiscipline  
+- Zelfrespect
+
+- [[Bouw aan je karakter]] 
+- [[Leiderschap]]
 - [[Doorzettingsvermogen]]
 - Trouw
 
-- [[Verantwoordelijkheid]]
-- Bekwaamheid
-- Resilient 
-- Heiligheid
-- Genade
-- Rechtvaardigheid
-- Barmhartig
-- Gastvrij
-- Vrijgevig
-- Zelfrespect
+
 - [[Goede gewoontes]]
-- Orde
 - [[Groeimindset]]
 - [[Sociaal vaardig]]
-- Vergevingsgezind
 - Bemoedigen
+
+- Orde
+- Bekwaamheid
+- Heiligheid
+- Rechtvaardigheid
+
+- Eer
 
 %%
 
-- Geven
-	- Vrijgevigheid
-	- Bemoedigen
+Aantekeningen
 
 %%
 
