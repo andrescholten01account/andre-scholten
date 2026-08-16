@@ -23,16 +23,13 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 ## Stap 3: [[Gezond & sterk]] 
 
-- [[Zelfstandig]]  
 - [[Doelgericht]]
-- [[Optimistisch]]
-- [[Eigenwaarde]]
+- [[Zelfstandig]]  
 - [[Standvastig]]
-- [[IJverig]]
 - [[Moedig]]
+- [[IJverig]]
+- [[Optimistisch]]
 - [[Vrijgevig]]
-- [[Sociaal vaardig]]
-
 
 
 

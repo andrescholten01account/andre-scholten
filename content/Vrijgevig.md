@@ -6,15 +6,27 @@ publicatiedatum:
 ---
 Hier alles met geven aan een andere. Dit kunnen meerdere dingen zijn:
 
-Gastvrij: mensen uitnodigen en delen van wat je hebt
+## Gastvrij
 
-Vrijgevig: geven van geld, goederen, tijd of wat dan ook 
+Mensen uitnodigen en delen van wat je hebt
 
-Barmhartig: medelijden met een ander hebben en omzien naar een ander
+## Vrijgevig
 
-Bemoedigen: geven van emotionele steun
+Geven van geld, goederen, tijd of wat dan ook 
 
-Genade: medelijden hebben met anderen, waarbij je een ander iets gunt
+## Barmhartig
 
-Vergevingsgezind: een ander heeft je iets aangedaan en heeft een schuld bij je, meestal emotioneel, je scheldt hem de schuld kwijt
+Medelijden met een ander hebben en omzien naar een ander
+
+## Bemoedigen
+
+Geven van emotionele steun
+
+## Genade
+
+Medelijden hebben met anderen, waarbij je een ander iets gunt
+
+## Vergevingsgezind
+
+Een ander heeft je iets aangedaan en heeft een schuld bij je, meestal emotioneel, je scheldt hem de schuld kwijt
 
