@@ -27,5 +27,3 @@ wat is pluck?
 
 ➔ hoort dit bij vastberadenheid?
 
----
-
