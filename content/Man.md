@@ -15,23 +15,15 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 2. [[Omgang met God - Bidden|Bidden]]
 3. [[Omgang met God - Aanbidden|Aanbidden]]
 
-## Stap 2: [[10 geboden]]
+## Stap 2: [[10 geboden en vrucht van de Geest]]
 
 - [[Hou van God]] 
 - [[Hou van je naaste]]
+- [[Vrucht van de Geest]]
 
 ## Stap 3: [[Gezond & sterk]] 
 
 - [[Bouw aan je karakter]] 
-- [[Liefde]]
-- Blijdschap
-- Vrede
-- Geduld
-- Vriendelijkheid
-- Goedheid
-- Geloof
-- Zachtmoedigheid
-- Zelfbeheersing
 - [[Mannelijkheid]] 
 - [[Doelgericht]]
 - Moed  
