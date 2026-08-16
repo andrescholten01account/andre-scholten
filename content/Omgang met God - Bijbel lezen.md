@@ -4,7 +4,11 @@ draft: false
 blog: false
 publicatiedatum:
 ---
-- Bijbel lezen
-- Gods Woord overdenken
-- Gods Woord memoriseren
+joz. 1:8
+
+ps. 1:2
+
+laat het Woord van Christus rijkelijk in u wonen
+
+zaaier ➔ zaad 4
 

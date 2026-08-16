@@ -10,3 +10,7 @@ Paulus zegt ➔ loop de wedloop de voor je ligt, doel
 
 "Doe alles tot eer van God"
 
+Schatten verzamelen in de hemel
+
+Hart op God gericht ➔ gelijkenis zaaier ➔ zaad 4
+

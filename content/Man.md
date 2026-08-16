@@ -15,7 +15,7 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 2. [[Omgang met God - Bidden|Bidden]]
 3. [[Omgang met God - Aanbidden|Aanbidden]]
 
-## Stap 2: [[10 geboden en vrucht van de Geest]]
+## Stap 2: [[In Gods wil wandelen]]
 
 - [[Hou van God]] 
 - [[Hou van je naaste]]
@@ -23,9 +23,9 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 ## Stap 3: [[Gezond & sterk]] 
 
+- [[Doelgericht]]
 - [[Bouw aan je karakter]] 
 - [[Mannelijkheid]] 
-- [[Doelgericht]]
 - Moed  
 - Vlijtigheid  
 - [[Vastberadenheid]] 
@@ -55,6 +55,7 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - [[Groeimindset]]
 - [[Sociaal vaardig]]
 - Vergevingsgezind
+- Bemoedigen
 
 ## Bibliotheek
 
