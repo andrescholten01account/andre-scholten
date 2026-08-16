@@ -19,7 +19,5 @@ publicatiedatum:
 3 - Gehoorzaamheid
 
 - Geloof zonder werken is dood geloof
-- Tekst over redding en Go
-
-
+- Tekst over redding en God gehoorzamen uit dankbaarheid
 

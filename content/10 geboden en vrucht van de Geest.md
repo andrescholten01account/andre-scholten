@@ -43,6 +43,18 @@ Deel 2: Hou van je naaste
 9. Niet liegen
 10. Niet willen wat van een ander is
 
+## Vrucht van de Geest
+
+1. [[Liefde]]
+2. Blijdschap
+3. Vrede
+4. Geduld
+5. Vriendelijkheid
+6. Goedheid
+7. Geloof
+8. Zachtmoedigheid
+9. Zelfbeheersing
+
 %%
 
 https://www.heidelbergse-catechismus.nl/vragen ➔ De wet
