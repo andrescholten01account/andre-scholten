@@ -36,22 +36,7 @@ De man als leider van het gezin
 <div id="blog-widget"></div>
 <!-- BLOG-SECTIE-EIND -->
 
----
-
-<div style="text-align: center;">
-
-[[Basis christelijk geloof|Basis]]
-[StudieBijbel](https://gezinvoorgod.nl/studiebijbel/genesis/1/)
-[[De Volle Pinksterzegen|Boek]]
-</div>
-
 %%
-## Onderaan homepage
-
-- [[Basis christelijk geloof|Basis]]
-- [StudieBijbel](https://gezinvoorgod.nl/studiebijbel/genesis/1/)
-- [[De Volle Pinksterzegen|Boek]]
-
 ## Footer
 
 - [[Blog]]
@@ -60,6 +45,10 @@ De man als leider van het gezin
 
 ---
 ## Meer
+
+- [[Basis christelijk geloof|Basis]]
+- [StudieBijbel](https://gezinvoorgod.nl/studiebijbel/genesis/1/)
+- [[De Volle Pinksterzegen|Boek]]
 
 - [[To do Gezin voor God]]
 - [[Obsidian]]
