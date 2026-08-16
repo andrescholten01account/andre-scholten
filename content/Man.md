@@ -32,7 +32,8 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - Geloof
 - Zachtmoedigheid
 - Zelfbeheersing
-- Mannelijkheid  
+- [[Mannelijkheid]] 
+- [[Doelgericht]]
 - Moed  
 - Vlijtigheid  
 - [[Vastberadenheid]] 
@@ -58,7 +59,6 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - Vrijgevig
 - Zelfrespect
 - [[Goede gewoontes]]
-- [[Doelgericht]]
 - Orde
 - Logisch denken
 - [[Groeimindset]]
