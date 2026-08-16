@@ -4,32 +4,18 @@ draft: false
 blog: false
 publicatiedatum:
 ---
-## Vrucht van de Geest
+Growth mindset ➔ ==groeimindset==
 
-- [[Liefde]]
-- Blijdschap
-- Vrede
-- Geduld
-- Vriendelijkheid
-- Goedheid
-- Geloof
-- Zachtmoedigheid
-- Zelfbeheersing
+➔ "Ja, het kan"
+➔ "Ja, ik het kan leren"
+- Boeken lezen
+- YouTube-video's kijken (zoals bij klussen)
+- Anderen om advies vragen
+➔ ja, het kan beter
+➔ er zijn kansen, mogelijkheden
 
 ---
-## Karakter
-(ook vrucht van de Geest ➔ vervulling met de Geest)
-
-- [[Moed]]
-- Trouw
-- Doorzettingsvermogen
-- Liefde
-- Heiligheid
-- Blijdschap
-- Vrede
-- ==Standvastig==
-
----
+## Bouw aan je karakter
 
 You have to be a man, before you can be a gentle man.
 ➔ john wayne?

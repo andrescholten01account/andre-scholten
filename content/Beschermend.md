@@ -4,6 +4,8 @@ draft: false
 blog: false
 publicatiedatum:
 ---
+Eerst naar jezelf toe, dan naar anderen
+
 Grenzen
 Nee zeggen
 

@@ -16,4 +16,5 @@ Bemoedigen: geven van emotionele steun
 
 Genade: medelijden hebben met anderen, waarbij je een ander iets gunt
 
-Vergevingsgezind: een ander he
+Vergevingsgezind: een ander heeft je iets aangedaan en heeft een schuld bij je, meestal emotioneel, je scheldt hem de schuld kwijt
+

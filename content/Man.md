@@ -24,11 +24,13 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 ## Stap 3: [[Gezond & sterk]] 
 
 - [[Doelgericht]]
-- Standvastigheid
-- [[Beschermen]]  
-- [[IJverheid]]
-- [[Moed]]
+- [[Standvastig]]
+- [[Beschermend]]  
+- [[IJverig]]
+- [[Moedig]]
+- [[Optimistisch]]
 - [[Vrijgevig]]
+
 
 
 - Zelfstandigheid  
@@ -36,22 +38,14 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - Zelfdiscipline  
 - Zelfrespect
 
-- [[Bouw aan je karakter]] 
 - [[Leiderschap]]
-- [[Doorzettingsvermogen]]
 - Trouw
 
-
 - [[Goede gewoontes]]
-- [[Groeimindset]]
+
 - [[Sociaal vaardig]]
-- Bemoedigen
 
 - Orde
-- Bekwaamheid
-- Heiligheid
-- Rechtvaardigheid
-
 - Eer
 
 %%

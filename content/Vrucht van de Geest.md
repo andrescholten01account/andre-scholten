@@ -35,5 +35,7 @@ Blijdschap van de Geest
 
 Word vol van de Geest ➔ Ef. 
 
+➔ Vervulling met de Geest
+
 %%
 

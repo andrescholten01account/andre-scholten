@@ -4,7 +4,12 @@ draft: false
 blog: false
 publicatiedatum:
 ---
-## Aanhoudend
+"Wees standvastig"
+
+---
+## Doorzettingsvermogen
+
+Aanhoudend
 
 Volhouden ➔ beetje bij beetje
 
@@ -14,10 +19,6 @@ Volhouden ➔ beetje bij beetje
 
 "Constant dropping wears away stones"
 
----
-
 spurgeon ➔ manly "stick to it"
 ➔ uit preek
-
----
 
