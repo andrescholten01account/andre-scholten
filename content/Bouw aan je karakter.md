@@ -4,7 +4,17 @@ draft: false
 blog: false
 publicatiedatum:
 ---
-Oa. Vrucht van de Geest
+## Vrucht van de Geest
+
+- [[Liefde]]
+- Blijdschap
+- Vrede
+- Geduld
+- Vriendelijkheid
+- Goedheid
+- Geloof
+- Zachtmoedigheid
+- Zelfbeheersing
 
 ---
 ## Karakter

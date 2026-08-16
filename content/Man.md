@@ -20,13 +20,49 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - [[Hou van God]] 
 - [[Hou van je naaste]]
 
-## Stap 3: [[Heb je eigen leven op orde]] 
+## Stap 3: [[Gezond & sterk]] 
 
-- [[Lichaam]]
-- [[Karakter]]
-- [[Mentaal]]
-- [[Emotioneel]]
-- [[Sociaal]]
+- [[Bouw aan je karakter]] 
+- [[Liefde]]
+- Blijdschap
+- Vrede
+- Geduld
+- Vriendelijkheid
+- Goedheid
+- Geloof
+- Zachtmoedigheid
+- Zelfbeheersing
+- Mannelijkheid  
+- Moed  
+- Vlijtigheid  
+- [[Vastberadenheid]] 
+- Zelfstandigheid  
+- Zelfdiscipline  
+- Eer
+- [[Leiderschap]]
+- [[Moed]]
+- [[Doorzettingsvermogen]]
+- Standvastigheid
+- Trouw
+- [[IJverheid]]
+- [[Verantwoordelijkheid]]
+- [[Beschermen]] 
+- Bekwaamheid
+- Resilient 
+- Weerbaar (of is dit resilient?)
+- Heiligheid
+- Genade
+- Rechtvaardigheid
+- Barmhartig
+- Gastvrij
+- Vrijgevig
+- Zelfrespect
+- [[Goede gewoontes]]
+- [[Doelgericht]]
+- Orde
+- Logisch denken
+- [[Groeimindset]]
+- [[Sociaal vaardig]]
 
 ## Bibliotheek
 
