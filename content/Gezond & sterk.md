@@ -84,6 +84,7 @@ Humor:
 - Plezier (leuke dingen doen)
 - Humor (Pinterest ➔ memes, moppen)
 - Avontuur
+- Avonturenboeken
 
 ## Orde
 
