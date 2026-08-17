@@ -24,3 +24,10 @@ On good nature and firmness (zie boeken John Ploughman)
 Resilient 
 Weerbaar (of is dit resilient?)
 
+## Evenwichtig
+
+## Betrouwbaarheid
+
+- Van je op aan kunnen
+- Er zijn
+- Stabiel

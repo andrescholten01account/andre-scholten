@@ -22,6 +22,7 @@ Medelijden met een ander hebben en omzien naar een ander
 
 - Geven van emotionele steun
 - Bevestigend
+- Iemand een hart onder de riem steken
 
 ## Genade
 

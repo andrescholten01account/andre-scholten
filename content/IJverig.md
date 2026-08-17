@@ -9,6 +9,10 @@ Theodore Roosevelt:
 
 is ijverheid hetzelfde als vlijtigheid  
 
+IJverig ➔ van aanpakken weten
+"when the sun shines, it is time to repair te roof"
+about idleness, john ploughman's talk ➔ fix the hedge, pigs come through
+
 ## Doorzettingsvermogen
 
 Aanhoudend
@@ -33,4 +37,10 @@ wat is resolution ➔ zie ook plaatje The art of manliness
 wat is pluck?
 
 ➔ hoort dit bij vastberadenheid?
+
+## Discipline
+
+Doorzetten ook al is het niet leuk. Doen wat er moet gebeuren. Doorzetten totdat de klus af is. 
+
+## Grit?
 

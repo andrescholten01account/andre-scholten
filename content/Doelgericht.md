@@ -14,3 +14,12 @@ Schatten verzamelen in de hemel
 
 Hart op God gericht ➔ gelijkenis zaaier ➔ zaad 4
 
+---
+
+Vooruitkijken, plannen
+
+"when the sun shines, it is time to repair te roof"
+about idleness, john ploughman's talk ➔ fix the hedge, pigs come through
+
+---
+

@@ -8,16 +8,23 @@ publicatiedatum:
 2 Ik ben de HEERE, uw God, Die u uit Egypteland, uit het diensthuis, uitgeleid heb.
 ~ [Exodus 20:1-2](https://gezinvoorgod.nl/studiebijbel/exodus/20#v1) (SVnu)
 
-1 -  Wie is God?
+## 1 -  Wie is God?
 
-2 - Hoe heeft God ons gered?
+## 2 - Hoe heeft God ons gered?
+
+Hoe zij we gered?
 
 - Wij slaven van de zonde, dood in de zonde
 - God heeft Jezus naar de aarde gestuurd om te sterven voor onze zonden
 - Redding: geloof, bekering
 
-3 - Gehoorzaamheid
+Waarvan zijn we gered?
 
-- Geloof zonder werken is dood geloof
-- Tekst over redding en God gehoorzamen uit dankbaarheid
+Waarom zijn we gered?
+
+Waartoe zijn we gered?
+
+- Gemeenschap met God
+- Jezus volk ijverig in goede werken
+- gered om goede werken te doen
 
