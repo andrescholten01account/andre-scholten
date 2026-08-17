@@ -20,7 +20,8 @@ Medelijden met een ander hebben en omzien naar een ander
 
 ## Bemoedigen
 
-Geven van emotionele steun
+- Geven van emotionele steun
+- Bevestigend
 
 ## Genade
 

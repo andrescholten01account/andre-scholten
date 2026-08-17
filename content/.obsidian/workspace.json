@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Vrijgevig.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Vrijgevig"
             }
           }
         ]
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -202,6 +203,9 @@
   "active": "570e0045fb215e6e",
   "lastOpenFiles": [
     "Man.md",
+    "Positief.md",
+    "Omgang met God - Bijbel lezen.md",
+    "index.md",
     "Zelfstandig.md",
     "Standvastig.md",
     "Vrucht van de Geest.md",
@@ -210,7 +214,6 @@
     "Moedig.md",
     "Vrijgevig.md",
     "IJverig.md",
-    "Positief.md",
     "Doelgericht.md",
     "Liefde.md",
     "Hou van je naaste.md",
@@ -218,9 +221,7 @@
     "In Gods wil wandelen.md",
     "Omgang met God - Aanbidden.md",
     "Omgang met God - Bidden.md",
-    "Omgang met God - Bijbel lezen.md",
     "Omgang met God.md",
-    "index.md",
     "Sociaal vaardig.md",
     "Logica voor christenen.md",
     "Beschermend.md",
