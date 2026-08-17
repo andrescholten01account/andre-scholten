@@ -87,6 +87,9 @@ Humor:
 
 ## Orde
 
+![[Naamloos-modified.jpg|450]]
+
+- Ordelijk denken
 - Alles op een rij hebben
 - Georganiseerd zijn 
 - Planning
