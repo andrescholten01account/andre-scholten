@@ -62,7 +62,7 @@ De man als leider van het gezin
 - [[Geloofsbelijdenissen]]
 - [[Apologetiek]]
 - [[Logica voor christenen]]
-- [[Sociaal vaardig]]
+- [[Sociale vaardigheden]]
 - [[Persoonlijk voor mij]]
 - [[Woord van God voor mij]]
 

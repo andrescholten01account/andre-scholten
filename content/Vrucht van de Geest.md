@@ -4,32 +4,35 @@ draft: false
 blog: false
 publicatiedatum:
 ---
-1 - [[Liefde]]
+Maar de vrucht van de Geest is liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
+~ [Galaten 5:22](https://gezinvoorgod.nl/studiebijbel/galaten/5#v22) (SVnu)
+
+## [[Liefde]]
 
 %%
 ... Maar de liefde is de meeste...
 1 Kor. 13
 %%
 
-2 - [[Blijdschap]]
+## [[Blijdschap]]
 
 %%
 Blijdschap van de Geest
 %%
 
-3 - [[Vrede]]
+## [[Vrede]]
 
-4 - Geduld
+## [[Geduld]]
 
-5 - Vriendelijkheid
+## [[Vriendelijkheid]]
 
-6 - Goedheid
+## [[Goedheid]]
 
-7 - Geloof
+## [[Vrucht van de Geest - geloof|Geloof]]
 
-8 - Zachtmoedigheid
+## [[Zachtmoedigheid]]
 
-9 - Zelfbeheersing
+## [[Zelfbeheersing]]
 
 %%
 
