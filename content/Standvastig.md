@@ -37,4 +37,5 @@ Harten en gedachten bewaren
 - Stabiel
 - Evenwichtig
 - Bezonnen, wijs
+- Te vertrouwen
 
