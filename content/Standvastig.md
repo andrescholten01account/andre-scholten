@@ -4,6 +4,8 @@ draft: false
 blog: false
 publicatiedatum:
 ---
+## Standvastig
+
 "Wees standvastig"
 
 ---
@@ -24,10 +26,11 @@ On good nature and firmness (zie boeken John Ploughman)
 Resilient 
 Weerbaar (of is dit resilient?)
 
-## Evenwichtig
-
-## Betrouwbaarheid
+## Betrouwbaar
 
 - Van je op aan kunnen
 - Er zijn
 - Stabiel
+- Evenwichtig
+- Bezonnen, wijs
+

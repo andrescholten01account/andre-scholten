@@ -61,5 +61,7 @@ I particularly liked this passage from Charles Everett, who I had never heard of
 
 Op deze sectie Opbouwend noemen
 
+Positief, optimistisch
+
 ---
 

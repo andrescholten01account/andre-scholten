@@ -14,7 +14,7 @@ publicatiedatum:
 2 Ik ben de HEERE, uw God, Die u uit Egypteland, uit het diensthuis, uitgeleid heb.
 ~ [Exodus 20:1-2](https://gezinvoorgod.nl/studiebijbel/exodus/20#v1) (SVnu)
 
-## Gebod 1 - Geen andere goden 
+## Gebod 1 - [[Geen andere goden]]
 
 U zult geen andere goden voor Mijn aangezicht hebben.
 ~ [Exodus 20:3](https://gezinvoorgod.nl/studiebijbel/exodus/20#v3) (SVnu)

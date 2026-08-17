@@ -61,6 +61,10 @@ Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-
 ---
 # Eten
 
+- Wat eten? Wat niet?
+- Hoeveel eten?
+- Wanneer eten? En wanneer niet?
+
 ---
 # Beweging
 
@@ -80,6 +84,12 @@ Humor:
 - Plezier (leuke dingen doen)
 - Humor (Pinterest ➔ memes, moppen)
 - Avontuur
+
+## Orde
+
+- Alles op een rij hebben
+- Georganiseerd zijn 
+- Planning
 
 %%
 

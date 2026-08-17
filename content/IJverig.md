@@ -44,3 +44,19 @@ Doorzetten ook al is het niet leuk. Doen wat er moet gebeuren. Doorzetten totdat
 
 ## Grit?
 
+## Volhardend
+
+## Trouw 
+
+- Trouw in je werk
+- Betrouwbaar
+- Op je kunnen bouwen
+
+---
+
+John Ploughman't Talk
+➔ ... is a mere eyeserver and not a christian at all ➔ about idleness
+
+Bijbel: 
+➔ niet naar ogendienst (dus ook werken als de "baas" er niet is)
+
