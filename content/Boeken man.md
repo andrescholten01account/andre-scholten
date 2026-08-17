@@ -10,8 +10,6 @@ Spreuken
 John Ploughman's Talk + Pictures 
 https://www.romans45.org/spurgeon/misc/plowman.htm
 
-Studies in the Sermon on the Mount - Martyn Lloyd-Jones
-
 The Salt Cellars - Spurgeon
 
 %%
@@ -21,6 +19,11 @@ https://archive.org/details/johnploughmansta00spur/mode/2up
 
 John Ploughman's pictures
 https://archive.org/details/johnploughmanspi00spu/mode/2up
+
+Studies in the Sermon on the Mount - Martyn Lloyd-Jones
+
+Joy Unspeakable - Martyn Lloyd-Jones
+-> Power & Renewal in the Holy Spirit
 
 Way to Wealth - Benjamin Franklin
 

@@ -11,13 +11,13 @@ publicatiedatum:
 1 Kor. 13
 %%
 
-2 - Blijdschap
+2 - [[Blijdschap]]
 
 %%
 Blijdschap van de Geest
 %%
 
-3 - Vrede
+3 - [[Vrede]]
 
 4 - Geduld
 

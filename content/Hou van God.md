@@ -19,19 +19,19 @@ publicatiedatum:
 U zult geen andere goden voor Mijn aangezicht hebben.
 ~ [Exodus 20:3](https://gezinvoorgod.nl/studiebijbel/exodus/20#v3) (SVnu)
 
-## Gebod 2 - Geen beelden
+## Gebod 2 - [[Geen beelden]]
 
 4 U zult zich geen gesneden beeld maken, of enige gelijkenis van hetgeen boven in de hemel is, of van hetgeen beneden op de aarde is, of van hetgeen in het water onder de aarde is.
 5 U zult zich daarvoor niet buigen, en ze niet dienen; want Ik, de HEERE, uw God, ben een ijverig God, Die de misdaad van de vaders bezoek aan de kinderen, aan het derde en aan het vierde geslacht van hen die Mij haten;
 6 en Die barmhartigheid doe aan duizenden van hen die Mij liefhebben en Mijn geboden onderhouden.
 ~ [Exodus 20:4-6](https://gezinvoorgod.nl/studiebijbel/exodus/20#v4) (SVnu)
 
-## Gebod 3 - Gods naam niet misbruiken
+## Gebod 3 - [[Gods naam niet misbruiken]]
 
 U zult de naam van de HEERE, uw God, niet ijdel gebruiken; want de HEERE zal niet onschuldig houden wie Zijn naam ijdel gebruikt.
 ~ [Exodus 20:7](https://gezinvoorgod.nl/studiebijbel/exodus/20#v7) (SVnu)
 
-## Gebod 4 - Houd je aan de rustdag
+## Gebod 4 - [[Houd je aan de rustdag]]
 
 8 Gedenk de sabbatdag, dat u die heiligt.
 9 Zes dagen zult u arbeiden en al uw werk doen;

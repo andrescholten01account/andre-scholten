@@ -26,6 +26,10 @@ On good nature and firmness (zie boeken John Ploughman)
 Resilient 
 Weerbaar (of is dit resilient?)
 
+Filippenzen 4
+Harten en gedachten bewaren
+-> beschermen
+
 ## Betrouwbaar
 
 - Van je op aan kunnen

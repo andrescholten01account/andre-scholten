@@ -24,3 +24,6 @@ Smeken
 
 Aanbiddend bidden
 
+Filippenzen 4
+gebed
+
