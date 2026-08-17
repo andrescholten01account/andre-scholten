@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "index.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -202,8 +202,10 @@
   },
   "active": "570e0045fb215e6e",
   "lastOpenFiles": [
-    "Apologetiek.md",
+    "Boeken.md",
+    "Boeken man.md",
     "index.md",
+    "Apologetiek.md",
     "Man.md",
     "Gezond & sterk.md",
     "Strategisch.md",
@@ -228,8 +230,6 @@
     "Niet liegen.md",
     "Niet stelen.md",
     "Geen ontrouw in het huwelijk.md",
-    "Niet doden.md",
-    "Eer je vader en moeder.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",

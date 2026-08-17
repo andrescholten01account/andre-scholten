@@ -25,6 +25,8 @@ Studies in the Sermon on the Mount - Martyn Lloyd-Jones
 Joy Unspeakable - Martyn Lloyd-Jones
 -> Power & Renewal in the Holy Spirit
 
+Spurgeon's Quotes: The Definitive Collection
+
 Way to Wealth - Benjamin Franklin
 
 The Art of Manliness - Manvotionals - Brett McKay
