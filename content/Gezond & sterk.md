@@ -87,7 +87,9 @@ Humor:
 
 ## Orde
 
-![[Naamloos-modified.jpg|450]]
+![[Naamloos-modified.jpg]]
+
+![[Orde.jpg]]
 
 - Ordelijk denken
 - Alles op een rij hebben
