@@ -24,7 +24,7 @@ De man als leider van het gezin
 > ~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
 
 > Husbands should try to make home happy and holy.
-> ~ Charles Spurgeon
+> ~ Charles Spurgeon (als John Ploughman)
 
 [[Over deze site|Lees meer]] 
 
