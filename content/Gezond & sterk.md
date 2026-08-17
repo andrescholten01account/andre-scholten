@@ -90,6 +90,7 @@ Humor:
 - Alles op een rij hebben
 - Georganiseerd zijn 
 - Planning
+- [[Strategisch]]
 
 %%
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Man.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Man"
             }
           }
         ]
@@ -202,9 +202,11 @@
   },
   "active": "570e0045fb215e6e",
   "lastOpenFiles": [
-    "Sociale vaardigheden.md",
-    "index.md",
+    "Gezond & sterk.md",
+    "Strategisch.md",
     "Man.md",
+    "index.md",
+    "Sociale vaardigheden.md",
     "Vrucht van de Geest.md",
     "Hou van je naaste.md",
     "Zelfbeheersing.md",
@@ -226,8 +228,6 @@
     "Hou van God.md",
     "Houd je aan de rustdag.md",
     "Gods naam niet misbruiken.md",
-    "Geen beelden.md",
-    "Geen andere goden.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",
