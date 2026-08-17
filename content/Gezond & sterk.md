@@ -87,8 +87,6 @@ Humor:
 
 ## Orde
 
-![[Orde.jpg|450]]
-
 - Ordelijk denken
 - Alles op een rij hebben
 - Georganiseerd zijn 
