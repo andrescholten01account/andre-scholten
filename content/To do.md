@@ -23,50 +23,38 @@ publicatiedatum:
 ---
 ## Bronnen
 
-[https://platform.claude.com/dashboard](https://platform.claude.com/dashboard) ➔ checken claude tegoed
-
-[https://relight.app/](https://relight.app/)
-
-[https://charlesspurgeon.nl/spurgeon-studiebijbel/](https://charlesspurgeon.nl/spurgeon-studiebijbel/) 
-
-Pentekeningen:
-
-- John Ploughman’s Talk + Pictures ➔ anekopress
-- Divine and moral songs children
-- Pilgrims Progress ➔ aneko press
-- AI - pentekeningen ➔ de tekeningen van de boeken hierboven invoeren (bij voorkeur echte tekeningen zoeken)
-- Misschien ook andere boekjes van gedichten voor kinderen (en gebedenboekjes voor kinderen)
-- Oude tekeningen: [https://publicdomainreview.org/sources/](https://publicdomainreview.org/sources/)
+- [https://platform.claude.com/dashboard](https://platform.claude.com/dashboard) ➔ checken claude tegoed
+- [https://relight.app/](https://relight.app/)
+- [https://charlesspurgeon.nl/spurgeon-studiebijbel/](https://charlesspurgeon.nl/spurgeon-studiebijbel/) 
 
 ---
 ## To do
-
-1 - footer weg -> dit voor de hoofdsite + StudieBijbel
 
 2 - weg bij de StudieBijbel:
 
 a. tab met Bijbeluitleg
 
-b. lampje in het menu -> de functie wel behouden
-
 c. functie bij kopieren en plakken van Bijbelvers -> er staat nu altijd (SVnu) -> dit moet weg
 
 ---
 
-1 - Mijn laptop is heel erg langzaam ➔ komt dit door de website? Dat er dingen geuploaded worden? Ik zie trouwens continue OneDrive drraaien ➔ het kan ook komen doordat er veel foto's bekeken zijn en dingen gedownload worden naar de harde schijf 
+1 - De witte ruimte aan de onderkant van de site moet even groot zijn als de witte ruimte aan de bovenkant van de site ➔ dit geldt voor de hoofdsite + de StudieBijbel
 
+2 - Bij mobiel is er bij de tabs een scrollmogelijkheid naar rechts ➔ dit is niet meer nodig omdat er nog maar 3 tabs zijn 
+
+---
+
+1 - Mijn laptop is heel erg langzaam ➔ komt dit door de website? Dat er dingen geuploaded worden? Ik zie trouwens continue OneDrive drraaien ➔ het kan ook komen doordat er veel foto's bekeken zijn en dingen gedownload worden naar de harde schijf 
+➔ ook als onedrive op pauze staat is de laptop erg langzaam 
 
 -------------------------------------------------------------------
 
-  
-
 Speelt dit nog?
-
-  
+ 
 
 Rond de mapnaam-hernoeming pinksterzegen -> andre-scholten af.
 
-  
+ 
 
 Context: de GitHub-repo is al hernoemd (andrescholten01account/pinksterzegen ->
 
