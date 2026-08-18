@@ -41,10 +41,19 @@ Pentekeningen:
 ---
 ## To do
 
-1 - Als er een Bijbeltekst wordt gekopieerd, dan staat erbij (SVnu) ➔ dit wil ik er niet meer bij hebben 
+1 - footer weg -> dit voor de hoofdsite + StudieBijbel
 
-2 - Footer verwijderen op de hoofdsite + de StudieBijbel
+2 - weg bij de StudieBijbel:
 
+a. tab met Bijbeluitleg
+
+b. lampje in het menu -> de functie wel behouden
+
+c. functie bij kopieren en plakken van Bijbelvers -> er staat nu altijd (SVnu) -> dit moet weg
+
+---
+
+1 - Mijn laptop is heel erg langzaam ➔ komt dit door de website? Dat er dingen geuploaded worden? Ik zie trouwens continue OneDrive drraaien ➔ het kan ook komen doordat er veel foto's bekeken zijn en dingen gedownload worden naar de harde schijf 
 
 
 
