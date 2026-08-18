@@ -37,11 +37,9 @@ De man als leider van het gezin
 - [[Over deze site]]
 - [[Contact]]
 
----
 ## Meer
 
 - [StudieBijbel](https://gezinvoorgod.nl/studiebijbel/genesis/1/)
-
 - [[To do]]
 - [[Technische tips]]
 - [[Verantwoording]]
