@@ -40,6 +40,8 @@ Pentekeningen:
 ---
 ## To do
 
+1 - Als er een Bijbeltekst wordt gekopieerd, dan staat erbij (SVnu) ➔ dit wil ik er niet meer bij hebben 
+
 1 - alle Bijbelverwijzingen staan nu onder "chips" -> ik wil dat dit een link wordt (zoals er eerder was bij NAVE en TTT via /bibliotheek -> pas dit overal toe op de hele site. 
 
 - als er meerdere Bijbelteksten naast elkaar staan, dan ; ertussen (in een andere kleur ter onderscheid)
