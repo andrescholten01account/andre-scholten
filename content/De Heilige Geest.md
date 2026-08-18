@@ -113,6 +113,8 @@ Want hij zal groot zijn voor de Heere; hij zal geen wijn en geen sterke drank dr
 
 %%
 
+[[De Volle Pinksterzegen]]
+
 [[Vol van de Heilige Geest - aantekening]]
 
 ### Leiding van de Heilige Geest

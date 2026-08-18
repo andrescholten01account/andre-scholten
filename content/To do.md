@@ -18,6 +18,7 @@ publicatiedatum:
 - [[#Bijbeluitleg]]
 - [[#Ontwerp StudieBijbel]]
 - [[#Ontwerp Gezin voor God]]
+- [[Extra functies]]
 
 ---
 ## Bronnen
@@ -832,4 +833,13 @@ Logo/favicon: hart met vlam eruit
 ![[Pasted image 20260808072337.png|300]]
 
 ---
+## Extra functies
+
+## Bloggedeelte
+
+De code hieronder kan ik op de homepage zetten, dan komen de blogs (de aangevinkt zijn) op de homepage
+
+<!-- BLOG-SECTIE-BEGIN: niet handmatig bewerken, wordt automatisch gevuld -->
+<div id="blog-widget"></div>
+<!-- BLOG-SECTIE-EIND -->
 

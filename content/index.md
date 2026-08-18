@@ -40,26 +40,11 @@ De man als leider van het gezin
 ---
 ## Meer
 
-- [[Basis christelijk geloof|Basis]]
 - [StudieBijbel](https://gezinvoorgod.nl/studiebijbel/genesis/1/)
-- [[De Volle Pinksterzegen|Boek]]
 
-- [[To do Gezin voor God]]
+- [[To do]]
 - [[Obsidian]]
 - [[Verantwoording]]
-- [[Copyright policy]]
-- [[Bronnen afbeeldingen]]
-- [[Extra functies]]
-
-## Privé
-
-- [[Geschiedenis]]
-- [[Geloofsbelijdenissen]]
-- [[Apologetiek]]
-- [[Logica voor christenen]]
-- [[Sociale vaardigheden]]
-- [[Persoonlijk voor mij]]
-- [[Woord van God voor mij]]
 
 %%
 

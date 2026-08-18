@@ -2,6 +2,8 @@
 * [[Verantwoording StatenvertalingNu]]
 * [[Verantwoording StatenvertalingNu_brief]]
 * [[Verantwoording StudieBijbel]]
+- [[Copyright policy]]
+- [[Bronnen afbeeldingen]]
 
 %%
 

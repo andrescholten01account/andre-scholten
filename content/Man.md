@@ -39,7 +39,15 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 %%
 
-Aantekeningen
+- [[Basis christelijk geloof|Basis]]
+- [[Geloofsbelijdenissen]]
+- [[Apologetiek]]
+- [[Logica voor christenen]]
+- [[Sociale vaardigheden]]
+
+- [[Geschiedenis]]
+- [[Persoonlijk voor mij]]
+- [[Woord van God voor mij]]
 
 %%
 
