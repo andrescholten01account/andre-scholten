@@ -342,7 +342,8 @@ KJV ➔ Pure Camebridgde edition -> zie die ene site + e-sword modules
 
 [https://berean.bible/downloads.htm](https://berean.bible/downloads.htm)
 
-  
+https://read.openbible.uk/nl-NL/bible/ -> deze kan ik op gezinvoorgod.nl zetten = open source ➔ linkje ernaar toe  
+
 
 -------------------------------------------------------------------
 
