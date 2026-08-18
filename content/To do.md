@@ -56,15 +56,6 @@ c. functie bij kopieren en plakken van Bijbelvers -> er staat nu altijd (SVnu) -
 1 - Mijn laptop is heel erg langzaam ➔ komt dit door de website? Dat er dingen geuploaded worden? Ik zie trouwens continue OneDrive drraaien ➔ het kan ook komen doordat er veel foto's bekeken zijn en dingen gedownload worden naar de harde schijf 
 
 
-
-
-1 - alle Bijbelverwijzingen staan nu onder "chips" -> ik wil dat dit een link wordt (zoals er eerder was bij NAVE en TTT via /bibliotheek -> pas dit overal toe op de hele site. 
-
-- als er meerdere Bijbelteksten naast elkaar staan, dan ; ertussen (in een andere kleur ter onderscheid)
-
-3 - In de footer moet StudieBijbel nog doorlinken naar [https://andre-scholten.nl/studiebijbel/genesis/1/](https://andre-scholten.nl/studiebijbel/genesis/1/)
- 
-
 -------------------------------------------------------------------
 
   
@@ -135,9 +126,7 @@ Doe dit:
 
   
 
-De vertaling "De Volle Pinksterzegen" (het boekproject) blijft vanzelfsprekend
 
-die naam — dit raakt alleen de mapnaam van de website-repo.
 
   
 
@@ -247,19 +236,7 @@ https://biblehub.com/genesis/1-1.htm#crossref
 
 -------------------------------------------------------------------
 
-Kanttekeningen fixen:
-
-https://andre-scholten.nl/studiebijbel/johannes/3/ -> engelse kanttekeningen checken op Joh. 3:16
-
   
-
-For God so loved the World [That is, not onely the Jews, but also the Gentiles, scattered throughout the whole world, Joh 11:51,52. 1Jn 2:2. of this love of God see more largely, Rom 5:6,8. and 8.32.] that have gave his only begotten Son, that evry one that believeth in him, might not not perish but have everlasting life.
-
-  
-
--> onely ? 
-
--> evry ? 
 
   
 
@@ -279,15 +256,7 @@ https://andre-scholten.nl/studiebijbel/johannes/4/
 
 -> thorow ? 
 
-  
 
-https://andre-scholten.nl/studiebijbel/genesis/1/
-
--> Kanttekeningen Statenvertaling EN
-
-and god said let there be expansion of the heaven 
-
--> God moet met hoofdletter
 
   
 
@@ -297,7 +266,6 @@ and god said let there be expansion of the heaven 
 
 The SWORD Project (CrossWire Bible Society): De spil achter bijna alle gratis Bijbelsoftware. In hun module-archieven vind je de ruwe, perfect gecorrigeerde bronbestanden van zowel Nave, Torrey als TSK.
 
-  
 
 [https://www.kaggle.com/datasets/bradystephenson/bibledata](https://www.kaggle.com/datasets/bradystephenson/bibledata)
 
@@ -330,10 +298,7 @@ The SWORD Project (CrossWire Bible Society): De spil achter bijna alle gratis Bi
   
 
 -------------------------------------------------------------------
-
 # Bijbelvertalingen
-
-  
 
 Deze voor Engels?
 
@@ -570,122 +535,20 @@ https://www.openbible.info/labs/cross-references/ -> zie footer
 
 # Kwaliteitscontrole
 
-  
-
-Kloppen de kanttekeningen bij de Statenvertaling in het Nederlands?
-
-  
-
-…
-
-  
-
-Kloppen de kanttekeningen bij de Statenvertaling in het Engels?
-
-  
-
--> Hier staan een aantal fouten in 
-
-  
-
-—--------------------------------------
-
-  
-
-kanttekeningen Engels -> klopt niet:
-
-  
-
-Kanttekeningen Statenvertaling EN
-
-For God sent his son into the world, that he should condemn world[Gr. judge, that is condemn the world [Gr. that is condemn or damn] but that the world [that is, those of the world which shall believe in him, aswell Gentiles as Jews] by him should be saved.
-
-  
-
--> KJV:
-
-  
-
-For God sent not his Son into the world to condemn the world; but that the world through him might be saved.
-
-  
-
--> that he should condemn -> not his Son into the world to condemn the world
-
-  
-
--------
-
-  
-
-Kanttekeningen Statenvertaling EN
-
-For God so loved the World [That is, not onely the Jews, but also the Gentiles, scattered throughout the whole world, Joh 11:51,52. 1Jn 2:2. of this love of God see more largely, Rom 5:6,8. and 8.32.] that have gave his only begotten Son, that evry one that believeth in him, might not not perish but have everlasting life.
-
-  
-
--> ervoor zorgen dat alle Bijbelverzen een popup tonen
-
-  
-
-—----------
-
-  
-
-kanttekeningen nederlands vergelijken met Statenvertaling.nl
-
--> o.a. de getallen bij het Bijbelvers -> zijn die hetzelfde?
-
-  
-
-—---------
-
-  
-
-checken:
-
-  
-
-A. Juiste versies
-
-  
-
-KJV -> juiste versie? 
-
-  
-
 SV -> juiste versie?
-
 Een goede online versie vinden van de Statenvertaling die helemaal klopt
 
-  
-  
-
 Nave -> juiste versie? is die compleet 
-
-- kijk ook naar de opmaak: https://www.blueletterbible.org/search/Dictionary/viewTopic.cfm?topic=ET0001513,NT0002043,TT0000246,VT0001213,BT0001689
-
-- kijk ook naar de andere onderwerpen die erbij staan 
-
-  
+➔ kijk ook naar de opmaak: https://www.blueletterbible.org/search/Dictionary/viewTopic.cfm?topic=ET0001513,NT0002043,TT0000246,VT0001213,BT0001689
+➔ kijk ook naar de andere onderwerpen die erbij staan 
 
 TSK -> juiste versie? -> is die compleet?
 
-  
-
 TTT -> juiste versie -> is dit compleet
-
-- kijk ook naar de opmaak: -> kijk ook naar de opmaak: https://www.bible-topics.com/Heaven.html
-
-  
-
--> checken met:
-
+➔ kijk ook naar de opmaak: -> kijk ook naar de opmaak: https://www.bible-topics.com/Heaven.html
+➔ checken met:
 http://www.biblesupport.com/e-sword-downloads/
-
 https://www.bibleanalyzer.com/modules.html
-
-  
 
 Is alles goed gekoppeld nu?
 
