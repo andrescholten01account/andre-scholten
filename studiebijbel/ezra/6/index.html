@@ -44,7 +44,6 @@
   .hfdnav select { font-family:"Lora"; font-size:.85rem; border:1px solid var(--border); border-radius:999px; padding:.3rem 1.6rem .3rem .8rem; background:#fff; color:var(--accent-donker); cursor:pointer; }
 
   .navselect { font-family:"Lora"; font-size:.85rem; border:1px solid var(--border); border-radius:999px; padding:.3rem 1.6rem .3rem .8rem; background:#fff; color:var(--accent-donker); cursor:pointer; display:inline-flex; align-items:center; text-decoration:none; }
-  #bibliotheekknop { padding:.3rem .7rem; font-size:1rem; line-height:1; }
   /* mobiel (smal): natuurlijke DOM-volgorde boek→hoofdstuk→vertaling→lampje,
      wrapt dan als 'boek hoofdstuk' boven / 'vertaling lampje' onder */
   @media (min-width: 641px) {
@@ -159,14 +158,6 @@
 <div id="bijbel"></div>
 <section id="notenlijst"></section>
 
-<footer class="site-footer">
-  <a href="/blog">Blog</a>
-  <span class="nav-sep"> | </span>
-  <a href="/over-deze-site">Over deze site</a>
-  <span class="nav-sep"> | </span>
-  <a href="/contact">Contact</a>
-</footer>
-
 </div>
 <div id="popup"></div>
 <div id="toast">Gekopieerd</div>
@@ -208,7 +199,6 @@ const nummers = Object.keys(D.vertalingen.SVnu);
     `<select id="boekkies">${boekOpties}</select>` +
     `<select id="hfdkies">${hfdOpties}</select>` +
     `<select id="vertaalkies" class="navselect" title="Kies vertaling">${vertaalOpties}</select>` +
-    `<a class="navselect" id="bibliotheekknop" href="../../bibliotheek/" title="Bibliotheek">💡</a>` +
     `</span>` +
     (m.volgende ? `<a class="navknop" href="${m.volgende.href}">${m.volgende.label}</a>` : '<span class="navknop uit">›</span>');
   document.getElementById('vertaalkies').onchange = e => { vertaling = e.target.value; bouwRijen(); };
@@ -302,7 +292,7 @@ bouwRijen();
 /* ---------- kopieerfunctie ---------- */
 function kopieerVers(n) {
   const tekst = (D.vertalingen.SVnu[n]||'').replace(/\[\d+\]/g, '').replace(/\*/g,'');
-  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n}) (SVnu)`).then(() => {
+  navigator.clipboard.writeText(`${tekst}\n~ [${HFD}:${n}](${BASIS_URL}#v${n})`).then(() => {
     toast.classList.add('zichtbaar');
     setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
   });
@@ -448,7 +438,6 @@ function renderPaneel(n) {
     <div class="ntab ${eerste === 'verwijzingen' ? 'actief' : ''} ${heeftV ? '' : 'leeg'}" data-tab="verwijzingen" data-n="${n}">Verwijzingen</div>
     <div class="ntab ${eerste === 'onderwerpen' ? 'actief' : ''} ${heeftO ? '' : 'leeg'}" data-tab="onderwerpen" data-n="${n}">Onderwerpen</div>
     <div class="ntab ${eerste === 'vergelijk' ? 'actief' : ''}" data-tab="vergelijk" data-n="${n}">Vertalingen</div>
-    <div class="ntab" data-tab="bijbeluitleg" data-n="${n}">Bijbeluitleg</div>
   </div><div class="ninhoud">${paneelInhoud(n, eerste)}</div>`;
 }
 function toggle(n) {
@@ -624,7 +613,7 @@ if (location.hash.match(/^#v\d+$/)) {
       const tekst = data && data[ref.vers];
       if (!tekst) return;
       const url = location.origin + '/studiebijbel/' + ref.slug + '/' + ref.hfd + '#v' + ref.vers;
-      const kopie = tekst.replace(/\*/g, '') + `\n~ [${chip.textContent}](${url}) (SVnu)`;
+      const kopie = tekst.replace(/\*/g, '') + `\n~ [${chip.textContent}](${url})`;
       navigator.clipboard.writeText(kopie).then(() => {
         toast.classList.add('zichtbaar');
         setTimeout(() => toast.classList.remove('zichtbaar'), 1400);

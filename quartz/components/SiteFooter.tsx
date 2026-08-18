@@ -1,27 +1,8 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-function pathToRoot(slug: string): string {
-  let rootPath = slug
-    .split("/")
-    .filter((x) => x !== "")
-    .slice(0, -1)
-    .map(() => "..")
-    .join("/")
-  return rootPath.length === 0 ? "." : rootPath
-}
-
-const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-  const baseDir = pathToRoot(fileData.slug as string)
-
+const SiteFooter: QuartzComponent = (_props: QuartzComponentProps) => {
   return (
-    <footer class="site-footer">
-      <div class="site-footer-row">
-        <a href={`${baseDir}/blog`}>Blog</a>
-        <span class="nav-sep"> | </span>
-        <a href={`${baseDir}/over-deze-site`}>Over deze site</a>
-        <span class="nav-sep"> | </span>
-        <a href={`${baseDir}/contact`}>Contact</a>
-      </div>
+    <>
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -76,7 +57,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
                 var tekst = data && data[ref.vers];
                 if (!tekst) return;
                 var url = 'https://gezinvoorgod.nl/studiebijbel/' + ref.slug + '/' + ref.hfd + '#v' + ref.vers;
-                var kopie = tekst.replace(/\\*/g, '') + '\\n~ [' + a.textContent + '](' + url + ') (SVnu)';
+                var kopie = tekst.replace(/\\*/g, '') + '\\n~ [' + a.textContent + '](' + url + ')';
                 navigator.clipboard.writeText(kopie).then(toonToast);
               });
             }
@@ -212,7 +193,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
           `,
         }}
       />
-    </footer>
+    </>
   )
 }
 
