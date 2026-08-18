@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To do.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To do"
+              "title": "index"
             }
           }
         ]
@@ -202,14 +202,14 @@
   },
   "active": "570e0045fb215e6e",
   "lastOpenFiles": [
-    "Extra functies.md",
-    "To do.md",
-    "index.md",
     "Verantwoording.md",
+    "index.md",
+    "Technische tips.md",
+    "To do.md",
+    "Extra functies.md",
     "Vader.md",
     "Bronnen gezin.md",
     "Copyright policy.md",
-    "Obsidian.md",
     "Man.md",
     "Basis christelijk geloof.md",
     "De Heilige Geest.md",

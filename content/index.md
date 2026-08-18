@@ -43,8 +43,7 @@ De man als leider van het gezin
 - [StudieBijbel](https://gezinvoorgod.nl/studiebijbel/genesis/1/)
 
 - [[To do]]
-- [[Obsidian]]
+- [[Technische tips]]
 - [[Verantwoording]]
 
 %%
-
