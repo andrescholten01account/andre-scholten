@@ -30,12 +30,6 @@ De man als leider van het gezin
 
 </div>
 
----
-
-<!-- BLOG-SECTIE-BEGIN: niet handmatig bewerken, wordt automatisch gevuld -->
-<div id="blog-widget"></div>
-<!-- BLOG-SECTIE-EIND -->
-
 %%
 ## Footer
 
@@ -55,6 +49,7 @@ De man als leider van het gezin
 - [[Verantwoording]]
 - [[Copyright policy]]
 - [[Bronnen afbeeldingen]]
+- [[Extra functies]]
 
 ## Privé
 
