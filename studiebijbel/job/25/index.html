@@ -20,9 +20,9 @@
   }
   * { box-sizing: border-box; }
   body { font-family: var(--bodyFont); background: var(--bg); color: var(--tekst); margin: 0; line-height: 1.7; }
-  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 4rem; }
+  .omslag { max-width: 900px; margin: 0 auto; padding: 1.2rem 1rem 2.6rem; }
   .site-header { text-align:center; width:100%; margin:1.4rem 0 .4rem; line-height: normal; }
-  @media (min-width: 801px) { .site-header { margin-top: 4.8rem; } }
+  @media (min-width: 801px) { .site-header { margin-top: 4.8rem; } .omslag { padding-bottom: 6rem; } }
   .page-title { font-size:1.75rem; font-family:"Lora"; text-align:center; margin:0 0 .4rem; font-weight:700; }
   .page-title a { color:var(--secondary); text-decoration:none; background-color:transparent !important; }
   .page-title a:hover { color:var(--tertiary); }
@@ -81,8 +81,8 @@
   /* naslagpaneel */
   .paneel { display: none; margin: 0 0 .6rem 0; background: #fff; box-shadow: inset 3px 0 0 var(--accent); border-radius: 0 0 8px 8px; padding: .9rem 1.1rem 1rem; font-family: "Lora"; font-size: 1rem; }
   .paneel.open { display: block; }
-  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; scroll-snap-type: x proximity; }
-  .ntabs .ntab { scroll-snap-align: start; flex: 0 0 auto; }
+  .ntabs { display: flex; gap: .4rem; margin-bottom: .8rem; flex-wrap: wrap; }
+  
   .ntab { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 6px 6px 0 0; padding: .28rem .95rem; cursor: pointer; font-size: .8rem; color: #666; }
   .ntab.actief { background: var(--accent); color: #fff; border-color: var(--accent); }
   .ntab.leeg { opacity: .4; cursor: default; }
@@ -142,7 +142,7 @@
   
   
   footer.site { margin-top: 2.5rem; margin-bottom: -3rem; border-top: 1px solid var(--border); padding-top: 1rem; text-align: center; font-family: "Lora"; font-size: .72rem; color: #999; line-height: 1.7; }
-  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 3rem; } header.site h1 { font-size: 1.5rem; } }
+  @media (max-width: 640px) { .omslag { padding: .6rem .7rem 2rem; } header.site h1 { font-size: 1.5rem; } }
 .zoekbalk { max-width:640px; margin:0 auto 1rem; }.zoekinvoer { width:100%; box-sizing:border-box; font-family:"Lora"; font-size:.9rem; border:1px solid var(--border); border-radius:8px; padding:.6rem .8rem; resize:vertical; color:var(--tekst); background:#fff; }.zoekinvoer::placeholder { color:#aaa; }.zoekknoprij { display:flex; justify-content:center; margin-top:.5rem; }.zoekknop { font-family:"Lora"; font-size:.85rem; border:1px solid var(--accent); background:#fff; color:var(--accent-donker); border-radius:999px; padding:.4rem 1.1rem; cursor:pointer; }.zoekknop:hover { background:var(--accent); color:#fff; }.zoekresultaten { margin-top:.8rem; display:flex; flex-wrap:wrap; gap:.4rem; justify-content:center; }.zoekresultaten a { font-family:"Lora"; font-size:.8rem; border:1px solid var(--border); border-radius:999px; padding:.25rem .7rem; text-decoration:none; color:var(--accent-donker); background:#fff; }.zoekresultaten a:hover { background:var(--bg-soft); }.zoekresultaten .zoek-leeg { color:#999; font-size:.85rem; font-family:"Lora"; }</style>
 </head>
 <body>
@@ -606,6 +606,12 @@ if (location.hash.match(/^#v\d+$/)) {
       .then(r => r.ok ? r.json() : null).catch(() => null);
     return vcache[sleutel];
   }
+  // slug -> volledige boeknaam (voor citaten met de volle boeknaam i.p.v. de afkorting)
+  const boeknaamPerSlug = {};
+  (D.meta.boeken || []).forEach(b => {
+    const m = b.href.match(/^\.\.\/\.\.\/([^/]+)\//);
+    if (m) boeknaamPerSlug[m[1]] = b.naam;
+  });
   // dubbele rechtsklik (binnen 500ms, zelfde verwijzing) kopieert het vers
   // i.p.v. de vertalingen-popup te tonen (enkele rechtsklik blijft bestaand gedrag)
   function kopieerVerwijzing(chip, ref) {
@@ -613,7 +619,8 @@ if (location.hash.match(/^#v\d+$/)) {
       const tekst = data && data[ref.vers];
       if (!tekst) return;
       const url = location.origin + '/studiebijbel/' + ref.slug + '/' + ref.hfd + '#v' + ref.vers;
-      const kopie = tekst.replace(/\*/g, '') + `\n~ [${chip.textContent}](${url})`;
+      const naam = boeknaamPerSlug[ref.slug] || chip.textContent.replace(/\s+\d+:\d+.*$/, '');
+      const kopie = tekst.replace(/\*/g, '') + `\n~ [${naam} ${ref.hfd}:${ref.vers}](${url})`;
       navigator.clipboard.writeText(kopie).then(() => {
         toast.classList.add('zichtbaar');
         setTimeout(() => toast.classList.remove('zichtbaar'), 1400);
