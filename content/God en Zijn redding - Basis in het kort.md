@@ -1,3 +1,7 @@
+1 Toen sprak God al deze woorden en zei:
+2 Ik ben de HEERE, uw God, Die u uit Egypteland, uit het diensthuis, uitgeleid heb.
+~ [Exodus 20:1-2](https://gezinvoorgod.nl/studiebijbel/exodus/20#v1) 
+
 ## GOD
 
 God is de Schepper van de hemel en de aarde¹, en de mens². Hij is almachtig³, alwetend⁴, eeuwig⁵, alomtegenwoordig⁶, heilig⁷, en rechtvaardig⁸.

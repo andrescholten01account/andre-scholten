@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Man.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Man"
             }
           }
         ]
@@ -202,17 +202,18 @@
   },
   "active": "6f05a4ac3bd1bf5a",
   "lastOpenFiles": [
+    "index.md",
     "Man.md",
-    "Standvastig.md",
     "Hou van God.md",
+    "Standvastig.md",
+    "God en Zijn redding - Basis in het kort.md",
     "God en Zijn redding.md",
     "Basis christelijk geloof.md",
     "God.md",
+    "Kern.md",
+    "In Gods wil wandelen.md",
     "Iedereen weet dat God bestaat.md",
     "De mens.md",
-    "index.md",
-    "In Gods wil wandelen.md",
-    "Basis in het kort.md",
     "God leren kennen.md",
     "Boekje - De basis van het christelijk geloof.md",
     "V2_De basis van het het Christelijk geloof_definitief.pdf",
@@ -228,7 +229,6 @@
     "Sociale vaardigheden.md",
     "Woord van God voor mij.md",
     "Persoonlijk voor mij.md",
-    "Technische tips.md",
     "Pasted image 20260819140307.png",
     "Pasted image 20260818205134.png",
     "Pasted image 20260818105302.png",

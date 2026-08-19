@@ -8,7 +8,7 @@ publicatiedatum:
 38 Dit is het eerste en het grootste gebod.
 ~ [Mattheüs 22:37-38](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
 
-## Introductie - [[God en Zijn redding]]
+## Introductie - [[God en Zijn redding - Basis in het kort|God en Zijn redding]]
 
 1 Toen sprak God al deze woorden en zei:
 2 Ik ben de HEERE, uw God, Die u uit Egypteland, uit het diensthuis, uitgeleid heb.
