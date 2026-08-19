@@ -3,18 +3,15 @@ Status: Draft
 draft: false
 ---
 > ... maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
-> ~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
+> ~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) 
 
-## Gezin naar Gods hart
+Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het gezin, hierin? Hoe leef je als man, echtgenoot, en vader tot eer van God?
 
-Het is mijn verlangen om als gezin te leven tot eer van God. Dat we dicht bij God leven, allemaal eeuwig leven hebben, en een licht voor de wereld zijn. 
+## Visie
 
-> [!important] Visie
-> 
-> Win een man, win het gezin
-> Win het gezin, win de gemeente
-> Win de gemeente, win het land
-> 
+Win een man, win het gezin
+Win het gezin, win de gemeente
+Win de gemeente, win het land
 
 %%
 De focus ligt op het ontwikkelen van het leiderschap van een man in het gezin.
@@ -48,8 +45,6 @@ Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huweli
 > ~ [Efeze 6:4](https://gezinvoorgod.nl/studiebijbel/efeze/6#v4) (SVnu)
 
 Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis?
-
-De focus van deze website is het gezin. Hierbij ga ik, als man, uit van de positie van de man. Ik wil groeien, en blijven groeien, in de rol die God mij gegeven heeft als man, echtgenoot, en vader.
 
 Veel zegen op deze website. Ik hoop dat je als gezin dichter naar God toe groeit!
 

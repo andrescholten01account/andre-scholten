@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Over deze site.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Over deze site"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "To do"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,16 +214,17 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "570e0045fb215e6e",
+  "active": "36be9f2246c91b8d",
   "lastOpenFiles": [
-    "2026-08-19.md",
-    "To do.md",
     "index.md",
+    "Blog.md",
+    "Man.md",
+    "To do.md",
+    "Verantwoording.md",
+    "2026-08-19.md",
     "Pasted image 20260818205134.png",
     "Back-up plan.md",
     "Pasted image 20260818105302.png",
-    "Man.md",
-    "Verantwoording.md",
     "Technische tips.md",
     "Extra functies.md",
     "Vader.md",
@@ -246,7 +246,6 @@
     "Vrucht van de Geest.md",
     "Hou van je naaste.md",
     "Zelfbeheersing.md",
-    "Zachtmoedigheid.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",
