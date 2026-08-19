@@ -48,7 +48,8 @@ Dat is dus niet goed. Het moet worden als dit:
 Ga heen, en verzamel de oudsten van Israël, en zeg tegen hen: De HEERE, de God van uw vaderen, is mij verschenen, de God van Abraham, Izak en Jakob, en Hij zei: Ik heb u getrouw bezocht, en gezien wat u in Egypte is aangedaan;
 ~ [Exodus 3:16](https://gezinvoorgod.nl/studiebijbel/exodus/3#v16)
 
-➔ controleer dit bij de hele StudieBijbel of dit goed gaat en pas aan waar nodig.
+➔ controleer dit bij de hele StudieBijbel of dit goed gaat en pas aan waar nodig
+➔ de afkortingen bij de tekstverwijzingen blijven dus wel staan, maar de kopieer- en plakfunctie verandert 
 
 ---
 
