@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Man.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Man"
+              "title": "index"
             }
           }
         ]
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Man.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,19 +202,21 @@
   },
   "active": "6f05a4ac3bd1bf5a",
   "lastOpenFiles": [
-    "Hou van God.md",
     "Man.md",
-    "In Gods wil wandelen.md",
+    "Standvastig.md",
+    "Hou van God.md",
     "God en Zijn redding.md",
     "Basis christelijk geloof.md",
-    "Basis in het kort.md",
-    "De mens.md",
     "God.md",
+    "Iedereen weet dat God bestaat.md",
+    "De mens.md",
+    "index.md",
+    "In Gods wil wandelen.md",
+    "Basis in het kort.md",
     "God leren kennen.md",
     "Boekje - De basis van het christelijk geloof.md",
     "V2_De basis van het het Christelijk geloof_definitief.pdf",
     "Dopen.md",
-    "index.md",
     "Vader.md",
     "Geloofsbelijdenissen.md",
     "Verklaringen geloofsbelijdenissen en catechismussen.md",
@@ -227,8 +229,6 @@
     "Woord van God voor mij.md",
     "Persoonlijk voor mij.md",
     "Technische tips.md",
-    "To do.md",
-    "Blog.md",
     "Pasted image 20260819140307.png",
     "Pasted image 20260818205134.png",
     "Pasted image 20260818105302.png",
