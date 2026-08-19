@@ -44,16 +44,14 @@ De focus ligt op 3 gebieden:
 Veel zegen op deze website. Ik hoop dat je als gezin dichter naar God toe groeit!
 
 In Christus verbonden,
-
-Foto
-
 André Scholten
-[[Over mij]]
-[[Contact]]
 
 </div>
 
 %%
+
+[[Over mij]]
+[[Contact]]
 
 De man als ==leider== van het gezin. ==Initiatief== nemen. Plannen. Vooruitkijken. Inspelen op wat er gaat komen. Regeren is vooruit zien.
 

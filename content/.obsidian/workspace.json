@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "index.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -232,8 +232,8 @@
   "active": "6f05a4ac3bd1bf5a",
   "lastOpenFiles": [
     "Man.md",
-    "Opbouwend.md",
     "index.md",
+    "Opbouwend.md",
     "Grondslag.md",
     "Vader.md",
     "To do.md",
