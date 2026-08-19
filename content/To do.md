@@ -103,16 +103,8 @@ Doe dit:
    in Obsidian, wijzend naar de nieuwe mapnaam — dat kan Claude niet voor me
 
    doen.
-
-  
-
-
-
-  
-
--------------------------------------------------------------------
-
-  
+   
+-----------------------------------------------------------------
 
 Checken of dit goed staat op de site.
 
