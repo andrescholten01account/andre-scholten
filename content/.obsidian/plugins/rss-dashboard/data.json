@@ -24,6 +24,7 @@
         "autoDeleteDurationDays": 30
       },
       "iconUrl": "https://allprodad.com/wp-content/uploads/cache/2020/11/favicon/1869495612.ico",
+      "lastFetchError": "Timed out",
       "feedId": "45d53fbe-e1e3-45a9-a964-b97df079ca1d"
     }
   ],
@@ -54,7 +55,7 @@
     }
   ],
   "refreshInterval": 60,
-  "lastRefreshTimestamp": 1787133972782,
+  "lastRefreshTimestamp": 1787138533675,
   "startupRefreshDelaySeconds": 5,
   "maxItems": 50,
   "defaultAutoDeleteDuration": 30,
@@ -262,6 +263,6 @@
   "metadataStorageMode": "plugin-default",
   "metadataStorageFolder": ".rss-dashboard-data",
   "metadataStorageSchemaVersion": 1,
-  "_syncNonce": "1787133973011-8",
+  "_syncNonce": "1787138533695-10",
   "_syncPad": "sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor sync-size-anchor "
 }
