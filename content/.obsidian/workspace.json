@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "To do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "To do"
             }
           },
           {
@@ -41,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zelfstandig.md",
+                "file": "Blog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zelfstandig"
+              "title": "Blog"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,12 +228,13 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "6f05a4ac3bd1bf5a",
+  "active": "36be9f2246c91b8d",
   "lastOpenFiles": [
-    "Man.md",
     "index.md",
-    "To do.md",
     "Blog.md",
+    "Man.md",
+    "Zelfstandig.md",
+    "To do.md",
     "Verantwoording.md",
     "Copyright policy.md",
     "Verantwoording StudieBijbel.md",
@@ -258,7 +258,6 @@
     "De Volle Pinksterzegen.md",
     "Boeken.md",
     "Boeken man.md",
-    "Apologetiek.md",
     "Orde.jpg",
     "Naamloos-modified.jpg",
     "Pasted image 20260813104809.png",
