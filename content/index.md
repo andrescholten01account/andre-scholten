@@ -37,9 +37,9 @@ Het ontwikkelen van het leiderschap van de man in het gezin.
 
 De focus ligt op 3 gebieden:
 
-Man
-Echtgenoot
-Vader
+[[Man]]
+[[Echtgenoot]]
+[[Vader]]
 
 </div>
 
