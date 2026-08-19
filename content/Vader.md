@@ -45,6 +45,11 @@ Stap 3: Wees actief betrokken bij je kinderen
 6. [[Breng tijd met je kinderen door]]
 
 ---
+
+> Husbands should try to make home happy and holy.
+> ~ Charles Spurgeon
+
+---
 ## Geloofsopvoeding
 
 De kinderen onderwijzen over God. Gods Woord inprenten. Mijn kinderen discipelen. 
