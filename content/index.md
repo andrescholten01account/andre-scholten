@@ -41,6 +41,8 @@ Man
 Echtgenoot
 Vader
 
+Veel zegen op deze website. Ik hoop dat je als gezin dichter naar God toe groeit!
+
 </div>
 
 %%
