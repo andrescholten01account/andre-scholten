@@ -23,8 +23,7 @@ De man als leider van het gezin
 > ... maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
 > ~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15)
 
-> Husbands should try to make home happy and holy.
-> ~ Charles Spurgeon
+Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het gezin, hierin? Hoe leef je als man, echtgenoot, en vader tot eer van God?
 
 [[Grondslag|Lees meer]] 
 

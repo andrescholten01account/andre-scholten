@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grondslag.md",
-                "mode": "source",
+                "file": "index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Grondslag"
+              "title": "index"
             }
           },
           {
@@ -216,13 +216,13 @@
   },
   "active": "36be9f2246c91b8d",
   "lastOpenFiles": [
-    "index.md",
     "Grondslag.md",
+    "To do.md",
+    "2026-08-19.md",
+    "index.md",
     "Blog.md",
     "Man.md",
-    "To do.md",
     "Verantwoording.md",
-    "2026-08-19.md",
     "Pasted image 20260818205134.png",
     "Back-up plan.md",
     "Pasted image 20260818105302.png",

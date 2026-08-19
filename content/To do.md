@@ -30,26 +30,9 @@ publicatiedatum:
 ---
 ## To do
 
-1 - De witte ruimte aan de onderkant van de site moet even groot zijn als de witte ruimte aan de bovenkant van de site ➔ dit geldt voor de hoofdsite + de StudieBijbel
+1 - De witruimte onder moet de helft minder: dit op de hoofdsite + StudieBijbel
 
-2 - Bij mobiel, bij de StudieBijbel, is er bij de tabs een scrollmogelijkheid naar rechts ➔ dit is niet meer nodig omdat er nog maar 3 tabs zijn 
-
-3 - Als ik een Bijbelvers kopieer, dan moet moet de tekstverwijzingen altijd de volledige Bijbelnaam zijn. Als ik de Bijbelverzen hieronder kopieer, dan krijg ik nu alleen de afkorting.
-
-![[Pasted image 20260818205134.png]]
-
-➔ dus dan wordt het zoals dit:
-
-Ga heen, en verzamel de oudsten van Israël, en zeg tegen hen: De HEERE, de God van uw vaderen, is mij verschenen, de God van Abraham, Izak en Jakob, en Hij zei: Ik heb u getrouw bezocht, en gezien wat u in Egypte is aangedaan;
-~ [Ex 3:16](https://gezinvoorgod.nl/studiebijbel/exodus/3#v16)
-
-Dat is dus niet goed. Het moet worden als dit:
-
-Ga heen, en verzamel de oudsten van Israël, en zeg tegen hen: De HEERE, de God van uw vaderen, is mij verschenen, de God van Abraham, Izak en Jakob, en Hij zei: Ik heb u getrouw bezocht, en gezien wat u in Egypte is aangedaan;
-~ [Exodus 3:16](https://gezinvoorgod.nl/studiebijbel/exodus/3#v16)
-
-➔ controleer dit bij de hele StudieBijbel of dit goed gaat en pas aan waar nodig
-➔ de afkortingen bij de tekstverwijzingen blijven dus wel staan, maar de kopieer- en plakfunctie verandert 
+2 - Bij mobiel, bij de StudieBijbel ➔ moeten de 3 taps naast elkaar 
 
 ---
 
