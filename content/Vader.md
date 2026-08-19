@@ -733,5 +733,11 @@ Psalm 101:2
 
 [[Dien met je gezin de HEERE!]]
 
+---
+
+https://smartphonevrij.substack.com/ 
+
+[Het effect van samenwonen vóór het huwelijk](https://weet-magazine.nl/artikelen/mens/relaties-en-seksualiteit/het-effect-van-samenwonen-voor-het-huwelijk/?utm_source=brevo&utm_medium=email&utm_campaign=Nieuwsbrief%20mei)
+
 %%
 
