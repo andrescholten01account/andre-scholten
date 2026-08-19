@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standvastig.md",
+                "file": "Man.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Standvastig"
+              "title": "Man"
             }
           }
         ]
@@ -202,9 +202,9 @@
   },
   "active": "6f05a4ac3bd1bf5a",
   "lastOpenFiles": [
+    "Standvastig.md",
     "Basis christelijk geloof.md",
     "God.md",
-    "Standvastig.md",
     "God en Zijn redding - Basis in het kort.md",
     "Kern.md",
     "Man.md",
