@@ -27,9 +27,9 @@ Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het 
 
 ## Visie
 
-> Win een man, win het gezin
-> Win het gezin, win de gemeente
-> Win de gemeente, win het land
+Win een man, win het gezin
+Win het gezin, win de gemeente
+Win de gemeente, win het land
 
 ## Missie
 
@@ -37,9 +37,9 @@ Het ontwikkelen van het leiderschap van een man in het gezin.
 
 De focus ligt op 3 gebieden:
 
-- Man
-- Echtgenoot
-- Vader
+Man
+Echtgenoot
+Vader
 
 Veel zegen op deze website. Ik hoop dat je als gezin dichter naar God toe groeit!
 
@@ -50,7 +50,7 @@ André Scholten
 
 %%
 
-[[persoonlijke geloofsbelijdenis]]
+[[Persoonlijke geloofsbelijdenis]]
 
 ## Footer
 
