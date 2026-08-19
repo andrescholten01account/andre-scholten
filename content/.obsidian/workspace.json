@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "De grondslag.md",
+                "file": "Doel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "De grondslag"
+              "title": "Doel"
             }
           },
           {
@@ -217,6 +217,7 @@
   "active": "36be9f2246c91b8d",
   "lastOpenFiles": [
     "index.md",
+    "Doel.md",
     "Blog.md",
     "Man.md",
     "To do.md",
@@ -245,7 +246,6 @@
     "Sociale vaardigheden.md",
     "Vrucht van de Geest.md",
     "Hou van je naaste.md",
-    "Zelfbeheersing.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",
