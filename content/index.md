@@ -32,9 +32,7 @@ De focus ligt op 3 gebieden:
 %%
 ## Hoofdmenu
 
-- [[Man]]
-- [[Echtgenoot]]
-- [[Vader]]
+[[Man]] | [[Echtgenoot]] | [[Vader]]
 
 ## Meer
 
