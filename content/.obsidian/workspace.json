@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis christelijk geloof.md",
+                "file": "Standvastig.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basis christelijk geloof"
+              "title": "Standvastig"
             }
           }
         ]
@@ -202,8 +202,8 @@
   },
   "active": "6f05a4ac3bd1bf5a",
   "lastOpenFiles": [
-    "God.md",
     "Basis christelijk geloof.md",
+    "God.md",
     "Standvastig.md",
     "God en Zijn redding - Basis in het kort.md",
     "Kern.md",
