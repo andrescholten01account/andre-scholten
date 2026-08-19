@@ -570,5 +570,15 @@ Bidden voor je gezin
 ➔Je vrouw en kinderen vragen om gebedspunten
 ➔ Waar kun jij voor bidden voor je vrouw en kinderen?
 
+---
+
+De man als ==leider== van het gezin. ==Initiatief== nemen. Plannen. Vooruitkijken. Inspelen op wat er gaat komen. Regeren is vooruit zien.
+
+➔ Pubertijd
+➔ Verkering
+➔ Seksualiteit
+➔ Pensioen
+➔ Kleinkinderen ➔ volgende generatie
+
 %%
 

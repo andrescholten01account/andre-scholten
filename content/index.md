@@ -50,21 +50,11 @@ André Scholten
 
 %%
 
-[[Over mij]]
-[[Contact]]
+[[persoonlijke geloofsbelijdenis]]
 
-De man als ==leider== van het gezin. ==Initiatief== nemen. Plannen. Vooruitkijken. Inspelen op wat er gaat komen. Regeren is vooruit zien.
-
-➔ Pubertijd
-➔ Verkering
-➔ Seksualiteit
-➔ Pensioen
-➔ Kleinkinderen ➔ volgende generatie
 ## Footer
 
 - [[Blog]]
-- [[Grondslag]]
-- [[Contact]]
 
 ## Meer
 
