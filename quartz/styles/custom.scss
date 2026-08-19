@@ -106,7 +106,9 @@ h1 {
 // Mobiel: meer ruimte en iets groter lettertype
 @media (max-width: 800px) {
   .page > #quartz-body {
-    padding: 0 1.8rem !important;
+    // bottom: evenveel als de 2rem lucht die boven de header ontstaat door
+    // de padding-top van de lege .sidebar.left-rij (zie base.scss)
+    padding: 0 1.8rem 2rem !important;
   }
 
   body {
@@ -152,12 +154,6 @@ h1 {
 // Spiegel dat hier zodat de pagina optisch gecentreerd oogt.
 .page > #quartz-body {
   padding-bottom: $topSpacing;
-
-  @media all and ($mobile) {
-    // boven ontstaat op mobiel 2rem lucht door de padding-top van de lege
-    // .sidebar.left-rij (zie base.scss) — dezelfde waarde hieronder spiegelen
-    padding-bottom: 2rem;
-  }
 }
 
 // Ingesloten video's (bv. YouTube-iframes uit Obsidian) responsive maken
