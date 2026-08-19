@@ -7,22 +7,6 @@ draft: false
 
 Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het gezin, hierin? Hoe leef je als man, echtgenoot, en vader tot eer van God?
 
-## Visie
-
-> Win een man, win het gezin
-> Win het gezin, win de gemeente
-> Win de gemeente, win het land
-
-## Missie
-
-Het ontwikkelen van het leiderschap van een man in het gezin.
-
-De focus ligt op 3 gebieden:
-
-- Man
-- Echtgenoot
-- Vader
-
 ## Man
 
 > ... Ik heb David gevonden, de zoon van Isaï, een man naar Mijn hart, die al Mijn wil zal doen.
@@ -43,34 +27,4 @@ Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huweli
 > ~ [Efeze 6:4](https://gezinvoorgod.nl/studiebijbel/efeze/6#v4) (SVnu)
 
 Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis?
-
-Veel zegen op deze website. Ik hoop dat je als gezin dichter naar God toe groeit!
-
-In Christus verbonden,
-
-Foto
-
-André Scholten
-[[Over mij]]
-[[Contact]]
-
-%%
-
-Toewijding. Blijven leren. Elke dag weer. Over vaderschap en huwelijk. Die twee. Over mijn eigen relatie met God lees ik in de Bijbel. 
-
-Toewijding.
-
-➔ Elke dag lezen over huwelijk, opvoeding, gezin. 
-
----
-
-De man als ==leider== van het gezin. ==Initiatief== nemen. Plannen. Vooruitkijken. Inspelen op wat er gaat komen. Regeren is vooruit zien.
-
-➔ Pubertijd
-➔ Verkering
-➔ Seksualiteit
-➔ Pensioen
-➔ Kleinkinderen ➔ volgende generatie
-
-%%
 

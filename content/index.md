@@ -25,11 +25,43 @@ De man als leider van het gezin
 
 Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het gezin, hierin? Hoe leef je als man, echtgenoot, en vader tot eer van God?
 
-[[Grondslag|Lees meer]] 
+## Visie
+
+> Win een man, win het gezin
+> Win het gezin, win de gemeente
+> Win de gemeente, win het land
+
+## Missie
+
+Het ontwikkelen van het leiderschap van een man in het gezin.
+
+De focus ligt op 3 gebieden:
+
+- Man
+- Echtgenoot
+- Vader
+
+Veel zegen op deze website. Ik hoop dat je als gezin dichter naar God toe groeit!
+
+In Christus verbonden,
+
+Foto
+
+André Scholten
+[[Over mij]]
+[[Contact]]
 
 </div>
 
 %%
+
+De man als ==leider== van het gezin. ==Initiatief== nemen. Plannen. Vooruitkijken. Inspelen op wat er gaat komen. Regeren is vooruit zien.
+
+➔ Pubertijd
+➔ Verkering
+➔ Seksualiteit
+➔ Pensioen
+➔ Kleinkinderen ➔ volgende generatie
 ## Footer
 
 - [[Blog]]

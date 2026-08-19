@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Man.md",
-                "mode": "source",
+                "file": "index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Man"
+              "title": "index"
             }
           }
         ],
@@ -231,11 +231,12 @@
   },
   "active": "6f05a4ac3bd1bf5a",
   "lastOpenFiles": [
-    "index.md",
-    "Vader.md",
     "Man.md",
-    "To do.md",
+    "Opbouwend.md",
+    "index.md",
     "Grondslag.md",
+    "Vader.md",
+    "To do.md",
     "2026-08-19.md",
     "Blog.md",
     "Verantwoording.md",
@@ -260,7 +261,6 @@
     "Naamloos-modified.jpg",
     "Sociale vaardigheden.md",
     "Vrucht van de Geest.md",
-    "Hou van je naaste.md",
     "Pasted image 20260813104809.png",
     "Pasted image 20260813104547.png",
     "Pasted image 20260811232307.png",
