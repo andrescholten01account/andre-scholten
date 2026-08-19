@@ -28,3 +28,7 @@ Waartoe zijn we gered?
 - Jezus volk ijverig in goede werken
 - gered om goede werken te doen
 
+1 - [[Basis in het kort]]
+
+2 - [[Basis christelijk geloof|Basis]]
+
