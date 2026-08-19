@@ -26,7 +26,7 @@ De man als leider van het gezin
 > Husbands should try to make home happy and holy.
 > ~ Charles Spurgeon
 
-[[Over deze site|Lees meer]] 
+[[Waarom deze site|Lees meer]] 
 
 </div>
 
@@ -34,7 +34,7 @@ De man als leider van het gezin
 ## Footer
 
 - [[Blog]]
-- [[Over deze site]]
+- [[Waarom deze site]]
 - [[Contact]]
 
 ## Meer
