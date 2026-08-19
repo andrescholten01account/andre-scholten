@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Zelfstandig.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Zelfstandig"
             }
           }
         ],
@@ -231,8 +231,9 @@
   },
   "active": "6f05a4ac3bd1bf5a",
   "lastOpenFiles": [
-    "To do.md",
+    "Man.md",
     "index.md",
+    "To do.md",
     "Blog.md",
     "Verantwoording.md",
     "Copyright policy.md",
@@ -244,7 +245,6 @@
     "Contact.md",
     "Grondslag.md",
     "Vader.md",
-    "Man.md",
     "Opbouwend.md",
     "2026-08-19.md",
     "Pasted image 20260818205134.png",
