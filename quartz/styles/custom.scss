@@ -146,6 +146,20 @@ h1 {
   min-height: 0;
 }
 
+// Onderaan evenveel witruimte als bovenaan. Boven zorgt .page-header (in
+// quartz/styles/base.scss) voor $topSpacing lucht vóór de header; onderaan
+// was er vrijwel niets (de grid-footer-rij is leeg, er is geen footer meer).
+// Spiegel dat hier zodat de pagina optisch gecentreerd oogt.
+.page > #quartz-body {
+  padding-bottom: $topSpacing;
+
+  @media all and ($mobile) {
+    // boven ontstaat op mobiel 2rem lucht door de padding-top van de lege
+    // .sidebar.left-rij (zie base.scss) — dezelfde waarde hieronder spiegelen
+    padding-bottom: 2rem;
+  }
+}
+
 // Ingesloten video's (bv. YouTube-iframes uit Obsidian) responsive maken
 // i.p.v. de vaste 560x315px-afmeting, die op smallere schermen buiten de
 // inhoudskolom uitsteekt.
