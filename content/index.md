@@ -1,17 +1,3 @@
----
-title: Home
----
-%% 
-
-Gezin voor God
-gezinvoorgod.nl
-
-De man als leider van het gezin 
-
-[[Man]] | [[Echtgenoot]] | [[Vader]]
-
-%%
-
 <div align="center">
 
 ![[Pasted image 20260715071609.png|450]]
@@ -44,16 +30,14 @@ De focus ligt op 3 gebieden:
 </div>
 
 %%
+## Hoofdmenu
 
-[[Persoonlijke geloofsbelijdenis]]
-
-## Footer
-
-- [[Blog]]
+- [[Man]]
+- [[Echtgenoot]]
+- [[Vader]]
 
 ## Meer
 
-- [StudieBijbel](https://gezinvoorgod.nl/studiebijbel/genesis/1/)
 - [[To do]]
 - [[Technische tips]]
 - [[Verantwoording]]

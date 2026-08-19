@@ -39,6 +39,7 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 %%
 
+- [[Persoonlijke geloofsbelijdenis]]
 - [[Basis christelijk geloof|Basis]]
 - [[Geloofsbelijdenissen]]
 - [[Apologetiek]]

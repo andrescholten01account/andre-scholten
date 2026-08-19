@@ -702,5 +702,11 @@ De code hieronder kan ik op de homepage zetten, dan komen de blogs (de aangevink
 <div id="blog-widget"></div>
 <!-- BLOG-SECTIE-EIND -->
 
+➔ Als ik de blog niet gebruik /blog ➔ dan helemaal laten verwijderen
+
+Inclusief dit gedeelte in de template:
+
+![[Pasted image 20260819140307.png]]
+
 ---
 
