@@ -17,6 +17,31 @@ Stap 1: Heb de basis op orde
 2. [[Hou van je vrouw]]
 
 %%
+
+Huwelijk
+
+1 - Eén man en één vrouw
+
+Bijbeltekst
+
+2 - Alleen met een christen trouwen
+
+Bijbeltekst
+
+3 - Voor het leven lang
+
+Bijbeltekst
+
+➔ uitzondering: overspel
+➔ zie gracegems-pagina
+
+Uitzonderingen:
+➔ overspel
+➔ als de niet-christelijke partner het huwelijk niet meer wil
+
+4 - Niet-hertrouwen
+
+---
 ## Basis
 
 - [[Hou van God en je naaste]]

@@ -96,6 +96,26 @@ Humor:
 
 %%
 
+Alles op orde geeft ruimte in je hoofd. 
+
+Orde
+
+1 - De boel opgeruimd houden
+
+a. Aantekeningen opruimen
+b. Losse papieren opruimen
+c. Mails verwerken
+
+2 - Plannen
+
+- Wanneer doe je welke taak?
+
+3 - Uitvoeren
+
+- Haak de taak en stukjes die je daadwerkelijk uit kunt voeren
+
+---
+
 michael hyatt ➔ 10 gebieden
 
 God
