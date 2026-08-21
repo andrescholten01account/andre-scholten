@@ -16,7 +16,17 @@ Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huweli
 Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en iedere vrouw zal haar eigen man hebben.
 ~ [1 Korinthe 7:2](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v2)
 
-2 - [[Hou van je vrouw]]
+2 - [[Alleen met een christen trouwen]]
+
+Een vrouw is door de wet gebonden, zolang haar man leeft; maar als haar man ontslapen is, is zij vrij om te trouwen met wie zij wil, alleen in de Heere.
+~ [1 Korinthe 7:39](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v39)
+
+## Echtgenoot
+
+1 - [[Hou van je vrouw]]
+
+Mannen, heb uw eigen vrouwen lief, zoals ook Christus de Gemeente liefgehad heeft, en Zichzelf voor haar heeft overgegeven,
+~ [Efeze 5:25](https://gezinvoorgod.nl/studiebijbel/efeze/5#v25) 
 
 %%
 
@@ -42,13 +52,10 @@ Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en ied
 
 Huwelijk
 
-2 - Alleen met een christen trouwen
-
-Bijbeltekst
-
 3 - Voor het leven lang
 
-Bijbeltekst
+Een vrouw is door de wet gebonden, zolang haar man leeft; maar als haar man ontslapen is, is zij vrij om te trouwen met wie zij wil, alleen in de Heere.
+~ [1 Korinthe 7:39](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v39)
 
 ➔ uitzondering: overspel
 ➔ zie gracegems-pagina

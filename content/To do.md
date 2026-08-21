@@ -688,6 +688,13 @@ Gezin voor God
 Spreuken 22:6 -> KJV vers is niet compleet -> de goede KJV erin zetten
 
 ---
+
+Als u dan de koninklijke wet vervult, naar de Schrift: U zult uw naaste liefhebben als uzelf, dan doet u goed;
+~ [Jam 2:8](https://gezinvoorgod.nl/studiebijbel/jakobus/2#v8) 
+
+➔ er staat Jam. ➔ staat er nu ook nog James? Dit moet Jakobus worden
+
+---
 ## [[Back-up plan]]
 
 ---
