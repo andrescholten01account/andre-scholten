@@ -9,25 +9,14 @@
 
 Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huwelijk tot eer van God? Hoe neem je als echtgenoot de positie innemen die God je gegeven heeft?
 
-## Hoe ben je een echtgenoot Gods hart?
-
-Stap 1: Heb de basis op orde 
-
-1. [[Hou van God]]
-2. [[Hou van je vrouw]]
-
 ## Huwelijk
 
-1 - Tussen één man en één vrouw
+1 - [[Tussen één man en één vrouw]]
 
 Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en iedere vrouw zal haar eigen man hebben.
 ~ [1 Korinthe 7:2](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v2)
 
-Een opziener moet dan onberispelijk zijn, de man van één vrouw, waakzaam, matig, eerbaar, gastvrij, bekwaam om te leren;
-~ [1 Timotheüs 3:2](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v2)
-
-Laat de diakenen mannen van één vrouw zijn, die hun kinderen en hun eigen huizen goed besturen.
-~ [1 Timotheüs 3:12](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v12)
+2 - [[Hou van je vrouw]]
 
 %%
 
@@ -52,10 +41,6 @@ Laat de diakenen mannen van één vrouw zijn, die hun kinderen en hun eigen huiz
 ---
 
 Huwelijk
-
-1 - Eén man en één vrouw
-
-Bijbeltekst
 
 2 - Alleen met een christen trouwen
 
