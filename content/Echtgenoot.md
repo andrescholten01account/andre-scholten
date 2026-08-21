@@ -121,6 +121,109 @@ Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en ied
 
 Jezus citeert Genesis 2:24 hier niet als illustratie, maar als vaststaand fundament ("van het begin af"). Hij bevestigt daarmee de scheppingsstructuur als blijvende norm voor het huwelijk, niet als een cultureel gegeven dat losstaat van Zijn eigen gezag.
 
+---
+
+1 - Onderdanig aan haar man
+
+Vrouwen, wees uw eigen mannen onderdanig, zoals aan de Heere.  
+~ Efeze 5:22
+
+Zoals de gemeente aan Christus onderdanig is, zo behoren ook de vrouwen in alles hun eigen mannen onderdanig te zijn.  
+~ Efeze 5:24
+
+Vrouwen, wees uw eigen mannen onderdanig, zoals het behoort in de Heere.  
+~ Kolossenzen 3:18
+
+Evenzo, vrouwen, wees uw eigen mannen onderdanig; opdat ook als sommigen aan het Woord ongehoorzaam zijn, zij door de levenswandel van de vrouwen zonder woorden gewonnen mogen worden.  
+~ 1 Petrus 3:1
+
+Zoals Sara Abraham gehoorzaam is geweest en hem heer noemde; haar dochters bent u geworden, als u goeddoet en niet bevreesd bent voor enige verschrikking.  
+~ 1 Petrus 3:6
+
+De vrouw late zich leren in stilheid, in alle onderdanigheid.  
+~ 1 Timotheüs 2:11
+
+Doch ik laat de vrouw niet toe dat zij onderwijs geeft, noch over de man heerst, maar wil dat zij in stilheid is.  
+~ 1 Timotheüs 2:12
+
+Want Adam is eerst gemaakt, daarna Eva.  
+~ 1 Timotheüs 2:13
+
+Uw begeerte zal naar uw man uitgaan, en hij zal over u heersen.  
+~ Genesis 3:16
+
+2 - Haar man eren en vrezen
+
+Kortom, ook u moet ieder in het bijzonder uw eigen vrouw liefhebben als uzelf; en de vrouw moet ontzag hebben voor haar man.  
+~ Efeze 5:33
+
+3 - Haar man liefhebben
+
+Opdat zij de jonge vrouwen leren verstandig te zijn, hun mannen lief te hebben, hun kinderen lief te hebben.  
+~ Titus 2:4
+
+4 - Een zachtmoedige en stille geest
+
+Maar de verborgen mens van het hart, met het onvergankelijke sieraad van een zachte en stille geest, die kostbaar is voor God.  
+~ 1 Petrus 3:4
+
+Want zo versierden zich eertijds ook de heilige vrouwen, die op God hoopten en aan hun eigen mannen onderdanig waren.  
+~ 1 Petrus 3:5
+
+5 - Goeddoen aan haar man
+
+Het hart van haar man vertrouwt op haar, zodat het hem aan geen buit ontbreekt.  
+~ Spreuken 31:11
+
+Zij doet hem goed en geen kwaad, al de dagen van haar leven.  
+~ Spreuken 31:12
+
+6 - Zorg dragen voor haar huis
+
+Zij houdt toezicht op de gang van zaken in haar huis, het brood der luiheid eet zij niet.  
+~ Spreuken 31:27
+
+Bezonnen te zijn, kuis, huiselijk, goed, hun eigen mannen onderdanig, opdat het Woord van God niet gelasterd wordt.  
+~ Titus 2:5
+
+7 - De plicht van de man tegenover zijn vrouw
+
+Mannen, heb uw eigen vrouwen lief, zoals ook Christus de Gemeente liefgehad heeft en Zichzelf voor haar heeft overgegeven.  
+~ Efeze 5:25
+
+Zo moeten mannen hun eigen vrouw liefhebben als hun eigen lichaam. Wie zijn eigen vrouw liefheeft, heeft zichzelf lief.  
+~ Efeze 5:28
+
+Mannen, heb uw vrouwen lief en wees niet verbitterd tegen hen.  
+~ Kolossenzen 3:19
+
+Evenzo, mannen, woon met begrip met hen samen; bewijs de vrouw eer als het zwakkere vat en als mede-erfgenamen van de genade van het leven, opdat uw gebeden niet verhinderd worden.  
+~ 1 Petrus 3:7
+
+Maar als iemand niet voor de zijnen zorgt, en vooral niet voor zijn huisgenoten, dan heeft hij het geloof verloochend en is hij erger dan een ongelovige.  
+~ 1 Timotheüs 5:8
+
+8 - Het huwelijk door God ingesteld
+
+Daarom zal een man zijn vader en zijn moeder verlaten en zich aan zijn vrouw hechten; en zij zullen tot één vlees zijn.  
+~ Genesis 2:24
+
+Dus zijn zij niet meer twee, maar één vlees. Wat God dan samengevoegd heeft, laat de mens dat niet scheiden.  
+~ Mattheüs 19:6
+
+Laat het huwelijk bij allen in ere zijn en het huwelijksbed onbevlekt; want hoereerders en overspelers zal God oordelen.  
+~ Hebreeën 13:4
+
+9 - Alleen in de Heere trouwen
+
+Een vrouw is door de wet gebonden, zolang haar man leeft; maar als haar man ontslapen is, is zij vrij om te trouwen met wie zij wil, alleen in de Heere.  
+~ 1 Korinthe 7:39
+
+Trekt niet een ander juk aan met ongelovigen. Want wat heeft gerechtigheid gemeenschappelijk met wetteloosheid, en welke gemeenschap is er tussen licht en duisternis?  
+~ 2 Korinthe 6:14
+
+---
+
 %%
 ## Basis
 
