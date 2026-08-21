@@ -541,7 +541,9 @@ Zij doet hem goed en geen kwaad, al de dagen van haar leven.
 
 ## Wat is hoererij
 
+Hoererij: seksuele omgang buiten het huwelijk tussen mensen die niet met elkaar getrouwd zijn. 
 
+Overspel: seksuele omgang waarbij iemand seksuele gemeenschap heeft met iemand anders dan de eigen huwelijkspartner. 
 
 1 - Alle onreinheid buiten het huwelijk
 
