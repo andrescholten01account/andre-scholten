@@ -23,7 +23,30 @@ Stap 1: Heb de basis op orde
 Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en iedere vrouw zal haar eigen man hebben.
 ~ [1 Korinthe 7:2](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v2)
 
+Een opziener moet dan onberispelijk zijn, de man van één vrouw, waakzaam, matig, eerbaar, gastvrij, bekwaam om te leren;
+~ [1 Timotheüs 3:2](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v2)
+
 %%
+
+"Een opziener nu moet onberispelijk zijn, de man van één vrouw, nuchter, bezonnen, eerbaar, gastvrij, bekwaam om te onderwijzen."
+
+➔ zie ook **Titus 1:6**
+
+---
+
+**6 - Trouw aan de ene echtgenote**
+
+> "Laat uw bron gezegend zijn, en verblijd u over de vrouw van uw jeugd (...) waarom zou u, mijn zoon, afdwalen naar een vreemde en de boezem van een buitenlandse omhelzen?"
+> 
+> ~ **Spreuken 5:18, 20**
+
+**7 - Het verbond tussen twee partners**
+
+> "Heeft Hij er niet één gemaakt, hoewel Hij nog geest overhad? En waarom die ene? Hij zocht een goddelijk nageslacht. Wees dus gewaarschuwd met uw geest, en handel niet ontrouw tegen de vrouw van uw jeugd."
+> 
+> ~ **Malachi 2:15**
+
+---
 
 Huwelijk
 
@@ -95,7 +118,10 @@ Wie een vrouw gevonden heeft, heeft iets goeds gevonden, en hij heeft welgevalle
 Huis en bezit zijn een erfdeel van de vaderen; maar een verstandige vrouw is van de HEERE.
 ~ [Spreuken 19:14](https://gezinvoorgod.nl/studiebijbel/spreuken/19#v14)
 
-%%
+---
+
+Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en iedere vrouw zal haar eigen man hebben.
+~ [1 Korinthe 7:2](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v2)
 
 ---
 
@@ -113,11 +139,7 @@ Huis en bezit zijn een erfdeel van de vaderen; maar een verstandige vrouw is van
 
 Jezus citeert Genesis 2:24 hier niet als illustratie, maar als vaststaand fundament ("van het begin af"). Hij bevestigt daarmee de scheppingsstructuur als blijvende norm voor het huwelijk, niet als een cultureel gegeven dat losstaat van Zijn eigen gezag.
 
----
-
-
-
----
+%%
 ## Basis
 
 - [[Hou van God en je naaste]]
@@ -141,6 +163,4 @@ https://youtube.com/shorts/kgpAKvkz9OA?si=tVicb17cYjJDL4HL
 r/Christianmarriage
 https://www.reddit.com/r/Christianmarriage/
 andere fora?
-
-%%
 

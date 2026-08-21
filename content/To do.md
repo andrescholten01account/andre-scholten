@@ -30,6 +30,17 @@ publicatiedatum:
 ---
 ## To do
 
+1 - Als ik een Bijbeltekst heb opgezocht en ik zie het als zoekresulataat, en ik kopieer het dan, dan krijg ik de afkorting. Zie bijlage. Ik wil de volledige tekstverwijzing zien
+
+![[Pasted image 20260821110549.png]]
+
+Een opziener moet dan onberispelijk zijn, de man van één vrouw, waakzaam, matig, eerbaar, gastvrij, bekwaam om te leren;
+~ [1 Tim 3:2](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v2) (SVnu)
+
+➔ Verder zie ik ook nog staan (SVnu) ➔ dit wil ik ook niet meer zien bij een gekopieerd vers
+
+---
+
 1 - De witruimte onder moet de helft minder: dit op de hoofdsite + StudieBijbel
 
 2 - Bij mobiel, bij de StudieBijbel ➔ moeten de 3 taps naast elkaar 
@@ -426,7 +437,7 @@ Laat ze van u alleen zijn, en niet van een vreemde naast u.
 
 ![[Pasted image 20260821110109.png]]
 
-➔ Bij Onderwerpen ➔ de tekst waar het om gaat wil ik geselecteerd zien, zodat ik snel kan zien 
+➔ Bij Onderwerpen ➔ de tekst waar het om gaat wil ik geselecteerd zien, zodat ik snel kan zien op welke Bijbeltekst het Onderwerpen-gedeelte betrekking heeft ➔ ik heb het dan over de tekstverwijzingen onder de kopjes NAVE, enz. 
 
 # StudieBijbel - bronnen
 
