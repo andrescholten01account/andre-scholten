@@ -35,7 +35,8 @@
               "title": "To do"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,16 +215,16 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "6f05a4ac3bd1bf5a",
+  "active": "908e7520ca2f7946",
   "lastOpenFiles": [
-    "To do.md",
+    "Gezond & sterk.md",
+    "Man.md",
     "Echtgenoot.md",
+    "To do.md",
     "Pasted image 20260821110549.png",
     "Pasted image 20260821110109.png",
     "Pasted image 20260821105802.png",
     "Pasted image 20260821105621.png",
-    "Gezond & sterk.md",
-    "Man.md",
     "index.md",
     "Vrucht van de Geest.md",
     "Liefde.md",

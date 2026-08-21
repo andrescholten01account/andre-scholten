@@ -116,6 +116,22 @@ c. Mails verwerken
 
 ---
 
+Als je bang bent voor iets, je erop voorbereiden. 
+
+Ben je bang voor bepaalde, moeilijke vragen over God? -> bereidt de antwoorden voor. 
+
+1. Dus mijn niet-gelovige overleden oma is naar de hel?
+2. Dus ik mag geen homo zijn?
+
+Als je je op dingen voorbereidt, dan haal je de angst weg. 
+
+➔ je brengt de vragen / bezwaren in kaart
+➔ je zoekt antwoorden
+➔ je zoekt tegenantwoorden
+➔ je zoek hier weer een reactie op, enz. 
+
+---
+
 michael hyatt ➔ 10 gebieden
 
 God
