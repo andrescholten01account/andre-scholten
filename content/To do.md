@@ -445,6 +445,11 @@ Verzen die bij elkaar horen aan elkaar doen? Zoals 1 Kor. 7:11-12
 
 ![[Pasted image 20260821214049.png]]
 
+---
+
+In het tab vertalingen wil ik ook de vertalingen kunnen kopieren en plakken, met de juiste verwijzing erbij
+
+![[Pasted image 20260821214432.png]]
 # StudieBijbel - bronnen
 
   
@@ -699,6 +704,18 @@ Als u dan de koninklijke wet vervult, naar de Schrift: U zult uw naaste liefhebb
 ~ [Jam 2:8](https://gezinvoorgod.nl/studiebijbel/jakobus/2#v8) 
 
 ➔ er staat Jam. ➔ staat er nu ook nog James? Dit moet Jakobus worden
+
+---
+
+1 - Ontzag hebben voor haar man
+
+Kortom, ieder van u afzonderlijk moet zijn eigen vrouw zo liefhebben als zichzelf; en laat de vrouw erop letten dat zij haar man vreest.
+~ [Efeze 5:33](https://gezinvoorgod.nl/studiebijbel/efeze/5#v33)
+
+Kortom, ook u moet, ieder in het bijzonder, uw eigen vrouw net zo liefhebben als uzelf; en de vrouw moet ontzag hebben voor haar man.
+~ Efeze 5:33 (HSV)
+
+➔ vrezen klinkt niet goed. dan lijkt het net alsof de vrouw bang moet zijn voor haar man. ik vind ontzag hier beter klinken. als dit ook klopt vanuit de grondtekst. De KJV heeft reverence, dat is toch ook respect/ontzag?
 
 ---
 ## [[Back-up plan]]
