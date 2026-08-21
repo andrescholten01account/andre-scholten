@@ -20,3 +20,10 @@ Kortom, ieder van u afzonderlijk moet zijn eigen vrouw zo liefhebben als zichzel
 Als u dan de koninklijke wet vervult, naar de Schrift: U zult uw naaste liefhebben als uzelf, dan doet u goed;
 ~ [Jam 2:8](https://gezinvoorgod.nl/studiebijbel/jakobus/2#v8) 
 
+%%
+
+Zo zijn de mannen verplicht hun eigen vrouwen lief te hebben, zoals hun eigen lichamen. Wie zijn eigen vrouw liefheeft, die heeft zichzelf lief.
+~ [Efeze 5:28](https://gezinvoorgod.nl/studiebijbel/efeze/5#v28)
+
+%%
+

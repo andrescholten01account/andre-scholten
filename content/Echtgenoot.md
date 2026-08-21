@@ -40,12 +40,6 @@ Kortom, ook u moet, ieder in het bijzonder, uw eigen vrouw net zo liefhebben als
 
 %%
 
-"Een opziener nu moet onberispelijk zijn, de man van één vrouw, nuchter, bezonnen, eerbaar, gastvrij, bekwaam om te onderwijzen."
-
-➔ zie ook **Titus 1:6**
-
----
-
 Huwelijk
 
 3 - Voor het leven lang
@@ -72,23 +66,9 @@ Uitzonderingen:
 ➔ overspel
 ➔ als de niet-christelijke partner het huwelijk niet meer wil
 
-4 - Niet-hertrouwen
+a - Niet-hertrouwen
 
----
-
-**6 - Trouw aan de ene echtgenote**
-
-> "Laat uw bron gezegend zijn, en verblijd u over de vrouw van uw jeugd (...) waarom zou u, mijn zoon, afdwalen naar een vreemde en de boezem van een buitenlandse omhelzen?"
-> 
-> ~ **Spreuken 5:18, 20**
-
-**7 - Het verbond tussen twee partners**
-
-> "Heeft Hij er niet één gemaakt, hoewel Hij nog geest overhad? En waarom die ene? Hij zocht een goddelijk nageslacht. Wees dus gewaarschuwd met uw geest, en handel niet ontrouw tegen de vrouw van uw jeugd."
-> 
-> ~ **Malachi 2:15**
-
----
+4 - Trouw in het huwelijk
 
 **Hebreeën 13:4**
 
@@ -97,25 +77,6 @@ Uitzonderingen:
 U zegt nu: Waarom? Omdat de HEERE een Getuige geweest is tussen u en de vrouw van uw jeugd, met wie u trouweloos handelt; terwijl zij toch uw metgezellin is, en de vrouw van uw verbond.
 ~ [Maleachi 2:14](https://gezinvoorgod.nl/studiebijbel/maleachi/2#v14)
 
----
-
-U zegt nu: Waarom? Omdat de HEERE een Getuige geweest is tussen u en de vrouw van uw jeugd, met wie u trouweloos handelt; terwijl zij toch uw metgezellin is, en de vrouw van uw verbond.
-~ [Maleachi 2:14](https://gezinvoorgod.nl/studiebijbel/maleachi/2#v14)
-
----
-
-Zo zijn de mannen verplicht hun eigen vrouwen lief te hebben, zoals hun eigen lichamen. Wie zijn eigen vrouw liefheeft, die heeft zichzelf lief.
-~ [Efeze 5:28](https://gezinvoorgod.nl/studiebijbel/efeze/5#v28)
-
-Kortom, ieder van u afzonderlijk moet zijn eigen vrouw zo liefhebben als zichzelf; en laat de vrouw erop letten dat zij haar man vreest.
-~ [Efeze 5:33](https://gezinvoorgod.nl/studiebijbel/efeze/5#v33)
-
----
-
-Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en iedere vrouw zal haar eigen man hebben.
-~ [1 Korinthe 7:2](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v2)
-
-➔ Wat zijn hoererijen?
 
 Vlucht voor de hoererij. Elke zonde die de mens doet, is buiten het lichaam, maar wie hoererij bedrijft, zondigt tegen zijn eigen lichaam.
 ~ [1 Korinthe 6:18](https://gezinvoorgod.nl/studiebijbel/1-korinthe/6#v18)
@@ -127,18 +88,22 @@ Maar als zij zich niet kunnen onthouden, laten zij trouwen; want het is beter te
 
 ---
 
+1 - Een goede vrouw is van God
+
 Wie een vrouw gevonden heeft, heeft iets goeds gevonden, en hij heeft welgevallen verkregen van de HEERE.
 ~ [Spreuken 18:22](https://gezinvoorgod.nl/studiebijbel/spreuken/18#v22)
-
----
 
 Huis en bezit zijn een erfdeel van de vaderen; maar een verstandige vrouw is van de HEERE.
 ~ [Spreuken 19:14](https://gezinvoorgod.nl/studiebijbel/spreuken/19#v14)
 
 ---
 
+1 - Waarschuwing tegen hoererij
+
 Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en iedere vrouw zal haar eigen man hebben.
 ~ [1 Korinthe 7:2](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v2)
+
+➔ wat is hoererij
 
 ---
 
@@ -168,16 +133,4 @@ Hoe heb je een goed huwelijk?
 Dit gedeelte is gericht op de huwelijksrelatie.
 
 ---
-
-Wat zegt Gods Woord over een echtgenoot zijn? En huwelijk? 
-- TSK + NAVE + TTT
-- Vandaar alle tekstverwijzingen volgen
-
----
-
-https://youtube.com/shorts/kgpAKvkz9OA?si=tVicb17cYjJDL4HL
-
-r/Christianmarriage
-https://www.reddit.com/r/Christianmarriage/
-andere fora?
 
