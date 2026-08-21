@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Vrijgevig.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Vrijgevig"
             }
           }
         ]
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -204,12 +205,12 @@
     "Man.md",
     "Standvastig.md",
     "Basis christelijk geloof.md",
+    "index.md",
     "God.md",
     "God en Zijn redding - Basis in het kort.md",
     "Kern.md",
     "Hou van God.md",
     "Omgang met God.md",
-    "index.md",
     "God en Zijn redding.md",
     "In Gods wil wandelen.md",
     "Iedereen weet dat God bestaat.md",

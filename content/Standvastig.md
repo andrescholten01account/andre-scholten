@@ -50,3 +50,12 @@ Harten en gedachten bewaren
 - Bezonnen, wijs
 - Te vertrouwen
 
+%%
+
+Betrouwbaarheid Bijbel
+
+https://logos.nl/
+https://answersingenesis.org/
+
+%%
+

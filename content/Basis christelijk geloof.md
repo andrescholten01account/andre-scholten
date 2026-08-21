@@ -123,5 +123,10 @@ Gehoorzaamheid
 	- Bidden
 	- Aanbidden
 
+---
+
+Openb. 12:9 satan
+openb. 12:10 satan
+
 %%
 
