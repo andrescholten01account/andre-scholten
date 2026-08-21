@@ -407,7 +407,26 @@ wat hier mee doen?
 
 -------------------------------------------------------------------
 
-  
+Tekstverwijzingen zijn niet altijd goed:
+
+![[Pasted image 20260821105621.png]]
+
+Er staat Pro 5:18 ➔ moet dit niet zijn:
+
+Laat ze van u alleen zijn, en niet van een vreemde naast u.
+~ [Spreuken 5:17](https://gezinvoorgod.nl/studiebijbel/spreuken/5#v17)
+
+![[Pasted image 20260821105802.png]]
+
+➔ de KJV heeft hier pijlen, dit wil ik niet 
+➔ de tekst ga ik hier toch weghalen
+➔ KJV pure cambridge edition gebruiken
+
+---
+
+![[Pasted image 20260821110109.png]]
+
+➔ Bij Onderwerpen ➔ de tekst waar het om gaat wil ik geselecteerd zien, zodat ik snel kan zien 
 
 # StudieBijbel - bronnen
 
