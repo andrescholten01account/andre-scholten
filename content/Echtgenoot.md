@@ -16,7 +16,7 @@ Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huweli
 Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en iedere vrouw zal haar eigen man hebben.
 ~ [1 Korinthe 7:2](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v2)
 
-2 - [[Alleen met een christen trouwen]]
+2 - Alleen met een christen trouwen
 
 Een vrouw is door de wet gebonden, zolang haar man leeft; maar als haar man ontslapen is, is zij vrij om te trouwen met wie zij wil, alleen in de Heere.
 ~ [1 Korinthe 7:39](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v39)
@@ -36,6 +36,36 @@ Mannen, heb uw eigen vrouwen lief, zoals ook Christus de Gemeente liefgehad heef
 
 ---
 
+Huwelijk
+
+3 - Voor het leven lang
+
+Een vrouw is door de wet gebonden, zolang haar man leeft; maar als haar man ontslapen is, is zij vrij om te trouwen met wie zij wil, alleen in de Heere.
+~ [1 Korinthe 7:39](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v39)
+
+a. Dus niet scheiden
+
+Maar de getrouwden gebied ik niet, maar de Heere, dat de vrouw niet van de man scheidt.
+~ [1 Korinthe 7:10](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v10)
+
+b. Als er toch een scheiding is: niet hertrouwen, wel verzoenen
+
+En als zij toch scheidt, laat zij dan ongetrouwd blijven, of zich verzoenen met de man; en dat de man de vrouw niet verlaat.
+~ [1 Korinthe 7:11](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v11)
+
+
+
+➔ uitzondering: overspel
+➔ zie gracegems-pagina
+
+Uitzonderingen:
+➔ overspel
+➔ als de niet-christelijke partner het huwelijk niet meer wil
+
+4 - Niet-hertrouwen
+
+---
+
 **6 - Trouw aan de ene echtgenote**
 
 > "Laat uw bron gezegend zijn, en verblijd u over de vrouw van uw jeugd (...) waarom zou u, mijn zoon, afdwalen naar een vreemde en de boezem van een buitenlandse omhelzen?"
@@ -47,24 +77,6 @@ Mannen, heb uw eigen vrouwen lief, zoals ook Christus de Gemeente liefgehad heef
 > "Heeft Hij er niet één gemaakt, hoewel Hij nog geest overhad? En waarom die ene? Hij zocht een goddelijk nageslacht. Wees dus gewaarschuwd met uw geest, en handel niet ontrouw tegen de vrouw van uw jeugd."
 > 
 > ~ **Malachi 2:15**
-
----
-
-Huwelijk
-
-3 - Voor het leven lang
-
-Een vrouw is door de wet gebonden, zolang haar man leeft; maar als haar man ontslapen is, is zij vrij om te trouwen met wie zij wil, alleen in de Heere.
-~ [1 Korinthe 7:39](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v39)
-
-➔ uitzondering: overspel
-➔ zie gracegems-pagina
-
-Uitzonderingen:
-➔ overspel
-➔ als de niet-christelijke partner het huwelijk niet meer wil
-
-4 - Niet-hertrouwen
 
 ---
 

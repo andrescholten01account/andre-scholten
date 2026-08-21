@@ -439,6 +439,12 @@ Laat ze van u alleen zijn, en niet van een vreemde naast u.
 
 ➔ Bij Onderwerpen ➔ de tekst waar het om gaat wil ik geselecteerd zien, zodat ik snel kan zien op welke Bijbeltekst het Onderwerpen-gedeelte betrekking heeft ➔ ik heb het dan over de tekstverwijzingen onder de kopjes NAVE, enz. 
 
+---
+
+Verzen die bij elkaar horen aan elkaar doen? Zoals 1 Kor. 7:11-12
+
+![[Pasted image 20260821214049.png]]
+
 # StudieBijbel - bronnen
 
   
