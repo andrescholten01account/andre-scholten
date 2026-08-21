@@ -26,6 +26,9 @@ Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en ied
 Een opziener moet dan onberispelijk zijn, de man van één vrouw, waakzaam, matig, eerbaar, gastvrij, bekwaam om te leren;
 ~ [1 Timotheüs 3:2](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v2)
 
+Laat de diakenen mannen van één vrouw zijn, die hun kinderen en hun eigen huizen goed besturen.
+~ [1 Timotheüs 3:12](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v12)
+
 %%
 
 "Een opziener nu moet onberispelijk zijn, de man van één vrouw, nuchter, bezonnen, eerbaar, gastvrij, bekwaam om te onderwijzen."
