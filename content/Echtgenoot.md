@@ -34,11 +34,11 @@ Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huweli
 - [[Hertrouwen]]
 - [[Ongehuwd zijn]]
 
-## [[Echtgenoot - algemeen]]
+## Stap 3: [[Echtgenoot naar Gods hart]]
 
 - [[Hou van je vrouw]]
 
-## [[Echtgenote]]
+## Stap 4: [[Echtgenote]]
 
 - [[Ontzag hebben voor haar man]]
 
