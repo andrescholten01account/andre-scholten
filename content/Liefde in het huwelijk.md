@@ -17,3 +17,15 @@
 En het tweede, hieraan gelijk, is: U zult uw naaste liefhebben als uzelf.
 ~ [Mattheüs 22:39](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v39) 
 
+## Vrucht van de Geest
+
+1. Liefde
+2. Blijdschap
+3. Vrede
+4. Geduld
+5. Vriendelijkheid
+6. Goedheid
+7. Geloof
+8. Zachtmoedigheid
+9. Zelfbeheersing
+

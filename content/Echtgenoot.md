@@ -9,10 +9,15 @@
 
 Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huwelijk tot eer van God? Hoe neem je als echtgenoot de positie innemen die God je gegeven heeft?
 
+## [[Liefde in het huwelijk]]
+
+- [[Liefde in het huwelijk - Hou van God|Hou van God]]
+- [[Liefde in het huwelijk - Hou van elkaar|Hou van elkaar]]
+- [[Vrucht van de Geest in het huwelijk]]
+
 ## Huwelijk
 
-1. [[Liefde in het huwelijk]]
-2. [[Gods wil voor het huwelijk]]
+1. [[Gods wil voor het huwelijk]]
 
 ## Echtgenoot
 
