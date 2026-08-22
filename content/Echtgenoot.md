@@ -11,12 +11,16 @@ Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huweli
 
 ## Huwelijk
 
-1 - [[Tussen één man en één vrouw]]
+1. [[Liefde in het huwelijk]]
+2. d
+
+
+2 - [[Tussen één man en één vrouw]]
 
 Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en iedere vrouw zal haar eigen man hebben.
 ~ [1 Korinthe 7:2](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v2)
 
-2 - Alleen met een christen trouwen
+3 - Alleen met een christen trouwen
 
 Een vrouw is door de wet gebonden, zolang haar man leeft; maar als haar man ontslapen is, is zij vrij om te trouwen met wie zij wil, alleen in de Heere.
 ~ [1 Korinthe 7:39](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v39)
@@ -37,6 +41,12 @@ Kortom, ieder van u afzonderlijk moet zijn eigen vrouw zo liefhebben als zichzel
 
 Kortom, ook u moet, ieder in het bijzonder, uw eigen vrouw net zo liefhebben als uzelf; en de vrouw moet ontzag hebben voor haar man.
 ~ Efeze 5:33 (HSV)
+
+## Bibliotheek
+
+- [[Links echtgenoot]]
+- [[Artikelen echtgenoot]]
+- [[Boeken echtgenoot]]
 
 %%
 
