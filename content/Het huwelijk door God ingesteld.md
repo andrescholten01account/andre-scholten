@@ -64,5 +64,21 @@ Daarom zal een man zijn vader en moeder verlaten en zich aan zijn vrouw hechten,
 Deze verborgenheid is groot; maar ik spreek met het oog op Christus en de gemeente.  
 ~ [Efeze 5:32](https://gezinvoorgod.nl/studiebijbel/efeze/5#v32)
 
+---
+
+**Genesis 1:27**
+
+> En God schepte de mens naar Zijn beeld; naar het beeld van God schiep Hij hem; mannelijk en vrouwelijk schiep Hij hen.
+
+**Genesis 2:24**
+
+> Daarom zal een man zijn vader en zijn moeder verlaten en zich aan zijn vrouw hechten; en zij zullen tot één vlees zijn.
+
+**Mattheüs 19:4-6**
+
+> En Hij antwoordde en zei tegen hen: Hebt u niet gelezen dat Hij Die de mens gemaakt heeft, hen van het begin af mannelijk en vrouwelijk gemaakt heeft, en gezegd heeft: Daarom zal een man zijn vader en moeder verlaten en zich aan zijn vrouw hechten, en die twee zullen tot één vlees zijn, zodat zij niet meer twee zijn, maar één vlees? Dus, wat God samengevoegd heeft, laat de mens dat niet scheiden.
+
+Jezus citeert Genesis 2:24 hier niet als illustratie, maar als vaststaand fundament ("van het begin af"). Hij bevestigt daarmee de scheppingsstructuur als blijvende norm voor het huwelijk, niet als een cultureel gegeven dat losstaat van Zijn eigen gezag.
+
 %%
 

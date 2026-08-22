@@ -1,6 +1,5 @@
 %%
-
-Geen gemeenschap voor het huwelijk
+## Geen gemeenschap voor het huwelijk
 
 ## De daad
 
