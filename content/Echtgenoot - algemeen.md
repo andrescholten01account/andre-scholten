@@ -40,5 +40,15 @@ Moge uw bron gezegend zijn, en verblijd u over de vrouw van uw jeugd.
 Laat de man aan zijn vrouw de verschuldigde welwillendheid betonen en evenzo ook de vrouw aan haar man.  
 ~ [1 Korinthe 7:3](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v3)
 
+---
+
+1 - Een goede vrouw is van God
+
+Wie een vrouw gevonden heeft, heeft iets goeds gevonden, en hij heeft welgevallen verkregen van de HEERE.
+~ [Spreuken 18:22](https://gezinvoorgod.nl/studiebijbel/spreuken/18#v22)
+
+Huis en bezit zijn een erfdeel van de vaderen; maar een verstandige vrouw is van de HEERE.
+~ [Spreuken 19:14](https://gezinvoorgod.nl/studiebijbel/spreuken/19#v14)
+
 %%
 

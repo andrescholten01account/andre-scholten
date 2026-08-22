@@ -39,7 +39,15 @@ U zult niet begeren het huis van uw naaste; u zult niet begeren de vrouw van uw 
 
 %%
 
-Aantekeningen
+Mat. 22:39-40
+
+Micha 6:4 (of 4:6)
+
+Jak. 1:27
+
+"Niet stelen, liegen ... daarmee wet vervuld" ➔ Gal. 5
+
+"Als je goederen hebt, en je geeft niet ... hoe liefde van God in je blijven." ➔ 1 Joh. 
 
 %%
 

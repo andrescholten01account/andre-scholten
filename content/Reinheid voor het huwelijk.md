@@ -88,5 +88,29 @@ Ik bezweer u, dochters van Jeruzalem, dat u de liefde niet opwekt of aanwakkert,
 Maar ik zeg: Wandel door de Geest en u zult zeker de begeerte van het vlees niet volbrengen.  
 ~ [Galaten 5:16](https://gezinvoorgod.nl/studiebijbel/galaten/5#v16)
 
+---
+
+1 - Waarschuwing tegen hoererij
+
+Maar om de hoererijen te vermijden zal ieder man zijn eigen vrouw hebben, en iedere vrouw zal haar eigen man hebben.
+~ [1 Korinthe 7:2](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v2)
+
+➔ wat is hoererij
+
+Korte uitleg:
+
+- Hoererij: seksuele omgang buiten het huwelijk tussen mensen die niet met elkaar getrouwd zijn. 
+- Overspel: seksuele omgang waarbij iemand seksuele gemeenschap heeft met iemand anders dan de eigen huwelijkspartner. 
+
+---
+
+Vlucht voor de hoererij. Elke zonde die de mens doet, is buiten het lichaam, maar wie hoererij bedrijft, zondigt tegen zijn eigen lichaam.
+~ [1 Korinthe 6:18](https://gezinvoorgod.nl/studiebijbel/1-korinthe/6#v18)
+
+---
+
+Maar als zij zich niet kunnen onthouden, laten zij trouwen; want het is beter te trouwen dan van begeerte te branden.
+~ [1 Korinthe 7:9](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v9)
+
 %%
 

@@ -41,7 +41,7 @@ U zult de naam van de HEERE, uw God, niet ijdel gebruiken; want de HEERE zal nie
 
 %%
 
-Aantekeningen
+Deut. 5
 
 %%
 

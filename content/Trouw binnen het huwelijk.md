@@ -83,5 +83,18 @@ Maar hun schrijven dat zij zich moeten onthouden van de dingen die door de afgod
 Evenzo is het met Sodom en Gomorra, die op dezelfde wijze als zij hoererij bedreven hebben.  
 ~ [Judas 1:7](https://gezinvoorgod.nl/studiebijbel/judas/1#v7)
 
+---
+
+4 - Trouw in het huwelijk
+
+---
+
+**Hebreeën 13:4**
+
+> Laat het huwelijk bij allen in ere zijn en het huwelijksbed onbevlekt, want ontuchtplegers en overspelers zal God oordelen.
+
+U zegt nu: Waarom? Omdat de HEERE een Getuige geweest is tussen u en de vrouw van uw jeugd, met wie u trouweloos handelt; terwijl zij toch uw metgezellin is, en de vrouw van uw verbond.
+~ [Maleachi 2:14](https://gezinvoorgod.nl/studiebijbel/maleachi/2#v14)
+
 %%
 

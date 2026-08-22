@@ -21,5 +21,9 @@ Maar ik zeg tegen de ongehuwden en de weduwen: Het is goed voor hen, als zij bli
 Ik wil dan dat de jongere weduwen trouwen, kinderen krijgen, hun huis besturen.  
 ~ [1 Timotheüs 5:14](https://gezinvoorgod.nl/studiebijbel/1-timotheus/5#v14)
 
+---
+
+a - Niet-hertrouwen
+
 %%
 
