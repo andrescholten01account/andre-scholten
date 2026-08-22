@@ -13,7 +13,7 @@ Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huweli
 
 - [[Liefde in het huwelijk - Hou van God|Hou van God]]
 - [[Liefde in het huwelijk - Hou van elkaar|Hou van elkaar]]
-- [[Vrucht van de Geest in het huwelijk]]
+- [[Vrucht van de Geest in het huwelijk|Vrucht van de Geest]]
 
 ## Huwelijk
 
