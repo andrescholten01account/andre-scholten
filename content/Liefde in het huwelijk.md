@@ -29,3 +29,24 @@ En het tweede, hieraan gelijk, is: U zult uw naaste liefhebben als uzelf.
 8. Zachtmoedigheid
 9. Zelfbeheersing
 
+%%
+## De aard van de liefde
+
+1 - Wat liefde is
+
+De liefde is geduldig, zij is vriendelijk, de liefde is niet jaloers, de liefde pronkt niet, zij doet niet gewichtig,  
+~ [1 Korinthe 13:4](https://gezinvoorgod.nl/studiebijbel/1-korinthe/13#v4)
+
+Zij bedekt alle dingen, zij gelooft alle dingen, zij hoopt alle dingen, zij verdraagt alle dingen.  
+~ [1 Korinthe 13:7](https://gezinvoorgod.nl/studiebijbel/1-korinthe/13#v7)
+
+2 - Sterk als de dood
+
+Leg mij als een zegel op uw hart, als een zegel op uw arm. Want de liefde is sterk als de dood.  
+~ [Hooglied 8:6](https://gezinvoorgod.nl/studiebijbel/hooglied/8#v6)
+
+Vele wateren kunnen de liefde niet uitblussen, ja, rivieren kunnen haar niet verdrinken.  
+~ [Hooglied 8:7](https://gezinvoorgod.nl/studiebijbel/hooglied/8#v7)
+
+%%
+
