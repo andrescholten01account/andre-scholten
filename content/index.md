@@ -15,7 +15,7 @@ Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het 
 
 Win een man, win het gezin
 Win het gezin, win de gemeente
-Win de gemeente, win het land
+Win de gemeente, win Nederland
 
 ## Missie
 
