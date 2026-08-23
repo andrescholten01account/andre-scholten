@@ -35,6 +35,11 @@ Stap 3: Wees actief betrokken bij je kinderen
 ➔ Basis gehoorzaamheid
 
 ---
+
+
+
+
+---
 ## Tips vaderschap
 
 1. Heb een goede relatie met God
