@@ -37,6 +37,124 @@ Stap 3: Wees actief betrokken bij je kinderen
 ---
 
 
+---
+
+## Gezin
+
+- [[God op de eerste plaats in het gezin]]
+
+
+## Vader
+
+- tekst
+
+## Moeder
+
+- Tekst
+
+## Kinderen
+
+- Kinderen als zegen van God
+
+
+
+
+
+Kinderen als zegen van God
+
+1 - Een erfdeel van de HEERE Zie, kinderen zijn het eigendom van de HEERE, de vrucht van de schoot is Zijn beloning. ~ [Psalmen 127:3](https://gezinvoorgod.nl/studiebijbel/psalmen/127#v3)
+
+2 - Als pijlen in de hand van een held Zoals pijlen in de hand van een held, zo zijn de zonen, ontvangen in de jeugd. ~ [Psalmen 127:4](https://gezinvoorgod.nl/studiebijbel/psalmen/127#v4)
+
+3 - Vrouw en kinderen rondom de tafel Uw vrouw zal zijn als een vruchtbare wijnstok aan de zijkant van uw huis; uw kinderen als olijfplanten rondom uw tafel. ~ [Psalmen 128:3](https://gezinvoorgod.nl/studiebijbel/psalmen/128#v3)
+
+4 - Zo wordt de man gezegend Zie, zo zal zeker de man gezegend worden die de HEERE vreest. ~ [Psalmen 128:4](https://gezinvoorgod.nl/studiebijbel/psalmen/128#v4)
+
+5 - Kleinkinderen zijn een kroon Kleinkinderen zijn de kroon van de ouderen, en het sieraad van kinderen zijn hun vaders. ~ [Spreuken 17:6](https://gezinvoorgod.nl/studiebijbel/spreuken/17#v6)
+
+De rol van de vader
+
+1 - Leiding geven aan zijn eigen huis Hij moet goed leiding geven aan zijn eigen huis, zijn kinderen onderdanig houden, in alle waardigheid. ~ [1 Timotheüs 3:4](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v4)
+
+2 - Zonder dit ontbreekt de bekwaamheid tot herderschap Want als iemand niet weet hoe hij leiding moet geven aan zijn eigen huis, hoe zal hij voor de gemeente van God zorg dragen? ~ [1 Timotheüs 3:5](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v5)
+
+3 - Voor de eigen huisgenoten zorgen Maar als iemand niet voor de zijnen zorgt, en vooral niet voor zijn huisgenoten, dan heeft hij het geloof verloochend en is hij erger dan een ongelovige. ~ [1 Timotheüs 5:8](https://gezinvoorgod.nl/studiebijbel/1-timotheus/5#v8)
+
+4 - Bevel geven aan kinderen en huis Want Ik heb hem uitgekozen, opdat hij aan zijn kinderen en zijn huis na hem bevel zou geven om de weg van de HEERE in acht te nemen, door gerechtigheid en recht te doen, opdat de HEERE over Abraham zal brengen wat Hij over hem gesproken heeft. ~ [Genesis 18:19](https://gezinvoorgod.nl/studiebijbel/genesis/18#v19)
+
+5 - Zonder toorn op te wekken En vaders, wek geen toorn bij uw kinderen op, maar voed hen op in de onderwijzing en de terechtwijzing van de Heere. ~ [Efeze 6:4](https://gezinvoorgod.nl/studiebijbel/efeze/6#v4)
+
+6 - Niet tergen Vaders, terg uw kinderen niet, opdat zij niet moedeloos worden. ~ [Kolossenzen 3:21](https://gezinvoorgod.nl/studiebijbel/kolossenzen/3#v21)
+
+De rol van de moeder
+
+1 - Toezicht op het huis Zij houdt toezicht op de gang van zaken in haar huis, het brood der luiheid eet zij niet. ~ [Spreuken 31:27](https://gezinvoorgod.nl/studiebijbel/spreuken/31#v27)
+
+2 - Haar kinderen liefhebben Opdat zij de jonge vrouwen leren verstandig te zijn, hun mannen lief te hebben, hun kinderen lief te hebben. ~ [Titus 2:4](https://gezinvoorgod.nl/studiebijbel/titus/2#v4)
+
+3 - Haar onderricht telt mee Mijn zoon, luister naar de vermaning van je vader en veronachtzaam het onderricht van je moeder niet. ~ [Spreuken 1:8](https://gezinvoorgod.nl/studiebijbel/spreuken/1#v8)
+
+4 - Een kroon voor haar man Een deugdelijke vrouw is de kroon van haar man, maar zij die hem beschaamd maakt, is als verrotting in zijn beenderen. ~ [Spreuken 12:4](https://gezinvoorgod.nl/studiebijbel/spreuken/12#v4)
+
+Hoe horen kinderen zich te gedragen?
+
+1 - Gehoorzaam in de Heere Kinderen, wees je ouders gehoorzaam in de Heere, want dat is juist. ~ [Efeze 6:1](https://gezinvoorgod.nl/studiebijbel/efeze/6#v1)
+
+2 - Eer vader en moeder Eer je vader en moeder (dat is het eerste gebod met een belofte), opdat het je goed gaat en je lang leeft op de aarde. ~ [Efeze 6:2 - 3](https://gezinvoorgod.nl/studiebijbel/efeze/6#v2)
+
+3 - Gehoorzaam in alles Kinderen, wees je ouders gehoorzaam in alles, want dat is welbehaaglijk voor de Heere. ~ [Kolossenzen 3:20](https://gezinvoorgod.nl/studiebijbel/kolossenzen/3#v20)
+
+4 - Het vijfde gebod Eer uw vader en uw moeder, opdat uw dagen verlengd worden in het land, dat u de HEERE uw God geeft. ~ [Exodus 20:12](https://gezinvoorgod.nl/studiebijbel/exodus/20#v12)
+
+De vader als onderwijzer
+
+1 - De woorden moeten in het hart zijn Deze woorden, die ik u heden gebied, moeten in uw hart zijn. ~ [Deuteronomium 6:6](https://gezinvoorgod.nl/studiebijbel/deuteronomium/6#v6)
+
+2 - Inprenten, thuis en onderweg U moet ze uw kinderen inprenten en erover spreken, als u in uw huis zit en als u over de weg gaat, als u neerligt en als u opstaat. ~ [Deuteronomium 6:7](https://gezinvoorgod.nl/studiebijbel/deuteronomium/6#v7)
+
+3 - Leer de jongen zijn weg Leer de jongen de eerste beginselen naar de eis van zijn weg; als hij ook oud zal geworden zijn, zal hij daarvan niet afwijken. ~ [Spreuken 22:6](https://gezinvoorgod.nl/studiebijbel/spreuken/22#v6)
+
+Huisgodsdienst en Schriftlezing
+
+1 - Vertellen aan het volgende geslacht Wij zullen ze niet verbergen voor hun kinderen, maar aan de volgende generatie de loffelijke daden van de HEERE vertellen, Zijn kracht en Zijn wonderen, die Hij gedaan heeft. ~ [Psalmen 78:4](https://gezinvoorgod.nl/studiebijbel/psalmen/78#v4)
+
+2 - Van jongs af de Schriften kennen En u van jongs af de heilige Schriften kent, die u wijs kunnen maken tot zaligheid, door het geloof dat in Christus Jezus is. ~ [2 Timotheüs 3:15](https://gezinvoorgod.nl/studiebijbel/2-timotheus/3#v15)
+
+3 - De Schriften onderzoeken U onderzoekt de Schriften, want u denkt daardoor eeuwig leven te hebben, en die zijn het die van Mij getuigen. ~ [Johannes 5:39](https://gezinvoorgod.nl/studiebijbel/johannes/5#v39)
+
+Tucht in de opvoeding
+
+1 - Wie de stok spaart Wie zijn stok spaart, haat zijn zoon, maar wie hem liefheeft, streeft naar vermaning voor hem. ~ [Spreuken 13:24](https://gezinvoorgod.nl/studiebijbel/spreuken/13#v24)
+
+2 - De stok en bestraffing geven wijsheid De stok en de bestraffing geven wijsheid, maar een jongeman die aan zichzelf is overgelaten, maakt zijn moeder beschaamd. ~ [Spreuken 29:15](https://gezinvoorgod.nl/studiebijbel/spreuken/29#v15)
+
+3 - Gehoorzaamheid bijbrengen Breng uw zoon gehoorzaamheid bij, en hij zal u rust geven en uw ziel genoegens schenken. ~ [Spreuken 29:17](https://gezinvoorgod.nl/studiebijbel/spreuken/29#v17)
+
+4 - Zoals God Zijn kinderen tuchtigt Als u bestraffing verdraagt, behandelt God u als kinderen. Want welk kind is er dat niet door zijn vader bestraft wordt? ~ [Hebreeën 12:7](https://gezinvoorgod.nl/studiebijbel/hebreeen/12#v7)
+
+Het voorbeeld van ouders
+
+1 - Timotheüs leerde van zijn moeder en grootmoeder Daarbij herinner ik mij het ongeveinsde geloof dat in u is en dat eerst gewoond heeft in uw grootmoeder Loïs en in uw moeder Eunike. En ik ben ervan overtuigd dat het ook in u woont. ~ [2 Timotheüs 1:5](https://gezinvoorgod.nl/studiebijbel/2-timotheus/1#v5)
+
+2 - Job heiligde zijn kinderen Het gebeurde dan, als de dagen van de maaltijden voorbij waren, dat Job hen bij zich riep en hen heiligde. Hij stond 's morgens vroeg op en bracht brandoffers, voor ieder van hen één, want Job zei: Misschien hebben mijn kinderen gezondigd en God in hun hart vaarwel gezegd. ~ [Job 1:5](https://gezinvoorgod.nl/studiebijbel/job/1#v5)
+
+Oudsten: leiding geven aan hun huis
+
+1 - Man van één vrouw, met gelovige kinderen Als iemand onberispelijk is, de man van één vrouw, gelovige kinderen heeft die niet beschuldigd kunnen worden van losbandigheid of ongehoorzaamheid. ~ [Titus 1:6](https://gezinvoorgod.nl/studiebijbel/titus/1#v6)
+
+2 - Diakenen: leiding geven aan kinderen en eigen huis De diakenen moeten mannen van één vrouw zijn, die goed leiding geven aan hun kinderen en aan hun eigen huis. ~ [1 Timotheüs 3:12](https://gezinvoorgod.nl/studiebijbel/1-timotheus/3#v12)
+
+Gezamenlijk dienen van God
+
+1 - Samen volharden En zij volhardden in de leer van de apostelen en in de gemeenschap, in het breken van het brood en in de gebeden. ~ [Handelingen 2:42](https://gezinvoorgod.nl/studiebijbel/handelingen/2#v42)
+
+2 - Bidden met elkaar Want waar twee of drie vergaderd zijn in Mijn Naam, daar ben Ik in het midden van hen. ~ [Mattheüs 18:20](https://gezinvoorgod.nl/studiebijbel/mattheus/18#v20)
+
+Liefde in het gezin
+
+1 - Mannen, heb uw vrouw lief Mannen, heb uw vrouwen lief en wees niet verbitterd tegen hen. ~ [Kolossenzen 3:19](https://gezinvoorgod.nl/studiebijbel/kolossenzen/3#v19)
+
+2 - Elkaar onderdanig, uit ontzag voor God Wees elkaar onderdanig in de vreze Gods. ~ [Efeze 5:21](https://gezinvoorgod.nl/studiebijbel/efeze/5#v21)
 
 
 ---
