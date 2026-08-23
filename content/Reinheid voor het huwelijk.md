@@ -112,5 +112,9 @@ Vlucht voor de hoererij. Elke zonde die de mens doet, is buiten het lichaam, maa
 Maar als zij zich niet kunnen onthouden, laten zij trouwen; want het is beter te trouwen dan van begeerte te branden.
 ~ [1 Korinthe 7:9](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v9)
 
+---
+
+[Het effect van samenwonen vóór het huwelijk](https://weet-magazine.nl/artikelen/mens/relaties-en-seksualiteit/het-effect-van-samenwonen-voor-het-huwelijk/?utm_source=brevo&utm_medium=email&utm_campaign=Nieuwsbrief%20mei)
+
 %%
 

@@ -1,8 +1,29 @@
 %%
 
+* https://gracegems.org/family.htm
+* https://gracegems.org/1/Family.htm
+➔ Grace Gems ➔ Family ➔ Quotes ➔ op volgorde afhandelen
+
+---
+
 https://www.biblebb.com/ ➔ zie homepage, naar onder: The Christian Family Collection 
 https://www.graceonlinelibrary.org/family-worship
 https://reformed.org/christian-family/
+
+---
+
+https://www.gracegems.org/7/Domestic%20piety.htm
+
+---
+
+https://www.gracegems.org/7/fireside_religion.htm
+
+---
+
+https://gezinvoorgod.nl/studiebijbel/nave/f/?hl=Ps.101.2#i6837 
+-> alle tekstverwijzingen bekijken
+
+---
 
 https://vormingvoorelkedag.nl/onderwerp/opvoeding/
 
@@ -56,6 +77,8 @@ Goede websites
 - wife
 
 ---
+
+[[Jozua 24 vers 15]]
 
 [[Gods wil voor vaders]]
 
@@ -156,6 +179,26 @@ https://gracegems.org/21/christian_father.htm
 https://gracegems.org/20/James_domestic_happiness.htm
 
 ---
+
+Household Service of God, by William Perkins
+https://thewestminsterstandard.org/household-service-of-god-by-william-perkins/
+
+How to be a Godly Father, by Matthew Henry
+https://thewestminsterstandard.org/how-to-be-a-godly-father-by-matthew-henry/
+
+---
+
+3 - Bijbelverklaring Bijbeltekst
+
+➔ Bijvoorbeeld Matthew Henry commentaar op Efeze 6:4
+➔ Werkwijze ➔ vaste volgorde van Bijbelverklaringen die ik check?
+
+- Kanttekeningen Statenvertaling -> https://gezinvoorgod.nl/studiebijbel/genesis/1/#v1 + Statenvertaling.nl
+* Matthew Henry’s Complete Commentary -> https://relight.app
+* John Gill's Exposition of the Whole Bible -> https://relight.app
+* Matthew Poole’s English Annotations on the Bible -> https://relight.app
+* Geneva Bible Notes -> https://relight.app
+* Commentaar Spurgeon -> zie https://charlesspurgeon.nl/spurgeon-studiebijbel/?boek=psalmen&hoofdstuk=101&svbm_open=commentaar#svbm-sectie-commentaar -> zie ook Engelse verklaring (site hiervoor zoeken)
 
 %%
 

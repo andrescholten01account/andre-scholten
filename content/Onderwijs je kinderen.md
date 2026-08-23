@@ -1,9 +1,3 @@
----
-Status: Draft
-draft: false
-blog: false
-publicatiedatum:
----
 ## Onderwijs je kinderen over God en Zijn geboden
 
 > Denk aan de dag dat u voor de HEERE, uw God, bij Horeb stond, toen de HEERE tegen mij zei: Verzamel dit volk voor Mij, en Ik zal hun Mijn woorden laten horen, die zij zullen leren, om Mij te vrezen al de dagen dat zij op de aardbodem leven, en zij zullen ze hun kinderen leren;
@@ -16,4 +10,22 @@ publicatiedatum:
 
 > Leer de jongen de eerste beginselen naar de eis van zijn weg; ook als hij oud geworden is, zal hij daar niet van afwijken.
 > ~ [Spreuken 22:6](https://gezinvoorgod.nl/studiebijbel/spreuken/22#v6) (SVnu)
+
+%%
+
+hoe zorg je ervoor dat je met je kinderen over God praat?
+
+Bijbeltekst: waar het hart vol van is, daar loopt de mond van over.
+
+Zorg dat je vol bent van God (Bijbel lezen, Gods Woord overdenken, bidden, aanbidden, christelijke boeken lezen, enz.), dan ben je zo vol van God, dat je daar als "vanzelf" met je kinderen over wilt en gaat praten.
+
+---
+
+The story book for boys and girls - T.S. Arthur -> christelijk -> lijkt in de lijn met Divine and moral songs van Isaac Watts
+
+---
+
+Songs for the Little Ones at Home - American Tract society -> lijkt me mooi
+
+%%
 
