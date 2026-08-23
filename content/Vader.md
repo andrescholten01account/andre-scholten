@@ -80,7 +80,6 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 * [[Kind en relaties]]
 * Kind en seksualiteit
 - [[Evangelie voor kinderen]]
-- [[Gedichtjes voor kinderen - algemeen]]
 
 ## [[Grootouders]]
 
