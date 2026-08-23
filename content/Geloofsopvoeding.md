@@ -103,3 +103,8 @@ De kinderen onderwijzen over God. Gods Woord inprenten. Mijn kinderen discipelen
 
 ---
 
+Bijbelteksten
+Dingen hier per bullet
+
+---
+

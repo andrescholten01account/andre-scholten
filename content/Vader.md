@@ -28,10 +28,15 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 * [[Huisgodsdienst en Schriftlezing]]
 * [[Het voorbeeld van ouders]]
 * [[Oudsten - leiding geven aan hun huis]]
+- [[Hoe leef je als gezin zoals God het wil]]
+- [[Verhoudingen (rollen) binnen het gezin]]
 
 ## [[Vaderschap]]
 
+- [[God op de eerste plaats - vaderschap|God op de eerste plaats]]
+- Wandelen met God
 - [[De vader als leider van het gezin]]
+- [[Een goede band met je kinderen hebben]]
 * [[De rol van de vader]]
 * [[De vader als onderwijzer]]
 * Heb een goede relatie met je kinderen
@@ -49,9 +54,13 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - Bid voor je kinderen
 - [[Leer van anderen]]
 - Van God houden
-- Van je gezin houden (vrouw + kinderen)
-- [[Een goede band met je kinde[[Een goede band met je kinderen hebben]]ren hebben]]
-
+- [[Van je gezin houden (vrouw + kinderen)]]
+- Een goed huwelijk
+- [[Goede communicatie]]
+- [[Wees een goed voorbeeld]]
+- [[Vervuld zijn met de Heilige Geest]]
+- Vader en zoon
+- Vader en dochter
 
 ## Moeder
 
@@ -64,7 +73,10 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 * Bestraffen
 * Opvoeden
 * Gehoorzaam aan ouders
-
+* Kind en telefoon
+* Kind en God
+* [[Kind en relaties]]
+* Kind en seksualiteit
 
 ## Bibliotheek
 
@@ -73,103 +85,12 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - [[Bronnen gezin]]
 
 
-
-
-
-
-
 ---
 
+[[Geloofsopvoeding]]
+[[Kinderrijmpjes]]
 
 
----
-
-De vader als gids. Het terrein verkennen voor je kinderen. Wat gaan ze tegenkomen? Hoe kan ik ze erop voorbereiden?
-
----
-
-God staat boven je vrouw
-
-Jezus zegt: "Wie niet meer van mij houdt dan van ... vader, moeder, vrouw, kinderen ... is het niet waard mij te volgen."
-
-➔ denk aan koning Salomo en zijn vrouwen die hem tot afgoderij overhaalden
-➔ andere voorbeelden van vrouwen met verkeerde invloed ➔ Simson en Deliah?
-
----
-
-Wandelen met God
-
-Een goed huwelijk
-
-Hou van je kinderen ➔ liefde: wat zegt God in de Bijbel over liefde?
-➔ 5 talen van de liefde (voor kinderen)
-
-Goede communicatie ➔ ook huwelijk
-➔ zie: How to win friends and influence people
-
-Een goede band met je kinderen hebben
-
-Wees een goed voorbeeld
-➔ Wees een rolmodel
-➔ practice what you preach
-➔ a good example is the best sermon
-
-Vervuld zijn met de Heilige Geest
-- De Heilige Geest leidt je
-- De Heilige Geest geeft je kracht
-- De Heilige Geest stort de liefde van God in je hart uit
-
----
-
-Een vader die een Godvrezend voorbeeld heeft - hoofdstuk 1
-
-I. Wees een voorbeeld
-
-➔ rolmodel
-
-II. Voorbeelden voor vaders
-
-A. Andere vaders in je omgeving
-
-B. Vaders uit boeken, films, geschiedenis
-
-C. God de Vader
-
-➔ God, onze Vader
-
----
-## [[Geloofsopvoeding]]
-
-Bijbelteksten
-Dingen hier per bullet
-
-## [[Kinderrijmpjes]]
-
-Hier een rijmpje zetten
-Dingen hier per bullet
-
-## Kinderen
-
-Kind en telefoon
-Kind en God
-[[Kind en relaties]]
-Kind en seksualiteit
-
-## Vader en zoon
-
-## Vader en dochter
-
----
-## Gezin
-
-- [[Hoe leef je als gezin zoals God het wil]]? 
-- [[Verhoudingen (rollen) binnen het gezin]]
-
----
-
->Van Alphen liet de kindpersonages zichzelf en de lezers lessen geven in ijver, leergierigheid, geduld, gehoorzaamheid, dankbaarheid en nederigheid. ==Hij stelde zich niet zoals zijn voorgangers op als leermeester, maar als **liefdevolle vader** die vooral begaan was met het geluk van zijn kinderen, in de overtuiging dat geluk volgde uit godsvrucht en deugd.==
-
-➔ https://www.dbnl.org/tekst/ghes002land01_01/ghes002land01_01_0008.php
 
 ---
 
@@ -198,42 +119,10 @@ Vertegenwoordiger ➔ veel tijd weg, later zag hij zijn kinderen bijna niet meer
 
 ---
 
-God
-Zelf
-Werk
-Thuis
-Familie
-Vrienden
-Gemeente
-Omgeving 
-- O.a. vrijwilligerswerk + evangelisatie
-- Een licht zijn voor de wereld ➔ "bereidheid schoenen Evangelie"
 
 ---
 
-1 - Voorkomen is beter dan genezen
 
-Je weet dat er bepaalde dingen gaan komen in het leven van je kinderen ➔ bereid ze er nu al op voor, voordat deze dingen spelen:
-
-- Seksualiteit, relaties
-- Vragen over God (evolutie)
-- Telefoongebruik
-
----
-
-Goede band met je kinderen hebben, dan luisteren ze. 
-
-Nobody care how much you know, until they know how much they care.
-~ Abraham Lincoln (nakijken)
-
----
-
-Wat is mijn doel met de kinderen?
-Wat zie ik voor hen voor ogen?
-
----
-
-als gezin samen plezier hebben.
 
 ---
 
