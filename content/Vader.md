@@ -36,10 +36,6 @@ Stap 3: Wees actief betrokken bij je kinderen
 
 ---
 
-
----
-
-
 ## Gezin
 
 * [[God op de eerste plaats in het gezin]]
@@ -57,9 +53,7 @@ Stap 3: Wees actief betrokken bij je kinderen
 * [[Liefde in het gezin]]
 * [[Huisgodsdienst en Schriftlezing]]
 * [[Het voorbeeld van ouders]]
-
-## Huwelijk
-
+* [[Oudsten - leiding geven aan hun huis]]
 * [[De man en zijn vrouw]]
 
 ## Vader
@@ -75,10 +69,6 @@ Stap 3: Wees actief betrokken bij je kinderen
 
 - [[Hoe horen kinderen zich te gedragen]]
 * [[Tucht in de opvoeding]]
-
----
-
-
 
 ---
 

@@ -66,5 +66,30 @@ Kinderen, wees je ouders gehoorzaam in alles, want dat is welbehaaglijk voor de 
 Eer uw vader en uw moeder, opdat uw dagen verlengd worden in het land, dat u de HEERE uw God geeft.
 ~ [Exodus 20:12](https://gezinvoorgod.nl/studiebijbel/exodus/20#v12)
 
+5 - Kinderen moeten de woorden van hun ouders bewaren
+
+Mijn zoon, bewaar het gebod van uw vader en verlaat de wet van uw moeder niet.
+~ [Spreuken 6:20](https://gezinvoorgod.nl/studiebijbel/spreuken/6#v20)
+
+6 - Een dwaas kind veracht de vermaning
+
+Een dwaas verwerpt de vermaning van zijn vader, maar wie de bestraffing in acht neemt, is schrander.
+~ [Spreuken 15:5](https://gezinvoorgod.nl/studiebijbel/spreuken/15#v5)
+
+7 - Een wijs kind verblijdt zijn ouders
+
+Een wijze zoon verblijdt zijn vader, maar een dwaas mens veracht zijn moeder.
+~ [Spreuken 15:20](https://gezinvoorgod.nl/studiebijbel/spreuken/15#v20)
+
+8 - Een wijs kind verblijdt zijn vader
+
+De vader van de rechtvaardige zal zich zeer verheugen; en die een wijze zoon voortbrengt, zal zich over hem verblijden.
+~ [Spreuken 23:24](https://gezinvoorgod.nl/studiebijbel/spreuken/23#v24)
+
+9 - Kinderen moeten hun ouders niet verachten
+
+Hoor naar uw vader, die u gewonnen heeft; en veracht uw moeder niet, als zij oud geworden is.
+~ [Spreuken 23:22](https://gezinvoorgod.nl/studiebijbel/spreuken/23#v22)
+
 %%
 

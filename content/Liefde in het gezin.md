@@ -45,5 +45,12 @@ Een zacht antwoord keert woede af, maar een krenkend woord wekt toorn op.
 Keer je af van het kwade en doe het goede; zoek de vrede en jaag die na.  
 ~ Psalm 34:15
 
+---
+
+1 - Mannen, heb uw vrouw lief
+
+Mannen, heb uw vrouwen lief en wees niet verbitterd tegen hen.
+~ [Kolossenzen 3:19](https://gezinvoorgod.nl/studiebijbel/kolossenzen/3#v19)
+
 %%
 

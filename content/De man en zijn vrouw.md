@@ -45,5 +45,48 @@ Laat de man aan zijn vrouw de verschuldigde welwillendheid betonen en evenzo ook
 De vrouw heeft niet de beschikking over haar eigen lichaam, maar de man. En evenzo heeft ook de man niet de beschikking over zijn eigen lichaam, maar de vrouw.  
 ~ 1 Korinthe 7:4
 
+---
+
+1 - De man moet zijn vrouw liefhebben
+
+Mannen, heb uw eigen vrouw lief, zoals ook Christus de gemeente liefgehad heeft en Zich voor haar heeft overgegeven.
+~ [Efeze 5:25](https://gezinvoorgod.nl/studiebijbel/efeze/5#v25)
+
+2 - De man moet zijn vrouw liefhebben als zichzelf
+
+Zo moeten de mannen hun eigen vrouwen liefhebben als hun eigen lichamen. Wie zijn eigen vrouw liefheeft, heeft zichzelf lief.
+~ [Efeze 5:28](https://gezinvoorgod.nl/studiebijbel/efeze/5#v28)
+
+3 - De man moet zijn vrouw voeden en koesteren
+
+Want niemand heeft ooit zijn eigen vlees gehaat, maar hij voedt en koestert het, zoals ook de Heere de gemeente.
+~ [Efeze 5:29](https://gezinvoorgod.nl/studiebijbel/efeze/5#v29)
+
+4 - De man moet zijn vrouw eren
+
+Evenzo, mannen, woon met begrip met hen samen; bewijs de vrouw eer als het zwakkere vat en als mede-erfgenamen van de genade van het leven, opdat uw gebeden niet verhinderd worden.
+~ [1 Petrus 3:7](https://gezinvoorgod.nl/studiebijbel/1-petrus/3#v7)
+
+5 - De vrouw moet haar man onderdanig zijn
+
+Vrouwen, wees uw eigen mannen onderdanig, zoals aan de Heere.
+~ [Efeze 5:22](https://gezinvoorgod.nl/studiebijbel/efeze/5#v22)
+
+Vrouwen, wees uw eigen mannen onderdanig, zoals het behoort in de Heere.
+~ [Kolossenzen 3:18](https://gezinvoorgod.nl/studiebijbel/kolossenzen/3#v18)
+
+6 - De vrouw moet ontzag hebben voor haar man
+
+Kortom, ook u moet ieder in het bijzonder uw eigen vrouw liefhebben als uzelf; en de vrouw moet ontzag hebben voor haar man.
+~ [Efeze 5:33](https://gezinvoorgod.nl/studiebijbel/efeze/5#v33)
+
+7 - Man en vrouw behoren elkaar toe
+
+Laat de man aan zijn vrouw de verschuldigde welwillendheid betonen en evenzo ook de vrouw aan haar man.
+~ [1 Korinthe 7:3](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v3)
+
+De vrouw heeft niet de beschikking over haar eigen lichaam, maar de man. En evenzo heeft ook de man niet de beschikking over zijn eigen lichaam, maar de vrouw.
+~ [1 Korinthe 7:4](https://gezinvoorgod.nl/studiebijbel/1-korinthe/7#v4)
+
 %%
 

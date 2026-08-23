@@ -36,17 +36,27 @@ Zie, kinderen zijn het eigendom van de HEERE, de vrucht van de schoot is Zijn be
 Zoals pijlen in de hand van een held, zo zijn de zonen, ontvangen in de jeugd.
 ~ [Psalmen 127:4](https://gezinvoorgod.nl/studiebijbel/psalmen/127#v4)
 
-3 - Vrouw en kinderen rondom de tafel
+3 - Kinderen zijn een zegen voor het gezin
+
+Welzalig de man die zijn pijlkoker daarmee gevuld heeft; zij worden niet beschaamd, als zij met de vijanden spreken in de poort.
+~ [Psalmen 127:5](https://gezinvoorgod.nl/studiebijbel/psalmen/127#v5)
+
+4 - Welzalig wie de HEERE vreest
+
+Welzalig is eenieder die de HEERE vreest, die in Zijn wegen gaat.
+~ [Psalmen 128:1](https://gezinvoorgod.nl/studiebijbel/psalmen/128#v1)
+
+5 - Vrouw en kinderen rondom de tafel
 
 Uw vrouw zal zijn als een vruchtbare wijnstok aan de zijkant van uw huis; uw kinderen als olijfplanten rondom uw tafel.
 ~ [Psalmen 128:3](https://gezinvoorgod.nl/studiebijbel/psalmen/128#v3)
 
-4 - Zo wordt de man gezegend
+6 - Zo wordt de man gezegend
 
 Zie, zo zal zeker de man gezegend worden die de HEERE vreest.
 ~ [Psalmen 128:4](https://gezinvoorgod.nl/studiebijbel/psalmen/128#v4)
 
-5 - Kleinkinderen zijn een kroon
+7 - Kleinkinderen zijn een kroon
 
 Kleinkinderen zijn de kroon van de ouderen, en het sieraad van kinderen zijn hun vaders.
 ~ [Spreuken 17:6](https://gezinvoorgod.nl/studiebijbel/spreuken/17#v6)

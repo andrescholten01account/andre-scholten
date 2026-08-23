@@ -70,7 +70,6 @@ Ik zal wandelen in de oprechtheid van mijn hart, te midden van mijn huis.
 
 ---
 
-
 1 - Leiding geven aan zijn eigen huis
 
 Hij moet goed leiding geven aan zijn eigen huis, zijn kinderen onderdanig houden, in alle waardigheid.
