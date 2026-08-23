@@ -1,7 +1,3 @@
----
-Status: Draft
-draft: true
----
 Ook opvoeding
 
 - Onderwijzen vanaf jonge leeftijd
@@ -94,6 +90,16 @@ https://www.fairviewbaptistchurch.ca/childrens-catechism/
 
 "People don't care how much you know, until they know how much you care."
 ~ Abraham Lincoln (?)
+
+---
+
+De kinderen onderwijzen over God. Gods Woord inprenten. Mijn kinderen discipelen. 
+
+---
+
+ Het Evangelie voor kinderen:
+	- Boeken
+	- Websites
 
 ---
 

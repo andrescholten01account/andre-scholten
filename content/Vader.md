@@ -9,36 +9,11 @@
 
 Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis?
 
-## Hoe ben je een vader naar Gods hart?
-
-Stap 1: Heb de basis op orde
-
-1. [[Hou van God]]
-2. [[Hou van je vrouw]]
-3. [[Hou van je gezin]]
-
-Stap 2: [[Orden je gezin volgens Gods principes]]
-
-Stap 3: Wees actief betrokken bij je kinderen
-
-1. [[Onderwijs je kinderen]]
-
-## Bibliotheek
-
-- [[Links gezin]]
-- Boeken gezin
-- [[Bronnen gezin]]
-
-%%
-
-➔ dit naar: Basis ➔ gehoorzaamheid? [[Hou van God en je naaste]]
-➔ Basis gehoorzaamheid
-
----
 ## Gezin
 
 * [[God op de eerste plaats in het gezin|God op de eerste plaats]]
 * [[Liefde in het gezin]]
+* [[Orden je gezin volgens Gods principes]]
 * [[Kinderen als zegen van God]]
 - [[Opvoeding]]
 
@@ -54,10 +29,29 @@ Stap 3: Wees actief betrokken bij je kinderen
 * [[Het voorbeeld van ouders]]
 * [[Oudsten - leiding geven aan hun huis]]
 
-## Vader
+## [[Vaderschap]]
 
+- [[De vader als leider van het gezin]]
 * [[De rol van de vader]]
 * [[De vader als onderwijzer]]
+* Heb een goede relatie met je kinderen
+* Wees zelf het goede voorbeeld
+* Onderwijs je kinderen over God
+* [[Breng tijd met je kinderen door]] 
+* [[Hou van je gezin]]
+* [[Onderwijs je kinderen]]
+* [[Geloofsopvoeding]]
+- Leider van gezin ➔ Leider
+- Bidden voor gezin ➔ Bidder
+- Onderwijs geven ➔ Leraar
+- Hou van je gezin
+- Onderwijs je kinderen
+- Bid voor je kinderen
+- [[Leer van anderen]]
+- Van God houden
+- Van je gezin houden (vrouw + kinderen)
+- [[Een goede band met je kinde[[Een goede band met je kinderen hebben]]ren hebben]]
+
 
 ## Moeder
 
@@ -67,6 +61,10 @@ Stap 3: Wees actief betrokken bij je kinderen
 
 - [[Hoe horen kinderen zich te gedragen]]
 * [[Tucht in de opvoeding]]
+* Bestraffen
+* Opvoeden
+* Gehoorzaam aan ouders
+
 
 ## Bibliotheek
 
@@ -74,98 +72,15 @@ Stap 3: Wees actief betrokken bij je kinderen
 - Boeken gezin
 - [[Bronnen gezin]]
 
----
-## Tips vaderschap
 
-1. Heb een goede relatie met God
-2. Heb een goed huwelijk
-3. Heb een goede relatie met je kinderen
-4. Wees zelf het goede voorbeeld
-5. Onderwijs je kinderen over God
-6. [[Breng tijd met je kinderen door]]
+
+
+
+
 
 ---
 
-> Husbands should try to make home happy and holy.
-> ~ Charles Spurgeon
 
----
-## Geloofsopvoeding
-
-De kinderen onderwijzen over God. Gods Woord inprenten. Mijn kinderen discipelen. 
-
----
-
-Opvoeden:
-- Bestraffen
-
-Kinderen:
-- Gehoorzaam aan ouders
-- Bestraffen
-- Het Evangelie voor kinderen:
-	- Boeken
-	- Websites
-
-Vader:
-- Leider van gezin ➔ Leider
-- Bidden voor gezin ➔ Bidder
-- Onderwijs geven ➔ Leraar
-
-➔ vanuit de rollen van de man praten?
-
-Toerusting voor kinderen ➔ discipelen
-- Boeken 
-	- IKEG-boekjes
-	- Een bijzondere deur
-	- Antwoordenboekje voor kinderen ➔ Ken Ham
-- Websites 
-
----
-## Hou van je gezin
-
-## Onderwijs je kinderen
-
-## Bid voor je kinderen
-
-## Leer van anderen
-
-- Boekenlijst
-- Spurgeon preek
-
----
-
-De vader als leider van het gezin.  
-
----
-
-Leider:
-
-- Initiatief nemen
-- Plannen
-- Het voortouw nemen
-
----
-
-Wat zegt Gods Woord over vaderschap?
-- Ef. 6:4 ➔ TSK + NAVE + TTT
-- Vandaar alle tekstverwijzingen volgen
-
----
-## Man
-
-Als vader:
-
-- Van God houden
-- Van je gezin houden (vrouw + kinderen)
-
-Husband should try to maken home happy and holy.
-~ John Ploughman's Talk (nog nakijken)
-
----
-
-1 - Een goede band met je kinderen hebben
-
-- Tijd met ze doorbrengen
 
 ---
 

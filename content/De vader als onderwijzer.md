@@ -15,5 +15,14 @@ U moet ze uw kinderen inprenten en erover spreken, als u in uw huis zit en als u
 Leer de jongen de eerste beginselen naar de eis van zijn weg; als hij ook oud zal geworden zijn, zal hij daarvan niet afwijken.
 ~ [Spreuken 22:6](https://gezinvoorgod.nl/studiebijbel/spreuken/22#v6)
 
+---
+
+Toerusting voor kinderen ➔ discipelen
+- Boeken 
+	- IKEG-boekjes
+	- Een bijzondere deur
+	- Antwoordenboekje voor kinderen ➔ Ken Ham
+- Websites 
+
 %%
 
