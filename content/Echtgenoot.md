@@ -41,6 +41,7 @@ Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huweli
 ## Stap 4: [[Echtgenote naar Gods hart]]
 
 - [[Ontzag hebben voor haar man]]
+- [[Een goede vrouw]]
 
 ## Bibliotheek
 

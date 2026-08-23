@@ -15,5 +15,12 @@ Wie ongehuwd is, draagt zorg voor de dingen van de Heere, hoe hij de Heere kan b
 Maar Hij zei tegen hen: Niet allen kunnen dit woord bevatten, maar alleen zij aan wie het gegeven is.  
 ~ [Mattheüs 19:11](https://gezinvoorgod.nl/studiebijbel/mattheus/19#v11)
 
+---
+
+https://godrules.net/library/spurgeon/NEW10spurgeon_a10.htm
+
+Harry Heartless will make a bad husband.
+-> Better let him remain a bachelor.
+
 %%
 

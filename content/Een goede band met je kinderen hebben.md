@@ -19,3 +19,11 @@ Nobody care how much you know, until they know how much they care.
 
 ---
 
+1 - Breng tijd met je gezin door
+
+Cat in the cradle
+
+Vertegenwoordiger ➔ veel tijd weg, later zag hij zijn kinderen bijna niet meer. 
+
+---
+
