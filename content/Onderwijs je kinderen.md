@@ -27,5 +27,12 @@ The story book for boys and girls - T.S. Arthur -> christelijk -> lijkt in de li
 
 Songs for the Little Ones at Home - American Tract society -> lijkt me mooi
 
+---
+## Als je op vakantie bent 
+
+En niet naar de kerk kan
+
+➔ preken voor het gezin googelen (dit om te printen en voor te lezen)
+
 %%
 

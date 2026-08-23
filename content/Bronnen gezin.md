@@ -200,5 +200,9 @@ https://thewestminsterstandard.org/how-to-be-a-godly-father-by-matthew-henry/
 * Geneva Bible Notes -> https://relight.app
 * Commentaar Spurgeon -> zie https://charlesspurgeon.nl/spurgeon-studiebijbel/?boek=psalmen&hoofdstuk=101&svbm_open=commentaar#svbm-sectie-commentaar -> zie ook Engelse verklaring (site hiervoor zoeken)
 
+---
+
+➔ Spurgeon preken ➔ gezin ➔ zie ook nl-boekjes Spurgeon over het gezin (Boekholt?) 
+
 %%
 
