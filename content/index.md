@@ -1,4 +1,4 @@
-*- +<div align="center">
+<div align="center">
 
 ![[Pasted image 20260715071609.png|450]]
 
