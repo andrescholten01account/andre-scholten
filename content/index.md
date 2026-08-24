@@ -1,3 +1,8 @@
+---
+title: Gezin voor God
+slogan: De man als leider van het gezin
+---
+
 <div align="center">
 
 ![[Pasted image 20260715071609.png|450]]
