@@ -42,3 +42,37 @@ De focus ligt op 3 gebieden:
 
 %%
 
+%%
+
+Openb. 14:12 volharding
+Openb. 15:3 God is almachtig
+Openb. 15:3 God is heilig
+Openb. 15:3 God aanbidden
+Openb. 15:3 God is eeuwig
+
+Openb. 16:7 God oordeelt rechtvaardig - eeuwig oordeel
+
+---
+
+1 Kon. 1:6 ➔ slecht vaderschap, geen tuchtiging
+➔ Spr. als je je kinderen niet tuchtigt, dan ...
+➔ Spr. kind aan lot overlaten (niet tuchtigen) ...
+➔ 1 Kon. 1:6 is daar een voorbeeld van
+
+---
+
+Voor overdenking?
+
+Openb. 15:3 God is almachtig
+Openb. 15:3 God is heilig
+Openb. 15:3 God aanbidden
+Openb. 15:3 God is eeuwig
+
+---
+
+Woorden ➔ geven ➔ bemoedigen:
+- Wel goede woorden
+- Geen slechte woorden 
+
+%%
+
