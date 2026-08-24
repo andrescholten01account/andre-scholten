@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Man.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Man"
+              "title": "index"
             }
           },
           {
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Man.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,8 +271,8 @@
   },
   "active": "15ba8b1d14f3020c",
   "lastOpenFiles": [
-    "Bijbel lezen.md",
     "Man.md",
+    "Bijbel lezen.md",
     "Gehoorzaamheid - Jezus volgen.md",
     "index.md",
     "Kern.md",
