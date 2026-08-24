@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Man.md",
+                "file": "Standvastig.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Man"
+              "title": "Standvastig"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gehoorzaamheid.md",
+                "file": "Echtgenoot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gehoorzaamheid"
+              "title": "Echtgenoot"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Standvastig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,34 +255,34 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "ed244383c8f80931",
+  "active": "290e475215a359a4",
   "lastOpenFiles": [
+    "Kern.md",
+    "Standvastig.md",
+    "Man.md",
+    "Hou van God.md",
+    "God en Zijn redding - Basis in het kort.md",
+    "Vader.md",
+    "De zegen van een Godvrezend gezin.md",
+    "Echtgenoot.md",
+    "Echtgenoot naar Gods hart.md",
+    "Vrucht van de Geest in het huwelijk.md",
+    "Liefde in het huwelijk - Hou van elkaar.md",
+    "Liefde in het huwelijk - Hou van God.md",
+    "Liefde in het huwelijk.md",
+    "Evangelisatie.md",
+    "Gehoorzaamheid.md",
+    "index.md",
+    "Vrucht van de Geest.md",
+    "Hou van je naaste.md",
+    "In Gods wil wandelen.md",
+    "Bidden voor gezin ➔ Bidder.md",
+    "Waarschuwing voor ouders.md",
     "Verantwoording.md",
     "Backup - Over de BereaBijbel.md",
     "Verantwoording StatenvertalingNu.md",
-    "index.md",
     "To do.md",
-    "Vader.md",
     "Gebeden voor kinderen.md",
-    "Ochtendgebed.md",
-    "Gehoorzaamheid.md",
-    "Evangelisatie.md",
-    "Echtgenoot.md",
-    "Artikelen echtgenoot.md",
-    "Auto.md",
-    "Thuis.md",
-    "Gezond & sterk.md",
-    "Man.md",
-    "Gedichtjes voor kinderen - algemeen.md",
-    "Het eendje.md",
-    "Evangelie voor kinderen.md",
-    "Het Evangelie voor kinderen - op rijm.md",
-    "Alfabet voor kinderen.md",
-    "Schrijven.md",
-    "Op de camping in de duinen.md",
-    "Het verborgen plekje.md",
-    "Onderwijs je kinderen.md",
-    "Preken.md",
     "Pasted image 20260821214432.png",
     "Pasted image 20260821214049.png",
     "Pasted image 20260821110549.png",
