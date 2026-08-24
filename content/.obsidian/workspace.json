@@ -77,8 +77,7 @@
               "title": "Vader"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,10 +253,10 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "ed244383c8f80931",
+  "active": "908e7520ca2f7946",
   "lastOpenFiles": [
-    "Vader.md",
     "index.md",
+    "Vader.md",
     "Echtgenoot.md",
     "Man.md",
     "Gedichtjes voor kinderen - algemeen.md",
