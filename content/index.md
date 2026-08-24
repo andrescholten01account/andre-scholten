@@ -73,6 +73,40 @@ Openb. 15:3 God is eeuwig
 Woorden ➔ geven ➔ bemoedigen:
 - Wel goede woorden
 - Geen slechte woorden 
+---
+
+Ps. 113 ➔ aanbidding
+
+---
+
+Volharding
+
+Ex. 16:4 ➔ God gehoorzamen onder alle omstandigheden
+
+➔ "Al zou de vijgenboom niet bloeien, nochtans ..."
+➔ Bijbeltekst: God kennen en dienen onder alle omstandigheden 
+
+---
+
+Gods Woord
+
+1 - Geeft richting
+
+Ps. 119:105
+
+2 - Geestelijk voedsel
+
+Bijbel: Mens kan niet leven van brood alleen, maar van ieder Woord ...
+
+Bijbel: Zuivere melk van Gods Woord ➔ Verlang naar de zuivere melk ➔ Petrus-brief
+
+3 - Laat het Woord van Christus rijkelijk in u wonen
+
+
+➔ Geestelijk voedsel
+➔ Neem dat geestelijk voedsel in rijke mate tot je 
+- Gods Woord overdenken dag en nacht: Ps. 1:2
+- Bijbel: Zuivere melk van Gods Woord ➔ Verlang naar de zuivere melk ➔ Petrus-brief
 
 %%
 
