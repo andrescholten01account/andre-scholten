@@ -120,7 +120,7 @@ Gehoorzaamheid:
 
 Gods daden herinneren:
 - 12 stenen in de Jordaan ➔ Bijbelboek Jozua
-- 
+- Bijbelteksten: "Denk aan ..."
 
 %%
 
