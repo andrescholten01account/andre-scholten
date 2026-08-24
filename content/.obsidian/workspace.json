@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "To do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "To do"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standvastig.md",
+                "file": "Basis christelijk geloof.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Standvastig"
+              "title": "Basis christelijk geloof"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Standvastig.md",
+                "file": "To do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,13 +255,16 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "290e475215a359a4",
+  "active": "ed244383c8f80931",
   "lastOpenFiles": [
-    "Kern.md",
+    "index.md",
+    "Basis christelijk geloof.md",
+    "Het eeuwige oordeel.md",
     "Standvastig.md",
+    "God en Zijn redding - Basis in het kort.md",
+    "Kern.md",
     "Man.md",
     "Hou van God.md",
-    "God en Zijn redding - Basis in het kort.md",
     "Vader.md",
     "De zegen van een Godvrezend gezin.md",
     "Echtgenoot.md",
@@ -272,7 +275,6 @@
     "Liefde in het huwelijk.md",
     "Evangelisatie.md",
     "Gehoorzaamheid.md",
-    "index.md",
     "Vrucht van de Geest.md",
     "Hou van je naaste.md",
     "In Gods wil wandelen.md",
@@ -281,8 +283,6 @@
     "Verantwoording.md",
     "Backup - Over de BereaBijbel.md",
     "Verantwoording StatenvertalingNu.md",
-    "To do.md",
-    "Gebeden voor kinderen.md",
     "Pasted image 20260821214432.png",
     "Pasted image 20260821214049.png",
     "Pasted image 20260821110549.png",
