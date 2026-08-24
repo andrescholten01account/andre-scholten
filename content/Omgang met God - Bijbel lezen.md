@@ -1,10 +1,9 @@
+1 - Gods Woord dag en nacht overdenken
+
+Dit boek met deze wet mag niet wijken uit uw mond, maar u moet het dag en nacht overdenken, zodat u nauwlettend zult handelen overeenkomstig alles wat daarin geschreven staat. Dan immers zult u uw wegen voorspoedig maken en dan zult u verstandig handelen.
+~ Jozua 1:8
+
 ---
-Status: Draft
-draft: false
-blog: false
-publicatiedatum:
----
-joz. 1:8
 
 ps. 1:2
 
