@@ -4,8 +4,8 @@
 
 </div>
 
-> ... maar wat mij en mijn huis aangaat, wij zullen de HEERE dienen!
-> ~ [Jozua 24:15d](https://gezinvoorgod.nl/studiebijbel/jozua/24#v15) (SVnu)
+> ... Maar wat mij en mijn huis betreft, wij zullen de HEERE dienen!
+> ~ Jozua 24:15d
 
 Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis?
 
