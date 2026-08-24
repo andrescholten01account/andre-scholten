@@ -2,4 +2,5 @@
 * [[Verantwoording StatenvertalingNu]]
 - [[Copyright policy]]
 - [[Bronnen afbeeldingen]]
+- [[Backup - Over de BereaBijbel]]
 

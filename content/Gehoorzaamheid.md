@@ -7,3 +7,9 @@
 Want ik zou niet durven iets zeggen dat Christus niet door mij gewerkt heeft, tot gehoorzaamheid van de heidenen, met woorden en werken;
 ~ [Romeinen 15:18](https://gezinvoorgod.nl/studiebijbel/romeinen/15#v18) (SVnu)
 
+%%
+
+[[Evangelisatie]]
+
+%%
+
