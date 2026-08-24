@@ -1,7 +1,7 @@
 %%
 ## Omgang met God
 
-1. [[Omgang met God - Bijbel lezen|Bijbel lezen]]
+1. [[Bijbel lezen]]
 2. [[Omgang met God - Bidden|Bidden]]
 3. [[Omgang met God - Aanbidden|Aanbidden]]
 
