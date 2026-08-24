@@ -77,7 +77,8 @@
               "title": "Vader"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,15 +254,15 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "908e7520ca2f7946",
+  "active": "ed244383c8f80931",
   "lastOpenFiles": [
+    "To do.md",
     "index.md",
     "Vader.md",
     "Echtgenoot.md",
     "Man.md",
     "Gedichtjes voor kinderen - algemeen.md",
     "Het eendje.md",
-    "To do.md",
     "Evangelie voor kinderen.md",
     "Het Evangelie voor kinderen - op rijm.md",
     "Alfabet voor kinderen.md",
