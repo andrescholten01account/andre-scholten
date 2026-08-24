@@ -1,6 +1,5 @@
 * [[God en Zijn redding - Basis in het kort]]
-* [[Verantwoording StatenvertalingNu]]
 - [[Copyright policy]]
 - [[Bronnen afbeeldingen]]
-- [[Backup - Over de BereaBijbel]]
+
 
