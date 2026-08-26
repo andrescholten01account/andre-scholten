@@ -31,7 +31,7 @@
               "type": "markdown",
               "state": {
                 "file": "index.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -265,11 +265,11 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "a72119737a2d4435",
+  "active": "647dd6bd11be4d6e",
   "lastOpenFiles": [
+    "Vader.md",
     "Echtgenoot.md",
     "Man.md",
-    "Vader.md",
     "Basis christelijk geloof.md",
     "God.md",
     "Standvastig.md",
