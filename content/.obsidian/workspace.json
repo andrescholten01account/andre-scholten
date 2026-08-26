@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Waarom deze website.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Waarom deze website"
             }
           },
           {
@@ -257,8 +257,9 @@
   },
   "active": "647dd6bd11be4d6e",
   "lastOpenFiles": [
-    "Man.md",
     "index.md",
+    "Waarom deze website.md",
+    "Man.md",
     "Echtgenoot.md",
     "To do.md",
     "Melding update afhandelen.md",
