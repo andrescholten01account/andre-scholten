@@ -21,6 +21,8 @@ Zie ook: [[Back-up plan]]
 
 4 - [[BijbelApp ➔ toevoegen aan taakbalk ➔ zie claude]]
 
+5 - [[Melding update afhandelen]]
+
 ## StudieBijbel-gedeelte
 
 1- NAVE
