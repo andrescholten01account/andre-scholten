@@ -1,9 +1,3 @@
-<div align="center">
-
-![[Pasted image 20260811232307.png|450]]
-
-</div>
-
 > ... Ik heb David, de *zoon* van Isaï, gevonden, een man naar Mijn hart, die alles zal doen wat Ik wil.
 > ~ Handelingen 13:22b
 
