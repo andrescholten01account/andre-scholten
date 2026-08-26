@@ -1,5 +1,15 @@
 Dit heeft meerdere redenen. 
 
+## Visie
+
+Win een man, win het gezin
+Win het gezin, win de gemeente
+Win de gemeente, win Nederland
+
+## Missie
+
+Het ontwikkelen van het leiderschap van de man in het gezin.
+
 ## 1. Leven met God
 
 Als eerste heeft ermee te maken dat ik wil leven zoals God dat wil. Op deze site schrijf ik dingen op die horen bij het kennen van God en leven met God. Het wandelen met God en het wandelen in Zijn geboden. 

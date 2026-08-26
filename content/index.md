@@ -7,17 +7,7 @@ slogan: De man als leider van het gezin
 
 Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het gezin, hierin? Hoe leef je als man, echtgenoot, en vader tot eer van God?
 
-## Visie
-
-Win een man, win het gezin
-Win het gezin, win de gemeente
-Win de gemeente, win Nederland
-
-## Missie
-
-Het ontwikkelen van het leiderschap van de man in het gezin.
-
-[[Waarom deze website]]
+[[Waarom deze website|Lees meer]]
 
 %%
 ## Hoofdmenu
