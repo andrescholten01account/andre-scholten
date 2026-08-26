@@ -10,6 +10,7 @@
           {
             "id": "908e7520ca2f7946",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,6 +18,7 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "To do"
             }
@@ -24,6 +26,7 @@
           {
             "id": "647dd6bd11be4d6e",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -31,27 +34,31 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "index"
             }
           },
           {
-            "id": "b227221969a2d538",
+            "id": "c2e0407ce786e980",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "God en Zijn redding - Basis in het kort.md",
+                "file": "Man.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "God en Zijn redding - Basis in het kort"
+              "title": "Man"
             }
           },
           {
             "id": "461ad0400f431339",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -59,6 +66,7 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Echtgenoot"
             }
@@ -66,6 +74,7 @@
           {
             "id": "a72119737a2d4435",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -73,12 +82,27 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Vader"
             }
+          },
+          {
+            "id": "d070691f9671a3c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Standvastig.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Standvastig"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -255,17 +279,18 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "b227221969a2d538",
+  "active": "d070691f9671a3c6",
   "lastOpenFiles": [
-    "Boekje - De basis van het christelijk geloof.md",
-    "God en Zijn redding - Basis in het kort.md",
-    "Standvastig.md",
-    "Kern.md",
     "Man.md",
     "index.md",
-    "Waarom deze website.md",
+    "Vader.md",
     "Echtgenoot.md",
     "To do.md",
+    "God en Zijn redding - Basis in het kort.md",
+    "Boekje - De basis van het christelijk geloof.md",
+    "Standvastig.md",
+    "Kern.md",
+    "Waarom deze website.md",
     "Melding update afhandelen.md",
     "Pasted image 20260825232520.png",
     "BijbelApp ➔ toevoegen aan taakbalk ➔ zie claude.md",
@@ -274,7 +299,6 @@
     "Bijbel lezen.md",
     "Gehoorzaamheid - Jezus volgen.md",
     "Het eeuwige oordeel.md",
-    "Vader.md",
     "Verantwoording.md",
     "Copyright policy.md",
     "Backup - Over de BereaBijbel.md",
