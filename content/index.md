@@ -2,14 +2,6 @@
 title: Gezin voor God
 slogan: De man als leider van het gezin
 ---
-<div align="center">
-
-![[Pasted image 20260715071609.png|450]]
-
-</div>
-
-<div style="text-align: center;">
-
 > ... Maar wat mij en mijn huis betreft, wij zullen de HEERE dienen!
 > ~ Jozua 24:15d
 
@@ -26,8 +18,6 @@ Win de gemeente, win Nederland
 Het ontwikkelen van het leiderschap van de man in het gezin.
 
 [[Waarom deze website]]
-
-</div>
 
 %%
 ## Hoofdmenu
