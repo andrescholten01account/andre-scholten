@@ -12,7 +12,7 @@ Wat speciaal mijn aandacht heeft is: wat is mijn rol als man hierin? Wat beteken
 
 ## 3. Een opwekking in Nederland
 
-Ik heb het verlangen dat iedereen in Nederland God leert kennen. Hoe dan? Eerst dacht ik dat ik actief bezig moest zijn met evangeliseren. Nu weet ik dat zo niet. Moet ik als een kip zonder kop iedereen proberen te bereiken met het Evangelie? Actief de straat op en al mijn tijd volstoppen om mensen te bereiken met het Evangelie?
+Ik heb het verlangen dat iedereen in Nederland God leert kennen. Hoe dan? Eerst dacht ik dat ik actief bezig moest zijn met evangeliseren. Nu weet ik dat zo niet. Moet ik als een kip zonder kop rondrennen en iedereen proberen te bereiken met het Evangelie? Actief de straat op en al mijn tijd volstoppen om mensen te vertellen over Jezus?
 
 Ik weet het zo niet. En mijn gezin dan? Wat als ik al mijn vrije tijd besteedt aan het proberen te bereiken van andere mensen met het Evangelie? Hoe is de band met mijn vrouw en kinderen dan? Het kan toch niet de bedoeling zijn dat ik actief buiten de deur bezig ben met evangeliseren en ik het thuis niet op orde heb? Alsof ik bij anderen de tuin opknap en mijn eigen tuin vol onkruid staat. 
 
@@ -20,7 +20,7 @@ Nee, eerst de boel thuis op orde hebben. En dan van daaruit, op een natuurlijke 
 
 Wat, als iedere man, de man is zoals God bedoeld heeft? Zijn rol als christelijke man, echtgenoot, en vader op zich neemt, zoals God dat wil? Wat als alle christelijke gezinnen gezond en sterk zijn in de Heer? Wat als alle christelijke gezinnen vol zijn van de Geest van God en vruchtdragen? Een licht zijn voor hun omgeving? 
 
-Dat is iets wat ik mij afvraag. Heb ik evangelisatie niet verkeerd gezin. Moet het niet anders? Kunnen we niet beter eerst ons eigen leven met God op orde hebben en dat van ons gezin en in de gemeente? En wat als we op deze manier vol zijn van God? Lopen de gesprekken met niet-christenen dan niet "vanzelf"? Het is een idee dat ik heb. Een vermoeden. Ik wil mij hier in verdiepen. 
+Dat is iets wat ik mij afvraag. Heb ik evangelisatie verkeerd gezien? Moet het niet anders? Kunnen we niet beter eerst ons eigen leven met God op orde hebben en dat van ons gezin en in de gemeente? En wat als we op deze manier vol zijn van God? Lopen de gesprekken met niet-christenen dan niet "vanzelf"? Het is een idee dat ik heb. Een vermoeden. Ik wil mij hier in verdiepen. 
 
 Welkom op deze site. Ik hoop dat jij en jij gezin dichter naar God toe zullen groeien en vrucht zullen dragen. 
 
