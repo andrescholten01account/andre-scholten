@@ -1,9 +1,3 @@
-<div align="center">
-
-![[Pasted image 20260810143904.png|450]]
-
-</div>
-
 > Kortom, ook u moet, ieder in het bijzonder, uw eigen vrouw net zo liefhebben als uzelf; ... 
 > ~ Efeze 5:33a
 

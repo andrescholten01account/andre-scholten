@@ -1,9 +1,3 @@
-<div align="center">
-
-![[Pasted image 20260811161447.png|450]]
-
-</div>
-
 > ... Maar wat mij en mijn huis betreft, wij zullen de HEERE dienen!
 > ~ Jozua 24:15d
 
