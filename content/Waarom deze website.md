@@ -1,12 +1,18 @@
 Dit heeft meerdere redenen. 
 
-1 - Als eerste heeft ermee te maken dat ik wil leven zoals God dat wil. Op deze site schrijf ik dingen op die horen bij het kennen van God en leven met God. Het wandelen met God en het wandelen in Zijn geboden. 
+## 1. Leven met God
 
-2 - Verder heb ik een gezin. Ik wil graag dat iedereen in mijn gezin ook leeft met God. Dan verder de vraag: hoe ben ik een goede echtgenoot en vader? Hoe heb je een huwelijk zoals God dat bedoeld heeft? Hoe ben je een vader zoals God dat bedoeld heeft? 
+Als eerste heeft ermee te maken dat ik wil leven zoals God dat wil. Op deze site schrijf ik dingen op die horen bij het kennen van God en leven met God. Het wandelen met God en het wandelen in Zijn geboden. 
+
+## 2. Als gezin leven met God
+
+Verder heb ik een gezin. Ik wil graag dat iedereen in mijn gezin ook leeft met God. Dan verder de vraag: hoe ben ik een goede echtgenoot en vader? Hoe heb je een huwelijk zoals God dat bedoeld heeft? Hoe ben je een vader zoals God dat bedoeld heeft? 
 
 Wat speciaal mijn aandacht heeft is: wat is mijn rol als man hierin? Wat betekend het dat de man het hoofd van de vrouw is? En wat betekend het dat de man de leider van het gezin is? Welke verantwoordelijkheid heeft God mij, als man, gegeven?
 
-3 - Een opwekking in Nederland. Ik heb het verlangen dat iedereen in Nederland God leert kennen. Hoe dan? Eerst dacht ik dat ik actief bezig moest zijn met evangeliseren. Nu weet ik dat zo niet. Moet ik als een kip zonder kop iedereen proberen te bereiken met het Evangelie? Actief de straat op en al mijn tijd volstoppen om mensen te bereiken met het Evangelie?
+## 3. Een opwekking in Nederland
+
+Ik heb het verlangen dat iedereen in Nederland God leert kennen. Hoe dan? Eerst dacht ik dat ik actief bezig moest zijn met evangeliseren. Nu weet ik dat zo niet. Moet ik als een kip zonder kop iedereen proberen te bereiken met het Evangelie? Actief de straat op en al mijn tijd volstoppen om mensen te bereiken met het Evangelie?
 
 Ik weet het zo niet. En mijn gezin dan? Wat als ik al mijn vrije tijd besteedt aan het proberen te bereiken van andere mensen met het Evangelie? Hoe is de band met mijn vrouw en kinderen dan? Het kan toch niet de bedoeling zijn dat ik actief buiten de deur bezig ben met evangeliseren en ik het thuis niet op orde heb? Alsof ik bij anderen de tuin opknap en mijn eigen tuin vol onkruid staat. 
 

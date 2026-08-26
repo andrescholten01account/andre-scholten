@@ -25,7 +25,7 @@ Win de gemeente, win Nederland
 
 Het ontwikkelen van het leiderschap van de man in het gezin.
 
-## [[Waarom deze website]]?
+[[Waarom deze website]]?
 
 </div>
 
