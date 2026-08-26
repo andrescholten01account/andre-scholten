@@ -1,5 +1,3 @@
-Dit heeft meerdere redenen. 
-
 ## Visie
 
 Win een man, win het gezin
@@ -9,6 +7,10 @@ Win de gemeente, win Nederland
 ## Missie
 
 Het ontwikkelen van het leiderschap van de man in het gezin.
+
+---
+
+Dit heeft meerdere redenen. 
 
 ## 1. Leven met God
 

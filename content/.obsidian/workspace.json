@@ -31,7 +31,7 @@
               "type": "markdown",
               "state": {
                 "file": "index.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -88,13 +88,13 @@
             }
           },
           {
-            "id": "d1731e63ede63b3c",
+            "id": "1f2bf2c1705640b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Waarom deze website.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -279,12 +279,12 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "d1731e63ede63b3c",
+  "active": "1f2bf2c1705640b6",
   "lastOpenFiles": [
     "index.md",
-    "Man.md",
     "Vader.md",
     "Waarom deze website.md",
+    "Man.md",
     "Echtgenoot.md",
     "Basis christelijk geloof.md",
     "God.md",
