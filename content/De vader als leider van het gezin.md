@@ -1,3 +1,7 @@
+Het ontwikkelen van het leiderschap van de man in het gezin.
+
+---
+
 Leider:
 
 - Initiatief nemen
