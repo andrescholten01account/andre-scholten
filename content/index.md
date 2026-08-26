@@ -31,7 +31,7 @@ Dit heeft meerdere redenen.
 
 1 - Als eerste heeft ermee te maken dat ik wil leven zoals God dat wil. Op deze site schrijf ik dingen op die horen bij het kennen van God en leven met God. Het wandelen met God en het wandelen in Zijn geboden. 
 
-2 - Verder heb ik geen gezin. Ik wil graag dat iedereen in mijn gezin ook leeft met God. Dan verder de vraag: hoe ben ik een goede echtgenoot en vader? Hoe heb je een huwelijk zoals God dat bedoeld heeft? Hoe ben je een vader zoals God dat bedoeld heeft? 
+2 - Verder heb ik een gezin. Ik wil graag dat iedereen in mijn gezin ook leeft met God. Dan verder de vraag: hoe ben ik een goede echtgenoot en vader? Hoe heb je een huwelijk zoals God dat bedoeld heeft? Hoe ben je een vader zoals God dat bedoeld heeft? 
 
 Wat speciaal mijn aandacht heeft is: wat is mijn rol als man hierin? Wat betekend het dat de man het hoofd van de vrouw is? En wat betekend het dat de man de leider van het gezin is? Welke verantwoordelijkheid heeft God mij, als man, gegeven?
 
