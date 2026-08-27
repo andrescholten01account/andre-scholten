@@ -10,15 +10,11 @@
 
 ## Gezin voor God 
 
-1 - breedte website aanpassen aan relight.blog en - https://relight.app/resource/HenryWSC.14 
-
-➔ de breedte van de quotes is hoe ik het wel hebben. dat is goed. 
-
-2 - Url's aanpassen
+1 - Url's aanpassen
 
 Ik wil url aan kunnen passen. soms heb je bijvoorbeeld: dit-is-een-mooie-geschidenis -> dan wil ik maken: mooie-geschiedenis
 
-3 - Veiligheid en backup
+2 - Veiligheid en backup
 
 - Hoe is dit geregeld? Staan al mijn bestanden veilig? Er wordt niet meer gesynchroniseerd met OneDrive. Waar staat alles?
 - Is alles veilig m.b.t. inbreken op GitHub, Cloudflare, en wat ik allemaal gebruik?
@@ -26,9 +22,9 @@ Ik wil url aan kunnen passen. soms heb je bijvoorbeeld: dit-is-een-mooie-geschid
 
 Zie ook: [[Back-up plan]]
 
-4 - [[Dit logo, favicon toevoegen]]
+3 - [[Dit logo, favicon toevoegen]]
 
-5 - [[Melding update afhandelen]]
+4 - [[Melding update afhandelen]]
 
 ## BijbelApp 
 
