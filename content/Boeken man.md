@@ -86,11 +86,15 @@ The Manbook - Nick Freitas
 ---
 ## Piet Prins 
 
-Serie: De tirannie verdrijven ➔ gaat over de 80-jarige oorlog
+https://www.schrijversinfo.nl/prinspiet.html
+
+Serie: De tirannie verdrijven ➔ 80-jarige oorlog
 - Toen de morgen kwam
 - De tirannie verdrijven
 - Onder de geuzenvlag
 - Om het hart van Holland
+
+Toen Haarlem in nood was ➔ 80-jarige oorlog
 
 %%
 
