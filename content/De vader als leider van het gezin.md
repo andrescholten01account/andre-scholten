@@ -3,6 +3,11 @@ Maar als het in uw ogen kwalijk is de HEERE te dienen, kies voor u heden wie u z
 
 ---
 
+Hij moet goed leiding geven aan zijn eigen huis, *zijn* kinderen onderdanig houden, in alle waardigheid.
+~ 1 Timotheüs 3:4
+
+---
+
 Het ontwikkelen van het leiderschap van de man in het gezin.
 
 ---

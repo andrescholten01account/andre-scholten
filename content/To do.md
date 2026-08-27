@@ -28,13 +28,17 @@ Zie ook: [[Back-up plan]]
 
 5 - [[Melding update afhandelen]]
 
+6 - TSK toevoegen
+
 ## StudieBijbel-gedeelte
 
-1- NAVE
+Bijbel | Vergelijk | Onderwerp
 
-2 - TTT
+1 - TSK ➔ zie hierboven 
 
-3 - TSK
+2- NAVE
+
+3 - TTT
 
 4 - The Bible Text-Book (American Tract Society, ±1880)  
 [https://archive.org/details/bibletextbookorp00amer/page/n23/mode/2up](https://archive.org/details/bibletextbookorp00amer/page/n23/mode/2up)
