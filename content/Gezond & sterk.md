@@ -85,6 +85,8 @@ Humor:
 - Humor (Pinterest ➔ memes, moppen)
 - Avontuur
 - Avonturenboeken
+- Geschiedenis ➔ vaderlandse geschiedenis
+- Kamperen ➔ wildkamperen
 
 ## Orde
 

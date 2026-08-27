@@ -3,6 +3,11 @@
 - [https://platform.claude.com/dashboard](https://platform.claude.com/dashboard) ➔ checken claude tegoed
 - https://www.bibleanalyzer.com/ ➔ bronnen
 
+## Mooie sites
+
+- https://twentsvertalen.nl/
+- https://relight.app/resource/HenryWSC.14 en shttps://relight.blog/
+
 ## To do 
 
 1 - Url's aanpassen
