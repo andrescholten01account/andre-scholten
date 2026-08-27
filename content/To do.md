@@ -8,7 +8,7 @@
 - https://twentsvertalen.nl/
 - https://relight.app/resource/HenryWSC.14 en https://relight.blog/
 
-## To do 
+## Gezin voor God 
 
 1 - breedte website aanpassen aan relight.blog en - https://relight.app/resource/HenryWSC.14 
 
@@ -26,36 +26,32 @@ Zie ook: [[Back-up plan]]
 
 4 - [[Dit logo, favicon toevoegen]]
 
-5 - [[BijbelApp ➔ toevoegen aan taakbalk ➔ zie claude]]
+5 - [[Melding update afhandelen]]
 
-6 - [[Melding update afhandelen]]
+## BijbelApp 
 
-7 - TSK toevoegen
+1 - [[BijbelApp ➔ toevoegen aan taakbalk ➔ van bureaublad af - zie claude]]
 
-## StudieBijbel-gedeelte
+2 - TSK toevoegen ➔ idee voor indeling:  Bijbel | Vergelijk | Onderwerp
 
-Bijbel | Vergelijk | Onderwerp
+3- NAVE
 
-1 - TSK ➔ zie hierboven 
+4 - TTT
 
-2- NAVE
-
-3 - TTT
-
-4 - The Bible Text-Book (American Tract Society, ±1880)  
+5 - The Bible Text-Book (American Tract Society, ±1880)  
 [https://archive.org/details/bibletextbookorp00amer/page/n23/mode/2up](https://archive.org/details/bibletextbookorp00amer/page/n23/mode/2up)
 
-5 - Cross Referencing System (Stable Text)  
+6 - Cross Referencing System (Stable Text)  
 https://biblehub.com/genesis/1-1.htm#crossref
 
-6 - [https://bereanbible.com/bsb_topical_index.pdf](https://bereanbible.com/bsb_topical_index.pdf)
+7 - [https://bereanbible.com/bsb_topical_index.pdf](https://bereanbible.com/bsb_topical_index.pdf)
 [Topical Index - PDF](https://bereanbible.com/bsb_topical_index.pdf)
 [Topical Index - xlsx](https://bereanbible.com/bsb_topical_index.xlsx) 
 
-7 - Treasury of Scripture Knowledge, Enhanced (with Self References) 1.85 
+8 - Treasury of Scripture Knowledge, Enhanced (with Self References) 1.85 
 ➔ mail of ik deze mag gebruiken -> hier naartoe mailen:
 https://www.bibleanalyzer.com/download.html
 
-8 - https://www.bibleanalyzer.com/modules.html
+9 - https://www.bibleanalyzer.com/modules.html
 Thompson Chain Refrences -> mail hierover
 

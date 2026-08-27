@@ -78,7 +78,7 @@ Krachttraining
 Rust:
 
 - 's Avonds geen schermtijd
-- Kiezen om niet te regelen, maar om te ontspannen / plezier te hebb
+- Kiezen om niet te regelen, maar om te ontspannen / plezier te hebben
 
 Humor:
 - Moppen ➔ grappige dingen

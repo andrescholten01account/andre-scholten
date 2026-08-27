@@ -9,6 +9,7 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 * [[Liefde in het gezin]]
 * [[Orden je gezin volgens Gods principes]]
 * [[Kinderen als zegen van God]]
+* [[Gezin en opwekking]]
 - [[Opvoeding]]
 - [[Onderwijs in het gezin]]
 - [[De man en zijn vrouw]]
