@@ -12,6 +12,8 @@
 
 1 - breedte website aanpassen aan relight.blog en - https://relight.app/resource/HenryWSC.14 
 
+➔ de breedte van de quotes is hoe ik het wel hebben. dat is goed. 
+
 2 - Url's aanpassen
 
 Ik wil url aan kunnen passen. soms heb je bijvoorbeeld: dit-is-een-mooie-geschidenis -> dan wil ik maken: mooie-geschiedenis

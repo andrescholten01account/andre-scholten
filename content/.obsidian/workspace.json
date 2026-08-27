@@ -101,8 +101,7 @@
               "title": "De vader als leider van het gezin"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -279,12 +278,12 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "647dd6bd11be4d6e",
+  "active": "908e7520ca2f7946",
   "lastOpenFiles": [
+    "index.md",
     "To do.md",
     "De vader als leider van het gezin.md",
     "BijbelApp ➔ toevoegen aan taakbalk ➔ van bureaublad af - zie claude.md",
-    "index.md",
     "Gezin en opwekking.md",
     "Vader.md",
     "Gezond & sterk.md",
