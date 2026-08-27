@@ -30,6 +30,8 @@ Zie ook: [[Back-up plan]]
 
 1 - [[BijbelApp ➔ toevoegen aan taakbalk ➔ van bureaublad af - zie claude]]
 
+- Zie ook gekke bestandje bij windows-knop op recentelijk toegevoegd
+
 2 - TSK toevoegen ➔ idee voor indeling:  Bijbel | Vergelijk | Onderwerp
 
 3- NAVE
