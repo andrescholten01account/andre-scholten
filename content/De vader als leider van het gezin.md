@@ -1,3 +1,8 @@
+Maar als het in uw ogen kwalijk is de HEERE te dienen, kies voor u heden wie u zult dienen: óf de goden die uw vaderen, die aan de overzijde van de rivier woonden, gediend hebben, óf de goden van de Amorieten, van wie u het land bewoont. Maar wat mij en mijn huis betreft, wij zullen de HEERE dienen!
+~ Jozua 24:15
+
+---
+
 Het ontwikkelen van het leiderschap van de man in het gezin.
 
 ---
