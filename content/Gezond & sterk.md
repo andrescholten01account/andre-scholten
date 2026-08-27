@@ -78,6 +78,10 @@ Krachttraining
 Rust:
 
 - 's Avonds geen schermtijd
+	- Betere concentratie overdag
+	- Meer rust in je hoofd
+	- Ontspannender in de avond 
+
 - Kiezen om niet te regelen, maar om te ontspannen / plezier te hebben
 
 Humor:
