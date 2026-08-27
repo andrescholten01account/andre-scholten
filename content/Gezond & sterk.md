@@ -75,7 +75,10 @@ Krachttraining
 ---
 ## Ontspanning
 
-rust, plezier
+Rust:
+
+- 's Avonds geen schermtijd
+- Kiezen om niet te regelen, maar om te ontspannen / plezier te hebb
 
 Humor:
 - Moppen ➔ grappige dingen

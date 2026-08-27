@@ -100,8 +100,23 @@
               "icon": "lucide-file",
               "title": "De vader als leider van het gezin"
             }
+          },
+          {
+            "id": "e610bf8674ac09a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gezond & sterk.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gezond & sterk"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -278,12 +293,12 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "908e7520ca2f7946",
+  "active": "e610bf8674ac09a2",
   "lastOpenFiles": [
-    "De vader als leider van het gezin.md",
-    "To do.md",
-    "Vader.md",
     "Man.md",
+    "To do.md",
+    "De vader als leider van het gezin.md",
+    "Vader.md",
     "Bijbel lezen.md",
     "Gezond & sterk.md",
     "Quotes man.md",
