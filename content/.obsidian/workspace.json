@@ -101,8 +101,7 @@
               "title": "De vader als leider van het gezin"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -279,10 +278,10 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "8511b65662761247",
+  "active": "908e7520ca2f7946",
   "lastOpenFiles": [
-    "To do.md",
     "De vader als leider van het gezin.md",
+    "To do.md",
     "Vader.md",
     "Man.md",
     "Bijbel lezen.md",

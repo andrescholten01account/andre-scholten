@@ -6,15 +6,17 @@
 ## Mooie sites
 
 - https://twentsvertalen.nl/
-- https://relight.app/resource/HenryWSC.14 en shttps://relight.blog/
+- https://relight.app/resource/HenryWSC.14 en https://relight.blog/
 
 ## To do 
 
-1 - Url's aanpassen
+1 - breedte website aanpassen aan relight.blog en - https://relight.app/resource/HenryWSC.14 
+
+2 - Url's aanpassen
 
 Ik wil url aan kunnen passen. soms heb je bijvoorbeeld: dit-is-een-mooie-geschidenis -> dan wil ik maken: mooie-geschiedenis
 
-2 - Veiligheid en backup
+3 - Veiligheid en backup
 
 - Hoe is dit geregeld? Staan al mijn bestanden veilig? Er wordt niet meer gesynchroniseerd met OneDrive. Waar staat alles?
 - Is alles veilig m.b.t. inbreken op GitHub, Cloudflare, en wat ik allemaal gebruik?
@@ -22,13 +24,13 @@ Ik wil url aan kunnen passen. soms heb je bijvoorbeeld: dit-is-een-mooie-geschid
 
 Zie ook: [[Back-up plan]]
 
-3 - [[Dit logo, favicon toevoegen]]
+4 - [[Dit logo, favicon toevoegen]]
 
-4 - [[BijbelApp ➔ toevoegen aan taakbalk ➔ zie claude]]
+5 - [[BijbelApp ➔ toevoegen aan taakbalk ➔ zie claude]]
 
-5 - [[Melding update afhandelen]]
+6 - [[Melding update afhandelen]]
 
-6 - TSK toevoegen
+7 - TSK toevoegen
 
 ## StudieBijbel-gedeelte
 
