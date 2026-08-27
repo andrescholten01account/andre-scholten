@@ -83,5 +83,14 @@ Spurgeon - Saltcellars
 
 The Manbook - Nick Freitas
 
+---
+## Piet Prins 
+
+Serie: De tirannie verdrijven ➔ gaat over de 80-jarige oorlog
+- Toen de morgen kwam
+- De tirannie verdrijven
+- Onder de geuzenvlag
+- Om het hart van Holland
+
 %%
 

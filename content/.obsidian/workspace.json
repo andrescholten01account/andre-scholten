@@ -101,7 +101,8 @@
               "title": "De vader als leider van het gezin"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -278,16 +279,17 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "908e7520ca2f7946",
+  "active": "8511b65662761247",
   "lastOpenFiles": [
-    "index.md",
+    "Boeken man.md",
+    "Man.md",
     "To do.md",
+    "index.md",
     "De vader als leider van het gezin.md",
     "BijbelApp ➔ toevoegen aan taakbalk ➔ van bureaublad af - zie claude.md",
     "Gezin en opwekking.md",
     "Vader.md",
     "Gezond & sterk.md",
-    "Man.md",
     "Bijbel lezen.md",
     "Quotes man.md",
     "Omgang met God - Bidden.md",
@@ -306,7 +308,6 @@
     "Gehoorzaamheid - Jezus volgen.md",
     "Het eeuwige oordeel.md",
     "Verantwoording.md",
-    "Copyright policy.md",
     "Pasted image 20260821214432.png",
     "Pasted image 20260821214049.png",
     "Pasted image 20260821110549.png",
