@@ -40,9 +40,6 @@ Hier staan meerdere schoolboeken van vroeger in over de vaderlandse geschiedenis
 - https://www.jetses.nl/isings-schoolplaten.html
 	- https://www.jetses.nl/vaderlandse-geschiedenis.html
 
-Historische romans - Den Hertog boekhandel
-https://www.hertog.nl/categorie.aspx?subcatid=580000&category=,580000&catid=510000&cat=Romans&subcat=Historische+romans
-
 ---
 ## Boeken vaderlande geschiedenis vanuit christelijk oogpunt
 
@@ -53,7 +50,7 @@ https://www.hertog.nl/categorie.aspx?subcatid=580000&category=,580000&catid=5100
 
 ---
 
-Groen van Prinstereren heeft ook een boek geschreven -> zie theologienet.nl
+Groen van Prinstereren heeft ook een boek geschreven ➔ zie theologienet.nl
 Dispenseert niet
 
 Joh. van Hulzen 
@@ -63,4 +60,8 @@ Rien Poortvliet
 Illustrators:
 - J.H. Isings 
 - Cornelis Jetses
+
+---
+
+➔ Zie: [[Boeken man#Leesboeken vaderlandse geschiedenis|Leesboeken vaderlandse geschiedenis]]
 

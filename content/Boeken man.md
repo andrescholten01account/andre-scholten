@@ -6,8 +6,6 @@ https://www.romans45.org/spurgeon/misc/plowman.htm
 
 The Salt Cellars - Spurgeon
 
-%%
-
 John Ploughman's talk
 https://archive.org/details/johnploughmansta00spur/mode/2up
 
@@ -84,7 +82,9 @@ Spurgeon - Saltcellars
 The Manbook - Nick Freitas
 
 ---
-## Piet Prins 
+## Leesboeken vaderlandse geschiedenis
+
+### Piet Prins 
 
 https://www.schrijversinfo.nl/prinspiet.html
 
@@ -96,5 +96,8 @@ Serie: De tirannie verdrijven ➔ 80-jarige oorlog
 
 Toen Haarlem in nood was ➔ 80-jarige oorlog
 
-%%
+### Overig
+
+Historische romans - Den Hertog boekhandel
+https://www.hertog.nl/categorie.aspx?subcatid=580000&category=,580000&catid=510000&cat=Romans&subcat=Historische+romans
 
