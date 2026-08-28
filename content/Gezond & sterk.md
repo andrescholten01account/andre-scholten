@@ -93,9 +93,12 @@ Humor:
 - Plezier (leuke dingen doen)
 - Humor (Pinterest ➔ memes, moppen)
 - Avontuur
-- Avonturenboeken
 - [[Vaderlandse geschiedenis]]
+- Avonturenboeken lezen
 - Kamperen ➔ wildkamperen
+- Schaken
+- Wandelen
+- Spelletjes
 
 ## Orde
 
