@@ -14,7 +14,6 @@ Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het 
 
 ## Meer
 
-- [[To do]]
 - [[Technische tips]]
 - [[Verantwoording]]
 - [[Documentatie]]
