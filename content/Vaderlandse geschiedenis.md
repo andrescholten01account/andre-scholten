@@ -53,6 +53,8 @@ Hier staan meerdere schoolboeken van vroeger in over de vaderlandse geschiedenis
 Groen van Prinstereren heeft ook een boek geschreven ➔ zie theologienet.nl
 Dispenseert niet
 
+En Toch Niet Verteerd - C. van Rijswijk
+
 Joh. van Hulzen 
 Anne de Vries 
 Rien Poortvliet
@@ -60,6 +62,10 @@ Rien Poortvliet
 Illustrators:
 - J.H. Isings 
 - Cornelis Jetses
+
+
+De Kerkgeschiedenis verteld aan onze kinderen - Joh. Vreugdenhil
+
 
 ---
 
