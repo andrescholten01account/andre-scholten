@@ -28,30 +28,26 @@ Zie ook: [[Back-up plan]]
 
 ## BijbelApp 
 
-1 - [[BijbelApp ➔ toevoegen aan taakbalk ➔ van bureaublad af - zie claude]]
+1 - TSK toevoegen ➔ idee voor indeling:  Bijbel | Vergelijk | Onderwerp
 
-- Zie ook gekke bestandje bij windows-knop op recentelijk toegevoegd
+2 - NAVE
 
-2 - TSK toevoegen ➔ idee voor indeling:  Bijbel | Vergelijk | Onderwerp
+3 - TTT
 
-3- NAVE
-
-4 - TTT
-
-5 - The Bible Text-Book (American Tract Society, ±1880)  
+4 - The Bible Text-Book (American Tract Society, ±1880)  
 [https://archive.org/details/bibletextbookorp00amer/page/n23/mode/2up](https://archive.org/details/bibletextbookorp00amer/page/n23/mode/2up)
 
-6 - Cross Referencing System (Stable Text)  
+5 - Cross Referencing System (Stable Text)  
 https://biblehub.com/genesis/1-1.htm#crossref
 
-7 - [https://bereanbible.com/bsb_topical_index.pdf](https://bereanbible.com/bsb_topical_index.pdf)
+6 - [https://bereanbible.com/bsb_topical_index.pdf](https://bereanbible.com/bsb_topical_index.pdf)
 [Topical Index - PDF](https://bereanbible.com/bsb_topical_index.pdf)
 [Topical Index - xlsx](https://bereanbible.com/bsb_topical_index.xlsx) 
 
-8 - Treasury of Scripture Knowledge, Enhanced (with Self References) 1.85 
+7 - Treasury of Scripture Knowledge, Enhanced (with Self References) 1.85 
 ➔ mail of ik deze mag gebruiken -> hier naartoe mailen:
 https://www.bibleanalyzer.com/download.html
 
-9 - https://www.bibleanalyzer.com/modules.html
+8 - https://www.bibleanalyzer.com/modules.html
 Thompson Chain Refrences -> mail hierover
 
