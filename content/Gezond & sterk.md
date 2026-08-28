@@ -1,64 +1,23 @@
----
-Status: Draft
-draft: false
-blog: false
-publicatiedatum:
----
 # Slaap
 
-## Waarom is een goede nachtrust belangrijk?
+1 - Wat als ik genoeg slaap? 
 
-1 - Voldoende energie
+- Genoeg energie
+- Opgeruimd hoofd
+- Meer mentale kracht
+- Gezonde testosteronspiegel
+- Overdag uitgeruster en alerter
+- Lekkerder in je vel
+- Dingen beter onthouden 
+- Verwerken van emoties
+- Positieve invloed afweersysteem
+- Verkleint kans op bepaalde ziektes en aandoeningen
 
-Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
+2 - Wat als ik niet genoeg slaap?
 
-2 - Opgeruimd hoofd
-
-3 - Belangrijk voor een gezonde testosteronspiegel
-
-- Je lichaam maakt het grootste deel van je testosteron aan tijdens de diepe slaapfasen
-- Voldoende slaap houdt je testosteron hoog en je cortisol laag, wat cruciaal is voor spieropbouw en energie
-- Een slaaptekort zorgt voor een snelle daling van dit mannelijke hormoon
-
-Bronnen:
-
-- [FIT.nl - Waarom is slaap zo belangrijk?](https://www.fit.nl/herstel/slapen/waarom-slaap)
-- [Drogespieren.nl - Natuurlijk je testosteron verhogen](https://drogespieren.nl/hormonen/testosteron-verhogen)
-
-4 - Je bent overdag uitgeruster en alerter
-
-Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-
-5 - Je zit lekkerder in je vel
-
-Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-
-6 - Je onthoudt dingen beter
-
-Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-
-7 - Verwerken van emoties
-
-Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-
-8 - Positieve invloed op afweersysteem
-
-Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-
-9 - Verkleint kans op bepaalde ziektes en aandoeningen
-
-- Depressie
-- Dementie
-- Hart- en vaatziekten
-- Diabetes type 2
-- Obesitas (ernstig overgewicht)
-
-Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-
-## Interessante bronnen
-
-- [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
-- [Waarom is slaap belangrijk? | FIT.nl](https://www.fit.nl/herstel/slapen/waarom-slaap)
+- Moe
+- Chagerijnig
+- Krijg niets voor elkaar
 
 ---
 # Eten
