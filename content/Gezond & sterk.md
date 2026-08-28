@@ -94,7 +94,7 @@ Humor:
 - Humor (Pinterest ➔ memes, moppen)
 - Avontuur
 - Avonturenboeken
-- [[Geschiedenis]] ➔ [[Vaderlandse geschiedenis]]
+- [[Vaderlandse geschiedenis]]
 - Kamperen ➔ wildkamperen
 
 ## Orde

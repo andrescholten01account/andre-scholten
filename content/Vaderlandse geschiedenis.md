@@ -1,3 +1,16 @@
+➔ Zie: [[De Oude Wereld]]
+
+---
+
+- Hunebedden
+- Vikingen
+- Kloosters
+- Gouden Eeuw
+- Fransen in Nederland
+- Oorlogen
+
+---
+
 80-jarige oorlog 1568 - 1648
 
 1566 - 10 augustus - Beeldenstrom
@@ -14,11 +27,4 @@ Jesus en de ziel (1678) van Jan Luyken
 Beginselen van Gods Koninkrijk (1689) van Pieter Huygen
 
 ---
-
-- Hunebedden
-- Vikingen
-- Kloosters
-- Gouden Eeuw
-- Fransen in Nederland
-- Oorlogen
 
