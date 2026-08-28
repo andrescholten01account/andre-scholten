@@ -1,6 +1,7 @@
 ## Bronnen
 
 - [https://platform.claude.com/dashboard](https://platform.claude.com/dashboard) ➔ checken claude tegoed
+- Ik heb nog ergens bij Claude een betaald tegoed ➔ dit heb ik gebruikt voor StatenvertalingNu
 
 ## Mooie sites
 
@@ -8,10 +9,6 @@
 - https://relight.app/resource/HenryWSC.14 en https://relight.blog/
 
 ## Gezin voor God 
-
-1 - Url's aanpassen
-
-Ik wil url aan kunnen passen. soms heb je bijvoorbeeld: dit-is-een-mooie-geschidenis -> dan wil ik maken: mooie-geschiedenis
 
 2 - Veiligheid en backup
 
@@ -21,7 +18,5 @@ Ik wil url aan kunnen passen. soms heb je bijvoorbeeld: dit-is-een-mooie-geschid
 
 Zie ook: [[Back-up plan]]
 
-3 - [[Dit logo, favicon toevoegen]]
 
-4 - [[Melding update afhandelen]]
 
