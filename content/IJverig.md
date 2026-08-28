@@ -8,7 +8,7 @@ maar wie leeglopers navolgt, wordt met armoede verzadigd.
 
 ---
 
-Theodore Roosevelt: 
+Theodore Roosevelt:
 "Do what you can, with what you have."
 
 is ijverheid hetzelfde als vlijtigheid  
