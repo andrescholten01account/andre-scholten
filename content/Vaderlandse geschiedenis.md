@@ -28,3 +28,39 @@ Beginselen van Gods Koninkrijk (1689) van Pieter Huygen
 
 ---
 
+Hier staan meerdere schoolboeken van vroeger in over de vaderlandse geschiedenis vanuit christelijk oogpunt:
+
+- https://onderwijsgeschiedenis.nl/ontwikkeling-lesmethoden/ontwikkeling-geschiedenis-onderwijs
+- https://www.jh-isings.nl/Isings%20schoolboeken.html
+	- https://www.jh-isings.nl/collegaverzamelaars%20isings.html 
+	  ➔ Interessante links 
+	  ➔ De hele site is boeiend om interessante boeken te zoeken
+	  ➔ Zie ook de schoolplaten
+	  ➔ Zie ook de christelijke boeken (religieuze boeken, kerkgeschiedenis)
+- https://www.jetses.nl/isings-schoolplaten.html
+	- https://www.jetses.nl/vaderlandse-geschiedenis.html
+
+Historische romans - Den Hertog boekhandel
+https://www.hertog.nl/categorie.aspx?subcatid=580000&category=,580000&catid=510000&cat=Romans&subcat=Historische+romans
+
+---
+## Boeken vaderlande geschiedenis vanuit christelijk oogpunt
+
+- Toen en nu - W.G. van de Hulst
+- Vaderlandse Geschiedenis - G. de Braal  
+- Ons oude Nederland (3 delen) - G. van der Meulen en H. Wansink 
+- Vertellingen bij de Kerkgeschiedenis (12 delen) - A. Vogelaar-van Amersfoort
+
+---
+
+Groen van Prinstereren heeft ook een boek geschreven -> zie theologienet.nl
+Dispenseert niet
+
+Joh. van Hulzen 
+Anne de Vries 
+Rien Poortvliet
+
+Illustrators:
+- J.H. Isings 
+- Cornelis Jetses
+
