@@ -1,7 +1,6 @@
 ## Bronnen
 
-- [https://platform.claude.com/dashboard](https://platform.claude.com/dashboard) ➔ checken claude tegoed
-- Ik heb nog ergens bij Claude een betaald tegoed ➔ dit heb ik gebruikt voor StatenvertalingNu
+
 
 ## Mooie sites
 
