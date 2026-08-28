@@ -109,6 +109,9 @@ plugins:
       code: IBM Plex Mono
   - source: github:quartz-community/remove-draft
     enabled: false
+  - source: ./quartz/plugins/custom/slug-override
+    enabled: true
+    order: 6
   - source: ./quartz/plugins/custom/blog-filter
     enabled: true
   - source: ./quartz/plugins/custom/blog-list

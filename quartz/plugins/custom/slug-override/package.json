@@ -1,0 +1,13 @@
+{
+  "name": "slug-override",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "quartz": {
+    "name": "slug-override",
+    "displayName": "Slug Override",
+    "category": "transformer",
+    "defaultOrder": 6,
+    "defaultEnabled": true
+  }
+}
