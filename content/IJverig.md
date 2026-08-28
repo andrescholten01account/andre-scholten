@@ -1,5 +1,10 @@
+Wie met een bedrieglijke hand werkt, wordt arm,
+maar de hand van de vlijtigen maakt rijk.
+~ Spreuken 10:4
 
-
+Wie zijn land bewerkt, zal met brood verzadigd worden,
+maar wie leeglopers navolgt, wordt met armoede verzadigd.
+~ Spreuken 28:19
 
 ---
 

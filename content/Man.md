@@ -24,6 +24,11 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - [[Moedig]]
 - [[IJverig]]
 - [[Vrijgevig]]
+- [[Vooruitkijken]]
+
+## Stap 4: Meer over karakter
+
+- [[Vrienden]]
 
 ## Bibliotheek
 
