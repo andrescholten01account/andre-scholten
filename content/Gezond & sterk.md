@@ -64,6 +64,7 @@ Humor:
 - Ordelijk denken
 	- [[Logica]]
 	- Schaken
+	- [[Taken systematisch uitvoeren]]
 - Alles op een rij hebben
 - Georganiseerd zijn 
 - Planning
