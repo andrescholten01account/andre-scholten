@@ -10,11 +10,7 @@
 
 ## Gezin voor God 
 
-1 - Veiligheid en backup
 
-- Hoe is dit geregeld? Staan al mijn bestanden veilig? Er wordt niet meer gesynchroniseerd met OneDrive. Waar staat alles?
-- Is alles veilig m.b.t. inbreken op GitHub, Cloudflare, en wat ik allemaal gebruik?
-- Hoe zit het met de backup? Wat als mijn computer gestolen wordt. Hoe krijg ik de site terug. Ik heb hier een bestand van. Klopt dit nog? Heb ik een backup-bestand in OneDrive staan met instructies?
 
 Zie ook: [[Back-up plan]]
 
