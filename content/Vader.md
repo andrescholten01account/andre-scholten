@@ -31,6 +31,7 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - Wandelen met God
 - [[De vader als leider van het gezin]]
 - [[Een goede band met je kinderen hebben]]
+- [[Voorgaan in de huisgodsdienst]]
 - Leider van gezin ➔ Leider
 - [[Bidden voor gezin ➔ Bidder]]
 - Onderwijs geven ➔ Leraar
@@ -58,6 +59,7 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - Vader en zoon
 - Vader en dochter
 - [[Onderwijs]]
+- [[Je kinderen discipelen]]
 
 ## Moeder
 
