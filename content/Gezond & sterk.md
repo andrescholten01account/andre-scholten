@@ -12,7 +12,9 @@ publicatiedatum:
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-2 - Belangrijk voor een gezonde testosteronspiegel
+2 - Opgeruimd hoofd
+
+3 - Belangrijk voor een gezonde testosteronspiegel
 
 - Je lichaam maakt het grootste deel van je testosteron aan tijdens de diepe slaapfasen
 - Voldoende slaap houdt je testosteron hoog en je cortisol laag, wat cruciaal is voor spieropbouw en energie
@@ -23,27 +25,27 @@ Bronnen:
 - [FIT.nl - Waarom is slaap zo belangrijk?](https://www.fit.nl/herstel/slapen/waarom-slaap)
 - [Drogespieren.nl - Natuurlijk je testosteron verhogen](https://drogespieren.nl/hormonen/testosteron-verhogen)
 
-3 - Je bent overdag uitgeruster en alerter
+4 - Je bent overdag uitgeruster en alerter
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-4 - Je zit lekkerder in je vel
+5 - Je zit lekkerder in je vel
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-5 - Je onthoudt dingen beter
+6 - Je onthoudt dingen beter
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-6 - Verwerken van emoties
+7 - Verwerken van emoties
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-7 - Positieve invloed op afweersysteem
+8 - Positieve invloed op afweersysteem
 
 Bron: [Slaap en de hersenen](https://www.hersenstichting.nl/de-hersenen/gezonde-hersenen/slaap/)
 
-8 - Verkleint kans op bepaalde ziektes en aandoeningen
+9 - Verkleint kans op bepaalde ziektes en aandoeningen
 
 - Depressie
 - Dementie
@@ -92,7 +94,7 @@ Humor:
 - Humor (Pinterest ➔ memes, moppen)
 - Avontuur
 - Avonturenboeken
-- Geschiedenis ➔ vaderlandse geschiedenis
+- Geschiedenis ➔ [[Vaderlandse geschiedenis]]
 - Kamperen ➔ wildkamperen
 
 ## Orde

@@ -101,7 +101,8 @@
               "title": "De vader als leider van het gezin"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,14 +279,15 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "908e7520ca2f7946",
+  "active": "647dd6bd11be4d6e",
   "lastOpenFiles": [
     "De vader als leider van het gezin.md",
-    "BijbelApp ➔ toevoegen aan taakbalk ➔ van bureaublad af - zie claude.md",
-    "To do.md",
-    "index.md",
     "Gezond & sterk.md",
+    "Vaderlandse geschiedenis.md",
     "Man.md",
+    "To do.md",
+    "BijbelApp ➔ toevoegen aan taakbalk ➔ van bureaublad af - zie claude.md",
+    "index.md",
     "Boeken man.md",
     "Quotes man.md",
     "Vrucht van de Geest.md",
@@ -306,7 +308,6 @@
     "Pasted image 20260825232520.png",
     "Dit logo, favicon toevoegen.md",
     "Gehoorzaamheid - Jezus volgen.md",
-    "Het eeuwige oordeel.md",
     "Pasted image 20260821214432.png",
     "Pasted image 20260821214049.png",
     "Pasted image 20260821110549.png",
