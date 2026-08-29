@@ -145,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -265,14 +264,15 @@
   },
   "active": "96756800cfec2e0a",
   "lastOpenFiles": [
-    "index.md",
+    "Kind en aanbidding en christelijke muziek.md",
+    "Vader.md",
+    "Man.md",
     "De Oude Wereld.md",
+    "index.md",
     "God.md",
     "Standvastig.md",
     "Basis christelijk geloof.md",
     "Apologetiek.md",
-    "Man.md",
-    "Vader.md",
     "De vader als leider van het gezin.md",
     "IJverig.md",
     "Documentatie.md",
@@ -291,7 +291,6 @@
     "Pasted image 20260828122056.png",
     "God en Zijn redding - Basis in het kort.md",
     "Melding update afhandelen.md",
-    "Dit logo, favicon toevoegen.md",
     "Pasted image 20260825232520.png",
     "Pasted image 20260821214432.png",
     "Pasted image 20260821214049.png",

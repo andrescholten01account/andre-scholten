@@ -24,6 +24,7 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - [[Hoe leef je als gezin zoals God het wil]]
 - [[Verhoudingen (rollen) binnen het gezin]]
 - [[Plezier als gezin|Plezier]]
+- [[Kind en aanbidding en christelijke muziek]]
 
 ## [[Vaderschap]]
 

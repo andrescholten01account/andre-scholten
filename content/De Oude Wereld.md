@@ -28,7 +28,13 @@ Een scheppingsdag is een gewone dag van 24 uur
 2 - Ex. 20:11 "Want in zes dagen schiep God de hemel en de aarde" 
 ➔ Schepping hemel en aarde vallen *binnen* de zes scheppingsdagen
 
-3 - Jezus zegt: "Hebben jullie niet gelezen dat Hij die de mens geschapen heeft hen gemaakt heeft tot man en vrouw
+3 - Jezus zegt: "Hebben jullie niet gelezen dat Hij die de mens geschapen heeft hen gemaakt hen in het begin gemaakt heeft tot man en vrouw"
+
+"in het begin"
+
+➔ Oerknal/evolutie: 14,5 miljard jaar geleden heelal ontstaan ➔ mens 200.00 jaar geleden (nakijken) ➔ volgens deze tijdschaal is de mens er op het laatst gekomen 
+
+➔ Gods Woord: zesde scheppingsdag: is in het begin ➔ komt overeen met wat Jezus zegt 
 
 ## [[God]]
 
