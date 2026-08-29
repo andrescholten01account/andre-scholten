@@ -28,6 +28,8 @@ Info Denkstart tevoorschijn halen ➔ claude
 
 Ik heb te weinig geloof om atheïst te zijn
 
+Document Claude: berekening leeftijd aarde 
+
 ---
 
 Openb. 14:12 volharding

@@ -21,8 +21,12 @@
 
 ---
 
+- logos.nl
+- answersingenesis.com
+- creation.com
+- oorsprong.info
 - intelligentdesign.org
 - crossexamined
 - coldcase christianity
 - natashacrain.com
-- cra
+
