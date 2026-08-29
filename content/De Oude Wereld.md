@@ -43,6 +43,7 @@ God is almachtig
 God is Drieëenheid
 
 Rom. 1:18-21 ➔ iedereen weet dat God bestaat
+[[Iedereen weet dat God bestaat]]
 
 "Alles is gemaakt tot eer van God"
 

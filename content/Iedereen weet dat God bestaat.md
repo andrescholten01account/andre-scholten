@@ -20,3 +20,9 @@ a. Het Werkpaard van de Cel: Kinesine
 
 https://youtu.be/gbycQf1TbM0?si=Y2pHg8ra0qnw4UMo
 
+---
+
+## Bronnen
+
+https://zoektocht.net/evolutie/de-waarheid-over-de-evolutietheorie
+

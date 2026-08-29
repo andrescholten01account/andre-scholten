@@ -72,31 +72,31 @@
             }
           },
           {
-            "id": "96756800cfec2e0a",
+            "id": "f71749cf7016d020",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "De Oude Wereld.md",
+                "file": "Apologetiek.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "De Oude Wereld"
+              "title": "Apologetiek"
             }
           },
           {
-            "id": "adb1f67001254d18",
+            "id": "88f6420aed1d6ff6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kritisch denken.md",
+                "file": "God.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kritisch denken"
+              "title": "God"
             }
           }
         ],
@@ -154,12 +154,27 @@
               "icon": "lucide-bookmark",
               "title": "Bladwijzers"
             }
+          },
+          {
+            "id": "96756800cfec2e0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "God.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "God"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -276,34 +291,34 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "adb1f67001254d18",
+  "active": "88f6420aed1d6ff6",
   "lastOpenFiles": [
-    "Logisch denken voor christen.md",
-    "Drogredenen.md",
-    "Wat is een drogreden.md",
+    "Basis christelijk geloof.md",
+    "Apologetiek.md",
+    "Standvastig.md",
+    "Man.md",
+    "Vader.md",
+    "Gezond & sterk.md",
+    "God.md",
+    "De Oude Wereld.md",
+    "Iedereen weet dat God bestaat.md",
     "Logica.md",
+    "index.md",
+    "Logisch denken voor christen.md",
     "9 regels van gevolgtrekking.md",
     "Basis van logisch redeneren.md",
     "De 3 wetten van het denken.md",
     "Wat is logica.md",
+    "Drogredenen.md",
     "Kritisch denken.md",
-    "Gezond & sterk.md",
-    "Man.md",
-    "De Oude Wereld.md",
+    "Wat is een drogreden.md",
     "Kind en aanbidding en christelijke muziek.md",
-    "Vader.md",
-    "index.md",
-    "God.md",
-    "Standvastig.md",
-    "Basis christelijk geloof.md",
-    "Apologetiek.md",
     "De vader als leider van het gezin.md",
     "IJverig.md",
     "Documentatie.md",
     "Vooruitkijken.md",
     "Vrienden.md",
     "Echtgenoot.md",
-    "Doelgericht.md",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",
     "Pasted image 20260821214432.png",

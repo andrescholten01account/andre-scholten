@@ -22,10 +22,6 @@ Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het 
 
 %%
 
-Info Denkstart tevoorschijn halen ➔ claude
-- Ramesis logic
-- Puritian logic
-
 Ik heb te weinig geloof om atheïst te zijn
 
 Document Claude: berekening leeftijd aarde 
