@@ -198,3 +198,4 @@ De waarheid heeft geen slechte redenering nodig.
 Daarom:
 
 > **Denk zorgvuldig. Spreek eerlijk. Zoek de waarheid.**
+
