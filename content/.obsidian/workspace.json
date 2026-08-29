@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Berekening leeftijd aarde.md",
+                "file": "Berekening datum schepping.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Berekening leeftijd aarde"
+              "title": "Berekening datum schepping"
             }
           }
         ],
@@ -307,7 +307,7 @@
   },
   "active": "7682a60d521cb970",
   "lastOpenFiles": [
-    "Berekening leeftijd aarde.md",
+    "Berekening datum schepping.md",
     "index.md",
     "Basis christelijk geloof.md",
     "Apologetiek.md",
