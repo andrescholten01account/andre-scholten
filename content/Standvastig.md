@@ -12,6 +12,8 @@
 1. [[Kern]]
 2. [[God en Zijn redding - Basis in het kort|Basis in het kort]]
 3. [[Basis christelijk geloof|Basis]]
+4. [[De Oude Wereld|Genesis 1 - 11]]
+5. [[Apologetiek]]
 
 ---
 ## Trouw

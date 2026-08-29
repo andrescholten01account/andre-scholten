@@ -70,8 +70,23 @@
               "icon": "lucide-file",
               "title": "Vader"
             }
+          },
+          {
+            "id": "96756800cfec2e0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apologetiek.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Apologetiek"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -248,14 +263,18 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "647dd6bd11be4d6e",
+  "active": "96756800cfec2e0a",
   "lastOpenFiles": [
+    "Standvastig.md",
+    "Apologetiek.md",
+    "De Oude Wereld.md",
+    "Man.md",
+    "index.md",
     "Vader.md",
+    "Basis christelijk geloof.md",
     "De vader als leider van het gezin.md",
     "IJverig.md",
     "Documentatie.md",
-    "index.md",
-    "Man.md",
     "Vooruitkijken.md",
     "Vrienden.md",
     "Echtgenoot.md",
@@ -269,14 +288,10 @@
     "Stamboom Scholten.md",
     "Technische tips.md",
     "Pasted image 20260828122056.png",
-    "Standvastig.md",
-    "Basis christelijk geloof.md",
     "God en Zijn redding - Basis in het kort.md",
     "Melding update afhandelen.md",
     "Dit logo, favicon toevoegen.md",
     "Taken systematisch uitvoeren.md",
-    "Quotes man.md",
-    "Gezond & sterk.md",
     "Pasted image 20260825232520.png",
     "Pasted image 20260821214432.png",
     "Pasted image 20260821214049.png",

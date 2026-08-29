@@ -8,8 +8,6 @@
 - [[Gehoorzaamheid - Jezus volgen]]
 - [[Het eeuwige oordeel]]
 
-## [[De Oude Wereld|Genesis 1 - 11]]
-
 %%
 
 God is heilig
