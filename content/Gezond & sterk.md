@@ -62,7 +62,7 @@ Humor:
 ## Orde
 
 - Ordelijk denken
-	- [[Logica]]
+	- [[Logisch denken voor christen|Logica]]
 	- Schaken
 	- [[Taken systematisch uitvoeren]]
 - Alles op een rij hebben

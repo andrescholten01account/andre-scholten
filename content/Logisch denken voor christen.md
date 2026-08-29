@@ -1,0 +1,4 @@
+- [[Logica]]
+- [[Drogredenen]]
+- [[Kritisch denken]]
+
