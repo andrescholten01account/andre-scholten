@@ -1,3 +1,7 @@
+---
+aliases:
+  - Genesis 1 - 11
+---
 ➔ Genesis 1 - 11
 
 - Datum schepping
@@ -51,6 +55,8 @@ De schepping is door Jezus gemaakt
 ➔ Joh. 1:1-4 "In het begin was het woord"
 
 Jezus over Genesis 1 - 11 ➔ zie creation.com
+
+[[Apologetiek]]
 
 ---
 

@@ -30,3 +30,13 @@
 - coldcase christianity
 - natashacrain.com
 
+---
+
+https://zoektocht.net/
+
+%%
+
+[[Ik heb te weinig geloof om atheïst te zijn]]
+
+%%
+
