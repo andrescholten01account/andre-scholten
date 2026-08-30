@@ -464,8 +464,479 @@ En Mahalaleël leefde, nadat hij Jered verwekt had, achthonderddertig jaar; en h
 Al de dagen van Mahalaleël waren achthonderdvijfennegentig jaar; en hij stierf.
 ~ Genesis 5:17
 
+Jered leefde honderdtweeënzestig jaar, en verwekte Henoch.
+~ Genesis 5:18
+
 En Jered leefde, nadat hij Henoch verwekt had, achthonderd jaar; en hij verwekte zonen en dochters.
 ~ Genesis 5:19
+
+Al de dagen van Jered waren negenhonderdtweeënzestig jaar; en hij stierf.
+~ Genesis 5:20
+
+Henoch leefde vijfenzestig jaar, en verwekte Methusalach.
+~ Genesis 5:21
+
+En Henoch wandelde met God, nadat hij Methusalach verwekt had, driehonderd jaar; en hij verwekte zonen en dochters.
+~ Genesis 5:22
+
+Al de dagen van Henoch waren driehonderdvijfenzestig jaar.
+~ Genesis 5:23
+
+Henoch wandelde met God, en hij was niet *meer*, want God nam hem weg.
+~ Genesis 5:24
+
+Methusalach leefde honderdzevenentachtig jaar, en verwekte Lamech.
+~ Genesis 5:25
+
+En Methusalach leefde, nadat hij Lamech verwekt had, zevenhonderdtweeëntachtig jaar; en hij verwekte zonen en dochters.
+~ Genesis 5:26
+
+Al de dagen van Methusalach waren negenhonderdnegenenzestig jaar; en hij stierf.
+~ Genesis 5:27
+
+Lamech leefde honderdtweeëntachtig jaar, en verwekte een zoon.
+~ Genesis 5:28
+
+En hij gaf hem de naam Noach, en zei: Deze zal ons troosten over ons werk en over het zwoegen van onze handen, vanwege de aardbodem, die door de HEERE vervloekt is.
+~ Genesis 5:29
+
+En Lamech leefde, nadat hij Noach verwekt had, vijfhonderdvijfennegentig jaar; en hij verwekte zonen en dochters.
+~ Genesis 5:30
+
+Al de dagen van Lamech waren zevenhonderdzevenenzeventig jaar; en hij stierf.
+~ Genesis 5:31
+
+Toen Noach vijfhonderd jaar oud was, verwekte Noach Sem, Cham en Jafeth.
+~ Genesis 5:32
+
+---
+
+En het gebeurde, toen de mensen zich op de aardbodem begonnen te vermenigvuldigen en er dochters bij hen geboren werden,
+~ Genesis 6:1
+
+dat Gods zonen de dochters van de mensen zagen dat zij mooi waren, en zij namen zich vrouwen uit allen die zij uitgekozen hadden.
+~ Genesis 6:2
+
+Toen zei de HEERE: Mijn Geest zal niet voor eeuwig met de mens twisten, omdat ook hij vlees is, maar zijn dagen zullen honderdtwintig jaar zijn.
+~ Genesis 6:3
+
+In die dagen, en ook daarna, waren er reuzen op de aarde, toen Gods zonen bij de dochters van de mensen waren gekomen en die *kinderen* voor hen baarden; dit zijn de geweldenaars van oude tijden af, mannen van naam.
+~ Genesis 6:4
+
+En de HEERE zag dat de slechtheid van de mens op de aarde groot was, en *dat* al de gedachtespinsels van zijn hart elke dag alleen maar slecht waren.
+~ Genesis 6:5
+
+Toen kreeg de HEERE er berouw over dat Hij de mens op de aarde gemaakt had, en het bedroefde Hem in Zijn hart.
+~ Genesis 6:6
+
+En de HEERE zei: Ik zal de mens, die Ik geschapen heb, van de aardbodem verdelgen, van de mens tot het vee, tot de kruipende dieren en tot de vogels in de lucht toe, want Ik heb er berouw over dat Ik hen gemaakt heb.
+~ Genesis 6:7
+
+Maar Noach vond genade in de ogen van de HEERE.
+~ Genesis 6:8
+
+---
+
+Dit zijn de afstammelingen van Noach. Noach was een rechtvaardig, oprecht man onder zijn tijdgenoten. Noach wandelde met God.
+~ Genesis 6:9
+
+En Noach verwekte drie zonen: Sem, Cham en Jafeth.
+~ Genesis 6:10
+
+Maar de aarde was verdorven voor Gods aangezicht en de aarde was vol met geweld.
+~ Genesis 6:11
+
+Toen zag God de aarde, en zie, zij was verdorven; want alle vlees had een verdorven levenswandel op de aarde.
+~ Genesis 6:12
+
+Daarom zei God tegen Noach: Het einde van alle vlees is voor Mijn aangezicht gekomen, want de aarde is door hen vervuld met geweld; en zie, Ik ga hen met de aarde te gronde richten.
+~ Genesis 6:13
+
+Maak voor uzelf een ark van goferhout. In vakken *ingedeeld* moet u deze ark maken en hem vanbinnen en vanbuiten met pek bestrijken.
+~ Genesis 6:14
+
+Zo moet u hem maken: driehonderd el moet de lengte van de ark zijn, vijftig el zijn breedte en dertig el zijn hoogte.
+~ Genesis 6:15
+
+U moet een lichtopening in de ark maken, en *de ark* afwerken tot op een el van boven; en de deur van de ark moet u aan de zijkant plaatsen. U moet er een onderste, een tweede en een derde *verdieping* in maken.
+~ Genesis 6:16
+
+En Ik, zie, Ik ga een watervloed over de aarde brengen om alle vlees waarin een levensgeest is, van onder de hemel te gronde te richten; alles wat op de aarde is, zal de geest geven.
+~ Genesis 6:17
+
+Maar met u zal Ik Mijn verbond maken; en u moet in de ark gaan, u, uw zonen, uw vrouw en de vrouwen van uw zonen met u.
+~ Genesis 6:18
+
+En u moet van al wat leeft, van alle vlees, twee van elk in de ark laten komen om *ze* met u in leven te houden: een mannetje en een vrouwtje moeten het zijn.
+~ Genesis 6:19
+
+Van de vogels naar hun soort, van het vee naar zijn soort, *en* van de kruipende dieren van de aardbodem naar hun soort, zullen er twee naar u toe komen, om *ze* in leven te houden.
+~ Genesis 6:20
+
+En u, neem voor uzelf van al het voedsel dat gegeten wordt, en verzamel dat bij u, zodat het voor u en voor hen tot voedsel zal zijn.
+~ Genesis 6:21
+
+En Noach deed het; overeenkomstig alles wat God hem geboden had, zo deed hij.
+~ Genesis 6:22
+
+Daarna zei de HEERE tegen Noach: Ga in de ark, u en heel uw gezin, want Ik heb gezien dat u te midden van uw tijdgenoten voor Mijn aangezicht rechtvaardig bent.
+~ Genesis 7:1
+
+U moet voor uzelf van alle reine dieren zeven paar nemen, een mannetje en zijn vrouwtje; maar van de dieren die niet rein zijn, *één* paar, een mannetje en zijn vrouwtje;
+~ Genesis 7:2
+
+ook van de vogels in de lucht zeven paar, mannelijk en vrouwelijk, om de soort op heel de aarde in leven te houden.
+~ Genesis 7:3
+
+Want over nog zeven dagen zal Ik het op de aarde veertig dagen en veertig nachten laten regenen; en Ik zal al wat bestaat, wat Ik gemaakt heb, van de aardbodem verdelgen.
+~ Genesis 7:4
+
+En Noach deed overeenkomstig alles wat de HEERE hem geboden had.
+~ Genesis 7:5
+
+Noach was zeshonderd jaar oud toen de watervloed over de aarde kwam.
+~ Genesis 7:6
+
+Toen ging Noach met zijn zonen, zijn vrouw en de vrouwen van zijn zonen met hem in de ark, vanwege het water van de vloed.
+~ Genesis 7:7
+
+Van de reine dieren, van de dieren die niet rein waren, van de vogels en *van* alles wat over de aardbodem kruipt,
+~ Genesis 7:8
+
+kwamen er twee *aan* twee naar Noach in de ark, mannelijk en vrouwelijk, zoals God aan Noach geboden had.
+~ Genesis 7:9
+
+En het gebeurde na die zeven dagen dat het water van de vloed over de aarde kwam.
+~ Genesis 7:10
+
+In het zeshonderdste levensjaar van Noach, in de tweede maand, op de zeventiende dag van de maand, op die dag zijn alle bronnen van de grote watervloed opengebarsten en de sluizen van de hemel opengezet.
+~ Genesis 7:11
+
+En er was regen op de aarde, veertig dagen en veertig nachten.
+~ Genesis 7:12
+
+Op diezelfde dag gingen Noach en Sem, Cham en Jafeth, de zonen van Noach, en *ook* Noachs vrouw en de drie vrouwen van zijn zonen met hen in de ark,
+~ Genesis 7:13
+
+zij, en al de *wilde* dieren naar hun soort, al het vee naar zijn soort, alle kruipende dieren, die over de aarde kruipen, naar hun soort, en alle vogels naar hun soort, al wat gevleugeld is.
+~ Genesis 7:14
+
+En van alle vlees waar een levensgeest in was, kwamen ze naar Noach in de ark, twee *aan* twee.
+~ Genesis 7:15
+
+En die kwamen, kwamen *als* mannelijk en vrouwelijk, van alle vlees, zoals God hem geboden had. En de HEERE sloot *de deur* achter hem toe.
+~ Genesis 7:16
+
+En de vloed was veertig dagen op de aarde, en het water nam toe en hief de ark omhoog, zodat hij van de aarde oprees.
+~ Genesis 7:17
+
+En het water steeg en nam sterk toe op de aarde; en de ark dreef op het water.
+~ Genesis 7:18
+
+Het water steeg meer en meer op de aarde, zodat alle hoge bergen die onder heel de hemel zijn, bedekt werden.
+~ Genesis 7:19
+
+*Nog* vijftien el daarboven steeg het water, en de bergen werden bedekt.
+~ Genesis 7:20
+
+En alle vlees dat zich op de aarde bewoog, gaf de geest: de vogels, het vee, de wilde dieren en alle kruipende dieren, die over de aarde kropen, en alle mensen.
+~ Genesis 7:21
+
+Alles met levensadem in zijn neusgaten van alles wat op het droge *leefde*, stierf.
+~ Genesis 7:22
+
+Zo verdelgde Hij alles wat bestond, wat op de aardbodem was, van mens tot dier, tot kruipende dieren en vogels in de lucht; verdelgd werden zij van de aarde. Alleen Noach bleef over, en wat met hem in de ark was.
+~ Genesis 7:23
+
+En het water had honderdvijftig dagen *lang* de overhand op de aarde.
+~ Genesis 7:24
+
+En God dacht aan Noach en aan al de *wilde* dieren en al het vee dat bij hem in de ark was; en God liet wind over de aarde gaan, zodat het water bedaarde.
+~ Genesis 8:1
+
+Ook werden de bronnen van de watervloed en de sluizen van de hemel gesloten, en de regen uit de hemel werd gestopt.
+~ Genesis 8:2
+
+Vervolgens vloeide het water van boven de aarde terug, gaandeweg vloeide het terug. Na verloop van honderdvijftig dagen werd het water minder.
+~ Genesis 8:3
+
+En de ark bleef in de zevende maand, op de zeventiende dag van de maand, vastzitten op het gebergte van Ararat.
+~ Genesis 8:4
+
+En gaandeweg werd het water minder, tot aan de tiende maand. In de tiende *maand*, op de eerste *dag* van de maand, werden de toppen van de bergen zichtbaar.
+~ Genesis 8:5
+
+En het gebeurde na verloop van veertig dagen dat Noach het venster van de ark, dat hij gemaakt had, opendeed.
+~ Genesis 8:6
+
+En hij liet een raaf los, die heen en weer bleef vliegen totdat het water van boven de aarde opgedroogd was.
+~ Genesis 8:7
+
+Daarna liet hij een duif van bij zich los om te zien of het water op de aardbodem afgenomen was.
+~ Genesis 8:8
+
+Maar de duif vond geen rustplaats voor de holte van haar voet; daarom keerde zij naar hem terug in de ark, want het water stond *nog* boven heel de aarde. Hij stak zijn hand uit, pakte haar en bracht haar bij zich in de ark.
+~ Genesis 8:9
+
+En hij wachtte nog eens zeven dagen; toen liet hij de duif weer los uit de ark.
+~ Genesis 8:10
+
+En de duif kwam naar hem toe tegen de avond; en zie, er was een afgebroken olijfblad in haar snavel; daaraan merkte Noach dat het water op de aarde afgenomen was.
+~ Genesis 8:11
+
+Toen wachtte hij nog eens zeven dagen. Hij liet de duif los, maar zij keerde niet meer naar hem terug.
+~ Genesis 8:12
+
+En het was in het zeshonderdeerste jaar, in de eerste *maand*, op de eerste *dag* van die maand, dat het water van boven de aarde opgedroogd was. Toen nam Noach het luik van de ark weg en keek *naar buiten*, en zie, de aardbodem was opgedroogd.
+~ Genesis 8:13
+
+In de tweede maand, op de zevenentwintigste dag van de maand, was de aarde droog geworden.
+~ Genesis 8:14
+
+Toen sprak God tot Noach:
+~ Genesis 8:15
+
+Ga de ark uit, u, uw vrouw, uw zonen en de vrouwen van uw zonen met u.
+~ Genesis 8:16
+
+Laat al de dieren die bij u zijn van alle vlees, de vogels, het vee en alle kruipende dieren, die over de aarde kruipen, met u naar buiten gaan, zodat zij zich overvloedig uitbreiden op de aarde en vruchtbaar zijn en talrijk worden op de aarde.
+~ Genesis 8:17
+
+Toen ging Noach naar buiten, en zijn zonen, zijn vrouw en de vrouwen van zijn zonen met hem.
+~ Genesis 8:18
+
+Alle dieren, alle kruipende dieren en alle vogels, alles wat zich op de aarde beweegt, overeenkomstig hun soorten, gingen de ark uit.
+~ Genesis 8:19
+
+En Noach bouwde een altaar voor de HEERE; en hij nam van al het reine vee en van alle reine vogels, en bracht brandoffers op dat altaar.
+~ Genesis 8:20
+
+En de HEERE rook die aangename geur, en de HEERE zei in Zijn hart: Ik zal de aardbodem voortaan niet meer vervloeken vanwege de mens; de gedachtespinsels van het hart van de mens zijn immers slecht, van zijn jeugd af; en Ik zal voortaan niet al het levende meer doden, zoals Ik gedaan heb.
+~ Genesis 8:21
+
+Voortaan, al de dagen van de aarde,
+zullen zaaitijd en oogsttijd, koude en hitte,
+zomer en winter, dag en nacht niet ophouden.
+~ Genesis 8:22
+
+Toen zegende God Noach en zijn zonen en Hij zei tegen hen: Wees vruchtbaar, word talrijk en vervul de aarde!
+~ Genesis 9:1
+
+Vrees en schrik voor u zal er zijn bij alle dieren van de aarde en bij alle vogels in de lucht, bij alles wat over de aardbodem kruipt en bij alle vissen in de zee; zij zijn in uw hand gegeven.
+~ Genesis 9:2
+
+Alles wat zich beweegt, waarin leven is, zal u tot voedsel dienen; Ik heb het u allemaal gegeven, evenals het groene gewas.
+~ Genesis 9:3
+
+Maar vlees met zijn leven, zijn bloed, *er nog in* mag u niet eten.
+~ Genesis 9:4
+
+Voorzeker, Ik zal vergelding eisen voor uw bloed, voor uw levens. Van de hand van alle dieren zal Ik vergelding eisen; ook van de hand van de mens, van de hand van ieders broeder, zal Ik vergelding eisen voor het leven van de mens.
+~ Genesis 9:5
+
+Vergiet iemand het bloed van de mens,
+door de mens zal diens bloed vergoten worden;
+want naar het beeld van God
+heeft Hij de mens gemaakt.
+~ Genesis 9:6
+
+Wat u betreft, wees vruchtbaar en word talrijk;
+breid u overvloedig uit op de aarde, en word talrijk daarop.
+~ Genesis 9:7
+
+En God zei tegen Noach en zijn zonen met hem:
+~ Genesis 9:8
+
+En Ik, zie, Ik maak Mijn verbond met u, met uw nageslacht na u,
+~ Genesis 9:9
+
+en met alle levende wezens die bij u zijn: de vogels, het vee en alle dieren van de aarde met u; van alles wat uit de ark is gegaan, tot alle dieren van de aarde toe.
+~ Genesis 9:10
+
+Ik maak Mijn verbond met u, dat niet meer alle vlees door het water van een vloed zal worden uitgeroeid, en dat er geen vloed meer zal zijn om de aarde te gronde te richten.
+~ Genesis 9:11
+
+En God zei: Dit is het teken van het verbond dat Ik geef tussen Mij en u, en alle levende wezens die bij u zijn, *alle* generaties door *tot* in eeuwigheid:
+~ Genesis 9:12
+
+Mijn boog heb Ik in de wolken gegeven; die zal dienen als teken van het verbond tussen Mij en de aarde.
+~ Genesis 9:13
+
+Het zal gebeuren, als Ik wolken boven de aarde breng en de boog in de wolken gezien wordt,
+~ Genesis 9:14
+
+dat Ik aan Mijn verbond zal denken, dat er is tussen Mij en u en alle levende wezens van alle vlees. Het water zal niet meer tot een vloed worden om alle vlees te gronde te richten.
+~ Genesis 9:15
+
+Als deze boog in de wolken is, zal Ik hem zien, en denken aan het eeuwig verbond tussen God en alle levende wezens van alle vlees dat op de aarde is.
+~ Genesis 9:16
+
+God zei dus tegen Noach: Dit is het teken van het verbond dat Ik gemaakt heb tussen Mij en alle vlees dat op de aarde is.
+~ Genesis 9:17
+
+En de zonen van Noach, die uit de ark gingen, waren Sem, Cham en Jafeth; Cham is de vader van Kanaän.
+~ Genesis 9:18
+
+Deze drie waren de zonen van Noach; en uit hen is heel de aarde bevolkt.
+~ Genesis 9:19
+
+En Noach werd landbouwer en plantte een wijngaard.
+~ Genesis 9:20
+
+Hij dronk van de wijn en werd dronken; en hij ontkleedde zich midden in zijn tent.
+~ Genesis 9:21
+
+En Cham, de vader van Kanaän, zag de naaktheid van zijn vader en vertelde het aan zijn beide broers buiten.
+~ Genesis 9:22
+
+Toen namen Sem en Jafeth een kleed, legden het op hun beider schouders, liepen achteruit en bedekten de naaktheid van hun vader, met het gezicht afgewend, zodat zij de naaktheid van hun vader niet zagen.
+~ Genesis 9:23
+
+Toen ontwaakte Noach uit zijn roes en kwam hij te weten wat zijn jongste zoon hem aangedaan had.
+~ Genesis 9:24
+
+Hij zei:
+Vervloekt is Kanaän!
+Laat hij voor zijn broers een dienaar van dienaren zijn!
+~ Genesis 9:25
+
+Ook zei hij:
+Gezegend is de HEERE, de God van Sem!
+Laat Kanaän een dienaar voor hem zijn!
+~ Genesis 9:26
+
+Laat God Jafeth uitbreiden en laat hij in de tenten van Sem wonen!
+En laat Kanaän voor hem een dienaar zijn!
+~ Genesis 9:27
+
+En Noach leefde na de vloed driehonderdvijftig jaar.
+~ Genesis 9:28
+
+Zo waren al de dagen van Noach negenhonderdvijftig jaar; en hij stierf.
+~ Genesis 9:29
+
+---
+
+Dit zijn de afstammelingen van de zonen van Noach, Sem, Cham en Jafeth. Bij hen werden na de vloed zonen geboren.
+~ Genesis 10:1
+
+De zonen van Jafeth zijn: Gomer, Magog, Madai, Javan, Tubal, Mesech en Tiras.
+~ Genesis 10:2
+
+De zonen van Gomer zijn: Askenaz, Rifath en Togarma.
+~ Genesis 10:3
+
+De zonen van Javan zijn: Elisa en Tarsis, de Kittiërs en de Dodanieten.
+~ Genesis 10:4
+
+Van hen *stammen de mensen af die* zich over de kustlanden van de volken verspreid hebben, in hun landen, elk overeenkomstig zijn taal, overeenkomstig hun geslachten, onder hun volken.
+~ Genesis 10:5
+
+De zonen van Cham zijn: Cusj, Mizraïm, Put en Kanaän.
+~ Genesis 10:6
+
+De zonen van Cusj zijn: Seba, Havila, Sabta, Raëma en Sabtecha. De zonen van Raëma zijn: Sjeba en Dedan.
+~ Genesis 10:7
+
+En Cusj verwekte Nimrod; die begon een geweldenaar op de aarde te worden.
+~ Genesis 10:8
+
+Hij was een geweldig jager voor het aangezicht van de HEERE; daarom wordt gezegd: Als Nimrod, een geweldig jager voor het aangezicht van de HEERE.
+~ Genesis 10:9
+
+Het begin van zijn koninkrijk bestond uit Babel, Erech, Akkad en Kalne in het land Sinear.
+~ Genesis 10:10
+
+Uit dit land is Assur weggegaan en hij bouwde Ninevé, Rehoboth-Ir, Kalach
+~ Genesis 10:11
+
+en Resen, tussen Ninevé en Kalach; dat is de grote stad.
+~ Genesis 10:12
+
+Mizraïm verwekte de Ludieten, de Anamieten, de Lehabieten, de Naftuchieten,
+~ Genesis 10:13
+
+de Pathrusieten, de Kasluchieten — uit wie de Filistijnen voortgekomen zijn — en de Kaftorieten.
+~ Genesis 10:14
+
+Kanaän verwekte Sidon, zijn eerstgeborene, Heth,
+~ Genesis 10:15
+
+en de Jebusiet, de Amoriet, de Girgasiet,
+~ Genesis 10:16
+
+de Heviet, de Arkiet, de Siniet,
+~ Genesis 10:17
+
+de Arvadiet, de Zemariet en de Hamathiet; daarna zijn de geslachten van de Kanaänieten verspreid.
+~ Genesis 10:18
+
+En de grens van de Kanaänieten reikte van Sidon in de richting van Gerar tot aan Gaza, *en* in de richting van Sodom, Gomorra, Adama en Zeboïm, tot aan Lasa.
+~ Genesis 10:19
+
+Dit waren de zonen van Cham, *ingedeeld* naar hun geslachten *en* naar hun talen, met hun landen en hun volken.
+~ Genesis 10:20
+
+Ook bij Sem zijn *zonen* geboren; hij is de *voor*vader van alle zonen van Heber, *en* de broer van Jafeth, de oudste.
+~ Genesis 10:21
+
+Sems zonen waren: Elam, Assur, Arfachsad, Lud en Aram.
+~ Genesis 10:22
+
+De zonen van Aram waren: Uz, Hul, Gether en Mas.
+~ Genesis 10:23
+
+Arfachsad verwekte Selah, en Selah verwekte Heber.
+~ Genesis 10:24
+
+Bij Heber werden twee zonen geboren; de naam van de ene was Peleg, omdat in zijn dagen de aarde verdeeld is, en de naam van zijn broer was Joktan.
+~ Genesis 10:25
+
+Joktan verwekte Almodad, Selef, Hazarmavet, Jerah,
+~ Genesis 10:26
+
+Hadoram, Uzal, Dikla,
+~ Genesis 10:27
+
+Obal, Abimaël, Sjeba,
+~ Genesis 10:28
+
+Ofir, Havila en Jobab. Zij allen waren zonen van Joktan.
+~ Genesis 10:29
+
+Hun woongebied reikte van Mesja tot in de richting van Sefar, het bergland in het oosten.
+~ Genesis 10:30
+
+Dit waren de zonen van Sem, *ingedeeld* naar hun geslachten *en* naar hun talen, met hun landen en hun volken.
+~ Genesis 10:31
+
+Dit waren de geslachten van de zonen van Noach, *ingedeeld* naar hun afstamming, met hun volken; van hen *stammen* de volken *af die* zich na de vloed over de aarde hebben verspreid.
+~ Genesis 10:32
+
+---
+
+Heel de aarde had één taal en eendere woorden.
+~ Genesis 11:1
+
+En het gebeurde, toen zij naar het oosten trokken, dat zij een vlakte in het land Sinear vonden. Daar gingen zij wonen.
+~ Genesis 11:2
+
+En zij zeiden allen tegen elkaar: Kom, laten wij kleiblokken maken en die goed bakken! En de kleiblokken dienden hun tot steen en het asfalt diende hun tot leem.
+~ Genesis 11:3
+
+En zij zeiden: Kom, laten wij voor ons een stad bouwen, en een toren waarvan de top in de hemel reikt, en laten we voor ons een naam maken, anders worden wij over heel de aarde verspreid!
+~ Genesis 11:4
+
+Toen daalde de HEERE neer om de stad en de toren te zien die de mensenkinderen aan het bouwen waren,
+~ Genesis 11:5
+
+en de HEERE zei: Zie, zij vormen één volk en hebben allen één taal. Dit is het begin van wat zij gaan doen, en nu zal niets van wat zij zich voornemen te doen, voor hen onmogelijk zijn.
+~ Genesis 11:6
+
+Kom, laten Wij neerdalen en laten Wij hun taal daar verwarren, zodat zij geen van allen elkaars taal zullen begrijpen.
+~ Genesis 11:7
+
+
 
 
 
