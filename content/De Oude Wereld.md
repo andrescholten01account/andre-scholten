@@ -15,7 +15,7 @@ aliases:
 
 ### In het begin
 
-- Datum schepping
+- [[Berekening datum schepping]]
 - Harmonie Genesis 1 en 2
 
 ## Schiep
