@@ -36,6 +36,10 @@ Blijdschap van de Geest
 
 %%
 
+Vrucht van de Geest:
+- Gal. 5:22
+- Efeze 5:9 (nog een tekst over de vrucht van de Geest)
+
 Word vol van de Geest ➔ Ef. 
 
 ➔ Vervulling met de Geest
