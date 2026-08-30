@@ -18,4 +18,5 @@ Nehemia: Bijbel voorlezen + begrijpen
 Filippus en de kamerling: begrijp je wat je leest? hoe kan het tenzij iemand het mij uitlegt
 
 Gelijkenis zaaier: begrijpt, niet begrijpt ➔ dus belangrijk dat Gods Woord begrepen wordt
+➔ Mat. 13:23 ➔ Gods Woord ==begrijpt==
 
