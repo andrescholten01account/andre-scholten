@@ -95,8 +95,6 @@ Mens:
 - Gen. 1:27 beeld van God
 - 9:? (na de zondvloed) beeld van God
 
-De rest van de Bijbel over Genesis 1 - 11
-
 Gen. 3:15
 ➔ Jezus wordt voorzegd 
 ➔ teksten uitgekomen 
@@ -170,6 +168,25 @@ IV. Toren van Babel: 11:1-26
 
 - [[#A. Toren van Babel (11:1-9)]]
 - [[#B. Nageslacht Sem (11:10-26)]]
+
+---
+## De rest van de Bijbel over Genesis 1 - 11
+
+- Jezus over Genesis 1 - 11 ➔ zie creation.com
+- De rest van de Bijbel over Genesis 1 - 11
+
+## Meer
+
+- Waarom is Genesis 1 - 11 belangrijk?
+
+## Onderwerpen Genesis 1 - 11
+
+- [[Berekening datum schepping]]
+- [[God]]
+- Schepping / evolutie
+- [[De mens]]
+- [[Zonde]]
+- Voorzeggingen over Jezus
 
 ---
 ## I. Schepping (1:1 - 2:25)
