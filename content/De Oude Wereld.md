@@ -141,12 +141,42 @@ VI. Afstammelingen Sem: Gen. 11:10-26
 ---
 ## Indeling Genesis 1 - 11
 
-I. Schepping: Gen. 1:1 - 2:25
-II. Zondeval: Gen. 3:1 - 5:32
-III. Zondvloed: Gen. 6:1 - 9:29
-IV. Toren van Babel: Gen. 10:1 - 11:26
+I. Schepping: 1:1 - 2:25
+II. Zondeval: 3:1 - 5:32
+III. Zondvloed: 6:1 - 10:32
+IV. Toren van Babel: 11:1-26 
 
 ➔ zie: [John MacArthur Bible Introductions - Genesis | Blue Letter Bible](https://www.blueletterbible.org/Comm/macarthur_john/bible-introductions/genesis-intro.cfm?a=1001)
+
+---
+## I. Schepping: 1:1 - 2:25
+
+A. Schepping hemel en aarde: 1:1 - 2:3
+B. Schepping mens: 2:4-25
+
+## II. Zondeval: 3:1 - 5:32
+
+A. Ongehoorzaamheid aan God: 3:1-24
+B. De eerste moord: 4:1-16
+C. Nageslacht Kaïn: 4:17-24
+D. Nageslacht Seth: 4:25-26
+E. Geslachtsregister Adam tot Noach: 5:1-32
+
+## III. Zondvloed: 6:1 - 10:32
+
+A. Voorzegging zondvloed: 6:1-8
+B. Opdracht tot bouw van ark: 6:9-22
+C. Zondvloed: 7:1-24
+D. Einde zondvloed: 8:1-19
+E. Offer Noach: 8:20-22
+F. Gods verbond met Noach: 9:1-17
+G. Zonen van Noach: 9:18-29
+H. Nakomelingen Noachs zonen: 10:1-32
+
+## IV. Toren van Babel: 11:1-26 
+
+A. Toren van Babel: 11:1-9
+B. Nageslacht Sem: 11:10-26
 
 ---
 

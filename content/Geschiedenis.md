@@ -1,9 +1,19 @@
+➔ jaartallen erbij
+
 ## [[De oude wereld]]
 
 - Schepping
-- Adam buiten de hof
-- Zondvloed
+	- 5e dag: zee"dino's" + vliegende "dino's" ➔ officieel geen dino's volgens mij
+	- 6e dag: landdieren: dino's
+		- Zie Job: behemoth + leviathan
+		- Drakenlegendes
+- Zondeval
+- Zondvloed ➔ wereldwijde zondvloedverhalen 
 - Toren van Babel
+
+## Van Babel naar Nederland
+
+- Uitleg hierover
 
 ## [[Vaderlandse geschiedenis]]
 
