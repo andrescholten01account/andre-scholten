@@ -7,3 +7,7 @@ En God zag het licht dat het goed was; en God maakte scheiding tussen het licht 
 En God noemde het licht dag en de duisternis noemde Hij nacht. Toen was het avond geweest en het was morgen geweest: de eerste dag.
 ~ Genesis 1:5
 
+---
+
+1:3 - God sprak ➔ [[Gods Woord]]
+

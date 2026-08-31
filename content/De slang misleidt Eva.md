@@ -13,3 +13,7 @@ Toen zei de slang tegen de vrouw: U zult zeker niet sterven.
 Maar God weet dat, op de dag dat u daarvan eet, uw ogen geopend zullen worden en *dat* u als God zult zijn, goed en kwaad kennend.
 ~ Genesis 3:5
 
+---
+
+3:1 - satan / geestelijke strijd
+

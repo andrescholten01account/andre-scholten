@@ -7,3 +7,7 @@ En God schiep de mens naar Zijn beeld; naar het beeld van God schiep Hij hem; ma
 En God zegende hen en God zei tegen hen: Wees vruchtbaar, word talrijk, vervul de aarde en onderwerp haar, en heers over de vissen van de zee, over de vogels in de lucht en over al de dieren die over de aarde kruipen!
 ~ Genesis 1:28
 
+---
+
+1:27 Man en vrouw ➔ Huwelijk (alias van maken bij Echtgenoot) ➔ [[Echtgenoot]]
+

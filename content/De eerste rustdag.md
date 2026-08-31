@@ -7,3 +7,7 @@ Toen God op de zevende dag Zijn werk, dat Hij gemaakt had, voltooid had, rustte 
 En God zegende de zevende dag en heiligde die, want daarop rustte Hij van al Zijn werk, dat God schiep door het te maken.
 ~ Genesis 2:3
 
+---
+
+2:3 - Rustdag ➔ 4e gebod: [[Houd je aan de rustdag]]
+
