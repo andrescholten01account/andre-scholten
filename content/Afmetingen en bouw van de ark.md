@@ -28,4 +28,5 @@ En Noach deed het; overeenkomstig alles wat God hem geboden had, zo deed hij.
 ---
 
 Zondvloed ➔ wereldwijde zondvloedverhalen 
+https://floodstories.wordpress.com/
 

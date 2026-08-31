@@ -6,5 +6,3 @@
 
 https://oorsprong.info/na-het-opgeven-van-een-historische-adam-viel-elk-leerstuk-een-voor-een-in-duigen-oud-minister-dr-bert-de-vries-in-het-nederlands-dagblad/
 
----
-
