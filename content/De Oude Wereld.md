@@ -139,12 +139,14 @@ V. Afstammelingen zonen van Noach: Gen. 10:1 - 11:9
 VI. Afstammelingen Sem: Gen. 11:10-26
 
 ---
-## Indelingen Genesis 1 - 11
+## Indeling Genesis 1 - 11
 
 I. Schepping: Gen. 1:1 - 2:25
 II. Zondeval: Gen. 3:1 - 5:32
 III. Zondvloed: Gen. 6:1 - 9:29
-IV. Toren van Babel: Gen. 10:1 - 1126
+IV. Toren van Babel: Gen. 10:1 - 11:26
+
+➔ zie: [John MacArthur Bible Introductions - Genesis | Blue Letter Bible](https://www.blueletterbible.org/Comm/macarthur_john/bible-introductions/genesis-intro.cfm?a=1001)
 
 ---
 
