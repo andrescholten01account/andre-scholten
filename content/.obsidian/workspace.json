@@ -71,8 +71,7 @@
               "title": "Vader"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -264,10 +262,12 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "c2e0407ce786e980",
+  "active": "647dd6bd11be4d6e",
   "lastOpenFiles": [
-    "index.md",
     "Vader.md",
+    "Technische tips.md",
+    "index.md",
+    "Man.md",
     "Logisch denken voor christen.md",
     "Logica.md",
     "Afmetingen en bouw van de ark.md",
@@ -290,8 +290,6 @@
     "Henochs geloof en opname bij God.md",
     "Gevolgen van de zondeval.md",
     "Geboorte, werk en offer van Kaïn en Abel.md",
-    "Verdrijving uit het paradijs.md",
-    "De mens valt in zonde.md",
     "atheist.doc",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",
