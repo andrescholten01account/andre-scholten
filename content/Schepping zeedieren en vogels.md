@@ -10,3 +10,7 @@ En God zegende ze en zei: Wees vruchtbaar, word talrijk, en vervul het water van
 Toen was het avond geweest en het was morgen geweest: de vijfde dag.
 ~ Genesis 1:23
 
+---
+
+5e dag: zee"dino's" + vliegende "dino's" ➔ officieel geen dino's volgens mij
+

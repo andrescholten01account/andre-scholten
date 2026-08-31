@@ -2,11 +2,27 @@
 
 ---
 
-- Hunebedden
+I. Prehistorie (tot 50 v.Chr.) 
+II. Oudheid (50 v.Chr. - 500)
+III. Middeleeuwen (500 - 1500)
+IV. Vroegmoderne tijd (1500 - 1814)
+V. Moderne tijd ➔ (1814 - nu)
+
+---
+
+- IJzertijd (al in Bijbel in Gen. 4:22)
+- Bronstijd
+- Koper (al in Bijbel in Gen. 4:22)
+- Trechterbekercultuur 
+- Hunebedden en grafheuvels
 - Vikingen
+- Kerstening Nederland
+- Kastelen
 - Kloosters
 - Gouden Eeuw
-- Fransen in Nederland
+- 80-jarige oorlog
+- Reformatie
+ - Fransen in Nederland
 - Oorlogen
 
 ---

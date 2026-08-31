@@ -25,3 +25,7 @@ En u, neem voor uzelf van al het voedsel dat gegeten wordt, en verzamel dat bij 
 En Noach deed het; overeenkomstig alles wat God hem geboden had, zo deed hij.
 ~ Genesis 6:22
 
+---
+
+Zondvloed ➔ wereldwijde zondvloedverhalen 
+
