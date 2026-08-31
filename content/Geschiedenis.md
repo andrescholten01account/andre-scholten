@@ -19,10 +19,6 @@
 
 ---
 
-
-
----
-
 - Bijbelse geschiedenis
 - Kerkgeschiedenis
 
