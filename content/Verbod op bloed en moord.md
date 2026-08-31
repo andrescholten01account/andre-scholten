@@ -14,3 +14,11 @@ Wat u betreft, wees vruchtbaar en word talrijk;
 breid u overvloedig uit op de aarde, en word talrijk daarop.
 ~ Genesis 9:7
 
+---
+
+Mens:
+- Gen. 1:27 beeld van God
+- 9:? (na de zondvloed) beeld van God
+
+---
+

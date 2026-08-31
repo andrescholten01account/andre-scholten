@@ -7,3 +7,11 @@ Toen werden de ogen van beiden geopend en zij merkten dat zij naakt waren. Zij v
 En zij hoorden de stem van de HEERE God, Die in de hof wandelde, bij de wind in de namiddag. Toen verborgen Adam en zijn vrouw zich voor het aangezicht van de HEERE God te midden van de bomen in de hof.
 ~ Genesis 3:8
 
+---
+
+Zonde 
+➔ Rom. 5:12 
+➔ iedereen heeft gezondigd: rom. 3:23
+
+loon van de zonde is de dood
+

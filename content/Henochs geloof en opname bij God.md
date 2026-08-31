@@ -10,3 +10,7 @@ Al de dagen van Henoch waren driehonderdvijfenzestig jaar.
 Henoch wandelde met God, en hij was niet *meer*, want God nam hem weg.
 ~ Genesis 5:24
 
+---
+
+Henoch ➔ wandelen met God
+

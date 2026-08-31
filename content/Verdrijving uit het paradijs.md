@@ -17,3 +17,18 @@ Hij verdreef de mens, en plaatste ten oosten van de hof van Eden de cherubs met 
 - satan
 - Demonen
 
+---
+
+zonde ➔ straf
+straf ➔ uit de hof van Eden
+loon van de zonde is de dood
+
+---
+
+➔ Gods oordeel:
+- Uit de hof van Eden
+- Zondvloed
+- Sodom
+- Ballingschap
+- Poel van vuur ("wie niet gelooft is al veroordeeld")
+

@@ -3,64 +3,9 @@ aliases:
   - Genesis 1 - 11
 ---
 ➔ Genesis 1 - 11
-➔ Genesis 1:1 - 11:26 
+➔ Genesis 1:1 - 11:26
 
-
-[[Apologetiek]]
-
----
-
-Zonde 
-➔ Rom. 5:12 
-➔ iedereen heeft gezondigd: rom. 3:23
-
-zonde ➔ straf
-straf ➔ uit de hof van Eden
-loon van de zonde is de dood
-
-➔ Gods oordeel:
-- Uit de hof van Eden
-- Zondvloed
-- Sodom
-- Ballingschap
-- Poel van vuur ("wie niet gelooft is al veroordeeld")
-
-Adam en Eva ➔ kinderen ➔ gezin ➔ [[Vader]] ➔ alias Gezin maken
-
-Zegen ➔ meerdere teksten over zegen ➔ "gezegend met alle geestelijke zegen in de hemelse gewesten"
-vloek ➔ Jezus werd vloek aan kruis
-
-Henoch ➔ wandelen met God
-Noach ➔ wandelen met God ➔ gehoorzaamde God
-
-Mens:
-- Gen. 1:27 beeld van God
-- 9:? (na de zondvloed) beeld van God
-
-Gen. 3:15
-➔ Jezus wordt voorzegd 
-➔ teksten uitgekomen 
-➔ meerdere teksten over voorzegging komst Jezus + uitgekomen (zie "Ik heb de weinig geloof om atheïst te zijn + website over Messiaanse teksten ➔ dit is een link op belijdenis.nu)
-➔ teksten over wat nog uit gaat komen 
-
-Gen. 3:15
-➔ voorzeggingen (anders dan over Jezus)
-➔ teksten uitgekomen 
-➔ teksten over wat nog uit gaat komen
-
-Zondvloed:
-➔ God zegt dat er een zondvloed gaat komen (Bijbeltekst) ➔ voorzegging
-➔ Zondvloed komt ➔ Bijbeltekst waar op de zondvloed komt
-➔ zie hierboven over voorzeggingen Jezus + andere teksten dan Jezus (+ uitgekomen + wat nog gaat uitkomen)
-
-Gen. 1:? of 2:? ➔ "vermenigvuldigt u" ➔ zie ook TCR
-Gen. 9:? ➔ "vermenigvuldigt u"
-mat. 28:19 ➔ vermenigvuldigen
-Joh. 15:8 vruchtdragen
-Psalm 1
-
----
-## Inhoudsopgave
+## Inhoudsopgave 
 
 ### I. Schepping (1:1 - 2:25)
 

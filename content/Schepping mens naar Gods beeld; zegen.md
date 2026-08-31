@@ -11,3 +11,21 @@ En God zegende hen en God zei tegen hen: Wees vruchtbaar, word talrijk, vervul d
 
 1:27 Man en vrouw ➔ Huwelijk (alias van maken bij Echtgenoot) ➔ [[Echtgenoot]]
 
+---
+
+Zegen ➔ meerdere teksten over zegen ➔ "gezegend met alle geestelijke zegen in de hemelse gewesten"
+
+---
+
+Mens:
+- Gen. 1:27 beeld van God
+- 9:? (na de zondvloed) beeld van God
+
+---
+
+Gen. 1:? of 2:? ➔ "vermenigvuldigt u" ➔ zie ook TCR
+Gen. 9:? ➔ "vermenigvuldigt u"
+mat. 28:19 ➔ vermenigvuldigen
+Joh. 15:8 vruchtdragen
+Psalm 1
+

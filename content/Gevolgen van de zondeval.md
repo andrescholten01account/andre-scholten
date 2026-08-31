@@ -21,3 +21,13 @@ want stof bent u
 en u zult tot stof terugkeren.
 ~ Genesis 3:19
 
+---
+
+zonde ➔ straf
+straf ➔ uit de hof van Eden
+loon van de zonde is de dood
+
+---
+
+vloek ➔ Jezus werd vloek aan kruis
+

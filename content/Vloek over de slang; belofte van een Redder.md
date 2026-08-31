@@ -10,3 +10,24 @@ Dat zal u de kop vermorzelen,
 en u zult Het de hiel vermorzelen.
 ~ Genesis 3:15
 
+---
+
+vloek ➔ Jezus werd vloek aan kruis
+
+---
+
+Gen. 3:15
+➔ Jezus wordt voorzegd 
+➔ teksten uitgekomen 
+➔ meerdere teksten over voorzegging komst Jezus + uitgekomen (zie "Ik heb de weinig geloof om atheïst te zijn + website over Messiaanse teksten ➔ dit is een link op belijdenis.nu)
+➔ teksten over wat nog uit gaat komen 
+
+---
+
+Gen. 3:15
+➔ voorzeggingen (anders dan over Jezus)
+➔ teksten uitgekomen 
+➔ teksten over wat nog uit gaat komen
+
+---
+

@@ -13,3 +13,14 @@ Toen zag God de aarde, en zie, zij was verdorven; want alle vlees had een verdor
 Daarom zei God tegen Noach: Het einde van alle vlees is voor Mijn aangezicht gekomen, want de aarde is door hen vervuld met geweld; en zie, Ik ga hen met de aarde te gronde richten.
 ~ Genesis 6:13
 
+---
+
+Noach ➔ wandelen met God ➔ gehoorzaamde God
+
+---
+
+Zondvloed:
+➔ God zegt dat er een zondvloed gaat komen (Bijbeltekst) ➔ voorzegging
+➔ Zondvloed komt ➔ Bijbeltekst waar op de zondvloed komt
+➔ zie hierboven over voorzeggingen Jezus + andere teksten dan Jezus (+ uitgekomen + wat nog gaat uitkomen)
+

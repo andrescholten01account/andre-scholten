@@ -48,6 +48,8 @@ De schepping is door Jezus gemaakt
 
 Jezus over Genesis 1 - 11 ➔ zie creation.com
 
+[[Apologetiek]]
+
 ---
 
 1:2 - [[De Heilige Geest]]

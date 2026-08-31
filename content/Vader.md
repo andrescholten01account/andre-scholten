@@ -92,3 +92,9 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - [[Boeken gezin]]
 - [[Bronnen gezin]]
 
+%% 
+
+alias Gezin maken
+
+%%
+
