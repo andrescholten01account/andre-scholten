@@ -160,5 +160,15 @@ puritans grave symbols
 
 Openb. 22:12 ➔ terugkosmt Jezus
 
+---
+
+1 Kon. 8:38 gebed ➔ smeekbede
+
+1 Kon. 8:39 God alleen het het hart van alle mensenkinderen
+➔ eeuwig oordeel ➔ God weet alles, ook het diepste in ons hart
+➔ God ➔ alwetend ➔ God weet alles, ook het diepste in ons hart
+
+1 Kon. 8
+
 %%
 
