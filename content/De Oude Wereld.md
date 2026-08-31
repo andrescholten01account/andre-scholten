@@ -181,6 +181,8 @@ B. Nageslacht Sem: 11:10-26
 ---
 ## I. Schepping (1:1 - 2:25)
 
+## A. Schepping hemel en aarde: 1:1 - 2:3
+
 In het begin schiep God de hemel en de aarde.
 ~ Genesis 1:1
 
@@ -283,6 +285,8 @@ Toen God op de zevende dag Zijn werk, dat Hij gemaakt had, voltooid had, rustte 
 En God zegende de zevende dag en heiligde die, want daarop rustte Hij van al Zijn werk, dat God schiep door het te maken.
 ~ Genesis 2:3
 
+### B. Schepping mens: 2:4-25
+
 Dit is wat uit de hemel en de aarde voortkwam, toen zij geschapen werden. Op de dag dat de HEERE God aarde en hemel maakte —
 ~ Genesis 2:4
 
@@ -356,6 +360,8 @@ En zij waren beiden naakt, Adam en zijn vrouw, maar zij schaamden zich niet.
 ~ Genesis 2:25
 
 ## II. Zondeval (3:1 - 5:32)
+
+### A. Ongehoorzaamheid aan God: 3:1-24
 
 De slang nu was de listigste onder alle dieren van het veld, die de HEERE God gemaakt had; en hij zei tegen de vrouw: Is het echt zo dat God gezegd heeft: U mag niet eten van alle bomen in de hof?
 ~ Genesis 3:1
@@ -446,7 +452,7 @@ Daarom zond de HEERE God hem weg uit de hof van Eden, om de aardbodem te bewerke
 Hij verdreef de mens, en plaatste ten oosten van de hof van Eden de cherubs met een vlammend zwaard, dat heen en weer bewoog, om de weg naar de boom des levens te bewaken.
 ~ Genesis 3:24
 
----
+### B. De eerste moord: 4:1-16
 
 En Adam had gemeenschap met Eva, zijn vrouw, en zij werd zwanger en baarde Kaïn, en zei: Ik heb een man van de HEERE gekregen!
 ~ Genesis 4:1
