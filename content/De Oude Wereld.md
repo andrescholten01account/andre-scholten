@@ -170,6 +170,146 @@ IV. Toren van Babel: 11:1-26
 - [[#B. Nageslacht Sem (11:10-26)]]
 
 ---
+
+
+---
+
+## I. Schepping (1:1 - 2:25)
+
+### A. Schepping hemel en aarde (1:1 - 2:3)
+
+- God schept hemel en aarde (1:1-2)
+- God schept het licht (1:3-5)
+- God schept het hemelgewelf, dat het water boven en onder scheidt (1:6-8)
+- Het droge land komt tevoorschijn, met de eerste planten en bomen (1:9-13)
+- God schept zon, maan en sterren (1:14-19)
+- God schept de zeedieren en de vogels (1:20-23)
+- God schept de landdieren en het vee (1:24-25)
+- God schept de mens naar Zijn beeld en zegent hen (1:26-28)
+- God wijst voedsel aan voor mens en dier (1:29-30)
+- God overziet alles wat Hij gemaakt heeft, en ziet dat het goed is (1:31)
+- De eerste rustdag (2:1-3)
+
+### B. Schepping mens (2:4-25)
+
+- Nadere bijzonderheden over hoe de mens werd gemaakt (2:4-7)
+- De tuin van Eden en de rivier die erdoorheen stroomt (2:8-14)
+- De mens krijgt zijn taak in de tuin; het verbod op de boom van kennis (2:15-17)
+- De mens geeft namen aan alle dieren (2:18-20)
+- De schepping van de vrouw en het ontstaan van het huwelijk (2:21-25)
+
+---
+
+## II. Zondeval (3:1 - 5:32)
+
+### A. Ongehoorzaamheid aan God (3:1-24)
+
+- De slang misleidt Eva (3:1-5)
+- De mens overtreedt Gods gebod en valt in zonde (3:6-8)
+- God roept de mens ter verantwoording (3:9-13)
+- De slang wordt vervloekt; God belooft een Redder (3:14-15)
+- De gevolgen van de zondeval voor de mensheid (3:16-19)
+- Hun eerste kleding, van dierenvellen (3:20-21)
+- De mens wordt weggestuurd uit het paradijs (3:22-24)
+
+### B. De eerste moord (4:1-16)
+
+- De geboorte, het werk en het offer van Kaïn en Abel (4:1-2)
+- God aanvaardt het offer van Abel, maar wijst dat van Kaïn af (4:3-7)
+- Kaïn vermoordt zijn broer Abel en wordt door God vervloekt (4:8-15)
+- Kaïn vertrekt en vestigt zich in het land Nod (4:16)
+
+### C. Nageslacht Kaïn (4:17-24)
+
+- De nakomelingen van Kaïn; Lamech en zijn twee vrouwen (4:17-24)
+
+### D. Nageslacht Seth (4:25-26)
+
+- De geboorte van Seth en Enos; mensen beginnen God weer te aanbidden (4:25-26)
+
+### E. Geslachtsregister Adam tot Noach (5:1-32)
+
+- Stamboom, leeftijden en het overlijden van de stamvaders van Adam tot Noach (5:1-20)
+- Het gelovige leven van Henoch en zijn opname bij God (5:21-24)
+- De geboorte van Noach en zijn zonen (5:25-32)
+
+---
+
+## III. Zondvloed (6:1 - 10:32)
+
+### A. Voorzegging zondvloed (6:1-8)
+
+- De toenemende slechtheid op aarde wekt Gods oordeel op (6:1-4)
+- God besluit het leven op aarde te vernietigen (6:5-7)
+- Noach vindt genade in de ogen van God (6:8)
+
+### B. Opdracht tot bouw van ark (6:9-22)
+
+- Noach krijgt de opdracht een ark te bouwen (6:9-13)
+- De afmetingen en de bouw van de ark (6:14-22)
+
+### C. Zondvloed (7:1-24)
+
+- Noach gaat met zijn gezin en de dieren de ark in (7:1-12)
+- De zondvloed breekt uit en het water stijgt (7:13-16)
+- Al het menselijk en dierlijk leven op het land komt om (7:17-24)
+
+### D. Einde zondvloed (8:1-19)
+
+- Het water begint te zakken (8:1-3)
+- De ark komt vast te zitten op het Araratgebergte (8:4-5)
+- Noach laat een raaf en een duif los om te kijken of het land droog is (8:6-14)
+- Noach verlaat de ark (8:15-19)
+
+### E. Offer Noach (8:20-22)
+
+- Noach bouwt een altaar en brengt een offer; God belooft de aarde nooit meer zo te vervloeken (8:20-22)
+
+### F. Gods verbond met Noach (9:1-17)
+
+- God zegent Noach en zijn zonen (9:1-3)
+- Regels over het eten van bloed en het verbod op moord (9:4-7)
+- Gods verbond met de aarde, met de regenboog als teken (9:8-17)
+
+### G. Zonen van Noach (9:18-29)
+
+- De aarde wordt opnieuw bevolkt door de zonen van Noach (9:18-19)
+- Noach plant een wijngaard, wordt dronken, en zijn zoon bespot hem (9:20-23)
+- Noach spreekt een vloek uit over Kanaän, en zegent Sem en Jafeth (9:24-27)
+- De leeftijd en het overlijden van Noach (9:28-29)
+
+### H. Nakomelingen Noachs zonen (10:1-32)
+
+- De nakomelingen van Noach: de tak van Jafeth (10:1-5)
+- De tak van Cham, inclusief Nimrod en het ontstaan van zijn koninkrijk (10:6-20)
+- De tak van Sem en de verdere verspreiding van de volken over de aarde (10:21-32)
+
+---
+
+## IV. Toren van Babel (11:1-26)
+
+### A. Toren van Babel (11:1-9)
+
+- Iedereen spreekt dezelfde taal; de bouw van de toren van Babel (11:1-4)
+- God verwart hun taal en verspreidt de mensen over de aarde (11:5-9)
+
+### B. Nageslacht Sem (11:10-26)
+
+- De stamboom van Sem tot aan Terach (11:10-26)
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 ## De rest van de Bijbel over Genesis 1 - 11
 
 - Jezus over Genesis 1 - 11 ➔ zie creation.com
