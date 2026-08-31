@@ -149,12 +149,13 @@ IV. Toren van Babel: 11:1-26
 ➔ zie: [John MacArthur Bible Introductions - Genesis | Blue Letter Bible](https://www.blueletterbible.org/Comm/macarthur_john/bible-introductions/genesis-intro.cfm?a=1001)
 
 ---
-## [[#I. Schepping (1:1 - 2:25)]]
+
+## I. Schepping (1:1 - 2:25)
 
 [[#A. Schepping hemel en aarde (1:1 - 2:3)]]
 [[#B. Schepping mens (2:4-25)]]
 
-## [[#II. Zondeval (3:1 - 5:32)]]
+[[#II. Zondeval (3:1 - 5:32)]]
 
 [[#A. Ongehoorzaamheid aan God (3:1-24)]]
 [[#B. De eerste moord (4:1-16)]]
@@ -162,7 +163,7 @@ IV. Toren van Babel: 11:1-26
 [[#D. Nageslacht Seth (4:25-26)]]
 [[#E. Geslachtsregister Adam tot Noach (5:1-32)]]
 
-## [[#III. Zondvloed (6:1 - 10:32)]]
+[[#III. Zondvloed (6:1 - 10:32)]]
 
 [[#A. Voorzegging zondvloed (6:1-8)]]
 [[#B. Opdracht tot bouw van ark (6:9-22)]]
@@ -173,10 +174,39 @@ IV. Toren van Babel: 11:1-26
 [[#G. Zonen van Noach (9:18-29)]]
 [[#H. Nakomelingen Noachs zonen (10:1-32)]]
 
-## [[#IV. Toren van Babel (11:1-26)]]
+[[#IV. Toren van Babel (11:1-26)]]
 
 [[#A. Toren van Babel (11:1-9)]]
 [[#B. Nageslacht Sem (11:10-26)]]
+
+
+---
+
+## Inhoudsopgave
+
+- [[#I. Schepping (1:1 - 2:25)]]
+	- [[#A. Schepping hemel en aarde (1:1 - 2:3)]]
+	- [[#B. Schepping mens (2:4-25)]]
+- [[#II. Zondeval (3:1 - 5:32)]]
+	- [[#A. Ongehoorzaamheid aan God (3:1-24)]]
+	- [[#B. De eerste moord (4:1-16)]]
+	- [[#C. Nageslacht Kaïn (4:17-24)]]
+	- [[#D. Nageslacht Seth (4:25-26)]]
+	- [[#E. Geslachtsregister Adam tot Noach (5:1-32)]]
+- [[#III. Zondvloed (6:1 - 10:32)]]
+	- [[#A. Voorzegging zondvloed (6:1-8)]]
+	- [[#B. Opdracht tot bouw van ark (6:9-22)]]
+	- [[#C. Zondvloed (7:1-24)]]
+	- [[#D. Einde zondvloed (8:1-19)]]
+	- [[#E. Offer Noach (8:20-22)]]
+	- [[#F. Gods verbond met Noach (9:1-17)]]
+	- [[#G. Zonen van Noach (9:18-29)]]
+	- [[#H. Nakomelingen Noachs zonen (10:1-32)]]
+- [[#IV. Toren van Babel (11:1-26)]]
+	- [[#A. Toren van Babel (11:1-9)]]
+	- [[#B. Nageslacht Sem (11:10-26)]]
+
+---
 
 ---
 ## I. Schepping (1:1 - 2:25)
@@ -285,7 +315,7 @@ Toen God op de zevende dag Zijn werk, dat Hij gemaakt had, voltooid had, rustte 
 En God zegende de zevende dag en heiligde die, want daarop rustte Hij van al Zijn werk, dat God schiep door het te maken.
 ~ Genesis 2:3
 
-### B. Schepping mens: 2:4-25
+### B. Schepping mens (2:4-25)
 
 Dit is wat uit de hemel en de aarde voortkwam, toen zij geschapen werden. Op de dag dat de HEERE God aarde en hemel maakte —
 ~ Genesis 2:4
@@ -361,7 +391,7 @@ En zij waren beiden naakt, Adam en zijn vrouw, maar zij schaamden zich niet.
 
 ## II. Zondeval (3:1 - 5:32)
 
-### A. Ongehoorzaamheid aan God: 3:1-24
+### A. Ongehoorzaamheid aan God (3:1-24)
 
 De slang nu was de listigste onder alle dieren van het veld, die de HEERE God gemaakt had; en hij zei tegen de vrouw: Is het echt zo dat God gezegd heeft: U mag niet eten van alle bomen in de hof?
 ~ Genesis 3:1
@@ -452,7 +482,7 @@ Daarom zond de HEERE God hem weg uit de hof van Eden, om de aardbodem te bewerke
 Hij verdreef de mens, en plaatste ten oosten van de hof van Eden de cherubs met een vlammend zwaard, dat heen en weer bewoog, om de weg naar de boom des levens te bewaken.
 ~ Genesis 3:24
 
-### B. De eerste moord: 4:1-16
+### B. De eerste moord (4:1-16)
 
 En Adam had gemeenschap met Eva, zijn vrouw, en zij werd zwanger en baarde Kaïn, en zei: Ik heb een man van de HEERE gekregen!
 ~ Genesis 4:1
@@ -503,7 +533,7 @@ Maar de HEERE zei tegen hem: Daarom zal al wie Kaïn doodt zevenvoudig gewroken 
 Toen ging Kaïn weg van het aangezicht van de HEERE; en hij woonde in het land Nod, ten oosten van Eden.
 ~ Genesis 4:16
 
-### C. Nageslacht Kaïn: 4:17-24
+### C. Nageslacht Kaïn (4:17-24)
 
 En Kaïn had gemeenschap met zijn vrouw, en zij werd zwanger en baarde Henoch. *Kaïn* was een stad aan het bouwen, en hij noemde de naam van die stad naar de naam van zijn zoon, Henoch.
 ~ Genesis 4:17
@@ -534,7 +564,7 @@ Want Kaïn wordt zevenvoudig gewroken,
 maar Lamech zeventig maal zevenmaal.
 ~ Genesis 4:24
 
-### D. Nageslacht Seth: 4:25-26
+### D. Nageslacht Seth (4:25-26)
 
 En Adam had opnieuw gemeenschap met zijn vrouw en zij baarde een zoon, en zij gaf hem de naam Seth. Want, *zei ze*, God heeft mij ander nageslacht gegeven in de plaats van Abel; Kaïn heeft hem immers gedood.
 ~ Genesis 4:25
@@ -542,7 +572,7 @@ En Adam had opnieuw gemeenschap met zijn vrouw en zij baarde een zoon, en zij ga
 En ook bij Seth werd een zoon geboren, en hij gaf hem de naam Enos. Toen begon men de Naam van de HEERE aan te roepen.
 ~ Genesis 4:26
 
-### E. Geslachtsregister Adam tot Noach: 5:1-32
+### E. Geslachtsregister Adam tot Noach (5:1-32)
 
 Dit is het boek van de afstammelingen van Adam. Op de dag dat God Adam schiep, maakte Hij hem naar de gelijkenis van God.
 ~ Genesis 5:1
@@ -642,7 +672,7 @@ Toen Noach vijfhonderd jaar oud was, verwekte Noach Sem, Cham en Jafeth.
 
 ## III. Zondvloed (6:1 - 10:32)
 
-### A. Voorzegging zondvloed: 6:1-8
+### A. Voorzegging zondvloed (6:1-8)
 
 En het gebeurde, toen de mensen zich op de aardbodem begonnen te vermenigvuldigen en er dochters bij hen geboren werden,
 ~ Genesis 6:1
@@ -668,7 +698,7 @@ En de HEERE zei: Ik zal de mens, die Ik geschapen heb, van de aardbodem verdelge
 Maar Noach vond genade in de ogen van de HEERE.
 ~ Genesis 6:8
 
-### B. Opdracht tot bouw van ark: 6:9-22
+### B. Opdracht tot bouw van ark (6:9-22)
 
 Dit zijn de afstammelingen van Noach. Noach was een rechtvaardig, oprecht man onder zijn tijdgenoten. Noach wandelde met God.
 ~ Genesis 6:9
@@ -712,7 +742,7 @@ En u, neem voor uzelf van al het voedsel dat gegeten wordt, en verzamel dat bij 
 En Noach deed het; overeenkomstig alles wat God hem geboden had, zo deed hij.
 ~ Genesis 6:22
 
-### C. Zondvloed: 7:1-24
+### C. Zondvloed (7:1-24)
 
 Daarna zei de HEERE tegen Noach: Ga in de ark, u en heel uw gezin, want Ik heb gezien dat u te midden van uw tijdgenoten voor Mijn aangezicht rechtvaardig bent.
 ~ Genesis 7:1
@@ -786,7 +816,7 @@ Zo verdelgde Hij alles wat bestond, wat op de aardbodem was, van mens tot dier, 
 En het water had honderdvijftig dagen *lang* de overhand op de aarde.
 ~ Genesis 7:24
 
-### D. Einde zondvloed: 8:1-19
+### D. Einde zondvloed (8:1-19)
 
 En God dacht aan Noach en aan al de *wilde* dieren en al het vee dat bij hem in de ark was; en God liet wind over de aarde gaan, zodat het water bedaarde.
 ~ Genesis 8:1
@@ -845,7 +875,7 @@ Toen ging Noach naar buiten, en zijn zonen, zijn vrouw en de vrouwen van zijn zo
 Alle dieren, alle kruipende dieren en alle vogels, alles wat zich op de aarde beweegt, overeenkomstig hun soorten, gingen de ark uit.
 ~ Genesis 8:19
 
-### E. Offer Noach: 8:20-22
+### E. Offer Noach (8:20-22)
 
 En Noach bouwde een altaar voor de HEERE; en hij nam van al het reine vee en van alle reine vogels, en bracht brandoffers op dat altaar.
 ~ Genesis 8:20
@@ -858,7 +888,7 @@ zullen zaaitijd en oogsttijd, koude en hitte,
 zomer en winter, dag en nacht niet ophouden.
 ~ Genesis 8:22
 
-### F. Gods verbond met Noach: 9:1-17
+### F. Gods verbond met Noach (9:1-17)
 
 Toen zegende God Noach en zijn zonen en Hij zei tegen hen: Wees vruchtbaar, word talrijk en vervul de aarde!
 ~ Genesis 9:1
@@ -915,7 +945,7 @@ Als deze boog in de wolken is, zal Ik hem zien, en denken aan het eeuwig verbond
 God zei dus tegen Noach: Dit is het teken van het verbond dat Ik gemaakt heb tussen Mij en alle vlees dat op de aarde is.
 ~ Genesis 9:17
 
-### G. Zonen van Noach: 9:18-29
+### G. Zonen van Noach (9:18-29)
 
 En de zonen van Noach, die uit de ark gingen, waren Sem, Cham en Jafeth; Cham is de vader van Kanaän.
 ~ Genesis 9:18
@@ -958,7 +988,7 @@ En Noach leefde na de vloed driehonderdvijftig jaar.
 Zo waren al de dagen van Noach negenhonderdvijftig jaar; en hij stierf.
 ~ Genesis 9:29
 
-### H. Nakomelingen Noachs zonen: 10:1-32
+### H. Nakomelingen Noachs zonen (10:1-32)
 
 Dit zijn de afstammelingen van de zonen van Noach, Sem, Cham en Jafeth. Bij hen werden na de vloed zonen geboren.
 ~ Genesis 10:1
@@ -1058,7 +1088,7 @@ Dit waren de geslachten van de zonen van Noach, *ingedeeld* naar hun afstamming,
 
 ## IV. Toren van Babel (11:1-26) 
 
-### A. Toren van Babel: 11:1-9
+### A. Toren van Babel (11:1-9)
 
 Heel de aarde had één taal en eendere woorden.
 ~ Genesis 11:1
@@ -1087,7 +1117,7 @@ Zo verspreidde de HEERE hen vandaar over heel de aarde, en zij hielden op met he
 Daarom gaf men haar de naam Babel; want daar verwarde de HEERE de taal van heel de aarde, en vandaar verspreidde de HEERE hen over heel de aarde.
 ~ Genesis 11:9
 
-### B. Nageslacht Sem: 11:10-26
+### B. Nageslacht Sem (11:10-26)
 
 Dit zijn de afstammelingen van Sem: Sem was honderd jaar oud, toen hij Arfachsad verwekte, twee jaar na de vloed.
 ~ Genesis 11:10
