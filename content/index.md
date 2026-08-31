@@ -141,5 +141,24 @@ Eigen getuigenis: waarom ben ik christen?
 
 ---
 
+Zonde: jak. 4:17
+
+---
+
+oorzaak ➔ gevolg
+? als dit ➔ dan dat
+logica?
+
+---
+## Dood
+
+memento mori (preek Spurgeon hierover)
+vanity art ➔ plaatjes
+puritans grave symbols
+
+---
+
+Openb. 22:12 ➔ terugkosmt Jezus
+
 %%
 

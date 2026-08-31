@@ -129,6 +129,15 @@ Joh. 15:8 vruchtdragen
 Psalm 1
 
 ---
+## Indeling Genesis ➔ toledot?
+
+I. Schepping: Gen. 1:1 - 2:3
+II. Afstammelingen van de hemel en de aarde: Gen. 2:4 - 4:26
+III. Afstammelingen van Adam: e
+
+
+
+---
 
 In het begin schiep God de hemel en de aarde.
 ~ Genesis 1:1

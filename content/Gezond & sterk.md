@@ -24,7 +24,8 @@
 
 - Wat eten? Wat niet?
 - Hoeveel eten?
-- Wanneer eten? En wanneer niet?
+- Wanneer eten? En wanneer niet? 
+	- 's Avonds niet meer eten
 
 ---
 # Beweging
