@@ -174,7 +174,7 @@ B. Schepping mens (2:4-25)
 2. De tuin van Eden en haar rivier (2:8-14)
 3. Taak in de tuin; verbod op de boom van kennis (2:15-17)
 4. De mens noemt de dieren (2:18-20)
-5. Schepping vrouw; ontstaan huwelijk (2:21-25)
+5. Schepping vrouw; instelling huwelijk (2:21-25)
 
 ### II. Zondeval (3:1 - 5:32)
 
