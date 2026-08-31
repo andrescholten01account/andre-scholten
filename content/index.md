@@ -168,7 +168,12 @@ Openb. 22:12 ➔ terugkosmt Jezus
 ➔ eeuwig oordeel ➔ God weet alles, ook het diepste in ons hart
 ➔ God ➔ alwetend ➔ God weet alles, ook het diepste in ons hart
 
-1 Kon. 8
+1 Kon. 8:46 ➔ alle mensen zondigen 
+
+---
+
+Gods Woord is zuiver 
+Ps. 119:140
 
 %%
 

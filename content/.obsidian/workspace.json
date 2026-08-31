@@ -85,7 +85,8 @@
               "title": "De Oude Wereld"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -119,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "begrijpt",
+                "query": "monergism",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -277,16 +278,18 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "647dd6bd11be4d6e",
+  "active": "90d96b330b371284",
   "lastOpenFiles": [
+    "Basis christelijk geloof.md",
+    "Boeken man.md",
     "De Oude Wereld.md",
+    "index.md",
     "Logica.md",
     "Logisch denken voor christen.md",
     "Geschiedenis.md",
     "Het eeuwige oordeel.md",
     "Standvastig.md",
     "Gezond & sterk.md",
-    "index.md",
     "Man.md",
     "Vrucht van de Geest.md",
     "Werk.md",
@@ -300,12 +303,10 @@
     "Apologetiek.md",
     "Ik heb te weinig geloof om atheïst te zijn.md",
     "Berekening datum schepping.md",
-    "Basis christelijk geloof.md",
     "Documentatie.md",
     "atheist.doc",
     "God.md",
     "Iedereen weet dat God bestaat.md",
-    "9 regels van gevolgtrekking.md",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",
     "Pasted image 20260821214432.png",
