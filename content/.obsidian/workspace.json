@@ -71,7 +71,8 @@
               "title": "Vader"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -263,8 +264,9 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "647dd6bd11be4d6e",
+  "active": "c2e0407ce786e980",
   "lastOpenFiles": [
+    "index.md",
     "Vader.md",
     "Logisch denken voor christen.md",
     "Logica.md",
@@ -272,7 +274,6 @@
     "De Oude Wereld.md",
     "Noach en de dieren gaan de ark in.md",
     "De zondvloed breekt uit.md",
-    "index.md",
     "Waarom is Genesis 1 - 11 belangrijk.md",
     "Geschiedenis.md",
     "Vaderlandse geschiedenis.md",
