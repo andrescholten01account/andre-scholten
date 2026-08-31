@@ -131,7 +131,7 @@ B. Nageslacht Sem (11:10-26)
 
 ## Meer
 
-- Waarom is Genesis 1 - 11 belangrijk?
+- [[Waarom is Genesis 1 - 11 belangrijk]]?
 
 ## Onderwerpen Genesis 1 - 11
 
