@@ -118,26 +118,6 @@ Joh. 15:8 vruchtdragen
 Psalm 1
 
 ---
-## Indeling Genesis 1 - 11 ➔ toledot?
-
-I. Schepping: Gen. 1:1 - 2:3
-II. Afstammelingen van de hemel en de aarde: Gen. 2:4 - 4:26
-III. Afstammelingen van Adam: Gen. 5:1 - 6:8
-IV. Afstammelingen Noach: Gen. 6:9 - 9:29
-V. Afstammelingen zonen van Noach: Gen. 10:1 - 11:9
-VI. Afstammelingen Sem: Gen. 11:10-26
-
----
-## Indeling Genesis 1 - 11
-
-I. Schepping: 1:1 - 2:25
-II. Zondeval: 3:1 - 5:32
-III. Zondvloed: 6:1 - 10:32
-IV. Toren van Babel: 11:1-26 
-
-➔ zie: [John MacArthur Bible Introductions - Genesis | Blue Letter Bible](https://www.blueletterbible.org/Comm/macarthur_john/bible-introductions/genesis-intro.cfm?a=1001)
-
----
 ## Inhoudsopgave
 
 [[#I. Schepping (1:1 - 2:25)]]
@@ -170,123 +150,124 @@ IV. Toren van Babel: 11:1-26
 - [[#B. Nageslacht Sem (11:10-26)]]
 
 ---
+## Inhoudsopgave
 
-I. Schepping (1:1 - 2:25)
+### I. Schepping (1:1 - 2:25)
 
 A. Schepping hemel en aarde (1:1 - 2:3)
 
-- Schepping hemel en aarde (1:1-2)
-- Schepping van het licht (1:3-5)
-- Schepping van het hemelgewelf (1:6-8)
-- Droog land en eerste planten (1:9-13)
-- Schepping zon, maan en sterren (1:14-19)
-- Schepping zeedieren en vogels (1:20-23)
-- Schepping landdieren en vee (1:24-25)
-- Schepping mens naar Gods beeld; zegen (1:26-28)
-- Voedsel voor mens en dier (1:29-30)
-- Alles is goed (1:31)
-- De eerste rustdag (2:1-3)
+1. Schepping hemel en aarde (1:1-2)
+2. Schepping van het licht (1:3-5)
+3. Schepping van het hemelgewelf (1:6-8)
+4. Droog land en eerste planten (1:9-13)
+5. Schepping zon, maan en sterren (1:14-19)
+6. Schepping zeedieren en vogels (1:20-23)
+7. Schepping landdieren en vee (1:24-25)
+8. Schepping mens naar Gods beeld; zegen (1:26-28)
+9. Voedsel voor mens en dier (1:29-30)
+10. Alles is goed (1:31)
+11. De eerste rustdag (2:1-3)
 
 B. Schepping mens (2:4-25)
 
-- Hoe de mens werd gemaakt (2:4-7)
-- De tuin van Eden en haar rivier (2:8-14)
-- Taak in de tuin; verbod op de boom van kennis (2:15-17)
-- De mens noemt de dieren (2:18-20)
-- Schepping vrouw; ontstaan huwelijk (2:21-25)
+1. Hoe de mens werd gemaakt (2:4-7)
+2. De tuin van Eden en haar rivier (2:8-14)
+3. Taak in de tuin; verbod op de boom van kennis (2:15-17)
+4. De mens noemt de dieren (2:18-20)
+5. Schepping vrouw; ontstaan huwelijk (2:21-25)
 
-II. Zondeval (3:1 - 5:32)
+### II. Zondeval (3:1 - 5:32)
 
 A. Ongehoorzaamheid aan God (3:1-24)
 
-- De slang misleidt Eva (3:1-5)
-- De mens valt in zonde (3:6-8)
-- God roept de mens ter verantwoording (3:9-13)
-- Vloek over de slang; belofte van een Redder (3:14-15)
-- Gevolgen van de zondeval (3:16-19)
-- Eerste kleding, van dierenvellen (3:20-21)
-- Verdrijving uit het paradijs (3:22-24)
+1. De slang misleidt Eva (3:1-5)
+2. De mens valt in zonde (3:6-8)
+3. God roept de mens ter verantwoording (3:9-13)
+4. Vloek over de slang; belofte van een Redder (3:14-15)
+5. Gevolgen van de zondeval (3:16-19)
+6. Eerste kleding, van dierenvellen (3:20-21)
+7. Verdrijving uit het paradijs (3:22-24)
 
 B. De eerste moord (4:1-16)
 
-- Geboorte, werk en offer van Kaïn en Abel (4:1-2)
-- Gods offer aanvaard van Abel, afgewezen van Kaïn (4:3-7)
-- Kaïn vermoordt Abel en wordt vervloekt (4:8-15)
-- Kaïn vestigt zich in het land Nod (4:16)
+1. Geboorte, werk en offer van Kaïn en Abel (4:1-2)
+2. Gods offer aanvaard van Abel, afgewezen van Kaïn (4:3-7)
+3. Kaïn vermoordt Abel en wordt vervloekt (4:8-15)
+4. Kaïn vestigt zich in het land Nod (4:16)
 
 C. Nageslacht Kaïn (4:17-24)
 
-- Nakomelingen van Kaïn; Lamech en zijn twee vrouwen (4:17-24)
+1. Nakomelingen van Kaïn; Lamech en zijn twee vrouwen (4:17-24)
 
 D. Nageslacht Seth (4:25-26)
 
-- Geboorte Seth en Enos; hernieuwde aanbidding (4:25-26)
+1. Geboorte Seth en Enos; hernieuwde aanbidding (4:25-26)
 
 E. Geslachtsregister Adam tot Noach (5:1-32)
 
-- Stamboom van Adam tot Noach (5:1-20)
-- Henochs geloof en opname bij God (5:21-24)
-- Geboorte Noach en zijn zonen (5:25-32)
+1. Stamboom van Adam tot Noach (5:1-20)
+2. Henochs geloof en opname bij God (5:21-24)
+3. Geboorte Noach en zijn zonen (5:25-32)
 
-III. Zondvloed (6:1 - 10:32)
+### III. Zondvloed (6:1 - 10:32)
 
 A. Voorzegging zondvloed (6:1-8)
 
-- Toenemende slechtheid wekt Gods oordeel (6:1-4)
-- God besluit het leven te vernietigen (6:5-7)
-- Noach vindt genade bij God (6:8)
+1. Toenemende slechtheid wekt Gods oordeel (6:1-4)
+2. God besluit het leven te vernietigen (6:5-7)
+3. Noach vindt genade bij God (6:8)
 
 B. Opdracht tot bouw van ark (6:9-22)
 
-- Opdracht tot bouw van de ark (6:9-13)
-- Afmetingen en bouw van de ark (6:14-22)
+1. Opdracht tot bouw van de ark (6:9-13)
+2. Afmetingen en bouw van de ark (6:14-22)
 
 C. Zondvloed (7:1-24)
 
-- Noach en de dieren gaan de ark in (7:1-12)
-- De zondvloed breekt uit (7:13-16)
-- Al het leven op het land komt om (7:17-24)
+1. Noach en de dieren gaan de ark in (7:1-12)
+2. De zondvloed breekt uit (7:13-16)
+3. Al het leven op het land komt om (7:17-24)
 
 D. Einde zondvloed (8:1-19)
 
-- Het water zakt (8:1-3)
-- De ark strandt op het Araratgebergte (8:4-5)
-- Raaf en duif worden losgelaten (8:6-14)
-- Noach verlaat de ark (8:15-19)
+1. Het water zakt (8:1-3)
+2. De ark strandt op het Araratgebergte (8:4-5)
+3. Raaf en duif worden losgelaten (8:6-14)
+4. Noach verlaat de ark (8:15-19)
 
 E. Offer Noach (8:20-22)
 
-- Noachs offer; Gods belofte (8:20-22)
+1. Noachs offer; Gods belofte (8:20-22)
 
 F. Gods verbond met Noach (9:1-17)
 
-- Zegen over Noach en zijn zonen (9:1-3)
-- Verbod op bloed en moord (9:4-7)
-- Verbond met de aarde; de regenboog (9:8-17)
+1. Zegen over Noach en zijn zonen (9:1-3)
+2. Verbod op bloed en moord (9:4-7)
+3. Verbond met de aarde; de regenboog (9:8-17)
 
 G. Zonen van Noach (9:18-29)
 
-- De aarde opnieuw bevolkt (9:18-19)
-- Noachs dronkenschap en Chams spot (9:20-23)
-- Vloek over Kanaän; zegen over Sem en Jafeth (9:24-27)
-- Leeftijd en dood van Noach (9:28-29)
+1. De aarde opnieuw bevolkt (9:18-19)
+2. Noachs dronkenschap en Chams spot (9:20-23)
+3. Vloek over Kanaän; zegen over Sem en Jafeth (9:24-27)
+4. Leeftijd en dood van Noach (9:28-29)
 
 H. Nakomelingen Noachs zonen (10:1-32)
 
-- Nakomelingen van Jafeth (10:1-5)
-- Nakomelingen van Cham; Nimrod (10:6-20)
-- Nakomelingen van Sem (10:21-32)
+1. Nakomelingen van Jafeth (10:1-5)
+2. Nakomelingen van Cham; Nimrod (10:6-20)
+3. Nakomelingen van Sem (10:21-32)
 
-IV. Toren van Babel (11:1-26)
+### IV. Toren van Babel (11:1-26)
 
 A. Toren van Babel (11:1-9)
 
-- Eén taal; bouw van de toren van Babel (11:1-4)
-- Spraakverwarring en verspreiding (11:5-9)
+1. Eén taal; bouw van de toren van Babel (11:1-4)
+2. Spraakverwarring en verspreiding (11:5-9)
 
 B. Nageslacht Sem (11:10-26)
 
-- Stamboom van Sem tot Terach (11:10-26)
+1. Stamboom van Sem tot Terach (11:10-26)
 
 ---
 ## De rest van de Bijbel over Genesis 1 - 11
