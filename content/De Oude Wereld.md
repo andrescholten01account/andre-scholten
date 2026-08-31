@@ -129,13 +129,22 @@ Joh. 15:8 vruchtdragen
 Psalm 1
 
 ---
-## Indeling Genesis ➔ toledot?
+## Indeling Genesis 1 - 11 ➔ toledot?
 
 I. Schepping: Gen. 1:1 - 2:3
 II. Afstammelingen van de hemel en de aarde: Gen. 2:4 - 4:26
-III. Afstammelingen van Adam: e
+III. Afstammelingen van Adam: Gen. 5:1 - 6:8
+IV. Afstammelingen Noach: Gen. 6:9 - 9:29
+V. Afstammelingen zonen van Noach: Gen. 10:1 - 11:9
+VI. Afstammelingen Sem: Gen. 11:10-26
 
+---
+## Indelingen Genesis 1 - 11
 
+I. Schepping: Gen. 1:1 - 2:25
+II. Zondeval: Gen. 3:1 - 5:32
+III. Zondvloed: Gen. 6:1 - 9:29
+IV. Toren van Babel: Gen. 10:1 - 1126
 
 ---
 
