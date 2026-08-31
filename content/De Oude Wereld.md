@@ -149,12 +149,12 @@ IV. Toren van Babel: 11:1-26
 ➔ zie: [John MacArthur Bible Introductions - Genesis | Blue Letter Bible](https://www.blueletterbible.org/Comm/macarthur_john/bible-introductions/genesis-intro.cfm?a=1001)
 
 ---
-## I. Schepping: 1:1 - 2:25
+## I. Schepping (1:1 - 2:25)
 
 A. Schepping hemel en aarde: 1:1 - 2:3
 B. Schepping mens: 2:4-25
 
-## II. Zondeval: 3:1 - 5:32
+## II. Zondeval (3:1 - 5:32)
 
 A. Ongehoorzaamheid aan God: 3:1-24
 B. De eerste moord: 4:1-16
@@ -162,7 +162,7 @@ C. Nageslacht Kaïn: 4:17-24
 D. Nageslacht Seth: 4:25-26
 E. Geslachtsregister Adam tot Noach: 5:1-32
 
-## III. Zondvloed: 6:1 - 10:32
+## III. Zondvloed (6:1 - 10:32)
 
 A. Voorzegging zondvloed: 6:1-8
 B. Opdracht tot bouw van ark: 6:9-22
@@ -173,12 +173,13 @@ F. Gods verbond met Noach: 9:1-17
 G. Zonen van Noach: 9:18-29
 H. Nakomelingen Noachs zonen: 10:1-32
 
-## IV. Toren van Babel: 11:1-26 
+## IV. Toren van Babel (11:1-26) 
 
 A. Toren van Babel: 11:1-9
 B. Nageslacht Sem: 11:10-26
 
 ---
+## I. Schepping (1:1 - 2:25)
 
 In het begin schiep God de hemel en de aarde.
 ~ Genesis 1:1
@@ -354,7 +355,7 @@ Daarom zal een man zijn vader en zijn moeder verlaten en zich aan zijn vrouw hec
 En zij waren beiden naakt, Adam en zijn vrouw, maar zij schaamden zich niet.
 ~ Genesis 2:25
 
----
+## II. Zondeval (3:1 - 5:32)
 
 De slang nu was de listigste onder alle dieren van het veld, die de HEERE God gemaakt had; en hij zei tegen de vrouw: Is het echt zo dat God gezegd heeft: U mag niet eten van alle bomen in de hof?
 ~ Genesis 3:1
@@ -629,7 +630,7 @@ Al de dagen van Lamech waren zevenhonderdzevenenzeventig jaar; en hij stierf.
 Toen Noach vijfhonderd jaar oud was, verwekte Noach Sem, Cham en Jafeth.
 ~ Genesis 5:32
 
----
+## III. Zondvloed (6:1 - 10:32)
 
 En het gebeurde, toen de mensen zich op de aardbodem begonnen te vermenigvuldigen en er dochters bij hen geboren werden,
 ~ Genesis 6:1
@@ -654,8 +655,6 @@ En de HEERE zei: Ik zal de mens, die Ik geschapen heb, van de aardbodem verdelge
 
 Maar Noach vond genade in de ogen van de HEERE.
 ~ Genesis 6:8
-
----
 
 Dit zijn de afstammelingen van Noach. Noach was een rechtvaardig, oprecht man onder zijn tijdgenoten. Noach wandelde met God.
 ~ Genesis 6:9
@@ -1033,7 +1032,7 @@ Dit waren de zonen van Sem, *ingedeeld* naar hun geslachten *en* naar hun talen,
 Dit waren de geslachten van de zonen van Noach, *ingedeeld* naar hun afstamming, met hun volken; van hen *stammen* de volken *af die* zich na de vloed over de aarde hebben verspreid.
 ~ Genesis 10:32
 
----
+## IV. Toren van Babel (11:1-26) 
 
 Heel de aarde had één taal en eendere woorden.
 ~ Genesis 11:1
