@@ -120,154 +120,122 @@ Psalm 1
 ---
 ## Inhoudsopgave
 
-[[#I. Schepping (1:1 - 2:25)]]
-
-- [[#A. Schepping hemel en aarde (1:1 - 2:3)]]
-- [[#B. Schepping mens (2:4-25)]]
-
-[[#II. Zondeval (3:1 - 5:32)]]
-
-- [[#A. Ongehoorzaamheid aan God (3:1-24)]]
-- [[#B. De eerste moord (4:1-16)]]
-- [[#C. Nageslacht Kaïn (4:17-24)]]
-- [[#D. Nageslacht Seth (4:25-26)]]
-- [[#E. Geslachtsregister Adam tot Noach (5:1-32)]]
-
-[[#III. Zondvloed (6:1 - 10:32)]]
-
-- [[#A. Voorzegging zondvloed (6:1-8)]]
-- [[#B. Opdracht tot bouw van ark (6:9-22)]]
-- [[#C. Zondvloed (7:1-24)]]
-- [[#D. Einde zondvloed (8:1-19)]]
-- [[#E. Offer Noach (8:20-22)]]
-- [[#F. Gods verbond met Noach (9:1-17)]]
-- [[#G. Zonen van Noach (9:18-29)]]
-- [[#H. Nakomelingen Noachs zonen (10:1-32)]]
- 
-[[#IV. Toren van Babel (11:1-26)]]
-
-- [[#A. Toren van Babel (11:1-9)]]
-- [[#B. Nageslacht Sem (11:10-26)]]
-
----
-## Inhoudsopgave
-
 ### I. Schepping (1:1 - 2:25)
 
 A. Schepping hemel en aarde (1:1 - 2:3)
 
-1. Schepping hemel en aarde (1:1-2)
-2. Schepping van het licht (1:3-5)
-3. Schepping van het hemelgewelf (1:6-8)
-4. Droog land en eerste planten (1:9-13)
-5. Schepping zon, maan en sterren (1:14-19)
-6. Schepping zeedieren en vogels (1:20-23)
-7. Schepping landdieren en vee (1:24-25)
-8. Schepping mens naar Gods beeld; zegen (1:26-28)
-9. Voedsel voor mens en dier (1:29-30)
-10. Alles is goed (1:31)
-11. De eerste rustdag (2:1-3)
+1. [[Schepping hemel en aarde]] (1:1-2)
+2. [[Schepping van het licht]] (1:3-5)
+3. [[Schepping van het hemelgewelf]] (1:6-8)
+4. [[Droog land en eerste planten]] (1:9-13)
+5. [[Schepping zon, maan en sterren]] (1:14-19)
+6. [[Schepping zeedieren en vogels]] (1:20-23)
+7. [[Schepping landdieren en vee]] (1:24-25)
+8. [[Schepping mens naar Gods beeld; zegen]] (1:26-28)
+9. [[Voedsel voor mens en dier]] (1:29-30)
+10. [[Alles is goed]] (1:31)
+11. [[De eerste rustdag]] (2:1-3)
 
 B. Schepping mens (2:4-25)
 
-1. Hoe de mens werd gemaakt (2:4-7)
-2. De tuin van Eden en haar rivier (2:8-14)
-3. Taak in de tuin; verbod op de boom van kennis (2:15-17)
-4. De mens noemt de dieren (2:18-20)
-5. Schepping vrouw; instelling huwelijk (2:21-25)
+1. [[Hoe de mens werd gemaakt]] (2:4-7)
+2. [[De tuin van Eden en haar rivier]] (2:8-14)
+3. [[Taak in de tuin; verbod op de boom van kennis]] (2:15-17)
+4. [[De mens noemt de dieren]] (2:18-20)
+5. [[Schepping vrouw; instelling huwelijk]] (2:21-25)
 
 ### II. Zondeval (3:1 - 5:32)
 
 A. Ongehoorzaamheid aan God (3:1-24)
 
-1. De slang misleidt Eva (3:1-5)
-2. De mens valt in zonde (3:6-8)
-3. God roept de mens ter verantwoording (3:9-13)
-4. Vloek over de slang; belofte van een Redder (3:14-15)
-5. Gevolgen van de zondeval (3:16-19)
-6. Eerste kleding, van dierenvellen (3:20-21)
-7. Verdrijving uit het paradijs (3:22-24)
+1. [[De slang misleidt Eva]] (3:1-5)
+2. [[De mens valt in zonde]] (3:6-8)
+3. [[God roept de mens ter verantwoording]] (3:9-13)
+4. [[Vloek over de slang; belofte van een Redder]] (3:14-15)
+5. [[Gevolgen van de zondeval]] (3:16-19)
+6. [[Eerste kleding, van dierenvellen]] (3:20-21)
+7. [[Verdrijving uit het paradijs]] (3:22-24)
 
 B. De eerste moord (4:1-16)
 
-1. Geboorte, werk en offer van Kaïn en Abel (4:1-2)
-2. Gods offer aanvaard van Abel, afgewezen van Kaïn (4:3-7)
-3. Kaïn vermoordt Abel en wordt vervloekt (4:8-15)
-4. Kaïn vestigt zich in het land Nod (4:16)
+1. [[Geboorte, werk en offer van Kaïn en Abel]] (4:1-2)
+2. [[Gods offer aanvaard van Abel, afgewezen van Kaïn]] (4:3-7)
+3. [[Kaïn vermoordt Abel en wordt vervloekt]] (4:8-15)
+4. [[Kaïn vestigt zich in het land Nod]] (4:16)
 
 C. Nageslacht Kaïn (4:17-24)
 
-1. Nakomelingen van Kaïn; Lamech en zijn twee vrouwen (4:17-24)
+1. [[Nakomelingen van Kaïn; Lamech en zijn twee vrouwen]] (4:17-24)
 
 D. Nageslacht Seth (4:25-26)
 
-1. Geboorte Seth en Enos; hernieuwde aanbidding (4:25-26)
+1. [[Geboorte Seth en Enos; hernieuwde aanbidding]] (4:25-26)
 
 E. Geslachtsregister Adam tot Noach (5:1-32)
 
-1. Stamboom van Adam tot Noach (5:1-20)
-2. Henochs geloof en opname bij God (5:21-24)
-3. Geboorte Noach en zijn zonen (5:25-32)
+1. [[Stamboom van Adam tot Noach]] (5:1-20)
+2. [[Henochs geloof en opname bij God]] (5:21-24)
+3. [[Geboorte Noach en zijn zonen]] (5:25-32)
 
 ### III. Zondvloed (6:1 - 10:32)
 
 A. Voorzegging zondvloed (6:1-8)
 
-1. Toenemende slechtheid wekt Gods oordeel (6:1-4)
-2. God besluit het leven te vernietigen (6:5-7)
-3. Noach vindt genade bij God (6:8)
+1. [[Toenemende slechtheid wekt Gods oordeel]] (6:1-4)
+2. [[God besluit het leven te vernietigen]] (6:5-7)
+3. [[Noach vindt genade bij God]] (6:8)
 
 B. Opdracht tot bouw van ark (6:9-22)
 
-1. Opdracht tot bouw van de ark (6:9-13)
-2. Afmetingen en bouw van de ark (6:14-22)
+1. [[Opdracht tot bouw van de ark]] (6:9-13)
+2. [[Afmetingen en bouw van de ark]] (6:14-22)
 
 C. Zondvloed (7:1-24)
 
-1. Noach en de dieren gaan de ark in (7:1-12)
-2. De zondvloed breekt uit (7:13-16)
-3. Al het leven op het land komt om (7:17-24)
+1. [[Noach en de dieren gaan de ark in]] (7:1-12)
+2. [[De zondvloed breekt uit]] (7:13-16)
+3. [[Al het leven op het land komt om]] (7:17-24)
 
 D. Einde zondvloed (8:1-19)
 
-1. Het water zakt (8:1-3)
-2. De ark strandt op het Araratgebergte (8:4-5)
-3. Raaf en duif worden losgelaten (8:6-14)
-4. Noach verlaat de ark (8:15-19)
+1. [[Het water zakt]] (8:1-3)
+2. [[De ark strandt op het Araratgebergte]] (8:4-5)
+3. [[Raaf en duif worden losgelaten]] (8:6-14)
+4. [[Noach verlaat de ark]] (8:15-19)
 
 E. Offer Noach (8:20-22)
 
-1. Noachs offer; Gods belofte (8:20-22)
+1. [[Noachs offer; Gods belofte]] (8:20-22)
 
 F. Gods verbond met Noach (9:1-17)
 
-1. Zegen over Noach en zijn zonen (9:1-3)
-2. Verbod op bloed en moord (9:4-7)
-3. Verbond met de aarde; de regenboog (9:8-17)
+1. [[Zegen over Noach en zijn zonen]] (9:1-3)
+2. [[Verbod op bloed en moord]] (9:4-7)
+3. [[Verbond met de aarde; de regenboog]] (9:8-17)
 
 G. Zonen van Noach (9:18-29)
 
-1. De aarde opnieuw bevolkt (9:18-19)
-2. Noachs dronkenschap en Chams spot (9:20-23)
-3. Vloek over Kanaän; zegen over Sem en Jafeth (9:24-27)
-4. Leeftijd en dood van Noach (9:28-29)
+1. [[De aarde opnieuw bevolkt]] (9:18-19)
+2. [[Noachs dronkenschap en Chams spot]] (9:20-23)
+3. [[Vloek over Kanaän; zegen over Sem en Jafeth]] (9:24-27)
+4. [[Leeftijd en dood van Noach]] (9:28-29)
 
 H. Nakomelingen Noachs zonen (10:1-32)
 
-1. Nakomelingen van Jafeth (10:1-5)
-2. Nakomelingen van Cham; Nimrod (10:6-20)
-3. Nakomelingen van Sem (10:21-32)
+1. [[Nakomelingen van Jafeth]] (10:1-5)
+2. [[Nakomelingen van Cham; Nimrod]] (10:6-20)
+3. [[Nakomelingen van Sem]] (10:21-32)
 
 ### IV. Toren van Babel (11:1-26)
 
 A. Toren van Babel (11:1-9)
 
-1. Eén taal; bouw van de toren van Babel (11:1-4)
-2. Spraakverwarring en verspreiding (11:5-9)
+1. [[Eén taal; bouw van de toren van Babel]] (11:1-4)
+2. [[Spraakverwarring en verspreiding]] (11:5-9)
 
 B. Nageslacht Sem (11:10-26)
 
-1. Stamboom van Sem tot Terach (11:10-26)
+1. [[Stamboom van Sem tot Terach]] (11:10-26)
 
 ---
 ## De rest van de Bijbel over Genesis 1 - 11
@@ -293,107 +261,7 @@ B. Nageslacht Sem (11:10-26)
 
 ### A. Schepping hemel en aarde (1:1 - 2:3)
 
-In het begin schiep God de hemel en de aarde.
-~ Genesis 1:1
 
-De aarde nu was woest en leeg, en duisternis lag over de watervloed; en de Geest van God zweefde boven het water.
-~ Genesis 1:2
-
-En God zei: Laat er licht zijn! En er was licht.
-~ Genesis 1:3
-
-En God zag het licht dat het goed was; en God maakte scheiding tussen het licht en de duisternis.
-~ Genesis 1:4
-
-En God noemde het licht dag en de duisternis noemde Hij nacht. Toen was het avond geweest en het was morgen geweest: de eerste dag.
-~ Genesis 1:5
-
-En God zei: Laat er een gewelf zijn in het midden van het water, en laat dat scheiding maken tussen water en water!
-~ Genesis 1:6
-
-En God maakte dat gewelf en maakte scheiding tussen het water dat onder het gewelf is, en het water dat boven het gewelf is. En het was zo.
-~ Genesis 1:7
-
-En God noemde het gewelf hemel. Toen was het avond geweest en het was morgen geweest: de tweede dag.
-~ Genesis 1:8
-
-En God zei: Laat het water dat onder de hemel is, in één plaats samenvloeien en laat het droge zichtbaar worden! En het was zo.
-~ Genesis 1:9
-
-En God noemde het droge aarde en het samengevloeide water noemde Hij zeeën; en God zag dat het goed was.
-~ Genesis 1:10
-
-En God zei: Laat de aarde groen doen opkomen, zaaddragend gewas, vruchtbomen, die naar hun soort vrucht dragen, waarin hun zaad is op de aarde! En het was zo.
-~ Genesis 1:11
-
-En de aarde bracht groen voort, zaaddragend gewas naar zijn soort en bomen die vrucht dragen waarin hun zaad is, naar hun soort. En God zag dat het goed was.
-~ Genesis 1:12
-
-Toen was het avond geweest en het was morgen geweest: de derde dag.
-~ Genesis 1:13
-
-En God zei: Laten er lichten zijn aan het hemelgewelf om scheiding te maken tussen de dag en de nacht; en laten zij zijn tot tekenen, en tot *aanduiding van* vaste tijden en *van* dagen en jaren!
-~ Genesis 1:14
-
-En laten zij tot lichten zijn aan het hemelgewelf om licht te geven op de aarde! En het was zo.
-~ Genesis 1:15
-
-En God maakte de twee grote lichten: het grote licht om de dag te beheersen en het kleine licht om de nacht te beheersen; *en* ook de sterren.
-~ Genesis 1:16
-
-En God plaatste ze aan het hemelgewelf om licht te geven op de aarde,
-~ Genesis 1:17
-
-om de dag en de nacht te beheersen en om scheiding te maken tussen het licht en de duisternis. En God zag dat het goed was.
-~ Genesis 1:18
-
-Toen was het avond geweest en het was morgen geweest: de vierde dag.
-~ Genesis 1:19
-
-En God zei: Laat het water wemelen van wemelende levende wezens; en laten er vogels boven de aarde vliegen, langs het hemelgewelf!
-~ Genesis 1:20
-
-En God schiep de grote zeedieren en alle krioelende levende wezens waarvan het water wemelt, naar hun soort, en alle gevleugelde vogels naar hun soort. En God zag dat het goed was.
-~ Genesis 1:21
-
-En God zegende ze en zei: Wees vruchtbaar, word talrijk, en vervul het water van de zeeën; en laten de vogels talrijk worden op de aarde!
-~ Genesis 1:22
-
-Toen was het avond geweest en het was morgen geweest: de vijfde dag.
-~ Genesis 1:23
-
-En God zei: Laat de aarde levende wezens naar hun soort voortbrengen: vee, kruipende dieren en wilde dieren van de aarde, naar zijn soort! En het was zo.
-~ Genesis 1:24
-
-En God maakte de wilde dieren van de aarde naar hun soort, het vee naar hun soort, en alle kruipende dieren van de aardbodem naar hun soort. En God zag dat het goed was.
-~ Genesis 1:25
-
-En God zei: Laten Wij mensen maken naar Ons beeld, naar Onze gelijkenis; en laten zij heersen over de vissen van de zee, over de vogels in de lucht, over het vee, over heel de aarde en over al de kruipende dieren die over de aarde kruipen!
-~ Genesis 1:26
-
-En God schiep de mens naar Zijn beeld; naar het beeld van God schiep Hij hem; mannelijk en vrouwelijk schiep Hij hen.
-~ Genesis 1:27
-
-En God zegende hen en God zei tegen hen: Wees vruchtbaar, word talrijk, vervul de aarde en onderwerp haar, en heers over de vissen van de zee, over de vogels in de lucht en over al de dieren die over de aarde kruipen!
-~ Genesis 1:28
-
-En God zei: Zie Ik geef u al het zaaddragende gewas dat op heel de aarde is, en alle bomen waaraan zaaddragende boomvruchten zijn; dat zal u tot voedsel dienen.
-~ Genesis 1:29
-
-Maar aan al de dieren van de aarde, aan alle vogels in de lucht en aan al wat over de aarde kruipt, waarin leven is, *heb Ik* al het groene gewas tot voedsel *gegeven*. En het was zo.
-~ Genesis 1:30
-
-En God zag al wat Hij gemaakt had, en zie, het was zeer goed. Toen was het avond geweest en het was morgen geweest: de zesde dag.
-~ Genesis 1:31
-
-Zo zijn de hemel en de aarde voltooid, en heel hun legermacht.
-~ Genesis 2:1
-
-Toen God op de zevende dag Zijn werk, dat Hij gemaakt had, voltooid had, rustte Hij op de zevende dag van al Zijn werk, dat Hij gemaakt had.
-~ Genesis 2:2
-
-En God zegende de zevende dag en heiligde die, want daarop rustte Hij van al Zijn werk, dat God schiep door het te maken.
-~ Genesis 2:3
 
 ### B. Schepping mens (2:4-25)
 
