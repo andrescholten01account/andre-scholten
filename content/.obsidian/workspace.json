@@ -85,8 +85,7 @@
               "title": "Geschiedenis"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -278,8 +277,9 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "a17d95d79c10e92d",
+  "active": "647dd6bd11be4d6e",
   "lastOpenFiles": [
+    "Geschiedenis.md",
     "index.md",
     "Vader.md",
     "Technische tips.md",
@@ -291,7 +291,6 @@
     "Noach en de dieren gaan de ark in.md",
     "De zondvloed breekt uit.md",
     "Waarom is Genesis 1 - 11 belangrijk.md",
-    "Geschiedenis.md",
     "Vaderlandse geschiedenis.md",
     "Schepping landdieren en vee.md",
     "Schepping zeedieren en vogels.md",
