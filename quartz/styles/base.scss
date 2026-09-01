@@ -448,6 +448,13 @@ h6 {
     transform: translateY(-0.1rem);
     font-family: var(--codeFont);
     user-select: none;
+
+    // Op touch-schermen is er geen hover, dus de anker-link is onbereikbaar.
+    // Laten meetellen in de lay-out laat het icoon bij langere koppen naar een
+    // tweede regel afbreken en dat oogt als een lege witregel onder de kop.
+    @media all and ($mobile) {
+      display: none;
+    }
   }
 
   &[id]:hover > a {

@@ -1,7 +1,7 @@
 %%
 
-* https://gracegems.org/family.htm
-* https://gracegems.org/1/Family.htm
+- https://gracegems.org/family.htm
+- https://gracegems.org/1/Family.htm
 ➔ Grace Gems ➔ Family ➔ Quotes ➔ op volgorde afhandelen
 
 ---
@@ -194,11 +194,11 @@ https://thewestminsterstandard.org/how-to-be-a-godly-father-by-matthew-henry/
 ➔ Werkwijze ➔ vaste volgorde van Bijbelverklaringen die ik check?
 
 - Kanttekeningen Statenvertaling -> https://gezinvoorgod.nl/studiebijbel/genesis/1/#v1 + Statenvertaling.nl
-* Matthew Henry’s Complete Commentary -> https://relight.app
-* John Gill's Exposition of the Whole Bible -> https://relight.app
-* Matthew Poole’s English Annotations on the Bible -> https://relight.app
-* Geneva Bible Notes -> https://relight.app
-* Commentaar Spurgeon -> zie https://charlesspurgeon.nl/spurgeon-studiebijbel/?boek=psalmen&hoofdstuk=101&svbm_open=commentaar#svbm-sectie-commentaar -> zie ook Engelse verklaring (site hiervoor zoeken)
+- Matthew Henry’s Complete Commentary -> https://relight.app
+- John Gill's Exposition of the Whole Bible -> https://relight.app
+- Matthew Poole’s English Annotations on the Bible -> https://relight.app
+- Geneva Bible Notes -> https://relight.app
+- Commentaar Spurgeon -> zie https://charlesspurgeon.nl/spurgeon-studiebijbel/?boek=psalmen&hoofdstuk=101&svbm_open=commentaar#svbm-sectie-commentaar -> zie ook Engelse verklaring (site hiervoor zoeken)
 
 ---
 

@@ -11,7 +11,7 @@
 3 - Zet de belangrijkste taken voor vandaag bovenaan je lijst
 
 - Belangrijke taken, of taken die je snel kunt afhandelen
-* Als nodig: zet bij de andere taken van vandaag een tijdstip 
+- Als nodig: zet bij de andere taken van vandaag een tijdstip 
 
 4 - Voer de taken uit per 3 
 

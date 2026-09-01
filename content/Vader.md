@@ -5,22 +5,22 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 
 ## Gezin
 
-* [[God op de eerste plaats in het gezin|God op de eerste plaats]]
-* [[Liefde in het gezin]]
-* [[Orden je gezin volgens Gods principes]]
-* [[Kinderen als zegen van God]]
-* [[Gezin en opwekking]]
+- [[God op de eerste plaats in het gezin|God op de eerste plaats]]
+- [[Liefde in het gezin]]
+- [[Orden je gezin volgens Gods principes]]
+- [[Kinderen als zegen van God]]
+- [[Gezin en opwekking]]
 - [[Opvoeding]]
 - [[Onderwijs in het gezin]]
 - [[De man en zijn vrouw]]
 - [[Het gezin als geestelijke eenheid]]
 - [[De zegen van een Godvrezend gezin]]
 - [[Waarschuwing voor ouders]]
-* [[Gezin en onderlinge houding]]
-* [[Gezamenlijk dienen van God]]
-* [[Huisgodsdienst en Schriftlezing]]
-* [[Het voorbeeld van ouders]]
-* [[Oudsten - leiding geven aan hun huis]]
+- [[Gezin en onderlinge houding]]
+- [[Gezamenlijk dienen van God]]
+- [[Huisgodsdienst en Schriftlezing]]
+- [[Het voorbeeld van ouders]]
+- [[Oudsten - leiding geven aan hun huis]]
 - [[Hoe leef je als gezin zoals God het wil]]
 - [[Verhoudingen (rollen) binnen het gezin]]
 - [[Plezier als gezin|Plezier]]
@@ -38,15 +38,15 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - Onderwijs geven ➔ Leraar
 - [[De vader als herder]]
 - [[Het karakter van de vader]]
-* [[Wees zelf het goede voorbeeld]]
-* [[De rol van de vader]]
-* [[De vader als onderwijzer]]
-* Heb een goede relatie met je kinderen
-* Onderwijs je kinderen over God
-* [[Breng tijd met je kinderen door]] 
-* [[Hou van je gezin]]
-* [[Onderwijs je kinderen]]
-* [[Geloofsopvoeding]]
+- [[Wees zelf het goede voorbeeld]]
+- [[De rol van de vader]]
+- [[De vader als onderwijzer]]
+- Heb een goede relatie met je kinderen
+- Onderwijs je kinderen over God
+- [[Breng tijd met je kinderen door]] 
+- [[Hou van je gezin]]
+- [[Onderwijs je kinderen]]
+- [[Geloofsopvoeding]]
 - Hou van je gezin
 - Onderwijs je kinderen
 - Bid voor je kinderen
@@ -64,19 +64,19 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 
 ## Moeder
 
-* [[De rol van de moeder]]
+- [[De rol van de moeder]]
 
 ## [[Kinderen]]
 
 - [[Hoe horen kinderen zich te gedragen]]
-* [[Tucht in de opvoeding]]
-* Bestraffen
-* Opvoeden
-* Gehoorzaam aan ouders
-* [[Kind en telefoon]]
-* Kind en God
-* [[Kind en relaties]]
-* Kind en seksualiteit
+- [[Tucht in de opvoeding]]
+- Bestraffen
+- Opvoeden
+- Gehoorzaam aan ouders
+- [[Kind en telefoon]]
+- Kind en God
+- [[Kind en relaties]]
+- Kind en seksualiteit
 - [[Evangelie voor kinderen]]
 - [[Gebeden voor kinderen]]
 
