@@ -1,7 +1,7 @@
 > ... Ik heb David, de *zoon* van Isaï, gevonden, een man naar Mijn hart, die alles zal doen wat Ik wil.
 > ~ Handelingen 13:22b
 
-Hoe ben je een man naar Gods hart? Hoe ben je gezond & fit? Hoe heb je als christelijke man je leven op orde? Hoe ben je vol van de vrucht van de Geest? 
+Hoe ben je een man naar Gods hart? Hoe ben je gezond & fit? Hoe hoort een christelijke man te leven?  
 
 ## Stap 1: [[Omgang met God]]
 
