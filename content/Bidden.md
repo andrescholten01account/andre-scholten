@@ -32,3 +32,28 @@ Maar laat hij ze vragen in geloof, niet twijfelend; want wie twijfelt, is een go
 En dit is de vrijmoedigheid die wij tegenover Hem hebben, dat als wij iets bidden naar Zijn wil, Hij ons verhoort. En als wij weten dat Hij ons verhoort, wat wij ook bidden, dan weten wij dat wij de beden verkrijgen die wij van Hem gebeden hebben.
 ~ [1 Johannes 5:14-15](https://gezinvoorgod.nl/studiebijbel/1-johannes/5#v14) (SVnu)
 
+---
+
+Onze Vader
+
+Volhardend bidden
+
+Filip. 4:7-8
+
+Bidden
+
+Aanbidden
+
+Voorbede
+
+Danken
+
+Lofprijs
+
+Smeken
+
+Aanbiddend bidden
+
+Filippenzen 4
+gebed
+

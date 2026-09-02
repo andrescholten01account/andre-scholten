@@ -1,16 +1,10 @@
----
-Status: Draft
-draft: false
-blog: false
-publicatiedatum:
----
-Om een man naar Gods hart te zijn lijkt het me voor de hand liggen dat je omgang met God in orde is. Ik heb het hier over "stille tijd", die overigens helemaal niet stil hoeft te zijn. Het gaat hier om een relatie met God, het kennen van God. Hieruit vloeit gehoorzaamheid aan God voort. Eerst de relatie, dan de regels. Zie [[In Gods wil wandelen]], [[Hou van God]], [[Hou van je vrouw]], en [[Vrucht van de Geest]]. 
+Om een man naar Gods hart te zijn lijkt het me voor de hand liggen dat je omgang met God in orde is. Ik heb het hier over "stille tijd", die overigens helemaal niet stil hoeft te zijn. Het gaat hier om een relatie met God, het kennen van God. Hieruit vloeit gehoorzaamheid aan God voort. Eerst de relatie, dan de regels. Zie [[Wandelen met God]], [[Hou van God]], [[Hou van je vrouw]], en [[Vrucht van de Geest]]. 
 
 Voor de persoonlijke omgang met God zijn 3 dingen belangrijk:
 
-1. Bijbel lezen
-2. Bidden
-3. Aanbidden
+1. Bidden
+2. Bijbel lezen
+3. Zingen
 
 We lezen in Spreuken 4:23:
 

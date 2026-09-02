@@ -1,9 +1,3 @@
----
-Status: Draft
-draft: false
-blog: false
-publicatiedatum:
----
 ## Hou van God en je naaste 
 
 37 En Jezus zei tegen hem: U zult de Heere, uw God, liefhebben met heel uw hart, en met heel uw ziel, en met heel uw verstand.

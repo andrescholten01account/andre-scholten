@@ -1,9 +1,3 @@
----
-Status: Draft
-draft: false
-blog: false
-publicatiedatum:
----
 Dit gedeelte gaat over zingen 
 
 Openb. 4:8-11 God aanbidden
