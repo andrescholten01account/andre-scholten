@@ -48,7 +48,7 @@ Dit punt had ik een hele tijd niet in mijn levensstijl. Ik was bezig om gezond t
 
 ### Ontspan
 
-Ik denk hierbij aan rust krijgen. Dingen niet doen. Afstand nemen van dingen. De boel, de boel laten. De keuze maken om voor die dag geen dingen meer te regelen en de boel af te ronden. 
+Het gaat hierbij om het ontladen. De negatieve spanning weg krijgen. Ik denk hierbij aan rust krijgen. Dingen niet doen. Afstand nemen van dingen. De boel, de boel laten. De keuze maken om voor die dag geen dingen meer te regelen en de boel af te ronden. 
 
 Een keuze kan ook zijn om 's avonds na een bepaalde tijd geen schermtijd meer te hebben. Dit kan positieve gevolgen hebben, zoals: 
 
@@ -56,25 +56,23 @@ Een keuze kan ook zijn om 's avonds na een bepaalde tijd geen schermtijd meer te
 - Meer rust in je hoofd
 - Diepere ontspanning in de avond 
 
+Denk ook aan wandelen ter ontspanning. 
+
 ### Heb plezier
 
+Dit gaat om het opladen, positieve spanning krijgen. Dingen die waar je puur voor je plezier zin in hebt. Denk aan:
 
+- Humor: moppen, memes, grappig dingen 
+- Plezier: leuke dingen doen, spelletjes doen 
+- Hobby's: [[vaderlandse geschiedenis]], schaken
+- Avontuur: avonturenboeken lezen, (winter)kamperen
 
-Humor:
-- Moppen ➔ grappige dingen
-- Memes ➔ grappige dingen
-
-- Plezier (leuke dingen doen)
-- Humor (Pinterest ➔ memes, moppen)
-- Avontuur
-- [[Vaderlandse geschiedenis]]
-- Avonturenboeken lezen
-- Kamperen ➔ wildkamperen
-- Schaken
-- Wandelen
-- Spelletjes
-
+---
 ## Stap 5: Heb je leven op orde
+
+Als je leven goed geordend is, dan heb je meer energie. Mentaal heb je ook meer over. Je hoeft niet telkens over bepaalde dingen na te denken, omdat ze al goed lopen of goed geregeld zijn. 
+
+
 
 - Ordelijk denken
 	- [[Logisch denken voor christen|Logica]]
@@ -86,6 +84,7 @@ Humor:
 - [[Strategisch]]
 - [[Van je afschrijven]]
 - Systematisch denken
+- ritme
 
 %%
 
