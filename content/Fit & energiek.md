@@ -86,11 +86,10 @@ Als je leven goed geordend is, dan heb je meer energie. Mentaal heb je ook meer 
 - [[Systematisch taken uitvoeren]]
 - [[Heb een aantal taken tegelijk open]]
 
-%%
-
+---
 ## Orden je angst
 
-Als je bang bent voor iets, je erop voorbereiden. 
+Als je bang bent voor iets, bereidt je er dan op voor.  
 
 Ben je bang voor bepaalde, moeilijke vragen over God? ➔ bereidt de antwoorden voor. 
 
@@ -108,40 +107,39 @@ Stappenplan:
 5. Enz. 
 
 ---
+## Orden je leven 
 
-michael hyatt ➔ 10 gebieden
+10 levensgebieden
 
-God
-Ik 
-huwelijk
-gezin
+I. Kern
 
-werk/vrijwilligerswerk
-[[Thuis]]
+- God
+- Zelf
+- Gezin (huwelijk en kinderen)
 
-familie
-vrienden
-gemeente
+II. Verantwoordelijkheden 
+
+- [[Thuis]]
+- Werk/vrijwilligerswerk
+
+III. Sociaal
+
+- Familie
+- Vrienden
+- Gemeente
 
 ---
-## Leiding geven aan jezelf
+## Geef leiding aan jezelf 
+
+Volgorde:
 
 Leiding geven aan jezelf ➔ leiding geven aan gezin ➔ leiding geven aan gemeente
 
-? 1 Tim. -> ouderling goed leiding geven aan eigen huis -> dan aan gemeente
+Want als iemand niet weet hoe hij leiding moet geven aan zijn eigen huis, hoe zal hij voor de gemeente van God zorg dragen?
+~ 1 Timotheüs 3:5
 
-Michaël Hyatt: eerst leiding geven aan jezelf, dan aan anderen
+Self-leadership always precedes team leadership.
+~ Michael Hyatt
+ 
 
-Dus:
-
-jezelf -> gezin -> gemeente
-
- Before You Rule, Rule Yourself 
- https://www.desiringgod.org/articles/before-you-rule-rule-yourself
-
----
-
-Leiding geven aan jezelf
-
-%%
 
