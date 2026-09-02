@@ -13,7 +13,9 @@
 - Belangrijke taken, of taken die je snel kunt afhandelen
 - Als nodig: zet bij de andere taken van vandaag een tijdstip 
 
-4 - Voer de taken uit per 3 
+4 - Haak een taak in stukjes die je daadwerkelijk uit kunt voeren
+
+5 - Voer de taken uit per 3 
 
 - Dus: de belangrijkste 3 taken boven aan
 - Heb je deze klaar ➔ dan weer 3 nieuwe taken bovenaan

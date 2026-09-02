@@ -42,7 +42,7 @@ Een aantal dingen die je kunt doen om voldoende beweging te krijgen:
 3. Krachttraining: 2 keer per week
 
 ---
-## Stap 4: Ontspan en heb plezier
+## Stap 4: Ontspan en laad op 
 
 Dit punt had ik een hele tijd niet in mijn levensstijl. Ik was bezig om gezond te leven en mijn best te doen voor doen voor dingen, maar ik vergat om te ontspannen en op te laden. Dit werkt niet. Als je je fit & energiek wilt voelen, dan heb je het gewoon nodig om te ontspannen en plezier te hebben. 
 
@@ -58,12 +58,12 @@ Een keuze kan ook zijn om 's avonds na een bepaalde tijd geen schermtijd meer te
 
 Denk ook aan wandelen ter ontspanning. 
 
-### Heb plezier
+### Laad op 
 
-Dit gaat om het opladen, positieve spanning krijgen. Dingen die waar je puur voor je plezier zin in hebt. Denk aan:
+Dit gaat om het opladen, positieve spanning krijgen. Dingen doen die je puur voor je plezier doet en zin in hebt. Denk aan:
 
-- Humor: moppen, memes, grappig dingen 
 - Plezier: leuke dingen doen, spelletjes doen 
+- Humor: moppen, memes, grappig dingen 
 - Hobby's: [[vaderlandse geschiedenis]], schaken
 - Avontuur: avonturenboeken lezen, (winter)kamperen
 
@@ -81,48 +81,18 @@ Als je leven goed geordend is, dan heb je meer energie. Mentaal heb je ook meer 
 2 - Ordelijk leven 
 
 - Leven volgens een vast ritme 
-- Plannen
+- [[De boel opgeruimd hebben en houden]]
+- [[Plannen]]
 - [[Systematisch taken uitvoeren]]
 - [[Heb een aantal taken tegelijk open]]
 
-
-
-
 %%
 
-
-
-1. Geen beeldscherm na het avondeten
-2. Avonturenboek lezen / boek ter ontspanning
-3. Iets anders doen waardoor ik oplaad
-
-➔ Opladen is hier het kernwoord. Waar laad ik door op?
-
----
-
-Alles op orde geeft ruimte in je hoofd. 
-
-Orde
-
-1 - De boel opgeruimd houden
-
-a. Aantekeningen opruimen
-b. Losse papieren opruimen
-c. Mails verwerken
-
-2 - Plannen
-
-- Wanneer doe je welke taak?
-
-3 - Uitvoeren
-
-- Haak de taak en stukjes die je daadwerkelijk uit kunt voeren
-
----
+## Orden je angst
 
 Als je bang bent voor iets, je erop voorbereiden. 
 
-Ben je bang voor bepaalde, moeilijke vragen over God? -> bereidt de antwoorden voor. 
+Ben je bang voor bepaalde, moeilijke vragen over God? ➔ bereidt de antwoorden voor. 
 
 1. Dus mijn niet-gelovige overleden oma is naar de hel?
 2. Dus ik mag geen homo zijn?
