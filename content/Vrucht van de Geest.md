@@ -1,5 +1,5 @@
-Maar de vrucht van de Geest is liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
-~ [Galaten 5:22](https://gezinvoorgod.nl/studiebijbel/galaten/5#v22) (SVnu)
+De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
+~ Galaten 5:22
 
 ---
 ## Vrucht van de Geest
@@ -16,13 +16,59 @@ Maar de vrucht van de Geest is liefde, blijdschap, vrede, geduld, vriendelijkhei
 
 ---
 
+En word niet dronken van wijn, waarin losbandigheid is, maar word vervuld met de Geest,
+~ Efeze 5:18
+
+---
+
+Als u die slecht bent, uw kinderen dus goede gaven weet te geven, hoeveel te meer zal de hemelse Vader de Heilige Geest geven aan hen die tot Hem bidden?
+~ Lukas 11:13
+
+---
+
+14 Toen de apostelen die in Jeruzalem waren, hoorden dat Samaria het Woord van God aangenomen had, stuurden zij Petrus en Johannes naar hen toe,
+15 en toen die aangekomen waren, baden zij voor hen dat zij *de* Heilige Geest mochten ontvangen.
+16 (Want Hij was nog op niemand van hen gevallen, maar zij waren alleen gedoopt in de Naam van de Heere Jezus.)
+17 Toen legden zij hun de handen op en zij ontvingen de Heilige Geest.
+~ Handelingen 8:14-17
+
+---
+
+4 Blijf in Mij, en Ik in u. Zoals de rank geen vrucht kan dragen uit zichzelf, als zij niet in de wijnstok blijft, zo ook u niet, als u niet in Mij blijft.
+5 Ik ben de Wijnstok, u de ranken; wie in Mij blijft, en Ik in hem, die draagt veel vrucht, want zonder Mij kunt u niets doen.
+~ Johannes 15:4-5
+
+---
+
+Welzalig de man
+die niet wandelt in de raad van de goddelozen,
+die niet staat op de weg van de zondaars,
+die niet zit op de zetel van de spotters,
+~ Psalm 1:1
+
+maar die zijn vreugde vindt in de wet van de HEERE
+en Zijn wet dag en nacht overdenkt.
+~ Psalm 1:2
+
+Want hij zal zijn als een boom, geplant aan waterbeken,
+die zijn vrucht geeft op zijn tijd,
+waarvan het blad niet afvalt;
+al wat hij doet, zal goed gelukken.
+~ Psalm 1:3
+
+*Maar* zo zijn de goddelozen niet:
+die zijn juist als het kaf, dat de wind wegblaast.
+~ Psalm 1:4
+
+
+
 %%
 
 Vrucht van de Geest:
 - Gal. 5:22
 - Efeze 5:9 (nog een tekst over de vrucht van de Geest)
 
-Word vol van de Geest ➔ Ef. 
+
 
 ➔ Vervulling met de Geest
 
