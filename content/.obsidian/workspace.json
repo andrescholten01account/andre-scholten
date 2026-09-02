@@ -162,8 +162,23 @@
               "icon": "lucide-file",
               "title": "Bijbel lezen"
             }
+          },
+          {
+            "id": "7c05360ccdb3bc27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ontspan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ontspan"
+            }
           }
-        ]
+        ],
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -254,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Ontspan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -355,10 +370,11 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "647dd6bd11be4d6e",
+  "active": "7c05360ccdb3bc27",
   "lastOpenFiles": [
-    "Bijbel lezen.md",
+    "Man.md",
     "index.md",
+    "Bijbel lezen.md",
     "Apologetiek.md",
     "Eeuwig oordeel.md",
     "Redding.md",
@@ -382,7 +398,6 @@
     "Woorden.md",
     "God.md",
     "Tucht in de opvoeding.md",
-    "Man.md",
     "atheist.doc",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",
