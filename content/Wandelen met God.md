@@ -6,5 +6,19 @@
 40 Aan deze twee geboden hangt de hele wet en de profeten.
 ~ [Mattheüs 22:37-40](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
 
+---
 
+Wandelen met God:
+
+Henoch
+
+Noach
+
+In Gods geboden wandelen ➔ 1 Koningen
+
+---
+
+Gemeenschap met God en Jezus
+
+1 Joh. 1
 

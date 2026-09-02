@@ -2,6 +2,15 @@ Maar de vrucht van de Geest is liefde, blijdschap, vrede, geduld, vriendelijkhei
 ~ [Galaten 5:22](https://gezinvoorgod.nl/studiebijbel/galaten/5#v22) (SVnu)
 
 ---
+
+In Christus blijven 
+
+"Blijf in Mij, zonder Mij kunt je niets doen."
+➔ vruchtdragen
+
+1 Joh. 15:1-8
+
+---
 ## Vrucht van de Geest
 
 1. [[Liefde]]
