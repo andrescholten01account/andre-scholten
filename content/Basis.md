@@ -19,7 +19,6 @@ Gaat over God, de schepping, onze voorouders, en de wereldwijde vloed als straf 
 - Heb dit goed onderbouwd.  
 
 ---
-
 ## Kern
 
 Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven heeft, opdat ieder die in Hem gelooft, niet verloren gaat, maar eeuwig leven heeft.
