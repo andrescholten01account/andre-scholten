@@ -99,10 +99,13 @@ Ben je bang voor bepaalde, moeilijke vragen over God? ➔ bereidt de antwoorden 
 
 Als je je op dingen voorbereidt, dan haal je de angst weg. 
 
-➔ je brengt de vragen / bezwaren in kaart
-➔ je zoekt antwoorden
-➔ je zoekt tegenantwoorden
-➔ je zoek hier weer een reactie op, enz. 
+Stappenplan:
+
+1. Je brengt de vragen / bezwaren in kaart
+2. Zoekt de antwoorden
+3. Zoekt tegenargumenten
+4. Zoekt daar weer een reactie op
+5. Enz. 
 
 ---
 
