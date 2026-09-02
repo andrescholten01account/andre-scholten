@@ -11,9 +11,9 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 ## Stap 2: [[Wandelen met God]]
 
-- [[Hou van God]] 
-- [[Hou van je naaste]]
-- [[Vrucht van de Geest]]
+1. [[Hou van God]] 
+2. [[Hou van je naaste]]
+3. [[Vrucht van de Geest]]
 
 ## Stap 3: [[Fit & energiek]] 
 
