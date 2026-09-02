@@ -441,27 +441,9 @@ h3,
 h4,
 h5,
 h6 {
+  // Geen anker-/kettingsymbool bij koppen tonen (ook niet bij hover).
+  & > a[role="anchor"],
   &[id] > a[href^="#"] {
-    margin: 0 0.5rem;
-    opacity: 0;
-    transition: opacity 0.2s ease;
-    transform: translateY(-0.1rem);
-    font-family: var(--codeFont);
-    user-select: none;
-
-    // Op touch-schermen is er geen hover, dus de anker-link is onbereikbaar.
-    // Laten meetellen in de lay-out laat het icoon bij langere koppen naar een
-    // tweede regel afbreken en dat oogt als een lege witregel onder de kop.
-    @media all and ($mobile) {
-      display: none;
-    }
-  }
-
-  &[id]:hover > a {
-    opacity: 1;
-  }
-
-  &:not([id]) > a[role="anchor"] {
     display: none;
   }
 }
