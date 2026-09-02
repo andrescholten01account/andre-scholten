@@ -369,3 +369,17 @@ U zult niet begeren het huis van uw naaste; u zult niet begeren de vrouw van uw 
 
 [[Volharding]]
 
+---
+
+Gehoorzaamheid:
+
+Gods daden herinneren:
+- 12 stenen in de Jordaan ➔ Bijbelboek Jozua
+- Bijbelteksten: "Denk aan ..."
+
+---
+
+1 kon 2:2-3 Wees sterk
+1 kon 2:2-3 Wees een man
+1 kon. 2:2-3 gehoorzaamheid
+

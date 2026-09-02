@@ -55,5 +55,13 @@ Wij dwaalden allen als schapen, wij keerden ons ieder naar zijn eigen weg; maar 
 
 Zonde: Jak. 4:17
 
+---
+
+1 Kon. 8:39 God alleen het het hart van alle mensenkinderen
+➔ eeuwig oordeel ➔ God weet alles, ook het diepste in ons hart
+➔ God ➔ alwetend ➔ God weet alles, ook het diepste in ons hart
+
+1 Kon. 8:46 ➔ alle mensen zondigen 
+
 %%
 

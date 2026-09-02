@@ -10,3 +10,9 @@ Honor your parents, and your children will honor you.
 
 https://godrules.net/library/spurgeon/NEW10spurgeon_a10.htm
 
+---
+
+Kinderen:
+- Zoek Hem vroeg
+- Waarmee houdt de jongeling zijn weg zuiver
+

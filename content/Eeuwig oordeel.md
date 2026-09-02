@@ -38,3 +38,16 @@ Openb. 20:11-15 laatste oordeel
 - Troon
 - Boek des levens
 
+---
+
+Eeuwig oordeel ➔ ==dood== ➔ Hebr. 9:27
+➔ terugkomst Jezus 
+➔ nieuwe hemel en aarde
+➔ poel van vuur
+➔ laatste oordeel
+
+---
+
+Openb. 21:8 poel van vuur ➔ voor wie
+Openb. 21:27 boek des levens van het lam
+

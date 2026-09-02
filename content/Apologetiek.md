@@ -37,6 +37,12 @@ https://zoektocht.net/
 
 [[Betrouwbaarheid Bijbel]]
 
+---
+
+Eigen getuigenis: waarom ben ik christen?
+- eigen leven met God
+- waarheid ➔ dit is hoe de wereld in elkaar zit
+
 %%
 
 [[Ik heb te weinig geloof om atheïst te zijn]]
