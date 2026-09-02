@@ -29,12 +29,68 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Man.md",
+                "file": "Basis christelijk geloof.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Man"
+              "title": "Basis christelijk geloof"
+            }
+          },
+          {
+            "id": "cdb83b9028129296",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tucht in de opvoeding.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tucht in de opvoeding"
+            }
+          },
+          {
+            "id": "b2e4130868061348",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "God.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "God"
+            }
+          },
+          {
+            "id": "b59ea71fd704096b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Volharding.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Volharding"
+            }
+          },
+          {
+            "id": "0c285cb4426a843b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Onderwerpen.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Onderwerpen"
             }
           }
         ]
@@ -231,16 +287,25 @@
   },
   "active": "647dd6bd11be4d6e",
   "lastOpenFiles": [
-    "Man.md",
     "Onderwerpen.md",
+    "Bijbel lezen.md",
     "index.md",
+    "Volharding.md",
+    "Onderwijs.md",
+    "Gehoorzaamheid - Jezus volgen.md",
+    "Woorden.md",
+    "God.md",
+    "Tucht in de opvoeding.md",
+    "Basis christelijk geloof.md",
+    "Man.md",
+    "Zingen.md",
+    "Basis.md",
     "Echtgenoot.md",
     "Vaderschap.md",
     "Omgang met God.md",
     "Vrucht van de Geest.md",
     "Vrucht dragen.md",
     "Gehoorzaamheid.md",
-    "Gehoorzaamheid - Jezus volgen.md",
     "Zelfbeheersing.md",
     "Zachtmoedigheid.md",
     "Vrucht van de Geest - geloof.md",
@@ -248,15 +313,6 @@
     "Vriendelijkheid.md",
     "Geduld.md",
     "Vrede.md",
-    "Blijdschap.md",
-    "Liefde.md",
-    "Geloof.md",
-    "Hou van je naaste.md",
-    "Hou van God.md",
-    "Wandelen met God.md",
-    "Hou van je vrouw.md",
-    "Beschermend.md",
-    "Taken in kleine stukjes verdelen.md",
     "atheist.doc",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",

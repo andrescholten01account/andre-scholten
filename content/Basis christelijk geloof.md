@@ -147,5 +147,28 @@ Openb. 20:11-15 laatste oordeel
 - charles spurgeon
 - john bunyan
 
+---
+
+Openb. 14:12 volharding
+Openb. 15:3 God is almachtig
+Openb. 15:3 God is heilig
+Openb. 15:3 God aanbidden
+Openb. 15:3 God is eeuwig
+
+Openb. 16:7 God oordeelt rechtvaardig - eeuwig oordeel
+
+---
+
+Mat. 3:8 bekering
+Mat. 3:10 gehoorzaamheid
+Mat. 3:11 dopen met de Heilige Geest
+Mat. 3:12 eeuwig oordeel
+Mat. 3:16 Jezus is gedoopt 
+Mat. 3:16 De Geest kwam op Jezus (➔ eerst dopen, dan de Heilige Geest ontvangen) 
+Mat. 3:17 Jezus is de geliefde Zoon van God 
+
+---
+
+
 %%
 

@@ -365,3 +365,7 @@ U zult niet begeren het huis van uw naaste; u zult niet begeren de vrouw van uw 
 
 [[Vrucht dragen]]
 
+[[Woorden]]
+
+[[Volharding]]
+

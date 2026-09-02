@@ -142,5 +142,14 @@ God, argumenten bestaan God
 Ook:
 Iederern weet dat God bestaat
 
+---
+
+Voor overdenking?
+
+Openb. 15:3 God is almachtig
+Openb. 15:3 God is heilig
+Openb. 15:3 God aanbidden
+Openb. 15:3 God is eeuwig
+
 %%
 

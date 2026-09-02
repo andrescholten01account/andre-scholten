@@ -25,5 +25,12 @@ Breng uw zoon gehoorzaamheid bij, en hij zal u rust geven en uw ziel genoegens s
 Als u bestraffing verdraagt, behandelt God u als kinderen. Want welk kind is er dat niet door zijn vader bestraft wordt?
 ~ [Hebreeën 12:7](https://gezinvoorgod.nl/studiebijbel/hebreeen/12#v7)
 
+---
+
+1 Kon. 1:6 ➔ slecht vaderschap, geen tuchtiging
+➔ Spr. als je je kinderen niet tuchtigt, dan ...
+➔ Spr. kind aan lot overlaten (niet tuchtigen) ...
+➔ 1 Kon. 1:6 is daar een voorbeeld van
+
 %%
 

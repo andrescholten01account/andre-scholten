@@ -20,3 +20,25 @@ Filippus en de kamerling: begrijp je wat je leest? hoe kan het tenzij iemand het
 Gelijkenis zaaier: begrijpt, niet begrijpt ➔ dus belangrijk dat Gods Woord begrepen wordt
 ➔ Mat. 13:23 ➔ Gods Woord ==begrijpt==
 
+---
+
+Gods Woord
+
+1 - Geeft richting
+
+Ps. 119:105
+
+2 - Geestelijk voedsel
+
+Bijbel: Mens kan niet leven van brood alleen, maar van ieder Woord ...
+
+Bijbel: Zuivere melk van Gods Woord ➔ Verlang naar de zuivere melk ➔ Petrus-brief
+
+3 - Laat het Woord van Christus rijkelijk in u wonen
+
+
+➔ Geestelijk voedsel
+➔ Neem dat geestelijk voedsel in rijke mate tot je 
+- Gods Woord overdenken dag en nacht: Ps. 1:2
+- Bijbel: Zuivere melk van Gods Woord ➔ Verlang naar de zuivere melk ➔ Petrus-brief
+

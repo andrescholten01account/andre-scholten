@@ -43,10 +43,15 @@
 
 - [[Verantwoordelijk]]
 - [[Vergevingsgezind]]
+- [[Volharding]]
 - [[Voorbereiding]]
 - [[Vooruitkijken]]
 - [[Vrienden]]
 - [[Vrijgevig]]
+
+## W
+
+- [[Woorden]]
 
 ## IJ
 

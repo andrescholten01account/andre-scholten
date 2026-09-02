@@ -33,72 +33,6 @@ Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het 
 
 %%
 
-Openb. 14:12 volharding
-Openb. 15:3 God is almachtig
-Openb. 15:3 God is heilig
-Openb. 15:3 God aanbidden
-Openb. 15:3 God is eeuwig
-
-Openb. 16:7 God oordeelt rechtvaardig - eeuwig oordeel
-
----
-
-1 Kon. 1:6 ➔ slecht vaderschap, geen tuchtiging
-➔ Spr. als je je kinderen niet tuchtigt, dan ...
-➔ Spr. kind aan lot overlaten (niet tuchtigen) ...
-➔ 1 Kon. 1:6 is daar een voorbeeld van
-
----
-
-Voor overdenking?
-
-Openb. 15:3 God is almachtig
-Openb. 15:3 God is heilig
-Openb. 15:3 God aanbidden
-Openb. 15:3 God is eeuwig
-
----
-
-Woorden ➔ geven ➔ bemoedigen:
-- Wel goede woorden
-- Geen slechte woorden 
----
-
-Ps. 113 ➔ aanbidding
-
----
-
-Volharding
-
-Ex. 16:4 ➔ God gehoorzamen onder alle omstandigheden
-
-➔ "Al zou de vijgenboom niet bloeien, nochtans ..."
-➔ Bijbeltekst: God kennen en dienen onder alle omstandigheden 
-
----
-
-Gods Woord
-
-1 - Geeft richting
-
-Ps. 119:105
-
-2 - Geestelijk voedsel
-
-Bijbel: Mens kan niet leven van brood alleen, maar van ieder Woord ...
-
-Bijbel: Zuivere melk van Gods Woord ➔ Verlang naar de zuivere melk ➔ Petrus-brief
-
-3 - Laat het Woord van Christus rijkelijk in u wonen
-
-
-➔ Geestelijk voedsel
-➔ Neem dat geestelijk voedsel in rijke mate tot je 
-- Gods Woord overdenken dag en nacht: Ps. 1:2
-- Bijbel: Zuivere melk van Gods Woord ➔ Verlang naar de zuivere melk ➔ Petrus-brief
-
----
-
 Kinderen:
 - Zoek Hem vroeg
 - Waarmee houdt de jongeling zijn weg zuiver
@@ -195,19 +129,11 @@ Mat. 2:5-6 profetie Jezus (en meer) + uitgekomen
 Mat. 2:14-15 profetie Jezus (en meer) + uitgekomen
 Mat. 2:16-17 profetie Jezus (en meer) + uitgekomen
 Mat. 2:24 profetie Jezus (en meer) + uitgekomen
+Mat. 3:1-3 uitgekomen profetie
 
 Tekst Oude Testament (voorzegging) ➔ tekst Nieuwe Testament (uitgekomen)
 
 ---
-
-Mat. 3:1-3 uitgekomen profetie
-Mat. 3:8 bekering
-Mat. 3:10 gehoorzaamheid
-Mat. 3:11 dopen met de Heilige Geest
-Mat. 3:12 eeuwig oordeel
-Mat. 3:16 Jezus is gedoopt 
-Mat. 3:16 De Geest kwam op Jezus (➔ eerst dopen, dan de Heilige Geest ontvangen) 
-Mat. 3:17 Jezus is de geliefde Zoon van God 
 
 %%
 
