@@ -1,4 +1,4 @@
-Als je fit & energiek bent, dan gaat je hele leven gewoon beter. Je zit lekkerder in je vel, het Bijbel lezen gaat beter door betere focus, en de omgang met andere mensen loopt soepeler. Gebruik het volgende stappenplan om fit & energiek te worden: :
+Als je fit & energiek bent, dan gaat je hele leven gewoon beter. Je zit lekkerder in je vel, het Bijbel lezen gaat beter door betere focus, en de omgang met andere mensen loopt soepeler. Gebruik het volgende stappenplan om fit & energiek te worden: 
 
 ## Stap 1: Krijg voldoende slaap
 
@@ -33,22 +33,32 @@ Ook een gezond eetpatroon hoort bij fit & energiek zijn. Dat gaat om wat je wel 
 ---
 ## Stap 3: Beweeg voldoende
 
-Als het goed is heb j
+Als het goed is heb je door een goede nachtrust en een gezond eetpatroon voldoende energie om te bewegen. Goed om te weten: als je beweegt, dan krijg je daar ook weer energie van. 
 
-6000 stappen
-Hardlopen
-Krachttraining
+Een aantal dingen die je kunt doen om voldoende beweging te krijgen:
 
+1. 6000 stappen per dag
+2. Hardlopen: 2 keer per week
+3. Krachttraining: 2 keer per week
+
+---
 ## Stap 4: Ontspan en heb plezier
 
-Rust:
+Dit punt had ik een hele tijd niet in mijn levensstijl. Ik was bezig om gezond te leven en mijn best te doen voor doen voor dingen, maar ik vergat om te ontspannen en op te laden. Dit werkt niet. Als je je fit & energiek wilt voelen, dan heb je het gewoon nodig om te ontspannen en plezier te hebben. 
 
-- 's Avonds geen schermtijd
-	- Betere concentratie overdag
-	- Meer rust in je hoofd
-	- Ontspannender in de avond 
+### Ontspan
 
-- Kiezen om niet te regelen, maar om te ontspannen / plezier te hebben
+Ik denk hierbij aan rust krijgen. Dingen niet doen. Afstand nemen van dingen. De boel, de boel laten. De keuze maken om voor die dag geen dingen meer te regelen en de boel af te ronden. 
+
+Een keuze kan ook zijn om 's avonds na een bepaalde tijd geen schermtijd meer te hebben. Dit kan positieve gevolgen hebben, zoals: 
+
+- Betere concentratie overdag
+- Meer rust in je hoofd
+- Diepere ontspanning in de avond 
+
+### Heb plezier
+
+
 
 Humor:
 - Moppen ➔ grappige dingen
