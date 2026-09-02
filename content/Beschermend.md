@@ -27,3 +27,4 @@ Weerbaar (of is dit resilient?)
 Filippenzen 4
 Harten en gedachten bewaren
 -> beschermen
+

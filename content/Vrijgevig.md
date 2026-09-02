@@ -1,6 +1,6 @@
-%%
-
 Vrijgevigheid
+
+Geven van geld, goederen, tijd of wat dan ook 
 
 matteus: als iemand van je vraagt, dan moet je het geven
 
@@ -18,6 +18,4 @@ A friend to everybody is often a friend to nobody; or else in his simplicity, he
 https://www.romans45.org/spurgeon/misc/plowman.htm
 
 ➔ dit geldt ook voor tijdsbesteding. Waar besteed ik mijn tijd aan? Hoeveel tijd besteed ik aan kerkelijke activiteiten? Gaat dit ten koste van mijn eigen family. God en mijn familie staan op de eerste plek, zodra dit goed gaat, dan kunnen we verder kijken naar wat mogelijk is om te doen.
-
-%%
 
