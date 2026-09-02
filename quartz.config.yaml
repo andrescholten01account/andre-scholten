@@ -15,10 +15,7 @@ configuration:
     - .obsidian
   theme:
     fontOrigin: googleFonts
-    # false: lettertypen worden bij de build gedownload en vanaf het eigen
-    # domein geserveerd (/static/fonts/), i.p.v. een render-blokkerende
-    # stylesheet van fonts.googleapis.com. Scheelt ~0,8s in FCP/LCP op mobiel.
-    cdnCaching: false
+    cdnCaching: true
     typography:
       title: Lora
       header: Lora

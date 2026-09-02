@@ -44,7 +44,10 @@ export default (() => {
       <head>
         <title>{title}</title>
         <meta charSet="utf-8" />
-        <link rel="icon" href={joinSegments(baseDir, "static/icon.png")} />
+        {/* Lege data-URI: geen zichtbaar favicon in het tabblad, maar
+            voorkomt wel dat de browser een 404 op /favicon.ico veroorzaakt
+            (best-practices console-fout). */}
+        <link rel="icon" href="data:," />
         {coreStylesheet && <link rel="preload" href={coreStylesheet} as="style" />}
         {coreScript && coreScript.contentType === "external" && (
           <link rel="preload" href={coreScript.src} as="script" />
