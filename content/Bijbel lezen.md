@@ -44,5 +44,22 @@ Bijbel: Zuivere melk van Gods Woord ➔ Verlang naar de zuivere melk ➔ Petrus-
 
 ---
 
+Gods Woord overdenken
+
+---
+
+Gods Woord memoriseren
+
+Joh. 3:16
+Matt. 22:37-40
+Ex. 20:1-17
+Openb. 20:11-15
+Psalm 1
+
+➔ Basis 
+➔ Memoriseren ➔ Bijbelmemorisatieapp
+
+---
+
 Zie ook: [[Gods Woord]]
 

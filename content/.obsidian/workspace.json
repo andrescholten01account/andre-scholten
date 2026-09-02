@@ -148,6 +148,20 @@
               "icon": "lucide-file",
               "title": "Apologetiek"
             }
+          },
+          {
+            "id": "1bd5394bb58fef1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bijbel lezen.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bijbel lezen"
+            }
           }
         ]
       }
@@ -343,8 +357,9 @@
   },
   "active": "647dd6bd11be4d6e",
   "lastOpenFiles": [
-    "Apologetiek.md",
+    "Bijbel lezen.md",
     "index.md",
+    "Apologetiek.md",
     "Eeuwig oordeel.md",
     "Redding.md",
     "Gehoorzaamheid - Jezus volgen.md",
@@ -354,7 +369,6 @@
     "Onderwerpen.md",
     "Logica.md",
     "Zonde.md",
-    "Bijbel lezen.md",
     "De Oude Wereld.md",
     "Vloek over de slang; belofte van een Redder.md",
     "Noachs offer; Gods belofte.md",

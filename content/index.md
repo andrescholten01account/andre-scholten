@@ -33,16 +33,7 @@ Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het 
 
 %%
 
-Joh. 3:16
-Matt. 22:37-40
-Ex. 20:1-17
-Openb. 20:11-15
-Psalm 1
-
-➔ Basis 
-➔ Memoriseren ➔ Bijbelmemorisatieapp
-
----
+Aantekeningen
 
 %%
 
