@@ -361,5 +361,7 @@ U zult niet begeren het huis van uw naaste; u zult niet begeren de vrouw van uw 
 40 Aan deze twee geboden hangt de hele wet en de profeten.
 ~ [Mattheüs 22:37-40](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
 
-%%
+---
+
+[[Vrucht dragen]]
 
