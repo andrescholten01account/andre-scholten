@@ -5,6 +5,9 @@
 a:not(.page-title a):not(.site-nav a) {
   background-color: transparent !important;
   text-decoration: underline !important;
+  // Chrome/Edge maken de streep met 'auto' dikker dan Firefox; expliciet
+  // 1px vastzetten zodat alle browsers de dunne Firefox-lijn tonen.
+  text-decoration-thickness: 1px !important;
   text-underline-offset: 3px;
   font-weight: normal;
 }
