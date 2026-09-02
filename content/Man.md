@@ -23,7 +23,7 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 4. [[Ontspan]]
 5. [[Orden]]
 
-## Stap 4: Meer over karakter
+## Stap 4: Karakter
 
 - [[Doelgericht]]
 - [[Zelfstandig]]  
@@ -38,8 +38,7 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 ## Bibliotheek
 
 - [[Links man]]
-- [[Artikelen man]]
 - [[Boeken man]]
 - [[Quotes man]]
-- [[Onderwerpen man]]
+
 
