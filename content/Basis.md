@@ -37,12 +37,13 @@ Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven he
 - [[De mens]]
 - [[Zonde]]
 - [[Jezus Christus]]
-- [[Redding]]
+- [[Bekering]]
+- [[Geloof]]
 - [[Dopen]]
 - [[De Heilige Geest]]
-- [[Gehoorzaamheid - Jezus volgen]]
+- [[Gehoorzaamheid]]
 - [[Eeuwig oordeel]]
-[[Gehoorzaamheid]]
+
 %%
 
 God is heilig
