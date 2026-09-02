@@ -8,42 +8,53 @@
 ## D
 
 - [[Dankbaarheid]]
+- [[Discipline]]
 - [[Doelgericht]]
+- [[Doorzettingsvermogen]]
+
+## F
+
+- [[Focus]]
+
+## G
+
+- [[Gastvrij]]
+- [[Genade]]
+- [[Goede gewoontes]]
+
+## M
+
+- [[Moedig]]
+
+## O
+
+- [[Opbouwend]]
+
+## S
+
+- [[Standvastig]]
+
+## T
+
+- [[Taken in kleine stukjes verdelen]]
+- [[Trouw]]
 
 ## V
 
+- [[Verantwoordelijk]]
 - [[Vergevingsgezind]]
 - [[Voorbereiding]]
 - [[Vooruitkijken]]
 - [[Vrienden]]
+- [[Vrijgevig]]
 
----
+## IJ
 
-[[Discipline]]
-[[Doorzettingsvermogen]]
+- [[IJverig]]
 
-[[Focus]]
+## Z
 
-[[Gastvrij]]
-[[Genade]]
-[[Goede gewoontes]]
-
-[[Moedig]]
-
-[[Opbouwend]]
-
-[[Standvastig]]
-
-[[Taken in kleine stukjes verdelen]]
-[[Trouw]]
-
-[[Verantwoordelijk]]
-
-[[Vrijgevig]]
-
-[[IJverig]]
-
-[[Zelfstandig]]  
+- [[Zelfstandig]]  
 
 ---
 
