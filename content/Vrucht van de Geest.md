@@ -40,27 +40,17 @@ Als u die slecht bent, uw kinderen dus goede gaven weet te geven, hoeveel te mee
 
 ---
 
-Welzalig de man
+1 Welzalig de man
 die niet wandelt in de raad van de goddelozen,
 die niet staat op de weg van de zondaars,
 die niet zit op de zetel van de spotters,
-~ Psalm 1:1
-
-maar die zijn vreugde vindt in de wet van de HEERE
+2 maar die zijn vreugde vindt in de wet van de HEERE
 en Zijn wet dag en nacht overdenkt.
-~ Psalm 1:2
-
-Want hij zal zijn als een boom, geplant aan waterbeken,
+3 Want hij zal zijn als een boom, geplant aan waterbeken,
 die zijn vrucht geeft op zijn tijd,
 waarvan het blad niet afvalt;
 al wat hij doet, zal goed gelukken.
-~ Psalm 1:3
-
-*Maar* zo zijn de goddelozen niet:
-die zijn juist als het kaf, dat de wind wegblaast.
-~ Psalm 1:4
-
-
+~ Psalm 1:1-3
 
 %%
 
@@ -68,18 +58,11 @@ Vrucht van de Geest:
 - Gal. 5:22
 - Efeze 5:9 (nog een tekst over de vrucht van de Geest)
 
-
+---
 
 ➔ Vervulling met de Geest
 
 ---
-
-In Christus blijven 
-
-"Blijf in Mij, zonder Mij kunt je niets doen."
-➔ vruchtdragen
-
-1 Joh. 15:1-8
 
 %%
 
