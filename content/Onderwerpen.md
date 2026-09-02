@@ -1,19 +1,22 @@
+- [[Zelfstandig]]  
+- [[IJverig]]
+- [[Standvastig]]
+- [[Beschermend]]
+- [[Verantwoordelijk]]
+
+---
 
 - [[Doelgericht]]
 
-- [[Zelfstandig]]  
-
 - [[Opbouwend]]
 
-- [[Standvastig]]
-
 - [[Moedig]]
-
-- [[IJverig]]
 
 - [[Vrijgevig]]
 
 - [[Vooruitkijken]]
+
+---
 
 - [[Vrienden]]
 
@@ -45,7 +48,6 @@ Medelijden hebben met anderen, waarbij je een ander iets gunt
 Een ander heeft je iets aangedaan en heeft een schuld bij je, meestal emotioneel, je scheldt hem de schuld kwijt
 
 ---
-
 ## Doorzettingsvermogen
 
 Aanhoudend
@@ -84,3 +86,23 @@ Doorzetten ook al is het niet leuk. Doen wat er moet gebeuren. Doorzetten totdat
 - Trouw in je werk
 - Betrouwbaar
 - Op je kunnen bouwen
+
+## Betrouwbaar
+
+- Van je op aan kunnen
+- Er zijn
+- Stabiel
+- Evenwichtig
+- Bezonnen, wijs
+- Te vertrouwen
+
+---
+## Trouw
+
+---
+
+Betrouwbaarheid Bijbel
+
+https://logos.nl/
+https://answersingenesis.org/
+
