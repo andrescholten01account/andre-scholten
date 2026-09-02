@@ -24,5 +24,5 @@
 
 ---
 
-Zie: Toekomst ➔ [[Het eeuwige oordeel]]
+Zie: Toekomst ➔ [[Eeuwig oordeel]]
 

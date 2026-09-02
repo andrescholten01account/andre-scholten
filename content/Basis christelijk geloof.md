@@ -6,7 +6,7 @@
 - [[Dopen]]
 - [[De Heilige Geest]]
 - [[Gehoorzaamheid - Jezus volgen]]
-- [[Het eeuwige oordeel]]
+- [[Eeuwig oordeel]]
 
 %%
 

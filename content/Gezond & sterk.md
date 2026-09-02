@@ -67,7 +67,7 @@ Humor:
 	- Schaken
 	- [[Taken systematisch uitvoeren]]
 - Alles op een rij hebben
-- Georganiseerd zijn 
+- [[Georganiseerd zijn]]
 - Planning
 - [[Strategisch]]
 - [[Van je afschrijven]]
