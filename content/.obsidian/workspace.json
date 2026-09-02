@@ -22,163 +22,8 @@
               "icon": "lucide-file",
               "title": "index"
             }
-          },
-          {
-            "id": "b58bce88369c1a48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basis christelijk geloof.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basis christelijk geloof"
-            }
-          },
-          {
-            "id": "cdb83b9028129296",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tucht in de opvoeding.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tucht in de opvoeding"
-            }
-          },
-          {
-            "id": "b2e4130868061348",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "God.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "God"
-            }
-          },
-          {
-            "id": "b59ea71fd704096b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Volharding.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Volharding"
-            }
-          },
-          {
-            "id": "0c285cb4426a843b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eeuwig oordeel.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Eeuwig oordeel"
-            }
-          },
-          {
-            "id": "d37620e414a4283e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vader.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vader"
-            }
-          },
-          {
-            "id": "7c10dbb265ee34fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gehoorzaamheid - Jezus volgen.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gehoorzaamheid - Jezus volgen"
-            }
-          },
-          {
-            "id": "c137d9e5bb2dce2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redding.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Redding"
-            }
-          },
-          {
-            "id": "54a0bfffc1bce273",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apologetiek.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Apologetiek"
-            }
-          },
-          {
-            "id": "1bd5394bb58fef1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bijbel lezen.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bijbel lezen"
-            }
-          },
-          {
-            "id": "7c05360ccdb3bc27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ontspan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ontspan"
-            }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -269,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ontspan.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -370,8 +215,12 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "7c05360ccdb3bc27",
+  "active": "647dd6bd11be4d6e",
   "lastOpenFiles": [
+    "Basis christelijk geloof.md",
+    "Tucht in de opvoeding.md",
+    "God.md",
+    "Ontspan.md",
     "Man.md",
     "index.md",
     "Bijbel lezen.md",
@@ -391,13 +240,9 @@
     "Gods Woord.md",
     "Bidden.md",
     "Logisch denken.md",
-    "Basis christelijk geloof.md",
     "Dood.md",
     "Volharding.md",
     "Onderwijs.md",
-    "Woorden.md",
-    "God.md",
-    "Tucht in de opvoeding.md",
     "atheist.doc",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",

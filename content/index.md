@@ -9,14 +9,14 @@ Hoe ben je een gezin naar Gods hart? Welke rol heeft de man, als leider van het 
 
 ---
 
-> Husbands should try to make home happy and holy.
-> ~ Charles Spurgeon
+Husbands should try to make home happy and holy.
+~ Charles Spurgeon
 
 ---
 
-> Win een man, win het gezin
-> Win het gezin, win de gemeente
-> Win de gemeente, win Nederland
+Win een man, win het gezin
+Win het gezin, win de gemeente
+Win de gemeente, win Nederland
 
 %%
 ## Hoofdmenu
