@@ -1,16 +1,14 @@
-## [[Bekering]]
-
-## [[Geloof]]
-
-%%
-
-[[Hebr. 2 vers 17 - verzoenen]]
+[[Bekering]]
 
 ---
 
-Openb. 21:6 Uitnodiging tot eeuwig leven 
-➔ redding
-➔ evangelisatie
+[[Geloof]]
 
-%%
+---
+
+[[Verzoening]]
+
+---
+
+Rechtvaardiging
 

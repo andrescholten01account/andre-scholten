@@ -31,7 +31,7 @@ Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven he
 ~ Mattheüs 22:37-40
 
 ---
-## Basis christelijk geloof
+## [[God en Zijn redding - Basis in het kort|Basis christelijk geloof]]
 
 - [[God]]
 - [[De mens]]
@@ -42,17 +42,7 @@ Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven he
 - [[De Heilige Geest]]
 - [[Gehoorzaamheid - Jezus volgen]]
 - [[Eeuwig oordeel]]
-
----
-
-[[God en Zijn redding - Basis in het kort|Basis in het kort]]
-
----
-
-[[Apologetiek]]
-
----
-
+[[Gehoorzaamheid]]
 %%
 
 God is heilig

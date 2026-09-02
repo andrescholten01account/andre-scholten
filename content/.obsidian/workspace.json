@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis.md",
+                "file": "Gehoorzaamheid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basis"
+              "title": "Gehoorzaamheid"
             }
           }
         ],
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basis.md",
+                "file": "Gehoorzaamheid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,34 +229,34 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "b10f3ab85a515151",
+  "active": "e0ea03374bf9fff2",
   "lastOpenFiles": [
-    "God en Zijn redding - Basis in het kort.md",
     "Basis.md",
-    "Basis christelijk geloof.md",
+    "Gehoorzaamheid - Jezus volgen.md",
+    "Eeuwig oordeel.md",
+    "God en Zijn redding - Basis in het kort.md",
+    "Gehoorzaamheid.md",
+    "Onderwijs.md",
+    "Onderwerpen.md",
+    "Redding.md",
+    "Verzoening.md",
+    "Hebr. 2 vers 17 - verzoenen.md",
+    "Evangelisatie.md",
     "De Oude Wereld.md",
+    "Apologetiek.md",
+    "Basis christelijk geloof.md",
     "Kern.md",
     "Man.md",
     "Bronnen.md",
-    "Onderwerpen.md",
     "index.md",
     "Tucht in de opvoeding.md",
     "God.md",
     "Ontspan.md",
     "Bijbel lezen.md",
-    "Apologetiek.md",
-    "Eeuwig oordeel.md",
-    "Redding.md",
-    "Gehoorzaamheid - Jezus volgen.md",
-    "Gehoorzaamheid.md",
     "Vader.md",
     "Kinderen.md",
     "Logica.md",
     "Zonde.md",
-    "Vloek over de slang; belofte van een Redder.md",
-    "Noachs offer; Gods belofte.md",
-    "Gods Woord.md",
-    "Bidden.md",
     "atheist.doc",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",

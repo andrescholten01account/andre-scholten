@@ -2,7 +2,7 @@
 2 Ik ben de HEERE, uw God, Die u uit Egypteland, uit het diensthuis, uitgeleid heb.
 ~ [Exodus 20:1-2](https://gezinvoorgod.nl/studiebijbel/exodus/20#v1) 
 
-## GOD
+## [[GOD]]
 
 God is de Schepper van de hemel en de aarde¹, en de mens². Hij is almachtig³, alwetend⁴, eeuwig⁵, alomtegenwoordig⁶, heilig⁷, en rechtvaardig⁸.
 
@@ -15,7 +15,7 @@ God is de Schepper van de hemel en de aarde¹, en de mens². Hij is almachtig³,
 ⁷ [Leviticus 20:26](https://gezinvoorgod.nl/studiebijbel/leviticus/20#v26)
 ⁸ [Jesaja 45:21](https://gezinvoorgod.nl/studiebijbel/jesaja/45#v21)
 
-## DE MENS
+## [[DE MENS]]
 
 De mens is geschapen naar het beeld van God¹, en in de hof van Eden gezet om die te bewerken en te onderhouden². Hij mocht van elke boom eten, behalve van de boom van de kennis van goed en kwaad, want als ze dat deden, dan zouden ze zeker sterven³. De mens deed het toch, werd uit de hof van Eden gezet en stierf⁴.
 
@@ -24,7 +24,7 @@ De mens is geschapen naar het beeld van God¹, en in de hof van Eden gezet om di
 ³ [Genesis 2:16-17](https://gezinvoorgod.nl/studiebijbel/genesis/2#v16)
 ⁴ [Genesis 3:6-8](https://gezinvoorgod.nl/studiebijbel/genesis/3#v6); [Genesis 3:22-23](https://gezinvoorgod.nl/studiebijbel/genesis/3#v22); [Genesis 5:5](https://gezinvoorgod.nl/studiebijbel/genesis/5#v5)
 
-## ZONDE
+## [[ZONDE]]
 
 Het gevolg van de zonde is de dood¹. En zonde brengt scheiding tussen een mens en God². Sterft een mens in zijn zonden, dan zal hij voor eeuwig gestraft worden voor zijn zonden³.
 
@@ -32,14 +32,14 @@ Het gevolg van de zonde is de dood¹. En zonde brengt scheiding tussen een mens 
 ² [Jesaja 59:2](https://gezinvoorgod.nl/studiebijbel/jesaja/59#v2)
 ³ [Openbaring 20:15](https://gezinvoorgod.nl/studiebijbel/openbaring/20#v15); [Mattheüs 13:41-42](https://gezinvoorgod.nl/studiebijbel/mattheus/13#v41)
 
-## JEZUS CHRISTUS
+## [[JEZUS CHRISTUS]]
 
 Maar gelukkig heeft God Zijn Zoon Jezus Christus naar de aarde gestuurd om de straf te dragen voor de zonden van alle mensen¹. Zodat iedereen die in Hem gelooft niet voor eeuwig gestraft wordt voor zijn zonden, maar voor eeuwig mag leven².
 
 ¹ [Jesaja 53:5-6](https://gezinvoorgod.nl/studiebijbel/jesaja/53#v5); [1 Petrus 2:24-25](https://gezinvoorgod.nl/studiebijbel/1-petrus/2#v24)
 ² [Johannes 3:16](https://gezinvoorgod.nl/studiebijbel/johannes/3#v16)
 
-## BEKERING
+## [[BEKERING]]
 
 Hoe ontvangt iemand dit eeuwige leven?
 
@@ -47,7 +47,7 @@ Hoe ontvangt iemand dit eeuwige leven?
 
 ¹ [Jesaja 55:7](https://gezinvoorgod.nl/studiebijbel/jesaja/55#v7); [Galaten 5:19-22](https://gezinvoorgod.nl/studiebijbel/galaten/5#v19)
 
-## GELOOF
+## [[GELOOF]]
 
 2 - Hij accepteert Jezus Christus als Degene Die hem verlost heeft van de straf voor zijn zonden door voor hem de straf van zijn zonden te dragen aan het kruis¹
 
@@ -57,25 +57,25 @@ Hoe ontvangt iemand dit eeuwige leven?
 
 ² [Romeinen 3:28](https://gezinvoorgod.nl/studiebijbel/romeinen/3#v28)
 
-## DOPEN
+## [[DOPEN]]
 
 Als gevolg van deze keuze voor God moet hij zich laten dopen¹.
 
 ¹ [Handelingen 2:37-38](https://gezinvoorgod.nl/studiebijbel/handelingen/2#v37)
 
-## DE HEILIGE GEEST
+## [[DE HEILIGE GEEST]]
 
 En ontvangt hij de Heilige Geest, zodat hij God kan gehoorzamen¹.
 
 ¹ [Handelingen 8:17](https://gezinvoorgod.nl/studiebijbel/handelingen/8#v17); [Ezechiël 36:27](https://gezinvoorgod.nl/studiebijbel/ezechiel/36#v27)
 
-## GEHOORZAAMHEID
+## [[GEHOORZAAMHEID]]
 
 Want het geloof moet zich wel uiten in daden¹.
 
 ¹ [Jakobus 2:14](https://gezinvoorgod.nl/studiebijbel/jakobus/2#v14)
 
-## HET EEUWIGE OORDEEL
+## [[EEUWIG OORDEEL]]
 
 Als iemand heeft geleefd zoals God dat wil, zal hij daarvoor beloond worden¹. Maar als iemand niet heeft geleefd zoals God dat wil, dan zal hij daarvoor voor eeuwig gestraft worden².
 

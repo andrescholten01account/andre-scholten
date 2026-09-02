@@ -383,3 +383,7 @@ Gods daden herinneren:
 1 kon 2:2-3 Wees een man
 1 kon. 2:2-3 gehoorzaamheid
 
+---
+
+[[Evangelisatie]]
+

@@ -31,6 +31,10 @@
 
 - [[Opbouwend]]
 
+## R
+
+- [[Redding]]
+
 ## S
 
 - [[Standvastig]]
@@ -44,6 +48,7 @@
 
 - [[Verantwoordelijk]]
 - [[Vergevingsgezind]]
+- [[Verzoening]]
 - [[Volharding]]
 - [[Voorbereiding]]
 - [[Vooruitkijken]]

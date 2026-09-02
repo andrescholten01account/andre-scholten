@@ -7,3 +7,9 @@
 
 ➔ [[Gehoorzaamheid]]
 
+---
+
+Openb. 21:6 Uitnodiging tot eeuwig leven 
+➔ redding
+➔ evangelisatie
+
