@@ -71,8 +71,7 @@
               "title": "Vader"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -264,15 +263,15 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "a72119737a2d4435",
+  "active": "647dd6bd11be4d6e",
   "lastOpenFiles": [
+    "Vader.md",
     "Het eeuwige oordeel.md",
     "Geschiedenis.md",
     "De Oude Wereld.md",
     "Vaderlandse geschiedenis.md",
     "Standvastig.md",
     "Man.md",
-    "Vader.md",
     "index.md",
     "Technische tips.md",
     "Logisch denken voor christen.md",

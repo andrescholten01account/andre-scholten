@@ -187,5 +187,16 @@ Mat. 2:24 profetie Jezus (en meer) + uitgekomen
 
 Tekst Oude Testament (voorzegging) ➔ tekst Nieuwe Testament (uitgekomen)
 
+---
+
+Mat. 3:1-3 uitgekomen profetie
+Mat. 3:8 bekering
+Mat. 3:10 gehoorzaamheid
+Mat. 3:11 dopen met de Heilige Geest
+Mat. 3:12 eeuwig oordeel
+Mat. 3:16 Jezus is gedoopt 
+Mat. 3:16 De Geest kwam op Jezus (➔ eerst dopen, dan de Heilige Geest ontvangen) 
+Mat. 3:17 Jezus is de geliefde Zoon van God 
+
 %%
 
