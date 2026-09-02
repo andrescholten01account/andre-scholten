@@ -1,7 +1,22 @@
-## Jezus Christus zal iedereen oordelen naar zijn werken
+## Iedereen moet voor de rechterstoel van Christus komen
 
-Want wij moeten allen geopenbaard worden voor de rechterstoel van Christus, opdat ieder ontvangt wat door het lichaam gedaan is, naarmate hij gedaan heeft, hetzij goed, hetzij kwaad.
-~ [2 Korinthe 5:10](https://gezinvoorgod.nl/studiebijbel/2-korinthe/5#v10) (SVnu)
+Want wij moeten allen voor de rechterstoel van Christus openbaar worden, opdat ieder *vergelding* ontvangt voor wat hij door middel van *zijn* lichaam gedaan heeft, hetzij goed, hetzij kwaad.
+~ 2 Korinthe 5:10
+
+## Iedereen wordt geoordeeld naar hoe hij geleefd heeft
+
+Want wij moeten allen voor de rechterstoel van Christus openbaar worden, opdat ieder *vergelding* ontvangt voor wat hij door middel van *zijn* lichaam gedaan heeft, hetzij goed, hetzij kwaad.
+~ 2 Korinthe 5:10
+
+## Jezus gehoorzamen is beloning
+
+Want wij moeten allen voor de rechterstoel van Christus openbaar worden, opdat ieder *vergelding* ontvangt voor wat hij door middel van *zijn* lichaam gedaan heeft, hetzij goed, hetzij kwaad.
+~ 2 Korinthe 5:10
+
+## Jezus ongehoorzaam zijn is straf
+
+Want wij moeten allen voor de rechterstoel van Christus openbaar worden, opdat ieder *vergelding* ontvangt voor wat hij door middel van *zijn* lichaam gedaan heeft, hetzij goed, hetzij kwaad.
+~ 2 Korinthe 5:10
 
 ## Als je hebt geleefd zoals Jezus Christus het wil, dan ontvang je het eeuwige leven
 
