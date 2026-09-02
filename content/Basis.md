@@ -5,7 +5,10 @@ Heilig hen door Uw waarheid; Uw woord is de waarheid.
 
 Gods Woord is het vertrekpunt ons ons denken en leven. Gods Woord is waar, vanaf het begin. 
 
-[[De Oude Wereld|Genesis 1 - 11]] leert ons over God, de schepping, de eerste mensen, en de wereldwijde vloed als straf op ongehoorzaamheid aan God. 
+---
+## [[De Oude Wereld|Genesis 1 - 11]] 
+
+Gaat over God, de schepping, de eerste mensen, en de wereldwijde vloed als straf op ongehoorzaamheid aan God. 
 
 ---
 ## Kernovertuigingen
