@@ -1,3 +1,5 @@
+Heb je leven op orde. 
+
 Als je leven goed geordend is, dan heb je meer energie. Mentaal heb je ook meer over. Je hoeft niet telkens over bepaalde dingen na te denken, omdat ze al goed lopen of goed geregeld zijn. Onderdelen van een geordend leven:
 
 1 - Ordelijk denken

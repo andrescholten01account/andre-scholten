@@ -1,3 +1,5 @@
+Eet gezond. 
+
 Ook een gezond eetpatroon hoort bij fit & energiek zijn. Dat gaat om wat je wel en niet eet, en wanneer. Hier kan ik kort over zijn:
 
 1. Eet wel gezonde dingen

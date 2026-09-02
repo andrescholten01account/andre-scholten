@@ -1,3 +1,5 @@
+Beweeg voldoende.
+
 Als het goed is heb je door een goede nachtrust en een gezond eetpatroon voldoende energie om te bewegen. Goed om te weten: als je beweegt, dan krijg je daar ook weer energie van. 
 
 Een aantal dingen die je kunt doen om voldoende beweging te krijgen:

@@ -1,3 +1,5 @@
+Krijg voldoende slaap. 
+
 Voldoende slaap is belangrijk. Als je genoeg slaap krijg, dan heb je:
 
 - Veel energie 

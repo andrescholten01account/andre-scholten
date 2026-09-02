@@ -17,11 +17,11 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 ## Stap 3: [[Fit & energiek]] 
 
-1. [[Krijg voldoende slaap]]
-2. [[Eet gezond]]
-3. [[Beweeg voldoende]]
-4. [[Ontspan en laad op]]
-5. [[Heb je leven op orde]]
+1. [[Slaap]]
+2. [[Eet]]
+3. [[Beweeg]]
+4. [[Ontspan]]
+5. [[Orden]]
 
 ## Stap 4: Meer over karakter
 

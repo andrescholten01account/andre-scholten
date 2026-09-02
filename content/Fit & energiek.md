@@ -1,10 +1,10 @@
 Als je fit & energiek bent, dan gaat je hele leven gewoon beter. Je zit lekkerder in je vel, het Bijbel lezen gaat beter door betere focus, en de omgang met andere mensen loopt soepeler. Gebruik het volgende stappenplan om fit & energiek te worden: 
 
-1. [[Krijg voldoende slaap]]
-2. [[Eet gezond]]
-3. [[Beweeg voldoende]]
-4. [[Ontspan en laad op]]
-5. [[Heb je leven op orde]]
+1. [[Slaap]]
+2. [[Eet]]
+3. [[Beweeg]]
+4. [[Ontspan]]
+5. [[Orden]]
 
 ---
 ## Orden je angst
