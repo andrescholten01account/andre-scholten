@@ -15,7 +15,7 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 - [[Hou van je naaste]]
 - [[Vrucht van de Geest]]
 
-## Stap 3: [[Gezond & sterk]] 
+## Stap 3: [[Fit & energiek]] 
 
 - [[Doelgericht]]
 - [[Zelfstandig]]  

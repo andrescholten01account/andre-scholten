@@ -1,11 +1,16 @@
-# Slaap
+Als je fit & energiek bent, dan gaat je hele leven gewoon beter. Je zit lekkerder in je vel, het Bijbel lezen gaat beter door betere focus, en de omgang met andere mensen loopt soepeler. Gebruik het volgende stappenplan om fit & energiek te worden: :
 
-1 - Wat als ik genoeg slaap? 
+## Stap 1: Krijg voldoende slaap
 
-- Genoeg energie
-- Opgeruimd hoofd
-- Meer mentale kracht
-- Gezonde testosteronspiegel
+Voldoende slaap is belangrijk. Als je genoeg slaap krijg, dan heb je:
+
+- Energie
+- Een opgeruimd hoofd
+- Meer mentale kracht  
+
+De dingen lukken dan gewoon beter.
+
+Verder is een goede nachtrust ook goed voor: een gezonde testosteronspiegel, uitgerust en alert zijn, lekker in je vel zitten, het beter onthouden van dingen, verwerken van emoties, heeft het een p
 - Overdag uitgeruster en alerter
 - Lekkerder in je vel
 - Dingen beter onthouden 
@@ -20,22 +25,21 @@
 - Krijg niets voor elkaar
 
 ---
-# Eten
+
+## Stap 2: Eet gezond
 
 - Wat eten? Wat niet?
 - Hoeveel eten?
 - Wanneer eten? En wanneer niet? 
 	- 's Avonds niet meer eten
 
----
-# Beweging
+## Stap 3: Beweeg voldoende
 
 6000 stappen
 Hardlopen
 Krachttraining
 
----
-## Ontspanning
+## Stap 4: Ontspan en heb plezier
 
 Rust:
 
@@ -60,7 +64,7 @@ Humor:
 - Wandelen
 - Spelletjes
 
-## Orde
+## Stap 5: Heb je leven op orde
 
 - Ordelijk denken
 	- [[Logisch denken voor christen|Logica]]
