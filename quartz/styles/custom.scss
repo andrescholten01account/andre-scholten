@@ -4,12 +4,20 @@
 
 a:not(.page-title a):not(.site-nav a) {
   background-color: transparent !important;
-  text-decoration: underline !important;
-  // Chrome/Edge maken de streep met 'auto' dikker dan Firefox; expliciet
-  // 1px vastzetten zodat alle browsers de dunne Firefox-lijn tonen.
-  text-decoration-thickness: 1px !important;
-  text-underline-offset: 3px;
   font-weight: normal;
+
+  // Chrome/Edge tekenen de echte `text-decoration`-onderstreping dikker dan
+  // Firefox en ronden `text-decoration-thickness` af op hele device-pixels,
+  // waardoor 1px daar toch als een dikke lijn verschijnt. Daarom tekenen we
+  // de streep zelf met een achtergrond-gradient: die is in elke browser exact
+  // 1px hoog en volgt de tekstkleur (ook bij hover en in dark mode).
+  &:not(:has(img)) {
+    text-decoration: none !important;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+  }
 }
 
 .page-title a {
