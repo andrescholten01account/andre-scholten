@@ -1,0 +1,3 @@
+> Before anything else, preparation is the key to success.
+> ~ Alexander Graham Bell 
+
