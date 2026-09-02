@@ -3,12 +3,14 @@
 
 Hoe ben je een man naar Gods hart? Hoe ben je gezond & fit? Hoe hoort een christelijke man te leven?  
 
+---
 ## Stap 1: [[Omgang met God]]
 
 1. [[Bidden]]
 2. [[Bijbel lezen]]
 3. [[Zingen]]
 
+---
 ## Stap 2: [[Vrucht van de Geest]]
 
 1. [[Liefde]]
@@ -21,6 +23,7 @@ Hoe ben je een man naar Gods hart? Hoe ben je gezond & fit? Hoe hoort een christ
 8. [[Zachtmoedigheid]]
 9. [[Zelfbeheersing]]
 
+---
 ## Stap 3: [[Fit & energiek]] 
 
 1. [[Slaap]]
@@ -29,6 +32,7 @@ Hoe ben je een man naar Gods hart? Hoe ben je gezond & fit? Hoe hoort een christ
 4. [[Ontspan]]
 5. [[Orden]]
 
+---
 ## Bibliotheek
 
 - [[Basis]]

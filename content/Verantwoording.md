@@ -2,4 +2,3 @@
 - [[Copyright policy]]
 - [[Bronnen afbeeldingen]]
 
-

@@ -3,6 +3,7 @@
 
 Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je gezin om te leven zoals God dat wil? Hoe creëer je een warm en liefdevol thuis?
 
+---
 ## Gezin
 
 - [[God op de eerste plaats in het gezin|God op de eerste plaats]]
@@ -26,6 +27,7 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - [[Plezier als gezin|Plezier]]
 - [[Kind en aanbidding en christelijke muziek]]
 
+---
 ## [[Vaderschap]]
 
 - [[God op de eerste plaats - vaderschap|God op de eerste plaats]]
@@ -62,10 +64,12 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - [[Onderwijs]]
 - [[Je kinderen discipelen]]
 
+---
 ## Moeder
 
 - [[De rol van de moeder]]
 
+---
 ## [[Kinderen]]
 
 - [[Hoe horen kinderen zich te gedragen]]
@@ -80,12 +84,14 @@ Hoe ben je een vader naar Gods hart? Hoe voed je je kinderen op en leid je je ge
 - [[Evangelie voor kinderen]]
 - [[Gebeden voor kinderen]]
 
+---
 ## [[Grootouders]]
 
 - Opa
 - Oma
 - Kleinkinderen
 
+---
 ## Bibliotheek
 
 - [[Links gezin]]
