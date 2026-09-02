@@ -144,5 +144,5 @@ B. Nageslacht Sem (11:10-26)
 
 ---
 
-➔ Zie: [[Vaderlandse geschiedenis]]
+➔ [[Geschiedenis]]
 
