@@ -70,13 +70,14 @@ Dit gaat om het opladen, positieve spanning krijgen. Dingen die waar je puur voo
 ---
 ## Stap 5: Heb je leven op orde
 
-Als je leven goed geordend is, dan heb je meer energie. Mentaal heb je ook meer over. Je hoeft niet telkens over bepaalde dingen na te denken, omdat ze al goed lopen of goed geregeld zijn. 
+Als je leven goed geordend is, dan heb je meer energie. Mentaal heb je ook meer over. Je hoeft niet telkens over bepaalde dingen na te denken, omdat ze al goed lopen of goed geregeld zijn. Onderdelen van een geordend leven:
+
+1 - Ordelijk denken
+
+- [[Logisch denken]]
+- [[Schaken]] ➔ helpt om ordelijk te denken 
 
 
-
-- Ordelijk denken
-	- [[Logisch denken voor christen|Logica]]
-	- Schaken
 	- [[Taken systematisch uitvoeren]]
 - Alles op een rij hebben
 - [[Georganiseerd zijn]]
