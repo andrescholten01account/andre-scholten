@@ -2,6 +2,7 @@
 
 - [[Barmhartigheid]]
 - [[Bemoedigen]]
+- [[Beschermend]]
 - [[Betrouwbaar]]
 
 ## D
@@ -30,8 +31,24 @@
 
 [[Opbouwend]]
 
+[[Standvastig]]
+
 [[Taken in kleine stukjes verdelen]]
 [[Trouw]]
+
+[[Verantwoordelijk]]
+
+[[Vrijgevig]]
+
+[[IJverig]]
+
+[[Zelfstandig]]  
+
+
+
+
+
+[[Gastvrij]]
 
 ---
 

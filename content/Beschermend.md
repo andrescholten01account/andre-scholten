@@ -28,3 +28,15 @@ Filippenzen 4
 Harten en gedachten bewaren
 -> beschermen
 
+---
+
+We lezen in Spreuken 4:23:
+
+Behoed uw hart boven alles wat te bewaren is, want daaruit komt het leven voort.
+~ [Spreuken 4:23](https://gezinvoorgod.nl/studiebijbel/spreuken/4#v23) (SVnu)
+
+En in Lukas 6:45:
+
+De goede mens brengt het goede voort uit de goede schat van zijn hart; en de slechte mens brengt het kwade voort uit de kwade schat van zijn hart; want uit de overvloed van het hart spreekt zijn mond.
+~ [Lukas 6:45](https://gezinvoorgod.nl/studiebijbel/lukas/6#v45) (SVnu)
+

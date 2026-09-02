@@ -1,25 +1,16 @@
-Om een man naar Gods hart te zijn lijkt het me voor de hand liggen dat je omgang met God in orde is. Ik heb het hier over "stille tijd", die overigens helemaal niet stil hoeft te zijn. Het gaat hier om een relatie met God, het kennen van God. Hieruit vloeit gehoorzaamheid aan God voort. Eerst de relatie, dan de regels. Zie [[Wandelen met God]], [[Hou van God]], [[Hou van je vrouw]], en [[Vrucht van de Geest]]. 
+Henoch wandelde met God, en hij was niet *meer*, want God nam hem weg.
+~ Genesis 5:24
 
-Voor de persoonlijke omgang met God zijn 3 dingen belangrijk:
+Door het geloof werd Henoch weggenomen, opdat hij de dood niet zou zien. En hij werd niet gevonden, omdat God hem weggenomen had. Vóór zijn wegneming kreeg hij namelijk het getuigenis dat hij God behaagde.
+~ Hebreeën 11:5
 
-1. Bidden
-2. Bijbel lezen
-3. Zingen
+---
 
-We lezen in Spreuken 4:23:
+Dit zijn de afstammelingen van Noach. Noach was een rechtvaardig, oprecht man onder zijn tijdgenoten. Noach wandelde met God.
+~ Genesis 6:9
 
-Behoed uw hart boven alles wat te bewaren is, want daaruit komt het leven voort.
-~ [Spreuken 4:23](https://gezinvoorgod.nl/studiebijbel/spreuken/4#v23) (SVnu)
+---
 
-En in Lukas 6:45:
-
-De goede mens brengt het goede voort uit de goede schat van zijn hart; en de slechte mens brengt het kwade voort uit de kwade schat van zijn hart; want uit de overvloed van het hart spreekt zijn mond.
-~ [Lukas 6:45](https://gezinvoorgod.nl/studiebijbel/lukas/6#v45) (SVnu)
-
-Als we vol zijn van God, dan:
-
-1. Willen we Hem ook gehoorzamen
-2. Willen we met anderen over Hem praten
-
-Vul je hart dus met God door je persoonlijke omgang met Hem. 
+wat wij gezien en gehoord hebben, verkondigen wij u, opdat ook u gemeenschap met ons hebt; en deze gemeenschap van ons is er ook met de Vader en met Zijn Zoon Jezus Christus.
+~ 1 Johannes 1:3
 

@@ -25,13 +25,6 @@ Hoe ben je een man naar Gods hart? Hoe ben je gezond & fit? Hoe hoort een christ
 
 ## Stap 4: Karakter
 
-- [[Zelfstandig]]  
-- [[IJverig]]
-- [[Standvastig]]
-- [[Beschermend]]
-- [[Verantwoordelijk]]
-- [[Vrijgevig]]
-- [[Gastvrij]]
 
 ## Bibliotheek
 
@@ -39,3 +32,9 @@ Hoe ben je een man naar Gods hart? Hoe ben je gezond & fit? Hoe hoort een christ
 - [[Onderwerpen]]
 - [[Bronnen]]
 
+---
+
+ [[Wandelen met God]]
+ , [[Hou van God]], 
+ [[Hou van je vrouw]], en
+  [[Vrucht van de Geest]]. 
