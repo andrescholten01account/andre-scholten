@@ -4,36 +4,36 @@ Als je fit & energiek bent, dan gaat je hele leven gewoon beter. Je zit lekkerde
 
 Voldoende slaap is belangrijk. Als je genoeg slaap krijg, dan heb je:
 
-- Energie
+- Veel energie 
 - Een opgeruimd hoofd
 - Meer mentale kracht  
 
 De dingen lukken dan gewoon beter.
 
-Verder is een goede nachtrust ook goed voor: een gezonde testosteronspiegel, uitgerust en alert zijn, lekker in je vel zitten, het beter onthouden van dingen, verwerken van emoties, heeft het een p
-- Overdag uitgeruster en alerter
-- Lekkerder in je vel
-- Dingen beter onthouden 
-- Verwerken van emoties
-- Positieve invloed afweersysteem
-- Verkleint kans op bepaalde ziektes en aandoeningen
+Verder is een goede nachtrust ook goed voor: een gezonde testosteronspiegel, uitgerust en alert zijn, lekker in je vel zitten, het beter onthouden van dingen, verwerken van emoties, heeft het een positieve invloed op het afweersysteem, en verkleint het de kans op bepaalde ziektes en aandoeningen. 
 
-2 - Wat als ik niet genoeg slaap?
+Daarentegen ben je moe en chagerijnig, en lukken de dingen niet goed als je niet genoeg slaap krijgt. Genoeg reden om een goede nachtrust als topprioriteit te hebben. 
 
-- Moe
-- Chagerijnig
-- Krijg niets voor elkaar
+Voor een goede nachtrust is het belangrijk om:
+
+- Te zorgen dat je genoeg uren slaapt ➔ mik op 8 
+- Een vast ritme hebt waarop je naar bed gaat en er weer uit 
+- Mocht één of meerdere keren niet lukken, dan meteen de draad weer op te pakken 
 
 ---
-
 ## Stap 2: Eet gezond
 
-- Wat eten? Wat niet?
-- Hoeveel eten?
-- Wanneer eten? En wanneer niet? 
-	- 's Avonds niet meer eten
+Ook een gezond eetpatroon hoort bij fit & energiek zijn. Dat gaat om wat je wel en niet eet, en wanneer. Hier kan ik kort over zijn:
 
+1. Eet wel gezonde dingen
+2. Eet geen ongezonde dingen
+3. Eet 's avonds na het avondeten niet meer 
+4. Af en toe kun je van deze regels afwijken, hou je daarna weer aan deze regels
+
+---
 ## Stap 3: Beweeg voldoende
+
+Als het goed is heb j
 
 6000 stappen
 Hardlopen
