@@ -352,3 +352,14 @@ U zult geen valse getuigenis spreken tegen uw naaste.
 U zult niet begeren het huis van uw naaste; u zult niet begeren de vrouw van uw naaste, of zijn dienstknecht, of zijn dienstmaagd, of zijn os, of zijn ezel, of iets dat van uw naaste is.
 ~ [Exodus 20:17](https://gezinvoorgod.nl/studiebijbel/exodus/20#v17) (SVnu)
 
+---
+## Hou van God en je naaste 
+
+37 En Jezus zei tegen hem: U zult de Heere, uw God, liefhebben met heel uw hart, en met heel uw ziel, en met heel uw verstand.
+38 Dit is het eerste en het grootste gebod.
+39 En het tweede, hieraan gelijk, is: U zult uw naaste liefhebben als uzelf.
+40 Aan deze twee geboden hangt de hele wet en de profeten.
+~ [Mattheüs 22:37-40](https://gezinvoorgod.nl/studiebijbel/mattheus/22#v37) (SVnu)
+
+%%
+
