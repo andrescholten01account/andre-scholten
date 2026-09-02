@@ -24,6 +24,7 @@
 
 [[Focus]]
 
+[[Gastvrij]]
 [[Genade]]
 [[Goede gewoontes]]
 
@@ -43,12 +44,6 @@
 [[IJverig]]
 
 [[Zelfstandig]]  
-
-
-
-
-
-[[Gastvrij]]
 
 ---
 

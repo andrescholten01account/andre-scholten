@@ -9,11 +9,17 @@ Hoe ben je een man naar Gods hart? Hoe ben je gezond & fit? Hoe hoort een christ
 2. [[Bijbel lezen]]
 3. [[Zingen]]
 
-## Stap 2: [[Wandelen met God]]
+## Stap 2: [[Vrucht van de Geest]]
 
-1. [[Hou van God]] 
-2. [[Hou van je naaste]]
-3. [[Vrucht van de Geest]]
+1. [[Liefde]]
+2. [[Blijdschap]]
+3. [[Vrede]]
+4. [[Geduld]]
+5. [[Vriendelijkheid]]
+6. [[Goedheid]]
+7. [[Vrucht van de Geest - geloof|Geloof]]
+8. [[Zachtmoedigheid]]
+9. [[Zelfbeheersing]]
 
 ## Stap 3: [[Fit & energiek]] 
 
@@ -23,18 +29,9 @@ Hoe ben je een man naar Gods hart? Hoe ben je gezond & fit? Hoe hoort een christ
 4. [[Ontspan]]
 5. [[Orden]]
 
-## Stap 4: Karakter
-
-
 ## Bibliotheek
 
 - [[Basis]]
 - [[Onderwerpen]]
 - [[Bronnen]]
 
----
-
- [[Wandelen met God]]
- , [[Hou van God]], 
- [[Hou van je vrouw]], en
-  [[Vrucht van de Geest]]. 
