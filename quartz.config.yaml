@@ -222,8 +222,11 @@ plugins:
     enabled: true
     options: {}
     order: 50
+  # Deze plugin parseert én verbergt de frontmatter. enabled MOET true zijn,
+  # anders blijft de YAML-frontmatter als platte tekst in de pagina staan.
+  # hidePropertiesView: true zorgt dat er geen properties-blok wordt getoond.
   - source: github:quartz-community/note-properties
-    enabled: false
+    enabled: true
     options:
       includeAll: false
       includedProperties:
