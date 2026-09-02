@@ -76,42 +76,21 @@ Als je leven goed geordend is, dan heb je meer energie. Mentaal heb je ook meer 
 
 - [[Logisch denken]]
 - [[Schaken]] ➔ helpt om ordelijk te denken 
+- Schrijf je leeg ➔ 2x per week 10 minuten een braindump door van je afschrijven 
+
+2 - Ordelijk leven 
+
+- Leven volgens een vast ritme 
+- Plannen
+- [[Systematisch taken uitvoeren]]
+- [[Heb een aantal taken tegelijk open]]
 
 
-	- [[Taken systematisch uitvoeren]]
-- Alles op een rij hebben
-- [[Georganiseerd zijn]]
-- Planning
-- [[Strategisch]]
-- [[Van je afschrijven]]
-- Systematisch denken
-- ritme
+
 
 %%
 
-1 - Krijg voldoende slaap
 
-Dit is een hele belangrijk. Zonder een goede nachtrust functioneer ik simpelweg niet. Gewoon niet. Door een goede slaap worden er dingen verwerkt. Door een goede slaap heb ik een opgeruimd hoofd. Hoe dat werkt, dat weet ik niet, maar wel dat het zo is. Dus dat is heel erg belangrijk
-
-2 - Ontspanning
-
-Ook dat is heel erg belangrijk. Als ik 's avonds doorga met serieuze digen, en geen ontspanning heb, dan lukt het de volgende dag niet zo goed. Doe ik dit meerdere avonden achter elkaar, dan loop ik overdag vast op mijn werk
-
-- Ik heb mijn gedachten er dan niet bij
-- Ik heb de focus dan niet om werk te doen
-- Ik kan geen moeilijke taken doen: de mentale kracht is er simpelweg niet
-- Ik ben ook vermoeider, ik heb namelijk niet opgeladen en dat is heel erg belangrijk. Ik moet mij gewoon opladen. Je hebt het nodig om te ontspannen en iets leuks ontspannends te doen, het is als olie in de machine. Doe je het niet, dan loopt het gewoon niet goed
-
-Leuke dingen doen dus. Heel erg belangrijk. Dat is wel eens een valkuil voor mij. Ik moet hier goed op letten. 
-
-- Mijn gedachten zijn ook overal en nergens als ik niet goed geslapen heb en ontspannen heb, ik krijg ze dan niet bij elkaar om te focussen. Dat is belangrijk om te weten. 
-
-➔ Wat verder belangrijk is om te weten, is dat ik 's avonds geen beeldscherm moet doen. Een beeldscherm zorgt er namelijk voor:
-
-- Dat ik die avond geen ontspanning heb ➔ ik kan wel leuke dingen doen, maar het is anders dan geen beeldscherm, alsof ik er achteraf totaal niet door ontspan 
-- Als ik 's avonds achter een scherm zit ga ik ook vaak te laat naar bed: nog even iets opzoeken op internet wordt al gauw 2 uur te laat naar bed. Dus dan is het negatieve effect dubbelop: 1. Geen ontspanning. 2. Te laat naar bed 
-
-Beter dus om op een andere manier te ontspannen 's avonds:
 
 1. Geen beeldscherm na het avondeten
 2. Avonturenboek lezen / boek ter ontspanning
