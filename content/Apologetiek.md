@@ -35,6 +35,8 @@
 
 https://zoektocht.net/
 
+[[Betrouwbaarheid Bijbel]]
+
 %%
 
 [[Ik heb te weinig geloof om atheïst te zijn]]

@@ -1,0 +1,1 @@
+Medelijden met een ander hebben en omzien naar een ander
