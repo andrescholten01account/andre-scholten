@@ -92,8 +92,65 @@
               "icon": "lucide-file",
               "title": "Onderwerpen"
             }
+          },
+          {
+            "id": "9fa24ba7c5ce18ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Logica"
+            }
+          },
+          {
+            "id": "ed02f41704970aa4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zonde.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zonde"
+            }
+          },
+          {
+            "id": "cbd340c82aefc498",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bijbel lezen.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bijbel lezen"
+            }
+          },
+          {
+            "id": "690dfc2d182f88d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "De Oude Wereld.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "De Oude Wereld"
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -184,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "De Oude Wereld.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,34 +342,34 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "647dd6bd11be4d6e",
+  "active": "690dfc2d182f88d4",
   "lastOpenFiles": [
-    "Onderwerpen.md",
-    "Bijbel lezen.md",
+    "Vloek over de slang; belofte van een Redder.md",
+    "De Oude Wereld.md",
+    "Noachs offer; Gods belofte.md",
     "index.md",
+    "Bijbel lezen.md",
+    "Gods Woord.md",
+    "Zonde.md",
+    "Bidden.md",
+    "Logica.md",
+    "Logisch denken.md",
+    "Eeuwig oordeel.md",
+    "Basis christelijk geloof.md",
+    "Onderwerpen.md",
+    "Dood.md",
     "Volharding.md",
     "Onderwijs.md",
     "Gehoorzaamheid - Jezus volgen.md",
     "Woorden.md",
     "God.md",
     "Tucht in de opvoeding.md",
-    "Basis christelijk geloof.md",
     "Man.md",
     "Zingen.md",
     "Basis.md",
     "Echtgenoot.md",
     "Vaderschap.md",
     "Omgang met God.md",
-    "Vrucht van de Geest.md",
-    "Vrucht dragen.md",
-    "Gehoorzaamheid.md",
-    "Zelfbeheersing.md",
-    "Zachtmoedigheid.md",
-    "Vrucht van de Geest - geloof.md",
-    "Goedheid.md",
-    "Vriendelijkheid.md",
-    "Geduld.md",
-    "Vrede.md",
     "atheist.doc",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",

@@ -86,29 +86,6 @@ Eigen getuigenis: waarom ben ik christen?
 
 ---
 
-Zonde: jak. 4:17
-
----
-
-oorzaak ➔ gevolg
-? als dit ➔ dan dat
-logica?
-
----
-## Dood
-
-memento mori (preek Spurgeon hierover)
-vanity art ➔ plaatjes
-puritans grave symbols
-
----
-
-Openb. 22:12 ➔ terugkosmt Jezus
-
----
-
-1 Kon. 8:38 gebed ➔ smeekbede
-
 1 Kon. 8:39 God alleen het het hart van alle mensenkinderen
 ➔ eeuwig oordeel ➔ God weet alles, ook het diepste in ons hart
 ➔ God ➔ alwetend ➔ God weet alles, ook het diepste in ons hart
@@ -117,21 +94,7 @@ Openb. 22:12 ➔ terugkosmt Jezus
 
 ---
 
-Gods Woord is zuiver 
-Ps. 119:140
 
----
-
-Bij Genesis 1 - 11
-
-Mat. 1:20-23 profetie Jezus (en meer) + uitgekomen
-Mat. 2:5-6 profetie Jezus (en meer) + uitgekomen
-Mat. 2:14-15 profetie Jezus (en meer) + uitgekomen
-Mat. 2:16-17 profetie Jezus (en meer) + uitgekomen
-Mat. 2:24 profetie Jezus (en meer) + uitgekomen
-Mat. 3:1-3 uitgekomen profetie
-
-Tekst Oude Testament (voorzegging) ➔ tekst Nieuwe Testament (uitgekomen)
 
 ---
 

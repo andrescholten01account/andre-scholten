@@ -31,3 +31,14 @@ Gen. 3:15
 
 ---
 
+Bij Genesis 1 - 11
+
+Mat. 1:20-23 profetie Jezus (en meer) + uitgekomen
+Mat. 2:5-6 profetie Jezus (en meer) + uitgekomen
+Mat. 2:14-15 profetie Jezus (en meer) + uitgekomen
+Mat. 2:16-17 profetie Jezus (en meer) + uitgekomen
+Mat. 2:24 profetie Jezus (en meer) + uitgekomen
+Mat. 3:1-3 uitgekomen profetie
+
+Tekst Oude Testament (voorzegging) ➔ tekst Nieuwe Testament (uitgekomen)
+

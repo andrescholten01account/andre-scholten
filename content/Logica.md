@@ -21,3 +21,9 @@ Gen. 1:24-31 (zesde scheppingsdag)
 
 Dit betekend dat de mens tegelijkertijd met de dino's heeft geleefd
 
+---
+
+oorzaak ➔ gevolg
+? als dit ➔ dan dat
+logica?
+

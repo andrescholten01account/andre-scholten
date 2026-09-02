@@ -134,9 +134,7 @@ Openb. 20:2-3 duivel - misleiden
 Openb. 20:7-8 duivel - misleiden
 Openb. 20:10 duivel - misleiden 
 
-Openb. 20:11-15 laatste oordeel
-- Troon
-- Boek des levens
+
 
 ---
 

@@ -43,5 +43,8 @@ Gods Woord: Woord van de waarheid: jak. 1:18
 
 Gods Woord kan zielen zalig maken: jak. 1:21
 
+Gods Woord is zuiver 
+Ps. 119:140
+
 %%
 

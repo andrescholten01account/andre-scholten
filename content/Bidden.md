@@ -57,3 +57,7 @@ Aanbiddend bidden
 Filippenzen 4
 gebed
 
+---
+
+1 Kon. 8:38 gebed ➔ smeekbede
+
