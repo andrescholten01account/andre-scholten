@@ -1,9 +1,3 @@
----
-Status: Draft
-draft: false
-blog: false
-publicatiedatum:
----
 Growth mindset ➔ ==groeimindset==
 
 ➔ "Ja, het kan"
@@ -40,10 +34,6 @@ Karakter = goede gewoontes
 
 %%
 
-The art of manliness manvotionals
-
-![[Pasted image 20260813104547.png|450]]
-
 Mannelijkheid  
 Moed  
 Vlijtigheid  
@@ -51,8 +41,6 @@ Vastberadenheid
 Zelfstandigheid  
 Zelfdiscipline  
 Eer
-
-![[Pasted image 20260813104809.png|450]]
 
 %%
 

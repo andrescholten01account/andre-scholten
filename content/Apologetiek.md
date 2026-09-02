@@ -26,6 +26,7 @@
 - creation.com
 - oorsprong.info
 - intelligentdesign.org
+- https://www.str.org/
 - crossexamined
 - coldcase christianity
 - natashacrain.com

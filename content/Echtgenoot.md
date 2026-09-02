@@ -37,9 +37,3 @@ Hoe ben je een echtgenoot naar Gods hart? Hoe heb je een goed en gelukkig huweli
 - [[Ontzag hebben voor haar man]]
 - [[Een goede vrouw]]
 
-## Bibliotheek
-
-- [[Links echtgenoot]]
-- [[Artikelen echtgenoot]]
-- [[Boeken echtgenoot]]
-

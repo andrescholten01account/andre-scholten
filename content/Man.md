@@ -25,18 +25,11 @@ Hoe ben je een man naar Gods hart? Hoe heb je als christelijke man je leven op o
 
 ## Stap 4: Karakter
 
-- [[Doelgericht]]
-- [[Zelfstandig]]  
-- [[Opbouwend]]
-- [[Standvastig]]
-- [[Moedig]]
-- [[IJverig]]
-- [[Vrijgevig]]
-- [[Vooruitkijken]]
-- [[Vrienden]]
+
 
 ## Bibliotheek
 
+- [[Onderwerpen]]
 - [[Boeken man]]
 - [[Quotes man]]
 

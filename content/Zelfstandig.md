@@ -1,9 +1,3 @@
----
-Status: Draft
-draft: false
-blog: false
-publicatiedatum:
----
 ## Voor jezelf zorgen
 
 > You can’t take care of anyone else unless you first take care of yourself.
