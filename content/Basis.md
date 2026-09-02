@@ -13,9 +13,7 @@ Gaat over God, de schepping, de eerste mensen, en de wereldwijde vloed als straf
 ---
 ## Kernovertuigingen
 
-- Weet wat je gelooft
-- Weet waar je voor staat
-- Heb dit goed onderbouwd
+Weet wat je gelooft. Weet waar je voor staat. Heb dit goed onderbouwd. 
 
 1. [[Kern]]
 2. [[God en Zijn redding - Basis in het kort|Basis in het kort]]
