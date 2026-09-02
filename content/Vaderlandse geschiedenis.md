@@ -84,7 +84,7 @@ De Kerkgeschiedenis verteld aan onze kinderen - Joh. Vreugdenhil
 
 ---
 
-➔ Zie: [[Boeken man#Leesboeken vaderlandse geschiedenis|Leesboeken vaderlandse geschiedenis]]
+➔ Zie: [[Leesboeken vaderlandse geschiedenis]]
 
 %%
 

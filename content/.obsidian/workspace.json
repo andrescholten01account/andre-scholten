@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Man.md",
+                "file": "Boeken man.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Man"
+              "title": "Boeken man"
             }
           }
         ],
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Man.md",
+                "file": "Boeken man.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,8 +232,13 @@
   },
   "active": "e1ddc50f6d45cdd2",
   "lastOpenFiles": [
-    "Fit & energiek.md",
+    "Vaderlandse geschiedenis.md",
+    "Boeken man.md",
+    "Leesboeken vaderlandse geschiedenis.md",
+    "George, Jim - Praktische overdenkingen.md",
     "Man.md",
+    "Quotes man.md",
+    "Fit & energiek.md",
     "Orden.md",
     "Onderwerpen man.md",
     "Artikelen man.md",
@@ -253,11 +258,6 @@
     "God en Zijn redding - Basis in het kort.md",
     "Wandelen met God.md",
     "Bidden.md",
-    "Omgang met God.md",
-    "In Gods wil wandelen.md",
-    "Biddens.md",
-    "Zingen.md",
-    "Bijbel lezen.md",
     "atheist.doc",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",
