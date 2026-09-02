@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vrucht van de Geest.md",
+                "file": "Omgang met God.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vrucht van de Geest"
+              "title": "Omgang met God"
             }
           }
         ],
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vrucht van de Geest.md",
+                "file": "Omgang met God.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,8 +232,10 @@
   },
   "active": "b58bce88369c1a48",
   "lastOpenFiles": [
-    "Zelfbeheersing.md",
+    "Man.md",
+    "Omgang met God.md",
     "Vrucht van de Geest.md",
+    "Zelfbeheersing.md",
     "Zachtmoedigheid.md",
     "Vrucht van de Geest - geloof.md",
     "Goedheid.md",
@@ -242,7 +244,6 @@
     "Vrede.md",
     "Blijdschap.md",
     "Liefde.md",
-    "Man.md",
     "Geloof.md",
     "Hou van je naaste.md",
     "Hou van God.md",
@@ -251,7 +252,6 @@
     "Hou van je vrouw.md",
     "index.md",
     "Onderwerpen.md",
-    "Omgang met God.md",
     "Beschermend.md",
     "Taken in kleine stukjes verdelen.md",
     "Voorbereiding.md",
