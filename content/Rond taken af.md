@@ -1,6 +1,15 @@
-Heb een aantal taken tegelijk open.
+- Rond lopende taken af
+- Openstaande taken nemen "bandbreedte" in beslag
+- Openstaand taken afronden = meer ruimte in je hoofd 
 
-Rond taken af. Niet teveel dingen "open" hebben staan. Dus niet 10 projecten waar je mee bezig bent. Projecten afronden en lopende projecten beperkt houden. Dit is beter voor je focus en energie. 
+Voorbeeld:
 
-Voorbeeld: denk aan de tabbladen in je browser. De browser loopt soepeler als je maar een aantal tabbladen open hebt staan. Als je 20 tabbladen open hebt staan, wordt de browser langzamer. 
+- Tabbladen in je browser
+- Als je 20 tabbladen open hebt staan ➔ wordt de browser langzamer
+- Sluit de tabbladen af, waardoor je er minder open hebt staan ➔ dan loopt de browser soepeler
+
+De vraag:
+
+- Welke taken heb je open staan?
+- Welke kun je afronden?
 
