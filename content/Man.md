@@ -22,7 +22,7 @@ Hoe ben je een man naar Gods hart? Hoe ben je gezond & fit? Hoe hoort een christ
 7. [[Vrucht van de Geest - geloof|Geloof]]
 8. [[Zachtmoedigheid]]
 9. [[Zelfbeheersing]]
-d
+
 ---
 ## Stap 3: [[Fit & energiek]] 
 
