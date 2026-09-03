@@ -84,6 +84,11 @@ De Kerkgeschiedenis verteld aan onze kinderen - Joh. Vreugdenhil
 
 ---
 
+COLUMN: Het botje van Werenfridus
+https://oorsprong.info/column-het-botje-van-werenfridus/
+
+---
+
 ➔ Zie: [[Leesboeken vaderlandse geschiedenis]]
 
 %%
