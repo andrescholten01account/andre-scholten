@@ -1,6 +1,9 @@
 De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijkheid, goedheid, geloof, zachtmoedigheid, zelfbeheersing.
 ~ Galaten 5:22
 
+— want de vrucht van de Geest bestaat in alle goedheid en rechtvaardigheid en waarheid —
+~ Efeze 5:9
+
 ---
 ## Vrucht van de Geest
 
@@ -13,11 +16,15 @@ De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijk
 7. [[Vrucht van de Geest - geloof|Geloof]]
 8. [[Zachtmoedigheid]]
 9. [[Zelfbeheersing]]
+10. [[Rechtvaardigheid]]
+11. [[Waarheid]]
 
 ---
 
 En word niet dronken van wijn, waarin losbandigheid is, maar word vervuld met de Geest,
 ~ Efeze 5:18
+
+➔ Vervulling met de Geest
 
 ---
 
@@ -38,19 +45,4 @@ Ik zal Mijn Geest in uw binnenste geven. Ik zal maken dat u in Mijn verordeninge
 ---
 
 Zie: [[Vrucht dragen]]
-
-
-%%
-
-Vrucht van de Geest:
-- Gal. 5:22
-- Efeze 5:9 (nog een tekst over de vrucht van de Geest)
-
----
-
-➔ Vervulling met de Geest
-
----
-
-%%
 
