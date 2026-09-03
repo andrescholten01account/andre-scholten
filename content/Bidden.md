@@ -1,4 +1,4 @@
-## I. Waarvoor mag je bidden?
+## Waarvoor mag je bidden?
 
 *a. Je mag al je verlangens, door bidden en smeken, met dankzegging bekend maken bij God*
 
@@ -15,7 +15,8 @@ Werp al uw bekommernis op Hem, want Hij zorgt voor u.
 En als iemand van u wijsheid ontbreekt, laat hij die van God vragen, Die ieder mild geeft en niet verwijt; en ze zal hem gegeven worden.
 ~ [Jakobus 1:5](https://gezinvoorgod.nl/studiebijbel/jakobus/1#v5) (SVnu)
 
-## II. Hoe hoor je te bidden? 
+---
+## Hoe hoor je te bidden? 
 
 *a. Met volharding*
 
@@ -56,8 +57,6 @@ Aanbiddend bidden
 
 Filippenzen 4
 gebed
-
----
 
 1 Kon. 8:38 gebed ➔ smeekbede
 

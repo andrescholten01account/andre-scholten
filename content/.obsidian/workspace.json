@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "b51c1d9787233dc0",
+            "id": "3e2607df0962df34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Man.md",
+                "file": "Bidden.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Man"
+              "title": "Bidden"
             }
           }
         ],
@@ -230,14 +230,18 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "b51c1d9787233dc0",
+  "active": "3e2607df0962df34",
   "lastOpenFiles": [
+    "Man.md",
+    "Omgang met God.md",
+    "index.md",
+    "Echtgenoot.md",
+    "Gods wil voor het huwelijk.md",
+    "Liefde in het huwelijk.md",
     "Vrucht van de Geest.md",
     "Waarheid.md",
     "Rechtvaardigheid.md",
     "Goedheid.md",
-    "Man.md",
-    "index.md",
     "Vaderlandse geschiedenis.md",
     "Geschiedenis.md",
     "Basis.md",
@@ -245,7 +249,6 @@
     "Bijbel lezen.md",
     "Liefde.md",
     "Vader.md",
-    "Echtgenoot.md",
     "Documentatie.md",
     "Verantwoording.md",
     "Technische tips.md",
@@ -255,9 +258,6 @@
     "Geloof.md",
     "Dopen.md",
     "Bekering.md",
-    "Redding.md",
-    "Gehoorzaamheid.md",
-    "Gehoorzaamheid - Jezus volgen.md",
     "atheist.doc",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",
