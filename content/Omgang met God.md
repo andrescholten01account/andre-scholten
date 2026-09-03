@@ -19,8 +19,7 @@ Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven he
 ~ Johannes 3:16
 
 ---
-
-## Omgang met God]
+## Omgang met God
 
 1. [[Bidden]]
 2. [[Bijbel lezen]]
