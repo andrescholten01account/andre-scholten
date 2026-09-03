@@ -2,6 +2,11 @@ De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijk
 ~ Galaten 5:22
 
 ---
+
+En de hoop beschaamt niet, omdat de liefde van God in onze harten uitgestort is door de Heilige Geest, Die ons gegeven is.
+~ Romeinen 5:5
+
+---
 ## Hou van God en je naaste 
 
 37 En Jezus zei tegen hem: U zult de Heere, uw God, liefhebben met heel uw hart, en met heel uw ziel, en met heel uw verstand.

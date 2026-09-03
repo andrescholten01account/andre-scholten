@@ -201,5 +201,11 @@ Mat. 3:17 Jezus is de geliefde Zoon van God
 
 ---
 
+Mat. 4:3 duivel - verzoeker
+Mat. 4:13-16 profetie Jezus + uitgekomen
+Mat. 4:17 bekering
+
+---
+
 %%
 

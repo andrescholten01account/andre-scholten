@@ -60,6 +60,13 @@ Psalm 1
 ➔ Memoriseren ➔ Bijbelmemorisatieapp
 
 ---
+## Bijbeluitleg
+
+Schrift met Schrift vergelijken
+
+Mat. 4:7
+
+---
 
 Zie ook: [[Gods Woord]]
 
