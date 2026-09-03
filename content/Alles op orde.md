@@ -1,3 +1,5 @@
+De boel opgeruimd hebben en houden. 
+
 Alles op orde geeft ruimte in je hoofd. 
 
 1 - Aantekeningen opruimen

@@ -1,3 +1,5 @@
+Systematisch taken uitvoeren.
+
 1 - Groepeer de informatie
 
 - Maak groepjes van taken die bij elkaar horen
