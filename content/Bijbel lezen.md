@@ -62,7 +62,7 @@ Psalm 1
 ---
 ## Bijbeluitleg
 
-Schrift met Schrift vergelijken
+1 - Schrift met Schrift vergelijken
 
 Mat. 4:7
 
