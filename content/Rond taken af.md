@@ -8,8 +8,9 @@ Voorbeeld:
 - Als je 20 tabbladen open hebt staan ➔ wordt de browser langzamer
 - Sluit de tabbladen af, waardoor je er minder open hebt staan ➔ dan loopt de browser soepeler
 
-De vraag:
+Actie:  
 
 - Welke taken heb je open staan?
+- Maak daar een lijst van
 - Welke kun je afronden?
 

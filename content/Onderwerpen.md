@@ -41,7 +41,6 @@
 
 ## T
 
-- [[Taken in kleine stukjes verdelen]]
 - [[Trouw]]
 
 ## V

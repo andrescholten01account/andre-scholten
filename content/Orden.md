@@ -19,6 +19,6 @@ Als je leven goed geordend is, dan heb je meer energie. Mentaal heb je ook meer 
 ---
 ## Taken
 
-- [[Rond taken af]]
 - [[Voer taken uit]]
+- [[Rond taken af]]
 
