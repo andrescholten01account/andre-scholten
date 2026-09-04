@@ -1,3 +1,9 @@
+---
+Status: Draft
+draft: true
+blog: false
+publicatiedatum:
+---
 Gezin voor God
 Toerusting & training
 ➔ denk aan Stand to Reason
@@ -30,9 +36,9 @@ Staande blijven ➔ standvastig
 
 ---
 
-Doordachte antwoorden 
-Logische antwoorden
-Antwoorden gebouwd op Gods Woord 
-Antwoorden die samenhangen met een compleet wereldbeeld 
-Antwoorden gebaseerd op de waarheid
+➔ Doordachte antwoorden 
+➔ Logische antwoorden
+➔ Antwoorden gebouwd op Gods Woord 
+➔ Antwoorden die samenhangen met een compleet wereldbeeld 
+➔ Antwoorden gebaseerd op de waarheid
 
