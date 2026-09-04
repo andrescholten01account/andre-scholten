@@ -43,6 +43,10 @@ Eigen getuigenis: waarom ben ik christen?
 - eigen leven met God
 - waarheid ➔ dit is hoe de wereld in elkaar zit
 
+---
+
+[[Waarheid]]
+
 %%
 
 [[Ik heb te weinig geloof om atheïst te zijn]]
