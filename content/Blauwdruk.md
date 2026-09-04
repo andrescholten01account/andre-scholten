@@ -36,6 +36,10 @@ Staande blijven ➔ standvastig
 
 ---
 
+Het is ook goed om mij voor te bereiden om vragen van de kinderen ➔ ze nu al de juiste informatie meegeven ➔ ze onderwijzen over schepping en evolutie, en andere apologetische onderwerpen. 
+
+---
+
 ➔ Doordachte antwoorden 
 ➔ Logische antwoorden
 ➔ Antwoorden gebouwd op Gods Woord 
