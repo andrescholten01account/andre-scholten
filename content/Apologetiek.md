@@ -47,5 +47,7 @@ Eigen getuigenis: waarom ben ik christen?
 
 [[Ik heb te weinig geloof om atheïst te zijn]]
 
+https://web.archive.org/web/20120102051214/http://www.overgeloven.nl/
+
 %%
 
