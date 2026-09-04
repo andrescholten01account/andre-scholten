@@ -16,9 +16,10 @@ Datgeen wat overeenkomt met de werkelijkheid.
 
 Waar ➔ tegenover ➔ niet waar
 
-| Waar              | Niet waar              |
-| ----------------- | ---------------------- |
-| Het is zo gebeurd | Het is zo niet gebeurd |
+| Waar                        | Niet waar                        |
+| --------------------------- | -------------------------------- |
+| Het is zo gebeurd           | Het is zo niet gebeurd           |
+| De feiten correct weergeven | De feiten niet correct weergeven |
 
 ➔ Zie ook: [[Logisch denken]]
 
