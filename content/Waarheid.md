@@ -10,7 +10,12 @@ Definitie waarheid:
 ➔ zie: Ik heb te weinig geloof om atheïst te zijn
 ➔ zie archive.org: overgeloven.nl
 
-Datgeen wat overeenkomt met de werkelijkheid. 
+- Datgeen wat overeenkomt met de werkelijkheid
+- Waarheid is dat wat in overeenstemming is met hetgeen waarnaar het verwijst
+- Waarheid is overeenstemming met de werkelijkheid
+
+
+Het gaat er dus om dat een gedachte of een stelling over de werkelijkheid in overeenstemming is met de werkelijkheid. 
 
 ---
 
