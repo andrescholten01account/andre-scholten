@@ -1,9 +1,16 @@
-## Gods Woord is het fundament
+## [[God is het fundament]]
+
+Vertrouw op de HEERE, tot in eeuwigheid,
+want de HEERE HEERE is een eeuwige rots.
+~ Jesaja 26:4
+
+---
+## Gods Woord is waar
 
 Heilig hen door Uw waarheid; Uw woord is de waarheid.
 ~ Johannes 17:17
 
-Gods Woord is het vertrekpunt voor ons denken en leven. 
+Gods Woord is het vertrekpunt voor ons denken en leven. God heeft het gezegd, dus het is waar. 
 Gods Woord is waar, vanaf het begin. 
 
 ---

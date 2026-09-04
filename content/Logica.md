@@ -1,14 +1,20 @@
-A. [[3 wetten van het denken]]
+## [[3 wetten van het denken]]
 
-1. [[De wet van de identiteit]]
+1. [[Wet van de identiteit]]
 2. [[Wet van de non-contradictie]]
-3. [[De wet van het uitgesloten derde]]
+3. [[Wet van het uitgesloten derde]]
 
-B. [[Wat is logica]]
+---
 
-C. [[Basis van logisch redeneren]]
+[[Wat is logica]]
 
-D. [[9 regels van gevolgtrekking]]
+---
+
+[[Basis van logisch redeneren]]
+
+---
+
+[[9 regels van gevolgtrekking]]
 
 1. [[Modus ponens]]
 2. [[Modus tollens]]

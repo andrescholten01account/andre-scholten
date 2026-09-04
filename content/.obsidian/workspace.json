@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "febc694c6627147a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basis"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b95f4458cba8f01",
@@ -214,19 +230,25 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "647dd6bd11be4d6e",
+  "active": "febc694c6627147a",
   "lastOpenFiles": [
-    "Logica.md",
-    "3 wetten van het denken.md",
-    "Logisch denken.md",
-    "index.md",
+    "God is het fundament.md",
     "Basis.md",
-    "Apologetiek.md",
+    "God en Zijn redding - Basis in het kort.md",
+    "De Oude Wereld.md",
+    "Gods Woord is de waarheid.md",
     "Waarheid.md",
+    "Logisch denken.md",
+    "Logica.md",
+    "Wet van het uitgesloten derde.md",
+    "Wet van de identiteit.md",
+    "Man.md",
+    "index.md",
+    "3 wetten van het denken.md",
+    "Apologetiek.md",
     "Basis van logisch redeneren.md",
     "Wat is logica.md",
     "Wet van de non-contradictie.md",
-    "De wet van de identiteit.md",
     "9 regels van gevolgtrekking.md",
     "Hypothetisch syllogisme.md",
     "Constructief dilemma.md",
@@ -236,12 +258,6 @@
     "De 10 vervangingsregels.md",
     "Categorieën koppelen.md",
     "Universele instantiatie.md",
-    "Vereenvoudiging.md",
-    "Conjunctie.md",
-    "De wet van het uitgesloten derde.md",
-    "Ik heb te weinig geloof om atheïst te zijn.md",
-    "De Oude Wereld.md",
-    "Blauwdruk.md",
     "atheist.doc",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",
