@@ -1,8 +1,9 @@
-1 - Gods Woord is waar  
+## [[Gods Woord is de waarheid]]
 
 Heilig hen in Uw waarheid; Uw woord is de waarheid.
 ~ [Joh 17:17](https://gezinvoorgod.nl/studiebijbel/johannes/17#v17) (SVnu)
 
+---
 ## Hoe is Gods Woord ontstaan? 
 
 **1. Het is door God ingegeven**

@@ -5,3 +5,7 @@ Heilig hen door Uw waarheid; Uw woord is de waarheid.
 
 Zie: [[Waarheid als vrucht van de Geest]]
 
+---
+
+Zie: [[Waarheid]]
+

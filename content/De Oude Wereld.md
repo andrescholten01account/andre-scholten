@@ -7,7 +7,7 @@ aliases:
 Heilig hen door Uw waarheid; Uw woord is de waarheid.
 ~ Johannes 17:17
 
-➔ [[Waarheid als vrucht van de Geest]]
+➔ [[Waarheid]]
 
 ---
 ## Inhoudsopgave 
@@ -15,7 +15,8 @@ Heilig hen door Uw waarheid; Uw woord is de waarheid.
 ➔ Genesis 1 - 11
 ➔ Genesis 1:1 - 11:26
 
-### I. Schepping (1:1 - 2:25)
+---
+## I. Schepping (1:1 - 2:25)
 
 A. Schepping hemel en aarde (1:1 - 2:3)
 
@@ -39,7 +40,8 @@ B. Schepping mens (2:4-25)
 4. [[De mens noemt de dieren]] (2:18-20)
 5. [[Schepping vrouw; instelling huwelijk]] (2:21-25)
 
-### II. Zondeval (3:1 - 5:32)
+---
+## II. Zondeval (3:1 - 5:32)
 
 A. Ongehoorzaamheid aan God (3:1-24)
 
@@ -72,7 +74,8 @@ E. Geslachtsregister Adam tot Noach (5:1-32)
 2. [[Henochs geloof en opname bij God]] (5:21-24)
 3. [[Geboorte Noach en zijn zonen]] (5:25-32)
 
-### III. Zondvloed (6:1 - 10:32)
+---
+## III. Zondvloed (6:1 - 10:32)
 
 A. Voorzegging zondvloed (6:1-8)
 
@@ -121,7 +124,8 @@ H. Nakomelingen Noachs zonen (10:1-32)
 2. [[Nakomelingen van Cham; Nimrod]] (10:6-20)
 3. [[Nakomelingen van Sem]] (10:21-32)
 
-### IV. Toren van Babel (11:1-26)
+---
+## IV. Toren van Babel (11:1-26)
 
 A. Toren van Babel (11:1-9)
 
@@ -132,15 +136,18 @@ B. Nageslacht Sem (11:10-26)
 
 1. [[Stamboom van Sem tot Terach]] (11:10-26)
 
+---
 ## De rest van de Bijbel over Genesis 1 - 11
 
 - Jezus over Genesis 1 - 11 ➔ zie creation.com
 - De rest van de Bijbel over Genesis 1 - 11
 
+---
 ## Meer
 
 - [[Waarom is Genesis 1 - 11 belangrijk]]?
 
+---
 ## Onderwerpen Genesis 1 - 11
 
 - [[Berekening datum schepping]]

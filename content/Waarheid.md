@@ -4,6 +4,25 @@ Heilig hen door Uw waarheid; Uw woord is de waarheid.
 ~ Johannes 17:17
 
 ---
+
+Definitie waarheid:
+
+➔ zie: Ik heb te weinig geloof om atheïst te zijn
+➔ zie archive.org: overgeloven.nl
+
+Datgeen wat overeenkomt met de werkelijkheid. 
+
+---
+
+Waar ➔ tegenover ➔ niet waar
+
+| Waar              | Niet waar              |
+| ----------------- | ---------------------- |
+| Het is zo gebeurd | Het is zo niet gebeurd |
+
+➔ Zie ook: [[Logisch denken]]
+
+---
 ## De waarheid over de waarheid
 
 1 - Waarheid wordt ontdekt, niet uitgevonden
