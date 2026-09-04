@@ -10,6 +10,16 @@ C. [[Basis van logisch redeneren]]
 
 D. [[9 regels van gevolgtrekking]]
 
+1. [[Modus ponens]]
+2. [[Modus tollens]]
+3. [[Hypothetisch syllogisme]]
+4. [[Conjunctie]]
+5. [[Vereenvoudiging]]
+6. Absorptie
+7. Additie
+8. [[Disjunctief syllogisme]]
+9. [[Constructief dilemma]]
+
 ---
 
 Gen. 1:24-25
