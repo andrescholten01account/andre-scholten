@@ -1,7 +1,14 @@
-- [[Wat is logica]]
-- [[De 3 wetten van het denken]]
-- [[Basis van logisch redeneren]]
-- [[9 regels van gevolgtrekking]]
+A. [[3 wetten van het denken]]
+
+1. [[De wet van de identiteit]]
+2. [[Wet van de non-contradictie]]
+3. [[De wet van het uitgesloten derde]]
+
+B. [[Wat is logica]]
+
+C. [[Basis van logisch redeneren]]
+
+D. [[9 regels van gevolgtrekking]]
 
 ---
 

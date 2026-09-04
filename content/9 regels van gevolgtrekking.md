@@ -4,7 +4,7 @@ Logisch denken betekent niet alleen dat je tegenstrijdigheden vermijdt. Je moet 
 
 Daarvoor kun je verschillende geldige redeneervormen gebruiken.
 
-## 1. Modus ponens
+1. [[Modus ponens]]
 
 De structuur:
 
@@ -20,7 +20,7 @@ Voorbeeld:
 
 Als de twee premissen waar zijn, volgt de conclusie.
 
-## 2. Modus tollens
+2. [[Modus tollens]]
 
 De structuur:
 
@@ -34,7 +34,7 @@ Voorbeeld:
 > De lamp geeft geen licht.  
 > Dus de lamp staat niet aan.
 
-## 3. Hypothetisch syllogisme
+3. [[Hypothetisch syllogisme]]
 
 De structuur:
 
@@ -48,7 +48,7 @@ Voorbeeld:
 > Als ik sterker word, kan ik zwaarder tillen.  
 > Dus: als ik train, kan ik zwaarder tillen.
 
-## 4. Disjunctief syllogisme
+4. [[Disjunctief syllogisme]]
 
 De structuur:
 
@@ -62,7 +62,7 @@ Voorbeeld:
 > De vergadering is niet vandaag.  
 > Dus de vergadering is morgen.
 
-## 5. Conjunctie
+5. [[Conjunctie]]
 
 Wanneer twee beweringen afzonderlijk waar zijn, kun je ze samenvoegen:
 
@@ -76,7 +76,7 @@ Voorbeeld:
 > Maria is thuis.  
 > Dus Jan en Maria zijn thuis.
 
-## 6. Vereenvoudiging
+6. Vereenvoudiging
 
 Uit een ware samengestelde bewering mag je een onderdeel halen.
 
@@ -88,7 +88,7 @@ Voorbeeld:
 > De auto is rood en de auto staat buiten.  
 > Dus de auto is rood.
 
-## 7. Constructief dilemma
+7. Constructief dilemma
 
 De structuur:
 
@@ -104,7 +104,7 @@ Voorbeeld:
 > Ik ga met de trein of met de auto.  
 > Dus ik kom met de trein of met de auto aan.
 
-## 8. Universele instantiatie
+8. Universele instantiatie
 
 Wanneer een uitspraak over **alle** leden van een groep waar is, geldt die uitspraak ook voor ieder afzonderlijk lid.
 
@@ -114,7 +114,7 @@ Wanneer een uitspraak over **alle** leden van een groep waar is, geldt die uitsp
 
 Dit is een van de bekendste voorbeelden van logisch redeneren.
 
-## 9. Categorieën koppelen
+9. Categorieën koppelen
 
 Wanneer iets noodzakelijk tot een bepaalde categorie behoort en een eigenschap voor die hele categorie geldt, kun je die eigenschap aan het afzonderlijke geval toeschrijven.
 
