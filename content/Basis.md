@@ -5,13 +5,15 @@ want de HEERE HEERE is een eeuwige rots.
 ~ Jesaja 26:4
 
 ---
-## Gods Woord is waar
+## [[Gods Woord is de waarheid]]
 
 Heilig hen door Uw waarheid; Uw woord is de waarheid.
 ~ Johannes 17:17
 
 Gods Woord is het vertrekpunt voor ons denken en leven. God heeft het gezegd, dus het is waar. 
 Gods Woord is waar, vanaf het begin. 
+
+➔ Zie: [[God is waarheid]]
 
 ---
 ## [[De Oude Wereld|Genesis 1 - 11]] 

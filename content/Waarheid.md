@@ -1,3 +1,9 @@
+## [[Jezus is de waarheid]]
+
+Jezus zei tegen hem: Ik ben de Weg, de Waarheid en het Leven. Niemand komt tot de Vader dan door Mij.
+~ Johannes 14:6
+
+---
 ## [[Gods Woord is de waarheid]]
 
 Heilig hen door Uw waarheid; Uw woord is de waarheid.
@@ -28,6 +34,10 @@ Waar ➔ tegenover ➔ niet waar
 | De feiten correct weergeven | De feiten niet correct weergeven |
 
 ➔ Zie ook: [[Logisch denken]]
+
+---
+
+Zie ook: [[Logisch denken]]
 
 ---
 ## De waarheid over de waarheid

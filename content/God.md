@@ -86,7 +86,7 @@ en zeiden: Amen. De lof, en de heerlijkheid, en de wijsheid, en de dankzegging, 
 Die de aarde gemaakt heeft door Zijn kracht, Die de wereld bereid heeft door Zijn wijsheid, en de hemel uitgebreid heeft door Zijn verstand. Als Hij Zijn stem geeft, zo is er een gedruis van water in de hemel, en Hij doet de dampen opklimmen van het einde van de aarde; Hij maakt de bliksems met de regen, en doet de wind voortkomen uit Zijn schatkamers.
 ~ [Jeremia 10:12-13](https://gezinvoorgod.nl/studiebijbel/jeremia/10#v12) (SVnu)
 
-*i. Hij is Waarheid*
+*i. [[God is waarheid]]*
 
 God is geen man, dat Hij zou liegen, en ook geen mensenkind, dat het Hem berouwen zou; zou Hij het zeggen, en het niet doen, of spreken, en het niet waarmaken?
 ~ [Numeri 23:19](https://gezinvoorgod.nl/studiebijbel/numeri/23#v19) (SVnu)
