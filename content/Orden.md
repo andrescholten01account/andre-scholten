@@ -14,7 +14,7 @@ Als je leven goed geordend is, dan heb je meer energie. Mentaal heb je ook meer 
 
 - [[Plan]]
 - [[Alles op orde]]
-- Een vast ritme 
+- [[Een vast ritme]]
 
 ---
 ## Taken

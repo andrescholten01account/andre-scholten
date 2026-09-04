@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Man.md",
+                "file": "Orden.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Man"
+              "title": "Orden"
             }
           }
         ],
@@ -232,9 +232,11 @@
   },
   "active": "6da8f4b3079679cb",
   "lastOpenFiles": [
+    "Een vast ritme.md",
+    "Orden.md",
+    "Man.md",
     "Doel.md",
     "index.md",
-    "Man.md",
     "Verantwoording.md",
     "Documentatie.md",
     "Technische tips.md",
@@ -247,7 +249,6 @@
     "Basis.md",
     "Omgang met God.md",
     "Slaap.md",
-    "Orden.md",
     "Alles op orde.md",
     "Schrijf je leeg.md",
     "Logisch denken.md",
@@ -257,7 +258,6 @@
     "Rond taken af.md",
     "Voer taken uit.md",
     "Onderwerpen.md",
-    "Taken in kleine stukjes verdelen.md",
     "atheist.doc",
     "Pasted image 20260828122056.png",
     "Pasted image 20260825232520.png",
