@@ -29,6 +29,7 @@ Win de gemeente, win Nederland
 - [[Technische tips]]
 - [[Verantwoording]]
 - [[Documentatie]]
+- [[Doel]]
 
 %%
 
