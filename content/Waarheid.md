@@ -1,7 +1,4 @@
-— want de vrucht van de Geest bestaat in alle goedheid en rechtvaardigheid en waarheid —
-~ Efeze 5:9
-
----
+## [[Gods Woord is de waarheid]]
 
 Heilig hen door Uw waarheid; Uw woord is de waarheid.
 ~ Johannes 17:17
@@ -39,4 +36,9 @@ De uitspraak: ‘Ik, Frank Turek, heb het warm op 20 november 2005’ mag als ee
 
 Samenvattend, tegengestelde opvattingen zijn mogelijk, maar te­gengestelde waarheden zijn onmogelijk. We kunnen geloven dat alles waar is, maar we kunnen er niet voor zorgen dat alles waar wordt.
 
-Bron: d
+Bron: Ik heb te weinig geloof om een atheïst te zijn | Norman Geisler & Frank Turek  
+
+---
+
+[[Waarheid als vrucht van de Geest]]
+

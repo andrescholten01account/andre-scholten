@@ -2,10 +2,18 @@
 aliases:
   - Genesis 1 - 11
 ---
+## [[Gods Woord is de waarheid]]
+
+Heilig hen door Uw waarheid; Uw woord is de waarheid.
+~ Johannes 17:17
+
+➔ [[Waarheid als vrucht van de Geest]]
+
+---
+## Inhoudsopgave 
+
 ➔ Genesis 1 - 11
 ➔ Genesis 1:1 - 11:26
-
-## Inhoudsopgave 
 
 ### I. Schepping (1:1 - 2:25)
 

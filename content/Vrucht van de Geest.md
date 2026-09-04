@@ -17,7 +17,7 @@ De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijk
 8. [[Zachtmoedigheid]]
 9. [[Zelfbeheersing]]
 10. [[Rechtvaardigheid]]
-11. [[Waarheid]]
+11. [[Waarheid als vrucht van de Geest]]
 
 ---
 
