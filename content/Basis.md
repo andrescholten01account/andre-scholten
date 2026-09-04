@@ -46,6 +46,16 @@ Want zo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven he
 
 %%
 
+---
+
+Denk aan: 
+
+- Genesis als fundament
+- Stand to Reason ➔ apologetiek ➔ Ik heb te weinig geloof om atheïst te zijn ➔ Tactics
+- Logica
+
+---
+
 God is heilig
 1 petrus 1:15-16 (of 10)
 
