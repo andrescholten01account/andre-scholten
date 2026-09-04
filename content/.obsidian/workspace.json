@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "De 10 vervangingsregels.md",
+                "file": "Logica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "De 10 vervangingsregels"
+              "title": "Logica"
             }
           }
         ],
@@ -260,18 +260,18 @@
   },
   "active": "a09ade1d9a73ecbd",
   "lastOpenFiles": [
+    "9 regels van gevolgtrekking.md",
+    "Hypothetisch syllogisme.md",
+    "Constructief dilemma.md",
+    "Disjunctief syllogisme.md",
+    "Modus tollens.md",
+    "Modus ponens.md",
     "Logica.md",
     "De 10 vervangingsregels.md",
-    "9 regels van gevolgtrekking.md",
-    "Modus ponens.md",
     "Categorieën koppelen.md",
     "Universele instantiatie.md",
-    "Constructief dilemma.md",
     "Vereenvoudiging.md",
     "Conjunctie.md",
-    "Disjunctief syllogisme.md",
-    "Hypothetisch syllogisme.md",
-    "Modus tollens.md",
     "Basis van logisch redeneren.md",
     "Wat is logica.md",
     "De wet van het uitgesloten derde.md",

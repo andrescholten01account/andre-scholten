@@ -20,8 +20,6 @@ D. [[9 regels van gevolgtrekking]]
 8. [[Disjunctief syllogisme]]
 9. [[Constructief dilemma]]
 
-E. [[De 10 vervangingsregels]]
-
 ---
 
 Gen. 1:24-25

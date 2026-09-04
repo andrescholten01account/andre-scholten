@@ -43,3 +43,15 @@ Daarom is de volgende stap:
 
 https://truthbomb.blogspot.com/2016/06/nine-rules-of-logic.html
 
+---
+
+Claude:
+
+Van de negen regels zijn er in de praktijk maar een stuk of drie relevant voor herkenning:
+
+- **Modus ponens / modus tollens**, en vooral hun twee drogreden-imitaties
+- **Disjunctief syllogisme**, vooral om het valse dilemma te ontmaskeren
+- **Constructief dilemma**, af en toe zichtbaar in "of dit, of dat, en beide leiden tot X"
+
+---
+
