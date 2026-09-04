@@ -209,14 +209,8 @@ Mat. 4:17 bekering
 
 Mat. 5:2 Onderwijs
 
-Mat. 5:5 ➔ zachtmoedig ➔ vrucht Geest
-Mat. 5:6 ➔ gerechtigheid ➔ vrucht Geest?
-Mat. 5:9 vredestichters ➔ vrucht Geest
-
-Mat. 5:31-32 scheiden en hertrouwen
-Mat. 5:
-Mat. 5:
-Mat. 5:
+Mat. 5:31-32 ➔ scheiden en hertrouwen
+Mat. 5:42 ➔ vrijgevigheid
 
 %%
 

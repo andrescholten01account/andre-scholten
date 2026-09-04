@@ -38,6 +38,10 @@ Jak. 1:27
 
 "Als je goederen hebt, en je geeft niet ... hoe liefde van God in je blijven." ➔ 1 Joh. 
 
+---
+
+Mat. 5:44-48 ➔  vrucht Geest - liefde
+
 %%
 
 Liefde

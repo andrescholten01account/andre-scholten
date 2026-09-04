@@ -6,3 +6,7 @@ De vrucht van de Geest is echter: liefde, blijdschap, vrede, geduld, vriendelijk
 Filippenzen 4
 VREDE van God
 
+---
+
+Mat. 5:9 vredestichters ➔ vrucht Geest
+
