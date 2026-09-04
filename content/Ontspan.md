@@ -2,6 +2,8 @@ Ontspan en laad op.
 
 Dit punt had ik een hele tijd niet in mijn levensstijl. Ik was bezig om gezond te leven en mijn best te doen voor doen voor dingen, maar ik vergat om te ontspannen en op te laden. Dit werkt niet. Als je je fit & energiek wilt voelen, dan heb je het gewoon nodig om te ontspannen en plezier te hebben. 
 
+De goede balans tussen inspanning en ontspanning. 
+
 ---
 ## Ontspan
 
