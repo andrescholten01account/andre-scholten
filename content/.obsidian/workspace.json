@@ -22,23 +22,8 @@
               "icon": "lucide-file",
               "title": "index"
             }
-          },
-          {
-            "id": "a63fd1989d3110ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basis"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,17 +215,17 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "a63fd1989d3110ac",
+  "active": "647dd6bd11be4d6e",
   "lastOpenFiles": [
+    "Basis.md",
+    "God.md",
+    "God is waarheid.md",
     "Man.md",
     "index.md",
     "Gods Woord is de waarheid.md",
     "Waarheid.md",
     "Logisch denken.md",
     "Jezus is de waarheid.md",
-    "God is waarheid.md",
-    "Basis.md",
-    "God.md",
     "God is het fundament.md",
     "God en Zijn redding - Basis in het kort.md",
     "De Oude Wereld.md",
