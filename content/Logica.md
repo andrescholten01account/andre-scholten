@@ -1,8 +1,8 @@
 ## [[3 wetten van het denken]]
 
-1. [[Wet van de identiteit]]
-2. [[Wet van de non-contradictie]]
-3. [[Wet van het uitgesloten derde]]
+1. [[Wet van identiteit]]
+2. [[Wet van niet-tegenspraak]]
+3. [[Wet van uitgesloten derde]]
 
 ---
 
