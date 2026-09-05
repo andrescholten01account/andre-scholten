@@ -1,8 +1,14 @@
 ## [[3 wetten van het denken]]
 
-1. [[Wet van identiteit]]
-2. [[Wet van niet-tegenspraak]]
-3. [[Wet van uitgesloten derde]]
+1. [[Wet van de identiteit]]
+2. [[Wet van de niet-tegenspraak]]
+3. [[Wet van het uitgesloten derde]]
+
+---
+
+https://web.archive.org/web/20120417071559/http://www.overgeloven.nl/waarheid/kenbaarheid-waarheid/1b-de-eerste-beginselen-van-de-kennis/
+
+Truthbom apologetics - what is logic?
 
 ---
 
